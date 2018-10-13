@@ -16,6 +16,7 @@
 		// "Jumbotron" heading element
 		var $jumbotronHeading = $( '.jumbotron h1' )
 
+		// This form currently is embedded in the portal homepage
 		var $presalesForm = $( '#presales-form' )
 
 		// Test if the current user appears to be logged in
