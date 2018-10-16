@@ -1,0 +1,362 @@
+/*
+ * Customer Portal - The Events Calendar
+ *
+ * This stylesheet is under version control. If you are planning to edit/modify the CSS here,
+ * please commit your changes to a new branch and create a Pull Request on:
+ *
+ * https://github.com/mt-support/tribe-helpdesk
+ */
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway:300,400');
+
+/*
+ * Custom Text in the Ticket Submission page
+ */
+.custom_login_title {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 55px;
+}
+
+.custom_login_text {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*
+ * Temporarily hide KB category/article links until fleshed out
+ */
+.category-list {
+	display: none;
+}
+
+/*
+ * Remove the search bar (since we don't have KBs on LA yet)
+ */
+.global-search {
+	display: none;
+}
+
+/*
+ * Typography
+ */
+h1, h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: 300;
+}
+
+a:-webkit-any-link {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	background: #f6f7f9;
+}
+
+/*
+ * Navbar
+ */
+.navbar {
+	background: black;
+}
+
+.navbar-brand p {
+	padding-left: 50px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.navbar-brand {
+	width: 350px;
+}
+
+.scrolled .navbar {
+	background: black;
+}
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+	background: black;
+}
+
+.navbar-nav > li > a {
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+a.navbar-brand {
+	position: relative;
+	display: block;
+	padding: 20px 15px;
+}
+
+/*
+ * Alerts
+ */
+.label {
+	display: none;
+}
+
+#LoadMoreButtonmainButton, #LoadMoreButtonmainButton * {
+	display: none;
+}
+
+/*
+ * Articles
+ */
+.article-content {
+	font-size: 20px;
+	line-height: 1.75em;
+}
+
+.article-content p {
+	margin-top: 3.4rem;
+	margin-bottom: 3.4rem;
+}
+
+.article-full {
+	background: #f6f7f9;
+}
+
+.article-full h3 {
+	margin: 0 0 25px;
+	padding: 0;
+	letter-spacing: 0;
+	font-weight: 300;
+	font-size: 44px;
+}
+
+.alert-empty {
+	display: none;
+}
+
+/*
+ * Welcome header
+ */
+.jumbotron, .jumbotron p, .jumbotron .breadcrumbs a, .jumbotron .g-FormField2-Description, .jumbotron .FormfieldAsNewFormField .g-FormField2-Label, .jumbotron .g-FormField2-Label, .jumbotron .g-FormField2-Label.gwt-Label-mandatory {
+	color: white;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 1.2;
+}
+
+.jumbotron p {
+	display: none;
+}
+
+.jumbotron p.tribe-support-advice {
+	display: inline-block;
+	max-width: 90rem;
+	margin: 1rem 3rem 3rem 3rem;
+}
+
+.jumbotron p.tribe-support-advice a {
+	color: white;
+	text-decoration: underline;
+}
+
+.jumbotron-smaller {
+	background-size: auto !important;
+}
+
+.jumbotron .label-internal {
+	background-color: #0a8cc9;
+}
+
+/*
+ * Icons
+ */
+.item-status-A:before {
+	display: none;
+}
+
+.RankingBox {
+	border-top: none;
+	border-bottom: none;
+}
+
+/*
+ * Categories
+ */
+.category-box-title:before {
+	display: none;
+}
+
+.category-box {
+	border: 1px solid #e0e0e0;
+	margin-bottom: 10px;
+	padding: 0px;
+	webkit-transition: background .30s;
+	-moz-transition: background .30s;
+	-o-transition: background .30s;
+	transition: background .30s;
+}
+
+.category-box-title {
+	border-bottom: none;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 0px;
+	font-weight: 400;
+}
+
+.category-box-title a:hover {
+	text-decoration: none;
+}
+
+.item-A:before {
+	display: none;
+}
+
+.category-box li {
+	padding-right: 5%;
+	font-weight: 300;
+}
+
+.category-box a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.panel-default > .panel-heading {
+	border-bottom: none;
+	background-color: white;
+}
+
+.panel-default {
+	border: none;
+}
+
+.panel-default a {
+	color: black;
+}
+
+.list-group-item {
+	border: none;
+	background: none;
+}
+
+/*
+ * Buttons
+ */
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+	font-weight: 500;
+	text-shadow: none;
+	text-transform: none;
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+
+.btn-default {
+	background-color: #0a8cc9;
+	border-color: #0a8cc9;
+	color: #fff;
+}
+
+.btn-default:hover {
+	background-color: #44a0cc;
+	border-color: #44a0cc;
+	color: #fff;
+}
+
+.PunishButton, .RewardButton, .StartChatButton, .VoteMainButton {
+	background: none;
+	border: none;
+}
+
+/*
+ * Footer
+ */
+.footer-container {
+	display: none;
+}
+
+html, .footer-container {
+	background: #f6f7f9;
+}
+
+/*
+ * Remove the Register Button
+ */
+#login_registerButtonmainButton {
+	/*display: none;*/
+}
+
+.NewFormField {
+	/*color: rgba(0, 0, 0, 0);*/
+}
+
+#login_forgotButtoninner {
+	color: white !important;
+}
+
+#pre-sales {
+	padding: 20px;
+	font-size: 18px;
+}
+
+/*
+ * Media Queries
+ */
+@media screen and (min-width: 768px) {
+	.page-article .page-my_ticket .page-my_ticket .jumbotron h1 {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 986px) {
+	.navbar-brand {
+		width: 280px;
+	}
+
+	.navbar-brand p {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.jumbotron h1 {
+		font-size: 50px;
+	}
+
+	.list-group-item {
+		padding-left: 7%;
+	}
+
+	.navbar-toggle .icon-bar {
+		background: white;
+	}
+
+	.navbar-toggle {
+		padding: 20px 10px;
+	}
+
+	.navbar-nav > li > a {
+		color: white !important;
+	}
+}
+
+@media screen and (max-width: 365px) {
+	.jumbotron h1 {
+		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 35px !important;
+	}
+
+	a.navbar-brand {
+		width: 12%;
+	}
+}
