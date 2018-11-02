@@ -6,11 +6,11 @@
  *
  * https://github.com/mt-support/tribe-helpdesk
  */
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 /*
- * Custom Text in the Ticket Submission page
- */
+* Custom Text in the Ticket Submission page
+*/
 .custom_login_title {
 	font-size: 30px;
 	font-weight: 300;
@@ -23,24 +23,17 @@
 }
 
 /*
- * Temporarily hide KB category/article links until fleshed out
- */
-.category-list {
-	display: none;
-}
-
-/*
- * Remove the search bar (since we don't have KBs on LA yet)
- */
+* Remove the search bar (since we don't have KBs on LA yet)
+*/
 .global-search {
 	display: none;
 }
 
 /*
- * Typography
- */
+* Typography
+*/
 h1, h2, h3, h4 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-weight: 300;
@@ -52,14 +45,14 @@ a:-webkit-any-link {
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	background: #f6f7f9;
 }
 
 /*
- * Navbar
- */
+* Navbar
+	*/
 .navbar {
 	background: black;
 }
@@ -67,7 +60,7 @@ body {
 .navbar-brand p {
 	padding-left: 50px;
 	color: white;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.5em;
 	font-weight: 300;
 }
@@ -86,7 +79,7 @@ body {
 
 .navbar-nav > li > a {
 	color: white;
-	font-family: 'Quicksand', sans-serif;
+	font-family: sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
 }
@@ -98,8 +91,8 @@ a.navbar-brand {
 }
 
 /*
- * Alerts
- */
+* Alerts
+*/
 .label {
 	display: none;
 }
@@ -109,8 +102,8 @@ a.navbar-brand {
 }
 
 /*
- * Articles
- */
+* Articles
+*/
 .article-content {
 	font-size: 20px;
 	line-height: 1.75em;
@@ -138,17 +131,24 @@ a.navbar-brand {
 }
 
 /*
- * Welcome header
- */
+* Welcome header
+*/
 .jumbotron, .jumbotron p, .jumbotron .breadcrumbs a, .jumbotron .g-FormField2-Description, .jumbotron .FormfieldAsNewFormField .g-FormField2-Label, .jumbotron .g-FormField2-Label, .jumbotron .g-FormField2-Label.gwt-Label-mandatory {
 	color: white;
 }
 
+.jumbotron .container > div {
+	background: #1284b1;
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px black;
+}
+
 .jumbotron h1 {
 	color: white;
-	font-weight: 300;
-	font-size: 60px;
+	font-weight: bold;
+	font-size: 40px;
 	line-height: 1.2;
+	text-transform: uppercase;
 }
 
 .jumbotron p {
@@ -175,8 +175,8 @@ a.navbar-brand {
 }
 
 /*
- * Icons
- */
+* Icons
+*/
 .item-status-A:before {
 	display: none;
 }
@@ -187,8 +187,8 @@ a.navbar-brand {
 }
 
 /*
- * Categories
- */
+* Categories
+*/
 .category-box-title:before {
 	display: none;
 }
@@ -245,11 +245,13 @@ a.navbar-brand {
 .list-group-item {
 	border: none;
 	background: none;
+	padding-left: 124px;
+	padding-right: 124px;
 }
 
 /*
- * Buttons
- */
+* Buttons
+*/
 .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
 	font-weight: 500;
 	text-shadow: none;
@@ -276,8 +278,8 @@ a.navbar-brand {
 }
 
 /*
- * Footer
- */
+* Footer
+*/
 .footer-container {
 	display: none;
 }
@@ -287,16 +289,8 @@ html, .footer-container {
 }
 
 /*
- * Remove the Register Button
- */
-#login_registerButtonmainButton {
-	/*display: none;*/
-}
-
-.NewFormField {
-	/*color: rgba(0, 0, 0, 0);*/
-}
-
+* Remove the Register Button
+*/
 #login_forgotButtoninner {
 	color: white !important;
 }
@@ -307,8 +301,8 @@ html, .footer-container {
 }
 
 /*
- * Media Queries
- */
+* Media Queries
+*/
 @media screen and (min-width: 768px) {
 	.page-article .page-my_ticket .page-my_ticket .jumbotron h1 {
 		font-size: 50px;
@@ -359,4 +353,9 @@ html, .footer-container {
 	a.navbar-brand {
 		width: 12%;
 	}
+}
+
+/* Temporarily hide KB category/article links until fleshed out */
+.category-list {
+	display: none;
 }
