@@ -14,6 +14,26 @@
 		+ 'please refer to '
 		+ '<a href="https://support.theeventscalendar.com/812859-Accessing-Support">this article</a>.</p>'
 
+	// Login form advice
+	var loginFormAdvice = 
+		  '<p class="tribe-support-advice">⚠ Please note that your login credentials for '
+		+ '<a href="https://theeventscalendar.com">theeventscalendar.com</a> will not work here! Our Help Desk runs '
+		+ 'on a different platform and a separate account is needed.</p>'
+		+ '<p class="tribe-support-advice">We do automatically link accounts where possible, though. So, for most '
+		+ 'customers, if you first login to <a href="https://theeventscalendar.com">theeventscalendar.com</a> '
+		+ 'you should be automatically logged in here, too. If you find that doesn&#146;t work for you, please try '
+		+ 'a password reset in the first instance or else register for a new account.</p>'
+		+ '<p class="tribe-support-advice">Be sure to use the same email address as you used when purchasing '
+		+ 'your license key!</p>'
+
+	// Logged in landing header advice
+	var loggedInLanderPageAdvice =
+		  '<p class="tribe-support-advice">We&#146;re here to help with all of your questions about Modern Tribe&#146;s '
+		+ 'event and ticketing solutions.</p>'
+		+ '<p class="tribe-support-advice">Whether you need some tips to get the most from your calendar or are '
+		+ 'experiencing an unexpected bug or conflict, we&#146;ll do our very best to help you. Please note that at busy '
+		+ 'periods there may be a delay of upto 48 hours before we can reply.</p>'
+
 	jQuery( function( $ ) { 
 		// "Jumbotron" heading element
 		var $jumbotronHeading = $( '.jumbotron h1' )
@@ -23,6 +43,9 @@
 
 		// Test if the current user appears to be logged in
 		var isLoggedIn = $( '#menu-item-user' ).length === 1
+
+		// Reverse of the above, to help us write cleaner conditionals
+		var isLoggedOut = ! isLoggedIn
 
 		// We'll use this for further comparisons
 		var currentUrl = getCurrentUrl()
@@ -61,13 +84,34 @@
 		}
 
 		function addAccountHelperText() {
-			// We need do nothing more if the user is already logged in, or if they are on the
-			// login page already (or if the expected jumbotron heading is absent)
-			if ( isLoggedIn || isLoginPage || $jumbotronHeading.length !== 1 ) {
+			// No jumbotron? Weird! Let's bail rather than try to inject content into a 
+			// potentially modified/updated template
+			if ( $jumbotronHeading.length !== 1 ) {
 				return
 			}
 
-			$jumbotronHeading.after( loggedOutUsersAdvice )
+			// Lander page advice for logged in users
+			if ( isLoggedIn && isHomePage ) {
+				addJumbotronMessage( loggedInLanderPageAdvice )
+			}
+			// If the user is logged out and is visiting a page where the login form appears, add
+			// appropriate advice 
+			else if ( isLoggedOut && ( isLoginPage || isSubmitTicketPage || isMyTicketsPage ) ) {
+				addJumbotronMessage( loginFormAdvice )
+			}
+			// If the user is logged out and is visitng a page where the login form *does not*
+			// appear, apply different wording
+			else if ( isLoggedOut ) {
+				addJumbotronMessage( loggedOutUsersAdvice )
+			}
+		}
+
+		function addJumbotronMessage( message ) {
+			// Add the tribe-jumbotron-message class to the body tag so we can style appropriately
+			document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-jumbotron-message')
+
+			// Add the actual message
+			$jumbotronHeading.after( message )
 		}
 
 		function optionallyRemovePresalesForm() {
