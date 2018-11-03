@@ -39,6 +39,14 @@ h1, h2, h3, h4 {
 	font-weight: 300;
 }
 
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
 a:-webkit-any-link {
 	cursor: pointer;
 	text-decoration: none;
@@ -277,6 +285,15 @@ a.navbar-brand {
 	border: none;
 }
 
+#kb-article {
+	padding: 12px;
+	font-size: 18px;
+}
+
+#kb-article a {
+	color: white;
+}
+
 /*
  * Submission form
  */
@@ -311,9 +328,7 @@ html, .footer-container {
 	background: #f6f7f9;
 }
 
-/*
- * Remove the Register Button
- */
+
 #login_forgotButtoninner {
 	color: white !important;
 }
