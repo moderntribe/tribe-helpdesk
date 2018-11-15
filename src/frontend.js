@@ -99,9 +99,9 @@
 			else if ( isLoggedOut && ( isLoginPage || isSubmitTicketPage || isMyTicketsPage ) ) {
 				addJumbotronMessage( loginFormAdvice )
 			}
-			// If the user is logged out and is visitng a page where the login form *does not*
-			// appear, apply different wording
-			else if ( isLoggedOut ) {
+			// If the user is logged out and is visiting the home page (where the login form *does not*
+			// appear), apply different wording
+			else if ( isLoggedOut && isHomePage ) {
 				addJumbotronMessage( loggedOutUsersAdvice )
 			}
 		}
