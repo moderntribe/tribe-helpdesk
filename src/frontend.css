@@ -8,6 +8,29 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+
+/*
+ * Custom Marketing Alert
+ */
+#tribe-marketing-alert {
+	color: white;
+	background-color: #16a0d6 !important;
+	font-size: 17px;
+	padding: 20px 0px 20px 0px;
+	margin-top: -50px;
+	text-align: center;
+}
+
+#tribe-marketing-alert a {
+	color: white;
+	text-decoration: underline;
+}
+
+#tribe-marketing-alert a:hover {
+	color: white;
+	text-decoration: none;
+}
+
 /*
  * Custom Text in the Ticket Submission page
  */

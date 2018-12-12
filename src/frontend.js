@@ -3,6 +3,11 @@
 	if ( 'function' !== typeof jQuery ) {
 		return;
 	}
+
+	// Marteking alert
+	var marketingAlert =
+		'<div id="tribe-marketing-alert"><span class="emoji">🆕</span> The way Event Tickets captures attendee details has improved! '
+		+ '<a target="_blank" href="https://theeventscalendar.com/a-new-and-better-way-to-collect-attendee-details-with-event-tickets-plus/">Learn more</a>.</div>'
 	
 	// Some general advice we'll show as needed in the jumbotron area
 	var loggedOutUsersAdvice = 
@@ -62,6 +67,8 @@
 		// Test if we're on the Submit Ticket page
 		var isSubmitTicketPage = currentUrl.match( /submit_ticket/ ) !== null
 
+		var marginTop = $( '.container.inner-margin-top' )
+
 		/**
 		 * Return the page URL, but with any trailing slashes and the protocol 
 		 * ("http://" or "https://") stripped for safer comparisons.
@@ -81,6 +88,13 @@
 			}
 
 			return url;
+		}
+
+		function addMarketingAlert( message ) {
+			// Add the tribe-marketing-alert class to the body tag so we can style appropriately
+			document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert')
+			// Add the actual message
+			marginTop.before( message )
 		}
 
 		function addAccountHelperText() {
@@ -124,6 +138,7 @@
 			$presalesForm.hide()
 		}
 
+		addMarketingAlert( marketingAlert )
 		addAccountHelperText()
 		optionallyRemovePresalesForm()
 	} ) 
