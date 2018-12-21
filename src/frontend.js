@@ -6,8 +6,13 @@
 
 	// Marteking alert
 	var marketingAlert =
-		'<div id="tribe-marketing-alert"><span class="emoji">🆕</span> The way Event Tickets captures attendee details has improved! '
-		+ '<a target="_blank" href="https://theeventscalendar.com/a-new-and-better-way-to-collect-attendee-details-with-event-tickets-plus/">Learn more</a>.</div>'
+		  '<div id="tribe-marketing-alert">'
+		+ '<div> <span class="emoji">🆕</span> </div>'
+		+ '<div> Hey friends! We\'re nearing the holiday season and support requests are higher than normal. We\'re '
+		+ 'chugging along to reply to as many folks as we can, but in the meantime, check out how Event Tickets Plus '
+		+ 'now has a better way of collecting attendee details. '
+		+ '<a target="_blank" href="https://theeventscalendar.com/a-new-and-better-way-to-collect-attendee-details-with-event-tickets-plus/">Learn more</a>.'
+		+ '</div></div>'
 	
 	// Some general advice we'll show as needed in the jumbotron area
 	var loggedOutUsersAdvice = 
