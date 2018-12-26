@@ -395,7 +395,11 @@ html, .footer-container {
 
 	.list-group-item {
 		padding-left: 7%;
-	}
+  }
+  
+  .navbar>.container .navbar-brand {
+    width: 75px;
+  }
 
 	.navbar-toggle .icon-bar {
 		background: white;
@@ -403,7 +407,11 @@ html, .footer-container {
 
 	.navbar-toggle {
 		padding: 20px 10px;
-	}
+  }
+  
+  .navbar-nav {
+    font-size: 12px;
+  }
 
 	.navbar-nav > li > a {
 		color: white !important;
