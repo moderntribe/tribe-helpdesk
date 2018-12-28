@@ -4,7 +4,7 @@
 		return;
 	}
 
-	// Marteking alert
+	// Marketing alert
 	var marketingAlert =
 		  '<div id="tribe-marketing-alert">'
 		+ '<div> <span class="emoji">🛈</span> </div>'
