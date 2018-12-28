@@ -20,7 +20,6 @@
 	font-size: 17px;
 	justify-content: center;
 	padding: 20px 0px 20px 0px;
-	margin-top: -50px;
 	text-align: center;
 }
 
@@ -94,7 +93,9 @@ body {
  * Navbar
  */
 .navbar {
-	background: black;
+  background: black;
+  margin: 0;
+  position: relative;
 }
 
 .navbar-brand p {
@@ -105,16 +106,16 @@ body {
 	font-weight: 300;
 }
 
-.navbar-brand {
-	width: 350px;
-}
-
 .scrolled .navbar {
 	background: black;
 }
 
 .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
 	background: black;
+}
+
+.navbar-nav {
+  font-size: 12px;
 }
 
 .navbar-nav > li > a {
@@ -178,9 +179,16 @@ a.navbar-brand {
 }
 
 .tribe-jumbotron-message .jumbotron .container > div {
-	background: #1284b1;
+	background: rgba(18, 132, 177, 0.5);
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px black;
+}
+
+.jumbotron.jumbotron-inner-fix {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  padding: 0 !important;
 }
 
 .jumbotron h1 {
@@ -188,7 +196,6 @@ a.navbar-brand {
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 1.2;
-	text-transform: uppercase;
 }
 
 .jumbotron p {
@@ -375,12 +382,22 @@ html, .footer-container {
 @media screen and (min-width: 768px) {
 	.page-article .page-my_ticket .page-my_ticket .jumbotron h1 {
 		font-size: 50px;
-	}
+  }
+  
+  .jumbotron .inner-margin-top {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .tribe-jumbotron-message .jumbotron .container > div {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 986px) {
 	.navbar-brand {
-		width: 280px;
+		width: 50px;
 	}
 
 	.navbar-brand p {
@@ -389,9 +406,22 @@ html, .footer-container {
 }
 
 @media (max-width: 767px) {
+  .jumbotron .inner-margin-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding: 35px;
+  }
+
 	.jumbotron h1 {
-		font-size: 50px;
-	}
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  .jumbotron p.tribe-support-advice {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
 	.list-group-item {
 		padding-left: 7%;
