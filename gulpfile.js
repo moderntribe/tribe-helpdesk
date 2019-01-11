@@ -1,25 +1,25 @@
-var gulp             = require('gulp'),
-    plumber          = require('gulp-plumber'),
-    sass             = require('gulp-ruby-sass'),
-    autoprefixer     = require('gulp-autoprefixer'),
-    cleanCSS         = require('gulp-clean-css'),
-    rename           = require("gulp-rename"),
-    concat           = require('gulp-concat'),
-    uglify           = require('gulp-uglify'),
-    path             = require('path'),
-    inject           = require('gulp-inject'),
-    livereload       = require('gulp-livereload');
+var gulp            = require('gulp');
+var plumber         = require('gulp-plumber');
+var sass            = require('gulp-ruby-sass');
+var autoprefixer    = require('gulp-autoprefixer');
+var cleanCSS        = require('gulp-clean-css');
+var rename          = require('gulp-rename');
+var concat          = require('gulp-concat');
+var uglify          = require('gulp-uglify');
+var path            = require('path');
+var inject          = require('gulp-inject');
+var livereload      = require('gulp-livereload');
 
 /**
  * Compile styles
  */
 gulp.task('styles', function() {
   return sass( 'scss/*' )
-    .pipe(autoprefixer())
-    .pipe(cleanCSS())
-    .pipe(rename('style.min.css'))
-    .pipe(gulp.dest('dist'))
-    .pipe(livereload());
+  .pipe(autoprefixer())
+  .pipe(cleanCSS())
+  .pipe(rename('style.min.css'))
+  .pipe(gulp.dest('dist'))
+  .pipe(livereload());
 });
 
 /**
