@@ -14,34 +14,34 @@ var gulp             = require('gulp'),
  * Compile styles
  */
 gulp.task('styles', function() {
-	return sass( 'scss/*' )
-		.pipe(autoprefixer())
+  return sass( 'scss/*' )
+    .pipe(autoprefixer())
     .pipe(cleanCSS())
     .pipe(rename('style.min.css'))
-		.pipe(gulp.dest('dist'))
-		.pipe(livereload());
+    .pipe(gulp.dest('dist'))
+    .pipe(livereload());
 });
 
 /**
  * Concatenate scripts
  */
 gulp.task('scripts', function(){
-	return gulp.src('js/frontend.js')
-	.pipe(concat('frontend.js'))
+  return gulp.src('js/frontend.js')
+  .pipe(concat('frontend.js'))
   .pipe(uglify())
   .pipe(rename('frontend.min.js'))
-	.pipe(gulp.dest('dist'))
+  .pipe(gulp.dest('dist'))
 });
 
 /**
  * Watch task
  */
 gulp.task('watch', function(){
-	livereload.listen();
+  livereload.listen();
 
-	gulp.watch('scss/*', ['styles']);
-	gulp.watch('js/*.js', ['scripts'] ).on('change',function(file) {
-		livereload.changed(file.path);
+  gulp.watch('scss/*', ['styles']);
+  gulp.watch('js/*.js', ['scripts'] ).on('change',function(file) {
+    livereload.changed(file.path);
   });
 
 });
