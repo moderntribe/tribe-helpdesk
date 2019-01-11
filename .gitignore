@@ -3,5 +3,3 @@
 *.vscode
 node_modules/
 settings.json
-.sass-cache/*.scssc
-/.sass-cache/fc957d4d811dc40bcdbea80bc44a435b50b6ede7/frontend.scssc
