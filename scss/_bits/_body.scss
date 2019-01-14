@@ -6,11 +6,15 @@ html {
 }
 
 body {
+  align-items: center;
+  background-color: var(--white);
+  display: grid;
   max-width: 1200px;
+  justify-items: center;
   margin: 0;
   padding: 0;
 
-  @media (min-width: $harbor) {
+  @media (min-width: $bay) {
     border-left: 1px solid var(--gray-20);
     border-right: 1px solid var(--gray-20);
   }
