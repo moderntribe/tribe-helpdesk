@@ -39,7 +39,7 @@ gulp.task('scripts', function(){
 gulp.task('watch', function(){
   livereload.listen();
 
-  gulp.watch('scss/*', ['styles']);
+  gulp.watch('scss/**/*.scss', ['styles']);
   gulp.watch('js/*.js', ['scripts'] ).on('change',function(file) {
     livereload.changed(file.path);
   });
