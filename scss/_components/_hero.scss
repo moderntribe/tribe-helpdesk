@@ -1,0 +1,20 @@
+.hero {
+  align-items: center;
+  background-color: var(--gray-50);
+  background-image: url('https://theeventscalendar.com/content/uploads/2018/10/banner-darkened.jpg');
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+}
+
+.hero__content {
+  color: var(--white);
+  max-width: 80%;
+  text-align: center;
+
+  @media (min-width: $harbor) {
+    max-width: 50%;
+  }
+}
