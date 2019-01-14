@@ -14,6 +14,10 @@
   max-width: 80%;
   text-align: center;
 
+  p {
+    font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
+  }
+
   @media (min-width: $harbor) {
     max-width: 50%;
   }
