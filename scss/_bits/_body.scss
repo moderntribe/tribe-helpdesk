@@ -1,0 +1,17 @@
+html {
+  align-items: center;
+  background-color: var(--gray-20);
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $harbor) {
+    border-left: 1px solid var(--gray-20);
+    border-right: 1px solid var(--gray-20);
+  }
+}

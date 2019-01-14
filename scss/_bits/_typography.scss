@@ -1,0 +1,22 @@
+h1 {
+  font-size: calc(32px + (45 - 32) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 900px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: calc(18px + (38 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: calc(18px + (38 - 18) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+p {
+  font-size: calc(17px + (17 - 16) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1.5;
+}
