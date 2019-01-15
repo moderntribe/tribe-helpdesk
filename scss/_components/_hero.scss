@@ -8,7 +8,7 @@
   background-size: cover;
   box-shadow: inset 0 0 500px var(--black);
   display: flex;
-  height: 60vh;
+  height: 65vh; /* A bit of a magic number */
   justify-content: center;
 }
 
