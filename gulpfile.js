@@ -26,10 +26,15 @@ gulp.task('styles', function() {
  * Concatenate scripts
  */
 gulp.task('scripts', function(){
-  return gulp.src('js/frontend.js')
+  return gulp.src([
+    'js/jqueryCheck.js',
+    'js/marketingAlert.js',
+    'js/loginFormAdvice.js',
+    'js/injectContent.js'
+  ])
   .pipe(concat('frontend.js'))
   .pipe(uglify())
-  .pipe(rename('frontend.min.js'))
+  .pipe(rename('scripts.min.js'))
   .pipe(gulp.dest('dist'))
 });
 
