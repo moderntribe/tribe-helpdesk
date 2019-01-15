@@ -1,0 +1,32 @@
+{
+  "name": "tribe-helpdesk",
+  "version": "0.1.0",
+  "description": "gulp",
+  "homepage": "support.theeventscalendar.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mt-support/tribe-helpdesk"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "gulp-clean-css": "*",
+    "gulp-compass": "^1.3.2",
+    "gulp-ruby-sass": "*",
+    "gulp-svgmin": "*",
+    "gulp-svgstore": "*",
+    "vue": "^2.5.13"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cleancss": "^0.2.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^5.0.2",
+    "gulp-livereload": "^4.0.1",
+    "gulp-path": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  }
+}
