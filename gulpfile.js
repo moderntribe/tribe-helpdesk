@@ -26,7 +26,7 @@ gulp.task('styles', function() {
  * Concatenate scripts
  */
 gulp.task('scripts', function(){
-  return gulp.src('js/frontend.js')
+  return gulp.src('./js/*.js')
   .pipe(concat('frontend.js'))
   .pipe(uglify())
   .pipe(rename('frontend.min.js'))
