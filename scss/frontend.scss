@@ -54,11 +54,8 @@
   font-weight: bold;
 }
 
-/*
- * Remove the search bar (since we don't have KBs on LA yet)
- */
 .global-search {
-  display: none;
+  padding-bottom: 2rem;
 }
 
 /*
@@ -430,9 +427,4 @@ html, .footer-container {
   a.navbar-brand {
     width: 12%;
   }
-}
-
-/* Temporarily hide KB category/article links until fleshed out */
-.category-list {
-  display: none;
 }
