@@ -26,10 +26,22 @@ gulp.task('styles', function() {
  * Concatenate scripts
  */
 gulp.task('scripts', function(){
+<<<<<<< HEAD
   return gulp.src('./js/*.js')
   .pipe(concat('frontend.js'))
+=======
+  return gulp.src([
+    'js/jQueryCheck.js',
+    'js/marketingAlert.js',
+    'js/loggedOutUserAdvice.js',
+    'js/loginFormAdvice.js',
+    'js/loggedInLanderPageAdvice.js',
+    'js/injectContent.js'
+  ])
+  .pipe(concat('scripts.js'))
+>>>>>>> Breaks JS up into components that are concatenated on build.
   .pipe(uglify())
-  .pipe(rename('frontend.min.js'))
+  .pipe(rename('scripts.min.js'))
   .pipe(gulp.dest('dist'))
 });
 
