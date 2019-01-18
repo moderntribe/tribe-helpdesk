@@ -26,10 +26,17 @@ gulp.task('styles', function() {
  * Concatenate scripts
  */
 gulp.task('scripts', function(){
-  return gulp.src('js/frontend.js')
-  .pipe(concat('frontend.js'))
+  return gulp.src([
+    'js/jQueryCheck.js',
+    'js/marketingAlert.js',
+    'js/loggedOutUserAdvice.js',
+    'js/loginFormAdvice.js',
+    'js/loggedInLanderPageAdvice.js',
+    'js/injectContent.js'
+  ])
+  .pipe(concat('scripts.js'))
   .pipe(uglify())
-  .pipe(rename('frontend.min.js'))
+  .pipe(rename('scripts.min.js'))
   .pipe(gulp.dest('dist'))
 });
 
