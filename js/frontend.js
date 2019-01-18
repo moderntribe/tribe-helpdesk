@@ -143,5 +143,7 @@
 		addMarketingAlert( marketingAlert )
 		addAccountHelperText()
 		optionallyRemovePresalesForm()
+
+		document.body.dispatchEvent( new Event( 'tribe-liveagent.ready' ) );
 	} ) 
 } )()
