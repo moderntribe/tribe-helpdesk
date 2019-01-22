@@ -29,7 +29,9 @@ jQuery( function( $ ) {
   // Test if we're on the Submit Ticket page
   var isSubmitTicketPage = currentUrl.match( /submit_ticket/ ) !== null
 
-  var marginTop = $( '.container.inner-margin-top' )
+  var innerMarginTop = $( '.container.inner-margin-top' )
+
+  var marginTop = $( '.margin-top' )
 
   /**
 		 * Return the page URL, but with any trailing slashes and the protocol 
@@ -56,7 +58,7 @@ jQuery( function( $ ) {
 			// Add the tribe-marketing-alert class to the body tag so we can style appropriately
 			document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert')
 			// Add the actual message
-			marginTop.before( message )
+			innerMarginTop.before( message )
     }
     
     function addComponentHeader() {
@@ -64,6 +66,12 @@ jQuery( function( $ ) {
       tribeMarketingAlert.after( componentHeader )
     }
 
+    function addComponentPortals() {
+      document.body.setAttribute('class', document.body.getAttribute('class') + 'tribe-marketing-alert')
+      marginTop.after( componentPortals )
+    }
+
 		addMarketingAlert( marketingAlert )
-		addComponentHeader()
+    addComponentHeader()
+    addComponentPortals()
 	} )
