@@ -5,7 +5,7 @@ var componentInterstitial =
 + '</div>'
 + '<div class="interstitial__content">'
 + '<h3>Looking for More Help?</h3>'
-+ '<p>If you've looked through the documentation and knowledgebase and still have questions, then reach out to our friendly support staff and we'll help you out.</p>'
++ '<p>If you have looked through the documentation and knowledgebase and still have questions, then reach out to our friendly support staff and we will help you out.</p>'
 + '<div class="interstitial__actions">'
 + '<a href="https://support.theeventscalendar.com/submit_ticket" class="button button--secondary">Open Ticket</a>'
 + '<a href="" class="interstitial__text-link">Log into your account</a>'
