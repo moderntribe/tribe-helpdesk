@@ -2,12 +2,6 @@ jQuery( function( $ ) {
   // This is the main header / page top
   var $tribeMarketingAlert = $( '#tribe-marketing-alert' )
 
-  // "Jumbotron" heading element
-  var $jumbotronHeading = $( '.jumbotron h1' )
-
-  // This form currently is embedded in the portal homepage
-  var $presalesForm = $( '#presales-form' )
-
   // Test if the current user appears to be logged in
   var isLoggedIn = $( '#menu-item-user' ).length === 1
 
@@ -67,11 +61,17 @@ jQuery( function( $ ) {
     }
 
     function addComponentPortals() {
-      document.body.setAttribute('class', document.body.getAttribute('class') + 'tribe-marketing-alert')
+      document.body.setAttribute('class', document.body.getAttribute('class') + 'hero')
       marginTop.after( componentPortals )
+    }
+
+    function addComponentInterstitial() {
+      document.body.setAttribute('class', document.body.getAttribute('class') + 'portals')
+      componentPortals.after( componentInterstitial )
     }
 
 		addMarketingAlert( marketingAlert )
     addComponentHeader()
     addComponentPortals()
+    addComponentInterstitial()
 	} )
