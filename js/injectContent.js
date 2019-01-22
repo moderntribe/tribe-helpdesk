@@ -1,4 +1,7 @@
 jQuery( function( $ ) { 
+  // This is the main header / page top
+  var $tribeMarketingAlert = $( '#tribe-marketing-alert' )
+
   // "Jumbotron" heading element
   var $jumbotronHeading = $( '.jumbotron h1' )
 
@@ -54,50 +57,13 @@ jQuery( function( $ ) {
 			document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert')
 			// Add the actual message
 			marginTop.before( message )
-		}
-
-		function addAccountHelperText() {
-			// No jumbotron? Weird! Let's bail rather than try to inject content into a 
-			// potentially modified/updated template
-			if ( $jumbotronHeading.length !== 1 ) {
-				return
-			}
-
-			// Lander page advice for logged in users
-			if ( isLoggedIn && isHomePage ) {
-				addJumbotronMessage( loggedInLanderPageAdvice )
-			}
-			// If the user is logged out and is visiting a page where the login form appears, add
-			// appropriate advice 
-			else if ( isLoggedOut && ( isLoginPage || isSubmitTicketPage || isMyTicketsPage ) ) {
-				addJumbotronMessage( loginFormAdvice )
-			}
-			// If the user is logged out and is visiting the home page (where the login form *does not*
-			// appear), apply different wording
-			else if ( isLoggedOut && isHomePage ) {
-				addJumbotronMessage( loggedOutUsersAdvice )
-			}
-		}
-
-		function addJumbotronMessage( message ) {
-			// Add the tribe-jumbotron-message class to the body tag so we can style appropriately
-			document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-jumbotron-message')
-
-			// Add the actual message
-			$jumbotronHeading.after( message )
-		}
-
-		function optionallyRemovePresalesForm() {
-			// If the user is not logged in or else if the presales form can't be located
-			// we should not interfere
-			if ( ! isLoggedIn || $presalesForm.length !== 1 ) {
-				return
-			}
-
-			$presalesForm.hide()
-		}
+    }
+    
+    function addComponentHeader() {
+      document.body.setAttribute('class', document.body.getAttribute('class') + 'tribe-marketing-alert')
+      tribeMarketingAlert.after( componentHeader )
+    }
 
 		addMarketingAlert( marketingAlert )
-		addAccountHelperText()
-		optionallyRemovePresalesForm()
+		addComponentHeader()
 	} )
