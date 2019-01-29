@@ -6,8 +6,6 @@
  *
  * https://github.com/mt-support/tribe-helpdesk
  */
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
 
 /*
  * Custom Marketing Alert
@@ -62,7 +60,7 @@
  * Typography
  */
 h1, h2, h3, h4 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Gotham 4r", "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   margin-top: 30px;
   margin-bottom: 30px;
   font-weight: 300;
@@ -82,7 +80,7 @@ a:-webkit-any-link {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Gotham 4r", "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   font-weight: 300;
   background: #f6f7f9;
 }
@@ -97,7 +95,7 @@ body {
 .navbar-brand p {
   padding-left: 50px;
   color: white;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Gotham 4r", "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
 }
@@ -185,7 +183,6 @@ a.navbar-brand {
   font-weight: bold;
   font-size: 40px;
   line-height: 1.2;
-  text-transform: uppercase;
 }
 
 .jumbotron p {
