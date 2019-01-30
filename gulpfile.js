@@ -9,6 +9,7 @@ var uglify          = require('gulp-uglify');
 var path            = require('path');
 var inject          = require('gulp-inject');
 var livereload      = require('gulp-livereload');
+var fs							= require('fs');
 
 /**
  * Compile styles
@@ -55,6 +56,8 @@ gulp.task('scripts', function(){
 	])
 	.pipe(concat('scripts.js'))
 	.pipe(uglify())
+	.pipe(header(fs.readFileSync('js/header.txt', 'utf8')))
+	.pipe(footer(fs.readFileSync('js/footer.txt', 'utf8')))
 	.pipe(rename('scripts.min.js'))
 	.pipe(gulp.dest('dist'))
 >>>>>>> Removes scripts from watch task.
