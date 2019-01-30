@@ -57,7 +57,7 @@ jQuery( function( $ ) {
 		}
 		
 		function addComponentHeader() {
-			document.body.setAttribute('class', document.body.getAttribute('class') + 'tribe-marketing-alert')
+			document.body.setAttribute('class', document.body.getAttribute('class') + 'tribe-component-header')
 			tribeMarketingAlert.after( componentHeader )
 		}
 
