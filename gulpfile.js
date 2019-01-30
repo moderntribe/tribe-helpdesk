@@ -14,18 +14,19 @@ var livereload      = require('gulp-livereload');
  * Compile styles
  */
 gulp.task('styles', function() {
-  return sass( 'scss/*' )
-  .pipe(autoprefixer())
-  .pipe(cleanCSS())
-  .pipe(rename('style.min.css'))
-  .pipe(gulp.dest('dist'))
-  .pipe(livereload());
+	return sass( 'scss/*' )
+	.pipe(autoprefixer())
+	.pipe(cleanCSS())
+	.pipe(rename('style.min.css'))
+	.pipe(gulp.dest('dist'))
+	.pipe(livereload());
 });
 
 /**
  * Concatenate scripts
  */
 gulp.task('scripts', function(){
+<<<<<<< HEAD
 <<<<<<< HEAD
   return gulp.src('./js/*.js')
   .pipe(concat('frontend.js'))
@@ -43,19 +44,28 @@ gulp.task('scripts', function(){
   .pipe(uglify())
   .pipe(rename('scripts.min.js'))
   .pipe(gulp.dest('dist'))
+=======
+	return gulp.src([
+		'js/jQueryCheck.js',
+		'js/marketingAlert.js',
+		'js/loggedOutUserAdvice.js',
+		'js/loginFormAdvice.js',
+		'js/loggedInLanderPageAdvice.js',
+		'js/injectContent.js'
+	])
+	.pipe(concat('scripts.js'))
+	.pipe(uglify())
+	.pipe(rename('scripts.min.js'))
+	.pipe(gulp.dest('dist'))
+>>>>>>> Removes scripts from watch task.
 });
 
 /**
  * Watch task
  */
 gulp.task('watch', function(){
-  livereload.listen();
-
-  gulp.watch('scss/**/*.scss', ['styles']);
-  gulp.watch('js/*.js', ['scripts'] ).on('change',function(file) {
-    livereload.changed(file.path);
-  });
-
+	livereload.listen();
+	gulp.watch('scss/**/*.scss', ['styles']);
 });
 
 /**
