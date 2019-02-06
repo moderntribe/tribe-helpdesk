@@ -47,32 +47,32 @@ jQuery( function( $ ) {
 		
 		return url;
 	}
+	
+	function addMarketingAlert( message ) {
+		// Add the tribe-marketing-alert class to the body tag so we can style appropriately
+		document.body.setAttribute('class',
+		document.body.getAttribute('class') + ' tribe-marketing-alert')
+		// Add the actual message
+		innerMarginTop.before( message )
+	}
+	
+	function addComponentHeader() {
+		document.body.setAttribute('class', document.body.getAttribute('class') + 'tribe-component-header')
+		tribeMarketingAlert.after( componentHeader )
+	}
 
-		function addMarketingAlert( message ) {
-			// Add the tribe-marketing-alert class to the body tag so we can style appropriately
-			document.body.setAttribute('class',
-			document.body.getAttribute('class') + ' tribe-marketing-alert')
-			// Add the actual message
-			innerMarginTop.before( message )
-		}
-		
-		function addComponentHeader() {
-			document.body.setAttribute('class', document.body.getAttribute('class') + 'tribe-component-header')
-			tribeMarketingAlert.after( componentHeader )
-		}
+	function addComponentPortals() {
+		document.body.setAttribute('class', document.body.getAttribute('class') + 'hero')
+		marginTop.after( componentPortals )
+	}
 
-		function addComponentPortals() {
-			document.body.setAttribute('class', document.body.getAttribute('class') + 'hero')
-			marginTop.after( componentPortals )
-		}
+	function addComponentInterstitial() {
+		document.body.setAttribute('class', document.body.getAttribute('class') + 'portals')
+		componentPortals.after( componentInterstitial )
+	}
 
-		function addComponentInterstitial() {
-			document.body.setAttribute('class', document.body.getAttribute('class') + 'portals')
-			componentPortals.after( componentInterstitial )
-		}
-
-		addMarketingAlert( marketingAlert )
-		addComponentHeader()
-		addComponentPortals()
-		addComponentInterstitial()
+	addMarketingAlert( marketingAlert )
+	addComponentHeader()
+	addComponentPortals()
+	addComponentInterstitial()
 } )

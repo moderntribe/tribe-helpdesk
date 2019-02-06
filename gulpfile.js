@@ -4,14 +4,14 @@ var sass            = require('gulp-ruby-sass');
 var autoprefixer    = require('gulp-autoprefixer');
 var cleanCSS        = require('gulp-clean-css');
 var rename          = require('gulp-rename');
-var header					= require('gulp-header');
-var footer					= require('gulp-footer');
+var header          = require('gulp-header');
+var footer          = require('gulp-footer');
 var concat          = require('gulp-concat');
 var uglify          = require('gulp-uglify');
 var path            = require('path');
 var inject          = require('gulp-inject');
 var livereload      = require('gulp-livereload');
-var fs							= require('fs');
+var fs              = require('fs');
 
 /**
  * Compile styles
