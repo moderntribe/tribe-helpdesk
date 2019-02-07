@@ -17,7 +17,7 @@ var fs              = require('fs');
  * Compile styles
  */
 gulp.task('styles', function() {
-	return sass( 'scss/*' )
+	return sass( './scss/**/*.scss' )
 	.pipe(autoprefixer())
 	.pipe(cleanCSS())
 	.pipe(rename('style.min.css'))
