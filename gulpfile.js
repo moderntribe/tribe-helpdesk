@@ -27,25 +27,6 @@ gulp.task('styles', function() {
  * Concatenate scripts
  */
 gulp.task('scripts', function(){
-<<<<<<< HEAD
-<<<<<<< HEAD
-  return gulp.src('./js/*.js')
-  .pipe(concat('frontend.js'))
-=======
-  return gulp.src([
-    'js/jQueryCheck.js',
-    'js/marketingAlert.js',
-    'js/loggedOutUserAdvice.js',
-    'js/loginFormAdvice.js',
-    'js/loggedInLanderPageAdvice.js',
-    'js/injectContent.js'
-  ])
-  .pipe(concat('scripts.js'))
->>>>>>> Breaks JS up into components that are concatenated on build.
-  .pipe(uglify())
-  .pipe(rename('scripts.min.js'))
-  .pipe(gulp.dest('dist'))
-=======
 	return gulp.src([
 		'js/jQueryCheck.js',
 		'js/marketingAlert.js',
@@ -60,7 +41,6 @@ gulp.task('scripts', function(){
 	.pipe(footer(fs.readFileSync('js/footer.txt', 'utf8')))
 	.pipe(rename('scripts.min.js'))
 	.pipe(gulp.dest('dist'))
->>>>>>> Removes scripts from watch task.
 });
 
 /**
