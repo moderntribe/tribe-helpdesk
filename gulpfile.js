@@ -4,12 +4,14 @@ var sass            = require('gulp-ruby-sass');
 var autoprefixer    = require('gulp-autoprefixer');
 var cleanCSS        = require('gulp-clean-css');
 var rename          = require('gulp-rename');
+var header          = require('gulp-header');
+var footer          = require('gulp-footer');
 var concat          = require('gulp-concat');
 var uglify          = require('gulp-uglify');
 var path            = require('path');
 var inject          = require('gulp-inject');
 var livereload      = require('gulp-livereload');
-var fs							= require('fs');
+var fs              = require('fs');
 
 /**
  * Compile styles
@@ -27,14 +29,7 @@ gulp.task('styles', function() {
  * Concatenate scripts
  */
 gulp.task('scripts', function(){
-	return gulp.src([
-		'js/jQueryCheck.js',
-		'js/marketingAlert.js',
-		'js/loggedOutUserAdvice.js',
-		'js/loginFormAdvice.js',
-		'js/loggedInLanderPageAdvice.js',
-		'js/injectContent.js'
-	])
+	return gulp.src('./js/*.js')
 	.pipe(concat('scripts.js'))
 	.pipe(uglify())
 	.pipe(header(fs.readFileSync('js/header.txt', 'utf8')))
