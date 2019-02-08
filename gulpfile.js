@@ -32,8 +32,8 @@ gulp.task('scripts', function(){
 	return gulp.src('./js/*.js')
 	.pipe(concat('scripts.js'))
 	.pipe(uglify())
-	.pipe(header(fs.readFileSync('js/header.txt', 'utf8')))
-	.pipe(footer(fs.readFileSync('js/footer.txt', 'utf8')))
+	// .pipe(header(fs.readFileSync('js/header.txt', 'utf8')))
+	// .pipe(footer(fs.readFileSync('js/footer.txt', 'utf8')))
 	.pipe(rename('scripts.min.js'))
 	.pipe(gulp.dest('dist'))
 });
