@@ -116,27 +116,19 @@ jQuery( function( $ ) {
 	}
 
 	function addMarketingAlert( message ) {
-		// Add the tribe-marketing-alert class to the body tag so we can style appropriately
-		document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert')
 		// Add the actual message
 		navbarClass.after( message )
 	}
 
 	function addComponentPortals( content ) {
-		document.body.setAttribute('class', document.body.getAttribute('class') + ' portals')
 		jumbotron.after( content )
 	}
 
 	function addComponentInterstitial( content ) {
-		document.body.setAttribute('class', document.body.getAttribute('class') + ' interstitial')
 		footerClass.before( content )
 	}
 
 	function addJumbotronMessage( message ) {
-		// Add the tribe-jumbotron-message class to the body tag so we can style appropriately
-		document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-jumbotron-message')
-
-		// Add the actual message
 		$jumbotronHeading.after( message )
 	}
 
