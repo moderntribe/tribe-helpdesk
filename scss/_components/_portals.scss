@@ -1,12 +1,11 @@
 .portals {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   margin: 100px 0 0;
   width: 100%;
 
   @media (min-width: $lake) {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    flex-flow: row nowrap;
     width: 80%;
   }
 }

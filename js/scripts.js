@@ -92,7 +92,7 @@ jQuery( function( $ ) {
 	var marginTop = $( '.container.inner-margin-top' )
 	var marketingClass = $( '#tribe-marketing-alert' )
 	var portalsClass = $( '.portals' )
-	var footerClass = $( '.footer' )
+	var footerClass = $( 'footer' ).addClass( 'footer' )
 
 	/**
 	 * Return the page URL, but with any trailing slashes and the protocol 
