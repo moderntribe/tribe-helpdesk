@@ -87,6 +87,7 @@ jQuery( function( $ ) {
 	// Test if we're on the Submit Ticket page
 	var isSubmitTicketPage = currentUrl.match( /submit_ticket/ ) !== null
 	
+	var navbarClass = $( '.navbar' )
 	var jumbotron = $( '.jumbotron' )
 	var marginTop = $( '.container.inner-margin-top' )
 	var marketingClass = $( '#tribe-marketing-alert' )
@@ -118,7 +119,7 @@ jQuery( function( $ ) {
 		// Add the tribe-marketing-alert class to the body tag so we can style appropriately
 		document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert')
 		// Add the actual message
-		marginTop.before( message )
+		navbarClass.after( message )
 	}
 
 	function addComponentPortals( content ) {

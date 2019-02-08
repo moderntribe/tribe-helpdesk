@@ -1,0 +1,27 @@
+#tribe-marketing-alert {
+	color: white;
+	background-color: var(--blue-10) !important;
+	display: flex;
+	flex-direction: row;
+	font-size: 17px;
+	justify-content: center;
+	padding: 20px 0px;
+	text-align: center;
+	width: 100%;
+}
+
+#tribe-marketing-alert > div {
+	max-width: 112rem;
+	padding: 0 1rem;
+	text-align: left;
+}
+
+#tribe-marketing-alert a {
+	color: white;
+	text-decoration: underline;
+}
+
+#tribe-marketing-alert a:hover {
+	color: white;
+	text-decoration: none;
+}
