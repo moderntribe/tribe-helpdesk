@@ -1,23 +1,23 @@
 html {
-  align-items: center;
-  background-color: var(--gray-20);
+	align-items: center;
+	background-color: var(--gray-20);
 	display: flex;
-  justify-content: center;
+	justify-content: center;
 }
 
 body {
-  align-items: center;
-  background-color: var(--white);
+	align-items: center;
+	background-color: var(--white);
 	display: flex;
 	flex-direction: column;
 	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-  max-width: $harbor;
-  justify-items: center;
+	max-width: $harbor;
+	justify-items: center;
 	margin: 0;
-  padding: 0;
+	padding: 0;
 
-  @media (min-width: $bay) {
-    border-left: 1px solid var(--gray-20);
+	@media (min-width: $bay) {
+		border-left: 1px solid var(--gray-20);
 		border-right: 1px solid var(--gray-20);
-  }
+	}
 }
