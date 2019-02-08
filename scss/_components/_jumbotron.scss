@@ -18,6 +18,11 @@
   max-width: 80%;
   text-align: center;
 
+	h1 {
+		margin-bottom: 1em;
+	}
+
+	// If we decide to put text below the main heading
   p.inner-header {
     font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
   }
