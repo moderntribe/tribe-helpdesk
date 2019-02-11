@@ -76,7 +76,7 @@ jQuery( function( $ ) {
 	var currentUrl = getCurrentUrl()
 
 	// Test if we're on the support portal homepage
-	var isHomePage = 'support.theeventscalendar.com' === currentUrl
+	var isHomePage = 'tribe.ladesk.com' === currentUrl
 
 	// Test if we're on the login page
 	var isLoginPage = currentUrl.match( /login/ ) !== null
@@ -121,11 +121,15 @@ jQuery( function( $ ) {
 	}
 
 	function addComponentPortals( content ) {
-		jumbotron.after( content )
+		if ( isHomePage === true ) {
+			jumbotron.after( content )
+		}
 	}
 
 	function addComponentInterstitial( content ) {
-		footerClass.before( content )
+		if ( isHomePage === true ) {
+			footerClass.before( content )
+		}
 	}
 
 	function addJumbotronMessage( message ) {
