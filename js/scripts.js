@@ -490,3 +490,4 @@ jQuery( function( $ ) {
 	});
 
 })(jQuery);
+} )()
