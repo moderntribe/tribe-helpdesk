@@ -114,6 +114,11 @@ var componentInterstitial =
 	+ '</div>'
 + '</div>'
 
+var categoryListHeading = 
+'<div class="section-heading">'
++	'<h2>Guides & Tutorials</h2>'
++ '</div>'
+
 jQuery( function( $ ) { 
 
 	// This form currently is embedded in the portal homepage
@@ -143,6 +148,7 @@ jQuery( function( $ ) {
 	var navbarClass = $( '.navbar' )
 	var jumbotron = $( '.jumbotron' )
 	var marginTop = $( '.margin-top' )
+	var categoryList = $( '.category-list' )
 	var marketingClass = $( '#tribe-marketing-alert' )
 	var featuredClass = $( '.featured-content' )
 	var portalsClass = $( '.portals' )
@@ -182,7 +188,13 @@ jQuery( function( $ ) {
 
 	function addComponentPortals( content ) {
 		if ( isHomePage === true ) {
-			marginTop.after( content )
+			marginTop.before( content )
+		}
+	}
+
+	function addCategoryHeading( heading ) {
+		if ( isHomePage === true ) {
+			categoryList.before( heading )
 		}
 	}
 
@@ -209,6 +221,7 @@ jQuery( function( $ ) {
 	addMarketingAlert( marketingAlert )
 	addComponentFeaturedContent( componentFeaturedContent )
 	addComponentPortals( componentPortals )
+	addCategoryHeading( categoryListHeading )
 	addComponentInterstitial( componentInterstitial )
 
 	document.body.dispatchEvent( new Event( 'tribe-liveagent.ready' ) );
