@@ -19,6 +19,12 @@ h3 {
 	line-height: 1.25;
 }
 
+h4 {
+	font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
+	font-weight: 800;
+	line-height: 1.25;
+}
+
 p {
 	font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
 	line-height: 1.5;
