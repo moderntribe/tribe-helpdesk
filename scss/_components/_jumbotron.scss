@@ -19,6 +19,7 @@
 	text-align: center;
 
 	h1 {
+		font-size: calc(35px + (50 -35) * ((100vw - 300px) / (1600 - 300)));
 		margin-bottom: 1em;
 	}
 
