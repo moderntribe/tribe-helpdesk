@@ -46,6 +46,57 @@ var componentPortals =
 + '</div>'
 + '</div>'
 
+var componentFeaturedContent = 
+	'<section class="featured-content">'
+	+ '<a href="https://support.theeventscalendar.com/153124-Themers-Guide">'
+	+ 	'<article class="featured-content__item">'
+	+ 		'<div class="featured-content__icon">'
+	+ 			'<img src="https://theeventscalendar.com/content/uploads/2016/07/extensions-85x85.png" alt="" />'
+	+ 		'</div>'
+	+ 		'<div class="featured-content__body">'
+	+				'<h4>Themer\'s Guide</h4>'
+	+				'<p>Every calendar view is a template that can be overridden in your theme. Here’s how!</p>'
+	+ 		'</div>'
+	+ 	'</article>'
+	+	'</a>'
+
+	+ '<a href="https://theeventscalendar.com/extensions/">'
+	+ 	'<article class="featured-content__item">'
+	+ 		'<div class="featured-content__icon">'
+	+ 			'<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-brush-85x85.png" alt="" />'
+	+ 		'</div>'
+	+ 		'<div class="featured-content__body">'
+	+				'<h4>Extension Library</h4>'
+	+				'<p>Every calendar view is a template that can be overridden in your theme. Here’s how!</p>'
+	+ 		'</div>'
+	+ 	'</article>'
+	+	'</a>'
+
+	+ '<a href="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png">'
+	+ 	'<article class="featured-content__item">'
+	+ 		'<div class="featured-content__icon">'
+	+ 			'<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png" alt="" />'
+	+ 		'</div>'
+	+ 		'<div class="featured-content__body">'
+	+				'<h4>Plugin Functions</h4>'
+	+				'<p>Every calendar view is a template that can be overridden in your theme. Here’s how!</p>'
+	+ 		'</div>'
+	+ 	'</article>'
+	+	'</a>'
+
+	+ '<a href="#">'
+	+ 	'<article class="featured-content__item">'
+	+ 		'<div class="featured-content__icon">'
+	+ 			'<img src="https://theeventscalendar.com/content/uploads/2019/02/icon-return.png" alt="" />'
+	+ 		'</div>'
+	+ 		'<div class="featured-content__body">'
+	+				'<h4>Orders & Refunds</h4>'
+	+				'<p>Every calendar view is a template that can be overridden in your theme. Here’s how!</p>'
+	+ 		'</div>'
+	+ 	'</article>'
+	+	'</a>'
+	+'</section>'
+
 var componentInterstitial = 
 	'<div class="interstitial interstitial--primary">'
 	+	'<div class="interstitial__icon">'
@@ -89,8 +140,9 @@ jQuery( function( $ ) {
 	
 	var navbarClass = $( '.navbar' )
 	var jumbotron = $( '.jumbotron' )
-	var marginTop = $( '.container.inner-margin-top' )
+	var marginTop = $( '.margin-top' )
 	var marketingClass = $( '#tribe-marketing-alert' )
+	var featuredClass = $( '.featured-content' )
 	var portalsClass = $( '.portals' )
 	var footerClass = $( 'footer' ).addClass( 'footer' )
 
@@ -120,9 +172,15 @@ jQuery( function( $ ) {
 		navbarClass.after( message )
 	}
 
-	function addComponentPortals( content ) {
+	function addComponentFeaturedContent( content ) {
 		if ( isHomePage === true ) {
 			jumbotron.after( content )
+		}
+	}
+
+	function addComponentPortals( content ) {
+		if ( isHomePage === true ) {
+			marginTop.after( content )
 		}
 	}
 
@@ -147,6 +205,7 @@ jQuery( function( $ ) {
 	}
 
 	addMarketingAlert( marketingAlert )
+	addComponentFeaturedContent( componentFeaturedContent )
 	addComponentPortals( componentPortals )
 	addComponentInterstitial( componentInterstitial )
 
