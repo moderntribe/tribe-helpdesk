@@ -134,7 +134,7 @@ jQuery( function( $ ) {
 	var currentUrl = getCurrentUrl()
 
 	// Test if we're on the support portal homepage
-	var isHomePage = 'tribe.ladesk.com' === currentUrl
+	var isHomePage = 'support.theeventscalendar.com' === currentUrl
 
 	// Test if we're on the login page
 	var isLoginPage = currentUrl.match( /login/ ) !== null
