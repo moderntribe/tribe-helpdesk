@@ -15,7 +15,6 @@
 
 .jumbotron .container {
 	color: var(--white);
-	max-width: 80%;
 	text-align: center;
 
 	h1 {
@@ -29,8 +28,12 @@
 	}
 
 	@media (min-width: $harbor) {
-		max-width: 50%;
+		max-width: 80%;
 	}
+}
+
+.jumbotron .global-search {
+	display: inline-block;
 }
 
 .jumbotron__search {
@@ -41,6 +44,7 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-start;
+	padding-left: 0;
 }
 
 .jumbotron__search ul li {
