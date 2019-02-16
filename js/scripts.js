@@ -21,7 +21,57 @@ var jumbotronSearch =
 +		'<li><a href="https://theeventscalendar.com/customizations/">Customization</a></li>'
 +		'<li><a href="https://theeventscalendar.com/subscription-information/">Orders</a></li>'
 +	'</ul>'
-+'</div>'
++ '</div>'
+
+var componentFeaturedContent = 
+	'<section class="featured-content">'
+	+	'<div class="featured-content__wrapper">'
+	+ 	'<a href="https://support.theeventscalendar.com/153124-Themers-Guide">'
+	+ 		'<article class="featured-content__item">'
+	+ 			'<div class="featured-content__icon">'
+	+ 				'<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-brush-85x85.png" alt="" />'
+	+ 			'</div>'
+	+ 			'<div class="featured-content__body">'
+	+					'<h4>Themer\'s Guide</h4>'
+	+					'<p>Every calendar view is a template that can be overridden in your theme.</p>'
+	+ 			'</div>'
+	+ 		'</article>'
+	+		'</a>'
+	+ 	'<a href="https://theeventscalendar.com/extensions/">'
+	+ 		'<article class="featured-content__item">'
+	+ 			'<div class="featured-content__icon">'
+	+ 				'<img src="https://theeventscalendar.com/content/uploads/2016/07/extensions-85x85.png" alt="" />'
+	+ 			'</div>'
+	+ 			'<div class="featured-content__body">'
+	+					'<h4>Extension Library</h4>'
+	+					'<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>'
+	+ 			'</div>'
+	+ 		'</article>'
+	+		'</a>'
+	+ 	'<a href="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png">'
+	+ 		'<article class="featured-content__item">'
+	+ 			'<div class="featured-content__icon">'
+	+ 				'<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png" alt="" />'
+	+ 			'</div>'
+	+ 			'<div class="featured-content__body">'
+	+					'<h4>Plugin Functions</h4>'
+	+					'<p>Every available function in our products to use as filters for custom functionality.</p>'
+	+ 			'</div>'
+	+ 		'</article>'
+	+		'</a>'
+	+ 	'<a href="https://support.theeventscalendar.com/527363-Refund-policy">'
+	+ 		'<article class="featured-content__item">'
+	+ 			'<div class="featured-content__icon">'
+	+ 				'<img src="https://theeventscalendar.com/content/uploads/2019/02/icon-return.png" alt="" />'
+	+ 			'</div>'
+	+ 			'<div class="featured-content__body">'
+	+					'<h4>Orders & Refunds</h4>'
+	+					'<p>Is the plugin not right for your project? Here\'s info on orders and refund requests.</p>'
+	+ 			'</div>'
+	+ 		'</article>'
+	+		'</a>'
+	+	'</div>'
+	+'</section>'
 
 // Portals
 var componentPortals = 
@@ -60,59 +110,6 @@ var componentPortals =
 + '</div>'
 + '</div>'
 
-var componentFeaturedContent = 
-	'<section class="featured-content">'
-	+	'<div class="featured-content__wrapper>'
-	+ 	'<a href="https://support.theeventscalendar.com/153124-Themers-Guide">'
-	+ 		'<article class="featured-content__item">'
-	+ 			'<div class="featured-content__icon">'
-	+ 				'<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-brush-85x85.png" alt="" />'
-	+ 			'</div>'
-	+ 			'<div class="featured-content__body">'
-	+					'<h4>Themer\'s Guide</h4>'
-	+					'<p>Every calendar view is a template that can be overridden in your theme.</p>'
-	+ 			'</div>'
-	+ 		'</article>'
-	+		'</a>'
-
-	+ 	'<a href="https://theeventscalendar.com/extensions/">'
-	+ 		'<article class="featured-content__item">'
-	+ 			'<div class="featured-content__icon">'
-	+ 				'<img src="https://theeventscalendar.com/content/uploads/2016/07/extensions-85x85.png" alt="" />'
-	+ 			'</div>'
-	+ 			'<div class="featured-content__body">'
-	+					'<h4>Extension Library</h4>'
-	+					'<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>'
-	+ 			'</div>'
-	+ 		'</article>'
-	+		'</a>'
-
-	+ 	'<a href="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png">'
-	+ 		'<article class="featured-content__item">'
-	+ 			'<div class="featured-content__icon">'
-	+ 				'<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png" alt="" />'
-	+ 			'</div>'
-	+ 			'<div class="featured-content__body">'
-	+					'<h4>Plugin Functions</h4>'
-	+					'<p>Every available function in our products to use as filters for custom functionality.</p>'
-	+ 			'</div>'
-	+ 		'</article>'
-	+		'</a>'
-
-	+ 	'<a href="https://support.theeventscalendar.com/527363-Refund-policy">'
-	+ 		'<article class="featured-content__item">'
-	+ 			'<div class="featured-content__icon">'
-	+ 				'<img src="https://theeventscalendar.com/content/uploads/2019/02/icon-return.png" alt="" />'
-	+ 			'</div>'
-	+ 			'<div class="featured-content__body">'
-	+					'<h4>Orders & Refunds</h4>'
-	+					'<p>Is the plugin not right for your project? Here\'s info on orders and refund requests.</p>'
-	+ 			'</div>'
-	+ 		'</article>'
-	+		'</a>'
-	+	'</div>'
-	+'</section>'
-
 var componentInterstitial = 
 	'<div class="interstitial interstitial--primary">'
 	+	'<div class="interstitial__icon">'
@@ -148,7 +145,7 @@ jQuery( function( $ ) {
 	var currentUrl = getCurrentUrl()
 
 	// Test if we're on the support portal homepage
-	var isHomePage = 'support.theeventscalendar.com' === currentUrl
+	var isHomePage = 'tribe.ladesk.com' === currentUrl
 
 	// Test if we're on the login page
 	var isLoginPage = currentUrl.match( /login/ ) !== null
@@ -161,6 +158,7 @@ jQuery( function( $ ) {
 	
 	var navbarClass = $( '.navbar' )
 	var jumbotron = $( '.jumbotron' )
+	var jumbotronSearchField = $( '.input-group' )
 	var marginTop = $( '.margin-top' )
 	var categoryList = $( '.category-list' )
 	var marketingClass = $( '#tribe-marketing-alert' )
@@ -192,6 +190,12 @@ jQuery( function( $ ) {
 	function addMarketingAlert( message ) {
 		// Add the actual message
 		navbarClass.after( message )
+	}
+
+	function addJumbotronSearch( content ) {
+		if ( isHomePage === true ) {
+			jumbotronSearchField.after( content )
+		}
 	}
 
 	function addComponentFeaturedContent( content ) {
@@ -233,6 +237,7 @@ jQuery( function( $ ) {
 	}
 
 	addMarketingAlert( marketingAlert )
+	addJumbotronSearch( jumbotronSearch )
 	addComponentFeaturedContent( componentFeaturedContent )
 	addComponentPortals( componentPortals )
 	addCategoryHeading( categoryListHeading )
