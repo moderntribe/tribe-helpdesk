@@ -32,3 +32,31 @@
 		max-width: 50%;
 	}
 }
+
+.jumbotron__search {
+	max-width: 100%;
+}
+
+.jumbotron__search ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.jumbotron__search ul li {
+	font-size: 14px;
+	list-style: none;
+	margin-right: 1.5em;
+
+	&:nth-last-child(1) {
+		margin-right: 0;
+	}
+}
+
+.jumbotron__search ul li a {
+	transition: color .25s ease-out;
+}
+
+.jumbotron__search ul li a:hover {
+	color: var(--white);
+}

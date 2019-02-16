@@ -11,6 +11,18 @@ var marketingAlert =
 + '<div><strong>Heads up!</strong> Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.'
 + '</div></div>'
 
+// Popular Search Items
+var jumbotronSearch =
+'<div class="jumbotron__search">'
++	'<ul>'
++		'<li><strong>Popular:</strong></li>'
++		'<li><a href="https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages">Shortcodes</a></li>'
++		'<li><a href="https://theeventscalendar.com/functions/">Documentation</a></li>'
++		'<li><a href="https://theeventscalendar.com/customizations/">Customization</a></li>'
++		'<li><a href="https://theeventscalendar.com/subscription-information/">Orders</a></li>'
++	'</ul>'
++'</div>'
+
 // Portals
 var componentPortals = 
 '<div class="portals">'
@@ -36,7 +48,7 @@ var componentPortals =
 + 	'</div>'
 + 	'<div class="portals__content">'
 + 		'<h2>Trending Topics</h2>'
-+ 		'<p>Documentation for everything under the hood of the plugins, including actions, filters, and example usages.</p>'
++ 		'<p>A few of the most popular guides folks are reading that you may also find helpful for getting the most from the plugins.</p>'
 + 		'<ul>'
 + 			'<li><a href="https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages">Shortcodes</a></li>'
 + 			'<li><a href="https://support.theeventscalendar.com/303643-Testing-for-conflicts">Testing for Conflicts</a></li>'
