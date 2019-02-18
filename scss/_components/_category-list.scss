@@ -1,7 +1,7 @@
 // Overrides styles for an existing LA component
 .category-box {
-	background-color: var(--gray-10);
-	border: 1px solid var(--gray-20);
+	background-color: $gray-10;
+	border: 1px solid $gray-20;
 	margin-bottom: 10px;
 	padding: 0px;
 }
@@ -12,11 +12,11 @@
 }
 
 .category-box li a {
-	color: var(--blue-10);
+	color: $blue-10;
 }
 
 .category-box li a:hover {
-	color: var(--blue-20);
+	color: $blue-20;
 	text-decoration: none;
 }
 
@@ -33,11 +33,11 @@
 }
 
 .category-box-title .category-link {
-	color: var(--gray-30);
+	color: $gray-30;
 }
 
 .category-box-title .category-link:hover {
-	color: var(--gray-70);
+	color: $gray-70;
 	text-decoration: none;
 }
 
@@ -47,7 +47,7 @@
 
 .panel-default > .panel-heading {
 	border-bottom: none;
-	background-color: var(--white);
+	background-color: $white;
 }
 
 .panel-default {
@@ -55,7 +55,7 @@
 }
 
 .panel-default a {
-	color: var(--black);
+	color: $black;
 }
 
 .list-group-item {

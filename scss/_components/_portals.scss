@@ -11,8 +11,8 @@
 }
 
 .portals__portal {
-	background-color: var(--gray-10);
-	box-shadow: 1px 1px 1px var(--gray-20);
+	background-color: $gray-10;
+	box-shadow: 1px 1px 1px $gray-20;
 	padding: 15px 30px;
 	margin: 15px 15px 60px 15px;
 
@@ -35,8 +35,8 @@
 }
 
 .portals__icon {
-	background-color: var(--white);
-	border: 6px solid var(--gray-10);
+	background-color: $white;
+	border: 6px solid $gray-10;
 	border-radius: 50%;
 	box-shadow: 1px 2px 10px rgba(0,0,0,.15);
 	display: block;

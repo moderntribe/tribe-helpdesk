@@ -1,6 +1,6 @@
 .interstitial {
 	align-items: center;
-	background-color: var(--gray-10);
+	background-color: $gray-10;
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -11,7 +11,7 @@
 }
 
 .interstitial--primary {
-	background: linear-gradient(137deg, var(--blue-20), var(--blue-10) 38%, var(--green-10));
+	background: linear-gradient(137deg, $blue-20, $blue-10 38%, $green-10);
 }
 
 .interstitial__body {
@@ -31,7 +31,7 @@
 
 .interstitial__icon {
 	align-items: center;
-	background-color: var(--white);
+	background-color: $white;
 	border-radius: 50%;
 	display: none;
 	height: 130px;
@@ -52,7 +52,7 @@
 }
 
 .interstitial__content {
-	color: var(--white);
+	color: $white;
 	padding: 15px;
 
 	h3 {
@@ -77,12 +77,12 @@
 }
 
 .interstitial__text-link {
-	color: var(--white);
+	color: $white;
 	margin-left: 30px;
 	text-decoration: underline !important;
 
 	&:hover {
-		color: var(--white);
+		color: $white;
 		text-decoration: none !important;
 	}
 }

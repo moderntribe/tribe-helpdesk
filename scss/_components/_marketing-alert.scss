@@ -1,6 +1,6 @@
 #tribe-marketing-alert {
 	color: white;
-	background-color: var(--blue-10) !important;
+	background-color: $blue-10;
 	display: flex;
 	flex-direction: row;
 	font-size: 17px;
@@ -17,11 +17,11 @@
 }
 
 #tribe-marketing-alert a {
-	color: white;
+	color: $white;
 	text-decoration: underline;
 }
 
 #tribe-marketing-alert a:hover {
-	color: white;
+	color: $white;
 	text-decoration: none;
 }

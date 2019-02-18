@@ -1,13 +1,13 @@
 .footer {
-	background: var(--gray-50);
-	color: var(--white);
+	background: $gray-50;
+	color: $white;
 	width: 100%;
 
 	a {
-		color: var(--white);
+		color: $white;
 
 		&:hover {
-			color: var(--blue-10);
+			color: $blue-10;
 			text-decoration: none;
 		}
 	}

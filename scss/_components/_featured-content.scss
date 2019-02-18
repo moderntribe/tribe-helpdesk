@@ -1,5 +1,5 @@
 .featured-content {
-	background-color: var(--gray-10);
+	background-color: $gray-10;
 	display: flex;
 	padding: 60px 0;
 	width: 100%;
@@ -28,9 +28,9 @@
 
 .featured-content a {
 	align-content: flex-start;
-	background: var(--blue-10);
+	background: $blue-10;
 	border-radius: 6px;
-	color: var(--white);
+	color: $white;
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
@@ -52,7 +52,7 @@
 }
 
 .featured-content a:hover {
-	background-color: var(--green-20);
+	background-color: $green-20;
 	top: -.5em;
 }
 

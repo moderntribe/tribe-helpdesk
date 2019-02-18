@@ -1,7 +1,7 @@
 .button {
 	border-radius: 5px;
 	cursor: pointer;
-	color: var(--white);
+	color: $white;
 	display: inline-block;
 	font-weight: 900;
 	font-size: 17px;
@@ -16,23 +16,23 @@
 	width: auto;
 
 	&:hover {
-		color: var(--white);
+		color: $white;
 		text-decoration: none;
 	}
 }
 
 .button--primary {
-	background-color: var(--blue-10);
+	background-color: $blue-10;
 
 	&:hover {
-		background-color: var(--blue-20);
+		background-color: $blue-20;
 	}
 }
 
 .button--secondary {
-	background-color: var(--green-10);
+	background-color: $green-10;
 
 	&:hover {
-		background-color: var(--green-20);
+		background-color: $green-20;
 	}
 }
