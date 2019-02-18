@@ -1,4 +1,8 @@
+// Import font
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+// Font variables
+$body-font: 'Source Sans Pro', Arial, Helvetica, sans-serif;
 
 h1 {
 	font-size: calc(32px + (50 - 32) * ((100vw - 300px) / (1600 - 300)));

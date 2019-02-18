@@ -13,7 +13,7 @@ body {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-family: $body-font;
 	max-width: $harbor;
 	justify-items: center;
 	margin: 0;
