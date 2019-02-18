@@ -255,9 +255,6 @@ jQuery( function( $ ) {
 	* version 2.6.0
 */
 
-(function($) {
-	'use strict';
-
 	function getLineNumbers(lineRangeString) {
 		var lineNumbers = [], range, lineNumberSections;
 
@@ -585,4 +582,3 @@ jQuery( function( $ ) {
 	});
 
 })(jQuery);
-} )()
