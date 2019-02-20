@@ -1,0 +1,88 @@
+.interstitial {
+	align-items: center;
+	background-color: $gray-10;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	@media (min-width: $lake) {
+		padding: 60px 0;
+	}
+}
+
+.interstitial--primary {
+	background: linear-gradient(137deg, $blue-20, $blue-10 38%, $green-10);
+}
+
+.interstitial__body {
+	display: flex;
+	justify-content: flex-start;
+	padding: 30px 15px;
+	width: 100%;
+
+	@media (min-width: $river) {
+		padding: 30px 30px 0 30px;
+	}
+
+	@media (min-width: $lake) {
+		max-width: 75%;
+	}
+}
+
+.interstitial__icon {
+	align-items: center;
+	background-color: $white;
+	border-radius: 50%;
+	display: none;
+	height: 130px;
+	justify-content: center;
+	margin: 0 30px;
+	position: relative;
+	text-align: center;
+	width: 130px;
+
+	img {
+		position: relative;
+		right: 6px;
+	}
+
+	@media (min-width: $river) {
+		display: flex;
+	}
+}
+
+.interstitial__content {
+	color: $white;
+	padding: 15px;
+
+	h3 {
+		margin: 0;
+	}
+
+	p {
+		font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+	}
+
+	@media (min-width: $river) {
+		padding: 0 15px;
+	}
+
+	@media (min-width: $lake) {
+		max-width: 60%;
+	}
+}
+
+.interstitial__actions {
+	margin-top: 30px;
+}
+
+.interstitial__text-link {
+	color: $white;
+	margin-left: 30px;
+	text-decoration: underline !important;
+
+	&:hover {
+		color: $white;
+		text-decoration: none !important;
+	}
+}

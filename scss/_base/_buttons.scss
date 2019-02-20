@@ -1,0 +1,38 @@
+.button {
+	border-radius: 5px;
+	cursor: pointer;
+	color: $white;
+	display: inline-block;
+	font-weight: 900;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 1;
+	height: auto;
+	margin-bottom: 30px;
+	padding: 14px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all .15s ease-in-out;
+	width: auto;
+
+	&:hover {
+		color: $white;
+		text-decoration: none;
+	}
+}
+
+.button--primary {
+	background-color: $blue-10;
+
+	&:hover {
+		background-color: $blue-20;
+	}
+}
+
+.button--secondary {
+	background-color: $green-10;
+
+	&:hover {
+		background-color: $green-20;
+	}
+}

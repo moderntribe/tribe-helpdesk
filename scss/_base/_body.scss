@@ -1,0 +1,26 @@
+html {
+	background-color: $gray-20;
+	display: flex;
+	justify-content: center;
+
+	@media (min-width: $harbor) {
+		align-items: center;
+	}
+}
+
+body {
+	background-color: $white;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-family: $body-font;
+	max-width: $harbor;
+	justify-items: center;
+	margin: 0;
+	padding: 0;
+
+	@media (min-width: $harbor) {
+		border-left: 1px solid $gray-20;
+		border-right: 1px solid $gray-20;
+	}
+}

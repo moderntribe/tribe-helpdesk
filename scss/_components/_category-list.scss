@@ -1,0 +1,66 @@
+// Overrides styles for an existing LA component
+.category-box {
+	background-color: $gray-10;
+	border: 1px solid $gray-20;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+.category-box li {
+	font-weight: 300;
+	padding-right: 5%;
+}
+
+.category-box li a {
+	color: $blue-10;
+}
+
+.category-box li a:hover {
+	color: $blue-20;
+	text-decoration: none;
+}
+
+.category-box-title {
+	border-bottom: none;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 0px;
+	font-weight: 400;
+}
+
+.category-box-title:before {
+	display: none;
+}
+
+.category-box-title .category-link {
+	color: $gray-30;
+}
+
+.category-box-title .category-link:hover {
+	color: $gray-70;
+	text-decoration: none;
+}
+
+.item-A:before {
+	display: none;
+}
+
+.panel-default > .panel-heading {
+	border-bottom: none;
+	background-color: $white;
+}
+
+.panel-default {
+	border: none;
+}
+
+.panel-default a {
+	color: $black;
+}
+
+.list-group-item {
+	border: none;
+	background: none;
+	padding-left: 124px;
+	padding-right: 124px;
+}

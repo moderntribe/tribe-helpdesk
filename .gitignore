@@ -2,5 +2,9 @@
 *.css.map
 *.vscode
 node_modules/
+<<<<<<< HEAD
 settings.json
 index.html
+=======
+settings.json
+>>>>>>> feature/120716-help-desk-lander

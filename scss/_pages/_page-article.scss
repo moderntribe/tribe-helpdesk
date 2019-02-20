@@ -1,0 +1,11 @@
+// Overrides existing LA element.
+// .page-article {}
+// LA class naming does not follow BEM, so grouping the child components in here.
+
+.article-page {
+	padding: 2em;
+}
+
+.article-content {
+	font-size: 1.25em;
+}

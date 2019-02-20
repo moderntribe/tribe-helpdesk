@@ -1,0 +1,70 @@
+// Styles overrides for the LiveAgent element.
+.navbar {
+	margin-bottom: 0;
+	position: relative;
+}
+
+/*
+ * Navbar
+ */
+ .navbar {
+	background: $black;
+}
+
+.navbar-brand {
+	width: 200px !important; // Override LA's media query style
+}
+
+.navbar-brand p {
+	padding-left: 50px;
+}
+
+.scrolled .navbar {
+	background: $black;
+}
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+	background: $black;
+}
+
+.navbar-nav > li > a {
+	color: $blue-10;
+	font-size: 15px;
+	font-weight: 200;
+	text-transform: uppercase;
+	transition: color .25s;
+}
+
+.nav>li>a:hover {
+	background: none;
+	color: $white;
+}
+
+a.navbar-brand {
+	position: relative;
+	display: block;
+	padding: 20px 15px;
+}
+
+// User avatar
+.nav>li#menu-item-user .Avatar {
+	border-radius: 50%;
+}
+
+// The entire user nav menu item
+.nav>li#menu-item-user.menu-item-admin>a#editProfileButton {
+	vertical-align: bottom;
+}
+
+.Avatar img {
+	border-radius: 50%;
+}
+
+.Avatar.Agent:before,
+.Avatar.Agent:after {
+	display: none;
+}
+
+.navbar .glyphicon {
+	display: none; // No icons in the nav, please.
+}

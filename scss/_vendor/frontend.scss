@@ -6,6 +6,7 @@
  *
  * https://github.com/mt-support/tribe-helpdesk
  */
+<<<<<<< HEAD:scss/frontend.scss
 
 /*
  * Custom Marketing Alert
@@ -37,6 +38,8 @@
   color: white;
   text-decoration: none;
 }
+=======
+>>>>>>> feature/120716-help-desk-lander:scss/_vendor/frontend.scss
 
 /*
  * Custom Text in the Ticket Submission page
@@ -54,6 +57,7 @@
 
 .global-search {
   padding-bottom: 2rem;
+<<<<<<< HEAD:scss/frontend.scss
 }
 
 /*
@@ -123,6 +127,8 @@ a.navbar-brand {
   position: relative;
   display: block;
   padding: 20px 15px;
+=======
+>>>>>>> feature/120716-help-desk-lander:scss/_vendor/frontend.scss
 }
 
 /*
@@ -218,69 +224,6 @@ a.navbar-brand {
 .RankingBox {
   border-top: none;
   border-bottom: none;
-}
-
-/*
- * Categories
- */
-.category-box-title:before {
-  display: none;
-}
-
-.category-box {
-  border: 1px solid #e0e0e0;
-  margin-bottom: 10px;
-  padding: 0px;
-  webkit-transition: background .30s;
-  -moz-transition: background .30s;
-  -o-transition: background .30s;
-  transition: background .30s;
-}
-
-.category-box-title {
-  border-bottom: none;
-  text-align: center;
-  font-size: 20px;
-  padding-left: 0px;
-  font-weight: 400;
-}
-
-.category-box-title a:hover {
-  text-decoration: none;
-}
-
-.item-A:before {
-  display: none;
-}
-
-.category-box li {
-  padding-right: 5%;
-  font-weight: 300;
-}
-
-.category-box a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.panel-default > .panel-heading {
-  border-bottom: none;
-  background-color: white;
-}
-
-.panel-default {
-  border: none;
-}
-
-.panel-default a {
-  color: black;
-}
-
-.list-group-item {
-  border: none;
-  background: none;
-  padding-left: 124px;
-  padding-right: 124px;
 }
 
 /*
