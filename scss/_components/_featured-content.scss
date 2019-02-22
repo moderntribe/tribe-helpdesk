@@ -1,6 +1,7 @@
 .featured-content {
 	background-color: $gray-10;
 	display: flex;
+	justify-content: center;
 	padding: 60px 0;
 	width: 100%;
 
@@ -15,7 +16,7 @@
 	flex-flow: column nowrap;
 	justify-content: center;
 	padding: 0 1em;
-	width: 100%;
+	width: 90%;
 
 	@media (min-width: $river) {
 		flex-flow: row wrap;
