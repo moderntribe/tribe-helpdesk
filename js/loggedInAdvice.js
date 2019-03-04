@@ -1,5 +1,5 @@
 // Login form advice
-var loginFormAdvice = 
+var loggedInFormAdvice = 
   '<p class="tribe-support-advice">⚠ Please note that your login credentials for '
   + '<a href="https://theeventscalendar.com">theeventscalendar.com</a> will not work here! Our Help Desk runs '
   + 'on a different platform and a separate account is needed.</p>'

@@ -6,6 +6,8 @@ var rename       = require( 'gulp-rename' );
 var concat       = require( 'gulp-concat' );
 var uglify       = require( 'gulp-uglify' );
 var livereload   = require( 'gulp-livereload' );
+var wrapper      = require( 'gulp-wrapper' );
+var babel        = require( 'gulp-babel' );
 
 /**
  * Compile styles
@@ -23,8 +25,29 @@ gulp.task( 'styles', function() {
  * Concatenate scripts
  */
 gulp.task( 'scripts', function() {
-	return gulp.src( './js/*.js' )
+	// All of our code will execute in a scope where jQuery is
+	// defined and aliased to $ (or else if jQuery is not available
+	// it will not run at all)
+	let jQueryWrapper = {
+		header: `
+			( function() { 
+				// Safety check: we expect jQuery to be present, but this may change unexpectedly
+				if ( 'function' !== typeof jQuery ) {
+					return;
+				}
+
+				jQuery( function( $ ) { 
+		`,
+		footer: `
+				} ); // End of jQuery document ready block
+			} )(); // End of anonymous function wrapper
+		`
+	}
+
+	return gulp.src( './js/*.js' )	
 		.pipe( concat( 'frontend.js' ) )
+		.pipe( wrapper( jQueryWrapper ) )
+		.pipe( babel() )
 		.pipe( gulp.dest( 'dist' ) )
 		.pipe( uglify() )
 		.pipe( rename( 'frontend.min.js' ) )
