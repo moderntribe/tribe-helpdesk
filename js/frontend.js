@@ -41,7 +41,6 @@ var loginFormAdvice = `
 	</p>
 `;
 
-
 // Logged in landing header advice
 var loggedInLanderPageAdvice = `
 	<p class="tribe-support-advice">
@@ -81,7 +80,7 @@ var isMyTicketsPage = currentUrl.match( /my_tickets/ ) !== null
 // Test if we're on the Submit Ticket page
 var isSubmitTicketPage = currentUrl.match( /submit_ticket/ ) !== null
 
-var marginTop = $( '.container.inner-margin-top' )
+var $marginTop = $( '.container.inner-margin-top' )
 
 /**
  * Return the page URL, but with any trailing slashes and the protocol 
@@ -108,7 +107,7 @@ function addMarketingAlert( message ) {
 	// Add the tribe-marketing-alert class to the body tag so we can style appropriately
 	document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert')
 	// Add the actual message
-	marginTop.before( message )
+	$marginTop.before( message )
 }
 
 function addAccountHelperText() {
@@ -152,6 +151,5 @@ function optionallyRemovePresalesForm() {
 	$presalesForm.hide()
 }
 
-addMarketingAlert( marketingAlert )
 addAccountHelperText()
 optionallyRemovePresalesForm()

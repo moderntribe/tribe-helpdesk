@@ -48,13 +48,6 @@ function getCurrentUrl() {
 	return url;
 }
 
-function addMarketingAlert( message ) {
-	// Add the tribe-marketing-alert class to the body tag so we can style appropriately
-	document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert')
-	// Add the actual message
-	marginTop.before( message )
-}
-
 function addAccountHelperText() {
 	// No jumbotron? Weird! Let's bail rather than try to inject content into a 
 	// potentially modified/updated template
