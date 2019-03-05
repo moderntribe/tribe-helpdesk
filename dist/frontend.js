@@ -471,7 +471,7 @@
 
     addComponentFeaturedContent(componentFeaturedContent);
     addComponentPortals(componentPortals);
-    addfooterding(categoryListHeading);
+    addCategoryHeading(categoryListHeading);
     addComponentInterstitial(componentInterstitial);
   }); // End of jQuery document ready block
 })(); // End of anonymous function wrapper
