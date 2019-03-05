@@ -124,9 +124,6 @@ var categoryListHeading = `
 	</div>
 `;
 
-
-
-
 function addComponentFeaturedContent( content ) {
 	if ( isHomePage === true ) {
 		$jumbotron.after( content )
