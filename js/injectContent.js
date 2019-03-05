@@ -66,5 +66,4 @@ function optionallyRemovePresalesForm() {
 	$presalesForm.hide()
 }
 
-addAccountHelperText()
 optionallyRemovePresalesForm()
