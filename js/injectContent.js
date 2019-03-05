@@ -55,15 +55,3 @@ function addJumbotronMessage( message ) {
 	// Add the actual message
 	$jumbotronHeading.after( message )
 }
-
-function optionallyRemovePresalesForm() {
-	// If the user is not logged in or else if the presales form can't be located
-	// we should not interfere
-	if ( ! isLoggedIn || $presalesForm.length !== 1 ) {
-	return
-	}
-
-	$presalesForm.hide()
-}
-
-optionallyRemovePresalesForm()
