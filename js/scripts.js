@@ -126,20 +126,12 @@ var categoryListHeading = `
 
 
 var $navbarClass = $( '.navbar' )
-var $jumbotron = $( '.jumbotron' )
-var $jumbotronSearchField = $( '.input-group' )
 var $marginTop = $( '.margin-top' )
 var $categoryList = $( '.category-list' )
 var $marketingClass = $( '#tribe-marketing-alert' )
 var $featuredClass = $( '.featured-content' )
 var $portalsClass = $( '.portals' )
 var $footerClass = $( 'footer' ).addClass( 'footer' )
-
-function addJumbotronSearch( content ) {
-	if ( isHomePage === true ) {
-		$jumbotronSearchField.after( content )
-	}
-}
 
 function addComponentFeaturedContent( content ) {
 	if ( isHomePage === true ) {
@@ -165,7 +157,6 @@ function addComponentInterstitial( content ) {
 	}
 }
 
-addJumbotronSearch( jumbotronSearch )
 addComponentFeaturedContent( componentFeaturedContent )
 addComponentPortals( componentPortals )
 addCategoryHeading( categoryListHeading )
