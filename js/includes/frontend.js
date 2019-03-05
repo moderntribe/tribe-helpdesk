@@ -31,12 +31,7 @@ function getCurrentUrl() {
 	return url;
 }
 
-function addMarketingAlert( message ) {
-	// Add the tribe-marketing-alert class to the body tag so we can style appropriately
-	document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert')
-	// Add the actual message
-	$navbar.before( message )
-}
+
 
 function addJumbotronMessage( message ) {
 	// Add the tribe-jumbotron-message class to the body tag so we can style appropriately
@@ -56,5 +51,5 @@ function optionallyRemovePresalesForm() {
 	$presalesForm.hide()
 }
 
-addMarketingAlert( marketingAlert )
+
 optionallyRemovePresalesForm()

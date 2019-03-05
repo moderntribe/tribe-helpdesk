@@ -1,4 +1,3 @@
-var $jumbotron = $( '.jumbotron' )
 var $jumbotronHeading = $( '.jumbotron h1' )
 var $jumbotronSearchField = $( '.input-group' )
 

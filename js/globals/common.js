@@ -23,6 +23,7 @@ function getCurrentUrl() {
 var $categoryList = $( '.category-list' )
 var $featuredContent = $( '.featured-content' )
 var $footer = $( 'footer' ).addClass( 'footer' )
+var $jumbotron = $( '.jumbotron' )
 var $marginTop = $( '.margin-top' )
 var $marketingAlert = $( '#tribe-marketing-alert' )
 var $navbar = $( '.navbar' )
