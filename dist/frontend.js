@@ -180,7 +180,6 @@
       $presalesForm.hide();
     }
 
-    addMarketingAlert(marketingAlert);
     addAccountHelperText();
     optionallyRemovePresalesForm();
     /**
