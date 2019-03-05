@@ -165,7 +165,6 @@ function addComponentInterstitial( content ) {
 	}
 }
 
-addMarketingAlert( marketingAlert )
 addJumbotronSearch( jumbotronSearch )
 addComponentFeaturedContent( componentFeaturedContent )
 addComponentPortals( componentPortals )

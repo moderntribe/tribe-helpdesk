@@ -8,13 +8,7 @@
 
   jQuery(function ($) {
     // Marketing alert
-    var marketingAlert = "\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div><span class=\"emoji\">\u26A0\uFE0F</span></div>\n\t\t<div>\n\t\t\t<strong>Heads up!</strong> \n\t\t\tResponse times for support requests are a little longer than usual. \n\t\t\tPlease expect up to 3 business days for a reply.\n\t\t</div>\n\t</div>\n"; // Some general advice we'll show as needed in the jumbotron area
-
-    var loggedOutUsersAdvice = "\n\t<p class=\"tribe-support-advice\"> \n\t\t<strong>Existing customer? To receive the fastest support possible,\n\t\tplease <a href=\"https://support.theeventscalendar.com/login\">login</a> before posting.</strong>\n\t\tIn some cases, you may need to register first of all: be sure to do so using the same email address \n\t\tyou used when purchasing your license key!\n\t</p>\n\t<p class=\"tribe-support-advice\">\n\t\tTo learn more about accessing support or if you experience any problems, please refer to\n\t\t<a href=\"https://support.theeventscalendar.com/812859-Accessing-Support\">this article</a>.\n\t</p>\n"; // Login form advice
-
-    var loginFormAdvice = "\n\t<p class=\"tribe-support-advice\">\n\t\t\u26A0 Please note that your login credentials for <a href=\"https://theeventscalendar.com\">theeventscalendar.com</a> \n\t\twill not work here! Our Help Desk runs on a different platform and a separate account is needed.\n\t</p>\n\t<p class=\"tribe-support-advice\">\n\t\tWe do automatically link accounts where possible, though. So, for most customers, if you first login to \n\t\t<a href=\"https://theeventscalendar.com\">theeventscalendar.com</a> you should be automatically logged in here, \n\t\ttoo. If you find that doesn&#146;t work for you, please try a password reset in the first instance or else \n\t\tregister for a new account.\n\t</p>\n\t<p class=\"tribe-support-advice\">\n\t\tBe sure to use the same email address as you used when purchasing your license key!\n\t</p>\n"; // Logged in landing header advice
-
-    var loggedInLanderPageAdvice = "\n\t<p class=\"tribe-support-advice\">\n\t\tWe&#146;re here to help with all of your questions about Modern Tribe&#146;s event and ticketing solutions.\n\t</p>\n\t<p class=\"tribe-support-advice\">\n\t\tWhether you need some tips to get the most from your calendar or are experiencing an unexpected bug or conflict, \n\t\twe&#146;ll do our very best to help you. Please note that at busy periods there may be a delay of upto 48 hours \n\t\tbefore we can reply.\n\t</p>\n"; // "Jumbotron" heading element
+    var marketingAlert = "\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div><span class=\"emoji\">\u26A0\uFE0F</span></div>\n\t\t<div>\n\t\t\t<strong>Heads up!</strong> \n\t\t\tResponse times for support requests are a little longer than usual. \n\t\t\tPlease expect up to 3 business days for a reply.\n\t\t</div>\n\t</div>\n"; // "Jumbotron" heading element
 
     var $jumbotronHeading = $('.jumbotron h1'); // This form currently is embedded in the portal homepage
 
@@ -34,6 +28,7 @@
 
     var isSubmitTicketPage = currentUrl.match(/submit_ticket/) !== null;
     var $marginTop = $('.container.inner-margin-top');
+    var $navbar = $('.navbar');
     /**
      * Return the page URL, but with any trailing slashes and the protocol 
      * ("http://" or "https://") stripped for safer comparisons.
@@ -59,28 +54,7 @@
       // Add the tribe-marketing-alert class to the body tag so we can style appropriately
       document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert'); // Add the actual message
 
-      $marginTop.before(message);
-    }
-
-    function addAccountHelperText() {
-      // No jumbotron? Weird! Let's bail rather than try to inject content into a 
-      // potentially modified/updated template
-      if ($jumbotronHeading.length !== 1) {
-        return;
-      } // Lander page advice for logged in users
-
-
-      if (isLoggedIn && isHomePage) {
-        addJumbotronMessage(loggedInLanderPageAdvice);
-      } // If the user is logged out and is visiting a page where the login form appears, add
-      // appropriate advice 
-      else if (isLoggedOut && (isLoginPage || isSubmitTicketPage || isMyTicketsPage)) {
-          addJumbotronMessage(loginFormAdvice);
-        } // If the user is logged out and is visiting the home page (where the login form *does not*
-        // appear), apply different wording
-        else if (isLoggedOut && isHomePage) {
-            addJumbotronMessage(loggedOutUsersAdvice);
-          }
+      $navbar.before(message);
     }
 
     function addJumbotronMessage(message) {
@@ -100,7 +74,7 @@
       $presalesForm.hide();
     }
 
-    addAccountHelperText();
+    addMarketingAlert(marketingAlert);
     optionallyRemovePresalesForm();
     /**
      * Finds and removes any category boxes that are devoid of articles.
@@ -159,7 +133,6 @@
       }
     }
 
-    addMarketingAlert(marketingAlert);
     addJumbotronSearch(jumbotronSearch);
     addComponentFeaturedContent(componentFeaturedContent);
     addComponentPortals(componentPortals);
