@@ -341,27 +341,7 @@
       $('[data-gist-id]').gist();
     }); // Marketing alert
 
-    var marketingAlert = "\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div><span class=\"emoji\">\u26A0\uFE0F</span></div>\n\t\t<div>\n\t\t\t<strong>Heads up!</strong> \n\t\t\tResponse times for support requests are a little longer than usual. \n\t\t\tPlease expect up to 3 business days for a reply.\n\t\t</div>\n\t</div>\n"; // "Jumbotron" heading element
-
-    var $jumbotronHeading = $('.jumbotron h1'); // This form currently is embedded in the portal homepage
-
-    var $presalesForm = $('#presales-form'); // Test if the current user appears to be logged in
-
-    var isLoggedIn = $('#menu-item-user').length === 1; // Reverse of the above, to help us write cleaner conditionals
-
-    var isLoggedOut = !isLoggedIn; // We'll use this for further comparisons
-
-    var currentUrl = getCurrentUrl(); // Test if we're on the support portal homepage
-
-    var isHomePage = currentUrl.match(/\//) === null; // Test if we're on the login page
-
-    var isLoginPage = currentUrl.match(/login/) !== null; // Test if we're on the My Tickets page
-
-    var isMyTicketsPage = currentUrl.match(/my_tickets/) !== null; // Test if we're on the Submit Ticket page
-
-    var isSubmitTicketPage = currentUrl.match(/submit_ticket/) !== null;
-    var $marginTop = $('.container.inner-margin-top');
-    var $navbar = $('.navbar');
+    var marketingAlert = "\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div><span class=\"emoji\">\u26A0\uFE0F</span></div>\n\t\t<div>\n\t\t\t<strong>Heads up!</strong> \n\t\t\tResponse times for support requests are a little longer than usual. \n\t\t\tPlease expect up to 3 business days for a reply.\n\t\t</div>\n\t</div>\n";
     /**
      * Return the page URL, but with any trailing slashes and the protocol 
      * ("http://" or "https://") stripped for safer comparisons.
