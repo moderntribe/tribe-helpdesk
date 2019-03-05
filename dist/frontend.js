@@ -7,12 +7,50 @@
   }
 
   jQuery(function ($) {
+    /**
+    * Return the page URL, but with any trailing slashes and the protocol 
+    * ("http://" or "https://") stripped for safer comparisons.
+    */
+    function getCurrentUrl() {
+      var url = document.location.toString();
+      var protocolSeparator = url.match(/:\/\//); // Remove trailing slash for uniformity
+
+      if ('/' === url.slice(-1)) {
+        url = url.slice(0, -1);
+      } // Remove the protocol
+
+
+      if (protocolSeparator !== null) {
+        url = url.slice(protocolSeparator.index + 3);
+      }
+
+      return url;
+    } // Common selectors used in multiple include files
+
+
+    var $categoryList = $('.category-list');
+    var $featuredContent = $('.featured-content');
+    var $footer = $('footer').addClass('footer');
+    var $marginTop = $('.margin-top');
+    var $marketingAlert = $('#tribe-marketing-alert');
+    var $navbar = $('.navbar');
+    var $presalesForm = $('#presales-form');
+    var $portals = $('.portals'); // Common definitions/properties
+
+    var currentUrl = getCurrentUrl();
+    var isHomePage = currentUrl.match(/\//) === null;
+    var isLoggedIn = $('#menu-item-user').length === 1;
+    var isLoggedOut = !isLoggedIn;
+    var isLoginPage = currentUrl.match(/login/) !== null;
+    var isMyTicketsPage = currentUrl.match(/my_tickets/) !== null;
+    var isSubmitTicketPage = currentUrl.match(/submit_ticket/) !== null;
     /*
     *	Gists oEmbed
     * author: Blair Vanderhoof
     * https://github.com/blairvanderhoof/gist-embed
     * version 2.6.0
     */
+
     function getLineNumbers(lineRangeString) {
       var lineNumbers = [],
           range,
@@ -406,13 +444,6 @@
     var componentPortals = "\n\t<div class=\"portals\">\n\t\t<div class=\"portals__portal\">\n\t\t\t<div class=\"portals__icon\">\n\t\t\t<img src=\"https://theeventscalendar.com/content/themes/tribe-ecp/img/icons/icon-support-knowledgebase.png\" />\n\t\t</div>\n\t\t<div class=\"portals__content\">\n\t\t\t<h2>Getting Started</h2>\n\t\t<p>Articles and tutorials on everything from getting started to customizing the plugins, troubleshooting, integrations and more!</p>\n\t\t<ul>\n\t\t\t<li><a href=\"https://support.theeventscalendar.com/342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO\">The Events Calendar</a></li>\n\t\t\t<li><a href=\"https://support.theeventscalendar.com/259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus\">Event Tickets</a></li>\n\t\t\t<li><a href=\"https://support.theeventscalendar.com/710770-New-User-Primer-Event-Aggregator\">Event Aggregator</a></li>\n\t\t\t<li><a href=\"https://support.theeventscalendar.com/890921-New-User-Primer-Community-Events\">Community Events</a></li>\n\t\t</ul>\n\t\t<a href=\"https://theeventscalendar.com/knowledgebase-category/primers/\" class=\"button button--primary\">All Guides</a>\n\t\t</div>\n\t\t</div>\n\t\t<div class=\"portals__portal\">\n\t\t\t<div class=\"portals__icon\">\n\t\t\t\t<img src=\"https://theeventscalendar.com/content/themes/tribe-ecp/img/icons/icon-support-docs.png\" />\n\t\t\t</div>\n\t\t\t<div class=\"portals__content\">\n\t\t\t\t<h2>Trending Topics</h2>\n\t\t\t\t<p>A few of the most popular guides folks are reading that you may also find helpful for getting the most from the plugins.</p>\n\t\t\t\t<ul>\n\t\t\t\t\t<li><a href=\"https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages\">Shortcodes</a></li>\n\t\t\t\t\t<li><a href=\"https://support.theeventscalendar.com/303643-Testing-for-conflicts\">Testing for Conflicts</a></li>\n\t\t\t\t\t<li><a href=\"https://theeventscalendar.com/customizations/\">Customization</a></li>\n\t\t\t\t\t<li><a href=\"https://support.theeventscalendar.com/969953-CSV-file-examples-for-importing\">Importing Events</a></li>\n\t\t\t\t</ul>\n\t\t\t\t<a href=\"https://theeventscalendar.com/functions/\" class=\"button button--primary\">Visit Docs</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n";
     var componentInterstitial = "\n\t<div class=\"interstitial\">\n\t\t<div class=\"interstitial__body interstitial--primary\">\n\t\t\t<div class=\"interstitial__icon\">\n\t\t\t\t<img src=\"https://theeventscalendar.com/content/themes/tribe-ecp/img/icons/icon-support-forum.png\">\n\t\t\t</div>\n\t\t\t<div class=\"interstitial__content\">\n\t\t\t\t<h3>Looking for More Help?</h3>\n\t\t\t\t<p>If you have looked through the documentation and knowledgebase and still have questions, then reach out to our friendly support staff and we will help you out.</p>\n\t\t\t\t<div class=\"interstitial__actions\">\n\t\t\t\t\t<a href=\"https://support.theeventscalendar.com/submit_ticket\" class=\"button button--secondary\">Open Ticket</a>\n\t\t\t\t\t<a href=\"https://wordpress.org/support/plugin/the-events-calendar/\" class=\"interstitial__text-link\">Free plugin support</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n";
     var categoryListHeading = "\n\t<div class=\"section-heading\">\n\t\t<h2>Guides & Tutorials</h2>\n\t</div>\n";
-    var $navbarClass = $('.navbar');
-    var $marginTop = $('.margin-top');
-    var $categoryList = $('.category-list');
-    var $marketingClass = $('#tribe-marketing-alert');
-    var $featuredClass = $('.featured-content');
-    var $portalsClass = $('.portals');
-    var $footerClass = $('footer').addClass('footer');
 
     function addComponentFeaturedContent(content) {
       if (isHomePage === true) {
@@ -434,13 +465,13 @@
 
     function addComponentInterstitial(content) {
       if (isHomePage === true) {
-        $footerClass.before(content);
+        $footer.before(content);
       }
     }
 
     addComponentFeaturedContent(componentFeaturedContent);
     addComponentPortals(componentPortals);
-    addCategoryHeading(categoryListHeading);
+    addfooterding(categoryListHeading);
     addComponentInterstitial(componentInterstitial);
   }); // End of jQuery document ready block
 })(); // End of anonymous function wrapper
