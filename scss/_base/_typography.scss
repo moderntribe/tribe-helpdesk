@@ -1,8 +1,8 @@
-// Import font
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+// Web Fonts served by TEC.com by way of Typography.com
+// Linked up in the LiveAgent tracking codes options
 
 // Font variables
-$body-font: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+$body-font: "Gotham 4r", "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
 
 h1 {
 	font-size: calc(32px + (50 - 32) * ((100vw - 300px) / (1600 - 300)));
