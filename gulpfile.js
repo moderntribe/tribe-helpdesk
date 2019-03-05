@@ -44,7 +44,7 @@ gulp.task( 'scripts', function() {
 		`
 	}
 
-	return gulp.src( './js/*.js' )	
+	return gulp.src( './js/**/*.js' )	
 		.pipe( concat( 'frontend.js' ) )
 		.pipe( wrapper( jQueryWrapper ) )
 		.pipe( babel() )
