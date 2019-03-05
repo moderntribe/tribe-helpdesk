@@ -33,7 +33,7 @@
     var isMyTicketsPage = currentUrl.match(/my_tickets/) !== null; // Test if we're on the Submit Ticket page
 
     var isSubmitTicketPage = currentUrl.match(/submit_ticket/) !== null;
-    var marginTop = $('.container.inner-margin-top');
+    var $marginTop = $('.container.inner-margin-top');
     /**
      * Return the page URL, but with any trailing slashes and the protocol 
      * ("http://" or "https://") stripped for safer comparisons.
@@ -59,7 +59,7 @@
       // Add the tribe-marketing-alert class to the body tag so we can style appropriately
       document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert'); // Add the actual message
 
-      marginTop.before(message);
+      $marginTop.before(message);
     }
 
     function addAccountHelperText() {
@@ -100,7 +100,6 @@
       $presalesForm.hide();
     }
 
-    addMarketingAlert(marketingAlert);
     addAccountHelperText();
     optionallyRemovePresalesForm(); // "Jumbotron" heading element
 
@@ -141,13 +140,6 @@
       }
 
       return url;
-    }
-
-    function addMarketingAlert(message) {
-      // Add the tribe-marketing-alert class to the body tag so we can style appropriately
-      document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert'); // Add the actual message
-
-      marginTop.before(message);
     }
 
     function addAccountHelperText() {

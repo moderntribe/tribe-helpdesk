@@ -89,6 +89,5 @@ function optionallyRemovePresalesForm() {
 	$presalesForm.hide()
 }
 
-addMarketingAlert( marketingAlert )
 addAccountHelperText()
 optionallyRemovePresalesForm()
