@@ -20,7 +20,7 @@
 
     var currentUrl = getCurrentUrl(); // Test if we're on the support portal homepage
 
-    var isHomePage = 'support.theeventscalendar.com' === currentUrl; // Test if we're on the login page
+    var isHomePage = currentUrl.match(/\//) === null; // Test if we're on the login page
 
     var isLoginPage = currentUrl.match(/login/) !== null; // Test if we're on the My Tickets page
 
