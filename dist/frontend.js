@@ -35,6 +35,7 @@
     var $marginTop = $('.margin-top');
     var $marketingAlert = $('#tribe-marketing-alert');
     var $navbar = $('.navbar');
+    var $navItemTickets = $('#menu-item-mytickets');
     var $presalesForm = $('#presales-form');
     var $portals = $('.portals'); // Common definitions/properties
 
@@ -340,22 +341,64 @@
     $(function () {
       // find all elements containing "data-gist-id" attribute.
       $('[data-gist-id]').gist();
-    });
+    }); // Targets elements with .sticky for sticky scrolling
+
+    jQuery.event.add(window, 'resize', stickyScroll);
+
+    function stickyScroll() {
+      var $sticky = $('.sticky');
+      var $stickyrStopper = $('.ArticleInfo');
+      var viewportWidth = $(window).width();
+
+      if (!!$sticky.offset()) {
+        // make sure ".sticky" element exists
+        var generalSidebarHeight = $sticky.innerHeight();
+        var stickyTop = $sticky.offset().top;
+        var stickOffset = 0;
+        var stickyStopperPosition = $stickyrStopper.offset().top;
+        var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
+        var diff = stopPoint + stickOffset;
+        $(window).scroll(function () {
+          // scroll event
+          var windowTop = $(window).scrollTop(); // returns number
+
+          if (stopPoint < windowTop) {
+            $sticky.css({
+              position: 'absolute',
+              right: '0',
+              top: diff
+            });
+          } else if (stickyTop < windowTop + stickOffset) {
+            $sticky.css({
+              position: 'fixed',
+              marginTop: '110px',
+              right: '0',
+              top: stickOffset
+            });
+          } else {
+            $sticky.css({
+              position: 'absolute',
+              right: '0',
+              marginTop: '0',
+              top: 'initial'
+            });
+          }
+        });
+      }
+    }
     /**
-     * Adds an alert to the portal homescreen.
+     * Adds an alert to the portal header.
      * 
      * The following shows the expected structure (as supported by our current CSS):
      * 
-     *     <div id="tribe-marketing-alert">
-     *         <div><span class="emoji">⚠️</span></div>
-     *         <div>
-     *             <strong>We want to help you!</strong> 
-     *             Don't forget to search our knowledgebase and&mdash;where appropriate&mdash;perform
-     *             <a href="https://support.theeventscalendar.com/303643-Testing-for-conflicts">basic troubleshooting</a>
-     *             before creating a new support ticket!
-     * 	       </div>
-     *     </div>
+     *	<div id="tribe-marketing-alert">
+    			<div class="tribe-marketing-alert__content">
+    				<p><span class="emoji">⚠️ Heads up!</span>
+    				Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.</p>
+    			</div>
+    		</div>
      */
+
 
     function addAlert(message) {
       // Add the tribe-marketing-alert class to the body tag so we can style appropriately
@@ -363,6 +406,7 @@
 
       $navbar.before(message);
     } // Popular Search Items
+
 
     var jumbotronSearch = "\n\t<div class=\"jumbotron__search\">\n\t\t<ul>\n\t\t\t<li><strong>Popular:</strong></li>\n\t\t\t<li><a href=\"https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages\">Shortcodes</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/functions/\">Documentation</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/customizations/\">Customization</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/subscription-information/\">Orders</a></li>\n\t\t</ul>\n\t</div>\n";
     var componentFeaturedContent = "\n\t<section class=\"featured-content\">\n\t\t<div class=\"featured-content__wrapper\">\n\t \t<a href=\"https://support.theeventscalendar.com/153124-Themers-Guide\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/icon-brush-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Themer's Guide</h3>\n\t\t\t\t\t\t<p>Every calendar view is a template that can be overridden in your theme.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t \t<a href=\"https://theeventscalendar.com/extensions/\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/extensions-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Extension Library</h3>\n\t\t\t\t\t\t<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t \t<a href=\"https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Plugin Functions</h3>\n\t\t\t\t\t\t<p>Every available function in our products to use as filters for custom functionality.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t \t<a href=\"https://support.theeventscalendar.com/527363-Refund-policy\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2019/02/icon-return.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Orders & Refunds</h3>\n\t\t\t\t\t\t<p>Is the plugin not right for your project? Heres info on orders and refund requests.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t\t</div>\n\t</section>\n"; // Portals
@@ -436,6 +480,22 @@
 
     $('.category-list').find('.alert.alert-empty').each(function () {
       $(this).parents('.col-md-4.col-sm-6').hide();
-    });
+    }); // Adds a sticky class to the sidebar element on articles
+    // See js/vendor/sticky.js for sticky function
+
+    function addCategoryHeading() {
+      if (isHomePage !== true) {
+        $('.col-md-3').addClass('sticky');
+        stickyScroll();
+      }
+    }
+
+    addCategoryHeading(); // Adds a link back to TEC.com in the main menu.
+
+    addMainSiteLink("\n\t<li><a href=\"https://theeventscalendar.com\">Main Site</li>\n");
+
+    function addMainSiteLink(link) {
+      $navItemTickets.before(link);
+    }
   }); // End of jQuery document ready block
 })(); // End of anonymous function wrapper
