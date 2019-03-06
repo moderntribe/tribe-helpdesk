@@ -44,7 +44,11 @@ gulp.task( 'scripts', function() {
 		`
 	}
 
-	return gulp.src( './js/*.js' )	
+	return gulp.src( [
+			'./js/globals/**/*.js',
+			'./js/vendor/**/*.js',
+			'./js/includes/**/*.js',
+		] )	
 		.pipe( concat( 'frontend.js' ) )
 		.pipe( wrapper( jQueryWrapper ) )
 		.pipe( babel() )

@@ -78,8 +78,13 @@
 
 .interstitial__text-link {
 	color: $white;
-	margin-left: 30px;
+	display: block;
 	text-decoration: underline !important;
+
+	@media (min-width: $river) {
+		display: inline;
+		margin-left: 30px;
+	}
 
 	&:hover {
 		color: $white;
