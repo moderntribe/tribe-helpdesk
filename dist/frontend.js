@@ -492,7 +492,7 @@
 
     addCategoryHeading(); // Adds a link back to TEC.com in the main menu.
 
-    addMainSiteLink("\n\t<li><a href=\"https://theeventscalendar.com\">Main Site</li>\n");
+    addMainSiteLink("\n\t<li><a href=\"https://theeventscalendar.com\">Main Site</a></li>\n");
 
     function addMainSiteLink(link) {
       $navItemTickets.before(link);
