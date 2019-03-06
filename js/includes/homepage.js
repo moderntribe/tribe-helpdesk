@@ -20,7 +20,7 @@ var componentFeaturedContent = `
 	 				<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-brush-85x85.png" alt="" />
 	 			</div>
 	 			<div class="featured-content__body">
-						<h4>Themer\s Guide</h4>
+						<h3>Themer\'s Guide</h3>
 						<p>Every calendar view is a template that can be overridden in your theme.</p>
 	 			</div>
 	 		</article>
@@ -31,7 +31,7 @@ var componentFeaturedContent = `
 	 				<img src="https://theeventscalendar.com/content/uploads/2016/07/extensions-85x85.png" alt="" />
 	 			</div>
 	 			<div class="featured-content__body">
-						<h4>Extension Library</h4>
+						<h3>Extension Library</h3>
 						<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>
 	 			</div>
 	 		</article>
@@ -42,7 +42,7 @@ var componentFeaturedContent = `
 	 				<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png" alt="" />
 	 			</div>
 	 			<div class="featured-content__body">
-						<h4>Plugin Functions</h4>
+						<h3>Plugin Functions</h3>
 						<p>Every available function in our products to use as filters for custom functionality.</p>
 	 			</div>
 	 		</article>
@@ -53,7 +53,7 @@ var componentFeaturedContent = `
 	 				<img src="https://theeventscalendar.com/content/uploads/2019/02/icon-return.png" alt="" />
 	 			</div>
 	 			<div class="featured-content__body">
-						<h4>Orders & Refunds</h4>
+						<h3>Orders & Refunds</h3>
 						<p>Is the plugin not right for your project? Here\s info on orders and refund requests.</p>
 	 			</div>
 	 		</article>
