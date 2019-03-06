@@ -4,11 +4,12 @@
 		return;
 	}
 
-	// Marketing alert
+	// Marketing alert - this is just placeholder text (and demonstrates the basic structure you should use).
+	// You can add an alert by passing this or a similar string to addMarketingAlert().
 	var marketingAlert =
 		  '<div id="tribe-marketing-alert">'
 		+ '<div><span class="emoji">⚠️</span></div>'
-		+ '<div><strong>Heads up!</strong> Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.'
+		+ '<div><strong>Help us to help you!</strong> Please take the time to <a href="https://support.theeventscalendar.com/303643-Testing-for-conflicts">test for conflicts</a> before reporting a problem.'
 		+ '</div></div>'
 	
 	// Some general advice we'll show as needed in the jumbotron area
@@ -140,7 +141,6 @@
 			$presalesForm.hide()
 		}
 
-		addMarketingAlert( marketingAlert )
 		addAccountHelperText()
 		optionallyRemovePresalesForm()
 
