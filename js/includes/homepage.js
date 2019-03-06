@@ -36,7 +36,7 @@ var componentFeaturedContent = `
 	 			</div>
 	 		</article>
 			</a>
-	 	<a href="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png">
+	 	<a href="https://theeventscalendar.com/functions/">
 	 		<article class="featured-content__item">
 	 			<div class="featured-content__icon">
 	 				<img src="https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png" alt="" />
