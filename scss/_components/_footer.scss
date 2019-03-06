@@ -14,10 +14,11 @@
 }
 
 .footer__wrapper {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 30px;
+	padding: 5px 30px;
 
 	@media (min-width: $lake) {
 		flex-direction: row;
@@ -26,10 +27,11 @@
 }
 
 .footer__brand {
-	display: flex;
 	margin-bottom: 15px;
 
 	@media (min-width: $river) {
+		flex: 1;
+		justify-self: flex-start;
 		margin-bottom: 0;
 	}
 }
@@ -38,7 +40,7 @@
 	margin-right: 15px;
 
 	img {
-		width: 30px;
+		width: 200px;
 	}
 }
 
@@ -48,8 +50,15 @@
 }
 
 .footer__nav {
+	flex: inherit;
 	font-size: 14px;
+	justify-self: flex-end;
 	line-height: 2.5;
+	text-align: center;
+
+	@media (min-width: $river) {
+		text-align: left;
+	}
 }
 
 .footer__nav span {
