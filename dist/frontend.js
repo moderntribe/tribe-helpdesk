@@ -341,15 +341,29 @@
       // find all elements containing "data-gist-id" attribute.
       $('[data-gist-id]').gist();
     });
+    /**
+     * Adds an alert to the portal homescreen.
+     * 
+     * The following shows the expected structure (as supported by our current CSS):
+     * 
+     *     <div id="tribe-marketing-alert">
+     *         <div><span class="emoji">⚠️</span></div>
+     *         <div>
+     *             <strong>We want to help you!</strong> 
+     *             Don't forget to search our knowledgebase and&mdash;where appropriate&mdash;perform
+     *             <a href="https://support.theeventscalendar.com/303643-Testing-for-conflicts">basic troubleshooting</a>
+     *             before creating a new support ticket!
+     * 	       </div>
+     *     </div>
+     */
 
     function addAlert(message) {
       // Add the tribe-marketing-alert class to the body tag so we can style appropriately
       document.body.setAttribute('class', document.body.getAttribute('class') + ' tribe-marketing-alert'); // Add the actual message
 
       $navbar.before(message);
-    }
+    } // Popular Search Items
 
-    addAlert("\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div><span class=\"emoji\">\u26A0\uFE0F</span></div>\n\t\t<div>\n\t\t\t<strong>Heads up!</strong> \n\t\t\tResponse times for support requests are a little longer than usual. \n\t\t\tPlease expect up to 3 business days for a reply.\n\t\t</div>\n\t</div>\n"); // Popular Search Items
 
     var jumbotronSearch = "\n\t<div class=\"jumbotron__search\">\n\t\t<ul>\n\t\t\t<li><strong>Popular:</strong></li>\n\t\t\t<li><a href=\"https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages\">Shortcodes</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/functions/\">Documentation</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/customizations/\">Customization</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/subscription-information/\">Orders</a></li>\n\t\t</ul>\n\t</div>\n";
     var componentFeaturedContent = "\n\t<section class=\"featured-content\">\n\t\t<div class=\"featured-content__wrapper\">\n\t \t<a href=\"https://support.theeventscalendar.com/153124-Themers-Guide\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/icon-brush-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h4>Themers Guide</h4>\n\t\t\t\t\t\t<p>Every calendar view is a template that can be overridden in your theme.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t \t<a href=\"https://theeventscalendar.com/extensions/\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/extensions-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h4>Extension Library</h4>\n\t\t\t\t\t\t<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t \t<a href=\"https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h4>Plugin Functions</h4>\n\t\t\t\t\t\t<p>Every available function in our products to use as filters for custom functionality.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t \t<a href=\"https://support.theeventscalendar.com/527363-Refund-policy\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2019/02/icon-return.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h4>Orders & Refunds</h4>\n\t\t\t\t\t\t<p>Is the plugin not right for your project? Heres info on orders and refund requests.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t\t</div>\n\t</section>\n"; // Portals
