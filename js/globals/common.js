@@ -27,6 +27,7 @@ var $jumbotron = $( '.jumbotron' )
 var $marginTop = $( '.margin-top' )
 var $marketingAlert = $( '#tribe-marketing-alert' )
 var $navbar = $( '.navbar' )
+var $navItemTickets = $( '#menu-item-mytickets' )
 var $presalesForm = $( '#presales-form' )
 var $portals = $( '.portals' )
 
