@@ -42,7 +42,7 @@ var componentFeaturedContent = `
 						<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>
 	 			</div>
 	 		</article>
-			</a>
+		</a>
 	 	<a href="https://theeventscalendar.com/functions/">
 	 		<article class="featured-content__item">
 	 			<div class="featured-content__icon">
