@@ -46,7 +46,7 @@ var componentFeaturedContent = `
 						<p>Every available function in our products to use as filters for custom functionality.</p>
 	 			</div>
 	 		</article>
-			</a>
+		</a>
 	 	<a href="https://support.theeventscalendar.com/527363-Refund-policy">
 	 		<article class="featured-content__item">
 	 			<div class="featured-content__icon">
@@ -57,7 +57,7 @@ var componentFeaturedContent = `
 						<p>Is the plugin not right for your project? Here\s info on orders and refund requests.</p>
 	 			</div>
 	 		</article>
-			</a>
+		</a>
 		</div>
 	</section>
 `;
