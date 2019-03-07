@@ -1,4 +1,7 @@
-// Popular Search Items
+/* JUMBOTRON SEARCH
+ * A list of links to popular Knowledgebase posts displayed
+ * right below the Jumbotron search input.
+*/
 var jumbotronSearch = `
 	<div class="jumbotron__search">
 		<ul>
@@ -11,6 +14,10 @@ var jumbotronSearch = `
 	</div>
 `;
 
+/* FEATURED CONTENT
+ * A 4-up of blocks spotlighting key Knowledgebase content
+ * that analytics have shown are common customer inquiries.
+*/
 var componentFeaturedContent = `
 	<section class="featured-content">
 		<div class="featured-content__wrapper">
@@ -62,7 +69,10 @@ var componentFeaturedContent = `
 	</section>
 `;
 
-// Portals
+/* PORTALS
+ * A 2-up component that provides lists of links around a
+ * general topic, including a heading, intro and unordered list.
+*/
 var componentPortals = `
 	<div class="portals">
 		<div class="portals__portal">
@@ -100,6 +110,9 @@ var componentPortals = `
 	</div>
 `;
 
+/* INTERSTITIAL
+ * A component meant to spotlight a call-to-action.
+*/
 var componentInterstitial = `
 	<div class="interstitial">
 		<div class="interstitial__body interstitial--primary">
@@ -118,6 +131,9 @@ var componentInterstitial = `
 	</div>
 `;
 
+/* CATEGORY LIST HEADING
+ * A heading used above the loop of Knowledgebase categories.
+*/
 var categoryListHeading = `
 	<div class="section-heading">
 		<h2>Guides & Tutorials</h2>
