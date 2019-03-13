@@ -61,7 +61,7 @@ var componentFeaturedContent = `
 	 			</div>
 	 			<div class="featured-content__body">
 						<h3>Orders & Refunds</h3>
-						<p>Is the plugin not right for your project? Here\s info on orders and refund requests.</p>
+						<p>Is the plugin not right for your project? Here's info on orders and refund requests.</p>
 	 			</div>
 	 		</article>
 		</a>
