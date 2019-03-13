@@ -8,37 +8,6 @@
  */
 
 /*
- * Custom Marketing Alert
- */
-#tribe-marketing-alert {
-  color: white;
-  background-color: #16a0d6 !important;
-  display: flex;
-  flex-direction: row;
-  font-size: 17px;
-  justify-content: center;
-  padding: 20px 0px 20px 0px;
-  margin-top: -50px;
-  text-align: center;
-}
-
-#tribe-marketing-alert > div {
-  max-width: 112rem;
-  padding: 0 1rem;
-  text-align: left;
-}
-
-#tribe-marketing-alert a {
-  color: white;
-  text-decoration: underline;
-}
-
-#tribe-marketing-alert a:hover {
-  color: white;
-  text-decoration: none;
-}
-
-/*
  * Custom Text in the Ticket Submission page
  */
 .custom_login_title {
@@ -54,75 +23,6 @@
 
 .global-search {
   padding-bottom: 2rem;
-}
-
-/*
- * Typography
- */
-h1, h2, h3, h4 {
-  font-family: "Gotham 4r", "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-weight: 300;
-}
-
-h3 {
-  font-size: 30px;
-}
-
-h4 {
-  font-size: 24px;
-}
-
-a:-webkit-any-link {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-body {
-  font-family: "Gotham 4r", "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  background: #f6f7f9;
-}
-
-/*
- * Navbar
- */
-.navbar {
-  background: black;
-}
-
-.navbar-brand p {
-  padding-left: 50px;
-  color: white;
-  font-family: "Gotham 4r", "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
-}
-
-.navbar-brand {
-  width: 350px;
-}
-
-.scrolled .navbar {
-  background: black;
-}
-
-.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-  background: black;
-}
-
-.navbar-nav > li > a {
-  color: white;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-
-a.navbar-brand {
-  position: relative;
-  display: block;
-  padding: 20px 15px;
 }
 
 /*
@@ -218,69 +118,6 @@ a.navbar-brand {
 .RankingBox {
   border-top: none;
   border-bottom: none;
-}
-
-/*
- * Categories
- */
-.category-box-title:before {
-  display: none;
-}
-
-.category-box {
-  border: 1px solid #e0e0e0;
-  margin-bottom: 10px;
-  padding: 0px;
-  webkit-transition: background .30s;
-  -moz-transition: background .30s;
-  -o-transition: background .30s;
-  transition: background .30s;
-}
-
-.category-box-title {
-  border-bottom: none;
-  text-align: center;
-  font-size: 20px;
-  padding-left: 0px;
-  font-weight: 400;
-}
-
-.category-box-title a:hover {
-  text-decoration: none;
-}
-
-.item-A:before {
-  display: none;
-}
-
-.category-box li {
-  padding-right: 5%;
-  font-weight: 300;
-}
-
-.category-box a:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.panel-default > .panel-heading {
-  border-bottom: none;
-  background-color: white;
-}
-
-.panel-default {
-  border: none;
-}
-
-.panel-default a {
-  color: black;
-}
-
-.list-group-item {
-  border: none;
-  background: none;
-  padding-left: 124px;
-  padding-right: 124px;
 }
 
 /*

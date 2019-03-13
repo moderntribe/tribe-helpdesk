@@ -1,0 +1,23 @@
+h1 {
+  font-size: calc(32px + (50 - 32) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: calc(24px + (38 - 24) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: calc(20px + (34 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+p {
+  font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1.5;
+}

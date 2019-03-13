@@ -1,0 +1,9 @@
+ul, ol {
+	font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+	line-height: 1.5;
+}
+
+ul>li,
+ol>li {
+	margin-bottom: 5px;
+}

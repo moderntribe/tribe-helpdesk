@@ -1,0 +1,24 @@
+// Overrides existing LA element.
+// .page-article {}
+// LA class naming does not follow BEM, so grouping the child components in here.
+
+.article-page {
+	padding: 2em;
+}
+
+.article-page .col-md-3 {
+	display: none;
+
+	@media (min-width: 1025px) {
+		background-color: $gray-20;
+		display: block;
+		padding-top: 1em;
+		position: absolute;
+		right: 0;
+		width: 277px;
+	}
+}
+
+.article-content {
+	font-size: 1.25em;
+}
