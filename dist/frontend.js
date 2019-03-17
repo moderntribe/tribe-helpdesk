@@ -394,12 +394,12 @@
      * 
      * The following shows the expected structure (as supported by our current CSS):
      * 
-     *	<div id="tribe-marketing-alert">
-    			<div class="tribe-marketing-alert__content">
-    				<p><span class="emoji">⚠️ Heads up!</span>
-    				Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.</p>
-    			</div>
-    		</div>
+     * 	<div id="tribe-marketing-alert">
+     * 		<div class="tribe-marketing-alert__content">
+     * 			<p><span class="emoji">⚠️ Heads up!</span>
+     * 			Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.</p>
+     * 		</div>
+     * 	</div>
      */
 
 
@@ -409,11 +409,14 @@
 
       $navbar.before(message);
     }
+    /* Remove this when the time comes */
+
+
+    addAlert("\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div class=\"tribe-marketing-alert__content\">\n\t\t\t<p><span class=\"emoji\">\u26A0\uFE0F Heads up!</span>\n\t\t\tPlease note, the whole team is out this week for our annual team trip where we discuss how we can provide \n\t\t\tbetter products, services, and support for our clients. Due to this our response times in the Help Desk \n\t\t\twill be slower than usual. Thanks for your kind patience in advance during this time!</p>\n\t\t</div>\n\t</div>\n");
     /* JUMBOTRON SEARCH
      * A list of links to popular Knowledgebase posts displayed
      * right below the Jumbotron search input.
     */
-
 
     var jumbotronSearch = "\n\t<div class=\"jumbotron__search\">\n\t\t<ul>\n\t\t\t<li><strong>Popular:</strong></li>\n\t\t\t<li><a href=\"https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages\">Shortcodes</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/functions/\">Documentation</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/customizations/\">Customization</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/subscription-information/\">Orders</a></li>\n\t\t</ul>\n\t</div>\n";
     /* FEATURED CONTENT
