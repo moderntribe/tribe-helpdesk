@@ -412,7 +412,7 @@
     /* Remove this when the time comes */
 
 
-    addAlert("\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div class=\"tribe-marketing-alert__content\">\n\t\t\t<p><span class=\"emoji\">\u26A0\uFE0F Heads up!</span>\n\t\t\tPlease note, the whole team is out this week for our annual team trip where we discuss how we can provide \n\t\t\tbetter products, services, and support for our clients. Due to this our response times in the Help Desk \n\t\t\twill be slower than usual. Thanks for your kind patience in advance during this time!</p>\n\t\t</div>\n\t</div>\n");
+    addAlert("\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div class=\"tribe-marketing-alert__content\">\n\t\t\t<p>\n\t\t\t\t<span class=\"emoji\">\u26A0\uFE0F Heads up!</span>\n\t\t\t\tOur response times are slightly slower than usual. \n\t\t\t\tPlease bear with us\u2014we're working hard to catch up.\n\t\t\t</p>\n\t\t</div>\n\t</div>\n");
     /* JUMBOTRON SEARCH
      * A list of links to popular Knowledgebase posts displayed
      * right below the Jumbotron search input.
