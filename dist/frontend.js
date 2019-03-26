@@ -375,7 +375,7 @@
             $sticky.css({
               position: 'fixed',
               marginTop: '110px',
-              right: '0',
+              right: '24px',
               top: stickOffset
             });
           } else {
