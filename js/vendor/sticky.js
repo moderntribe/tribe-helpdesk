@@ -1,3 +1,4 @@
+// Custom fork of https://github.com/blairvanderhoof/gist-embed
 // Targets elements with .sticky for sticky scrolling
 jQuery.event.add(window, 'resize', stickyScroll);
 
