@@ -394,12 +394,12 @@
      * 
      * The following shows the expected structure (as supported by our current CSS):
      * 
-     *	<div id="tribe-marketing-alert">
-    			<div class="tribe-marketing-alert__content">
-    				<p><span class="emoji">⚠️ Heads up!</span>
-    				Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.</p>
-    			</div>
-    		</div>
+     * 	<div id="tribe-marketing-alert">
+     * 		<div class="tribe-marketing-alert__content">
+     * 			<p><span class="emoji">⚠️ Heads up!</span>
+     * 			Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.</p>
+     * 		</div>
+     * 	</div>
      */
 
 
@@ -409,11 +409,14 @@
 
       $navbar.before(message);
     }
+    /* Remove this when the time comes */
+
+
+    addAlert("\n\t<div id=\"tribe-marketing-alert\">\n\t\t<div class=\"tribe-marketing-alert__content\">\n\t\t\t<p>\n\t\t\t\t<span class=\"emoji\">\u26A0\uFE0F Heads up!</span>\n\t\t\t\tOur response times are slightly slower than usual. \n\t\t\t\tPlease bear with us\u2014we're working hard to catch up.\n\t\t\t</p>\n\t\t</div>\n\t</div>\n");
     /* JUMBOTRON SEARCH
      * A list of links to popular Knowledgebase posts displayed
      * right below the Jumbotron search input.
     */
-
 
     var jumbotronSearch = "\n\t<div class=\"jumbotron__search\">\n\t\t<ul>\n\t\t\t<li><strong>Popular:</strong></li>\n\t\t\t<li><a href=\"https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages\">Shortcodes</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/functions/\">Documentation</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/customizations/\">Customization</a></li>\n\t\t\t<li><a href=\"https://theeventscalendar.com/subscription-information/\">Orders</a></li>\n\t\t</ul>\n\t</div>\n";
     /* FEATURED CONTENT
@@ -421,7 +424,7 @@
      * that analytics have shown are common customer inquiries.
     */
 
-    var componentFeaturedContent = "\n\t<section class=\"featured-content\">\n\t\t<div class=\"featured-content__wrapper\">\n\t \t<a href=\"https://support.theeventscalendar.com/153124-Themers-Guide\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/icon-brush-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Themer's Guide</h3>\n\t\t\t\t\t\t<p>Every calendar view is a template that can be overridden in your theme.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t \t<a href=\"https://theeventscalendar.com/extensions/\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/extensions-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Extension Library</h3>\n\t\t\t\t\t\t<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t</a>\n\t \t<a href=\"https://theeventscalendar.com/functions/\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Plugin Functions</h3>\n\t\t\t\t\t\t<p>Every available function in our products to use as filters for custom functionality.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t</a>\n\t \t<a href=\"https://support.theeventscalendar.com/527363-Refund-policy\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2019/02/icon-return.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Orders & Refunds</h3>\n\t\t\t\t\t\t<p>Is the plugin not right for your project? Heres info on orders and refund requests.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t</a>\n\t\t</div>\n\t</section>\n";
+    var componentFeaturedContent = "\n\t<section class=\"featured-content\">\n\t\t<div class=\"featured-content__wrapper\">\n\t \t<a href=\"https://support.theeventscalendar.com/153124-Themers-Guide\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/icon-brush-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Themer's Guide</h3>\n\t\t\t\t\t\t<p>Every calendar view is a template that can be overridden in your theme.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t\t</a>\n\t \t<a href=\"https://theeventscalendar.com/extensions/\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/extensions-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Extension Library</h3>\n\t\t\t\t\t\t<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t</a>\n\t \t<a href=\"https://theeventscalendar.com/functions/\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2016/07/icon-code-1-85x85.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Plugin Functions</h3>\n\t\t\t\t\t\t<p>Every available function in our products to use as filters for custom functionality.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t</a>\n\t \t<a href=\"https://support.theeventscalendar.com/527363-Refund-policy\">\n\t \t\t<article class=\"featured-content__item\">\n\t \t\t\t<div class=\"featured-content__icon\">\n\t \t\t\t\t<img src=\"https://theeventscalendar.com/content/uploads/2019/02/icon-return.png\" alt=\"\" />\n\t \t\t\t</div>\n\t \t\t\t<div class=\"featured-content__body\">\n\t\t\t\t\t\t<h3>Orders & Refunds</h3>\n\t\t\t\t\t\t<p>Is the plugin not right for your project? Here's info on orders and refund requests.</p>\n\t \t\t\t</div>\n\t \t\t</article>\n\t\t</a>\n\t\t</div>\n\t</section>\n";
     /* PORTALS
      * A 2-up component that provides lists of links around a
      * general topic, including a heading, intro and unordered list.
