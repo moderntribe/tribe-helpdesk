@@ -22,3 +22,9 @@
 .article-content {
 	font-size: 1.25em;
 }
+
+.ArticleContent img {
+	border: 15px solid $gray-10;
+	border-radius: 5px;
+	padding: .5em;
+}
