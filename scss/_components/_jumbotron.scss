@@ -11,6 +11,11 @@
 	height: 65vh; /* A bit of a magic number */
 	justify-content: center;
 	width: 100%;
+	max-height: 695px;
+}
+
+.page-article .jumbotron {
+	max-height: 400px;
 }
 
 .jumbotron .container {
