@@ -344,7 +344,8 @@
     $(function () {
       // find all elements containing "data-gist-id" attribute.
       $('[data-gist-id]').gist();
-    }); // Targets elements with .sticky for sticky scrolling
+    }); // Custom fork of https://github.com/blairvanderhoof/gist-embed
+    // Targets elements with .sticky for sticky scrolling
 
     jQuery.event.add(window, 'resize', stickyScroll);
 
@@ -375,7 +376,7 @@
             $sticky.css({
               position: 'fixed',
               marginTop: '110px',
-              right: '0',
+              right: '24px',
               top: stickOffset
             });
           } else {

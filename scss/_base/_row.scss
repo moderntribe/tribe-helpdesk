@@ -1,4 +1,6 @@
 // Overrides LS default styles
 .row {
-	flex: 1;
+	flex: 100%;
+	margin-left: 0;
+	max-width: 100%;
 }

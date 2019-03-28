@@ -5,13 +5,13 @@
 $body-font: "Gotham 4r", "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
 
 h1 {
-	font-size: calc(32px + (35 - 32) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(32px + (35 - 32) * ((100vw - 300px) / (1600 - 300))); // Font size: 32-35
 	font-weight: 900;
 	line-height: 1.25;
 }
 
 h2 {
-	font-size: calc(26px + (30 - 26) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(26px + (30 - 26) * ((100vw - 300px) / (1600 - 300))); // Font size: 26-30
 	font-weight: 900;
 	line-height: 1.25;
 }
@@ -29,6 +29,6 @@ h4 {
 }
 
 p {
-	font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300))); // Font size: 16-20
 	line-height: 1.5;
 }

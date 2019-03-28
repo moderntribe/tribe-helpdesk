@@ -1,3 +1,4 @@
+// Custom fork of https://github.com/blairvanderhoof/gist-embed
 // Targets elements with .sticky for sticky scrolling
 jQuery.event.add(window, 'resize', stickyScroll);
 
@@ -20,7 +21,7 @@ function stickyScroll() {
 			if (stopPoint < windowTop) {
 					$sticky.css({ position: 'absolute', right: '0', top: diff });
 			} else if (stickyTop < windowTop+stickOffset) {
-					$sticky.css({ position: 'fixed', marginTop: '110px', right: '0', top: stickOffset });
+					$sticky.css({ position: 'fixed', marginTop: '110px', right: '24px', top: stickOffset });
 			} else {
 					$sticky.css({ position: 'absolute', right: '0', marginTop: '0', top: 'initial' });
 			}

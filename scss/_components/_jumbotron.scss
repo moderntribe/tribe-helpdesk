@@ -18,16 +18,13 @@
 	text-align: center;
 
 	h1 {
+		font-size: calc(40px + (40 - 32) * ((100vw - 300px) / (1600 - 300))); // Font size: 32-40
 		margin-bottom: 1em;
 	}
 
 	// If we decide to put text below the main heading
 	p.inner-header {
-		font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
-	}
-
-	@media (min-width: $harbor) {
-		max-width: 80%;
+		font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300))); // Font size: 18-25
 	}
 }
 
