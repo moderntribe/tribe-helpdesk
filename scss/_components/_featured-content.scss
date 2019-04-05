@@ -13,6 +13,7 @@
 	flex-flow: column wrap;
 	justify-content: center;
 	max-width: 100%;
+	width: 100%;
 
 	@media (min-width: $river) {
 		flex-flow: row wrap;

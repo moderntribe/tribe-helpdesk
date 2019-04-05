@@ -43,6 +43,10 @@
 	}
 }
 
+.jumbotron .row {
+	flex: none;
+}
+
 // .input-group is a LiveAgent class
 .jumbotron .input-group {
 	margin-bottom: 1em;

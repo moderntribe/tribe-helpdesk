@@ -7,12 +7,16 @@
 /*
  * Navbar
  */
- .navbar {
+.navbar {
 	background: $black;
 }
 
 .navbar-brand {
 	width: 200px !important; // Override LA's media query style
+
+	@media (min-width: $river) {
+		margin-top: 1.25em;
+	}
 }
 
 .navbar-brand p {
