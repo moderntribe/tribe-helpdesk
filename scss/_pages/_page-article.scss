@@ -1,6 +1,9 @@
 // Overrides existing LA element.
 // .page-article {}
 // LA class naming does not follow BEM, so grouping the child components in here.
+.page-article .jumbotron h1 {
+	font-size: 40px;
+}
 
 .article-page {
 	padding: 2em;
@@ -19,8 +22,14 @@
 	}
 }
 
-.article-content {
-	font-size: 1.25em;
+.article-content p {
+	font-size: 16px;
+	line-height: 1.5;
+
+	@media (min-width: $river) {
+		font-size: 18px;
+		line-height: 1.75;
+	}
 }
 
 .ArticleContent img {

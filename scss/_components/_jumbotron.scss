@@ -78,10 +78,6 @@
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	padding-left: 0;
-
-	@media (min-width: $river) {
-		padding-left: 40px;
-	}
 }
 
 // Inline list of search suggestion links
@@ -89,7 +85,7 @@
 	font-size: 14px;
 	font-weight: 500;
 	list-style: none;
-	margin-right: 1em;
+	margin: 0 1em 0.5em 0;
 	text-align: center;
 
 	@media (min-width: $lake) {
@@ -116,6 +112,7 @@
 
 .jumbotron__search ul li a:hover {
 	opacity: 0.5;
+	text-decoration: none;
 }
 
 // Overrides default LA styles, but could be configured in Settings

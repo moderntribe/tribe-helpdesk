@@ -41,23 +41,10 @@
 	ul {
 		list-style-type: none;
 		padding-left: 0;
-	
-		@media (min-width: $lake) {
-			list-style-type: none;
-			padding-left: 1em;
-		}
 	}
 
-	li a {
-		border-bottom: 2px solid $blue-20;
-		color: $black;
-		padding-bottom: 2px;
-		text-decoration: none;
-
-		&:hover,
-		&:focus {
-			color: $blue-10;
-		}
+	li {
+		margin-left: 0;
 	}
 }
 

@@ -12,11 +12,10 @@
 	max-width: 112rem;
 	padding: 0 1rem;
 	line-height: 1;
-	padding: 20px 60px;
+	padding: 20px 40px;
 	text-align: center;
 
 	@media (min-width: $river) {
-		padding: 0 60px;
 		text-align: left;
 	}
 

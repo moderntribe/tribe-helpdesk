@@ -51,6 +51,7 @@
 }
 
 .interstitial__text-link {
+	border: 0;
 	color: $white;
 	display: block;
 	text-decoration: underline !important;
@@ -60,7 +61,8 @@
 		margin-left: 30px;
 	}
 
-	&:hover {
+	&:hover,
+	&:focus {
 		color: $white;
 		text-decoration: none !important;
 	}

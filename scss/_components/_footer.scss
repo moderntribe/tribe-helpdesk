@@ -4,9 +4,11 @@
 	width: 100%;
 
 	a {
+		border: 0;
 		color: $white;
 
-		&:hover {
+		&:hover,
+		&:focus {
 			color: $blue-10;
 			text-decoration: none;
 		}

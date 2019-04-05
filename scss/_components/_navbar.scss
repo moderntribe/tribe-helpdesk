@@ -23,11 +23,18 @@
 	background: $black;
 }
 
+// Needed to override a LiveAgent ruleset
 .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
 	background: $black;
 }
 
+.navbar li {
+	margin: 1em .25em;
+}
+
+// Needed to override a LiveAgent ruleset
 .navbar-nav > li > a {
+	border: 0;
 	color: $blue-10;
 	font-size: 14px;
 	font-weight: 400;
@@ -35,15 +42,25 @@
 	transition: color .25s;
 }
 
-.nav>li>a:hover {
+// Needed to override a LiveAgent ruleset
+.nav > li > a:hover {
 	background: none;
 	color: $white;
 }
 
 a.navbar-brand {
-	position: relative;
+	border: none;
 	display: block;
 	padding: 20px 15px;
+	position: relative;
+}
+
+// Needed to override a LiveAgent ruleset
+.navbar > .container .navbar-brand {
+
+	@media (min-width: $river) {
+		margin-top: 1.25em;
+	}
 }
 
 // User avatar

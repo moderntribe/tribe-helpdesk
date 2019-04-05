@@ -1,8 +1,17 @@
 a {
-	color: $blue-10;
+	border-bottom: 2px solid $blue-20;
+	color: $black;
+	padding-bottom: 2px;
 	text-decoration: none;
 
-	&:hover {
-		color: $blue-20;
+	&:hover,
+	&:focus {
+		color: $blue-10;
+		text-decoration: none;
 	}
+}
+
+// The scroll-to-top element
+#scroll-top {
+	border: 0;
 }

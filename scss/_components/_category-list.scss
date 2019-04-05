@@ -1,31 +1,39 @@
 // Overrides styles for an existing LA component
 .category-list {
-	padding: 0 20px;
-
-	@media (min-width: $river) {
-		padding: 0 60px;
-	}
+	padding: 0 25px;
 }
 
 .category-box {
 	background-color: $gray-10;
-	border: 1px solid $gray-20;
+	border-radius: 5px;
 	margin-bottom: 30px;
 	min-height: 360px;
-	padding: 0px;
+	padding: 15px 5px;
 }
 
-.category-box li {
-	font-weight: 300;
-	padding-right: 5%;
+.category-box ul {
+	padding-left: 0;
 }
 
-.category-box li a {
-	color: $blue-10;
+.category-box li  {
+	padding: 0;
+
+	a {
+		line-height: 2em;
+
+		&:hover,
+		&:focus {
+			color: $blue-10;
+		}
+	}
 }
 
-.category-box li a:hover {
-	color: $blue-20;
+.category-item-link {
+	padding: 0 0 1em 0;
+}
+
+.category-box item-link a:hover,
+.category-box item-link a:focus {
 	text-decoration: none;
 }
 
@@ -42,12 +50,23 @@
 }
 
 .category-box-title .category-link {
+	border: 0;
 	color: $gray-30;
+
+	&:hover {
+		color: $gray-70;
+		text-decoration: none;
+	}
 }
 
-.category-box-title .category-link:hover {
-	color: $gray-70;
-	text-decoration: none;
+.item-link-subcat a {
+	border: 0;
+	padding-left: 2em;
+
+	&:hover,
+	&:focus {
+		color: $blue-10;
+	}
 }
 
 .item-A:before {
