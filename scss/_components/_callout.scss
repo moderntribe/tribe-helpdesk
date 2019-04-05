@@ -1,0 +1,11 @@
+.callout {
+	background: linear-gradient(-46deg, $green-10, $blue-20 68%, $blue-10);
+	border: 2px solid $blue-30;
+	border-radius: 5px;
+	color: $white;
+	padding: 1em;
+
+	p {
+		margin-bottom: 0;
+	}
+}

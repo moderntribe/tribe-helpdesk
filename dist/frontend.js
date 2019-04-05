@@ -344,7 +344,8 @@
     $(function () {
       // find all elements containing "data-gist-id" attribute.
       $('[data-gist-id]').gist();
-    }); // Targets elements with .sticky for sticky scrolling
+    }); // Custom fork of https://github.com/blairvanderhoof/gist-embed
+    // Targets elements with .sticky for sticky scrolling
 
     jQuery.event.add(window, 'resize', stickyScroll);
 
@@ -375,7 +376,7 @@
             $sticky.css({
               position: 'fixed',
               marginTop: '110px',
-              right: '0',
+              right: '24px',
               top: stickOffset
             });
           } else {
@@ -394,12 +395,14 @@
      * 
      * The following shows the expected structure (as supported by our current CSS):
      * 
-     *	<div id="tribe-marketing-alert">
-    			<div class="tribe-marketing-alert__content">
-    				<p><span class="emoji">⚠️ Heads up!</span>
-    				Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.</p>
-    			</div>
-    		</div>
+     * addAlert( `
+     * 	<div id="tribe-marketing-alert">
+     * 		<div class="tribe-marketing-alert__content">
+     * 			<p><span class="emoji">⚠️ Heads up!</span>
+     * 			Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.</p>
+     * 		</div>
+     * 	</div>
+     * ` );
      */
 
 
