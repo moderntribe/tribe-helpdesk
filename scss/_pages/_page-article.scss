@@ -25,10 +25,26 @@
 .article-content p {
 	font-size: 16px;
 	line-height: 1.5;
+	margin-top: 0 !important; // Need to override LA style.
 
 	@media (min-width: $river) {
 		font-size: 18px;
 		line-height: 1.75;
+	}
+}
+
+.article-page .list-group {
+	padding: 0 0 1em 0;
+}
+
+.article-page .list-group-item {
+	font-size: 14px;
+	padding-bottom: 0;
+	padding-left: 0;
+
+	&:first-child {
+		margin-top: .25em;
+		padding-top: 0;
 	}
 }
 

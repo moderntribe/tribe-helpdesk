@@ -3,6 +3,7 @@ a {
 	color: $black;
 	padding-bottom: 2px;
 	text-decoration: none;
+	transition: all .25s ease-in;
 
 	&:hover,
 	&:focus {

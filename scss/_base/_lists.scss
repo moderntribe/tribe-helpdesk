@@ -1,11 +1,12 @@
 ul, ol {
 	font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
 	line-height: 1.5;
+	margin-bottom: 2em;
 }
 
 ul>li,
 ol>li {
-	margin: 1em;
+	margin: 1em 1em 2em 1em;
 }
 
 ol {

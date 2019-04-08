@@ -38,7 +38,7 @@
 	color: $white;
 
 	h2 {
-		margin: 0;
+		margin-bottom: .25em;
 	}
 
 	@media (min-width: $harbor) {
@@ -51,10 +51,10 @@
 }
 
 .interstitial__text-link {
-	border: 0;
+	border-color: $white;
 	color: $white;
 	display: block;
-	text-decoration: underline !important;
+	text-decoration: none;
 
 	@media (min-width: $pond) {
 		display: inline;
@@ -63,7 +63,8 @@
 
 	&:hover,
 	&:focus {
-		color: $white;
+		border-color: $black;
+		color: $black;
 		text-decoration: none !important;
 	}
 }

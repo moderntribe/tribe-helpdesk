@@ -61,7 +61,8 @@
 	border-radius: 4px 0 0 4px !important; // Needed to override LA
 	color: $gray-70;
 	font-size: 18px;
-	font-weight: 900;
+	font-weight: 500;
+	min-height: 60px;
 	text-indent: 35px;
 	width: 100%;
 
@@ -138,6 +139,7 @@
 	border-color: transparent;
 	border-radius: 0 4px 4px 0 !important; // Needed to override LA
 	color: transparent;
+	min-height: 60px;
 
 	&:hover,
 	&:focus {
