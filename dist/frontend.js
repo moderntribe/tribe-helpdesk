@@ -503,14 +503,14 @@
     }); // Adds a sticky class to the sidebar element on articles
     // See js/vendor/sticky.js for sticky function
 
-    function addCategoryHeading() {
+    function addStickyClass() {
       if (isHomePage !== true) {
         $('.col-md-3').addClass('sticky');
         stickyScroll();
       }
     }
 
-    addCategoryHeading(); // Adds a link back to TEC.com in the main menu.
+    addStickyClass(); // Adds a link back to TEC.com in the main menu.
 
     addMainSiteLink("\n\t<li><a href=\"https://theeventscalendar.com\">Main Site</a></li>\n");
 
