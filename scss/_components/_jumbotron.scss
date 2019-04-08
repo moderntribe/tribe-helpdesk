@@ -23,13 +23,16 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 0 35px;
 	text-align: center;
 
-	@media (min-width: $harbor) {
+	@media (min-width: $lake) {
 		margin: 0 auto;
-		max-width: 60%;
+		max-width: 75%;
 		padding: 0;
+	}
+
+	@media (min-width: $harbor) {
+		max-width: 60%;
 	}
 
 	h1 {
@@ -55,6 +58,7 @@
 // The search input itself
 .jumbotron input[type=text] {
 	border: 0;
+	border-radius: 4px 0 0 4px !important; // Needed to override LA
 	color: $gray-70;
 	font-size: 18px;
 	font-weight: 900;
@@ -82,6 +86,10 @@
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	padding-left: 0;
+
+	@media (min-width: $river) {
+		justify-content: center;
+	}
 }
 
 // Inline list of search suggestion links
@@ -111,12 +119,14 @@
 	border-bottom: 2px solid $white;
 	color: $white;
 	padding-bottom: 3px;
-	transition: opacity .25s ease-out;
-}
-
-.jumbotron__search ul li a:hover {
-	opacity: 0.5;
-	text-decoration: none;
+	transition: all .25s ease-out;
+	
+	&:hover,
+	&:focus {
+		border-bottom-color: $black;
+		color: $black;
+		text-decoration: none;
+	}
 }
 
 // Overrides default LA styles, but could be configured in Settings
@@ -126,6 +136,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	border-color: transparent;
+	border-radius: 0 4px 4px 0 !important; // Needed to override LA
 	color: transparent;
 
 	&:hover,
