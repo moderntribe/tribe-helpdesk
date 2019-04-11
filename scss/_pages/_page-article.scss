@@ -13,12 +13,38 @@
 	display: none;
 
 	@media (min-width: 1025px) {
-		background-color: $gray-20;
 		display: block;
-		padding-top: 1em;
 		position: absolute;
 		right: 0;
-		width: 277px;
+	}
+
+	// The search text input
+	.input-group .form-control:not(:first-child):not(:last-child) {
+		border-radius: 4px 0 0 4px;
+
+		&:focus {
+			border-color: $gray-20;
+			border-right: 0;
+			box-shadow: none;
+			outline: 0;
+		}
+	}
+
+	// Increase the height of the search button to match the input.
+	// Add the same search icon that is used in the Jumbotron.
+	.btn-searchbox {
+		background-color: $white;
+		background-image: url("http://theeventscalendar.com/content/uploads/2019/04/icon-helpdesk-search.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		border-color: $gray-20;
+		border-left: 0;
+		color: transparent;
+		height: 40px;
+
+		&:hover {
+			background-color: $gray-10;
+		}
 	}
 }
 

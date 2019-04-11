@@ -1,0 +1,38 @@
+// MY PROFILE
+// Page: /profile
+
+.page-my_profile {
+
+	// Narrow the page content content down from full width
+	.MyProfileView {
+		padding: 35px;
+
+		@media (min-width: $lake) {
+			padding: 35px 60px;
+		}
+	}
+
+	.MyProfileView .g-FormField2-Label {
+		font-weight: bold; // Make avatar label consistent
+		width: 100%; // Widen the form labels to single line text
+	}
+
+	// Upload file button for profile avatar
+	.UploadImageButton {
+		border: 0;
+		transition: all .25s ease-in;
+
+		&:hover,
+		&:focus {
+			background-color: $blue-20;
+		}
+
+		&:active {
+			background-color: $blue-30;
+		}
+
+		.Text {
+			color: $white;
+		}
+	}
+}

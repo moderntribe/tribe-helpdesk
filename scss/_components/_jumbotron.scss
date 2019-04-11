@@ -56,7 +56,8 @@
 }
 
 // The search input itself
-.jumbotron input[type=text] {
+.jumbotron input[type=text],
+.jumbotron input[type=password] {
 	border: 0;
 	border-radius: 4px 0 0 4px !important; // Needed to override LA
 	color: $gray-70;
@@ -103,6 +104,16 @@
 
 	@media (min-width: $lake) {
 		margin-right: 35px;
+	}
+
+	&:first-child {
+		flex: 100%;
+		text-align: left;
+
+		@media (min-width: $pond) {
+			flex: 0;
+			text-align: center;
+		}
 	}
 
 	&:nth-last-child(1) {
