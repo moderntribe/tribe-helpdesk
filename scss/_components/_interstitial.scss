@@ -48,17 +48,24 @@
 
 .interstitial__actions {
 	margin-top: 30px;
+
+	.button--primary {
+		margin-right: 15px;
+	}
+
+	.button--inverted {
+		margin-right: 30px;
+	}
 }
 
 .interstitial__text-link {
 	border-color: $white;
 	color: $white;
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 
-	@media (min-width: $pond) {
+	@media (min-width: $harbor) {
 		display: inline;
-		margin-left: 30px;
 	}
 
 	&:hover,

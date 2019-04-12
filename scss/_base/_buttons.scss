@@ -38,3 +38,14 @@
 		background-color: $green-20;
 	}
 }
+
+.button--inverted {
+	background-color: $white;
+	color: $gray-50;
+
+	&:hover,
+	&:focus {
+		background-color: hsla(0,0%,100%,.85);
+		color: $gray-50;
+	}
+}
