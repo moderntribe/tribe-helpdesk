@@ -24,10 +24,10 @@ var componentFeaturedContent = `
 			<a href="https://support.theeventscalendar.com/153124-Themers-Guide">
 				<article class="featured-content__item">
 					<div class="featured-content__icon">
-						<img src="http://theeventscalendar.com/content/uploads/2019/03/icon-themer.svg" alt="" />
+						<img src="https:////theeventscalendar.com/content/uploads/2019/03/icon-themer.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
-						<h2>Themer\'s Guide</h2>
+						<h2>Themer's Guide</h2>
 						<p>Every calendar view is a template that can be overridden in your theme.</p>
 					</div>
 				</article>
@@ -35,7 +35,7 @@ var componentFeaturedContent = `
 			<a href="https://theeventscalendar.com/extensions/">
 				<article class="featured-content__item">
 					<div class="featured-content__icon">
-						<img src="http://theeventscalendar.com/content/uploads/2019/03/icon-add-window-2.svg" alt="" />
+						<img src="https:////theeventscalendar.com/content/uploads/2019/03/icon-add-window-2.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
 						<h2>Extension Library</h2>
@@ -46,7 +46,7 @@ var componentFeaturedContent = `
 			<a href="https://theeventscalendar.com/functions/">
 				<article class="featured-content__item">
 					<div class="featured-content__icon">
-						<img src="http://theeventscalendar.com/content/uploads/2019/03/icon-code.svg" alt="" />
+						<img src="https:////theeventscalendar.com/content/uploads/2019/03/icon-code.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
 						<h2>Plugin Functions</h2>
@@ -57,11 +57,11 @@ var componentFeaturedContent = `
 			<a href="https://support.theeventscalendar.com/527363-Refund-policy">
 				<article class="featured-content__item">
 					<div class="featured-content__icon">
-						<img src="http://theeventscalendar.com/content/uploads/2019/03/icon-cart.svg" alt="" />
+						<img src="https:////theeventscalendar.com/content/uploads/2019/03/icon-cart.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
 						<h2>Orders & Refunds</h2>
-						<p>Is the plugin not right for your project? Here\'s info on orders and refund requests.</p>
+						<p>Is the plugin not right for your project? Here's info on orders and refund requests.</p>
 					</div>
 				</article>
 			</a>
@@ -77,7 +77,7 @@ var componentPortals = `
 	<div class="portals">
 		<div class="portals__portal">
 			<div class="portals__icon">
-				<img src="http://theeventscalendar.com/content/uploads/2019/04/helpdesk-icon-guides.svg" />
+				<img src="https:////theeventscalendar.com/content/uploads/2019/04/helpdesk-icon-guides.svg" />
 			</div>
 			<div class="portals__content">
 				<h2>Getting Started</h2>
@@ -93,7 +93,7 @@ var componentPortals = `
 			</div>
 		<div class="portals__portal">
 			<div class="portals__icon">
-				<img src="http://theeventscalendar.com/content/uploads/2019/04/helpdesk-icon-trending.svg" />
+				<img src="https:////theeventscalendar.com/content/uploads/2019/04/helpdesk-icon-trending.svg" />
 			</div>
 			<div class="portals__content">
 				<h2>Trending Topics</h2>
@@ -117,7 +117,7 @@ var componentInterstitial = `
 	<div class="interstitial">
 		<div class="interstitial__body interstitial--primary">
 			<div class="interstitial__icon">
-				<img src="http://theeventscalendar.com/content/uploads/2019/04/helpdesk-icon-support-help.svg">
+				<img src="https:////theeventscalendar.com/content/uploads/2019/04/helpdesk-icon-support-help.svg">
 			</div>
 			<div class="interstitial__content">
 				<h2>Looking for More Help?</h2>
