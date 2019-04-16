@@ -14,7 +14,11 @@ var babel        = require( 'gulp-babel' );
  */
 gulp.task( 'styles', function() {
 	return sass( 'scss/*' )
-		.pipe( autoprefixer() )
+		.pipe( autoprefixer(
+			{
+				browsers: [ 'last 2 versions' ]
+			}
+		) )
 		.pipe( cleanCSS() )
 		.pipe( rename( 'style.min.css' ) )
 		.pipe( gulp.dest( 'dist' ) )

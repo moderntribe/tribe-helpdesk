@@ -1,6 +1,9 @@
 // Overrides existing LA element.
 // .page-article {}
 // LA class naming does not follow BEM, so grouping the child components in here.
+.page-article .jumbotron h1 {
+	font-size: 40px;
+}
 
 .article-page {
 	padding: 2em;
@@ -10,17 +13,65 @@
 	display: none;
 
 	@media (min-width: 1025px) {
-		background-color: $gray-20;
 		display: block;
-		padding-top: 1em;
 		position: absolute;
 		right: 0;
-		width: 277px;
+	}
+
+	// The search text input
+	.input-group .form-control:not(:first-child):not(:last-child) {
+		border-radius: 4px 0 0 4px;
+
+		&:focus {
+			border-color: $gray-20;
+			border-right: 0;
+			box-shadow: none;
+			outline: 0;
+		}
+	}
+
+	// Increase the height of the search button to match the input.
+	// Add the same search icon that is used in the Jumbotron.
+	.btn-searchbox {
+		background-color: $white;
+		background-image: url("http://theeventscalendar.com/content/uploads/2019/04/icon-helpdesk-search.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		border-color: $gray-20;
+		border-left: 0;
+		color: transparent;
+		height: 40px;
+
+		&:hover {
+			background-color: $gray-10;
+		}
 	}
 }
 
-.article-content {
-	font-size: 1.25em;
+.article-content p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 0 !important; // Need to override LA style.
+
+	@media (min-width: $river) {
+		font-size: 18px;
+		line-height: 1.75;
+	}
+}
+
+.article-page .list-group {
+	padding: 0 0 1em 0;
+}
+
+.article-page .list-group-item {
+	font-size: 14px;
+	padding-bottom: 0;
+	padding-left: 0;
+
+	&:first-child {
+		margin-top: .25em;
+		padding-top: 0;
+	}
 }
 
 .ArticleContent img {

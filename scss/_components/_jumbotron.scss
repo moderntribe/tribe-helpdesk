@@ -1,67 +1,166 @@
 .jumbotron {
-	align-items: center;
 	background-color: $gray-50;
-	background-image:
-		radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .75)),
-		url('https://theeventscalendar.com/content/uploads/2018/10/banner-darkened.jpg');
+	background-image: $linear-gradient;
 	background-position: center center;
 	background-size: cover;
-	box-shadow: inset 0 0 500px $black;
-	display: flex;
-	height: 65vh; /* A bit of a magic number */
-	justify-content: center;
+	padding: 120px 0;
 	width: 100%;
-	max-height: 695px;
 }
 
-.page-article .jumbotron {
-	max-height: 400px;
+// Override a LiveAgent grid style
+.jumbotron .col-md-offset-1 {
+	margin-left: 0;
+}
+
+// Override a LiveAgent grid style
+.jumbotron .col-md-10 {
+	width: 100%;
 }
 
 .jumbotron .container {
+	align-content: center;
 	color: $white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	text-align: center;
 
+	@media (min-width: $lake) {
+		margin: 0 auto;
+		max-width: 75%;
+		padding: 0;
+	}
+
+	@media (min-width: $harbor) {
+		max-width: 60%;
+	}
+
 	h1 {
-		font-size: calc(40px + (40 - 32) * ((100vw - 300px) / (1600 - 300))); // Font size: 32-40
+		font-weight: 900;
 		margin-bottom: 1em;
 	}
 
 	// If we decide to put text below the main heading
 	p.inner-header {
-		font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300))); // Font size: 18-25
+		font-size: 18px;
 	}
 }
 
-.jumbotron .global-search {
-	display: inline-block;
+.jumbotron .row {
+	flex: none;
 }
 
-.jumbotron__search {
-	max-width: 100%;
+// .input-group is a LiveAgent class
+.jumbotron .input-group {
+	margin-bottom: 1em;
+}
+
+// The search input itself
+.jumbotron input[type=text],
+.jumbotron input[type=password] {
+	border: 0;
+	border-radius: 4px 0 0 4px !important; // Needed to override LA
+	color: $gray-70;
+	font-size: 18px;
+	font-weight: 500;
+	min-height: 60px;
+	text-indent: 35px;
+	width: 100%;
+
+	&:focus {
+		border: 0;
+		box-shadow: none;
+		outline: 0;
+	}
+
+	&::placeholder {
+		color: $gray-70;
+	}
+
+	&:focus::placeholder {
+		color: $gray-30;
+	}
 }
 
 .jumbotron__search ul {
+	align-items: flex-start;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-start;
 	padding-left: 0;
+
+	@media (min-width: $river) {
+		justify-content: center;
+	}
 }
 
+// Inline list of search suggestion links
 .jumbotron__search ul li {
 	font-size: 14px;
+	font-weight: 500;
 	list-style: none;
-	margin-right: 1.5em;
+	margin: 0 1em 0.5em 0;
+	text-align: left;
+
+	@media (min-width: $pond) {
+		flex: 1;
+	}
+
+	@media (min-width: $lake) {
+		margin-right: 35px;
+		text-align: center;
+	}
+
+	&:first-child {
+		flex: 100%;
+		text-align: left;
+
+		@media (min-width: $pond) {
+			flex: 1;
+			text-align: center;
+		}
+	}
 
 	&:nth-last-child(1) {
 		margin-right: 0;
 	}
 }
 
-.jumbotron__search ul li a {
-	transition: color .25s ease-out;
+// The list label
+.jumbotron__search ul li span {
+	color: $black;
+	text-transform: uppercase;
 }
 
-.jumbotron__search ul li a:hover {
+.jumbotron__search ul li a {
+	border-bottom: 2px solid $white;
 	color: $white;
+	padding-bottom: 3px;
+	transition: all .25s ease-out;
+	
+	&:hover,
+	&:focus {
+		border-bottom-color: $black;
+		color: $black;
+		text-decoration: none;
+	}
+}
+
+// Overrides default LA styles, but could be configured in Settings
+.jumbotron .btn-primary {
+	background-color: $white;
+	background-image: url("http://theeventscalendar.com/content/uploads/2019/04/icon-helpdesk-search.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-color: transparent;
+	border-radius: 0 4px 4px 0 !important; // Needed to override LA
+	color: transparent;
+	min-height: 60px;
+
+	&:hover,
+	&:focus {
+		background-color: $gray-10;
+		border-color: transparent;
+		box-shadow: none;
+	}
 }

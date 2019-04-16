@@ -1,0 +1,16 @@
+// FORMS
+// Baseline styles for some form elements throughout LiveAgent
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+	border: 1px solid $gray-20;
+	box-shadow: none;
+	min-height: 40px;
+
+	&:focus {
+		color: $black;
+		font-weight: 500;
+	}
+}

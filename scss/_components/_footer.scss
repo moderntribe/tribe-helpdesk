@@ -1,12 +1,14 @@
 .footer {
-	background: $gray-50;
+	background: $gray-60;
 	color: $white;
 	width: 100%;
 
 	a {
+		border: 0;
 		color: $white;
 
-		&:hover {
+		&:hover,
+		&:focus {
 			color: $blue-10;
 			text-decoration: none;
 		}

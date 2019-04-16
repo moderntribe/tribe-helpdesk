@@ -10,11 +10,11 @@ $( '.category-list' ).find( '.alert.alert-empty' ).each( function() {
 
 // Adds a sticky class to the sidebar element on articles
 // See js/vendor/sticky.js for sticky function
-function addCategoryHeading() {
+function addStickyClass() {
 	if ( isHomePage !== true ) {
 		$( '.col-md-3' ).addClass( 'sticky' )
 		stickyScroll();
 	}
 }
 
-addCategoryHeading()
+addStickyClass()

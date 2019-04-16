@@ -1,11 +1,12 @@
 ul, ol {
 	font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1600 - 300)));
 	line-height: 1.5;
+	margin-bottom: 2em;
 }
 
 ul>li,
 ol>li {
-	margin: 1em;
+	margin: 1em 1em 2em 1em;
 }
 
 ol {
@@ -28,7 +29,7 @@ ol li:before {
 	height: 30px;
 	left: 0;
 	margin-right: 25px;
-	padding-top: 1px;
+	padding-top: 3px;
 	position: absolute;
 	text-align: center;
 	width: 30px;

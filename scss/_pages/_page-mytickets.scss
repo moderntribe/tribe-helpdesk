@@ -1,0 +1,54 @@
+// MY TICKETS
+// This is the sign in screen (/my_tickets)
+// We're including the login screen here as well to avoid
+// needing two partials since both use the same elements.
+
+.page-mytickets .jumbotron,
+.page-login .jumbotron {
+	input {
+		border-radius: 4px !important;
+		text-indent: 0;
+
+		&:focus {
+			box-shadow: 0 0 15px rgba(0,0,0,.2);
+		}
+	}
+
+	.btn-primary {
+		background-image: none;
+		border-radius: 4px !important;
+		color: $blue-10;
+		line-height: 2;
+
+		&:hover,
+		&:focus {
+			background-color: $blue-10;
+			color: $white;
+		}
+
+		&:active {
+			background-color: $blue-20;
+		}
+	}
+
+	// Reset Password and Register Links
+	#login_forgotButtontextSpan,
+	#login_registerButtontextSpan {
+		border-bottom: 2px solid $white !important;
+		border-radius: 0;
+		padding: 0;
+		text-decoration: none;
+		transition: all .25s ease-in;
+
+		&:hover,
+		&:focus {
+			border-bottom-color: $black !important;
+			color: $black !important;
+		}
+	}
+
+	.col-md-4,
+	.col-md-5 {
+		width: 100%;
+	}
+}
