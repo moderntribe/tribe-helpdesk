@@ -8,7 +8,6 @@
  *			Response times for support requests are a little longer than usual. Please expect up to 3 business days for a reply.</p>
  *		</div>
  *	</div>
- * ` );
  */
 
 function addAlert( message ) {

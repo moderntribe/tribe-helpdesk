@@ -25,7 +25,7 @@ var componentFeaturedContent = `
 			<article class="featured-content__item">
 				<a href="https://support.theeventscalendar.com/153124-Themers-Guide">
 					<div class="featured-content__icon">
-						<img src="http://theeventscalendar.com/content/uploads/2019/03/icon-themer.svg" alt="" />
+						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-themer.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
 						<h2>Themer's Guide</h2>
@@ -37,7 +37,7 @@ var componentFeaturedContent = `
 			<article class="featured-content__item">
 				<a href="https://theeventscalendar.com/extensions/">
 					<div class="featured-content__icon">
-						<img src="http://theeventscalendar.com/content/uploads/2019/03/icon-add-window-2.svg" alt="" />
+						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-add-window-2.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
 						<h2>Extension Library</h2>
@@ -49,7 +49,7 @@ var componentFeaturedContent = `
 			<article class="featured-content__item">
 				<a href="https://theeventscalendar.com/functions/">
 					<div class="featured-content__icon">
-						<img src="http://theeventscalendar.com/content/uploads/2019/03/icon-code.svg" alt="" />
+						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-code.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
 						<h2>Plugin Functions</h2>
@@ -61,7 +61,7 @@ var componentFeaturedContent = `
 			<article class="featured-content__item">
 				<a href="https://support.theeventscalendar.com/527363-Refund-policy">
 					<div class="featured-content__icon">
-						<img src="http://theeventscalendar.com/content/uploads/2019/03/icon-cart.svg" alt="" />
+						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-cart.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
 						<h2>Orders & Refunds</h2>
