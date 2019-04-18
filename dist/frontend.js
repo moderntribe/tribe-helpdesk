@@ -12,19 +12,29 @@
   jQuery(function ($) {
     /**
     * Return the page URL, but with any trailing slashes and the protocol 
-    * ("http://" or "https://") stripped for safer comparisons.
+    * ("http://" or "https://") stripped for safer comparisons. The URL
+    * query is also removed unless optional param includeQuery is true.
+    * 
+    * @param {boolean} includeQuery
     */
     function getCurrentUrl() {
+      var includeQuery = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
       var url = document.location.toString();
-      var protocolSeparator = url.match(/:\/\//); // Remove trailing slash for uniformity
-
-      if ('/' === url.slice(-1)) {
-        url = url.slice(0, -1);
-      } // Remove the protocol
-
+      var protocolSeparator = url.match(/:\/\//); // Remove the protocol
 
       if (protocolSeparator !== null) {
         url = url.slice(protocolSeparator.index + 3);
+      }
+
+      var querySeparator = url.match(/\?/); // Remove the query
+
+      if (!includeQuery && querySeparator !== null) {
+        url = url.slice(0, querySeparator.index);
+      } // Remove trailing slash for uniformity
+
+
+      if ('/' === url.slice(-1)) {
+        url = url.slice(0, -1);
       }
 
       return url;
