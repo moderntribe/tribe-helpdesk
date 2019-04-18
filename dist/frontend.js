@@ -29,7 +29,6 @@
       var querySeparator = url.match(/\?/); // Remove the query
 
       if (!includeQuery && querySeparator !== null) {
-        console.log(querySeparator.index);
         url = url.slice(0, querySeparator.index);
       } // Remove trailing slash for uniformity
 
