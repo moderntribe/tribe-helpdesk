@@ -18,7 +18,6 @@ function getCurrentUrl( includeQuery = false ) {
 
 	// Remove the query
 	if ( ! includeQuery && querySeparator !== null ) {
-		console.log( querySeparator.index )
 		url = url.slice( 0, querySeparator.index );
 	}
 
