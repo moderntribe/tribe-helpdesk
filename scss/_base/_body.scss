@@ -23,4 +23,8 @@ body {
 		border-left: 1px solid $gray-20;
 		border-right: 1px solid $gray-20;
 	}
+
+	&.scrolled {
+		padding-top: 102px;
+	}
 }
