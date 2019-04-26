@@ -354,52 +354,7 @@
     $(function () {
       // find all elements containing "data-gist-id" attribute.
       $('[data-gist-id]').gist();
-    }); // Custom fork of https://github.com/blairvanderhoof/gist-embed
-    // Targets elements with .sticky for sticky scrolling
-
-    jQuery.event.add(window, 'resize', stickyScroll);
-
-    function stickyScroll() {
-      var $sticky = $('.sticky');
-      var $stickyrStopper = $('.ArticleInfo');
-      var viewportWidth = $(window).width();
-
-      if (!!$sticky.offset()) {
-        // make sure ".sticky" element exists
-        var generalSidebarHeight = $sticky.innerHeight();
-        var stickyTop = $sticky.offset().top;
-        var stickOffset = 0;
-        var stickyStopperPosition = $stickyrStopper.offset().top;
-        var stopPoint = stickyStopperPosition - generalSidebarHeight - stickOffset;
-        var diff = stopPoint + stickOffset;
-        $(window).scroll(function () {
-          // scroll event
-          var windowTop = $(window).scrollTop(); // returns number
-
-          if (stopPoint < windowTop) {
-            $sticky.css({
-              position: 'absolute',
-              right: '0',
-              top: diff
-            });
-          } else if (stickyTop < windowTop + stickOffset) {
-            $sticky.css({
-              position: 'fixed',
-              marginTop: '110px',
-              right: '24px',
-              top: stickOffset
-            });
-          } else {
-            $sticky.css({
-              position: 'absolute',
-              right: '0',
-              marginTop: '0',
-              top: 'initial'
-            });
-          }
-        });
-      }
-    }
+    });
     /**
      * Adds an alert to the portal header.
      * 
@@ -411,7 +366,6 @@
      *		</div>
      *	</div>
      */
-
 
     function addAlert(message) {
       // Add the tribe-marketing-alert class to the body tag so we can style appropriately
@@ -514,17 +468,22 @@
 
     $('.category-list').find('.alert.alert-empty').each(function () {
       $(this).parents('.col-md-4.col-sm-6').hide();
-    }); // Adds a sticky class to the sidebar element on articles
-    // See js/vendor/sticky.js for sticky function
+    });
+    /**
+     * Adds Bootstrap "Affix" to the sidebar elements
+     * 
+     * Had to target the search bar + article lists individually
+     */
 
-    function addStickyClass() {
-      if (isHomePage !== true) {
-        $('.col-md-3').addClass('sticky');
-        stickyScroll();
+    $('.article-page .col-md-3 .panel, .article-page .col-md-3 .margin-bottom').affix({
+      offset: {
+        top: 520,
+        // Size of nav + header, approximately
+        bottom: function bottom() {
+          return this.bottom = $('.footer').outerHeight(true);
+        }
       }
-    }
-
-    addStickyClass(); // Adds a link back to TEC.com in the main menu.
+    }); // Adds a link back to TEC.com in the main menu.
 
     addMainSiteLink("\n\t<li><a href=\"https://theeventscalendar.com\">Main Site</a></li>\n");
 
