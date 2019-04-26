@@ -14,8 +14,34 @@
 
 	@media (min-width: 1025px) {
 		display: block;
+	}
+	// Affix the search box above the panel 
+	.margin-bottom {
 		position: absolute;
-		right: 0;
+		top: 0;
+		transition: top ease 0.3s;
+
+		&.affix {
+			position: fixed;
+			top: 120px;
+		}
+	}
+	// Affix the panel inside the column for better positioning
+	.panel {
+		box-shadow: none;
+		position: absolute;
+		top: 60px;
+		transition: top ease 0.3s;
+
+		&.affix {
+			max-width: 20%;
+			position: fixed !important;
+			top: 180px;
+
+			@media (min-width: 1300px) {
+				max-width: 278px;
+			}
+		}
 	}
 
 	// The search text input

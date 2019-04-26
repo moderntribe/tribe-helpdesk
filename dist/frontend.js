@@ -514,17 +514,22 @@
 
     $('.category-list').find('.alert.alert-empty').each(function () {
       $(this).parents('.col-md-4.col-sm-6').hide();
-    }); // Adds a sticky class to the sidebar element on articles
-    // See js/vendor/sticky.js for sticky function
+    });
+    /**
+     * Adds Bootstrap "Affix" to the sidebar elements
+     * 
+     * Had to target the search bar + article lists individually
+     */
 
-    function addStickyClass() {
-      if (isHomePage !== true) {
-        $('.col-md-3').addClass('sticky');
-        stickyScroll();
+    $('.article-page .col-md-3 .panel, .article-page .col-md-3 .margin-bottom').affix({
+      offset: {
+        top: 520,
+        // Size of nav + header, approximately
+        bottom: function bottom() {
+          return this.bottom = $('.footer').outerHeight(true);
+        }
       }
-    }
-
-    addStickyClass(); // Adds a link back to TEC.com in the main menu.
+    }); // Adds a link back to TEC.com in the main menu.
 
     addMainSiteLink("\n\t<li><a href=\"https://theeventscalendar.com\">Main Site</a></li>\n");
 

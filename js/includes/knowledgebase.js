@@ -8,13 +8,17 @@ $( '.category-list' ).find( '.alert.alert-empty' ).each( function() {
 	$( this ).parents( '.col-md-4.col-sm-6' ).hide();
 } );
 
-// Adds a sticky class to the sidebar element on articles
-// See js/vendor/sticky.js for sticky function
-function addStickyClass() {
-	if ( isHomePage !== true ) {
-		$( '.col-md-3' ).addClass( 'sticky' )
-		stickyScroll();
-	}
-}
 
-addStickyClass()
+/**
+ * Adds Bootstrap "Affix" to the sidebar elements
+ * 
+ * Had to target the search bar + article lists individually
+ */
+$('.article-page .col-md-3 .panel, .article-page .col-md-3 .margin-bottom').affix({
+	offset: {
+		top: 520, // Size of nav + header, approximately
+		bottom: function () {
+			return (this.bottom = $('.footer').outerHeight(true))
+		}
+	}
+});
