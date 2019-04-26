@@ -480,7 +480,6 @@
       offset: {
         top: function top() {
           var articleTop = $('.article-page').position().top;
-          console.log(articleTop);
           return this.top = articleTop;
         },
         bottom: 100

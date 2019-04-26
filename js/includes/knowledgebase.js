@@ -19,7 +19,6 @@ $('.article-page .col-md-3 .panel').affix({
 	offset: {
 		top: function () {
 			var articleTop = $('.article-page').position().top;
-			console.log(articleTop);
 			return this.top = articleTop;
 		},
 		bottom: 100
