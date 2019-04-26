@@ -25,6 +25,8 @@ body {
 	}
 
 	&.scrolled {
-		padding-top: 102px;
+		@media (min-width: 768px) {
+			padding-top: 102px;
+		}
 	}
 }
