@@ -10,7 +10,10 @@
 }
 
 .article-page > .row {
-	display: flex;
+	// Set to flex to make sure the columns expand to 100% height
+	@media (min-width: 768px) {
+		display: flex;
+	}
 }
 
 .article-page .col-md-3 {
