@@ -474,13 +474,24 @@
      * 
      * Had to target the search bar + article lists individually
      */
+    // Panel needs bottom offset to work properly
 
-    $('.article-page .col-md-3 .panel, .article-page .col-md-3 .margin-bottom').affix({
+    $('.article-page .col-md-3 .panel').affix({
       offset: {
-        top: 520,
-        // Size of nav + header, approximately
-        bottom: function bottom() {
-          return this.bottom = $('.footer').outerHeight(true);
+        top: function top() {
+          var articleTop = $('.article-page').position().top;
+          console.log(articleTop);
+          return this.top = articleTop;
+        },
+        bottom: 100
+      }
+    });
+    $('.article-page .col-md-3 .margin-bottom').affix({
+      offset: {
+        top: function top() {
+          var navHeight = $('.navbar').outerHeight();
+          var jumbotronHeight = $('.jumbotron').outerHeight();
+          return this.top = jumbotronHeight + navHeight;
         }
       }
     }); // Adds a link back to TEC.com in the main menu.
