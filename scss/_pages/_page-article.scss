@@ -9,8 +9,16 @@
 	padding: 2em;
 }
 
+.article-page > .row {
+	display: flex;
+}
+
 .article-page .col-md-3 {
 	display: none;
+
+	&.affix {
+		position: fixed;
+	}
 
 	@media (min-width: 1025px) {
 		display: block;
@@ -22,14 +30,19 @@
 		transition: top ease 0.3s;
 
 		&.affix {
+			max-width: 20%;
 			position: fixed;
 			top: 120px;
+
+			@media (min-width: 1300px) {
+				max-width: 278px;
+			}
 		}
 	}
 	// Affix the panel inside the column for better positioning
 	.panel {
 		box-shadow: none;
-		position: absolute;
+		position: absolute !important;
 		top: 60px;
 		transition: top ease 0.3s;
 
@@ -41,6 +54,11 @@
 			@media (min-width: 1300px) {
 				max-width: 278px;
 			}
+		}
+
+		&.affix-bottom {
+			bottom: 20px;
+			top: auto !important;
 		}
 	}
 
