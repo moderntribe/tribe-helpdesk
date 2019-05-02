@@ -1,4 +1,4 @@
-const { dest, parallel, src, watch } = require( 'gulp' );
+const { dest, parallel, series, src, watch } = require( 'gulp' );
 
 const sass         = require( 'gulp-sass' );
 const autoprefixer = require( 'gulp-autoprefixer' );
@@ -9,6 +9,9 @@ const uglify       = require( 'gulp-uglify' );
 const livereload   = require( 'gulp-livereload' );
 const wrapper      = require( 'gulp-wrapper' );
 const babel        = require( 'gulp-babel' );
+const eslint       = require( 'gulp-eslint' );
+const notify       = require( 'gulp-notify' );
+
 
 /**
  * Compile styles
@@ -67,19 +70,42 @@ async function scripts() {
 		.pipe( dest( 'dist' ) )
 }
 
+async function lintJS() {
+	const lintingRules = {
+		'rules':{
+			'quotes': [1, 'single'],
+			'semi': [1, 'always']
+		}
+	};
+
+	const notifyRules = {
+		message : "✔︎ eslint task - complete!",
+		onLast  : true
+	};
+
+	return src( './js/**/*.js' )
+		.pipe( eslint( lintingRules ) )
+		.pipe( notify( notifyRules ) )
+		.pipe( eslint.format() );
+}
+
 /**
  * "Watch" task.
  */
 function autobuild() {
 	livereload.listen();
 
-	watch( 'scss/*', styles );
-	watch( 'js/*.js', scripts ).on( 'change' ,function( file ) {
+	watch( 'scss/*', styles ).on( 'change', ( file ) => {
+		livereload.changed( file.path );
+	} );
+
+	watch( 'js/*.js', scripts ).on( 'change', ( file ) => {
 		livereload.changed( file.path );
 	} );
 }
 
 exports.build = parallel( scripts, styles );
-exports.scripts = scripts;
+exports.lint = lintJS;
+exports.scripts = series( lintJS, scripts );
 exports.styles = styles;
 exports.watch = autobuild;
