@@ -1,4 +1,6 @@
 var gulp         = require( 'gulp' );
+var eslint       = require( 'gulp-eslint' );
+var notify       = require( 'gulp-notify' );
 var sass         = require( 'gulp-ruby-sass' );
 var autoprefixer = require( 'gulp-autoprefixer' );
 var cleanCSS     = require( 'gulp-clean-css' );
@@ -66,6 +68,26 @@ gulp.task( 'scripts', function() {
 		.pipe( gulp.dest( 'dist' ) )
 });
 
+gulp.task( 'eslint', function() {
+	let lintingRules = {
+		'rules':{
+			'quotes': [1, 'single'],
+			'semi': [1, 'always']
+		}
+	};
+
+	let notifyRules = {
+		message : "✔︎ eslint task - complete!",
+		onLast  : true
+	};
+
+	return gulp.src( './js/**/*.js' )
+		.pipe( eslint( lintingRules ) )
+		.pipe( notify( notifyRules ) )
+		.pipe( eslint.format() );
+	}
+);
+
 /**
  * Watch task
  */
@@ -73,7 +95,7 @@ gulp.task( 'watch', function() {
 	livereload.listen();
 
 	gulp.watch( 'scss/*', ['styles'] );
-	gulp.watch( 'js/*.js', ['scripts'] ).on( 'change' ,function( file ) {
+	gulp.watch( 'js/*.js', ['scripts', 'eslint'] ).on( 'change', function( file ) {
 		livereload.changed( file.path );
 	} );
 });
