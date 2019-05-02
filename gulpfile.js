@@ -1,18 +1,19 @@
-var gulp         = require( 'gulp' );
-var sass         = require( 'gulp-ruby-sass' );
-var autoprefixer = require( 'gulp-autoprefixer' );
-var cleanCSS     = require( 'gulp-clean-css' );
-var rename       = require( 'gulp-rename' );
-var concat       = require( 'gulp-concat' );
-var uglify       = require( 'gulp-uglify' );
-var livereload   = require( 'gulp-livereload' );
-var wrapper      = require( 'gulp-wrapper' );
-var babel        = require( 'gulp-babel' );
+const { dest, parallel, src, watch } = require( 'gulp' );
+
+const sass         = require( 'gulp-sass' );
+const autoprefixer = require( 'gulp-autoprefixer' );
+const cleanCSS     = require( 'gulp-clean-css' );
+const rename       = require( 'gulp-rename' );
+const concat       = require( 'gulp-concat' );
+const uglify       = require( 'gulp-uglify' );
+const livereload   = require( 'gulp-livereload' );
+const wrapper      = require( 'gulp-wrapper' );
+const babel        = require( 'gulp-babel' );
 
 /**
  * Compile styles
  */
-gulp.task( 'styles', function() {
+async function styles() {
 	return sass( 'scss/*' )
 		.pipe( autoprefixer(
 			{
@@ -21,14 +22,14 @@ gulp.task( 'styles', function() {
 		) )
 		.pipe( cleanCSS() )
 		.pipe( rename( 'style.min.css' ) )
-		.pipe( gulp.dest( 'dist' ) )
+		.pipe( dest( 'dist' ) )
 		.pipe( livereload() );
-});
+}
 
 /**
  * Concatenate scripts
  */
-gulp.task( 'scripts', function() {
+async function scripts() {
 	// All of our code will execute in a scope where jQuery is
 	// defined and aliased to $ (or else if jQuery is not available
 	// it will not run at all)
@@ -52,7 +53,7 @@ gulp.task( 'scripts', function() {
 		`
 	}
 
-	return gulp.src( [
+	return src( [
 			'./js/globals/**/*.js',
 			'./js/vendor/**/*.js',
 			'./js/includes/**/*.js',
@@ -60,25 +61,25 @@ gulp.task( 'scripts', function() {
 		.pipe( concat( 'frontend.js' ) )
 		.pipe( wrapper( jQueryWrapper ) )
 		.pipe( babel() )
-		.pipe( gulp.dest( 'dist' ) )
+		.pipe( dest( 'dist' ) )
 		.pipe( uglify() )
 		.pipe( rename( 'frontend.min.js' ) )
-		.pipe( gulp.dest( 'dist' ) )
-});
+		.pipe( dest( 'dist' ) )
+}
 
 /**
- * Watch task
+ * "Watch" task.
  */
-gulp.task( 'watch', function() {
+function autobuild() {
 	livereload.listen();
 
-	gulp.watch( 'scss/*', ['styles'] );
-	gulp.watch( 'js/*.js', ['scripts'] ).on( 'change' ,function( file ) {
+	watch( 'scss/*', styles );
+	watch( 'js/*.js', scripts ).on( 'change' ,function( file ) {
 		livereload.changed( file.path );
 	} );
-});
+}
 
-/**
- * Build scripts and styles for deploy
- */
-gulp.task( 'build', ['scripts', 'styles'] );
+exports.build = parallel( scripts, styles );
+exports.scripts = scripts;
+exports.styles = styles;
+exports.watch = autobuild;
