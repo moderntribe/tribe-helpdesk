@@ -107,5 +107,5 @@ function autobuild() {
 exports.build = parallel( scripts, styles );
 exports.lint = lintJS;
 exports.scripts = series( lintJS, scripts );
-exports.styles = series( styles );
+exports.styles = styles;
 exports.watch = autobuild;
