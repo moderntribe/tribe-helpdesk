@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="000937-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Event Aggregator</title>            <meta property="og:url" content="//support.theeventscalendar.com/000937-Event-Aggregator" />    <meta property="og:title" content="Event Aggregator" />    <meta property="og:description" content="Event Aggregator" />        <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-category">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- category -->
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header">Event Aggregator</h1>
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Event Aggregator</span>
+			<meta itemprop="position" content="2" />
+							<link itemprop="url" href="000937-Event-Aggregator" />
+					</span>
+	</span>
+</p>        <div class="col-md-10 col-sm-12 col-xs-12 col-md-offset-1 search-margin-top">
+          <div class="global-search" itemscope itemtype="https://schema.org/WebSite">
+            <meta itemprop="url" content="./" />
+            <form class="searchform" action="https://support.theeventscalendar.com/search" method="get" role="search" id="jumbotronsearch" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+						 <div class="input-group">
+                <meta itemprop="target" content="search?q={q}"/>
+                <input placeholder="Search in this category" type="text" name="q" value="" class="form-control" itemprop="query-input" required>
+                 <input type="hidden" name="pid" value="8">
+                 <input type="hidden" name="type" value="search">
+					      <span class="input-group-btn">
+					        <input class="btn btn-primary" type="submit" value="Search">
+					      </span>
+					    </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container category-page  margin-top margin-bottom">
+   <div class="row">
+  	  		<div class="col-lg-10 col-md-12 col-lg-offset-1">
+  			<!-- article_list -->
+	<div class="list-group article-list" itemscope itemtype="https://schema.org/ItemList">
+        
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="290016-Troubleshooting-Duplicate-Imports" itemprop="item" class="list-group-item item-A" title="Troubleshooting Duplicate Imports">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Troubleshooting Duplicate Imports</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/290016-Troubleshooting-Duplicate-Imports" />
+                                    <div itemprop="description" class="article-preview">Running an import and seeing existing events duplicated on your site can be extremely frustrating. This article should help you determine why this might be happening and let you know what can be done.
+ 
+
+How Event Aggregator Works
+
+ iCalendar feeds and ICS files contain information about events in a standardized format (https://icalendar.org/), which allows those events to be imported to other platforms. Part of the information that is included for each event is a unique identifier, or UID. When...</div>
+                  <meta itemprop="position" content="1" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="638957-Other-URL-Import-Errors-in-Event-Aggregator" itemprop="item" class="list-group-item item-A" title="&quot;Other URL&quot; Import Errors in Event Aggregator">                  
+                  <h3 class="list-group-item-heading" itemprop="name">&quot;Other URL&quot; Import Errors in Event Aggregator</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/638957-Other-URL-Import-Errors-in-Event-Aggregator" />
+                                    <div itemprop="description" class="article-preview">ERROR MESSAGE #1
+
+  Events could not be imported. The requested URL does not support The Events Calendar REST API.
+  
+
+Cause:
+
+ The site you are trying to pull events from is on WordPress &lt; 4.4 or has disabled the WP REST API infrastructure.
+ 
+-------------------------
+ 
+
+ERROR MESSAGE #2
+
+  Events could not be imported. The Events Calendar REST API is disabled on the requested URL.
+  
+
+Cause:
+
+ The site you are trying to pull events from supports The Events Calendar REST API but has disabled...</div>
+                  <meta itemprop="position" content="2" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="017798-Creating-a-hub-site-with-Event-Aggregator" itemprop="item" class="list-group-item item-A" title="Creating a hub site with Event Aggregator">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Creating a hub site with Event Aggregator</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/017798-Creating-a-hub-site-with-Event-Aggregator" />
+                                    <div itemprop="description" class="article-preview">If you've used Event Aggregator to import events from third-party sources such as Facebook or Google Calendar in the past, then you're no doubt already aware of how Event Aggregator can save you time and hassle when managing events from multiple sources or users. Beginning with The Events Calendar version 4.5, we've taken that functionality a step further: using the Other URL import option in Event Aggregator, events can now be imported directly from other sites running The Events Calendar.
+ Thi...</div>
+                  <meta itemprop="position" content="3" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="374127-Importing-holiday-or-other-special-calendars-with-Event-Aggregator" itemprop="item" class="list-group-item item-A" title="Importing holiday or other special calendars with Event Aggregator">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Importing holiday or other special calendars with Event Aggregator</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/374127-Importing-holiday-or-other-special-calendars-with-Event-Aggregator" />
+                                    <div itemprop="description" class="article-preview">Our Event Aggregator (https://theeventscalendar.com/product/event-aggregator/) importing solution is great for bringing in your own calendar events from a variety of external sources to The Events Calendar (https://theeventscalendar.com/product/wordpress-events-calendar/) or Events Calendar PRO (https://theeventscalendar.com/product/wordpress-events-calendar-pro/). But you may not know that it's also great for seamlessly incorporating holidays or other significant dates, such as game schedules o...</div>
+                  <meta itemprop="position" content="4" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="430949-How-Do-Event-Aggregators-Import-Limits-Work" itemprop="item" class="list-group-item item-A" title="How Do Event Aggregator&#039;s Import Limits Work?">                  
+                  <h3 class="list-group-item-heading" itemprop="name">How Do Event Aggregator&#039;s Import Limits Work?</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/430949-How-Do-Event-Aggregators-Import-Limits-Work" />
+                                    <div itemprop="description" class="article-preview">Your Event Aggregator license provides you with a maximum number of scheduled imports that you can run each day.
+ License keys can be used on more than one domain, however reasonable limits do apply (and our support team can provide further guidance if this becomes a problem).
+ Each successful scheduled import is counted as a single import task and will deduct from your daily import count by one, regardless of how many events are imported in a given task. If your Event Aggregator license provide...</div>
+                  <meta itemprop="position" content="5" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="650197-Moving-to-Event-Aggregator" itemprop="item" class="list-group-item item-A" title="Moving to Event Aggregator">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Moving to Event Aggregator</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/650197-Moving-to-Event-Aggregator" />
+                                    <div itemprop="description" class="article-preview">With the release of The Events Calendar 4.3, we have a fabulous new importer tool available. Event Aggregator (https://theeventscalendar.com/product/event-aggregator/) allows you to import events from across the web- from iCalendar, Google Calendar, or Meetup, as well as from ICS or CSV files. It  does not currently support (https://theeventscalendar.com/knowledgebase/ea-fb-privacy-policy/) importing events from Facebook. You can do manual or scheduled imports and manage all your imports easily ...</div>
+                  <meta itemprop="position" content="6" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="710770-New-User-Primer-Event-Aggregator" itemprop="item" class="list-group-item item-A" title="New User Primer: Event Aggregator">                  
+                  <h3 class="list-group-item-heading" itemprop="name">New User Primer: Event Aggregator</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/710770-New-User-Primer-Event-Aggregator" />
+                                    <div itemprop="description" class="article-preview">The Events Calendar 4.3 and above comes with an importing tool called Event Aggregator. Anyone can use Event Aggregator for free to import information from a CSV file. Users who have purchased a license for Event Aggregator can import from more sources (including Google Calendar and iCalendar) and can set up automatically scheduled imports.
+ The steps below will help you get started with Event Aggregator. Follow the links to more detailed tutorials.
+ 1. If you haven't already, download and insta...</div>
+                  <meta itemprop="position" content="7" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="114474-Managing-Imported-Events" itemprop="item" class="list-group-item item-A" title="Managing Imported Events">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Managing Imported Events</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/114474-Managing-Imported-Events" />
+                                    <div itemprop="description" class="article-preview">The purpose of this guide is to walk through the various ways in which events can be managed in The Events Calendar (https://theeventscalendar.com/product/wordpress-events-calendar/) once they have been imported using the Event Aggregator (https://theeventscalendar.com/product/event-aggregator/) service.
+ If you haven't used Event Aggregator before, you'll first want to review the New User Primer (https://support.theeventscalendar.com/710770-New-User-Primer-Event-Aggregator) and import some even...</div>
+                  <meta itemprop="position" content="8" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="948574-Importing-Events-from-an-ICS-File-with-Event-Aggregator" itemprop="item" class="list-group-item item-A" title="Importing Events from an ICS File with Event Aggregator">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Importing Events from an ICS File with Event Aggregator</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/948574-Importing-Events-from-an-ICS-File-with-Event-Aggregator" />
+                                    <div itemprop="description" class="article-preview">Our Event Aggregator service allows you to import events from outside calendars. This tutorial covers the process for import events from an ICS file. Instructions for importing from feeds and urls are available in a separate tutorial (https://support.theeventscalendar.com/650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL).
+ 
+
+What is an ICS file?
+
+ ICS is a type of file that contains calendar information from a calendar application. You can tell something is an ICS file because those t...</div>
+                  <meta itemprop="position" content="9" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="916243-Managing-Your-Scheduled-Imports-in-Event-Aggregator" itemprop="item" class="list-group-item item-A" title="Managing Your Scheduled Imports in Event Aggregator">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Managing Your Scheduled Imports in Event Aggregator</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/916243-Managing-Your-Scheduled-Imports-in-Event-Aggregator" />
+                                    <div itemprop="description" class="article-preview">We've covered the process for creating a scheduled import of events in another tutorial (https://support.theeventscalendar.com/650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL), but what happens from there? In this tutorial, we'll go over the steps for how to find, edit and delete your scheduled imports.
+ 
+
+Finding your Scheduled Imports
+
+ Every scheduled import can be located on the Events &gt; Import screen by clicking on the Scheduled Imports tab. This tab will only be displayed if...</div>
+                  <meta itemprop="position" content="10" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL" itemprop="item" class="list-group-item item-A" title="Event Aggregator: Importing Events from a Feed or URL">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Event Aggregator: Importing Events from a Feed or URL</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL" />
+                                    <div itemprop="description" class="article-preview">Event Aggregator allows you to import events from other sources, including Google Calendar, iCalendar, Meetup and Eventbrite, as well as from ICS and CSV files. This article covers the step by step process for importing from another site using a feed or URL. Separate tutorials explain the process for importing from a CSV file (https://support.theeventscalendar.com/867204-Importing-Data-from-a-CSV-File) or ICS file (https://support.theeventscalendar.com/948574-Importing-Events-from-an-ICS-File-wi...</div>
+                  <meta itemprop="position" content="11" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="867204-Importing-Data-from-a-CSV-File" itemprop="item" class="list-group-item item-A" title="Importing Data from a CSV File">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Importing Data from a CSV File</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/867204-Importing-Data-from-a-CSV-File" />
+                                    <div itemprop="description" class="article-preview">The Events Calendar includes a CSV importer tool which allows you to import events, venues, and organizers into your site's calendar. This is a great way to quickly and easily add a lot of content to your calendar all at once.
+ The importer is part of our full-featured Event Aggregator (https://theeventscalendar.com/product/event-aggregator/) plugin which, if you purchase a license, can also import from other sources like iCal. The CSV import tool is free, however, and included when you install ...</div>
+                  <meta itemprop="position" content="12" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="727667-Ignored-Events" itemprop="item" class="list-group-item item-A" title="Ignored Events">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Ignored Events</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/727667-Ignored-Events" />
+                                    <div itemprop="description" class="article-preview">What are Ignored Events?
+
+ With The Events Calendar 4.3 and beyond, imported events can be set to the status of Ignored. Marking an imported event as ignored is similar to moving a regular event to the trash. The event record still exists, but the event will not be visible on your calendar.
+ If an Ignored Event is imported a second time, the event may update (depending on your import update settings) but it will not be duplicated or visible on your calendar. You can safely perform bulk or automa...</div>
+                  <meta itemprop="position" content="13" />
+                </a>
+            </div>
+                	</div>
+  		</div>
+  		</div>
+	</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=8&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="000937-Event-Aggregator#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

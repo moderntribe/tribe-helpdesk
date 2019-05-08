@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="867204-Importing-Data-from-a-CSV-File" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Importing Data from a CSV File</title>        <meta name="keywords" content="Article,Beginner,Event Aggregator,Event Aggregator,events,import,events calendar,event,event aggregator,csv,content,file,importing events,csv file,venues and organizers,published to your site right,published to your site,events calendar using event aggregator,calendar using event aggregator,events calendar using event,data for saved event,using event aggregator,export csv files,? note" />    <meta property="og:url" content="//support.theeventscalendar.com/867204-Importing-Data-from-a-CSV-File" />    <meta property="og:title" content="Importing Data from a CSV File" />    <meta property="og:description" content="The Events Calendar includes a CSV importer tool which allows you to import events, venues, and organizers into your site&#039;s calendar. This is a great way to quickly and easily add a lot of content to " />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Importing Data from a CSV File</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Importing Data from a CSV File">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/867204-Importing-Data-from-a-CSV-File"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="000937-Event-Aggregator" class="breadcrumb-link">
+    			<span itemprop="name">Event Aggregator</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Importing Data from a CSV File</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="867204-Importing-Data-from-a-CSV-File" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>The Events Calendar includes a CSV importer tool which allows you to import events, venues, and organizers into your site's calendar. This is a great way to quickly and easily add a lot of content to your calendar all at once.</p>
+
+<p>The importer is part of our full-featured <a href="https://theeventscalendar.com/product/event-aggregator/" rel="noopener">Event Aggregator</a> plugin which, if you purchase a license, can also import from other sources like iCal. <strong>The CSV import tool is free, however, and included when you install The Events Calendar.</strong></p>
+
+<h3 id="csv-files">You lost me at CSV...</h3>
+
+<p>CSV is a file format that stands for <em>comma-separated values</em>. These files are often produced by spreadsheet applications like Excel and Numbers, but they can come from other sources as well. This file type converts a spreadsheet file from a format that uses cells to separate content to a file format that separates content using commas.</p>
+
+<p>For example, a spreadsheet file with the following cells:</p>
+
+<table>
+	<tbody>
+		<tr>
+			<td>Cell 1</td>
+			<td>Cell 2</td>
+			<td>Cell 3</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>… would be converted to this in CSV:</p>
+
+<p><code>Cell 1,Cell 2,Cell 3</code></p>
+
+<p>This is important because it makes the data contained in the spreadsheet readable to importing tools like Event Aggregator.</p>
+
+<h3 id="save-file">Generating a CSV File</h3>
+
+<p>Saving a spreadsheet as a CSV file is often an option in the save settings of the application (such as Microsoft Excel) you are using. In most cases, you will go to <strong>File</strong> &gt; <strong>Save As</strong> from your application and select the option to save the file in CSV format.</p>
+
+<p>This is the file you will use to import events to The Events Calendar using Event Aggregator. You can learn more about the specific fields available and download example files in <a href="969953-CSV-file-examples-for-importing">another article</a>.</p>
+
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔 Note:</strong> Some versions of Microsoft Excel may export CSV files with non-standard separator characters (such as semicolons) by default. To ensure that your CSV exports can be successfully imported by Event Aggregator, please ensure that your Excel settings are configured to export CSV files with the comma (,) separator. Please refer to the documentation for your software if you should have any questions about how to adjust this setting.</div>
+
+<h3 id="import">Importing a CSV File</h3>
+
+<p>Follow the step-by-step instructions below to learn how to import data from a CSV file.</p>
+
+<h4>Step 1: Go to the Import Screen</h4>
+
+<p>From the WordPress dashboard, navigate to <strong>Events</strong> &gt; <strong>Import</strong> in the left-hand menu.</p>
+
+<h4>Step 2: Select CSV as the import origin</h4>
+
+<p>The first field on the screen will ask you to identify the source of your new import. Select <strong>CSV File</strong> from the list of options.</p>
+
+<p style="text-align: center;"><img alt="Selecting &quot;CSV File&quot; as the import origin when importing from Event Aggregator" src="https://theeventscalendar.com/content/uploads/2016/10/csv_file_import_origin.png" /></p>
+
+<h4>Step 3: Select the type of content to be imported</h4>
+
+<p style="text-align: center;"><img alt="kb-ea-csv-step3" src="https://theeventscalendar.com/content/uploads/2016/09/kb-ea-csv-step3.png" /></p>
+
+<p>By default, there are three options for data types that can be imported using Event Aggregator.</p>
+
+<ul>
+	<li><strong>Events:</strong> Posts that will be identified as events to be published on The Events Calendar.</li>
+	<li><strong>Organizers:</strong> Data for saved event organizers that can be associated with an event.</li>
+	<li><strong>Venues:</strong> Data for saved event locations that can be attached to events.</li>
+</ul>
+
+<p>If you are planning to import venue and organizer information with your events, then you will need to import the CSV file for those venues and organizers <em>before</em> importing events. This will ensure that the data for both venues and organizers are available so Event Aggregator knows what information to associate with an event when it is imported.</p>
+
+<p><strong>🔔 Note:</strong> if you are using Event Tickets and/or Event Tickets Plus, you will also have an option to import RSVPs or tickets via CSV. You'll need to import your ticket files <em>after</em> you're done importing events.</p>
+
+<h4>Step 4: Select the file to upload</h4>
+
+<p>Remember when you created your CSV file? The next step is to locate the file on your device and upload it to Event Aggregator. Click the <strong>Upload</strong> button and select the file from the appropriate location on your hard drive.</p>
+
+<p>The CSV file you choose will be saved to the WordPress media library and will remain available for future use.</p>
+
+<h4>Step 5: Preview the content and map your fields</h4>
+
+<p>Once you have selected the CSV file to upload, click the Preview button. This will generate a preview of a <strong>portion of your CSV file</strong>.&nbsp;Notice that the import preview is in a table format with column headings and dropdown fields. <strong>Before you can import the information, you'll need to "map" the information from your file to the corresponding content fields in The Events Calendar.&nbsp;</strong>The display only includes some of the rows from your CSV file because you only need to see enough to map the fields properly. The actual import will include all the data in the file.</p>
+
+<p>The column headings in your preview match the headings in the spreadsheet that became your CSV file. Each dropdown menu contains all the different content fields for an event (or venue, organizer, or ticket, depending on the content you're importing). <strong>For each column, use the dropdown to select the correct content field for the information in that column. </strong>Scroll to the right until you have mapped all of the fields that you wish to import.</p>
+
+<p><img alt="mapping-columns" src="https://theeventscalendar.com/content/uploads/2016/09/mapping-columns.gif" /></p>
+
+<p>🔔 <strong>Note:</strong> If you followed our <a href="969953-CSV-file-examples-for-importing">CSV file examples post</a>, your column names will probably match the options in the dropdown. However, the options may not match if you are using a CSV file that you exported from another source. When mapping, choose the option from the dropdown that best matches the information in the column, or you may leave the dropdown selection as <em>Do Not Import </em>to leave that column's data out. You can always edit the entry later.</p>
+
+<p><strong>Step 6: Run the import</strong></p>
+
+<p>Now that you've mapped the data, you're almost ready to run the import. But first, you have the option to set the <strong>Publish</strong> status for the data:</p>
+
+<ul>
+	<li><strong>Published:</strong> The content will be published to your site right away.</li>
+	<li><strong>Draft:</strong> The content will not be published but will be available for editing after the import.</li>
+	<li><strong>Pending Review: </strong>The content will not be published or saved as a draft but will be labeled as being ready for a WordPress editor or administrator to review before it is published.</li>
+	<li><strong>Private: </strong>The content will be published to your site right away but will only be accessible to those who are logged into the site with sufficient permissions to view the content.</li>
+</ul>
+
+<p>You can also choose to add categories to the content from a list of existing event categories on your site. <strong>Keep in mind that this option only matters if you are currently importing events</strong>--it is irrelevant if you are importing organizers, venues, RSVPs, or tickets.</p>
+
+<p style="text-align: center;"><img alt="Screen Shot 2016-09-27 at 7.44.56 PM" src="https://theeventscalendar.com/content/uploads/2016/09/Screen-Shot-2016-09-27-at-7.44.56-PM.png" /></p>
+
+<p>Once you've reviewed your settings, go ahead and press the <strong>Import All</strong> button!</p>
+
+<h3 id="overview">Overview</h3>
+
+<p>That's the step-by-step process for importing events into The Events Calendar using Event Aggregator. We hope you found this helpful. Here is a final screencast of the process from start-to-finish:</p>
+
+<p style="text-align: center;"><img alt="kb-ea-csv-wrap" src="https://theeventscalendar.com/content/uploads/2016/09/kb-ea-csv-wrap.gif" /></p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Mar 29, 2019, 10:18 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-29" itemprop="dateModified">Mar 29 (39 days ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="591">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="290016-Troubleshooting-Duplicate-Imports" class="article-link article-link-849" title="Troubleshooting Duplicate Imports">
+        <span class="TitleValue">Troubleshooting Duplicate Imports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="638957-Other-URL-Import-Errors-in-Event-Aggregator" class="article-link article-link-629" title="&quot;Other URL&quot; Import Errors in Event Aggregator">
+        <span class="TitleValue">&quot;Other URL&quot; Import Errors in Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="017798-Creating-a-hub-site-with-Event-Aggregator" class="article-link article-link-653" title="Creating a hub site with Event Aggregator">
+        <span class="TitleValue">Creating a hub site with Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="374127-Importing-holiday-or-other-special-calendars-with-Event-Aggregator" class="article-link article-link-639" title="Importing holiday or other special calendars with Event Aggregator">
+        <span class="TitleValue">Importing holiday or other special calendars with Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="430949-How-Do-Event-Aggregators-Import-Limits-Work" class="article-link article-link-617" title="How Do Event Aggregator&#039;s Import Limits Work?">
+        <span class="TitleValue">How Do Event Aggregator&#039;s Import Limits Work?</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="650197-Moving-to-Event-Aggregator" class="article-link article-link-613" title="Moving to Event Aggregator">
+        <span class="TitleValue">Moving to Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="710770-New-User-Primer-Event-Aggregator" class="article-link article-link-609" title="New User Primer: Event Aggregator">
+        <span class="TitleValue">New User Primer: Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="114474-Managing-Imported-Events" class="article-link article-link-607" title="Managing Imported Events">
+        <span class="TitleValue">Managing Imported Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="948574-Importing-Events-from-an-ICS-File-with-Event-Aggregator" class="article-link article-link-601" title="Importing Events from an ICS File with Event Aggregator">
+        <span class="TitleValue">Importing Events from an ICS File with Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="916243-Managing-Your-Scheduled-Imports-in-Event-Aggregator" class="article-link article-link-595" title="Managing Your Scheduled Imports in Event Aggregator">
+        <span class="TitleValue">Managing Your Scheduled Imports in Event Aggregator</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="000937-Event-Aggregator" class="MoreLinkTitle">and 12 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=591&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="867204-Importing-Data-from-a-CSV-File#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

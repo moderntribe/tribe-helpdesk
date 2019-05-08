@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="332993-Introduction-to-The-Events-Calendar-REST-API" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Introduction to The Events Calendar REST API</title>        <meta name="keywords" content="Article,Other,The Events Calendar,Intermediate,Backend Tweaks,Getting Started,REST API,events,calendar,events calendar,api,wordpress,venues and organizers,rest api,rest,events calendar rest api,events venues and organizers,calendar rest api,events calendar rest,calendar rest,events calendar rest api documentation,wordpress rest api,calendar rest api documentation,wordpress and the events calendar,rest api documentation,manage events,wordpress rest" />    <meta property="og:url" content="//support.theeventscalendar.com/332993-Introduction-to-The-Events-Calendar-REST-API" />    <meta property="og:title" content="Introduction to The Events Calendar REST API" />    <meta property="og:description" content="What is a REST API, again?   If you work at all with the web, you will have probably heard of many &#039;REST APIs&#039;, particularly the WordPress REST API (https://developer.wordpress.org/rest-api/). Any art" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Introduction to The Events Calendar REST API</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Introduction to The Events Calendar REST API">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/332993-Introduction-to-The-Events-Calendar-REST-API"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="534453-The-Events-Calendar" class="breadcrumb-link">
+    			<span itemprop="name">The Events Calendar</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Introduction to The Events Calendar REST API</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="332993-Introduction-to-The-Events-Calendar-REST-API" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><h3 id="what-is-a-rest-api-again">What is a REST API, again?</h3>
+
+<p>If you work at all with the web, you will have probably heard of many "REST APIs", particularly the <a href="https://developer.wordpress.org/rest-api/" target="_blank">WordPress REST API</a>. Any article dealing with a REST API devotes its beginning to explaining <strong>what</strong> a REST API is. While we follow that pattern, we'll try to be as concise as possible.</p>
+
+<p>The "API" acronym stands for "Application Programming Interface". In layman's terms, it means the tools and controls (the <em>Interface</em>) the server (typically a website) makes available to the client (the Application in API - typically a browser, app, or other website) for accessing data. Our main concern with APIs typically involves the format the data is exchanged in - "how do we use this?"</p>
+
+<p>The "REST" acronym stands for "REpresentational State Transfer" which means that the state of the transaction between a client and the server providing a RESTful API is wholly contained in the response the client receives, so "WYSIWYG" for data. HTTP protocol-based communications (what a browser uses to "get stuff" from the web) are considered to be the only domain where it makes sense to talk about REST APIs. We use the term <strong>"consume"</strong> to describe when a client uses an API (the Transfer).</p>
+
+<p>"State" is the representation of how a client got what it currently holds: if you have $5 in your pocket and a shop receipt saying you paid for a $5 meal with a $10 bill, you know what you have ($5) and how you got there (spent $5 and got $5 in change). If all you had was the $5 bill, the scenarios leading to that might include you winning the lottery, losing it all to tricky raccoons, and finding a $5 bill on the ground.</p>
+
+<p>So, for an API to be "RESTful", said API should not require clients <strong>consuming</strong> it to keep track of a "state" and make full use of HTTP methods.</p>
+
+<p>HTTP is a protocol, the one you use to commonly access a site using a URL like <strong>http://how-not-to-get-scammed-by-raccoons.org</strong>. It provides ways to do what you need to do on the web. Commonly you use the <samp>GET</samp> method to retrieve data from websites. In the case above, the HTTP request would look like this:</p>
+
+<pre>
+<code>GET http://how-not-to-get-scammed-by-raccoons.org/index.php</code></pre>
+
+<p>But <samp>GET</samp> is not the only existing HTTP method. When you submit a form, you are usually making a <samp>POST</samp> request to a URL. That request represents your intent to <strong>send</strong> data to the site instead of <strong>receiving</strong> data from it. When completing a login form, you press the submit button in the form, and the browser would make a request like this:</p>
+
+<pre>
+<code>POST http://how-not-to-get-scammed-by-raccoons.org/login.php
+    user=luca&amp;password=secret</code></pre>
+
+<p>Since you are <strong>sending</strong> something, the <samp>user=luca&amp;password=secret</samp> string represents what you are sending to the server. The syntax above does not correspond to any particular API and is merely for the purposes of this article--do not use that in your code, or raccoons will invade your home!</p>
+
+<p><samp>GET</samp> and <samp>POST</samp> are the most widely used HTTP methods, but there are more: <samp>DELETE</samp> is used to remove stuff from the server, <samp>PATCH</samp> or <samp>PUT</samp> are commonly used to edit data on the server, and <samp>HEAD</samp> and <samp>OPTIONS</samp> are used to fetch information about the server.</p>
+
+<p>When an API makes full and correct use of the methods above, it is then considered "RESTful". If I wanted to update my password on the site, I could use:</p>
+
+<pre>
+<code>PUT http://how-not-to-get-scammed-by-raccoons.org/api/users/luca
+    password=new-secret</code></pre>
+
+<p>Notice I'm now using a different URL to perform the required operation, one that ends in <samp>/api/users/luca</samp>. This could be translated as "call the <samp>api</samp> on <samp>http://how-not-to-get-scammed-by-raccoons.org</samp>: we need to update the details for one of the <samp>users</samp>, <samp>luca</samp> is the name, and set the <samp>password</samp> to <samp>new-secret</samp>".</p>
+
+<p>In technical terms, <samp>/api</samp> is the site's REST API <strong>root path</strong>, <samp>/api/users</samp> is an <strong>endpoint</strong> provided by the API, and <samp>luca</samp> is a <strong>parameter</strong> of the specific call.</p>
+
+<p>If we wanted to remove my user from the site, we would issue this request to the server:</p>
+
+<pre>
+<code>DELETE http://how-not-to-get-scammed-by-raccoons.org/api/users/luca</code></pre>
+
+<p>Now you know why a typical WordPress "Trash" link, which employs URLs such as <samp>http://tribe.localhost/wp-admin/post.php%3Fpost=6&amp;action=trash&amp;_wpnonce=25a5cdc0ba</samp>, is not RESTful: you are deleting something using the HTTP <samp>GET</samp> method.</p>
+
+<p>Reading the examples, it's clear that the site might authorize <em>anyone</em> to make <samp>GET</samp> requests, but it would probably impose limits (in the form of authentication requirements) on performing operations like adding, updating and deleting a user. Or any kind of data, really. Almost any REST API, the WordPress and The Events Calendar APIs being no exception, will make full use of authorization to allow or not allow a user to perform an action. There are many ways to authenticate a user--for the time being, just keep the idea in mind.</p>
+
+<p>The last piece of information you need to fully qualify as a REST API expert, is the notion of HTTP <em>response codes</em>. These are numbers the server will use to tell the client what happened in response to a certain request. You are probably familiar with some: <samp>404</samp> means what you were looking for was not found, <samp>403</samp> means you are not authorized to do what you tried to do, <samp>500</samp> means an internal error happened on the server, and so on. Feast your eyes on the full list of status codes <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">here</a>, and get ready to explore The Events Calendar REST API.</p>
+
+<h3 id="a-rest-api-for-the-events-calendar-how-can-we-use-it">A REST API for The Events Calendar: how can we use it?</h3>
+
+<p>We built The Events Calendar REST API to allow our users and ourselves to <strong>consume</strong> and manage events created with The Events Calendar <strong>from anywhere</strong>. In its most basic form, a REST API separates the content from its presentation, freeing developers and users from the unbreakable paradigm of a WordPress site and a WordPress theme.</p>
+
+<p>"Anywhere" is a big concept, so here are some examples:</p>
+
+<ul>
+	<li>We are updating the administration UI used in The Events Calendar to manage events using the REST API in place of the standard WordPress flow. This means more responsive UI, no more page reloads, and faster iterations.</li>
+	<li>Themes will be able to access events, venues, and organizers' data without the need to use the plugin PHP functions, and developers will be able to present that data to users in any way they want. Creating new views, widgets, and calendars will become easier than ever.</li>
+	<li>Sites not using PHP or WordPress will be able to use a WordPress installation as a content management system to manage events, venues, and organizers while the site's front-end is maintained in a preferred language.</li>
+	<li>Android, iOS, and other mobile application developers will be able to use a WordPress backend to manage events and present the same information to different users on different platforms, with "thin" clients, in a way that fits their target audience and platform.</li>
+</ul>
+
+<p>Since The Events Calendar REST API is built on top of the <a href="https://developer.wordpress.org/rest-api/" target="_blank">WordPress REST API</a> it inherits its excellent code, robustness, and security.</p>
+
+<h3 id="a-first-example">A first example</h3>
+
+<p>Now that we've sung the praises of The Events Calendar REST API, it's time to see it in action!</p>
+
+<p>The Events Calendar REST API is free and bundled with The Events Calendar plugin. It is PHP 5.2 compatible and requires WordPress 4.5 or above. Once you have installed the latest version of The Events Calendar, simply activate, and you're ready to get started.</p>
+
+<p>In the following examples, we'll assume the site on which The Events Calendar REST API is active can be reached at <samp>http://tribe.localhost</samp>--so keep that in mind.</p>
+
+<p>Once The Events Calendar is active, we'll create an event, set its details, publish it, and preview it in the browser:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/example-event-1-665x492.png" /></p>
+
+<p>This is the familiar look of an event in the context of the Twenty Seventeen theme. Let's now head, using a browser, to the address <samp>http://tribe.localhost/wp-json/tribe/events/v1/events</samp>:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/rest-example-events-665x280.png" /></p>
+
+<p>Uhm… not that nice. But wait: that's <strong>the essence</strong> of what The Events Calendar REST API does: providing the raw data about the event without all the presentation stuff surrounding it.</p>
+
+<p>Here is the response in a pretty format:</p>
+
+<pre>
+<code>
+{
+    "events": [{
+        "id": 6,
+        "global_id": "tribe.localhost?id=6",
+        "global_id_lineage": [
+            "tribe.localhost?id=6"
+        ],
+        "author": "1",
+        "status": "publish",
+        "date": "2017-09-21 11:57:52",
+        "date_utc": "2017-09-21 11:57:52",
+        "modified": "2017-09-21 12:03:35",
+        "modified_utc": "2017-09-21 12:03:35",
+        "url": "http://tribe.localhost/event/example-event-1/",
+        "rest_url": "http://tribe.localhost/wp-json/tribe/events/v1/events/6",
+        "title": "REST Event 1",
+        "description": "Example content",
+        "excerpt": "",
+        "image": {
+            "url": "http://tribe.localhost/wp-content/uploads/2017/09/raccoon.jpg",
+            "id": "8",
+            "extension": "jpg",
+            "width": 220,
+            "height": 147,
+            "sizes": {
+                "thumbnail": {
+                    "width": 150,
+                    "height": 147,
+                    "mime-type": "image/jpeg",
+                    "url": "http://tribe.localhost/wp-content/uploads/2017/09/raccoon-150x147.jpg"
+                }
+            }
+        },
+        "all_day": false,
+        "start_date": "2017-09-21 08:00:00",
+        "start_date_details": {
+            "year": "2017",
+            "month": "09",
+            "day": "21",
+            "hour": "08",
+            "minutes": "00",
+            "seconds": "00"
+        },
+        "end_date": "2017-09-21 17:00:00",
+        "end_date_details": {
+            "year": "2017",
+            "month": "09",
+            "day": "21",
+            "hour": "17",
+            "minutes": "00",
+            "seconds": "00"
+        },
+        "utc_start_date": "2017-09-21 08:00:00",
+        "utc_start_date_details": {
+            "year": "2017",
+            "month": "09",
+            "day": "21",
+            "hour": "08",
+            "minutes": "00",
+            "seconds": "00"
+        },
+        "utc_end_date": "2017-09-21 17:00:00",
+        "utc_end_date_details": {
+            "year": "2017",
+            "month": "09",
+            "day": "21",
+            "hour": "17",
+            "minutes": "00",
+            "seconds": "00"
+        },
+        "timezone": "UTC+0",
+        "timezone_abbr": "",
+        "cost": "$5",
+        "cost_details": {
+            "currency_symbol": "$",
+            "currency_position": "prefix",
+            "values": ["5"]
+        },
+        "website": "http://raccoons-ate-my-neighbour.com",
+        "show_map": false,
+        "show_map_link": false,
+        "hide_from_listings": false,
+        "sticky": false,
+        "featured": false,
+        "categories": [{
+            "name": "rest-stuff",
+            "slug": "rest-stuff",
+            "term_group": 0,
+            "term_taxonomy_id": 2,
+            "taxonomy": "tribe_events_cat",
+            "description": "",
+            "parent": 0,
+            "count": 1,
+            "filter": "raw",
+            "id": 2,
+            "urls": {
+                "self": "http://tribe.localhost/wp-json/tribe/events/v1/categories/2",
+                "collection": "http://tribe.localhost/wp-json/tribe/events/v1/categories"
+            }
+        }],
+        "tags": [{
+            "name": "example",
+            "slug": "example",
+            "term_group": 0,
+            "term_taxonomy_id": 3,
+            "taxonomy": "post_tag",
+            "description": "",
+            "parent": 0,
+            "count": 1,
+            "filter": "raw",
+            "id": 3,
+            "urls": {
+                "self": "http://tribe.localhost/wp-json/tribe/events/v1/tags/3",
+                "collection": "http://tribe.localhost/wp-json/tribe/events/v1/tags"
+            }
+        }, {
+            "name": "raccoon",
+            "slug": "raccoon",
+            "term_group": 0,
+            "term_taxonomy_id": 4,
+            "taxonomy": "post_tag",
+            "description": "",
+            "parent": 0,
+            "count": 1,
+            "filter": "raw",
+            "id": 4,
+            "urls": {
+                "self": "http://tribe.localhost/wp-json/tribe/events/v1/tags/4",
+                "collection": "http://tribe.localhost/wp-json/tribe/events/v1/tags"
+            }
+        }],
+        "venue": {
+            "id": 10,
+            "author": "1",
+            "status": "publish",
+            "date": "2017-09-21 12:00:59",
+            "date_utc": "2017-09-21 12:00:59",
+            "modified": "2017-09-21 12:00:59",
+            "modified_utc": "2017-09-21 12:00:59",
+            "url": "http://tribe.localhost/venue/raccoon-org/",
+            "venue": "raccoon Org",
+            "description": "Venue Description",
+            "address": "123, raccoon Ave.",
+            "city": "Raccon City",
+            "country": "United States",
+            "province": "raccoon County",
+            "state": "NH",
+            "zip": "12345",
+            "phone": "+112341234",
+            "website": "http://raccoons.org",
+            "stateprovince": "NH",
+            "show_map": true,
+            "show_map_link": true,
+            "global_id": "tribe.localhost?id=10",
+            "global_id_lineage": ["tribe.localhost?id=10"]
+        },
+        "organizer": [{
+            "id": 11,
+            "author": "1",
+            "status": "publish",
+            "date": "2017-09-21 12:01:48",
+            "date_utc": "2017-09-21 12:01:48",
+            "modified": "2017-09-21 12:01:48",
+            "modified_utc": "2017-09-21 12:01:48",
+            "url": "http://tribe.localhost/organizer/a-first-raccoon/",
+            "organizer": "A first raccoon",
+            "description": "Shy but packing a lot of punch.",
+            "phone": "+1233434234",
+            "website": "http://first-raccoon.com",
+            "email": "first@raccoon.com",
+            "global_id": "tribe.localhost?id=11",
+            "global_id_lineage": ["tribe.localhost?id=11"]
+        }, {
+            "id": 12,
+            "author": "1",
+            "status": "publish",
+            "date": "2017-09-21 12:02:43",
+            "date_utc": "2017-09-21 12:02:43",
+            "modified": "2017-09-21 12:02:43",
+            "modified_utc": "2017-09-21 12:02:43",
+            "url": "http://tribe.localhost/organizer/a-second-raccoon/",
+            "organizer": "A second raccoon",
+            "description": "Gentle and deadly.",
+            "phone": "+134473847",
+            "website": "http://raccoon-for-me.com",
+            "email": "racc00n@raccoon.for-me.com",
+            "global_id": "tribe.localhost?id=12",
+            "global_id_lineage": ["tribe.localhost?id=12"]
+        }]
+    }],
+    "rest_url": "http://tribe.localhost/wp-json/tribe/events/v1/events/?page=1&amp;per_page=10&amp;start_date=2017-09-21 01:59:00&amp;end_date=2019-09-21 13:06:27",
+    "total": 1,
+    "total_pages": 1
+}
+</code></pre>
+
+<p>This time, I've specified some parameters for my request:</p>
+
+<ul>
+	<li><samp>per_page=2</samp> which means "show me two events per page"</li>
+	<li><samp>page=2</samp> which means "show me the second page"</li>
+</ul>
+
+<p>The REST API is using those parameters to narrow down the query.<br />
+The word "query" should sound familiar to WordPress developers, and that's because many of the WordPress and The Events Calendar REST API parameters share a name with those used <a href="https://codex.wordpress.org/Class_Reference/WP_Query">in a <samp>WP_Query</samp></a> object. Some of those parameters will be set to a default value by the REST API, and that explains why the <samp>rest_url</samp> in the data does not look exactly like the one we typed.</p>
+
+<p>What if we only want to get a single event and not all of them?<br />
+It's sufficient to pass the event post ID as a path parameter in the URL, like this:</p>
+
+<pre>
+<code>GET http://tribe.localhost/wp-json/tribe/events/v1/events/6</code></pre>
+
+<p>The data returned is identical to the one shown above but for that specific event only (content removed for brevity):</p>
+
+<pre>
+<code>
+{
+    "id": 6,
+    "author": "1",
+    "title": "REST Event 1",
+    "description": "Example content" 
+}
+</code></pre>
+
+<h3 id="modifying-the-response">Modifying the response</h3>
+
+<p>So far, we've seen the stock response format from The Events Calendar REST API, but what if we want to change the contents of that response?<br />
+As WordPress developers managing a site dedicated to victims of scams perpetrated by raccoons, we might provide an educated guess about how much an event "looks suspicious" to us. We do that by allowing the site editors to set a <samp>_raccoon_suspect_level</samp> custom field (aka "meta field") value ranging from <samp>1</samp> to <samp>5</samp>. As the good and honest developers that we are, we want that value to show up in the REST API response: we can use the <samp>tribe_rest_single_event_data</samp> filter to do exactly that.</p>
+
+<p>The following code should live in a plugin or in the current theme's <samp>functions.php</samp> file:</p>
+
+<pre>
+<code>
+add_filter( 'tribe_rest_single_event_data', 'raccoon_add_suspect_level' );
+
+function raccoon_add_suspect_level( array $event_data ) {
+    $event_id = $event_data['id'];
+
+    $level = get_post_meta( $event_id, '_raccoon_suspect_level', true );
+
+    if ( empty( $level ) ) {
+        // let's be wary...
+        $level = '4';
+    }
+
+    $event_data['raccoon_supect_level'] = $level;
+
+    return $event_data;
+}
+</code></pre>
+
+<p>And see that pop up in the response (content removed for brevity):</p>
+
+<pre>
+<code>
+{
+    "id": 6,
+    "author": "1",
+    "status": "publish",
+    "title": "REST Event 1",
+    "raccoon_supect_level": "5",
+    description: "Example content ",
+    "json_ld": {
+        "@context ": "http: //schema.org",
+        "@type": "Event",
+        "name": "REST Event 1",
+        "raccoon_supect_level": "1",
+        "description": "Example content ",
+        "image ": "http: //tribe.localhost/wp-content/uploads/2017/09/raccoon.jpg",
+        "url": "http://tribe.localhost/event/example-event-1/",
+        "startDate": "2017-09-21 08:00:00",
+        "endDate": "2017-09-21 17:00:00",
+        "location": {
+            "@type": "Place",
+            "name": "raccoon Org",
+            "description": "Venue Description",
+            "url": false,
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "123, raccoon Ave.",
+                "addressLocality": "Raccoon City",
+                "addressRegion": "NH",
+                "postalCode": "12345",
+                "addressCountry": "United States"
+            },
+            "telephone": "+112341234",
+            "sameAs": "http://raccoons.org"
+        },
+        "organizer": {
+            "@type": "Person",
+            "name": "A first raccoon",
+            "description": "Shy but packing a lot of punch.",
+            "url": false,
+            "telephone": "+1233434234",
+            "email": "one@first-raccoon.com",
+            "sameAs": "http://first-raccoon.com"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "5",
+            "url": "http://tribe.localhost/event/example-event-1/"
+        }
+    },
+    "raccoon_supect_level": "5"
+}
+</code></pre>
+
+<p>But wait for a second: what's that <samp>json_ld</samp> stuff in the response?<br />
+We haven't shown it before, but, when grabbing a single event, the REST API will also provide <a href="http://json-ld.org/" target="_blank">the JSON LD data</a> for the event. Again. Information. A <em>lot</em> of it.<br />
+But what if you don't need that piece of information and would like to remove it from the response?<br />
+The same principle applies--filter the response data and remove it.</p>
+
+<pre>
+<code>add_filter( 'tribe_rest_single_event_data', 'raccoon_remove_json_ld_data' );
+
+function raccoon_remove_json_ld_data( array $event_data ) {
+    unset( $event_data['json_ld'] );
+
+    return $event_data;
+}</code></pre>
+
+<p>The code is full of filters you can use to customize your responses, not only for events but for venues and organizers as well. So we're pretty confident there will always be a way for you to make it work the way you want it to. Take a look around in the <samp>src/Tribe/REST/V1</samp> folder to begin with.</p>
+
+<h3 id="a-living-swagger-io-documentation">A living Swagger.io documentation</h3>
+
+<p>There is so much you can do with The Events Calendar REST API that you might get lost. Figuratively speaking, of course.</p>
+
+<p>Instead of having to parse page after page of out-of-date documentation, Post-It notes, and Slack messages, The Events Calendar REST API comes with a documentation endpoint you can hit any time you're lost. You can find it at <samp>/wp-json/tribe/events/v1/doc</samp>.</p>
+
+<p>Hitting the endpoint in a browser (<samp>http://tribe.localhost/wp-json/tribe/events/v1/doc</samp> in our example) will provide--you probably guessed it--a JSON format object detailing all the functionalities available on the REST API. An insanely large amount of content has been omitted for your comfort:</p>
+
+<pre>
+<code>{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "The Events Calendar REST API",
+        "description": "The Events Calendar REST API allows accessing upcoming events information easily and conveniently."
+    },
+    "host": "tribe.localhost",
+    "basePath": "/wp-json/tribe/events/v1/",
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/doc": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Returns the documentation for The Events Calendar REST API in Swagger consumable format."
+                    }
+                }
+            }
+        },
+        "/events": {
+            "get": {
+                "parameters": [
+                    {
+                        "in": "query",
+                        "type": "integer",
+                        "description": "The archive page to return",
+                        "required": false,
+                        "default": 1,
+                        "name": "page"
+                    },
+                    {
+                        "in": "query",
+                        "type": "integer",
+                        "description": "The number of events to return on each page",
+                        "required": false,
+                        "default": "10",
+                        "name": "per_page"
+                    },
+                }
+            }
+        }
+    }
+}</code></pre>
+
+<p>Why a JSON object?</p>
+
+<p>That entry at the beginning of the response saying <samp>"swagger": "2.0"</samp> tells you that The Events Calendar REST API documentation comes in <a href="https://swagger.io/" target="_blank">Swagger.io</a> format. If you copy and paste the whole response into the <a href="https://editor.swagger.io/" target="_blank">Swagger.io API editor</a>, it will be converted into easily readable documentation:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-output-665x408.png" /></p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-output-2-665x408.png" /></p>
+
+<p>This has several advantages:</p>
+
+<ol>
+	<li>The documentation is the code itself. As we, or you, update the code, the documentation will be updated with it.</li>
+	<li>You can modify the documentation while modifying the code: no more documentation in one place and code in the other.</li>
+	<li>You can customize The Events Calendar REST API to your liking and host a dedicated documentation site.</li>
+	<li>It's really cool. :)</li>
+</ol>
+
+<p>What else? Oh, right--since we provide documentation in Swagger.io format, <strong>you can generate client applications for The Events Calendar REST API from the Swagger.io editor</strong>. With one click.</p>
+
+<p>Since The Events Calendar REST API documentation is generated by WordPress code, you can filter that too. What about documenting that <samp>raccoon_suspect_level</samp> field from before?</p>
+
+<pre>
+<code>add_filter( 'tribe_rest_swagger_event_documentation', 'raccoon_document_suspect_level' );
+
+function raccoon_document_suspect_level( array $documentation ) {
+    $documentation['properties']['raccoon_suspect_level'] = array(
+        'type'        =&gt; 'integer',
+        'description' =&gt; __( 'How much the event looks like a raccoon scam in a 1 to 5 range', 'raccoon' ),
+    );
+
+    return $documentation;
+}</code></pre>
+
+<p>And here is the field in the Swagger.io output:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/racoon-documentation-665x408.png" /></p>
+
+<h3 id="a-javascript-example-authentication">A JavaScript example of authentication</h3>
+
+<p>So far we've limited our request to what is publicly available on the site. By default, The Events Calendar REST API will show events in the same way the plugin would: if you are a visitor, a user who is not logged in, or a user with subscriber-level access, you will be shown public events, venues, or organizers only. If you are an editor up to an administrator, you will be shown private and draft posts, too.</p>
+
+<p>Let's try and see an example of how basic, cookie-based authentication would work in the context of the crappiest theme ever.</p>
+
+<p>The way WordPress knows "who you are", as a user, is by using cookies and <a href="https://codex.wordpress.org/WordPress_Nonces">"nonces"</a>. When we want to perform operations reserved for logged-in users with specific roles, WordPress will print on the page a string (a <strong>nonce</strong>) that has been generated using the information in the authentication cookies and a specific action. In the "Trash" link shown in the first paragraph…</p>
+
+<pre>
+<code>http://tribe.localhost/wp-admin/post.php%3Fpost=6&amp;action=trash&amp;_wpnonce=25a5cdc0ba</code></pre>
+
+<p>… I'm asking WordPress to delete an event with ID <samp>6</samp>, the action is <samp>trash</samp>, and the nonce is <samp>25a5cdc0ba</samp>. This nonce string can only be used by me to trash that post.</p>
+
+<p>The Events Calendar REST API will support (extending the WordPress REST API) cookie-based authentication out of the box, but it's ready to support any <a href="https://developer.wordpress.org/rest-api/using-the-rest-api/authentication/" target="_blank">authentication method supported by WordPress REST API</a> by extension. We did not reinvent the wheel.</p>
+
+<p>With that in mind, let's write a JavaScript-based theme that will show 3 upcoming events to the user on the site's index page. We're creating a Twenty Seventeen child theme to piggy-back on the good stuff.</p>
+
+<p>In the theme's <samp>functions.php</samp> file, besides loading the parent theme scripts and styles, we'll load the child theme script, <samp>/js/rest-theme.js</samp>, and the nonce we need:</p>
+
+<pre>
+<code>
+// file functions.php
+
+add_action( 'wp_enqueue_scripts', 'twentyseventeen_parent_theme_enqueue_styles' );
+
+function twentyseventeen_parent_theme_enqueue_styles() {
+    wp_enqueue_style( 'twentyseventeen-style', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'rest-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array( 'twentyseventeen-style' )
+    );
+    
+    // enqueue the theme script...
+    wp_enqueue_script( 'rest-theme-js', get_stylesheet_directory_uri() . '/js/rest-theme.js', array( 'jquery' ) );
+
+    // ...and localize The Events Calendar REST API information and nonce
+    wp_localize_script( 'rest-theme-js', 'restTheme',
+        array( 'root' =&gt; esc_url_raw( tribe_events_rest_url() ), 'nonce' =&gt; wp_create_nonce( 'wp_rest' ) ) );
+}
+</code></pre>
+
+<p>We replace the theme's <samp>index.php</samp> file to scaffold an empty body that we'll fill with events fetched via The Events Calendar REST API:</p>
+
+<pre>
+<code>
+// file index.php
+</code></pre>
+
+<div class="wrap">
+<div id="rest-events">
+<header>
+<h1><code>Upcoming Events</code></h1>
+</header>
+</div>
+</div>
+
+<p>Finally, in the <samp>/js/rest-theme.js</samp> file, we fetch the events when the page is ready:</p>
+
+<pre>
+(
+   function( $ ) {
+       if ( undefined === restTheme ) {
+           return;
+       }
+
+       var renderEvents = function( response ) {
+           var eventsNode = null;
+
+           if ( response.events.length &amp;gt; 0 ) {
+               var eventsNode = $( '&lt;ul&gt;' ); 
+                   
+                for ( var event of response.events ) { 
+                    var eventNode = $( '&lt;li&gt;' ); 
+                    eventNode.text( event.title ); 
+                    eventNode.appendTo( eventsNode ); 
+                } 
+            } else { 
+                var eventsNode = $( '' ); 
+                eventsNode.text( 'No upcoming events found!' ); 
+            } 
+
+            eventsNode.appendTo( $( '#rest-events' ) ); 
+        };
+         
+        var showEvents = function() {
+            $.ajax( { 
+                // get The Events Caleandar REST API root URL read from the localized object 
+                url: restTheme.root + 'events', 
+                method: 'GET', 
+                // set the `X-WP-Nonce` header to the nonce value read from the localized object 
+                beforeSend: function( xhr ) { 
+                    xhr.setRequestHeader( 'X-WP-Nonce', restTheme.nonce ); 
+                }, 
+                // set some request data 
+                data: { 'page': 1, 'per_page': 3, } 
+            } )
+            // when done render the events list 
+            .done( renderEvents ); 
+        }; 
+
+        $( document ).ready( function() { showEvents(); } ); 
+    } 
+)( jQuery )</pre>
+
+<p>In this last file, we can see the cookie-based authentication in action. It consists, quite simply, of setting the <samp>X-WP-Nonce</samp> header on the AJAX request. WordPress will check the nonce against the content of the cookies for our user and set the user accordingly.</p>
+
+<p>But what happens if the wrong nonce is passed? Or if the nonce is expired? Nothing dangerous: the user will be set to <samp>0</samp>, the logged-out user, and capabilities will follow.</p>
+
+<p>To test that the authentication works, we've created two public events that anyone can see and a private event that only users with the <samp>edit_posts</samp> capability will be able to see. Visiting the site as a logged-out user (like a site visitor), we see this:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/visitor-events-1.png" /></p>
+
+<p>While visiting the site as an administrator, a user that can edit posts by default, we see this:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/admin-events-665x408.png" /></p>
+
+<p>This will be true for any type of authorization used to authenticate the users, not just for cookie-based authentication.</p>
+
+<p>Now, what about trying some really dangerous things, like trashing events?</p>
+
+<p>Let's add a button beside each event title in the <samp>/js/rest-theme.js</samp> file that will allow users to trash the corresponding event:</p>
+
+<pre>
+(
+    (
+    function( $ ) {
+        if ( undefined === restTheme ) {
+            return;
+        }
+
+        var renderEvents = function( response ) {
+            var eventsNode = null;
+
+            if ( response.events.length &gt; 0 ) {
+                var eventsNode = $( '&lt;ul&gt;' ); 
+                var eventNodeProps = { style: 'margin-bottom: 1em;' }; 
+                for ( var event of response.events ) { 
+                    var eventNode = $( '&lt;li&gt;', eventNodeProps ); 
+                    eventNode.text( event.title ); 
+                    var buttonProps = { 'data-event-id': event.id, style: 'padding: 5px; margin-left: 1em;' }; 
+                    var eventNodeButton = $( '&lt;button&gt;', buttonProps ).text( 'Delete this!' ).on( 'click', deleteEvent ); 
+                    eventNodeButton.appendTo( eventNode ); 
+                    eventNode.appendTo( eventsNode ); 
+                } 
+            } else { 
+                var eventsNode = $( '' ); 
+                eventsNode.text( 'No upcoming events found!' ); } 
+                var $container = $( '#rest-events' ); 
+                $container.empty(); 
+                eventsNode.appendTo( $container ); 
+            }
+        };
+             
+        var showEvents = function() { 
+            $.ajax( { 
+                url: restTheme.root + 'events', 
+                method: 'GET', 
+                beforeSend: function( xhr ) {
+                    xhr.setRequestHeader( 'X-WP-Nonce', restTheme.nonce ); 
+                }, 
+                data: { 'page': 1, 'per_page': 3, } 
+            } ).done( renderEvents ); 
+        }; 
+            
+        var deleteEvent = function() { 
+            var $this = $( this ); 
+            var eventId = $this.data( 'event-id' ); 
+            if ( ! eventId ) { return; } 
+            $.ajax( { 
+                url: restTheme.root + 'events/' + eventId, 
+                method: 'DELETE', 
+                beforeSend: function( xhr ) { 
+                    xhr.setRequestHeader( 'X-WP-Nonce', restTheme.nonce ); 
+                }, 
+                data: {} 
+            } ).done( showEvents ); 
+        }
+        
+        $( document ).ready( function() { 
+            showEvents(); 
+        } ); 
+    } 
+)( jQuery ) 
+</pre>
+
+<p>Now if we click the all-too-visible "Delete this!" button as a logged-out user, or as any user that cannot edit posts, nothing should happen.</p>
+
+<p>Doing the same as a user that can edit posts will, instead, delete the events:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/deleting-events-no.gif" /></p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/deleting-event-ok.gif" /></p>
+
+<h3 id="one-click-client-generation">One-click client generation</h3>
+
+<p>Remember before, when, while talking about the Swagger.io format documentation, we mentioned being able to create clients for The Events Calendar REST API in one click?</p>
+
+<p>Let's see how we can do that. First of all, head to the site <samp>/wp-json/tribe/events/v1/doc</samp> path on your site, and as before, copy the whole JSON format output. Head over to <a href="https://swagger.io/swagger-editor/">the Swagger.io Editor page</a>:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-io-editor-landing-665x408.png" /></p>
+
+<p>Click the "Online Editor" button and paste the JSON output on the editor side (on the left):</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-io-editor-paste-665x409.png" /></p>
+
+<p>If you are prompted to convert the JSON input into YAML, click "OK", count to 10, and you should see the documentation for The Events Calendar REST API appear on the right side.</p>
+
+<p>Now click "Generate Client" on the upper menu, and wait while someone does the work for you:</p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-io-editor-generate-665x409.png" /></p>
+
+<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-io-editor-generation-gif.gif" /></p>
+
+<p>At the end, you will get an archive file containing The Events Calendar REST API client code in the selected language.</p>
+
+<p>You are welcome.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 28, 2018, 09:00 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="659">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
+        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
+        <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="629477-Using-the-Classic-Editor-with-WordPress-50" class="article-link article-link-735" title="Using the Classic Editor with WordPress 5.0">
+        <span class="TitleValue">Using the Classic Editor with WordPress 5.0</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="838016-An-Introduction-to-Event-Blocks" class="article-link article-link-733" title="An Introduction to Event Blocks">
+        <span class="TitleValue">An Introduction to Event Blocks</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="869262-Disable-the-events-menu-on-the-dashboard-for-non-admins" class="article-link article-link-283" title="Disable the events menu on the dashboard for non-admins">
+        <span class="TitleValue">Disable the events menu on the dashboard for non-admins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="421521-Add-start-time-to-event-title-in-Month-View" class="article-link article-link-317" title="Add start time to event title in Month View">
+        <span class="TitleValue">Add start time to event title in Month View</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="405065-Change-the-default-startend-time-for-new-events" class="article-link article-link-407" title="Change the default start/end time for new events">
+        <span class="TitleValue">Change the default start/end time for new events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="518116-Make-links-to-an-event-go-straight-to-the-Event-Website-URL" class="article-link article-link-495" title="Make links to an event go straight to the Event Website URL">
+        <span class="TitleValue">Make links to an event go straight to the Event Website URL</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
+        <span class="TitleValue">Changing the browser title for calendar views</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="013265-Subscribing-to-calendars-via-RSS" class="article-link article-link-655" title="Subscribing to calendars via RSS">
+        <span class="TitleValue">Subscribing to calendars via RSS</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=659&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="332993-Introduction-to-The-Events-Calendar-REST-API#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

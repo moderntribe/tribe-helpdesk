@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="928476-Guía-para-Personalizar-los-Plugins" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Guía para Personalizar los Plugins</title>        <meta name="keywords" content="Events Calendar PRO,The Events Calendar,Article,Intermediate,Theming Overview" />    <meta property="og:url" content="//support.theeventscalendar.com/928476-Gu%C3%ADa-para-Personalizar-los-Plugins" />    <meta property="og:title" content="Guía para Personalizar los Plugins" />    <meta property="og:description" content="Looking for the English version? Click here (https://support.theeventscalendar.com/153124-Themers-Guide)  ¿Estás buscando una forma directa de ajustar la apariencia del calendario? Revisa nuestra in" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Guía para Personalizar los Plugins</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Guía para Personalizar los Plugins">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/928476-Gu%C3%ADa-para-Personalizar-los-Plugins"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="064341-Events-Calendar-PRO" class="breadcrumb-link">
+    			<span itemprop="name">Events Calendar PRO</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Guía para Personalizar los Plugins</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="928476-Guía-para-Personalizar-los-Plugins" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Looking for the English version? <a href="153124-Themers-Guide">Click here</a></p>
+
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>¿Estás buscando una forma directa de ajustar la apariencia del calendario?</strong>&nbsp;Revisa nuestra <a href="451403-The-Events-Calendar-and-the-WordPress-Customizer">integración con el personalizador de tema</a>&nbsp;— brinda una forma fácil y rápida de modificar varios aspectos de la apariencia del calendario. Si necesitas hacer un cambio algo más complejo, continúa leyendo...</div>
+
+<h3 dir="ltr" id="custom-files">Personalizando Plantillas</h3>
+
+<p dir="ltr">The Events Calendar viene con varios archivos de plantillas que determinan la visualización y el funcionamiento del plugin; las llamamos <em>vistas</em>. Además de poder crear nuevas plantillas, se pueden&nbsp;sobrescribir estos archivos con otros personalizados en tu propio tema.</p>
+
+<p>Es importante&nbsp;<strong>no editar los archivos de las vistas directamente en el plugin</strong>. Se deben primero&nbsp;<strong>copiar&nbsp;</strong>en el tema y luego editarlos ahí. Esto asegura que cualquier modificación que hagas no sea eliminada al actualizar el plugin. (También se recomienda utilizar un tema hijo y copiarlo dentro del mismo. De esta manera tampoco se verá afectado al actualizar el tema padre). The Events Calendar se asegurará de que estos archivos modificados, dentro de las carpetas correspondientes, sean utilizados en lugar de los archivos originales del plugin.</p>
+
+<p dir="ltr">Así es como se hace:</p>
+
+<p dir="ltr"><strong>1. Haz una copia de las plantillas que quieras modificar</strong></p>
+
+<p dir="ltr">Los archivos de las vistas se encuentran dentro del directorio del plugin&nbsp;<kbd>/src/views/</kbd>. Por ejemplo:</p>
+
+<ul>
+	<li>The Events Calendar archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/the-events-calendar/src/views/</kbd></li>
+	<li>Events Calendar Pro archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/events-calendar-pro/src/views/</kbd></li>
+	<li>Community Events add-on archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-community-events/src/views/</kbd></li>
+	<li>Community Tickets add-on&nbsp;archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-community-events-tickets/src/views/</kbd></li>
+	<li>Event Ticket add-on&nbsp;archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/event-tickets/src/views/</kbd></li>
+	<li>Event Ticket Plus add-on archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/event-tickets-plus/src/views/</kbd></li>
+	<li>Eventbrite Tickets add-on&nbsp;archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-eventbrite-tickets/src/views/</kbd></li>
+	<li>Filter Bar add-on&nbsp;archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-filterbar/src/views/</kbd></li>
+	<li>iCal Importer add-on&nbsp;archivos de plantillas:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-importer-ical/src/views/</kbd></li>
+</ul>
+
+<p>También puedes modificar la plantilla para eventos seleccionada. Para esto, primero encuentra la plantilla estás usando yendo a Eventos → Ajustes → Visualización dentro del wp-admin de tu sitio, y mira la opción en Plantilla para eventos. Si tienes seleccionada la Plantilla de eventos predeterminada, el plugin va a utilizar la plantilla&nbsp;<kbd>/wp-content/plugins/the-events-calendar/src/views/default-template.php</kbd>. Puedes modificar la estructura de esta plantilla haciendo una copia de la misma y pegándola dentro de una carpeta <kbd>/tribe-events</kbd>&nbsp;en tu tema.</p>
+
+<p>Todas las opciones adicionales de&nbsp;Plantilla para eventos, utilizan una de las plantillas para páginas disponibles en tu tema (<kbd>page.php</kbd>, <kbd>full-width.php</kbd>, etc.), que también puedes editar.</p>
+
+<p>Dependiendo de la&nbsp;Plantilla para eventos que hayas elegido, necesitarás usar <a href="https://gist.github.com/jo-snips/2415009">estos condicionales</a>&nbsp;que te ayudarán a determinar si mostrar o no cierta marcación en cada una de las páginas de los eventos.</p>
+
+<p dir="ltr"><strong>2. Crear una nueva carpeta dentro de tu tema</strong></p>
+
+<ul>
+	<li dir="ltr">Abrir la carpeta de tu tema que se encuentra en&nbsp;<kbd>wp-content/themes/tu-tema/</kbd></li>
+	<li dir="ltr">Crear una nueva carpeta llamada&nbsp;<kbd>/tribe-events</kbd>. Esta será la carpeta padre que contendrá todas las sobrescrituras de las plantillas.</li>
+	<li dir="ltr">Crear una nueva carpeta dentro de&nbsp;<kbd>/tribe-events</kbd> para cada plugin específico:
+	<ul>
+		<li dir="ltr">Community Events: <kbd style="line-height: 1.5;">/tribe-events/community/</kbd></li>
+		<li dir="ltr">Events Calendar Pro: <kbd style="line-height: 1.5;">/tribe-events/pro/</kbd></li>
+		<li dir="ltr">Event Tickets: <kbd style="line-height: 1.5;">/tribe-events/tickets/</kbd></li>
+		<li dir="ltr">Filter Bar: <kbd style="line-height: 1.5;">/tribe-events/filter-bar/</kbd></li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong>3. Coloca la plantilla copiada que deseas modificar dentro de la correspondiente carpeta dentro del directorio de tu tema</strong></p>
+
+<p>Por ejemplo, si realizaste una copia del siguiente archivo:</p>
+
+<ul>
+	<li><kbd>/wp-content/plugins/the-events-calendar/single-event.php</kbd></li>
+</ul>
+
+<p>...entonces deberás colocar esa copia dentro de la carpeta&nbsp;<kbd>/tribe-events</kbd> creada dentro de tu tema en el paso 2.</p>
+
+<p>De manera similar, si creaste una copia de la plantilla vista de foto en Events Calendar PRO:</p>
+
+<ul>
+	<li><kbd>/wp-content/plugins/events-calendar-pro/photo.php</kbd></li>
+</ul>
+
+<p>...entonces deberías pegar esa copia dentro de la carpeta correspondiente dentro de tu tema:</p>
+
+<ul>
+	<li><kbd>/wp-content/themes/[tu-tema]/tribe-events/pro/</kbd></li>
+</ul>
+
+<p>Ahora que las plantillas están en tu tema, puedes modificar el código para que se adapte a tus necesidades y eso sobreescribirá las plantillas del plugin.</p>
+
+<p><a name="examples"></a></p>
+
+<h3 dir="ltr" id="examples">Ejemplo de Personalización</h3>
+
+<p dir="ltr">Veamos un ejemplo de como sería una personalización muy simple de una vista. Esto debería darte una idea del flujo de trabajo.</p>
+
+<p dir="ltr">De manera predeterminada, The Events Calendar muestra solo el nombre del lugar del evento por debajo de la fecha de cada evento. Así es como se ve:</p>
+
+<p dir="ltr"><img alt="KB themers guide 1" src="https://theeventscalendar.com/content/uploads/2014/09/KB-themers-guide-1-300x50.png" /></p>
+
+<p dir="ltr">Pero, ¿qué pasa si quisiéramos mostrar el organizador del evento? Por ejemplo, en cambio tienes algo que luce de la siguiente manera:</p>
+
+<p dir="ltr"><img alt="KB themers guide 2" src="https://theeventscalendar.com/content/uploads/2014/09/KB-themers-guide-2-665x148.png" /></p>
+
+<p dir="ltr">Así es como se hace:</p>
+
+<ul>
+	<li style="list-style-type: none;">
+	<ol>
+		<li dir="ltr">
+		<p dir="ltr">Copia&nbsp;<kbd>/wp-content/plugins/the-events-calendar/src/views/list/single-event.php</kbd>&nbsp;a&nbsp;<kbd>/tu-tema/tribe-events/list/single-event.php</kbd> (por supuesto, reemplazar&nbsp;<kbd>/tu-tema</kbd>&nbsp;con el nombre actual de la carpeta de tu tema)</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Edita&nbsp;<kbd>/tu-tema/tribe-events/list/single-event.php</kbd>&nbsp;y agregar el siguiente código debajo de <em>venue details (detalles del evento)</em>:</p>
+
+		<p><code>&lt;p&gt;Organized by: &lt;?php echo tribe_get_organizer(); ?&gt;&lt;/p&gt;</code></p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Guarda, y listo!</p>
+		</li>
+	</ol>
+	</li>
+</ul>
+
+<p dir="ltr"><strong>Todas las personalizaciones de las vistas siguen este mismo patrón: copiar el archivo que deseas editar dentro de la carpeta de tu tema, luego personalizar el archivo copiado.</strong> Esto protege las modificaciones que hagas al actualizar The Events Calendar y sus agregados.</p>
+
+<hr />
+<p>⚠️ <strong>Por favor Recuerda!</strong>&nbsp;Si cambias tu tema de WordPress, necesitarás copiar todas las plantillas personalizadas a la carpeta del tema nuevo. Y, si realizas una actualización automática del tema con la carpeta&nbsp;<kbd>/tribe-events</kbd> adentro, es probable que pierdas esa carpeta y todos los archivos ya que no es una carpeta por defecto del tema. <strong>Asegúrate de realizar una copia de seguridad de todos estos archivos con frecuencia!</strong></p>
+
+<p dir="ltr">Ahora estás listo para personalizar The Events Calendar.</p>
+
+<p><a name="viewstemplates"></a></p>
+
+<h3 dir="ltr" id="views-templates">Vistas &amp; Plantillas</h3>
+
+<h4 dir="ltr" id="TEC">The Events Calendar</h4>
+
+<p>La carpeta padre se encuentra en:<br />
+<kbd>/wp-content/plugins/the-events-calendar/src/views/</kbd></p>
+
+<p><strong>Vista de evento individual (Single Event View)</strong></p>
+
+<ul>
+	<li><strong><kbd>single-event.php</kbd></strong> — Usada para mostrar los eventos individuales</li>
+	<li><strong><kbd>modules/address.php</kbd></strong> — Muestra la dirección del lugar del evento</li>
+	<li><strong><kbd>widgets/calendar-widget.php</kbd></strong></li>
+	<li><strong><kbd>modules/meta.php</kbd></strong> — Usada dentro de single-event.php para mostrar la meta información de un evento</li>
+	<li><strong><kbd>modules/meta/details.php</kbd></strong> — Agrega información como la hora de comienzo y finalización dentro de la sección de meta información</li>
+	<li><strong><kbd>modules/meta/map.php</kbd></strong> — Muestra el mapa dentro de la sección meta</li>
+	<li><strong><kbd>modules/meta/organizer.php</kbd></strong> — Agrega información del organizador a la sección meta</li>
+	<li><strong><kbd>modules/meta/venue.php</kbd></strong>&nbsp;— Agrega información del lugar a la sección meta</li>
+</ul>
+
+<p dir="ltr"><strong>Vista del Día (Day View)</strong></p>
+
+<ul>
+	<li><strong><kbd>day.php</kbd></strong> — Contenedor para la plantilla de vista en Día, incluye la <em>tribe bar</em> y la plantilla del contenido de Día</li>
+	<li><strong><kbd>day/content.php</kbd></strong> — Plantilla del contenido principal, contiene el título, incluye la plantilla de navegación, el bucle de eventos y el pie. Esta es la plantilla que se usa para devolver las llamadas por ajax de la navegación y de los resultados de los filtros en la vista de lista</li>
+	<li><strong><kbd>day/nav.php</kbd></strong> — Contiene los enlaces de <em>anterior</em> y <em>siguiente</em></li>
+	<li><strong><kbd>day/loop.php</kbd></strong> — Contiene la estructura para el bucle de eventos. Incluye la plantilla de evento individual</li>
+	<li><strong><kbd>day/single-event.php</kbd></strong> — Plantilla del evento individual en la vista de Día.</li>
+</ul>
+
+<p dir="ltr"><strong>Vista en Listado (List View)</strong></p>
+
+<ul>
+	<li><strong><kbd>list.php</kbd></strong> - Contenedor para la plantilla de vista en Lista, incluye la <em>tribe bar</em> y la plantilla del contenido de Lista</li>
+	<li><strong><kbd>list/content.php</kbd></strong> - Plantilla del contenido principal para la vista en Lista, contiene el título, incluye la plantilla de navegación, el bucle de eventos, y el pie.&nbsp;Esta es la plantilla que se usa para devolver las llamadas por ajax de la navegación y de los resultados de los filtros en la vista de lista.</li>
+	<li><strong><kbd>list/nav.php</kbd></strong> - Contiene los enlaces de anterior y siguiente</li>
+	<li><strong><kbd>list/loop.php</kbd></strong> - Contiene la estructura para el bucle de eventos. Incluye la plantilla de evento individual</li>
+	<li><strong><kbd>list/single-event.php</kbd></strong> - Plantilla del evento individual en la vista en Lista</li>
+</ul>
+
+<p dir="ltr"><strong>Vista Mes (Month View)</strong></p>
+
+<ul>
+	<li><strong><kbd>month.php</kbd></strong> - Contenedor para la plantilla de vista de Mes, incluye la tribe bar y la plantilla del contenido del Mes</li>
+	<li><strong><kbd>month/content.php</kbd></strong> -Plantilla del contenido principal para la vista de Mes, contiene el título, incluye la plantilla de navegación, el bucle de la grilla, y el pie.&nbsp;Esta es la plantilla que se usa para devolver las llamadas por ajax cuando se navega y se usan los filtros en la vista de Mes</li>
+	<li><strong><kbd>month/mobile.php</kbd></strong> - Plantilla usada para mostrar la vista de mes en la version para móvil.</li>
+	<li><strong><kbd>month/nav.php</kbd></strong> - Contiene los enlaces de anterior y siguiente</li>
+	<li><strong><kbd>month/loop-grid.php</kbd></strong> - Contiene la estructura del bucle de todos los días del mes, incluye la plantilla del día individual</li>
+	<li><strong><kbd>month/single-day.php</kbd></strong> - Contiene el número del día y el bucle de los eventos para cada día, incluye la plantilla individual del evento.</li>
+	<li><strong><kbd>month/single-event.php</kbd></strong> - Contiene un evento individual en la vista del mes</li>
+	<li><strong><kbd>month/tooltip.php</kbd></strong> - Construye el efecto pop-over cuando se pasa el cursor sobre un día de la vista del Mes. Ten en cuenta que esta plantilla utiliza el sistema de plantilla en Javascript</li>
+</ul>
+
+<p><strong>Módulos (Modules)</strong></p>
+
+<ul>
+	<li><strong><kbd>modules/bar.php</kbd></strong> - La navegación principal del calendario</li>
+	<li><strong><kbd>modules/map.php</kbd></strong> - Muestra el Mapa embebido de Google en la vista del evento individual y el archivo de Lugar</li>
+</ul>
+
+<p><strong>Eventos Embebidos (Embedded Events)</strong></p>
+
+<ul>
+	<li><strong><kbd>embed.php</kbd></strong> - Contiene la plantilla base para una entrada embebida</li>
+	<li><strong><kbd>embed/content.php</kbd></strong> - La plantilla de contenido para la vista embebida</li>
+	<li><strong><kbd>embed/cost.php</kbd></strong> - El plantilla de costo para la vista embebida</li>
+	<li><strong><kbd>embed/footer.php</kbd></strong> - La plantilla del pie para la vista embebida</li>
+	<li><strong><kbd>embed/image.php</kbd></strong> - La plantilla de la imagen principal&nbsp;para la vista embebida</li>
+	<li><strong><kbd>embed/meta.php</kbd></strong> - La plantilla para mostrar la información meta para la vista embebida</li>
+	<li><strong><kbd>embed/schedule.php</kbd></strong> -La plantilla para los detalles de horarios para la vista embebida</li>
+	<li><strong><kbd>embed/venue.php</kbd></strong> - La información del lugar para la vista embebida</li>
+</ul>
+
+<p dir="ltr"><strong>Widgets</strong></p>
+
+<ul>
+	<li dir="ltr">
+	<p dir="ltr"><strong><kbd>widgets/list-widget.php</kbd></strong> - Plantilla para el widget de lista de eventos incluido en la versión gratuita del plugin</p>
+	</li>
+</ul>
+
+<h4 dir="ltr" id="PRO">Events Calendar PRO</h4>
+
+<p>La carpeta padre se encuentra en:<br />
+<kbd>/wp-content/plugins/events-calendar-pro/src/views/</kbd></p>
+
+<p dir="ltr"><strong>Vista de evento individual (Single Event View)</strong></p>
+
+<ul>
+	<li><strong><kbd>modules/meta/additional-fields.php</kbd></strong> - Agrega campos adicionales a la sección meta (ver&nbsp;<em><a href="928476-Guía-para-Personalizar-los-Plugins#modules-meta-tpl">modules/meta.php</a>,</em> más adelante)</li>
+	<li><strong><kbd>related-events.php</kbd></strong> - Plantilla para mostrar los eventos relacionados dentro de la vista individual del evento</li>
+</ul>
+
+<p dir="ltr"><strong>Vista en Mapa</strong></p>
+
+<ul>
+	<li><strong><kbd>map.php</kbd></strong> - Contiene el contenedor global de la vista en Mapa, incluye la plantilla para el contenedor de Google Map.</li>
+	<li><strong><kbd>map/gmap-container.php</kbd></strong> - Contiene el elemento HTML vacío donde se inserta el mapa de Google usando&nbsp;javascript</li>
+	<li><strong><kbd>map/content.php</kbd></strong> - Plantilla del Contenido principal para la vista en Mapa. Contiene el título, incluye la plantilla de navegación, el bucle de eventos, y el pie.&nbsp;Esta es la plantilla que se usa para devolver las llamadas por ajax cuando se navega y se usan los filtros en la vista de Mapa</li>
+	<li><strong><kbd>map/nav.php</kbd></strong> - Contiene los enlaces de anterior y siguiente</li>
+	<li><strong><kbd>map/loop.php</kbd></strong> - Contiene la estructura para el bucle de los eventos. Incluye la plantilla individual del evento</li>
+	<li><strong><kbd>map/single-event.php</kbd></strong> - Plantilla para un evento individual dentro de la vista en Mapa</li>
+</ul>
+
+<p dir="ltr"><strong>Vista Foto</strong></p>
+
+<ul>
+	<li><strong><kbd>photo.php</kbd></strong> - Contenedor para la plantilla de la vista Foto, incluye la tribe-bar y la plantilla del contenido de Foto</li>
+	<li><strong><kbd>photo/content.php</kbd></strong> - Plantilla del Contenido principal. Contiene el título, incluye la plantilla de navegación, el bucle de eventos, y el pie.&nbsp;Esta es la plantilla que se usa para devolver las llamadas por ajax cuando se navega y se usan los filtros en la vista de Foto</li>
+	<li><strong><kbd>photo/nav.php</kbd></strong> - Contiene los enlaces de anterior y siguiente</li>
+	<li><strong><kbd>photo/loop.php</kbd></strong> - Contiene la estructura para el bucle de los eventos. Incluye la plantilla individual del evento</li>
+	<li><strong><kbd>photo/single-event.php</kbd></strong> -Plantilla para un evento individual dentro de la vista Foto</li>
+</ul>
+
+<p dir="ltr"><strong>Vista Semanal</strong></p>
+
+<ul>
+	<li><strong><kbd>week.php</kbd></strong> - Contenedor para la plantilla de la vista Semanal, incluye la tribe-bar y la plantilla del contenido de Semana</li>
+	<li><strong><kbd>week/content.php</kbd></strong> - Plantilla del Contenido principal. Contiene el título, incluye la plantilla de navegación, el bucle de eventos, y el pie.&nbsp;Esta es la plantilla que se usa para devolver las llamadas por ajax cuando se navega y se usan los filtros en la vista Semanal</li>
+	<li><strong><kbd>week/loop-grid.php</kbd></strong> - Contenedor del bucle de la grilla, contiene los encabezados de los días en la grilla semanal</li>
+	<li><strong><kbd>week/loop-grid-allday.php</kbd></strong> - Contiene la estructura de columnas para el bucle de los eventos de día completo. Incluye la plantilla de los eventos de día completo</li>
+	<li><strong><kbd>week/loop-grid-hourly.php</kbd></strong> - Contiene la estructura de columnas para el bucle de los eventos por hora. Incluye la plantilla de los eventos por hora</li>
+	<li><strong><kbd>week/nav.php</kbd></strong> - Contiene los enlaces de anterior y siguiente para navegar entre semanas</li>
+	<li><strong><kbd>week/tooltip.php</kbd></strong> - Plantilla para la caja de información que se expande al pasar el cursor por encima del evento</li>
+</ul>
+
+<p><strong>Lugares y Organizadores</strong></p>
+
+<ul>
+	<li><strong><kbd>single-organizer.php</kbd></strong> - Usado para listar los próximos eventos relacionados a un organizador individual. Utiliza la plantilla de lista de eventos que se usa para mostrar cualquier evento próximo</li>
+	<li><strong><kbd>single-venue.php</kbd></strong> — Equivalente a la plantilla single-organizer.php pero corresponde para los lugares de eventos. También utiliza la plantilla de lista de eventos que se usa para mostrar cualquier evento próximo.</li>
+</ul>
+
+<p dir="ltr"><strong>Widgets</strong></p>
+
+<ul>
+	<li><strong><kbd>widgets/countdown-widget.php</kbd></strong> - Contiene el widget de cuenta regresiva</li>
+	<li><strong><kbd>widgets/list-widget.php</kbd></strong> - Contiene el widget de lista de eventos incluido en el plugin premium Events Calendar PRO: Esta sobrescribe cualquier plantilla existente en&nbsp;<em>widgets/list-widget.php&nbsp;(</em>por fuera del subdirectorio <em>pro).&nbsp;</em>Ten en cuenta que la plantilla será respetada hasta que sea eliminada o una nueva sea creada dentro del subdirectorio <em>pro</em></li>
+	<li><strong><kbd>widgets/mini-calendar-widget.php</kbd></strong> - Contenedor para el widget mini calendario. Incluye la plantilla para la grilla del mini calendario y la plantilla para la lista del mini calendario</li>
+	<li><strong><kbd>widgets/mini-calendar/grid.php</kbd></strong> - Contiene la parte de la grilla (calendario mensual) del widget mini calendario. Incluye la plantilla de cada día</li>
+	<li><strong><kbd>widgets/mini-calendar/list.php</kbd></strong> - Este archivo configura la estructura del bucle de la lista</li>
+	<li><strong><kbd>widgets/mini-calendar/single-day.php</kbd></strong> - Contiene un día dentro del widget mini calendario. Incluye la plantilla individual de un evento.</li>
+	<li><strong><kbd>widgets/this-week-widget.php</kbd></strong> - Contiene el widget Eventos de la Semana</li>
+	<li><strong><kbd>widgets/venue-widget.php</kbd></strong> - Contiene el widget de Eventos por lugar</li>
+</ul>
+
+<h4 dir="ltr" id="tickets">Events Tickets</h4>
+
+<p>La carpeta padre se encuentra en: <em>/wp-content/plugins/<em>event-tickets</em>/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>shortcodes/my-attendance-list-logged-out.php</kbd></strong> - Muestra el mensaje que debes tener iniciada la sesión para ver la lista de eventos a los que vas a asistir</li>
+	<li><strong><kbd>shortcodes/my-attendance-list.php</kbd></strong> - Muestra la lista de eventos a los que vas a asistir</li>
+	<li><strong><kbd>tickets/attendees-email.php</kbd></strong> -&nbsp; La plantilla para el email con la lista de asistentes cuando se integra con un plugin de ecommerce (como WooCommerce)</li>
+	<li><strong><kbd>tickets/email.php</kbd></strong> - Plantilla del email que los clientes reciben cuando adquieren un ticket para un evento. Este es el email que las personas utilizan en la puerta del evento para ingresar</li>
+	<li><strong><kbd>tickets/orders.php</kbd></strong> - La plantilla para mostrar las ordenes de compra realizadas por el cliente</li>
+	<li><strong><kbd>tickets/orders-link.php</kbd></strong> - El enlace generado para el usuario para ver todas las ordenes de compra</li>
+	<li><strong><kbd>tickets/orders-rsvp</kbd></strong> - Esta plantilla genera el formulario para un ticket RSVP</li>
+	<li><strong><kbd>tickets/rsvp.php</kbd></strong> - El formulario que se muestra a los usuarios en un evento para realizar un RSVP. Se muestra en la vista individual del evento si el evento tiene habilitada las opciones de RSVP</li>
+</ul>
+
+<h4 dir="ltr" id="tickets-plus">Events Tickets Plus</h4>
+
+<p>La carpeta padre se encuentra en: <em>/wp-content/plugins/<em>event-tickets-plus</em>/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>attendees-list.php</kbd></strong> - La plantilla para la lista pública de asistentes. Ten en cuenta que no se necesita ninguna subcarpeta para esta plantilla y puede ir directamente en la carpeta&nbsp;<em>tribe-events</em></li>
+	<li><strong><kbd>login-to-purchase.php</kbd></strong> - Genera un enlace que se muestra a los usuarios cuando deben tener iniciada una sesión antes de poder comprar tickets</li>
+	<li><strong><kbd>meta.php</kbd></strong> - La plantilla que muestra los campos de información del asistente que han sido creados para un ticket y que serán completados cuando se compra.&nbsp;Ten en cuenta que no se necesita ninguna subcarpeta para esta plantilla y puede ir directamente en la carpeta&nbsp;tribe-events</li>
+	<li><strong><kbd>meta/checkbox.php</kbd></strong> - La plantilla utilizada para mostrar las opciones de un campo casilla (checkbox) que serán importadas por meta.php</li>
+	<li><strong><kbd>meta/number.php</kbd></strong> - La plantilla utilizada para mostrar los campos numéricos que serán importadas por meta.php</li>
+	<li><strong><kbd>meta/radio</kbd></strong> - La plantilla utilizada para mostrar las opciones de un campo radio que serán importadas por meta.php</li>
+	<li><strong><kbd>meta/select</kbd></strong> - La plantilla utilizada para mostrar las opciones de un campo desplegable (select) que serán importadas por meta.php</li>
+	<li><strong><kbd>meta/text</kbd></strong> - La plantilla utilizada para mostrar los campos de texto que serán importadas por meta.php</li>
+	<li><strong><kbd>tickets-plus/orders-edit-meta.php</kbd></strong> - Genera los campos meta para editar en la orden</li>
+	<li><strong><kbd>tickets-plus/orders-tickets.php</kbd></strong> - La lista de ordenes de tickets</li>
+	<li><strong><kbd>eddtickets/tickets.php</kbd></strong> - La tabla de tickets de Easy Digital Downloads con el botón para comprar en la página del evento. Se muestra en la página individual del evento, si el evento tiene tickets de EDD para vender</li>
+	<li><strong><kbd>wootickets/tickets.php</kbd></strong> - La tabla de tickets de WooCommerce con el botón para comprar en la página del evento.&nbsp;Se muestra en la página individual del evento, si el evento tiene tickets de WooCommerce para vender.</li>
+</ul>
+
+<h4 dir="ltr" id="community">Community Events</h4>
+
+<p>La carpeta padre se encuentra en:&nbsp;<em>/wp-content/plugins/<em>the-events-calendar-community-events</em>/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>community/blank-comments-template.php</kbd></strong> -</li>
+	<li><strong><kbd>community/default-placeholder.php</kbd></strong> -</li>
+	<li><strong><kbd>community/edit-event.php</kbd></strong> - La plantilla para añadir un nuevo evento de la comunidad</li>
+	<li><strong><kbd>community/edit-organizer.php</kbd></strong> - La plantilla para editar organizadores de los eventos de la comunidad</li>
+	<li><strong><kbd>community/edit-venue.php</kbd></strong> - La plantilla para editar lugares de los eventos de la comunidad</li>
+	<li><strong><kbd>community/email-template.php</kbd></strong> — La plantilla usada por las alertas de la comunidad por email</li>
+	<li><strong><kbd>community/event-list.php</kbd></strong> - La plantilla para listar los eventos añadidos por un usuario de la comunidad</li>
+	<li><strong><kbd>community/modules/captcha.php</kbd></strong> - Genera el campo captcha en el formulario de añadir evento</li>
+	<li><strong><kbd>community/modules/cost.php</kbd></strong> - Genera los campos de precio en el formulario de añadir evento</li>
+	<li><strong><kbd>community/modules/custom.php</kbd></strong> - Esta es usada para agregar un metabox al formulario de añadir evento y permitir que el usuario complete campos personalizados</li>
+	<li><strong><kbd>community/modules/datepickers.php</kbd></strong> - Esta es usada para agregar el metabox dentro del formulario de añadir evento y permite seleccionar el día y hora del evento</li>
+	<li><strong><kbd>community/modules/delete.php</kbd></strong> - Esto es utilizado para eliminar un evento añadido por un usuario</li>
+	<li><strong><kbd>community/modules/header-links.php</kbd></strong> - Los enlaces en el encabezado del formulario de editar evento</li>
+	<li><strong><kbd>community/modules/image.php</kbd></strong> - Genera el campo para subir una imágen en el formulario de añadir evento</li>
+	<li><strong><kbd>community/modules/organizer-fields.php</kbd></strong> - Esta es usada para editar los detalles individuales de los organizadores (teléfono, email, etc)</li>
+	<li><strong><kbd>community/modules/organizer-multiple.php</kbd></strong> - La plantilla para construir multiples organizadores en un mismo evento. Para evitar duplicación de código, esta plantilla reside en The Events Calendar &gt;&nbsp;<em>the-events-calendar/src/admin-views/linked-post-section.php</em>.</li>
+	<li><strong><kbd>community/modules/organizer.php</kbd></strong> - Esta es usada para agregar el metabox que permite seleccionar o crear un organizador de un evento en el formulario de añadir evento</li>
+	<li><strong><kbd>community/modules/recurrence.php</kbd></strong> - Esta es usada para agregar el metabox al formulario de añadir eventos que permite crear eventos recurrentes</li>
+	<li><strong><kbd>community/modules/taxonomy.php</kbd></strong> - Genera los campos de taxonomía en el formulario de añadir evento</li>
+	<li><strong><kbd>community/modules/venue.php</kbd></strong> - Esta plantilla se usa para agregar&nbsp;al formulario de añadir eventos el metabox que permite seleccionar o crear un lugar del evento. Esta también se usa para la pantalla de editar lugar, por lo que ten en cuenta que los cambios que realices se verán en ambas lugares</li>
+	<li><strong><kbd>community/modules/website.php</kbd></strong> - Genera los campos de web del evento&nbsp;al formulario de añadir eventos</li>
+</ul>
+
+<h4>Community Tickets</h4>
+
+<p>La carpeta padre se encuentra en: <em>/wp-content/plugins/<em>the-events-calendar-community-events-tickets</em>/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>community-tickets/modules/email-item-event-details.php</kbd></strong> - El enlace al evento desde la página de detalles de la orden</li>
+	<li><strong><kbd>community-tickets/modules/orders-report-after-organizer.php</kbd></strong> - Muestra la dirección de email de Paypal asociada al organizador, después del nombre del organizador</li>
+	<li><strong><kbd>community-tickets/modules/payment-options.php</kbd></strong> - La plantilla que muestra las opciones de pago del plugin</li>
+	<li><strong><kbd>community-tickets/modules/tickets.php</kbd></strong> - Genera las configuraciones de los tickets en el formulario de añadir evento</li>
+</ul>
+
+<h4>Eventbrite Tickets</h4>
+
+<p>La carpeta padre se encuentra en: <em>/wp-content/plugins/<em>the-events-calendar-eventbrite-tickets/<em>src/</em>views/</em></em></p>
+
+<ul>
+	<li><strong><kbd>eventbrite/add-existing-event.php</kbd></strong> - Muestra el evento de Eventbrite existente (campos del wp-admin)</li>
+	<li><strong><kbd>eventbrite/eb-admin-notices.php</kbd></strong> - Genera los mensajes de Eventbrite en la pantalla de editar evento en el admin</li>
+	<li><strong><kbd>eventbrite/eventbrite-events-table.php</kbd></strong> - Muestra el evento de Eventbrite existente en el metabox del evento</li>
+	<li><strong><kbd>eventbrite/eventbrite-meta-box-extension.php</kbd></strong> - Muestra el evento de Eventbrite existente en el metabox del editor de evento</li>
+	<li><strong><kbd>eventbrite/import-eventbrite-events.php</kbd></strong> - Importa eventos desde Eventbrite en el formulario del admin</li>
+	<li><strong><kbd>eventbrite/hooks/ticket-form.php</kbd></strong> - Este archivo contiene la lógica del hook para crear una vista efectiva del módulo de vista de dirección</li>
+	<li><strong><kbd>eventbrite/modules/ticket-form.php</kbd></strong> - Esta vista contiene los filtros necesarios para crear una vista efectiva del módulo de ticket</li>
+</ul>
+
+<h4>Filter Bar</h4>
+
+<p>La carpeta padre se encuentra en: <em>/wp-content/plugins/the-events-calendar-filterbar/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>filter-bar/filter-view-horizontal.php</kbd></strong> - Esta contiene los hooks para generar la barra de filtros en disposición horizontal</li>
+	<li><strong><kbd>filter-bar/filter-view-vertical.php</kbd></strong> -&nbsp;Esta contiene los hooks para generar la barra de filtros en disposición horizontal</li>
+</ul>
+
+<p><a name="customizingstyles"></a></p>
+
+<h3 dir="ltr" id="customizing-styles">Personalizando los Estilos</h3>
+
+<p>Hay dos formas distintas de personalizar los estilos de las páginas de eventos:</p>
+
+<ul>
+	<li><strong>Agregando estilos personalizados a las hojas de estilos por defecto</strong> - Este método es el mejor cuando solo tienes que realizar unos pocos cambios a los estilos de las páginas de eventos</li>
+	<li><strong>Reemplazando las hojas de estilo por defecto por unas propias</strong> - Este método es el mejor cuando quieras cambiar la mayoría de los estilos de las páginas de eventos.</li>
+</ul>
+
+<h4 dir="ltr">Agregando Estilos Personalizados</h4>
+
+<p>The Events Calendar ofrece 3 opciones de estilo por defecto para elegir:</p>
+
+<ul>
+	<li><strong>Estilos Básicos&nbsp;</strong>- Incluye solo el css suficiente para lograr los diseños complejos como el calendario y la vista semanal</li>
+	<li><strong>Estilos Completos</strong> - Diseños más detallados, dependen fuertemente de las tipografías y colores de tu tema</li>
+	<li><strong>Estilos Tribe Events</strong> - Una apariencia completamente estilizada y diseñada para tus páginas de eventos</li>
+</ul>
+
+<p>De manera similar a como los archivos de plantillas son sobrescritos, puedes agregar tus propios archivos dentro de tu tema en una carpeta llamada <strong>tribe-events/</strong> para cargar tus propias hojas de estilo. Esto te permite cargar una hoja de estilos en tu tema que solo contenga tus propios estilos que necesites sin tener que duplicar uno de los nuestros como punto de partida, o usando @import. Ten en cuenta que cuando agregas tu propia hoja de estilos dentro de la carpeta tribe-events, esta será cargada además de nuestros estilos. Esto es diferente a colocar plantillas personalizadas en esa carpeta, que reemplazan nuestras plantillas.</p>
+
+<p><b>Cargando Estilos Personalizados para The Events Calendar</b></p>
+
+<ul>
+	<li>Para cargar estilos personalizados para las vistas y elementos principales, crea una hoja de estilos que se llame <strong>tribe-events.css&nbsp;</strong>dentro de la carpeta llamada&nbsp;<strong>tribe-events/</strong>&nbsp;de tu tema</li>
+</ul>
+
+<p><b>Cargando Estilos Personalizados para Events Calendar PRO (premium)</b></p>
+
+<ul>
+	<li>Para cargar estilos personalizados para las vistas y elementos de Events Calendar PRO, crea una hoja de estilos llamada <strong>tribe-events-pro.css</strong> dentro de la carpeta&nbsp;<strong>tribe-events/pro/</strong> de tu tema</li>
+	<li>Para cargar estilos personalizados para los widgets the Events Calendar, crea una hoja de estilos llamada <strong>widget-calendar.css</strong> dentro de la carpeta&nbsp;<strong>tribe-events/pro/</strong> de tu tema</li>
+</ul>
+
+<p><strong><b>Cargando Estilos Personalizados para </b> Community Events (premium)</strong></p>
+
+<ul>
+	<li>Para cargar estilos personalizados para las vistas y elementos de Community Events, crea una hoja de estilos llamada&nbsp;<strong>tribe-events-community.css</strong> dentro de la carpeta&nbsp;<strong>tribe-events/community/</strong> de tu tema</li>
+</ul>
+
+<p><strong>Por ejemplo:</strong></p>
+
+<p>Digamos que quieres agregar un pequeño ajuste de estilo que cambie el color de fondo del metabox en un evento individual de gris a blanco. En&nbsp;<strong>tribe-events.css</strong> dentro de la carpeta&nbsp;<strong>tribe-events/</strong>&nbsp;de tu tema, puedes simplemente agregar:</p>
+
+<p>[css]<br />
+.single-tribe_events .tribe-events-event-meta {<br />
+background: #fff;<br />
+}<br />
+[/css]</p>
+
+<h4 dir="ltr">Reemplazando Hojas de Estilo por Defecto</h4>
+
+<p>Si deseas reemplazar las hojas de estilo por defecto ofrecidas por The Events Calendar, puedes utilizar uno de los filtros provistos para esto:</p>
+
+<ul>
+	<li><em>tribe_events_stylesheet_url </em>(estilos del núcleo de The Events Calendar)</li>
+	<li><em>tribe_events_pro_stylesheet_url </em>(estilos de Events Calendar PRO)</li>
+	<li><em>tribe_events_pro_widget_calendar_stylesheet_url </em>(estilos de los widgets de calendario de The Events Calendar)</li>
+</ul>
+
+<p><strong>Por ejemplo:</strong></p>
+
+<p>Digamos que quieres reemplazar las hojas de estilo provistas en The Events Calendar y PRO por tus propias hojas de estilo llamadas&nbsp;<b>custom-events-stylesheet.css</b>&nbsp;y&nbsp;<strong>custom-events-pro-stylesheet.css</strong> respectivamente. Puedes usar los filtros antes mencionados de la siguiente manera:</p>
+
+<p>[php]<br />
+function replace_tribe_events_calendar_stylesheet() {<br />
+$styleUrl = get_bloginfo('template_url') . '/custom-events-stylesheet.css';<br />
+return $styleUrl;<br />
+}<br />
+add_filter('tribe_events_stylesheet_url', 'replace_tribe_events_calendar_stylesheet');<br />
+[/php]</p>
+
+<p>[php]<br />
+function replace_tribe_events_calendar_pro_stylesheet() {<br />
+$styleUrl = get_bloginfo('template_url') . '/custom-events-pro-stylesheet.css';<br />
+return $styleUrl;<br />
+}<br />
+add_filter('tribe_events_pro_stylesheet_url', 'replace_tribe_events_calendar_pro_stylesheet');<br />
+[/php]</p>
+
+<p><strong>Nota:</strong> La hoja de estilo por defecto Tribe continuará cargando además de las propias que hayas definido arriba, a menos que selecciones otra opción distinta a <em>Estilos Tribe Events&nbsp;</em>para&nbsp;Hoja de estilo predeterminada en los ajustes. En el panel de control, dirigiéndote a&nbsp;<em>Eventos -&gt; Ajustes -&gt; Visualización (pestaña),&nbsp;</em>cambiar&nbsp;‘Hoja de estilo predeterminada utilizada para las plantillas de eventos’ por Estilos básicos si deseas reemplazar completamente los estilos por defecto.</p>
+
+<p><a name="responsivetemplates"></a></p>
+
+<h3 id="responsive">Plantillas Adaptativas</h3>
+
+<p>Hay varias partes claves a tener en cuenta respecto al comportamiento adaptativo de las plantillas de eventos, especialmente si deseas personalizar como funciona este componente</p>
+
+<h4>Puntos de Quiebre (Breakpoints)</h4>
+
+<p>El punto de quiebre por defecto en el cual el comportamiento adaptativo se activa en dispositivos pequeños es 768px. Este valor puede ser modificado o incluso eliminado utilizando los siguientes filtros:</p>
+
+<ul>
+	<li><em>tribe_events_mobile_breakpoint</em> - Te permitirá editar el valor del punto de quiebre</li>
+	<li><em>tribe_events_kill_responsive </em>- Te permite eliminar el comportamiento adaptativo</li>
+</ul>
+
+<p>Por ejemplo: Digamos que deseas personalizar el punto de quiebre para que sea 600px. Puedes usar el filtro&nbsp;<em>tribe_events_mobile_breakpoint </em>de la siguiente manera:</p>
+
+<p>[php]<br />
+function customize_tribe_events_breakpoint() {<br />
+return 600;<br />
+}<br />
+add_filter( 'tribe_events_mobile_breakpoint', 'customize_tribe_events_breakpoint' );<br />
+[/php]</p>
+
+<p>Ahora digamos que deseas eliminar el comportamiento adaptativo completamente. Puedes utilizar el filtro&nbsp;<em>tribe_events_kill_responsive&nbsp;</em>de esta forma:</p>
+
+<p>[php]<br />
+add_filter( 'tribe_events_kill_responsive', '__return_true');<br />
+[/php]</p>
+
+<p>Por último, hemos provisto de algunas clases al elemento <em>body&nbsp;</em>para que puedas utilizarlas como lo necesites:</p>
+
+<ul>
+	<li><em>.tribe-is-responsive </em>- Esta clase se agrega si el punto de quiebre no ha sido eliminado</li>
+	<li><em>.tribe-mobile</em> - Esta clase se agrega una vez que se llega al punto de quiebre establecido</li>
+</ul>
+
+<h4>CSS</h4>
+
+<p>Además de las media quieries retina / hdpi (utilizadas para íconos solamente), el css adaptativo ha sido separado en sus propias hojas de estilo (*-mobile.css). Vas a encontrar que cada opción de estilos, excepto los estilos básicos, incluyen una hoja de estilo tanto para The Events Calendar como para Events Calendar PRO, que contienen el CSS necesario para estilizar las plantillas responsive.</p>
+
+<p>Puedes ver en la sección&nbsp;<a href="928476-Guía-para-Personalizar-los-Plugins#customizingstyles">Personalizando los Estilos</a>, respecto a como trabajar con las hojas de estilo adaptativo recientemente agregadas, ya que esta información también se aplica a estas hojas de estilo.</p>
+
+<p>Por último, un media query adicional ha sido incluida a un max-width de 600px para manejar específicamente con algunos de los plugins que extienden la funcionalidad de los tickets y la vista de foto en algunas de las hojas de estilo.</p>
+
+<h4>JS</h4>
+
+<p>Javascript se usa como ayuda para algunas de las funcionalidades en mobile y es altamente utilizado para las vistas mensuales y semanales. También hemos tomado un paso importante y significativo en utilizar plantillas en Javascript para hacer funcionar las áreas mobile tanto para las vistas mensuales y semanales como también para los tooltips en otros lugares de los plugins.</p>
+
+<p>Si has sobrescrito:</p>
+
+<ul>
+	<li><em>views/month/content.php</em></li>
+	<li><em>views/pro/week/content.php</em></li>
+</ul>
+
+<p>Necesitarás actualizar tus plantillas con el último código de las plantillas desde por lo menos la versión 3.5 para los plugins The Events Calendar y PRO, para asegurarte tener las nuevas inclusiones necesarias para esta funcionalidad.</p>
+
+<p>Si deseas entender mejor como funciona el sistema de plantillas en Javascript o necesitas personalizar estas plantillas, por favor referirse a nuestra guía de plantillas en Javascript.</p>
+
+<p>Por último, si has sobrescrito la marcación de tus tooltips, necesitarás trasladar esto a la plantilla JS, que incluye instrucciones en profundidad para esto.</p>
+
+<h4>Plantillas</h4>
+
+<p>(Aplica a usuarios actualizando a la versión 3.5 y superior de los plugins The Events Calendar y PRO)</p>
+
+<p>Vas a querer revisar todas las modificaciones hechas, ya sean sobrescritura de plantillas o estilos, o si también has hecho tu propia versión mobile. Asegúrate de probar las modificaciones hechas contra las nuevas actualizaciones.</p>
+
+<p>Definitivamente deberás actualizar las plantillas sobrescritas, y potencialmente el punto de quiebre (breakpoint) y/o CSS mobile y/o CSS sobrescrito para agregar el CSS adaptativo por defecto, pero como siempre, puedes preguntar a nuestro soporte si tienes alguna pregunta durante este proceso.</p>
+
+<h4>Sistema de plantillas en Javascript</h4>
+
+<p>Desde la versión 3.5 hemos empezado a utilizar algunos el sistema de plantillas en Javascript de manera simple para el funcionamiento de tanto las plantillas de eventos en mobile como los tooltips de la vista mensual y semanal. Son bastante sencillas de seguir y entender, y hemos provisto de documentación detallada como ayuda si necesitas personalizar alguna de esas partes.</p>
+
+<p>Vas a encontrar estas plantillas junto con la documentación y ayuda adicional para lo siguiente:</p>
+
+<p><strong>Documentación del Core:</strong> core/src/views/month/single-event.php<br />
+<strong>Documentación de PRO:</strong> pro/src/views/week/single-event-allday.php</p>
+
+<p>Plantillas Mobile:</p>
+
+<ul>
+	<li><em>core/<em>src/</em>views/month/mobile.php</em></li>
+	<li><em>pro/<em>src/</em>views/week/mobile.php</em></li>
+</ul>
+
+<p>Plantillas de Tooltips:</p>
+
+<ul>
+	<li><em>core/<em>src/</em>views/month/tooltip.php</em></li>
+	<li><em>pro/src/views/week/tooltip.php</em></li>
+</ul>
+
+<p>Puedes ver la sección más arriba,&nbsp;<a href="928476-Guía-para-Personalizar-los-Plugins#customizingstyles">Personalizando los Estilos</a>, sobre como trabajar con estas plantillas recientemente agregadas, ya que esta información también se aplica a los archivos de plantillas.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 26, 2018, 11:19 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="667">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="423317-Troubleshooting-Google-Maps" class="article-link article-link-685" title="Troubleshooting Google Maps">
+        <span class="TitleValue">Troubleshooting Google Maps</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="569075-Events-Calendar-PRO-Location-Search" class="article-link article-link-657" title="Events Calendar PRO Location Search">
+        <span class="TitleValue">Events Calendar PRO Location Search</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="753406-Changing-the-file-name-for-your-ICS-event-exports" class="article-link article-link-641" title="Changing the file name for your ICS event exports">
+        <span class="TitleValue">Changing the file name for your ICS event exports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" class="article-link article-link-633" title="Important Settings for The Events Calendar / Events Calendar PRO">
+        <span class="TitleValue">Important Settings for The Events Calendar / Events Calendar PRO</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="328998-Featured-Events" class="article-link article-link-623" title="Featured Events">
+        <span class="TitleValue">Featured Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode" class="article-link article-link-619" title="Embedding Single Events with the [tribe_event_inline] Shortcode">
+        <span class="TitleValue">Embedding Single Events with the [tribe_event_inline] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="819925-WPML-Support" class="article-link article-link-599" title="WPML Support">
+        <span class="TitleValue">WPML Support</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" class="article-link article-link-587" title="Embedding Calendar Views with the [tribe_events] Shortcode">
+        <span class="TitleValue">Embedding Calendar Views with the [tribe_events] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="137718-Can-You-Have-Multiple-Calendars" class="article-link article-link-585" title="Can You Have Multiple Calendars?">
+        <span class="TitleValue">Can You Have Multiple Calendars?</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="485931-Hide-recurring-event-instances-in-the-admin" class="article-link article-link-583" title="Hide recurring event instances in the admin">
+        <span class="TitleValue">Hide recurring event instances in the admin</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="064341-Events-Calendar-PRO" class="MoreLinkTitle">and 46 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=667&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="928476-Guía-para-Personalizar-los-Plugins#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

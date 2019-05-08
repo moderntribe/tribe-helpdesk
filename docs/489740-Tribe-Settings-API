@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="489740-Tribe-Settings-API" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Tribe Settings API</title>        <meta name="keywords" content="Article,Advanced,Customizing Resources,out of date" />    <meta property="og:url" content="//support.theeventscalendar.com/489740-Tribe-Settings-API" />    <meta property="og:title" content="Tribe Settings API" />    <meta property="og:description" content="This is documentation for the new TribeSettings API available in The Events Calendar 2.0.5 and up  There are four classes that make up the new Tribe Settings API. All four are located in the /src/Trib" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Tribe Settings API</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Tribe Settings API">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/489740-Tribe-Settings-API"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="757786-General" class="breadcrumb-link">
+    			<span itemprop="name">General</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Tribe Settings API</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="489740-Tribe-Settings-API" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p id="tribesettingsapi">This is documentation for the new TribeSettings API available in The Events Calendar 2.0.5 and up</p>
+
+<p>There are four classes that make up the new Tribe Settings API. All four are located in the <em>/src/Tribe/</em> folder of the plugin. All four are also bootstrapped and loaded whenever the plugin runs.</p>
+
+<p>Take note that each class represents a level of abstraction. If you are creating a new settings tab, you will be mostly concerned and interested in the fourth class <em>Tribe__Events__Settings_Tab</em> which neatly wraps the other 3 classes into a helpful &amp; easy to use API.</p>
+
+<h3 id="classtribesettings">Class <em>TribeSettings</em></h3>
+
+<ul>
+	<li>File: <em>/src/Tribe/Settings.php</em></li>
+	<li>Description: static helper class that allows registration of settings, instantiation takes place in <em>Tribe__Events__Main</em>.</li>
+</ul>
+
+<p><strong>Class variables:</strong></p>
+
+<ul>
+	<li><em>$instance</em>: (stdClass) singleton method instance var</li>
+	<li><em>$tabs</em>: (array) the tabs that will appear in the settings page (filtered on class construct)</li>
+	<li><em>$fields</em>: (array) multidimentional array of the fields that will be generated for the entire settings panel, tabs are represented in the array keys</li>
+	<li><em>$defaultTab</em>: (string) the default tab for the settings panel, this should be a tab ID</li>
+	<li><em>$currentTab</em>: (string) the current tab being displayed</li>
+	<li><em>$noSaveTabs</em>: (array) tabs that shouldn't show the save button</li>
+	<li><em>$adminSlug</em>: (string) the slug used in the admin to generate the settings page</li>
+	<li><em>$menuName</em>: (string) the menu name used for the settings page</li>
+	<li><em>$requiredCap</em>: (string) the required capability for the settings page</li>
+	<li><em>$errors</em>: (mixed) errors that occur after a save operation</li>
+	<li><em>$saved</em>: (bool) true when just saved</li>
+	<li><em>$admin_page</em>: (string) the <em>$current_screen</em> name corresponding to the admin page</li>
+	<li><em>$major_error</em>: (bool) true if a major error that prevents saving occurred</li>
+	<li><em>$validated</em>: (array) holds validated fields</li>
+</ul>
+
+<p><strong>Action Hooks:</strong></p>
+
+<ul>
+	<li><em>tribe_settings_do_tabs</em>: this is the hook to use to add new tabs (used with the <em>Tribe__Events__Settings_Tab</em> class)</li>
+	<li><em>tribe_settings_after_do_tabs</em>: occurs after all tabs are added</li>
+	<li><em>tribe_settings_top</em>: occurs before opening <em>&lt;div class="tribe_settings wrap"&gt;</em> of the settings page</li>
+	<li><em>tribe_settings_above_tabs</em>: occurs right above the tabs (below the title)</li>
+	<li><em>tribe_settings_below_tabs</em>: occurs right below the tabs</li>
+	<li><em>tribe_settings_below_tabs_tab_{$currentTab}</em>: occurs right below the tabs for the specified tab</li>
+	<li><em>tribe_settings_above_form_element</em>: occurs above the from element</li>
+	<li><em>tribe_settings_above_form_element_tab_{$currentTab}</em>: occurs above the form element for the specified tab</li>
+	<li><em>tribe_settings_before_content</em>: occurs after the form element</li>
+	<li><em>tribe_settings_before_content_tab_{$currentTab}</em>: occurs after the form element for the specified tab</li>
+	<li><em>tribe_settings_content_tab_{$currentTab}</em>: generates the content for the specified tab</li>
+	<li><em>tribe_settings_after_content_tab_{$currentTab}</em>: occurs after the content for the specified tab</li>
+	<li><em>tribe_settings_after_content</em>: occurs after the content</li>
+	<li><em>tribe_settings_after_form_element</em>: occurs after the form element</li>
+	<li><em>tribe_settings_after_form_element_tab_{$currentTab}</em>: occurs after the form element for the specified tab</li>
+	<li><em>tribe_settings_after_form_div</em>: occurs after the closing form div</li>
+	<li><em>tribe_settings_bottom</em>: occurs at the bottom of the settings screen</li>
+	<li><em>tribe_settings_after_tabs</em>: occurs after tabs</li>
+	<li><em>tribe_settings_validate_before_checks</em>: occurs during validation, before any kind of checks are made</li>
+	<li><em>tribe_settings_validate</em>: occurs in validation once the permission, nonce and tab checks are made</li>
+	<li><em>tribe_settings_validate_tab_{$currentTab}</em>: same as <em>tribe_settings_validate</em> but for a specific tab</li>
+	<li><em>tribe_settings_validate_field</em>: occurs on field validation</li>
+	<li><em>tribe_settings_validate_field_{$field_id}</em>: occurs on specific field validation</li>
+	<li><em>tribe_settings_save</em>: occurs on save</li>
+	<li><em>tribe_settings_save_tab_{$currentTab}</em>: occurs on save for specific tab</li>
+	<li><em>tribe_settings_save_field</em>: occurs on field save</li>
+	<li><em>tribe_settings_save_field_{$field_id}</em>: occurs on specific field save</li>
+</ul>
+
+<p><strong>Filter Hooks:</strong></p>
+
+<ul>
+	<li><em>tribe_settings_menu_name</em>: filter the settings panel's menu name</li>
+	<li><em>tribe_settings_req_cap</em>: filter the required capability, defaults to <em>manage_options</em></li>
+	<li><em>tribe_settings_admin_slug</em>: filter the admin slug for the settings page</li>
+	<li><em>tribe_settings_tabs</em>: filter the tabs for the settings panel</li>
+	<li><em>tribe_settings_fields</em>: filter the fields for the settings panel</li>
+	<li><em>tribe_settings_default_tab</em>: filter the default tab, defaults to <em>general</em></li>
+	<li><em>tribe_settings_current_tab</em>: filter the current tab, defaults to <em>$_GET['tab']</em></li>
+	<li><em>tribe_settings_no_save_tabs</em>: filter which tabs don't have the save tab</li>
+	<li><em>tribe_settings_form_element</em>: filter the opening form element for the settings panel, defaults to <em>&lt;form method="post"&gt;</em></li>
+	<li><em>tribe_settings_closing_form_element</em>: filter the closing form element for the settings panel, defaults to <em>&lt;/form&gt;</em></li>
+	<li><em>tribe_settings_validate_field_value</em>: filter a field's value before we validate it</li>
+	<li><em>tribe_settings_save_field_value</em>: filter a field's value before we save it</li>
+	<li><em>tribe_settings_save_field_parent_option</em>: filter a field's parent array option id before saving it</li>
+	<li><em>tribe_settings_save_option_array</em>: filter an option array before saving it</li>
+	<li><em>tribe_settings_display_errors</em>: filter the <em>$errors</em> array before displaying it</li>
+	<li><em>tribe_settings_count_errors</em>: filter how many errors there are before displaying them</li>
+	<li><em>tribe_settings_display_errors_or_not</em>: determine whether to display errors or not, defaults to wether the error count is above zero or not</li>
+	<li><em>tribe_settings_error_message</em>: filter the full error message</li>
+	<li><em>tribe_settings_success_message</em>: filter the success message</li>
+</ul>
+
+<h3 id="classtribefield">Class <em>Tribe__Events__Field</em></h3>
+
+<ul>
+	<li>File: <em>/src/Tribe/Field.php</em></li>
+	<li>Description: helper class that creates fields for use in Settings, MetaBoxes, Users, anywhere. Instantiate it whenever you need a field</li>
+</ul>
+
+<p><strong>Class variables:</strong></p>
+
+<ul>
+	<li><em>$id</em>: (string) the field's id</li>
+	<li><em>$name</em>: (string) the field's name (also known as it's label)</li>
+	<li><em>$args</em>: (array) the field's arguments</li>
+	<li><em>$defaults</em>: (array) field defaults (static)</li>
+	<li><em>$valid_field_types</em>: (array) the valid field types (static)</li>
+</ul>
+
+<p><strong>Constructor variables:</strong></p>
+
+<p>These variables are passed to the class when it is instantiated, like so:</p>
+
+<p><em>new Tribe__Events__Field($id, $field, $value = null)</em></p>
+
+<ul>
+	<li><em>$id</em>: (string) the field's id</li>
+	<li><em>$field</em>: (array) the field object/arguments</li>
+	<li><em>$value</em>: (mixed)[optional] the field's current value</li>
+</ul>
+
+<p><strong>Field Arguments:</strong></p>
+
+<p>These are set with the <em>$args</em> variable. Below are the different arguments with their default value:</p>
+
+<ul>
+	<li>'type' =&gt; 'html', the field type</li>
+	<li>'name' =&gt; $id, the field's name attribute (used in <em>$_POST</em>)</li>
+	<li>'class' =&gt; null, class to be applied to the field's <em>&lt;fieldset&gt;</em> element</li>
+	<li>'label' =&gt; null, the field's label</li>
+	<li>'tooltip' =&gt; null, the field's description/label, used in the tooltip as well as in the screen reader label</li>
+	<li>'size' =&gt; 'medium', (possible values are small, medium or large) this applies to text, text area, dropdown, dropdown<em>chosen and license</em>key fields only</li>
+	<li>'html' =&gt; null, the html of a field (applies only to an html field)</li>
+	<li>'error' =&gt; false, boolean to indicate if the field is currently erroneous or not - this is set via <em>Tribe__Events__Validate</em></li>
+	<li>'value' =&gt; $value, the current value for the field</li>
+	<li>'options' =&gt; null, options for the field (this applies to radio, dropdown and dropdown_chosen fields only)</li>
+	<li>'conditional' =&gt; true, allows you to set a condition on a field to determine whether it should appear or not, you can pass a function, a variable, whatever you want here, but it expects a boolean value</li>
+	<li>'display_callback' =&gt; null, a function name to generate the field with, this would overwrite the class' behaviour and generate the field with the specified function instead</li>
+	<li>'if_empty' =&gt; null, optional message to display for a radio or dropdown button when <em>$options</em> are empty, handy for dynamic fields</li>
+	<li>'can<em>be</em>empty' =&gt; false, allows a field to be saved with an empty value</li>
+	<li>'clear_after' =&gt; true, to add a <em>&lt;div class="clear"&gt;&lt;/div&gt;</em> after the field or not, defaults to add it</li>
+</ul>
+
+<p><strong>Valid Field Types:</strong></p>
+
+<ul>
+	<li>heading: an <em>&lt;h3&gt;</em> wrapped heading</li>
+	<li>html: arbitrary html code</li>
+	<li>text: regular text field</li>
+	<li>textarea: regular text area field</li>
+	<li>radio: radio buttons</li>
+	<li>checkbox_bool: single checkbox (true or false)</li>
+	<li>checkbox_list: checkbox list with options</li>
+	<li>dropdown: regular <em>&lt;select&gt;</em> dropdown</li>
+	<li>dropdown_chosen: chosen-enhanced dropdown</li>
+	<li>license_key: regular text field capable of ajaxing to the right place for license key (<strong>note</strong>: implementation currently pending)<strong>NOTE:</strong> more field types will surely be added in future versions of this API</li>
+</ul>
+
+<p><strong>Action Hooks:</strong></p>
+
+<p>None for this class</p>
+
+<p><strong>Filter Hooks:</strong></p>
+
+<ul>
+	<li><em>tribe_valid_field_types</em>: filter valid field types</li>
+	<li><em>tribe_field_id</em>: filter the field's id</li>
+	<li><em>tribe_field_{$key}</em>: filter the field's specified properly</li>
+	<li><em>tribe_field_output_{$type}</em>: filter the specified field type's output</li>
+	<li><em>tribe_field_output_{$type}_{$field_id}</em>: filter the specified field's output</li>
+	<li><em>tribe_field_start</em>: filter the field start output</li>
+	<li><em>tribe_field_end</em>: filter the field end output</li>
+	<li><em>tribe_field_label</em>: filter the field's label output</li>
+	<li><em>tribe_field_div_start</em>: filter the field's encompassing div's output</li>
+	<li><em>tribe_field_div_end</em>: filter the field's closing div's output</li>
+	<li><em>tribe_field_tooltip</em>: filter the field's <em>title</em> attribute output, which is used for the tooltip</li>
+	<li><em>tribe_field_screen_reader_label</em>: filter the field's screen reader label</li>
+	<li><em>tribe_field_value</em>: filter the field's value attribute</li>
+	<li><em>tribe_field_name</em>: filter the field's name attribute</li>
+</ul>
+
+<h3 id="classtribevalidate">Class <em>Tribe__Events__Validate</em></h3>
+
+<ul>
+	<li>File: <em>/src/Tribe/Validate.php</em></li>
+	<li>Description: helper class that validates fields for use in Settings, MetaBoxes, Users, anywhere. Instantiate whenever you want to validate a field</li>
+</ul>
+
+<p><strong>Class variables:</strong></p>
+
+<ul>
+	<li><em>$field</em>: (array), the field object to validate</li>
+	<li><em>$value</em>: (mixed), the field's value</li>
+	<li><em>$additional_args</em>: (array) additional arguments for validation - used by some methods only</li>
+	<li><em>$label</em>: (string), the field's label, used in error messages</li>
+	<li><em>$type</em>: (string), the type of validation to perform</li>
+	<li><em>$result</em>: (stdClass), the result object of the validation</li>
+</ul>
+
+<p><strong>Valid Validation Types:</strong></p>
+
+<ul>
+	<li><em>positive_int</em>: validates &amp; sanitizes fields as being positive integers</li>
+	<li><em>slug</em>: validates &amp; sanitizes fields as URL slugs</li>
+	<li><em>url</em>: validates &amp; sanitizes fields as URLs</li>
+	<li><em>options</em>: validates fields that have options (radios, dropdowns, etc.) by making sure the value is part of the options array</li>
+	<li><em>cannot_be_the_same_as</em>: validates &amp; sanitizes fields as not being able to be the same as the specified value, use the <em>$additional_args['compare']</em> to pass the value to compare against, use the <em>$additional_args['compare_name']</em> to pass the name of what you are comparing against (for the error message)</li>
+	<li><em>number_or_percent</em>: validates fields as being a number or a percentage</li>
+	<li><em>html</em>: sanitizes an html field</li>
+	<li><em>license_key</em>: validates &amp; sanitizes a license key</li>
+	<li><em>textarea</em>: sanitizes a textarea field</li>
+	<li><em>boolean</em>: sanitizes fields as being a boolean</li>
+	<li><em>google_maps_zoom</em>: validates a google map zoom level</li>
+	<li><em>address</em>: validates fields as being part of an address, allows for letters, numbers, dashses and spaces only</li>
+	<li><em>city_or_province</em>: validates fields as being a city or province, allows for letters, dashses and spaces only</li>
+	<li><em>zip</em>: validates fields as being a zip code</li>
+	<li><em>phone</em>: validates fields as being a phone number</li>
+	<li><em>country_list</em>: validates &amp; sanitizes a field as being a country list</li>
+	<li><em>none</em>: automatically validate a field regardless of the value. Don't use this unless you know what you are doing<strong>NOTE:</strong> more validation types will surely be added in future versions of this API</li>
+</ul>
+
+<p><strong>Action Hooks:</strong></p>
+
+<p>None for this class</p>
+
+<p><strong>Filter Hooks:</strong></p>
+
+<p>None for this class</p>
+
+<h3 id="classtribesettingstab">Class <em>Tribe__Events__Settings_Tab</em></h3>
+
+<ul>
+	<li>File: <em>/src/Tribe/Settings_Tab.php</em></li>
+	<li>Description: helper class that creates a settings tab; this is a public API, use it to create tabs simply by instantiating this class</li>
+</ul>
+
+<p><strong>Class variables:</strong></p>
+
+<ul>
+	<li><em>$id</em>: (string) Tab ID, used in query string and elsewhere</li>
+	<li><em>$name</em>: (string) Tab's name</li>
+	<li><em>$args</em>: (array) Tab's arguments</li>
+	<li><em>$defaults</em>: (array) Defaults for tabs</li>
+</ul>
+
+<p><strong>Action Hooks:</strong></p>
+
+<p>None for this class</p>
+
+<p><strong>Filter Hooks:</strong></p>
+
+<ul>
+	<li><em>tribe_settings_tab_id</em>: filters the tab ID</li>
+	<li><em>tribe_settings_tab_name</em>: filter the tab name</li>
+	<li><em>tribe_settings_tab_{$field_id}</em>: filters the specified tab property</li>
+	<li><em>tribe_settings_do_content_parent_option</em>: filters the parent option for a field</li>
+	<li><em>tribe_settings_field_default</em>: filters the default for a field</li>
+	<li><em>tribe_settings_get_option_value_pre_display</em>: filters the value before giving it to the <em>Tribe__Events__Field</em> class</li>
+</ul>
+
+<p><strong>Default Arguments:</strong></p>
+
+<p>Below are the default arguments with an explanation for each, these are passed via <em>$args</em>.</p>
+
+<ul>
+	<li>'fields' =&gt; array(), the fields for the tab</li>
+	<li>'priority' =&gt; 50, the priority of a tab - this will determine the placement of the tab, see below for a more in-depth explanation</li>
+	<li>'show_save' =&gt; true, whether to show the save button on this tab</li>
+	<li>'display_callback' =&gt; false, a function name to generate the tab's content instead of the default behaviour</li>
+</ul>
+
+<p><strong>Priority:</strong></p>
+
+<p>The <em>priority</em> argument is passed to the <em>tribe_settings_tabs</em> filter which is run via the <em>addTab()</em> function, like so: <em>add_filter('tribe_settings_tabs', array($this, 'addTab'), $priority );</em></p>
+
+<p>The Event Calendar's tabs have the following priorities:</p>
+
+<ul>
+	<li>General: 10</li>
+	<li>Template: 20</li>
+	<li>Defaults (pro only): 30</li>
+	<li>Licenses (pro and add-ons only): 40</li>
+	<li>Help: 60</li>
+</ul>
+
+<p>This allows you to add new tabs anywhere in between, for example, a priority of 9 would insert your tab right before General, whereas a priority of 35 would insert it right after Defaults, etc.</p>
+
+<p><strong>Fields:</strong></p>
+
+<p>The <em>Tribe__Events__Settings_Tab</em> class processes 2 extra parameters for fields above and beyond those of <em>Tribe__Events__Field</em>. The extra parameters are <em>parent_option</em> and allows you to set under what option the specified field will save (aka as part of a serialized array), and <em>default</em>, used to set a default value if one isn't present.</p>
+
+<p>By default, the <em>parent_option</em> parameter will be set to <em>Tribe__Events__Main::OPTIONNAME</em>, aka the default option for The Events Calendar. If you leave <em>parent_option</em> blank when registering your field, it will save under this default.</p>
+
+<p>You can specify a field to save as it's own stand-alone option by setting <em>parent_option</em> to false.</p>
+
+<p>You can set <em>parent_option</em> to any other string value, and the field will save as part of a serialized array under the specified option name.</p>
+
+<p>Setting the <em>default</em> param is important for options that are required.</p>
+
+<p><strong>Usage Example:</strong></p>
+
+<p>The following example inserts a new tab called General. Every field saves to the <em>Tribe__Events__Main::OPTIONNAME</em> serialized array.</p>
+
+<p>Take note of the <em>tribe_settings_do_tabs</em> hook which is used to add the tab.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 14, 2018, 12:42 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-14" itemprop="dateModified">Dec 14 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="299">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="588130-Pre-Sales-Questions" class="article-link article-link-865" title="Pre-Sales Questions">
+        <span class="TitleValue">Pre-Sales Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="345413-General-Sales--Account-Questions" class="article-link article-link-859" title="General Sales &amp; Account Questions">
+        <span class="TitleValue">General Sales &amp; Account Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="210263-Free-Support-Resources" class="article-link article-link-857" title="Free Support Resources">
+        <span class="TitleValue">Free Support Resources</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="315237-Creating-Site-Backups" class="article-link article-link-729" title="Creating Site Backups">
+        <span class="TitleValue">Creating Site Backups</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="178892-Change-the-wording-of-any-bit-of-text-or-string" class="article-link article-link-333" title="Change the wording of any bit of text or string">
+        <span class="TitleValue">Change the wording of any bit of text or string</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="article-link article-link-671" title="Best Practices for Implementing Custom Code Snippets">
+        <span class="TitleValue">Best Practices for Implementing Custom Code Snippets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="713863-PHP-Version-Requirement-Changes" class="article-link article-link-681" title="PHP Version Requirement Changes">
+        <span class="TitleValue">PHP Version Requirement Changes</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="093589-Custom-Development" class="article-link article-link-687" title="Custom Development">
+        <span class="TitleValue">Custom Development</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="192116-Support-Team-Webinars" class="article-link article-link-691" title="Support Team Webinars">
+        <span class="TitleValue">Support Team Webinars</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="481188-Bundle-Discounts" class="article-link article-link-693" title="Bundle Discounts">
+        <span class="TitleValue">Bundle Discounts</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 64 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=299&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="489740-Tribe-Settings-API#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

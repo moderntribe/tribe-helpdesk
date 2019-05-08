@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="174883-Required-Fields-for-Events-Submission-Form" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Required Fields for Events Submission Form</title>        <meta name="keywords" content="Community Events,Article,Advanced,Community Events,update snippet" />    <meta property="og:url" content="//support.theeventscalendar.com/174883-Required-Fields-for-Events-Submission-Form" />    <meta property="og:title" content="Required Fields for Events Submission Form" />    <meta property="og:description" content="⚠️ Please Note: This tutorial is only suggested as a starting place. You&#039;ll need to customize the code examples for your own specific needs.  While we are not able to assist with custom coding (ht" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Required Fields for Events Submission Form</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Required Fields for Events Submission Form">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/174883-Required-Fields-for-Events-Submission-Form"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="983445-Community-Events" class="breadcrumb-link">
+    			<span itemprop="name">Community Events</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Required Fields for Events Submission Form</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="174883-Required-Fields-for-Events-Submission-Form" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>⚠️ <strong>Please Note:</strong> This tutorial is only suggested as a starting place. You'll need to customize the code examples for your own specific needs.</p>
+
+<p>While we <a href="772674-What-support-is-provided-for-license-holders" rel="noopener" target="_blank">are not able to assist with custom coding</a>, we hope this article helps you get started!</p>
+
+<hr />
+<p>By default, only the <em>Event Title</em> and <em>Event Description</em> are required on the Community Events submission form. But you can use plugin filters to modify what fields are required and/or what error messages display when a required field hasn't been filled out by the submitter.</p>
+
+<ul>
+	<li><a href="174883-Required-Fields-for-Events-Submission-Form#event-fields">Customizing Required Event Fields</a></li>
+	<li><a href="174883-Required-Fields-for-Events-Submission-Form#venue-fields">Customizing Required Venue Fields</a></li>
+	<li><a href="174883-Required-Fields-for-Events-Submission-Form#organizer-fields">Customizing Required Organizer Fields</a></li>
+	<li><a href="174883-Required-Fields-for-Events-Submission-Form#errors">Customizing Submission Error Messages</a></li>
+	<li><a href="174883-Required-Fields-for-Events-Submission-Form#default-fields">Default Field Names</a></li>
+</ul>
+
+<hr id="event-fields" />
+<h3>Customizing Required Event Fields</h3>
+
+<p>You can specify event fields for requirement by using this filter:</p>
+
+<ul>
+	<li><kbd>tribe_events_community_required_fields</kbd></li>
+</ul>
+
+<p>To make the Event URL field required for submission, for example, you could add the following snippet of code to your site:</p>
+
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(34, 34, 34); color: rgb(255, 255, 255);">add_filter( <span class="hljs-string" style="color: rgb(143, 156, 108);">'tribe_events_community_required_fields'</span>, <span class="hljs-string" style="color: rgb(143, 156, 108);">'my_community_required_fields'</span>, <span class="hljs-number" style="color: rgb(171, 135, 93);">10</span>, <span class="hljs-number" style="color: rgb(171, 135, 93);">1</span> );
+
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(143, 156, 108);">function</span> <span class="hljs-title" style="color: rgb(155, 134, 155);">my_community_required_fields</span><span class="hljs-params" style="color: rgb(171, 135, 93);">( $fields )</span> </span>{
+
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">if</span> ( ! is_array( $fields ) ) {
+        <span class="hljs-keyword" style="color: rgb(143, 156, 108);">return</span> $fields;
+    }
+
+    $fields[] = <span class="hljs-string" style="color: rgb(143, 156, 108);">'EventURL'</span>;
+
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">return</span> $fields;
+}</pre>
+
+
+<p>You can see a <a href="174883-Required-Fields-for-Events-Submission-Form#default-fields">full list of the default fields</a> below. It's worth mentioning that there are also two "shortcut" fields you can specify for the <kbd>tribe_events_community_required_fields</kbd> filter:</p>
+
+<ul>
+	<li><kbd>venue</kbd></li>
+	<li><kbd>organizer</kbd></li>
+</ul>
+
+<p>☝️ These two shortcuts make the entire venue section or organizer section required, respectively. If either is added via the <kbd>tribe_events_community_required_fields</kbd> filter, then the user has to pick an existing venue or organizer option <strong>or</strong> create a new one—the venue or organizer can't be left.</p>
+
+<hr id="venue-fields" />
+<h3>Customizing Required Venue Fields</h3>
+
+<p>You can specify venue fields for requirement by using this filter:</p>
+
+<ul>
+	<li><kbd>tribe_events_community_required_venue_fields</kbd></li>
+</ul>
+
+<p>To make the venue URL and phone number required, for example, you could write the following snippet:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(34, 34, 34); color: rgb(255, 255, 255);">add_filter( <span class="hljs-string" style="color: rgb(143, 156, 108);">'tribe_events_community_required_venue_fields'</span>, <span class="hljs-string" style="color: rgb(143, 156, 108);">'my_venue_community_required_fields'</span>, <span class="hljs-number" style="color: rgb(171, 135, 93);">10</span>, <span class="hljs-number" style="color: rgb(171, 135, 93);">1</span> );
+
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(143, 156, 108);">function</span> <span class="hljs-title" style="color: rgb(155, 134, 155);">my_venue_community_required_fields</span><span class="hljs-params" style="color: rgb(171, 135, 93);">( $fields )</span> </span>{
+    
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">if</span> ( ! is_array( $fields ) ) {
+        <span class="hljs-keyword" style="color: rgb(143, 156, 108);">return</span> $fields;
+    }
+
+    $fields[] = <span class="hljs-string" style="color: rgb(143, 156, 108);">'Phone'</span>;
+    $fields[] = <span class="hljs-string" style="color: rgb(143, 156, 108);">'URL'</span>;
+
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">return</span> $fields;
+}</pre>
+
+
+<p>You can see a <a href="174883-Required-Fields-for-Events-Submission-Form#default-fields">full list of the default fields</a> below.</p>
+
+<hr id="organizer-fields" />
+<h3 id="organizer-fields">Customizing Required Organizer Fields</h3>
+
+<p>You can specify organizer fields for requirement by using this filter:</p>
+
+<ul>
+	<li><kbd>tribe_events_community_required_organizer_fields</kbd></li>
+</ul>
+
+<p>To make the organizer email address required, for example, you could write the following snippet:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(34, 34, 34); color: rgb(255, 255, 255);">add_filter( <span class="hljs-string" style="color: rgb(143, 156, 108);">'tribe_events_community_required_organizer_fields'</span>, <span class="hljs-string" style="color: rgb(143, 156, 108);">'my_organizer_community_required_fields'</span>, <span class="hljs-number" style="color: rgb(171, 135, 93);">10</span>, <span class="hljs-number" style="color: rgb(171, 135, 93);">1</span> );
+
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(143, 156, 108);">function</span> <span class="hljs-title" style="color: rgb(155, 134, 155);">my_organizer_community_required_fields</span><span class="hljs-params" style="color: rgb(171, 135, 93);">( $fields )</span> </span>{
+    
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">if</span> ( ! is_array( $fields ) ) {
+        <span class="hljs-keyword" style="color: rgb(143, 156, 108);">return</span> $fields;
+    }
+
+    $fields[] = <span class="hljs-string" style="color: rgb(143, 156, 108);">'email'</span>;
+
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">return</span> $fields;
+} </pre>
+
+<p>You can see a <a href="174883-Required-Fields-for-Events-Submission-Form#default-fields">full list of the default fields</a> below.</p>
+
+<hr id="errors" />
+<h3>Customizing Submission Error Messages</h3>
+
+<p>You can add, remove, or modify Community Events submission form errors by using this filter:</p>
+
+<ul>
+	<li><kbd>tribe_community_events_form_errors</kbd></li>
+</ul>
+
+<p>Writing custom error messages is something rather specific to your project. It's also specific to the messages you want to display <em>and</em> to the fields whose lack of being filled out you want to act as triggers for messages.</p>
+
+<p>So, the example code here won't actually do anything—it is simply an illustration of a basic process you could use in your customizations. You'd need to tinker and tweak from here, using <a href="http://php.net/manual/en/function.var-dump.php" rel="noopener" target="_blank"><kbd>var_dump()</kbd></a> liberally, but here is a basic demonstration of the error messages filter:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(34, 34, 34); color: rgb(255, 255, 255);">add_filter( <span class="hljs-string" style="color: rgb(143, 156, 108);">'tribe_community_events_form_errors'</span>, <span class="hljs-string" style="color: rgb(143, 156, 108);">'ce_custom_error_msg'</span> );
+
+<span class="hljs-function"><span class="hljs-keyword" style="color: rgb(143, 156, 108);">function</span> <span class="hljs-title" style="color: rgb(155, 134, 155);">ce_custom_error_msg</span><span class="hljs-params" style="color: rgb(171, 135, 93);">( $errors )</span> </span>{
+    
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">if</span> ( ! <span class="hljs-keyword" style="color: rgb(143, 156, 108);">isset</span>( $some_condition ) ) {
+        <span class="hljs-keyword" style="color: rgb(143, 156, 108);">return</span> $errors;
+    }
+
+    $existing_errors = <span class="hljs-string" style="color: rgb(143, 156, 108);">''</span>;
+    $type = <span class="hljs-string" style="color: rgb(143, 156, 108);">'error'</span>;
+
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">if</span> ( is_array( $errors ) ) {
+        $existing_errors = $errors[<span class="hljs-number" style="color: rgb(171, 135, 93);">0</span>][<span class="hljs-string" style="color: rgb(143, 156, 108);">'message'</span>];
+        $type = $errors[<span class="hljs-number" style="color: rgb(171, 135, 93);">0</span>][<span class="hljs-string" style="color: rgb(143, 156, 108);">'type'</span>];
+    }
+
+    $errors[<span class="hljs-number" style="color: rgb(171, 135, 93);">0</span>] = <span class="hljs-keyword" style="color: rgb(143, 156, 108);">array</span>(
+        <span class="hljs-string" style="color: rgb(143, 156, 108);">'type'</span> =&amp;gt; $type,
+        <span class="hljs-string" style="color: rgb(143, 156, 108);">'message'</span> =&amp;gt; <span class="hljs-string" style="color: rgb(143, 156, 108);">'&amp;lt;h5&amp;gt;You did not do something critical&amp;lt;/h5&amp;gt;'</span> . $existing_errors
+    );
+
+    <span class="hljs-keyword" style="color: rgb(143, 156, 108);">return</span> $errors;
+}</pre>
+
+<hr id="default-fields" />
+<h3>Default Field Names (Case-Sensitive)</h3>
+
+<p>These are all of the <strong>default</strong> Community Events submission form fields, which can be used in the filters discussed above. Please note that these field names are <strong>case sensitive</strong>.</p>
+
+<h4>Default Event Fields</h4>
+
+<ul>
+	<li><kbd>post_content</kbd></li>
+	<li><kbd>event_image</kbd></li>
+	<li><kbd>EventStartDate</kbd></li>
+	<li><kbd>EventStartHour</kbd></li>
+	<li><kbd>EventStartMinute</kbd></li>
+	<li><kbd>EventStartMeridian</kbd></li>
+	<li><kbd>EventEndDate</kbd></li>
+	<li><kbd>EventEndMinute</kbd></li>
+	<li><kbd>EventEndHour</kbd></li>
+	<li><kbd>EventEndMeridian</kbd></li>
+	<li><kbd>is_recurring</kbd></li>
+	<li><kbd>EventCurrencySymbol</kbd></li>
+	<li><kbd>tax_input</kbd> <em>(for event categories)</em></li>
+	<li><kbd>venue</kbd></li>
+	<li><kbd>organizer</kbd></li>
+	<li><kbd>EventShowMapLink</kbd></li>
+	<li><kbd>EventURL</kbd></li>
+</ul>
+
+<p><strong>🔔Quick Tip:</strong> If you have Events Calendar Pro <strong>custom fields</strong> that display on the form, then you can even specify these fields as required. Just view the HTML source and find the correct &lt;input&gt; tag, and look for the "name" attribute (<a href="https://theeventscalendar.com/content/uploads/2014/09/Screen-Shot-2016-09-08-at-8.56.17-PM.png" rel="noopener" target="_blank">screenshot</a>) to specify in your array of required fields.</p>
+
+<h4>Default Venue Fields</h4>
+
+<ul>
+	<li><kbd>Venue</kbd> <em>(the Venue Name)</em></li>
+	<li><kbd>Address</kbd></li>
+	<li><kbd>City</kbd></li>
+	<li><kbd>Province</kbd></li>
+	<li><kbd>State</kbd></li>
+	<li><kbd>Zip</kbd></li>
+	<li><kbd>Phone</kbd></li>
+	<li><kbd>URL</kbd></li>
+</ul>
+
+<h4>Default Organizer Fields</h4>
+
+<ul>
+	<li><kbd>Organizer</kbd> <em>(the Organizer Name)</em></li>
+	<li><kbd>Phone</kbd></li>
+	<li><kbd>Website</kbd></li>
+	<li><kbd>Email</kbd></li>
+</ul>
+
+<hr />
+<p>If you would like to further customize the Community Events submission forms, take a look at our <a href="153124-Themers-Guide">Themer's Guide</a> for more information on using template overrides to do so.</p>
+
+<p>You can also check out our <a href="http://theeventscalendar.com/customizations" rel="noopener" target="_blank">Customizations</a> overview page if you have any interest in hiring a professional developer to assist you with your project.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Jan 31, 2019, 11:15 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-31" itemprop="dateModified">Jan 31 (3 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="341">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="238593-Accessing-and-Linking-to-Community-Events-Pages" class="article-link article-link-649" title="Accessing and Linking to Community Events Pages">
+        <span class="TitleValue">Accessing and Linking to Community Events Pages</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="094053-Setting-up-reCAPTCHA-for-Community-Events" class="article-link article-link-643" title="Setting up reCAPTCHA for Community Events">
+        <span class="TitleValue">Setting up reCAPTCHA for Community Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="152335-Community-Tickets-Tracking-sales--getting-paid" class="article-link article-link-527" title="Community Tickets: Tracking sales &amp; getting paid">
+        <span class="TitleValue">Community Tickets: Tracking sales &amp; getting paid</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="420384-Auto-publish-events-submitted-by-logged-in-users" class="article-link article-link-471" title="Auto-publish events submitted by logged in users">
+        <span class="TitleValue">Auto-publish events submitted by logged in users</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="890921-New-User-Primer-Community-Events" class="article-link article-link-405" title="New User Primer: Community Events">
+        <span class="TitleValue">New User Primer: Community Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="245838-Managing-Community-Events-submissions" class="article-link article-link-365" title="Managing Community Events submissions">
+        <span class="TitleValue">Managing Community Events submissions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="071593-Adding-Custom-CSS-to-Community-Events-Pages" class="article-link article-link-347" title="Adding Custom CSS to Community Events Pages">
+        <span class="TitleValue">Adding Custom CSS to Community Events Pages</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="112713-Adding-Content-Above-or-Below-Community-Events-Pages" class="article-link article-link-345" title="Adding Content Above or Below Community Events Pages">
+        <span class="TitleValue">Adding Content Above or Below Community Events Pages</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="599568-Modifying-the-Community-Events-page-titles" class="article-link article-link-335" title="Modifying the Community Events page titles">
+        <span class="TitleValue">Modifying the Community Events page titles</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="786442-Setting-Overview-Community-Events" class="article-link article-link-217" title="Setting Overview: Community Events">
+        <span class="TitleValue">Setting Overview: Community Events</span>
+      </a></li>
+    </ul>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=341&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="174883-Required-Fields-for-Events-Submission-Form#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

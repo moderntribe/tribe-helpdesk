@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="239548-Creating-and-using-a-WordPress-staging-site" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Creating and using a WordPress staging site</title>        <meta name="keywords" content="Article,Beginner,Support Resources,plugin,site,staging site,staging,wordpress,live,sites,users,support team,live site,wordpress site,staging environment,staging sites,changes to your live site,conflict testing,updates to your staging,changes to your live,themes and/or plugins,wp staging,technical support" />    <meta property="og:url" content="//support.theeventscalendar.com/239548-Creating-and-using-a-WordPress-staging-site" />    <meta property="og:title" content="Creating and using a WordPress staging site" />    <meta property="og:description" content="Has this ever happened to you? You logged in to your WordPress site one day, perhaps to add some content to a page or post, and you noticed the WordPress update icon beckoning to you from your site&#039;s " />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Creating and using a WordPress staging site</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Creating and using a WordPress staging site">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/239548-Creating-and-using-a-WordPress-staging-site"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="757786-General" class="breadcrumb-link">
+    			<span itemprop="name">General</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Creating and using a WordPress staging site</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="239548-Creating-and-using-a-WordPress-staging-site" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Has this ever happened to you? You logged in to your WordPress site one day, perhaps to add some content to a page or post, and you noticed the WordPress update icon beckoning to you from your site's menu bar.</p>
+
+<p style="text-align: center;"><img alt="Icon that appears when an update is available for your WordPress site" src="https://theeventscalendar.com/content/uploads/2017/09/wordpress_update_icon.png" /></p>
+
+<p>Perhaps it was a new version of WordPress available to install. Or a long-awaited update to a particular plugin or theme. Maybe it was even some combination of the three. Whatever the case, before you thought twice about it, you hit that update button, and then…</p>
+
+<p><em>Something's wrong.</em></p>
+
+<p>A fatal error; a warning displayed on your site's front end; a service disruption for an important plugin. On a live site, any one of these can deteriorate the appearance of your pages, impact critical functionality, and cost you or your business time and money.</p>
+
+<p>When providing services for The Events Calendar and our other plugins at our help desk, we frequently encounter users in situations much like that depicted above. If you've ever encountered a similar scenario of your own, you know how stressful it can be to navigate troubleshooting processes while a compromised site is being displayed to your users.</p>
+
+<p>The good news is that, with just a bit of forethought and preparation, these types of issues can be prevented from <em>ever</em> occurring on your live site. The secret lies in a useful tool called a <strong>staging site</strong>, and it's one that we strongly recommend for any and all WordPress users. In this article, we'll go over the whats, whys, and hows of staging sites so you'll be armed with all the information you need to set up and use your own.&nbsp;Let's get started!</p>
+
+<h3 id="whats-a-staging-site">What's a staging site?</h3>
+
+<p style="text-align: center;"><img alt="Illustration of a stage" src="https://theeventscalendar.com/content/uploads/2017/11/brown-75178_1280-665x443.jpg" /></p>
+
+<p>A staging site, simply put, is an exact duplicate of your live site's server, settings, and content, used for testing changes before they're applied to your live site. You might think of staging for WordPress as being similar to a dress rehearsal: when coordinating a stage production, there are many rehearsals completed in private before presenting the finished play to an audience. These rehearsals ensure that all players are able to perform their roles under simulated conditions and that any changes, such as the substitution of a cast member, can be prepared for prior to opening night. If any complications should arise along the way, they can be dealt with using whatever means are appropriate--<em>without</em> compromising the quality of your performance in front of an audience.</p>
+
+<h3 id="why-should-i-use-staging">Why should I use a staging site?</h3>
+
+<p>If you've never used a staging site before on your WordPress site, you may be wondering whether it's necessary to set one up now. The truth is that staging sites provide a wealth of benefits for administrating all kinds of WordPress sites, and there are options available for users of all technical skill levels. What are some of the perks you'll get with a WordPress staging site? Here are a few to consider:</p>
+
+<p><b>Zero (non-server-related) downtime</b></p>
+
+<p>While staging sites are unable to prevent causes of server-related downtime, such as scheduled maintenance periods, the use of a staging site can effectively prevent downtime from any WordPress-related causes. By deploying any changes or updates to your staging site <em>first</em>, you can detect any potential problems in a safe environment and hold off on pushing changes to your live site until it's safe to do so.</p>
+
+<p><strong>Better, faster technical support</strong></p>
+
+<p>Many WordPress developers (ourselves included) rely on a process known as <a href="https://theeventscalendar.com/knowledgebase/testing-for-conflicts/">conflict testing</a> to help root out potential conflicts between themes and/or plugins. This process typically involves disabling all third-party plugins and reverting to a stock WordPress theme, then reactivating each theme and plugin one at a time until the problem reappears.</p>
+
+<p>The information our support team obtains from this process is crucial to resolving issues in a timely manner, and knowing the source of a particular conflict can be helpful in preventing future conflicts of the same type. However, disabling themes and/or plugins on a live site can be a deterrent to potential visitors, and we often see users who are unwilling to perform this type of testing. Without the benefit of conflict testing data, our support team are severely limited in their ability to assist, and there are many inquiries that simply cannot be resolved.</p>
+
+<p>A staging site resolves this issue handily--since there are no visitors who may be impacted by conflict testing on a staging environment, any necessary troubleshooting steps can be completed quickly and under ideal conditions. And there's less impact to your business or organization, since any issues that may require technical support will appear first on your staging site, far from any visitors' eyes.</p>
+
+<p><strong>A step above backups</strong></p>
+
+<p>Many WordPress site owners choose to rely on backups for added peace of mind when updating WordPress, adding plugins, or changing site settings. The benefits of maintaining off-site backups are numerous, and many popular plugins exist to further simplify and streamline the backup process. However, depending <em>solely</em> on backups may expose your site to added risk from routine updates, especially if your site isn't configured to perform these backup tasks automatically.</p>
+
+<p>If a WordPress or plugin update introduces an unexpected issue, a proper backup may help to restore your site's functionality, but any content updates published after the last backup may be permanently lost. Furthermore, backups cannot prevent downtime or site malfunctions that may result from such issues, resulting in potential lost business and poor experiences for your visitors. In the most severe of cases, your WordPress site's dashboard may be rendered completely inaccessible. A complicated backup restoration process from your site's database may be the only solution in such cases.</p>
+
+<p>Backups certainly serve their purpose in the WordPress world, as they do elsewhere, and it's worth maintaining regular backups of your site and its contents. For the most frequent site updates you're likely to perform on a regular basis, however, a staging site will provide you with the same sense of security, and you'll sidestep many of the potential pitfalls.</p>
+
+<h3 id="how-to-set-up">How do I set up a staging site?</h3>
+
+<p>As with most things in the WordPress world, users have a number of choices when it comes to establishing staging sites, ranging from one-click solutions to highly-customized hands-on setups. We've listed a few possibilities here that provide a solid balance between features and ease of use. For technical users, a quick web search should provide plenty of resources for further reading and exploration. That said, we think you'll find that the below options should cover most needs adequately and with minimal fuss--which means more time for managing your site and events!</p>
+
+<h4 id="web-host-tools">Option #1 - Use your web host's tools</h4>
+
+<p>Many WordPress-focused web hosts provide options for setting up staging sites with a single click, with little or no extra configuration required. Simply create your WordPress site, populate your initial content, and click to deploy to a staging environment. Any future updates can then be performed on your staging site and tested before pushing live. Each web host's offering will perform somewhat differently, so you'll want to review your host's documentation before diving in. That said, if your host provides this functionality to its users, this is definitely one of the simplest options for day-to-day use!</p>
+
+<p>A few web hosts that provide one-click staging functionality are listed below. Please note that this list is provided merely as a courtesy to our users, and we are not affiliated with any of the following providers.</p>
+
+<ul>
+	<li><a href="https://getflywheel.com/" rel="noopener" target="_blank">Flywheel</a></li>
+	<li><a href="https://kinsta.com/knowledgebase/staging-environment/" target="_blank">Kinsta</a></li>
+	<li><a href="https://pressable.com/" rel="noopener" target="_blank">Pressable</a></li>
+	<li><a href="https://www.siteground.com/wordpress-hosting.htm" rel="noopener" target="_blank">SiteGround</a></li>
+	<li><a href="https://wpengine.com/" rel="noopener" target="_blank">WP Engine</a></li>
+</ul>
+
+<h4 id="hosted-staging">Option #2 - Use a third-party hosted solution</h4>
+
+<p>If you prefer the simplicity of a one-click setup but don't have access to this feature through your current host, you're not out of luck. Third-party hosted solutions such as <a href="https://blogvault.net/features/one-click-wordpress-staging/" rel="noopener" target="_blank">BlogVault</a> and <a href="https://wpstagecoach.com/" rel="noopener" target="_blank">WP Stagecoach</a> provide many of the same features as web host staging sites, and many provide extra perks such as dedicated support services. These platforms typically employ the use of a plugin installed on your WordPress site, which serves as an intermediary for transferring data between both servers.</p>
+
+<p style="text-align: center;"><img alt="WP Stagecoach home page" src="https://theeventscalendar.com/content/uploads/2017/11/wp_stagecoach-665x416.png" /></p>
+
+<p style="text-align: center;">Credit: WP Stagecoach</p>
+
+<p>Since these platforms are not included as part of an existing hosting plan, they typically come with a monthly fee, which may cover one or multiple staging sites. If you're considering a hosted service for your staging environment, be sure to review your options fully to ensure that you're covered for the features and functionality that you need.</p>
+
+<h4 id="staging-plugin">Option #3 - Use a WordPress staging plugin</h4>
+
+<p>If neither of the above listed options is an ideal fit for your setup, you might consider using a plugin-based method for setting up your staging environment. One such plugin, <a href="https://wordpress.org/plugins/wp-staging/" rel="noopener" target="_blank">WP Staging</a>, automates the process of establishing a staging site from your existing WordPress install. Simply install, activate, and follow the provided steps to duplicate your live site to a staging environment. This plugin is free and is available for download on WordPress.org's plugin repository.</p>
+
+<p>For more information on WP Staging, please refer to <a href="https://wordpress.org/plugins/wp-staging/" rel="noopener" target="_blank">the plugin's WordPress.org directory listing</a> or check out the developer's site at&nbsp;<a href="https://wp-staging.com/" rel="noopener" target="_blank">wp-staging.com</a>. Modern Tribe is not affiliated with the developers of this plugin, and we are unable to assist with any inquiries related to its use.</p>
+
+<h3 id="how-to-use">How do I use a staging site?</h3>
+
+<p>Once you've successfully established your staging site using your method of choice and copied over the contents of your live site, you're ready to get started. Now, whenever you'd like to make changes to your live site, whether it's installing a theme update or adding a new plugin, you'll want to navigate over to your staging site and <strong>perform those updates on the staging site first.</strong></p>
+
+<p>Pushing site updates to your staging environment first ensures that any post-update issues will be restricted <em>solely</em> to your staging site--and visitors on your live site won't experience any technical difficulties or downtime. Should you encounter a problem with a particular update, you can delay updating your live site and take the time to troubleshoot thoroughly on staging. We recommend starting with <a href="303643-Testing-for-conflicts#look-for-solution">our conflict testing steps</a>, then moving on to more advanced troubleshooting as needed. If you should need any extra help as you go, <a href="submit_ticket">our support team</a> is always just a click away.</p>
+
+<p>Once you've confirmed that an update is safe to install on staging, you can easily complete the same update on your live site without fear of consequences! Some staging sites may allow you to perform this task automatically, while others may require updates to be installed manually on both staging and live environments. If you should have any questions about your particular staging setup, please refer to your provider's documentation for more information.</p>
+
+<hr />
+<p>We hope that this guide has successfully demonstrated the many benefits of staging sites and helped you in getting started with your very own! As always, if you should have any further questions or concerns, please don't hesitate to reach out to <a href="submit_ticket">our support team</a> for a chat. Cheers, and happy staging! :)</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 20, 2018, 12:09 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-20" itemprop="dateModified">Dec 20 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="661">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="588130-Pre-Sales-Questions" class="article-link article-link-865" title="Pre-Sales Questions">
+        <span class="TitleValue">Pre-Sales Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="345413-General-Sales--Account-Questions" class="article-link article-link-859" title="General Sales &amp; Account Questions">
+        <span class="TitleValue">General Sales &amp; Account Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="210263-Free-Support-Resources" class="article-link article-link-857" title="Free Support Resources">
+        <span class="TitleValue">Free Support Resources</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="315237-Creating-Site-Backups" class="article-link article-link-729" title="Creating Site Backups">
+        <span class="TitleValue">Creating Site Backups</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="178892-Change-the-wording-of-any-bit-of-text-or-string" class="article-link article-link-333" title="Change the wording of any bit of text or string">
+        <span class="TitleValue">Change the wording of any bit of text or string</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="article-link article-link-671" title="Best Practices for Implementing Custom Code Snippets">
+        <span class="TitleValue">Best Practices for Implementing Custom Code Snippets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="713863-PHP-Version-Requirement-Changes" class="article-link article-link-681" title="PHP Version Requirement Changes">
+        <span class="TitleValue">PHP Version Requirement Changes</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="093589-Custom-Development" class="article-link article-link-687" title="Custom Development">
+        <span class="TitleValue">Custom Development</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="192116-Support-Team-Webinars" class="article-link article-link-691" title="Support Team Webinars">
+        <span class="TitleValue">Support Team Webinars</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="481188-Bundle-Discounts" class="article-link article-link-693" title="Bundle Discounts">
+        <span class="TitleValue">Bundle Discounts</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 64 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=661&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="239548-Creating-and-using-a-WordPress-staging-site#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

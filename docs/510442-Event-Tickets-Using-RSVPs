@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="510442-Event-Tickets-Using-RSVPs" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Event Tickets: Using RSVPs</title>        <meta name="keywords" content="Article,Beginner,Event Tickets,add/improve screenshots,Event Tickets,Event Tickets Plus,Event Tickets Plus, uiback, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/510442-Event-Tickets-Using-RSVPs" />    <meta property="og:title" content="Event Tickets: Using RSVPs" />    <meta property="og:description" content="Sometimes you may not want to sell tickets and charge a price for an event but would still like to have a list of people who will be attending. The RSVP ticket type in Event Tickets provides this func" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=123301cc31105818d449beb267572782" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Event Tickets: Using RSVPs</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Event Tickets: Using RSVPs">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/510442-Event-Tickets-Using-RSVPs"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="613130-Event-Tickets" class="breadcrumb-link">
+    			<span itemprop="name">Event Tickets</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Event Tickets: Using RSVPs</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="510442-Event-Tickets-Using-RSVPs" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Sometimes you may not want to sell tickets and charge a price for an event but would still like to have a list of people who will be attending. The RSVP ticket type in Event Tickets provides this functionality.</p>
+
+<p>Instead of buying a ticket, entering credit card or PayPal information, or going through any other part of the checkout process, with the RSVP "ticket" option users just:</p>
+
+<ul>
+	<li>Select a quantity for how many spots to RSVP.</li>
+	<li>Enter their name and email address to confirm that they will be attending the event.</li>
+	<li>Immediately receive a simple ticket confirming their reservation at the email address they entered.</li>
+</ul>
+
+<p><strong>This article will show you how to enable and use the RSVP features of Event Tickets and Event Tickets Plus.</strong></p>
+
+<p><strong>Note:</strong> there is <strong>no</strong> eCommerce or payment-collection functionality with RSVPs. This article is only about the RSVP feature; to learn about selling tickets with Event Tickets and Event Tickets Plus, check out the <a href="156866-Making-tickets" rel="noopener" target="_blank">Making a ticket</a> tutorial.</p>
+
+<h3 id="enabling-rsvp">Enabling RSVP Functionality</h3>
+
+<p id="enabling-rsvp-events">If you have The Events Calendar installed and activated on your site, then the Tickets metabox from Event Tickets will be enabled on Events automatically. It will show up in the wp-admin edit screen for the Events post type.</p>
+
+<p>If you do not have The Events Calendar installed, or would like to enable tickets on any other post type, first head to <em>Events → Settings</em> in your wp-admin. Once here, head to the "Tickets" tab specifically and check the boxes for each post type you want to use. <a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" rel="noopener" target="_blank">Read more about Event Tickets settings</a>.</p>
+
+<h3 id="using-rsvp">Using RSVP Functionality</h3>
+
+<h4 id="sell-using">Adding a New RSVP</h4>
+
+<p>To add RSVPs, first head to the creation/edit screen for a post type on which Tickets functionality is enabled (e.g. your event or post). Scroll down and you will find the <em>Tickets meta box</em>.</p>
+
+<p>If you don't have any ecommerce functionality enabled to sell tickets, you'll see a button that says <strong>+ New RSVP</strong>. If you also have enabled Tribe Commerce or Event Tickets Plus (alongside with an ecommerce plugin), you'll see the <strong>+ New Ticket</strong> button too.</p>
+
+<p style="text-align: center;"><img alt="RSVP option with Event Tickets Plus activated." src="https://theeventscalendar.com/content/uploads/2017/11/1_Tickets_Metabox_Buttons.png" /></p>
+
+<p style="text-align: center;">The New ticket and New RSVP buttons when Event Tickets Plus is activated.</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<h4 id="fields">The RSVP Ticket Fields</h4>
+
+<p>Clicking the <strong>+ New RSVP</strong> button will open the Add New RSVP fields. You can then fill out the fields and click <em>"Save RSVP"</em>.&nbsp;&nbsp;</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=123301cc31105818d449beb267572782" /></p>
+
+<p>The following shows the fields for RSVPs.</p>
+
+<p style="text-align: center;"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/11/2_Tickets_Metabox_Add_New_RSVP.png" /></p>
+
+<p>If you have activated <a href="705692-An-Introduction-to-Tickets-Blocks">ticket blocks</a>, the interface for adding an RSVP will look just a little bit different. Click in the default Event RSVP block or add a new RSVP block.&nbsp;</p>
+
+<p><img src="scripts/file.php%3Fview=Y&amp;file=2086e9c03fd8d7771b3aa008a70e7abf" /></p>
+
+<p>Many of the fields in the tickets meta box are self-explanatory, but let's run through each just to be sure.</p>
+
+<ul>
+	<li><strong>Type</strong> lets you set a unique name for the ticket type - which might be something like <em>Standard, Adult, etc.</em></li>
+	<li><strong>Capacity</strong> is the number of tickets that are available: if you leave this blank it is assumed that there is no limit. If you have a limited number of spots for your event, you'll want to make sure to set this accordingly.</li>
+</ul>
+
+<p><strong>Advanced fields:</strong></p>
+
+<ul>
+	<li><strong>Description</strong> is a good space to add any information attendees might be interested in, such as <em>bring waterproof jackets</em> or <em>not recommended for children.</em> You can choose to show or not in the front end ticket form.</li>
+	<li><strong>Start sale</strong> dictates when the RSVP becomes available. If you're using RSVPs on a post or page, this field is required. If you are making RSVPs on an event, you don't need to set this field- by default sales will start when you publish the event or ticket.</li>
+	<li><strong>End sale</strong> does the reverse - you can set this to a date after which users will not be able to RSVP. As with the start sale field, setting this is optional for events and the default is to stop sales when the event itself starts.</li>
+</ul>
+
+<p>If you have Event Tickets Plus, you will also see an option here for <strong>collecting attendee information</strong>. This feature allows you to request additional information beyond the name and email of the person RSVPing. You can learn about this feature in our separate <a href="https://theeventscalendar.com/knowledgebase/collecting-attendee-information/">Attendee Information article</a>.</p>
+
+<h3 id="publish-accept">Publishing the Content and Accepting RSVPs</h3>
+
+<p>Once you've entered all your content and have created an RSVP ticket, you can now publish your content and let people RSVP for the event.</p>
+
+<p>Once RSVPs are allowed according to the "Start Sale Date" option for your RSVP tickets, users will see something like this at the bottom of your ticketed content:</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=ff6e045e2bebdfebc9c7df18912b1672" /></p>
+
+<p>Users can RSVP with those fields and will receive a confirmation via email with their tickets. Here's a screenshot of the default ticket layout that event attendees will receive over email:</p>
+
+<p style="text-align: center;"><img alt="kb-rsvpemail" src="http://theeventscalendar.com/content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.22.19-AM-665x263.png" /></p>
+
+<h3 id="edit-rsvp">Letting Attendees Edit RSVPs</h3>
+
+<p>Beginning with Event Tickets Plus version 4.2, you can allow users who have made RSVPs for your events to log in and edit their RSVP responses, attendee information, and more. <strong>Note that this functionality is available to Event Tickets Plus users only,</strong> and this feature requires attendees to create an account and log in before registering for your events.</p>
+
+<p style="text-align: center;"><img alt="&quot;View your RSVPs&quot;" src="https://theeventscalendar.com/content/uploads/2014/11/Screen-Shot-2016-06-03-at-12.53.46-PM-665x343.png" />&nbsp;</p>
+
+<p style="text-align: center;">An example of the "View your RSVPs" information box as of version 4.2 in Event Tickets Plus.</p>
+
+<p>To learn more about this feature and how to enable it for your users, head on over to <a href="https://theeventscalendar.com/knowledgebase/managing-your-orders-and-attendees/#editing-attendee-info">our article on managing ticket orders and attendees</a>.</p>
+
+<hr />
+<p>Next up we recommend that you learn about <a href="https://theeventscalendar.com/knowledgebase/managing-your-orders-and-attendees/" rel="noopener" target="_blank">managing ticket orders and attendees</a>. As ever, if you have any further questions please don't hesitate to connect with the team over at our help desk.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Apr 29, 2019, 01:08 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-29" itemprop="dateModified">Apr 29 (8 days ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="549">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="550976-Attendee-Registration-Page-Template" class="article-link article-link-805" title="Attendee Registration Page Template">
+        <span class="TitleValue">Attendee Registration Page Template</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="705692-An-Introduction-to-Tickets-Blocks" class="article-link article-link-731" title="An Introduction to Tickets Blocks">
+        <span class="TitleValue">An Introduction to Tickets Blocks</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="087101-Event-Tickets-and-the-Basel-Theme" class="article-link article-link-695" title="Event Tickets and the Basel Theme">
+        <span class="TitleValue">Event Tickets and the Basel Theme</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="560364-Configuring-Tribe-Commerce-with-PayPal" class="article-link article-link-669" title="Configuring Tribe Commerce with PayPal">
+        <span class="TitleValue">Configuring Tribe Commerce with PayPal</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="577289-Moving-Tickets" class="article-link article-link-637" title="Moving Tickets">
+        <span class="TitleValue">Moving Tickets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="780934-Ticketing-using-a-seating-chart" class="article-link article-link-635" title="Ticketing using a seating chart">
+        <span class="TitleValue">Ticketing using a seating chart</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="275054-How-to-Refund-or-Cancel-a-Tickets-Order" class="article-link article-link-603" title="How to Refund or Cancel a Tickets Order">
+        <span class="TitleValue">How to Refund or Cancel a Tickets Order</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="063338-Disabling-RSVP-Confirmation-Emails" class="article-link article-link-569" title="Disabling RSVP Confirmation Emails">
+        <span class="TitleValue">Disabling RSVP Confirmation Emails</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="article-link article-link-537" title="Settings overview: Event Tickets and Event Tickets Plus">
+        <span class="TitleValue">Settings overview: Event Tickets and Event Tickets Plus</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" class="article-link article-link-535" title="New User Primer: Event Tickets &amp; Event Tickets Plus">
+        <span class="TitleValue">New User Primer: Event Tickets &amp; Event Tickets Plus</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 12 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=549&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="510442-Event-Tickets-Using-RSVPs#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

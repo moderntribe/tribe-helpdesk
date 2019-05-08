@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="838016-An-Introduction-to-Event-Blocks" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>An Introduction to Event Blocks</title>        <meta name="keywords" content="The Events Calendar, Events Calendar Pro, Event Tickets, Event Tickets Plus, Block Editor, Gutenberg," />    <meta property="og:url" content="//support.theeventscalendar.com/838016-An-Introduction-to-Event-Blocks" />    <meta property="og:title" content="An Introduction to Event Blocks" />    <meta property="og:description" content="The WordPress 5.0 release introduces a new block editing interface to the platform.  What this really means: the content creation experience in WordPress is changing! Instead of all your content being" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=c9375230b56c59ce680ff144851fa308" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">An Introduction to Event Blocks</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="An Introduction to Event Blocks">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/838016-An-Introduction-to-Event-Blocks"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="534453-The-Events-Calendar" class="breadcrumb-link">
+    			<span itemprop="name">The Events Calendar</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">An Introduction to Event Blocks</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="838016-An-Introduction-to-Event-Blocks" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>The WordPress 5.0 release introduces a new block editing interface to the platform.<img alt="" height="300" src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-8.27.24-PM-e1543984117727-249x300.png" style="float: right;"  /></p>
+
+<p>What this really means: the content creation experience in WordPress is changing! Instead of all your content being input into a single field, each element will now live in its own block and can be moved, edited, and styled independently.</p>
+
+<p>In response, we've built a full set of Event blocks so that you can start building events in the block editor and unleash all of the exciting layout possibilities—no code required.</p>
+
+<p><em>Note: For users of Event Tickets, we also have a complete set of <a href="705692-An-Introduction-to-Tickets-Blocks">Tickets blocks</a>.</em></p>
+
+<h3 id="date-time">The Event Date Time block</h3>
+
+<p>The Event Date Time block is essential to any event since it's where you'll define the date, time, and duration of the event itself. For PRO users, it's also where you'll find recurring event options.</p>
+
+<p>You can set the date and time by clicking on the calendar and using the time dropdowns, or by typing into the field at the top.&nbsp;If the event lasts for a full day, you can select All Day from the start time dropdown.&nbsp;Flip the multi-day toggle and you'll be able to select a start date and end date to create a multi-day event.</p>
+
+<p>Users with Events Calendar PRO will see an option in the block dashboard to&nbsp;<em>Repeat This Event.&nbsp;</em>Inside that section, you'll find all options for creating recurrence rules and exceptions- everything you need for setting up your event series.</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=c9375230b56c59ce680ff144851fa308" /><br />
+The Event Date Time block<br />
+&nbsp;</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=8f2babd225fa126b76133aa69dab7bf4" /><br />
+Creating an all day event<br />
+&nbsp;</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=1a8f7bc9848714c015bed81056c1d5c5" /><br />
+Creating a multi-day event<br />
+&nbsp;</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=f8a93dee812909cf389f221595208602" /><br />
+Creating a recurring event series</p>
+
+<h3 id="venue">The Event Venue block</h3>
+
+<p>Display your event's location with the Event Venue block. As you start typing, the block will list existing venues matching that name or allow you to create a brand new venue from within the block.&nbsp;You can choose to display a map or map link from the sidebar block settings.</p>
+
+<p style="text-align: center;"><img src="https://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-5.14.23-PM.png" /><img src="scripts/file.php%3Fview=Y&amp;file=ea2f54ed08ac5f690d6d2fc8afd67dd5" /><br />
+Adding an existing venue.<br />
+&nbsp;</p>
+
+<p style="text-align: center;"><img src="https://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-8.11.44-PM.png" /><img src="scripts/file.php%3Fview=Y&amp;file=9b76277c50a666b316507d24ff5cc4af" /><br />
+Venue block preview and settings</p>
+
+<p>&nbsp;</p>
+
+<h3 id="organizer">The Event Organizer block</h3>
+
+<p>The Event Organizer—surprise!—allows you to set and display an organizer for your event. Just like the Venue block, you can select from existing organizers or create a new one.</p>
+
+<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-5.19.33-PM-665x305.png" /></p>
+
+<h3 id="price">The Event Price block</h3>
+
+<p>The Event Price block lets you display the event price as well as an optional price description. You can also use the price description field if your event has a non-monetary price, such as&nbsp;<em>By Donation.</em></p>
+
+<p>As you type into the fields in the dashboard, the preview content will update to reflect the content.</p>
+
+<p style="text-align: center;"><img alt="" height="256" src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-5.22.04-PM-665x256.png" width="665" /></p>
+
+<h3 id="website">The Event Website block</h3>
+
+<p>If your event has an external website, you can easily link to it with the Event Website block. This block creates a linked button complete with a custom label.</p>
+
+<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-5.23.54-PM-e1543983188739-665x148.png"  /></p>
+
+<h3 id="sharing">The Event Sharing block</h3>
+
+<p>The Event Sharing block allows you to position and customize the Google Calendar and iCal export buttons. You can choose to change the labels, hide one of the options, or just remove the block entirely.</p>
+
+<p style="text-align: center;"><img alt=""  src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-8.13.55-PM-665x99.png"  /></p>
+
+<p>&nbsp;</p>
+
+<h3 id="categories">The Event Categories block</h3>
+
+<p>If you've added Event Categories to your event via the Document Settings sidebar and want to also display them in the event content, you can do so by adding the Event Categories block.</p>
+
+<p style="text-align: center;"><img alt="" height="120" src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-7.24.44-PM-e1543983295692-665x120.png" width="665" /></p>
+
+<h3 id="tags">The Tags block</h3>
+
+<p>You can also add tags to your event in the Document Settings sidebar. You can then display them right in your event content by adding the Tags block.</p>
+
+<h3 id="related-events">The Related Events block</h3>
+
+<p>Events Calendar PRO users can use this block to display upcoming events of the same categories and tags as the current event. Up to three events will be displayed. If no upcoming events share categories or tags with the current event, then none will be displayed.</p>
+
+<h3 id="&quot;additional">The Additional Fields blocks</h3>
+
+<p>If you have Events Calendar PRO, you have access to the new custom Additional Fields blocks. These blocks are automagically created when you configure a custom Additional Field under Events --&gt; Settings --&gt; Additional Fields. The new block will have the same title you entered, and allow the event creation to choose from the options outlined in the settings.</p>
+
+<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-8.33.51-PM.png" /><br />
+Additional Fields have their own section in the inserter tool</p>
+
+<p>&nbsp;</p>
+
+<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-8.34.23-PM.png" />An example of a dropdown-type Additional Field</p>
+
+<p>&nbsp;</p>
+
+<h3 id="details-classic">Transitioning your existing events with the Event Details Classic block</h3>
+
+<p>If you have an event that was originally made in the classic editor and then you open it with the block editor, it will load using a special block- the Event Details Classic block. This block mimics the layout of event information from before WordPress 5.0.</p>
+
+<p>If you want, you can keep this layout by simply saving the event. You may also choose to add some of the more specific and flexible blocks like those above or use the new blocks to entirely replace the classic layout. If you use a combination of new blocks with the Event Details Classic block, content will sync between corresponding elements. For example, if you update the event's price in the Event Price block, that change will be reflected in the Event Details Classic block too.</p>
+
+<p style="text-align: center;"><img alt="" height="269" src="http://theeventscalendar.com/content/uploads/2018/12/Screen-Shot-2018-12-04-at-8.46.27-PM-665x269.png" width="665" /></p>
+
+<p>&nbsp;</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Feb 05, 2019, 04:02 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-02-05" itemprop="dateModified">Feb 05 (3 months ago)</time></span>
+              </div>
+                        <time datetime="2018-12-19" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="733">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
+        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
+        <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="629477-Using-the-Classic-Editor-with-WordPress-50" class="article-link article-link-735" title="Using the Classic Editor with WordPress 5.0">
+        <span class="TitleValue">Using the Classic Editor with WordPress 5.0</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="869262-Disable-the-events-menu-on-the-dashboard-for-non-admins" class="article-link article-link-283" title="Disable the events menu on the dashboard for non-admins">
+        <span class="TitleValue">Disable the events menu on the dashboard for non-admins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="421521-Add-start-time-to-event-title-in-Month-View" class="article-link article-link-317" title="Add start time to event title in Month View">
+        <span class="TitleValue">Add start time to event title in Month View</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="405065-Change-the-default-startend-time-for-new-events" class="article-link article-link-407" title="Change the default start/end time for new events">
+        <span class="TitleValue">Change the default start/end time for new events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="518116-Make-links-to-an-event-go-straight-to-the-Event-Website-URL" class="article-link article-link-495" title="Make links to an event go straight to the Event Website URL">
+        <span class="TitleValue">Make links to an event go straight to the Event Website URL</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
+        <span class="TitleValue">Changing the browser title for calendar views</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
+        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="013265-Subscribing-to-calendars-via-RSS" class="article-link article-link-655" title="Subscribing to calendars via RSS">
+        <span class="TitleValue">Subscribing to calendars via RSS</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=733&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="838016-An-Introduction-to-Event-Blocks#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>
