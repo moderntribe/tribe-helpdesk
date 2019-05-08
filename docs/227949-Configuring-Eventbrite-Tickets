@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="227949-Configuring-Eventbrite-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Configuring Eventbrite Tickets</title>        <meta name="keywords" content="Eventbrite Tickets,Article,Beginner,Eventbrite Tickets,Getting Started,Dashboard,events,import,event,imports,tickets,account,click,settings,button,wp,remove,eventbrite.com,eventbrite tickets,remove authorization,eventbrite tickets 4.5,tickets 4.5,eventbrite button,wp admin,4.5,authorization, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/227949-Configuring-Eventbrite-Tickets" />    <meta property="og:title" content="Configuring Eventbrite Tickets" />    <meta property="og:description" content="The Eventbrite Tickets plugin allows us to quickly create events on your WordPress site and associate them with tickets over on Eventbrite.com.  Before you can use it and start adding tickets, however" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Configuring Eventbrite Tickets</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Configuring Eventbrite Tickets">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/227949-Configuring-Eventbrite-Tickets"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="375134-Eventbrite-Tickets" class="breadcrumb-link">
+    			<span itemprop="name">Eventbrite Tickets</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Configuring Eventbrite Tickets</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="227949-Configuring-Eventbrite-Tickets" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>The Eventbrite Tickets plugin allows us to quickly create events on your WordPress site and associate them with tickets over on Eventbrite.com.</p>
+
+<p>Before you can use it and start adding tickets, however, you will need to get your website connected to your Eventbrite account. Since <strong>Eventbrite Tickets 4.5</strong> the connection is quick and easy:</p>
+
+<ol>
+	<li>Navigate to your <strong>WP Admin &gt; Events &gt; Settings &gt; APIs </strong>tab<strong>&nbsp;</strong>and click the&nbsp;<em>Connect to Eventbrite</em> button.</li>
+	<li>You will be redirected to your <a href="https://www.eventbrite.com/" rel="noopener" target="_blank">Eventbrite.com</a> account.</li>
+	<li>After logging in, you will be asked to allow our&nbsp;<em>ea.theeventscalendar.com </em>application to access your account.</li>
+	<li>Once you&nbsp;click&nbsp;<strong>Allow</strong>, your site will be connected and you'll be redirected to your imports page where you can <a href="723277-Importing-events-from-Eventbritecom">import your first event from Eventbrite</a>.</li>
+</ol>
+
+<p>And that's it! From there, you're ready to begin creating events. If you're unsure how to get started, check out our <a href="221823-New-User-Primer-Eventbrite-Tickets">Eventbrite Tickets new user primer</a> as further reading :)</p>
+
+<h3>Eventbrite Import Settings</h3>
+
+<p>In <strong>Eventbrite Tickets 4.5</strong>&nbsp;we added the ability to&nbsp;import Eventbrite events with our Event Aggregator tool (WP Admin &gt; Events &gt; Imports).</p>
+
+<p>To import events and display tickets on your site, select the Eventbrite Import Origin.</p>
+
+<p style="text-align: center;"><img alt="Eventbrite Import Origin" src="http://theeventscalendar.com/content/uploads/2018/06/eventbrite-import-origin.png" /></p>
+
+<p><strong>Note</strong>: Events imported with Event Aggregator's "Other URL" will not display tickets.</p>
+
+<p>You can modify the default "Status", "Category" and "Show Google Map" options for your imports by navigating to&nbsp;<strong>WP Admin &gt; Events &gt; Settings &gt; Imports</strong> tab.</p>
+
+<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/05/Eventbrite-Import-Settings.png" /></p>
+
+<p>Do also note that your Eventbrite imports will obey the <a href="https://theeventscalendar.com/knowledgebase/event-aggregator-import-settings/#update-authority">Event Update Authority settings</a>.</p>
+
+<h3>Remove Authorization</h3>
+
+<p>If you need to remove authorization from Eventbrite.com, visit <strong>Events → Settings → APIs</strong> and select the "Remove Authorization" button. You should see a <strong>"Success! You have deauthorized your Eventbrite Application Key."</strong> message. The Eventbrite ticket section on your WordPress events will no longer display.</p>
+
+<p style="text-align: center;"><img alt="eventbrite-tickets-remove-authorization-success-message" src="https://theeventscalendar.com/content/uploads/2015/04/Eventbrite-Tickets-Remove-Authorization-Success-Message.png" /></p>
+
+<p>If you are using <strong>Eventbrite Tickets 4.5&nbsp;</strong>you will simply need to click <strong>Disconnect </strong>next to the <em>Refresh your connection to Eventbrite </em>button.</p>
+
+<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/05/Disconnect-Eventbrite.png" /></p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 28, 2018, 08:33 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="455">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="809891-Updating-payment-information-for-an-event-on-Eventbrite" class="article-link article-link-477" title="Updating payment information for an event on Eventbrite">
+        <span class="TitleValue">Updating payment information for an event on Eventbrite</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="813503-Creating-tickets-and-publishing-to-Eventbritecom" class="article-link article-link-379" title="Creating tickets and publishing to Eventbrite.com">
+        <span class="TitleValue">Creating tickets and publishing to Eventbrite.com</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="723277-Importing-events-from-Eventbritecom" class="article-link article-link-377" title="Importing events from Eventbrite.com">
+        <span class="TitleValue">Importing events from Eventbrite.com</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="221823-New-User-Primer-Eventbrite-Tickets" class="article-link article-link-375" title="New User Primer: Eventbrite Tickets">
+        <span class="TitleValue">New User Primer: Eventbrite Tickets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="505195-Moving-the-Eventbrite-Tickets-box" class="article-link article-link-363" title="Moving the Eventbrite Tickets box">
+        <span class="TitleValue">Moving the Eventbrite Tickets box</span>
+      </a></li>
+    </ul>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=455&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="227949-Configuring-Eventbrite-Tickets#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

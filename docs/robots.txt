@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /agent/
+Disallow: /api/
+Disallow: /include/
+Disallow: /install/
+Disallow: /build/
+Disallow: /plugins/
+Disallow: /samples_tests/

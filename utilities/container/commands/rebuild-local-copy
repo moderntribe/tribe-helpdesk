@@ -51,3 +51,6 @@ do
 done
 
 echo " [DONE!]"
+
+# Fix permissions so the host machine can work with the docs dir
+chmod -R a+w ./

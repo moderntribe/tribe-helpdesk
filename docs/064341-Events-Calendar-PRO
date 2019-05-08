@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="064341-Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Events Calendar PRO</title>            <meta property="og:url" content="//support.theeventscalendar.com/064341-Events-Calendar-PRO" />    <meta property="og:title" content="Events Calendar PRO" />    <meta property="og:description" content="Events Calendar PRO" />        <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-category">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- category -->
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header">Events Calendar PRO</h1>
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Events Calendar PRO</span>
+			<meta itemprop="position" content="2" />
+							<link itemprop="url" href="064341-Events-Calendar-PRO" />
+					</span>
+	</span>
+</p>        <div class="col-md-10 col-sm-12 col-xs-12 col-md-offset-1 search-margin-top">
+          <div class="global-search" itemscope itemtype="https://schema.org/WebSite">
+            <meta itemprop="url" content="./" />
+            <form class="searchform" action="https://support.theeventscalendar.com/search" method="get" role="search" id="jumbotronsearch" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+						 <div class="input-group">
+                <meta itemprop="target" content="search?q={q}"/>
+                <input placeholder="Search in this category" type="text" name="q" value="" class="form-control" itemprop="query-input" required>
+                 <input type="hidden" name="pid" value="1">
+                 <input type="hidden" name="type" value="search">
+					      <span class="input-group-btn">
+					        <input class="btn btn-primary" type="submit" value="Search">
+					      </span>
+					    </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container category-page  margin-top margin-bottom">
+   <div class="row">
+  	  		<div class="col-lg-10 col-md-12 col-lg-offset-1">
+  			<!-- article_list -->
+	<div class="list-group article-list" itemscope itemtype="https://schema.org/ItemList">
+        
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="423317-Troubleshooting-Google-Maps" itemprop="item" class="list-group-item item-A" title="Troubleshooting Google Maps">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Troubleshooting Google Maps</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/423317-Troubleshooting-Google-Maps" />
+                                    <div itemprop="description" class="article-preview">Is your website unable to load Google Maps or do you see events located in the ocean off the coast of Africa? These are a few of the common Google Maps issues that we see. Here are our steps for troubleshooting Google Maps.
+ The issue may be that you haven’t hit the “Enable Google Maps” checkbox on the backend, under Events &gt; Settings.
+ 
+ Once enabled, you’ll have the option to embed Google maps in your frontend event listings.
+ By default, The Events Calendar will try to add a map to single ...</div>
+                  <meta itemprop="position" content="1" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="928476-Guía-para-Personalizar-los-Plugins" itemprop="item" class="list-group-item item-A" title="Guía para Personalizar los Plugins">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Guía para Personalizar los Plugins</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/928476-Gu%C3%ADa-para-Personalizar-los-Plugins" />
+                                    <div itemprop="description" class="article-preview">Looking for the English version? Click here (https://support.theeventscalendar.com/153124-Themers-Guide)
+ ¿Estás buscando una forma directa de ajustar la apariencia del calendario? Revisa nuestra integración con el personalizador de tema (https://support.theeventscalendar.com/451403-The-Events-Calendar-and-the-WordPress-Customizer) — brinda una forma fácil y rápida de modificar varios aspectos de la apariencia del calendario. Si necesitas hacer un cambio algo más complejo, continúa leyendo...
+ 
+...</div>
+                  <meta itemprop="position" content="2" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="569075-Events-Calendar-PRO-Location-Search" itemprop="item" class="list-group-item item-A" title="Events Calendar PRO Location Search">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Events Calendar PRO Location Search</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/569075-Events-Calendar-PRO-Location-Search" />
+                                    <div itemprop="description" class="article-preview">Before you begin, please review this article (https://support.theeventscalendar.com/362858-Setting-Up-Your-Google-Maps-API-Key) about setting up your Google Maps API Key. If you do not run through those steps, you may not be able to take advantage of the functionality described here.
+ One of the many great features exclusive to Events Calendar PRO (https://theeventscalendar.com/product/wordpress-events-calendar-pro/) is the ability to perform smart location-based searches when filtering calendar...</div>
+                  <meta itemprop="position" content="3" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="753406-Changing-the-file-name-for-your-ICS-event-exports" itemprop="item" class="list-group-item item-A" title="Changing the file name for your ICS event exports">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Changing the file name for your ICS event exports</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/753406-Changing-the-file-name-for-your-ICS-event-exports" />
+                                    <div itemprop="description" class="article-preview">If you've spent some time reviewing your events in any of the calendar views provided with Events Calendar PRO (https://theeventscalendar.com/product/wordpress-events-calendar-pro/), you've likely noticed a button below your event list or calendar that looks something like this:
+ 
+ Clicking on this button will generate and save to your device an ICS file for the displayed events, which can then be imported into external applications such as Apple's Calendar, Outlook, or Google Calendar. By defau...</div>
+                  <meta itemprop="position" content="4" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" itemprop="item" class="list-group-item item-A" title="Important Settings for The Events Calendar / Events Calendar PRO">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Important Settings for The Events Calendar / Events Calendar PRO</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" />
+                                    <div itemprop="description" class="article-preview">You can access the settings for The Events Calendar and Events Calendar PRO from the WordPress Admin by following Events &gt; Settings from your WordPress admin bar or sidebar. The settings offer a lot of cool options to get your calendar looking just the way you want it.
+ Let’s review what each of the options entails. Note that some of the settings below are specific to Events Calendar PRO and are marked as such.
+ 
+
+ 	- Create a New Event (#newevent)
+ 	- Create a Recurring Event (#recurring)
+ 	...</div>
+                  <meta itemprop="position" content="5" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="328998-Featured-Events" itemprop="item" class="list-group-item item-A" title="Featured Events">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Featured Events</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/328998-Featured-Events" />
+                                    <div itemprop="description" class="article-preview">If you've ever wanted to highlight, promote, or feature a specific event on your site, The Events Calendar's "Featured Events" tools are sure to be useful.
+ Making an event "Featured" imbues it with a number of special properties that make it stand out from non-featured events. In this complete guide, we'll see how to make an event "Featured", and will explore all of the special properties of "Featured Events" in depth.
+ 
+-------------------------
+ 
+
+How to Feature an Event
+
+ Ever since version ...</div>
+                  <meta itemprop="position" content="6" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode" itemprop="item" class="list-group-item item-A" title="Embedding Single Events with the [tribe_event_inline] Shortcode">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Embedding Single Events with the [tribe_event_inline] Shortcode</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode" />
+                                    <div itemprop="description" class="article-preview">WordPress' built-in oEmbed features (https://codex.wordpress.org/Embeds) allow you to embed single events by simply pasting an event's permalink into post or page content; you can learn more about this functionality here (https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages#single-events).
+ While that feature is useful, it doesn't let you customize what event details to display, or in what order to display them. Furthermore, the oEmbed features only work wi...</div>
+                  <meta itemprop="position" content="7" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="819925-WPML-Support" itemprop="item" class="list-group-item item-A" title="WPML Support">                  
+                  <h3 class="list-group-item-heading" itemprop="name">WPML Support</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/819925-WPML-Support" />
+                                    <div itemprop="description" class="article-preview">WPML is a popular plugin for creating multilingual WordPress sites. Some of our plugins offer limited support for WPML, while others don't — this guide provides a breakdown of the current situation.
+ 
+
+Plugins known to be mostly compatible with WPML
+
+ 🔔 Note: Although we've worked hard to improve compatibility between WPML and the plugins listed in this section, complete compatibility is not guaranteed.
+  
+ WPML and its associated plugins – as well as our own plugins – are constantly being updat...</div>
+                  <meta itemprop="position" content="8" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" itemprop="item" class="list-group-item item-A" title="Embedding Calendar Views with the [tribe_events] Shortcode">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Embedding Calendar Views with the [tribe_events] Shortcode</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" />
+                                    <div itemprop="description" class="article-preview">Events Calendar PRO 4.3 introduced the ability to embed full calendar views in places other than the main calendar page. If you have a post or page on your site where shortcodes can be used, you can embed full calendar views there!
+ The shortcode that powers this functionality is [tribe_events]. In this article, we will cover the usage of this simple but powerful shortcode.
+ 🔔 Note: The [tribe_events] shortcode is only available within Events Calendar PRO. Even for core plugin views that exist i...</div>
+                  <meta itemprop="position" content="9" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="137718-Can-You-Have-Multiple-Calendars" itemprop="item" class="list-group-item item-A" title="Can You Have Multiple Calendars?">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Can You Have Multiple Calendars?</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/137718-Can-You-Have-Multiple-Calendars" />
+                                    <div itemprop="description" class="article-preview">We're often asked if you can have multiple event calendars on your site. As of version 4.3 of The Events Calendar and Events Calendar Pro, you can embed full calendar views anywhere you would like on your site.
+ To have multiple calendars across your site, you simply need to take advantage of the [tribe_events] shortcode. To learn how to use this shortcode, check out its official documentation page here (https://theeventscalendar.com/knowledgebase/embedding-calendar-views-tribe_events-shortcode/...</div>
+                  <meta itemprop="position" content="10" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="485931-Hide-recurring-event-instances-in-the-admin" itemprop="item" class="list-group-item item-A" title="Hide recurring event instances in the admin">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Hide recurring event instances in the admin</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/485931-Hide-recurring-event-instances-in-the-admin" />
+                                    <div itemprop="description" class="article-preview">Sometimes folks with many recurring events want to be able to organize their admin events list differently by hiding extra instances of recurring events. You can make this change with a simple code snippet.
+ With this customization, you'll only see the parent event (i.e. the first event of the recurring series) in the backend admin. All other instances of the recurring event series will be hidden from the backend, while continuing to show on your calendar.
+ To get this working, add the script be...</div>
+                  <meta itemprop="position" content="11" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="451403-The-Events-Calendar-and-the-WordPress-Customizer" itemprop="item" class="list-group-item item-A" title="The Events Calendar and the WordPress Customizer">                  
+                  <h3 class="list-group-item-heading" itemprop="name">The Events Calendar and the WordPress Customizer</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/451403-The-Events-Calendar-and-the-WordPress-Customizer" />
+                                    <div itemprop="description" class="article-preview">The Events Calendar and its add-ons, like Events Calendar PRO, integrate with the WordPress Customizer (https://codex.wordpress.org/Appearance_Customize_Screen) to provide a number of options for quick, easy customization. You can tweak the colors of a number of calendar elements, for example, and can even customize other elements like the "pins" of Google Maps used on event and venue views.
+ This guide covers the ins and outs of how The Events Calendar and its add-ons integrate with the WordPre...</div>
+                  <meta itemprop="position" content="12" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="678536-Configuring-the-This-Week-Widget" itemprop="item" class="list-group-item item-A" title="Configuring the This Week Widget">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Configuring the This Week Widget</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/678536-Configuring-the-This-Week-Widget" />
+                                    <div itemprop="description" class="article-preview">The This Week widget is a feature that comes bundled with The Events Calendar PRO 4.0. To activate it, you’ll need to make sure that The Events Calendar PRO 4.0 is first installed and active on your site.
+ From there, head over to Appearance → Widgets from the WordPress dashboard. You’re looking for a widget called This Week Events.
+ See the This Week Events widget? Drag it over to the sidebar widget area of your choice, then save your settings.
+ 
+ Now you can go to the front end of your website...</div>
+                  <meta itemprop="position" content="13" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="914811-Show-more-than-ten-events-in-Advanced-List-Widget" itemprop="item" class="list-group-item item-A" title="Show more than ten events in Advanced List Widget">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Show more than ten events in Advanced List Widget</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/914811-Show-more-than-ten-events-in-Advanced-List-Widget" />
+                                    <div itemprop="description" class="article-preview">The Advanced List Widget (https://support.theeventscalendar.com/713309-Configuring-the-Event-List-Widget) in Events Calendar PRO includes options to customize its appearance, one of which is to set the maximum number of events that it displays. The maximum number available under Appearance → Widgets is currently 10 events.
+ 
+ That's more than enough events for most sites, but what if it's not? Here's a snippet that allows you to increase that to any number of events. The example here is set to 3...</div>
+                  <meta itemprop="position" content="14" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="558951-Creating-Translations-for-Events-Using-WPML" itemprop="item" class="list-group-item item-A" title="Creating Translations for Events Using WPML">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Creating Translations for Events Using WPML</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/558951-Creating-Translations-for-Events-Using-WPML" />
+                                    <div itemprop="description" class="article-preview">Once WPML is setup and configured (https://support.theeventscalendar.com/753983-Setting-up-The-Events-Calendar-with-WPML) to work with The Events Calendar, you can show your calendar in different languages. This article reviews some important tips for using the two plugins together.
+ This article assumes some familiarity with using WPML. If you are new to WPML, you'll want to review their Getting Started Guide (https://wpml.org/documentation/getting-started-guide/) before moving on to translatin...</div>
+                  <meta itemprop="position" content="15" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="753983-Setting-up-The-Events-Calendar-with-WPML" itemprop="item" class="list-group-item item-A" title="Setting up The Events Calendar with WPML">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Setting up The Events Calendar with WPML</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/753983-Setting-up-The-Events-Calendar-with-WPML" />
+                                    <div itemprop="description" class="article-preview">At the time of writing, the popular WPML plugin is compatible with the following plugins: The Events Calendar, The Events Calendar Pro, and Filter Bar.
+ Requirements:
+ 
+
+ 	- WPML Multilingual CMS 4.0.6 or above
+ 	- WPML String translation 2.8.6 or above
+ 	- WPML Translation Management 2.6.6 or above
+ 	- The Events Calendar 4.6.23 or above
+ 	- Events Calendar PRO 4.4.32 or above
+ 	- Filter Bar 4.5.8 or above
+ 
+
+ Previous versions of WPML and The Events Calendar do work together. However, these ar...</div>
+                  <meta itemprop="position" content="16" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="933471-Series-Engine-Compatibility" itemprop="item" class="list-group-item item-A" title="Series Engine Compatibility">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Series Engine Compatibility</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/933471-Series-Engine-Compatibility" />
+                                    <div itemprop="description" class="article-preview">We've heard that lots of our users also make use of the popular Series Engine (http://seriesengine.com/) plugin.
+ Unfortunately, this can occasionally conflict in various ways with The Events Calendar and Events Calendar PRO—it can cause events to be saved with the wrong date and time information, for example, or else to display that information incorrectly.
+ Thankfully, there is (in many cases) an easy fix: Simply look in your Series Engine settings for the Time.ly Plugin Compatibility mode and...</div>
+                  <meta itemprop="position" content="17" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="589067-Additional-Fields-for-Venues-and-Organizers" itemprop="item" class="list-group-item item-A" title="Additional Fields for Venues and Organizers">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Additional Fields for Venues and Organizers</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/589067-Additional-Fields-for-Venues-and-Organizers" />
+                                    <div itemprop="description" class="article-preview">Events Calendar PRO (https://theeventscalendar.com/product/wordpress-events-calendar-pro/) includes a cool Additional Fields (https://support.theeventscalendar.com/458537-PRO-Additional-Fields) feature that allows you to include additional information in each event listing. Perhaps you'd like to add similar custom fields to your Venue and Organizer pages. This tutorial will get you started!
+ Firstly you'll need the snippet(s) to add WordPress custom fields to your backend venue and organizer pag...</div>
+                  <meta itemprop="position" content="18" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="273956-Events-Calendar-PRO-Widget-Shortcodes-Overview" itemprop="item" class="list-group-item item-A" title="Events Calendar PRO Widget Shortcodes Overview">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Events Calendar PRO Widget Shortcodes Overview</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/273956-Events-Calendar-PRO-Widget-Shortcodes-Overview" />
+                                    <div itemprop="description" class="article-preview">In WordPress, widgets can typically be placed in a sidebar or footer. Events Calendar Pro ships with a number of cool widgets, but sometimes you might want to use them on your site in locations other than a sidebar.
+ There are actually a couple of ways this can be achieved. One is to use a WordPress function called the_widget() (http://codex.wordpress.org/Function_Reference/the_widget) in some custom coding in your theme or another plugin. Writing custom code like this is extremely flexible, but...</div>
+                  <meta itemprop="position" content="19" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="022346-Add-category-prefix-to-event-titles" itemprop="item" class="list-group-item item-A" title="Add category prefix to event titles">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Add category prefix to event titles</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/022346-Add-category-prefix-to-event-titles" />
+                                    <div itemprop="description" class="article-preview">If your Event Categories are important to you, you might want to emphasize them by adding them to each event's title. With this snippet, you can prefix all events with their category/categories. This prefix will appear in Month, List, Day, Photo, and Map Views.
+ 
+ To add the prefix, copy the snippet below and paste it into your theme's functions.php file.</div>
+                  <meta itemprop="position" content="20" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="574377-Horizontal-List-Widget-with-Featured-Images" itemprop="item" class="list-group-item item-A" title="Horizontal List Widget with Featured Images">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Horizontal List Widget with Featured Images</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/574377-Horizontal-List-Widget-with-Featured-Images" />
+                                    <div itemprop="description" class="article-preview">Our friend Sallie Goetsch (aka WPfangirl (http://wpfangirl.com/)) is using The Events Calendar on a client's site and generously did some blog posts with full tutorials for cool customizations.
+ In this tutorial (http://wpfangirl.com/2015/modifying-the-list-widget-in-events-calendar-pro-to-show-images/), Sallie walks through how she made a cool horizontal list widget with featured images. She used one of our tutorials, Add Thumbnails to Upcoming Events List Widget (https://theeventscalendar.com/...</div>
+                  <meta itemprop="position" content="21" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="854716-Change-Photo-View-to-equal-height-grid" itemprop="item" class="list-group-item item-A" title="Change Photo View to equal-height grid">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Change Photo View to equal-height grid</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/854716-Change-Photo-View-to-equal-height-grid" />
+                                    <div itemprop="description" class="article-preview">Our friend Sallie Goetsch (aka WPfangirl (http://wpfangirl.com/)) is using The Events Calendar on a client's site and generously did some blog posts with full tutorials for cool customizations.
+ In this tutorial (http://wpfangirl.com/2015/change-photo-view-in-events-calendar-pro-to-equal-height-grid-with-venue-location/), Sallie does a template override of pro/photo/single-event.php and adds some CSS. With these tweaks, she changed Photo View so that all the events are an equal height and each l...</div>
+                  <meta itemprop="position" content="22" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="499710-Configuring-the-Featured-Venue-Widget" itemprop="item" class="list-group-item item-A" title="Configuring the Featured Venue Widget">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Configuring the Featured Venue Widget</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/499710-Configuring-the-Featured-Venue-Widget" />
+                                    <div itemprop="description" class="article-preview">The Featured Venue widget shows off a specific saved venue in a sidebar and displays events happening at that venue. In this tutorial we'll cover the widget settings, and even toss in some tips and tricks for customizations.
+ 
+
+Add the Featured Venue Widget to a Sidebar
+
+ The Featured Venue widget is a feature of The Events Calendar PRO (https://theeventscalendar.com/product/wordpress-events-calendar-pro/), so first make sure that plugin is installed and activated (https://support.theeventscalen...</div>
+                  <meta itemprop="position" content="23" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="663608-Configuring-the-Events-Countdown-Widget" itemprop="item" class="list-group-item item-A" title="Configuring the Events Countdown Widget">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Configuring the Events Countdown Widget</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/663608-Configuring-the-Events-Countdown-Widget" />
+                                    <div itemprop="description" class="article-preview">The Events Countdown widget is a handy little widget that allows you to select a published event from your calendar and display a clock that--you guessed it--counts down to the start date of the event. It's a fun way to build anticipation for an event- and you can drop it into any sidebar.
+ This widget is a part of The Events Calendar PRO, so make sure that is installed and activated (https://support.theeventscalendar.com/847919-Downloading-and-Installing-the-Plugin) before we dive into the inne...</div>
+                  <meta itemprop="position" content="24" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="454623-Configuring-the-Calendar-Widget" itemprop="item" class="list-group-item item-A" title="Configuring the Calendar Widget">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Configuring the Calendar Widget</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/454623-Configuring-the-Calendar-Widget" />
+                                    <div itemprop="description" class="article-preview">We're going to take a look at the Events Calendar widget, also known as the Mini Calendar. We'll cover the basics of adding this PRO-specific widget to a sidebar, how to configure it, and some tips and tricks on how to customize the widget further.
+ So, let's get started.
+ 
+
+Adding the Events Calendar Widget to a Sidebar
+
+ The Events Calendar widget is a feature that comes bundled with The Events Calendar PRO. To activate it, you'll need to make sure that The Events Calendar PRO is first install...</div>
+                  <meta itemprop="position" content="25" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="713309-Configuring-the-Event-List-Widget" itemprop="item" class="list-group-item item-A" title="Configuring the Event List Widget">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Configuring the Event List Widget</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/713309-Configuring-the-Event-List-Widget" />
+                                    <div itemprop="description" class="article-preview">We're going to go over the Event List Widget in this tutorial, including how to configure it, things to expect from it, and perhaps some tips and tricks you can use at your next cocktail party. You'll be the star of the show, for sure.
+ 
+
+Adding the Widget to a Sidebar
+
+ The first thing to note is about the Event List widget is where to find it. The widget comes packaged with the core version of The Events Calendar (https://theeventscalendar.com/product/wordpress-events-calendar/). You'll find i...</div>
+                  <meta itemprop="position" content="26" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="606079-Listing-venues-and-organizers" itemprop="item" class="list-group-item item-A" title="Listing venues and organizers">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Listing venues and organizers</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/606079-Listing-venues-and-organizers" />
+                                    <div itemprop="description" class="article-preview">Sometimes it can be useful to present visitors to your site with a list of all your Venues and Organizers.
+ Just like individual events, Venues and Organizers are stored as posts in the database - this makes it really easy to query for them and build up a list that way. To save some time, though, we've created a handy little extension that you can download and use for this purpose.
+ Please check out the extension page for further details:
+ https://theeventscalendar.com/extensions/list-venues-and...</div>
+                  <meta itemprop="position" content="27" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="934573-Inserting-Calendar-Content-into-Posts-or-Pages" itemprop="item" class="list-group-item item-A" title="Inserting Calendar Content into Posts or Pages">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Inserting Calendar Content into Posts or Pages</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages" />
+                                    <div itemprop="description" class="article-preview">While Events Calendar Pro provides some calendar widgets that you can add to your site's sidebars and such, sometimes you don't want the calendar content in a sidebar—you want it squarely in the content of a post or page directly.
+ With Events Calendar Pro, you have three main methods for accomplishing the insertion of event content directly into posts and pages:
+ 
+
+ 	- Inserting Full Calendar Views (#calendar-views)
+ 	- Inserting Calendar Widget Views (#widget-views)
+ 	- Embedding Single Events...</div>
+                  <meta itemprop="position" content="28" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="880095-Changing-meta-field-labels" itemprop="item" class="list-group-item item-A" title="Changing meta field labels">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Changing meta field labels</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/880095-Changing-meta-field-labels" />
+                                    <div itemprop="description" class="article-preview">In this post we're going to look at modifying the names of various labels in the single event meta area. This is the section of the page that typically sits below the event description and lists things such as time, cost, any tags or categories and other information (such as details of the venue or organizer).
+ 
+ While the default labels work well in most cases, changing them can help you to craft a more intuitive experience for your visitors. In this post we'll pick on two different fields, eac...</div>
+                  <meta itemprop="position" content="29" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="079522-Have-the-List-Widget-display-the-most-recently-added-events" itemprop="item" class="list-group-item item-A" title="Have the List Widget display the most recently added events">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Have the List Widget display the most recently added events</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/079522-Have-the-List-Widget-display-the-most-recently-added-events" />
+                                    <div itemprop="description" class="article-preview">Both the standard List Widget (in The Events Calendar) and its advanced cousin (in Events Calendar PRO (https://theeventscalendar.com/product/wordpress-events-calendar-pro/)) naturally list upcoming events in date order.
+ What if instead of using the start date of each event, though, we want to use the publication date - in other words, we want a way to show the world which events have been added most recently - regardless of when they are taking place?
+ It turns out we can add some code to chan...</div>
+                  <meta itemprop="position" content="30" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="118083-Linking-to-specific-event-views" itemprop="item" class="list-group-item item-A" title="Linking to specific event views">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Linking to specific event views</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/118083-Linking-to-specific-event-views" />
+                                    <div itemprop="description" class="article-preview">Each calendar view has its own URL that you can use to link directly to that view. Whatever you have set as your default view (under Events &gt; Settings &gt; Display) will be located at www.yoursite.com/events/ (where events is the slug you set in the general Events Settings). Beyond that, you can find the different views at the followings urls:
+ 
+
+ 	- List View: events/list/
+ 	- Month/Calendar View: events/month/
+ 	- Week View (PRO): events/week/
+ 	- Day View: events/today or link to a specifi...</div>
+                  <meta itemprop="position" content="31" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="724613-Add-event-content-to-an-event-widget" itemprop="item" class="list-group-item item-A" title="Add event content to an event widget">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Add event content to an event widget</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/724613-Add-event-content-to-an-event-widget" />
+                                    <div itemprop="description" class="article-preview">One customization request we've seen come up regularly is how to add post content to the Mini Calendar and the Events List widgets (https://support.theeventscalendar.com/714401-Events-Calendar-Widgets). Here we'll take a look at how to do just that.
+ 
+
+The Scenario
+
+ Let's say we have placed the Mini Calendar widget in the sidebar of a page. We can expect to see a lot of information about our events, including the dates, times, location, and more, depending on our widget settings.
+ That's nice a...</div>
+                  <meta itemprop="position" content="32" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="872914-Styling-events-widgets" itemprop="item" class="list-group-item item-A" title="Styling events widgets">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Styling events widgets</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/872914-Styling-events-widgets" />
+                                    <div itemprop="description" class="article-preview">In this post, we will look at styling events widgets provided by The Events Calendar (https://theeventscalendar.com/product/wordpress-events-calendar/) and Events Calendar PRO (https://theeventscalendar.com/product/wordpress-events-calendar-pro/).
+ If you are new to either plugin then some great background reading can be found in the form of our Themer's Guide (https://support.theeventscalendar.com/submit_ticket) - this covers many of the basics and will give you a solid foundation for further c...</div>
+                  <meta itemprop="position" content="33" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="656744-Renaming-views" itemprop="item" class="list-group-item item-A" title="Renaming views">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Renaming views</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/656744-Renaming-views" />
+                                    <div itemprop="description" class="article-preview">The Events Calendar and Events Calendar PRO ship with a number of different views, each of which has a very generic name. 
+ Sometimes you might want to change these names – thankfully, doing so is fairly straightforward :-)
+ 
+
+View selector
+
+ The most prominent use of view names is within the view selector, which displays within the Tribe Events Bar. To change the names that appear here you need only add a small piece of code to your theme's functions.php file (or some other suitable place) mapp...</div>
+                  <meta itemprop="position" content="34" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="985004-Events-Calendar-PRO-WordPress-post-meta-data" itemprop="item" class="list-group-item item-A" title="Events Calendar PRO WordPress post meta data">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Events Calendar PRO WordPress post meta data</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/985004-Events-Calendar-PRO-WordPress-post-meta-data" />
+                                    <div itemprop="description" class="article-preview">These are The Events Calendar's WordPress Post Meta (also known as WordPress Custom Fields) (http://codex.wordpress.org/Custom_Fields) keys and values as they appear in the post_meta database table. These can be useful in custom WP Queries, plugin modifications, and in understanding where and how our plugin stores settings and information. They are four sections, and each key is listed in alphabetical order in their respective sections.
+ 
+
+Event Custom Post Type
+
+    _EventAllDay Specifies an al...</div>
+                  <meta itemprop="position" content="35" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="704754-Admin-roles-and-permissions" itemprop="item" class="list-group-item item-A" title="Admin roles and permissions">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Admin roles and permissions</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/704754-Admin-roles-and-permissions" />
+                                    <div itemprop="description" class="article-preview">Let's say you want to change the permissions on your site so that Editors can edit and publish posts to your blog, but not to the events that are published using The Events Calendar plugin.
+ In general, Events follow the same user roles and permissions as any other default post in WordPress. If you remove editing and publishing permissions for Editors in Posts, the same will be true in Events.
+ What to do?
+ 
+
+Setting permissions for events
+
+ We've greatly expanded the types of capabilities that ...</div>
+                  <meta itemprop="position" content="36" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="878115-Template-overview" itemprop="item" class="list-group-item item-A" title="Template overview">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Template overview</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/878115-Template-overview" />
+                                    <div itemprop="description" class="article-preview">The Events Calendar is extremely solid right out of the box. There's so much it can do by default that most people will be able to activate and start using it right away.
+ However, some sites require more of a custom touch. That's why we strive to make The Events Calendar as customizable as possible through theming. Theming allows you to override calendar templates and styles to create a look and feel that fits the needs of your site and your theme. If you haven't already checked out our Themer'...</div>
+                  <meta itemprop="position" content="37" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="290740-Calendar-widget-overflows-the-sidebar" itemprop="item" class="list-group-item item-A" title="Calendar widget overflows the sidebar">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Calendar widget overflows the sidebar</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/290740-Calendar-widget-overflows-the-sidebar" />
+                                    <div itemprop="description" class="article-preview">Sometimes the calendar widget is larger than your sidebars. Commonly this is because the theme’s stylesheet has added padding to all table cells. This can be countered by adding a rule that strips that padding back out of our mini calendar grids specifically. 
+ .tribe-mini-calendar td, .tribe-mini-calendar th { padding: 0; }
+ If you find that the mini calendar grids are still too big on iPad sized screens and would like to shrink it, you can reduce the font size with this:
+ @media (max-width: 85...</div>
+                  <meta itemprop="position" content="38" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="153124-Themers-Guide" itemprop="item" class="list-group-item item-A" title="Themer&#039;s Guide">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Themer&#039;s Guide</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/153124-Themers-Guide" />
+                                    <div itemprop="description" class="article-preview">Looking for a straightforward way to adjust the appearance of the calendar? Check out our theme customizer integration (https://support.theeventscalendar.com/451403-The-Events-Calendar-and-the-WordPress-Customizer) — it provides a fast and easy way to change many aspects of your calendar's appearance. If you need to do something a little more complex, however, read on…
+ ¿Estás buscando la versión en español? Haz click aquí (https://support.theeventscalendar.com/928476-Gu%C3%ADa-para-Personalizar...</div>
+                  <meta itemprop="position" content="39" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="750833-Venue-and-Organizer-pages" itemprop="item" class="list-group-item item-A" title="Venue and Organizer pages">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Venue and Organizer pages</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/750833-Venue-and-Organizer-pages" />
+                                    <div itemprop="description" class="article-preview">Venues and Organizers are two bits of handy information that can be added to an Events post. They give additional context for the event: where the event is happening and who is in charge of it.
+ With Events Calendar PRO, Venues and Organizers also have their own pages. This guide will outline creating Venues and Organizers, and using the front end pages.
+ First off, a little context
+ Both Venues and Organizers are set up as custom taxonomies. If you're unfamiliar with the concept of taxonomies i...</div>
+                  <meta itemprop="position" content="40" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="458537-PRO-Additional-Fields" itemprop="item" class="list-group-item item-A" title="PRO Additional Fields">                  
+                  <h3 class="list-group-item-heading" itemprop="name">PRO Additional Fields</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/458537-PRO-Additional-Fields" />
+                                    <div itemprop="description" class="article-preview">When creating your events, do you ever find yourself wishing there was a way to add additional information about your event? What about a checkbox to designate age restricted events? Or a drop-down of "DJs" to select which one will be performing at the event? The ability to add these additional fields is included within our Events Calendar PRO plugin. 
+ 
+
+Creating Additional Fields
+
+ To start creating additional fields, navigate to the Events &gt; Settings &gt; Additional Fields tab within your ...</div>
+                  <meta itemprop="position" content="41" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="725396-PRO-Default-Content" itemprop="item" class="list-group-item item-A" title="PRO Default Content">                  
+                  <h3 class="list-group-item-heading" itemprop="name">PRO Default Content</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/725396-PRO-Default-Content" />
+                                    <div itemprop="description" class="article-preview">Say you have a calendar where 90% of the events happen in the same city, or even at the same venue. We've got you covered with Event Calendar PRO's Default Content feature. 
+ Customized defaults are an option for Events Calendar PRO users. Log on to your site's backend, scroll to Events &gt; Settings, and click the Default Content tab.
+ The top two options allow you to set a Default Venue or Default Organizer, using a dropdown. The dropdown lists all of your published organizers or venues, which...</div>
+                  <meta itemprop="position" content="42" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="714401-Events-Calendar-Widgets" itemprop="item" class="list-group-item item-A" title="Events Calendar Widgets">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Events Calendar Widgets</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/714401-Events-Calendar-Widgets" />
+                                    <div itemprop="description" class="article-preview">You'll find events calendar widgets available in both The Events Calendar and Events Calendar Pro. Use the Appearance &gt; Widgets screen in the wp-admin to set up all widgets. You can use each widget as many times as you'd like.
+ 🔔Note: These detailed tutorials (https://support.theeventscalendar.com/search?q=configuring+widgets&pid=247&type=search) will walk you through the settings of individual widgets.
+  
+ 
+
+The Events Calendar Widgets
+
+ The Events Calendar comes with one widget: the basic E...</div>
+                  <meta itemprop="position" content="43" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" itemprop="item" class="list-group-item item-A" title="Recurring Events/Event Series in Events Calendar PRO">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Recurring Events/Event Series in Events Calendar PRO</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" />
+                                    <div itemprop="description" class="article-preview">While most calendar events are single one-day or multi-day events, there may be times when a series of events, known as recurring events, may be more appropriate. For example:
+ 
+
+ 	- Events that repeat on an interval, such as weekly cooking classes
+ 	- Events of the same type that don't follow a regular pattern, such as test dates for a school calendar
+ 
+
+ To accommodate for scenarios like this, Events Calendar PRO (https://theeventscalendar.com/product/wordpress-events-calendar-pro/) provides p...</div>
+                  <meta itemprop="position" content="44" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="021757-Settings-Overview-The-Events-Calendar-and-Events-Calendar-PRO" itemprop="item" class="list-group-item item-A" title="Settings Overview: The Events Calendar and Events Calendar PRO">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Settings Overview: The Events Calendar and Events Calendar PRO</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/021757-Settings-Overview-The-Events-Calendar-and-Events-Calendar-PRO" />
+                                    <div itemprop="description" class="article-preview">You can access the settings for The Events Calendar and Events Calendar PRO from the WordPress Admin by Events &gt; Settings from your WordPress admin bar or sidebar. The settings offer a lot of cool options to get your calendar looking just the way you want it. 
+ Let’s review what each of the options entails.
+ Note that some of the settings below are specific to Events Calendar PRO and marked as such.
+ 
+
+General
+
+ 
+
+ 	- Show The Events Calendar link: You will notice this in the large box at the...</div>
+                  <meta itemprop="position" content="45" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO" itemprop="item" class="list-group-item item-A" title="New User Primer: The Events Calendar and Events Calendar PRO">                  
+                  <h3 class="list-group-item-heading" itemprop="name">New User Primer: The Events Calendar and Events Calendar PRO</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO" />
+                                    <div itemprop="description" class="article-preview">Just starting out with The Events Calendar and Events Calendar PRO? These steps will help you get set up and ready to rock an awesome calendar. Follow the links for detailed tutorials.
+ 
+
+Install The Events Calendar
+
+ Download and install the plugin (https://support.theeventscalendar.com/847919-Downloading-and-Installing-the-Plugin). You can download and use our core plugin, The Events Calendar, for free.
+  Plugins &gt; Add New and search for The Events Calendar to install
+ If you have purchased...</div>
+                  <meta itemprop="position" content="46" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="154829-If-I-upgrade-to-Events-Calendar-PRO-will-I-have-to-re-enter-my-events" itemprop="item" class="list-group-item item-A" title="If I upgrade to Events Calendar PRO, will I have to re-enter my events?">                  
+                  <h3 class="list-group-item-heading" itemprop="name">If I upgrade to Events Calendar PRO, will I have to re-enter my events?</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/154829-If-I-upgrade-to-Events-Calendar-PRO-will-I-have-to-re-enter-my-events" />
+                                    <div itemprop="description" class="article-preview">Often when users of The Events Calendar are thinking about getting Events Calendar PRO, they ask us if they'll need to re-enter their events. Don't worry! Adding PRO doesn't mean you'll lose any of your events, settings, etc. 
+ You can think of Events Calendar PRO as an add-on that sits on top of The Events Calendar. You run both plugins side by side- PRO does not replace the core plugin. Adding PRO simply adds the PRO features onto your existing calendar. There will be new settings and content ...</div>
+                  <meta itemprop="position" content="47" />
+                </a>
+            </div>
+                	</div>
+  		</div>
+  		</div>
+	</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=1&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="064341-Events-Calendar-PRO#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

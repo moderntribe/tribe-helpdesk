@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="754124-Making-a-Members-Only-Calendar" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Making a Members-Only Calendar</title>        <meta name="keywords" content="The Events Calendar,Advanced,Other,Snippet, uiback, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/754124-Making-a-Members-Only-Calendar" />    <meta property="og:title" content="Making a Members-Only Calendar" />    <meta property="og:description" content="We are sometimes asked ask if The Events Calendar allows for the creation of &#039;members-only&#039; or &#039;internal&#039; calendar—a calendar whose events can only be seen by logged-in users.  Currently there is no" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Making a Members-Only Calendar</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Making a Members-Only Calendar">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/754124-Making-a-Members-Only-Calendar"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="534453-The-Events-Calendar" class="breadcrumb-link">
+    			<span itemprop="name">The Events Calendar</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Making a Members-Only Calendar</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="754124-Making-a-Members-Only-Calendar" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>We are sometimes asked ask if The Events Calendar allows for the creation of "members-only" or "internal" calendar—a calendar whose events can <em>only</em> be seen by logged-in users.</p>
+
+<p><strong>Currently there is no "out of the box" way to make this sort of calendar—no plugin setting, plugin filter, etc.</strong> But with a bit of custom coding, you can get pretty close.</p>
+
+<p>The methods covered in this article are as follows:</p>
+
+<ul>
+	<li><a href="https://support.theeventscalendar.com/using-a-redirect">Method One: Using a Redirect</a></li>
+	<li><a href="https://support.theeventscalendar.com/using-css">Method Two: Using CSS</a></li>
+</ul>
+
+<hr />
+<p>⚠️ <strong>Please Note:</strong> This is not an official feature, so it is not something we can assist with at our help desk. When implementing custom code on your site, please note that you are responsible for maintaining this custom code over time as you update plugins, themes, your site's version of WordPress, etc.</p>
+
+<hr />
+<h3 id="using-a-redirect">Method One: Using a Redirect</h3>
+
+<p>This method is a stringent, very literal "members-only" calendar. <strong>With this method, there are no events visible to <em>any site visitor who is not logged-in</em>.</strong> If a visitor has not logged in, and tries to access an event view—whether Month View, List View, Photo View, etc.—they are simply redirected to a page of your choosing.</p>
+
+<h4>The Main Redirect</h4>
+
+<p>The main events page redirect is dictated by adding code like the following to your theme's <em>functions.php</em> file, or a custom plugin:</p>
+
+<p><br />
+<code>add_filter( 'tribe_events_pre_get_posts', 'redirect_from_events' );</code></p>
+
+<p><code>function redirect_from_events( $query ) {</code></p>
+
+<p><code>if ( is_user_logged_in() )<br />
+return;</code></p>
+
+<p><code>if ( ! $query-&gt;is_main_query() || ! $query-&gt;get( 'eventDisplay' ) )<br />
+return;</code></p>
+
+<p><code>// Look for a page with a slug of "logged-in-users-only".<br />
+$target_page = get_posts( array(<br />
+'post_type' =&gt; 'page',<br />
+'name' =&gt; 'logged-in-users-only'<br />
+) );</code></p>
+
+<p><code>// Use the target page URL if found, else use the home page URL.<br />
+if ( empty( $target_page ) ) {<br />
+$url = get_home_url();<br />
+} else {<br />
+$target_page = current( $target_page );<br />
+$url = get_permalink( $target_page-&gt;ID );<br />
+}</code></p>
+
+<p><code>// Redirect!<br />
+wp_safe_redirect( $url );<br />
+exit;<br />
+}</code></p>
+
+<p>The above example code "listens" for logged-out users attempting to load event pages. It will send them to a page with a slug of <em>/logged-in-users-only</em> if that page exists. So, for example, if your site was <kbd>example.com</kbd> and you made a page at <kbd>example.com/logged-in-users-only</kbd>, a logged-out user would be redirected to that page if it exists. If that page does not exist, they will be redirected to the site's home page.</p>
+
+<h4>An Additional Precaution</h4>
+
+<p>While the above redirect will prevent any logged-out visitors from viewing an events view like the List View, Month View, etc., you might <em>also</em> want to add the following snippet to stop event database queries outright if the current visitor is not logged in. <strong>This will make it so that event widgets are <em>also</em> empty</strong> if the visitor is not logged in.</p>
+
+<p>The extra snippet of code for this added layer of restriction—which, again, is totally optional!—is as follows:</p>
+
+<p><br />
+<code>add_filter( 'posts_where', 'restrict_events', 100 );</code></p>
+
+<p><code>function restrict_events( $where_sql ) {<br />
+global $wpdb;</code></p>
+
+<p><code>if ( is_user_logged_in() || ! class_exists( 'Tribe__Events__Main' ) ) {<br />
+return $where_sql;<br />
+}</code></p>
+
+<p><code>return $wpdb-&gt;prepare( " $where_sql AND $wpdb-&gt;posts.post_type &lt;&gt; %s ", Tribe__Events__Main::POSTTYPE );<br />
+}</code></p>
+
+<h3 id="using-css">Method Two: Using CSS</h3>
+
+<p><strong>With this secondary method, only <em>certain, specified</em> events are hidden from logged-out visitors.</strong> The events that are "internal-only" or "members-only" are categorized as such, and these are the events that logged-out visitors will not see. All other events, though, will remain publicly visible.</p>
+
+<p>This method is fairly simple to implement. First, create an event category that all members-only events will belong to. In the following screenshot, this is exemplified with an event category called "Members Only":</p>
+
+<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/09/Screen-Shot-2016-07-19-at-9.41.18-PM.png"><img alt="A Members-Only Category" src="https://theeventscalendar.com/content/uploads/2014/09/Screen-Shot-2016-07-19-at-9.41.18-PM.png" /></a></p>
+
+<p style="text-align: center;">An example of adding a members-only category to an event.</p>
+
+<p>As expected, that event will show up, as shown in the Month View in the following screenshot:</p>
+
+<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/09/Screen-Shot-2016-07-19-at-9.44.57-PM.png"><img alt="Screen Shot 2016-07-19 at 9.44.57 PM" src="https://theeventscalendar.com/content/uploads/2014/09/Screen-Shot-2016-07-19-at-9.44.57-PM.png" /></a></p>
+
+<p>To hide any event in that members-only category, you can do that by adding CSS like the following to the bottom of your theme's <em>style.css</em> file:</p>
+
+<p><br />
+<code>.type-tribe_events.tribe-events-category-members-only {<br />
+display: none;<br />
+}</code></p>
+
+<p>☝️ That CSS will hide the events in the "Members Only" event category, as shown here:</p>
+
+<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/09/Screen-Shot-2016-07-19-at-10.02.42-PM.png"><img alt="Screen Shot 2016-07-19 at 10.02.42 PM" src="https://theeventscalendar.com/content/uploads/2014/09/Screen-Shot-2016-07-19-at-10.02.42-PM.png" /></a></p>
+
+<p>Now you just need to add one extra bit of CSS so that the event <em>will</em> be visible if you are logged-in. That extra bit of CSS looks like this:</p>
+
+<p><br />
+<code>body.logged-in .type-tribe_events.tribe-events-category-members-only {<br />
+display: inline-block;<br />
+}</code></p>
+
+<p>The event will remain hidden from view if you are logged out, but it will show like normal if you are logged in. All other events that are <em>not</em> in that "Members Only" category will be visible regardless of whether you are logged in or not.</p>
+
+<h3>Closing Thoughts and Tips</h3>
+
+<p>With the above methods, a bit of time, and a bit of tinkering, you should be able to implement a members-only calendar on your site. Since code customization is required, and we will thus <strong><a href="772674-What-support-is-provided-for-license-holders" rel="noopener" target="_blank">not be able to help with implementing these customizations at our help desk</a></strong>, here are some resources that may be helpful when implementing a members-only calendar:</p>
+
+<ul>
+	<li>If you want to learn more about the PHP involved in writing functions like those seen in Method One, check out <a href="http://php.net/docs.php" rel="noopener" target="_blank">PHP's official documentation website</a> and the official WordPress <a href="https://codex.wordpress.org/" rel="noopener" target="_blank">Codex</a> and <a href="http://developer.wordpress.org/reference" rel="noopener" target="_blank">Code Reference</a>.</li>
+	<li>If you want to make it easier to write the sort of CSS used in Method Two, check out a (free!) tool like <a href="http://getfirebug.com/">Firebug</a> if you use FireFox, or the Developer Tools for either <a href="http://developer.apple.com/technologies/tools/" target="_blank">Safari</a> or <a href="http://developers.google.com/chrome-developer-tools/docs/overview" target="_blank">Chrome</a>. They have "Inspector" tools that make it easy to find out what CSS is required to achieve a specific modification.</li>
+	<li>If you want to hire a professional developer to assist you, check out a list of highly-rated customizers that we have compiled <a href="http://m.tri.be/18k1" rel="noopener" target="_blank">here</a>.</li>
+</ul>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 28, 2018, 11:02 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="339">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
+        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
+        <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="629477-Using-the-Classic-Editor-with-WordPress-50" class="article-link article-link-735" title="Using the Classic Editor with WordPress 5.0">
+        <span class="TitleValue">Using the Classic Editor with WordPress 5.0</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="838016-An-Introduction-to-Event-Blocks" class="article-link article-link-733" title="An Introduction to Event Blocks">
+        <span class="TitleValue">An Introduction to Event Blocks</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="869262-Disable-the-events-menu-on-the-dashboard-for-non-admins" class="article-link article-link-283" title="Disable the events menu on the dashboard for non-admins">
+        <span class="TitleValue">Disable the events menu on the dashboard for non-admins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="421521-Add-start-time-to-event-title-in-Month-View" class="article-link article-link-317" title="Add start time to event title in Month View">
+        <span class="TitleValue">Add start time to event title in Month View</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="405065-Change-the-default-startend-time-for-new-events" class="article-link article-link-407" title="Change the default start/end time for new events">
+        <span class="TitleValue">Change the default start/end time for new events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="518116-Make-links-to-an-event-go-straight-to-the-Event-Website-URL" class="article-link article-link-495" title="Make links to an event go straight to the Event Website URL">
+        <span class="TitleValue">Make links to an event go straight to the Event Website URL</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
+        <span class="TitleValue">Changing the browser title for calendar views</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
+        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=339&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="754124-Making-a-Members-Only-Calendar#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

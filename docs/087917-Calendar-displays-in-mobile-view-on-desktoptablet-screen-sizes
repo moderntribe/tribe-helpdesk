@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="087917-Calendar-displays-in-mobile-view-on-desktoptablet-screen-sizes" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Calendar displays in mobile view on desktop/tablet screen sizes</title>        <meta name="keywords" content="Article,Beginner,Errors &amp;amp; Troubleshooting, snippet, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/087917-Calendar-displays-in-mobile-view-on-desktoptablet-screen-sizes" />    <meta property="og:title" content="Calendar displays in mobile view on desktop/tablet screen sizes" />    <meta property="og:description" content="Under certain circumstances, when viewing your events pages in the default Month View on standard-sized displays, you may notice that your calendar is rendered at a smaller size, with dots replacing t" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Calendar displays in mobile view on desktop/tablet screen sizes</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Calendar displays in mobile view on desktop/tablet screen sizes">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/087917-Calendar-displays-in-mobile-view-on-desktoptablet-screen-sizes"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="757786-General" class="breadcrumb-link">
+    			<span itemprop="name">General</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Calendar displays in mobile view on desktop/tablet screen sizes</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="087917-Calendar-displays-in-mobile-view-on-desktoptablet-screen-sizes" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Under certain circumstances, when viewing your events pages in the default Month View on standard-sized displays, you may notice that your calendar is rendered at a smaller size, with dots replacing the usual event titles on dates that contain events.</p>
+
+<p style="text-align: center;"><img alt="Calendar displayed in mobile view" src="https://theeventscalendar.com/content/uploads/2017/07/calendar_view_mobile.png" /></p>
+
+<p>To better understanding why this problem occurs and how to prevent it, it's helpful to understand how the visual styling for The Events Calendar is constructed in code. Let's take a closer look.</p>
+
+<h3 id="responsive">Responsive Design</h3>
+
+<p>The Events Calendar is built from the ground up with responsive design in mind, which means that its visual styling adapts to different screen sizes. On large screens, the calendar's Month View is a full grid that displays the event titles that we'd expect to see on a large calendar. When viewed on smaller screens, the calendar will automatically respond by switching to a smaller, more compact version. Instead of displaying all events, the calendar displays dots indicating days that contain events.</p>
+
+<p>The calendar automatically switches from the large screen layout to the small screen layout if the space allotted for the calendar is less than 768 pixels wide. We call this the calendar's <em>responsive breakpoint</em>.</p>
+
+<p>However, space allotted for calendars refers not to the size of your device or browser window but to the <em>container</em> holding the calendar. If the calendar is sitting in a container that is less than 768 pixels in width, the calendar <em>will</em> respond to the appropriate breakpoint.</p>
+
+<p>Where we see this most often is when a sidebar is included on the same page as the calendar. The space the sidebar takes up subtracts from the calendar's 768 pixels of available space before the breakpoint strikes. The result is that the small screen version of the calendar is displayed where the large screen version might be expected.</p>
+
+<p>Thankfully, there is a handy way around this problem. We can use the following snippet in our theme's <strong>functions.php</strong> file to change the width at which the responsive breakpoint is activated.</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">customize_tribe_events_breakpoint</span>() {
+  <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-type" style="color: rgb(136, 0, 0);">600</span>;
+}
+add_filter( <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'tribe_events_mobile_breakpoint</span>', <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'customize_tribe_events_breakpoint</span>' );
+</pre>
+
+<p>In this example, we're telling the calendar to hold off from changing to small screen mode until the container is less than 600 pixels in width. That's 168 more pixels of space to play with than we had before. If you'd prefer to use a different breakpoint, simply change the "600" in code to another value of your choice.</p>
+
+<p>But let's say that we want to kill the small screen mode completely. We can do that using this snippet instead:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+add_filter( 'tribe_events_kill_responsive', '__return_true')<span class="hljs-comment" style="color: rgb(136, 136, 136);">;</span></pre>
+
+<p>Other methods for allotting more space to your calendars might include removing sidebars or adjusting their behavior to move above or below your calendar views on smaller displays. It's worth exploring different options to see which one works best for you and your users.</p>
+
+<p>Still encountering mobile styling on your calendars that isn't resolved by the above suggestions? Read on!</p>
+
+<h3 id="concatenation">Concatenation Issues</h3>
+
+<p>Problems with mobile styling being applied incorrectly may also be caused by a behavior known as <strong>concatenation</strong>, which is automatically performed by some WordPress caching and optimization plugins. Plugins that perform concatenation will often combine all CSS files requested by your WordPress theme and active plugins into a single file in an effort to improve page load times. The Events Calendar uses a separate CSS file for its mobile styling which is triggered only at specific display sizes, but concatenation plugins are able to bypass this logic, causing the more specific mobile styling to override your default calendar styling at all screen sizes.</p>
+
+<p>If you're experiencing this issue on your calendar or events pages, you can determine whether your caching plugin is at fault by temporarily deactivating the plugin from your WordPress site's backend. Log in to your WordPress site, then click <strong>Plugins</strong> in the sidebar to bring up the list of installed plugins for your site. Click the <strong>Deactivate</strong> link below your caching plugin's title to deactivate the plugin and disable its behaviors.</p>
+
+<p style="text-align: center;"><img alt="Deactivate link for caching plugin" src="https://theeventscalendar.com/content/uploads/2017/07/caching_plugin_deactivate.png" /></p>
+
+<p>After clearing your browser's cache, try reloading your main calendar page to see if the problem persists. If your calendar displays with its standard styling in place once your caching plugin is disabled, you'll know that concatenation (or a similar compression method) is to blame.</p>
+
+<p>The good news is that you can still make use of many of the optimization features of these caching plugins without negatively impacting your calendars or events--it's just a matter of applying these features <em>selectively</em> where possible. Our plugins are already developed with speed and efficiency in mind and employ a number of performance-oriented considerations, such as code minification, straight out of the box. (You can read more about performance as it relates to our plugins over on <a href="616613-Problems-with-Minification">our minification article</a>.) If your caching plugin allows for the enabling and disabling of features individually, simply disabling <strong>concatenation</strong> and <strong>minification</strong> should allow you to benefit from the speed improvements that caching offers without compromising the functionality of your plugins. <a href="https://tangerinemoons.com/using-wordpress-w3-total-cache-modern-tribes-event-calendar/" target="_blank">This article</a> provided by <a href="https://tangerinemoons.com" target="_blank">Tangerine Moons</a> offers some further suggestions specifically related to the use of <a href="https://wordpress.org/plugins/w3-total-cache/" target="_blank">W3 Total Cache</a> with The Events Calendar.</p>
+
+<p>With these tips in mind, you should be well-equipped to continue working with our plugins alongside your preferred caching solution without affecting the look, feel, or functionality of your calendars. If you should continue to experience any issues with your calendar or if you should have any other questions, please don't hesitate to reach out to us over at&nbsp;<a href="submit_ticket">our support help desk</a> for further assistance! :)</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 20, 2018, 12:10 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-20" itemprop="dateModified">Dec 20 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="651">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="588130-Pre-Sales-Questions" class="article-link article-link-865" title="Pre-Sales Questions">
+        <span class="TitleValue">Pre-Sales Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="345413-General-Sales--Account-Questions" class="article-link article-link-859" title="General Sales &amp; Account Questions">
+        <span class="TitleValue">General Sales &amp; Account Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="210263-Free-Support-Resources" class="article-link article-link-857" title="Free Support Resources">
+        <span class="TitleValue">Free Support Resources</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="315237-Creating-Site-Backups" class="article-link article-link-729" title="Creating Site Backups">
+        <span class="TitleValue">Creating Site Backups</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="178892-Change-the-wording-of-any-bit-of-text-or-string" class="article-link article-link-333" title="Change the wording of any bit of text or string">
+        <span class="TitleValue">Change the wording of any bit of text or string</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="article-link article-link-671" title="Best Practices for Implementing Custom Code Snippets">
+        <span class="TitleValue">Best Practices for Implementing Custom Code Snippets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="713863-PHP-Version-Requirement-Changes" class="article-link article-link-681" title="PHP Version Requirement Changes">
+        <span class="TitleValue">PHP Version Requirement Changes</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="093589-Custom-Development" class="article-link article-link-687" title="Custom Development">
+        <span class="TitleValue">Custom Development</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="192116-Support-Team-Webinars" class="article-link article-link-691" title="Support Team Webinars">
+        <span class="TitleValue">Support Team Webinars</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="481188-Bundle-Discounts" class="article-link article-link-693" title="Bundle Discounts">
+        <span class="TitleValue">Bundle Discounts</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 64 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=651&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="087917-Calendar-displays-in-mobile-view-on-desktoptablet-screen-sizes#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

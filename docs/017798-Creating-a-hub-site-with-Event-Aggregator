@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="017798-Creating-a-hub-site-with-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Creating a hub site with Event Aggregator</title>        <meta name="keywords" content="Article,Beginner,Event Aggregator" />    <meta property="og:url" content="//support.theeventscalendar.com/017798-Creating-a-hub-site-with-Event-Aggregator" />    <meta property="og:title" content="Creating a hub site with Event Aggregator" />    <meta property="og:description" content="If you&#039;ve used Event Aggregator to import events from third-party sources such as Facebook or Google Calendar in the past, then you&#039;re no doubt already aware of how Event Aggregator can save you time " />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=30ef1216a9b57733c2eee77cbeaaf098" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Creating a hub site with Event Aggregator</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Creating a hub site with Event Aggregator">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/017798-Creating-a-hub-site-with-Event-Aggregator"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="000937-Event-Aggregator" class="breadcrumb-link">
+    			<span itemprop="name">Event Aggregator</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Creating a hub site with Event Aggregator</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="017798-Creating-a-hub-site-with-Event-Aggregator" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>If you've used Event Aggregator to import events from third-party sources such as Facebook or Google Calendar in the past, then you're no doubt already aware of how Event Aggregator can save you time and hassle when managing events from multiple sources or users. Beginning with The Events Calendar version 4.5, we've taken that functionality a step further: using the <strong>Other URL</strong> import option in Event Aggregator, events can now be imported directly from other sites running The Events Calendar.</p>
+
+<p>This feature is great for establishing "hub" sites that host events for a community of smaller sites--for example, a school district might promote events for individual schools in their area, or a local music site may wish to pull info on gigs and promotional events from nearby concert venues. Interested in setting up a hub site of your very own with Event Aggregator? Here's how to set up those import tasks and begin sharing events with your community!</p>
+
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔 Note:</strong> When importing events from other The Events Calendar sites using the Other URL option, only single events are able to be imported at this time. <strong>Recurring events created using Events Calendar PRO will be omitted from these import tasks, even if Events Calendar PRO is activated on the target site.</strong> If one or more of your source sites includes recurring events that need to be imported into a hub site, we recommend <a href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL">creating a scheduled iCalendar import</a> for bringing in these events. This will convert any recurring event instances into single events, allowing them to be imported successfully.</div>
+
+<h3 id="getting-started">Getting Started</h3>
+
+<p>Before getting started, you'll want to make sure that you've configured your intended hub site properly and that you've gathered all the necessary information for the sites from which you'll be importing. It's worth double-checking to ensure that your hub site meets the following requirements before proceeding!</p>
+
+<h4 id="requirements">Basic Requirements</h4>
+
+<ul>
+	<li><a href="https://theeventscalendar.com/product/wordpress-events-calendar/">The Events Calendar</a> version 4.5 or higher must be installed and activated on your site. This plugin provides the core calendar functionality for your hub and includes Event Aggregator, which must be activated separately.</li>
+	<li>While The Events Calendar does come with Event Aggregator preinstalled, only the CSV import option is available without activating a license key. An <a href="https://theeventscalendar.com/product/event-aggregator/">Event Aggregator</a> license key must be purchased and activated in order to unlock the remaining import options, including the <strong>Other URL</strong> option that we'll be using here. If you need help activating your license for Event Aggregator, check out our <a href="710770-New-User-Primer-Event-Aggregator">New User Primer</a> for a quick walkthrough on the process.</li>
+	<li>If you'll be importing any events from sites that use <a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro/">Events Calendar PRO</a>&nbsp;and wish to retain venue and organizer details from calendar events, you may wish to have Events Calendar PRO installed and activated on your hub site, as well. However, this step is optional--if an event with venue and/or organizer details is imported to a site that does <em>not</em> use Events Calendar PRO, this data will still be imported, but venue and organizer pages will not be generated on the front end.</li>
+</ul>
+
+<h4 id="settings">Plugin Settings</h4>
+
+<p>Once your hub site is established with the necessary plugins, take a moment to review your settings to ensure that everything is set up properly for your calendar, events, and imports. You can find your plugin settings by navigating to <strong>Events</strong> &gt; <strong>Settings</strong> from your WordPress admin's sidebar. In particular, make sure to review the Imports tab, which contains all plugin settings related to Event Aggregator imports. You'll find the settings relevant to the <strong>Other URL</strong> import type near the bottom of this tab.</p>
+
+<p style="text-align: center;"><img alt="Other URL Import Settings from Event Aggregator" src="https://theeventscalendar.com/content/uploads/2017/08/other_url_import_settings-665x462.png" /></p>
+
+<p>If you've reviewed your settings for other Event Aggregator import types at any point, you should find the first three settings in this section familiar. The Import Event Settings option is also fairly self-explanatory. However, the <strong>Import date range</strong> option is worth a second look.</p>
+
+<p><strong>Import date range</strong> allows you to specify a range of time for importing new events from sites using The Events Calendar. For example, if the option "One month" is selected, Event Aggregator will attempt to import all matching events occurring up to one month in the future each time an import is performed. When setting this option, consider the frequency of your planned imports, the needs of your users, and the hosting resources available to your source sites. Specifying a longer time period will allow you to import more events at once, but trying to import a large number of events from a limited-resource site may result in failed imports.</p>
+
+<p>Lastly, ensure that you've collected <abbr title="A URL is the address that is entered into a web browser to access a particular web page.">URLs</abbr> for any calendars from which you'll be importing events. URLs for calendars created with The Events Calendar will begin with <strong>http://</strong>&nbsp;or <strong>https://</strong> and usually end with <strong>/events</strong>, though some calendars may follow a different structure. Copying these URLs&nbsp;into a separate text file, one on each line, will make it easier to access them later when they're needed. Make sure also to copy the entire address for the <em>main</em> calendar page, not a single event or other page.</p>
+
+<h3 id="setting-up">Setting Up Your Imports</h3>
+
+<p>Now that you've confirmed that your hub site is ready to go and you've collected the URLs for your sites to be imported, it's time to put it all together! For the purposes of this demonstration, let's set up some imports to populate a simple hub calendar. We'll pull our first selection of events from our <a href="http://wpshindig.com" target="_blank">WP Shindig</a> demo site to start.</p>
+
+<p>Log in to the WordPress backend for your hub site and navigate to <strong>Events</strong> &gt; <strong>Import</strong> from your WordPress sidebar. You'll be presented with the <strong>New Import</strong> page and prompted to select a type for your new import task.</p>
+
+<p><img src="scripts/file.php%3Fview=Y&amp;file=30ef1216a9b57733c2eee77cbeaaf098" /></p>
+
+<p>Select the <strong>Other URL</strong> option for the <strong>Import Origin</strong> field, then select <strong>Scheduled Import</strong> when prompted to choose an <strong>Import Type</strong>. Selecting this option will display the complete selection of fields for scheduling a recurring import task.</p>
+
+<p style="text-align: center;"><img alt="Event Aggregator scheduled or one-time imports" src="https://theeventscalendar.com/content/uploads/2016/09/Scheduled-import-fields-665x491.png" /></p>
+
+<p>As with any other scheduled import, you can select an interval for your scheduled imports, with options ranging from every 30 minutes to once per month. If you know how often your source sites tend to update with new events, adopting this interval for your imports may make the most sense; if you aren't sure, a few daily or weekly imports should ensure that your hub remains up to date without using up all of your allotted daily tasks. It's worth keeping your daily import limit in mind when making your selection here--you can read more about import limits for Event Aggregator <a href="430949-How-Do-Event-Aggregators-Import-Limits-Work">here</a>.</p>
+
+<p>After you've chosen the appropriate interval for your import task, enter the calendar URL for your first source site in the <strong>URL</strong> field. You can specify any additional refinements that you'd like in the remaining fields, but typically, these won't be used for hub sites. Click the <strong>Preview</strong> button once you're finished, and Event Aggregator will display a sampling of events to be imported based on your criteria.</p>
+
+<p style="text-align: center;"><img alt="Event Aggregator: Import Preview" src="https://theeventscalendar.com/content/uploads/2015/07/Screenshot_Save_Scheduled_Import-665x408.png" /></p>
+
+<p>Beneath your list of previewed events, you'll be presented with just two remaining options: <strong>Status</strong> and <strong>Category</strong>. By default, imported events are set to "Published" status and will display immediately on your calendar. If you'd prefer to have your imports set to "Draft" or another status to be reviewed before publishing, select the option that you'd prefer for the <strong>Status</strong> field.</p>
+
+<p>The <strong>Category</strong> selector allows you to assign an additional category to events imported by this task. This may be useful if, for instance, you'd like your users to be able to filter events by source, or if you'd like to designate all imported events as distinct from events created on your own site. Select the category or categories that you'd like to add to events imported by this task, or feel free to skip the field entirely if you'd prefer to use only the imported categories.</p>
+
+<p>As soon as you've made your final selections, go ahead and click the <strong>Save Scheduled Import</strong> button. Event Aggregator will begin importing your first batch of events, and the import task you've set up will be added to your list of scheduled imports. If you'd like to make any changes to this task at a later date, you can view your complete list of scheduled imports at any time by navigating to <strong>Events</strong> &gt; <strong>Imports</strong> and clicking the <strong>Scheduled Imports</strong> tab.</p>
+
+<hr />
+<p>Once your first import task is scheduled and completed, all that's left is to repeat these steps for any remaining source URLs on your list! Any text, images, categories, venues, and organizers from the original events will be imported along with these events and added to your site for future reuse. You can also freely make changes to events after they've been imported to your site--if you'd like to ensure that your edits are retained for future imports, make sure that your Event Update Authority settings are configured the way you like them. You can read more about this setting and its available options <a href="348394-Event-Aggregator-Import-Settings#update-authority">here</a>.</p>
+
+<p>We hope that this article gives you some ideas for how you can use Event Aggregator to easily establish hub calendars and provide a diverse selection of events for your users! Got a question that isn't answered here? Feel free to reach out to us over at&nbsp;<a href="submit_ticket">our help desk</a>!</p>
+</div>    			
+				<div class="Files">
+																		<div class="FilePreview">
+	<a class="File" href="scripts/file.php%3Fview=Y&amp;file=b9acf3d89aed521c0efddcb0b6a02e58" target="_blank">
+	 <span class="ImageFileName">event-aggregator_import-screen_import-origins.png</span>
+	</a>
+	<a class="FileImage" href="scripts/file.php%3Fview=Y&amp;file=b9acf3d89aed521c0efddcb0b6a02e58" target="_blank"><img class="ImageFilePreview" src="scripts/file.php%3Fview=Y&amp;file=b9acf3d89aed521c0efddcb0b6a02e58"></a>	
+</div>											    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Jan 29, 2019, 10:18 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-29" itemprop="dateModified">Jan 29 (3 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="653">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="290016-Troubleshooting-Duplicate-Imports" class="article-link article-link-849" title="Troubleshooting Duplicate Imports">
+        <span class="TitleValue">Troubleshooting Duplicate Imports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="638957-Other-URL-Import-Errors-in-Event-Aggregator" class="article-link article-link-629" title="&quot;Other URL&quot; Import Errors in Event Aggregator">
+        <span class="TitleValue">&quot;Other URL&quot; Import Errors in Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="374127-Importing-holiday-or-other-special-calendars-with-Event-Aggregator" class="article-link article-link-639" title="Importing holiday or other special calendars with Event Aggregator">
+        <span class="TitleValue">Importing holiday or other special calendars with Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="430949-How-Do-Event-Aggregators-Import-Limits-Work" class="article-link article-link-617" title="How Do Event Aggregator&#039;s Import Limits Work?">
+        <span class="TitleValue">How Do Event Aggregator&#039;s Import Limits Work?</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="650197-Moving-to-Event-Aggregator" class="article-link article-link-613" title="Moving to Event Aggregator">
+        <span class="TitleValue">Moving to Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="710770-New-User-Primer-Event-Aggregator" class="article-link article-link-609" title="New User Primer: Event Aggregator">
+        <span class="TitleValue">New User Primer: Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="114474-Managing-Imported-Events" class="article-link article-link-607" title="Managing Imported Events">
+        <span class="TitleValue">Managing Imported Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="948574-Importing-Events-from-an-ICS-File-with-Event-Aggregator" class="article-link article-link-601" title="Importing Events from an ICS File with Event Aggregator">
+        <span class="TitleValue">Importing Events from an ICS File with Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="916243-Managing-Your-Scheduled-Imports-in-Event-Aggregator" class="article-link article-link-595" title="Managing Your Scheduled Imports in Event Aggregator">
+        <span class="TitleValue">Managing Your Scheduled Imports in Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL" class="article-link article-link-593" title="Event Aggregator: Importing Events from a Feed or URL">
+        <span class="TitleValue">Event Aggregator: Importing Events from a Feed or URL</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="000937-Event-Aggregator" class="MoreLinkTitle">and 12 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=653&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="017798-Creating-a-hub-site-with-Event-Aggregator#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

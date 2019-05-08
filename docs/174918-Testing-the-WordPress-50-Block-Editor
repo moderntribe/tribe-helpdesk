@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="174918-Testing-the-WordPress-50-Block-Editor" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Testing the WordPress 5.0 Block Editor</title>        <meta name="keywords" content="The Events Calendar, Events Calendar Pro, Event Tickets, Event Tickets Plus, Block Editor, Gutenberg,Classic Editor" />    <meta property="og:url" content="//support.theeventscalendar.com/174918-Testing-the-WordPress-50-Block-Editor" />    <meta property="og:title" content="Testing the WordPress 5.0 Block Editor" />    <meta property="og:description" content="WordPress 5.0 is here and with it the new WordPress block editor. If you&#039;re planning on using the block editor, it&#039;s a good idea to test it out on staging site before updating your live site.    Step " />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Testing the WordPress 5.0 Block Editor</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Testing the WordPress 5.0 Block Editor">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/174918-Testing-the-WordPress-50-Block-Editor"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="534453-The-Events-Calendar" class="breadcrumb-link">
+    			<span itemprop="name">The Events Calendar</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Testing the WordPress 5.0 Block Editor</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="174918-Testing-the-WordPress-50-Block-Editor" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>WordPress 5.0 is here and with it the new WordPress block editor. If you're planning on using the block editor, <strong>it's a good idea to test it out on staging site before updating your live site.</strong></p>
+
+<h3 id="set-up">Step #1: Set up a staging site</h3>
+
+<p>A staging site is basically a copy of your site where you can test changes so you don’t accidentally break your live site.</p>
+
+<p>Because it’s an exact duplicate of your site’s server, settings, and content, you can see how the new block editor will work on your specific site. And if there are any conflicts or bugs, you’ll be able to identify and fix them before you roll out any changes on your live site.</p>
+
+<p>If you’ve already got a staging site set up, go ahead and move on to step two. If not, we’ve got a <a href="239548-Creating-and-using-a-WordPress-staging-site">staging site setup guide</a> to get you started.</p>
+
+<h3 id="install-wp">Step #2: Install WordPress 5.0</h3>
+
+<p>The next step is to install WordPress 5.0. You can do that from your site's&nbsp;<em>Updates&nbsp;</em>page or by <a href="https://wordpress.org/download/" target="_blank">downloading it from wordpress.org</a>.</p>
+
+<h3 id="activate-editor">Step #3: Activate the block editor for events</h3>
+
+<p>Once you have WordPress 5.0 on your site, you'll see the new block editor for posts and pages. In order to use the editor for events, you'll need to enable it under Events --&gt; Settings --&gt; General.</p>
+
+<p style="text-align: center;"><img alt="" height="543" src="http://theeventscalendar.com/content/uploads/2018/11/Screen-Shot-2018-11-29-at-15.38.46-665x543.png" width="665" /></p>
+
+<p>Check the box to activate the block editor for your events, and you'll start seeing the new block experience when creating or editing events.</p>
+
+<p>Your existing events will start with our <a href="838016-An-Introduction-to-Event-Blocks#details-classic/">Event Details Classic block</a>, which displays event information very closely to how it used to in the classic editor. You can switch to using the more flexible blocks if you want, or stick with the Event Details Classic. On new events you'll see the new set of Events blocks including Event Date Time, Event Organizer, Event Venue, and more. For more information, check out our <a href="838016-An-Introduction-to-Event-Blocks">Introduction to Events blocks</a>.</p>
+
+<h3 id="test">Step #4: Test out your plugins and themes</h3>
+
+<p>The latest versions of Events Calendar, Events Calendar PRO, Event Tickets, and Event Tickets Plus are all compatible with the block editor and ready to go. However, you'll want to test your theme and other plugins before updating on a live site.</p>
+
+<p>While WordPress 5.0 updates the core WordPress software for your site, plugin and theme updates are handled individually by their respective authors and you may see different levels of compatibility based on the specific plugin or theme.</p>
+
+<p>Many plugin authors have a page on their website to share updates on their compatibility progress and goals. This is where you’ll typically find opportunities to test any beta versions or extensions they’ve made available.</p>
+
+<p>If you haven’t already done so, research your site’s theme and plugins to see if there are any concerns about how they’ll be affected by the block editor. This is especially important for anyone using a “page builder” theme—try to learn as early as possible if you will need to change your theme or make any adjustments to ensure it continues working well in WordPress 5.0 and beyond.</p>
+
+<p>Unfortunately, there are some themes and plugins that won’t be compatible with the new block editor when it arrives. As you’re testing the new block editor on your site, it won’t be uncommon to run into problems. That’s a good thing because it gives you a chance to contact support and resolve those issues before you deploy updates to your live site.</p>
+
+<p><em>Pro Tip: Our <a href="303643-Testing-for-conflicts#look-for-solution">Testing for Conflicts</a> guide can help you determine whether the issue is a conflict or legit bug. Once you’ve sussed that out, you can report issues on <a href="https://wordpress.org/support/plugin/gutenberg" target="_blank">WordPress.org</a>, the <a href="https://github.com/WordPress/gutenberg/issues" target="_blank">Gutenberg GitHub repo</a>, or with a specific plugin/theme author as needed.</em></p>
+
+<h3 id="decide">Step #5: Decide if your site is ready for the block editor</h3>
+
+<p>Every site owner and creator using WordPress should review the block editor and decide if they're ready to switch their live site to the new experience. Either way, you'll want to update to WordPress 5.0. However, if you want to stick with the classic editor experience for some or all of your site, <a href="629477-Using-the-Classic-Editor-with-WordPress-50">you can take steps to do that too</a>.</p>
+
+<h3 id="update">Step #6: Update your live site</h3>
+
+<p>Once you're confident with WordPress 5.0 on your staging site and have decided whether you'll be using the block editor, you can feel confident updating to WordPress 5.0 on your live site. Have fun!</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 28, 2018, 08:55 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-12-19" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="737">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
+        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="629477-Using-the-Classic-Editor-with-WordPress-50" class="article-link article-link-735" title="Using the Classic Editor with WordPress 5.0">
+        <span class="TitleValue">Using the Classic Editor with WordPress 5.0</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="838016-An-Introduction-to-Event-Blocks" class="article-link article-link-733" title="An Introduction to Event Blocks">
+        <span class="TitleValue">An Introduction to Event Blocks</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="869262-Disable-the-events-menu-on-the-dashboard-for-non-admins" class="article-link article-link-283" title="Disable the events menu on the dashboard for non-admins">
+        <span class="TitleValue">Disable the events menu on the dashboard for non-admins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="421521-Add-start-time-to-event-title-in-Month-View" class="article-link article-link-317" title="Add start time to event title in Month View">
+        <span class="TitleValue">Add start time to event title in Month View</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="405065-Change-the-default-startend-time-for-new-events" class="article-link article-link-407" title="Change the default start/end time for new events">
+        <span class="TitleValue">Change the default start/end time for new events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="518116-Make-links-to-an-event-go-straight-to-the-Event-Website-URL" class="article-link article-link-495" title="Make links to an event go straight to the Event Website URL">
+        <span class="TitleValue">Make links to an event go straight to the Event Website URL</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
+        <span class="TitleValue">Changing the browser title for calendar views</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
+        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="013265-Subscribing-to-calendars-via-RSS" class="article-link article-link-655" title="Subscribing to calendars via RSS">
+        <span class="TitleValue">Subscribing to calendars via RSS</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=737&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="174918-Testing-the-WordPress-50-Block-Editor#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

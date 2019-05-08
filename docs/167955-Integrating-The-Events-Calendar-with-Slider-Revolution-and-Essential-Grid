@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Integrating The Events Calendar with Slider Revolution and Essential Grid</title>        <meta name="keywords" content="The Events Calendar,Article,Beginner,Integrations" />    <meta property="og:url" content="//support.theeventscalendar.com/167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid" />    <meta property="og:title" content="Integrating The Events Calendar with Slider Revolution and Essential Grid" />    <meta property="og:description" content="Many users have asked us how to display The Events Calendar&#039;s events in a slider. The Events Calendar does not include a slider display format on its own, but our Extensions Library (http://theeventsc" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Integrating The Events Calendar with Slider Revolution and Essential Grid</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Integrating The Events Calendar with Slider Revolution and Essential Grid">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="534453-The-Events-Calendar" class="breadcrumb-link">
+    			<span itemprop="name">The Events Calendar</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Integrating The Events Calendar with Slider Revolution and Essential Grid</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Many users have asked us how to display The Events Calendar's events in a slider. The Events Calendar does not include a slider display format on its own, but our <a href="http://theeventscalendar.com/extensions" rel="noopener noreferrer" target="_blank">Extensions Library</a> can help make a slider of events possible.</p>
+
+<p>The <a href="https://theeventscalendar.com/extensions/formatted-event-date-shortcode/">Formatted Event Date Shortcode extension</a>&nbsp;(or the <a href="167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid#tribe_event_inline">[tribe_event_inline] shortcode</a>,&nbsp;if preferred) can be used for many different things, including integrating The Events Calendar with the customizable displays available from <a href="http://themepunch.com" rel="noopener noreferrer" target="_blank">ThemePunch's</a> popular <a href="https://revolution.themepunch.com/" target="_blank">Slider Revolution</a> and <a href="https://essential.themepunch.com/" target="_blank">Essential Grid</a> products.</p>
+
+<hr />
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔&nbsp;Note:</strong> ThemePunch is a third-party developer with no affiliation with Modern Tribe or The Events Calendar. We do not offer support for any ThemePunch products, nor do we have or advertise any "official" integration with them.
+
+<p>This article is merely provided as a hopefully-helpful guide for the many users of both ThemePunch's and Modern Tribe's WordPress products.</p>
+</div>
+
+<hr />
+<h2 id="revslider">Slider Revolution</h2>
+
+<p>Whether you call it Slider Revolution, Revolution Slider, or RevSlider, it's all the same thing. Here's where we'll walk you through a simple example to display some events in a slider.</p>
+
+<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2017/03/The-Events-Calendar-and-Slider-Revolution.png"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/03/The-Events-Calendar-and-Slider-Revolution-665x468.png" /></a></p>
+
+<p>You'll need Slider Revolution version 5.3.0 or later (released October 21, 2016) because that is the version that added Post ID <em><strong>{{id}}</strong></em> into the Meta List.</p>
+
+<p>The <strong>Formatted Event Date Shortcode</strong>, linked at the beginning of this article, is required because <strong>that's how we'll get the event's start and/or end dates to appear accurately, from the event's Post ID.</strong></p>
+
+<p>After having&nbsp;<a href="https://www.themepunch.com/revslider-doc/welcome-slider-revolution/" target="_blank">basic familiarity with Slider Revolution</a>&nbsp;follow these steps:</p>
+
+<ol>
+	<li><a href="https://www.themepunch.com/revslider-doc/first-steps/" target="_blank">Create a new slider</a>, whether a blank one, from a demo, or from their Template Library.</li>
+	<li>Add a new <a href="https://www.themepunch.com/revslider-doc/post-based-slider/" target="_blank"><strong>Post-Based</strong> Slider</a></li>
+	<li>Under Post Types, select <strong>Event</strong></li>
+	<li>Adjust the other settings as desired (e.g. select specific Event Categories). We'd also recommend paying attention to the "Max Posts Per Slider". It defaults to 30 but a number closer to 3 or 5 is usually more appropriate.</li>
+	<li>Save your settings and then go to "Slide Editor"</li>
+	<li>Edit an existing Text/HTML layer or click "Add Layer" and then "Text/HTML".</li>
+	<li>Within the text box that gets added, click the Filter icon to bring up the "Insert Meta" dialog. Then select <em>{{title}}</em>, <em>{{excerpt}}</em>, or whatever else you want to display on this slide template. Here's an example:
+	<pre>
+[tribe_formatted_event_date id={{id}} format="F j, Y g:ia"] - [tribe_formatted_event_date id={{id}} format="g:ia T" start_end="end"]</pre>
+
+	<p>(Note that you are basically avoiding using <em>{{date}}</em>, unless you want to show when this event was published instead of when it will occur.)</p>
+	</li>
+	<li>You'll likely also want to <a href="https://www.themepunch.com/faq/how-to-hyperlink-slides-and-layers/" target="_blank">hyperlink the entire slide or a layer to the event's Permalink</a>.</li>
+	<li>Then insert this slider&nbsp;wherever you want throughout your site, <a href="https://www.themepunch.com/revslider-doc/add-to-web-page/" target="_blank">via shortcode,&nbsp;widget, or Visual Composer</a>.</li>
+</ol>
+
+<h3 id="revslider-custom-queries">Slider Revolution Custom Queries</h3>
+
+<p>If you'd like your slider to only display <a href="328998-Featured-Events">Featured Events</a>&nbsp;that have a Featured Image, you can add this code snippet to your active child theme's functions.php file or your own custom plugin (make sure to read the code's comments):</p>
+
+<code data-gist-id="30ac2152a8264ef27235b46b7d16332d"></code>
+
+<h2 id="essential-grid">Essential Grid</h2>
+
+<p>Essential Grid is a completely separate plugin from Slider Revolution so the steps to integrate the <strong>Formatted Event Date Shortcode</strong>, linked&nbsp;at the beginning of this article, are different.</p>
+
+<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2017/03/The-Events-Calendar-and-Essential-Grid.png"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/03/The-Events-Calendar-and-Essential-Grid-665x520.png" /></a></p>
+
+<p>After having <a href="https://www.themepunch.com/essgrid-doc/welcome-essential-grid/" target="_blank">basic familiarity with Essential Grid</a>, follow these steps:</p>
+
+<ol>
+	<li>At wp-admin &gt; Ess. Grid &gt; Item Skin Editor,&nbsp;<a href="https://www.themepunch.com/essgrid-doc/item-skin-editor/" target="_blank">duplicate an existing Skin</a> or otherwise create your own. Give it a name (e.g. Events Skin) and mark it as a Favorite. Click to edit this Skin.</li>
+	<li>Under the Available Layers, click the Texts tab and drag one of those text styles in a DROP ZONE.</li>
+	<li>Click the text to edit this layer's settings. Set its Source to Text/HTML, and enter your Formatted Event Date Shortcode there, using the&nbsp;<em><strong>%post_id%</strong></em>&nbsp;Meta Handle. Here is an example:
+	<pre>
+Event Time: [tribe_formatted_event_date id=%post_id% format='F j, Y g:ia'] - [tribe_formatted_event_date id=%post_id% format='g:ia T' start_end='end']</pre>
+
+	<p>(Note that some users reported&nbsp;that a space before the closing bracket is required for their Essential Grid shortcodes to render&nbsp;properly.)</p>
+	</li>
+	<li>You'll also likely want to <a href="https://www.themepunch.com/essgrid-doc/grid-item-links/" target="_blank">link the grid item to the event's Permalink</a>.</li>
+	<li>Once you have finished editing (and saved) the Skin's other settings so it's ready for use, create a new Essential Grid--a new <a href="https://www.themepunch.com/essgrid-doc/core-anatomy-of-an-essential-grid/#post-based-grid" target="_blank"><strong>Post-Based</strong>&nbsp;Grid</a></li>
+	<li>Under the Source tab's Post Types, select <strong>Event</strong>.</li>
+	<li>Under the Skins tab, filter for your Favorites and click to select your Events Skin (or whatever you named it).</li>
+	<li>Adjust the other settings as desired and save.</li>
+	<li>Then insert this Essential Grid wherever you want throughout your site, via <a href="https://www.themepunch.com/essgrid-doc/add-web-page/" target="_blank">shortcode</a> or widget.</li>
+</ol>
+
+<h3 id="eg-custom-queries">Essential Grid Custom Queries</h3>
+
+<p>If you'd like your grid&nbsp;to only display <a href="328998-Featured-Events">Featured Events</a>&nbsp;that have a Featured Image, you can add this code snippet to your active child theme's functions.php file or your own custom plugin (make sure to read the code's comments):</p>
+
+<code data-gist-id="a6aad3c60f469970b1ecb209d85ec755"></code>
+
+<p>You might also want to reference ThemePunch's snippet to <a href="https://www.themepunch.com/faq/exclude-current-post/" target="_blank">exclude the current post from being included in the grid</a> (useful for "Related Posts" grids).</p>
+
+<h2 id="tribe_event_inline">PRO's tribe_event_inline shortcode</h2>
+
+<p>All of the information above works <em>without</em> needing our <a href="http://m.tri.be/k0">Events Calendar PRO</a>&nbsp;add-on.</p>
+
+<p>If you <em>are</em> using our PRO add-on, you have another (and possibly easier) option available to you: the&nbsp;<a href="701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode"><em>tribe_event_inline</em> shortcode</a>.</p>
+
+<p>Using this shortcode, here's&nbsp;an example of what you might enter onto a slide:</p>
+
+<pre>
+[tribe_event_inline id={{id}}]
+Time: {start_date} @ {start_time} – {end_date} @ {end_time}
+[/tribe_event_inline]</pre>
+
+<p>(For the example above, remember to replace&nbsp;<em>{{id}}</em> with&nbsp;<em>%post_id%</em>&nbsp;when using Essential Grid.)</p>
+
+<p>The reasons this solution may be easier for you include:</p>
+
+<ol>
+	<li>It does not require installing an extension</li>
+	<li>The <em>start_date</em>, <em>start_time</em>, <em>end_date</em>, and <em>end_time</em> shortcode variables display in the date formats you have already set in your WordPress and calendar format options.</li>
+</ol>
+
+<p>If you do not have PRO or want to display the date or time in a unique format, you will need to use the Formatted Event Date Shortcode extension.</p>
+
+<h2 id="support">Support</h2>
+
+<p>This article is for reference only. Neither Modern Tribe nor ThemePunch <em>guarantees</em> support for the others' plugins, but it is reasonable to expect them to continue working nicely together for the foreseeable future.</p>
+
+<p>If you need assistance with your slider or grid settings, you'll need to contact <a href="https://www.themepunch.com/support-center/" target="_blank">ThemePunch's support</a>.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Mar 25, 2019, 02:08 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-25" itemprop="dateModified">Mar 25 (43 days ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="625">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
+        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
+        <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="629477-Using-the-Classic-Editor-with-WordPress-50" class="article-link article-link-735" title="Using the Classic Editor with WordPress 5.0">
+        <span class="TitleValue">Using the Classic Editor with WordPress 5.0</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="838016-An-Introduction-to-Event-Blocks" class="article-link article-link-733" title="An Introduction to Event Blocks">
+        <span class="TitleValue">An Introduction to Event Blocks</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="869262-Disable-the-events-menu-on-the-dashboard-for-non-admins" class="article-link article-link-283" title="Disable the events menu on the dashboard for non-admins">
+        <span class="TitleValue">Disable the events menu on the dashboard for non-admins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="421521-Add-start-time-to-event-title-in-Month-View" class="article-link article-link-317" title="Add start time to event title in Month View">
+        <span class="TitleValue">Add start time to event title in Month View</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="405065-Change-the-default-startend-time-for-new-events" class="article-link article-link-407" title="Change the default start/end time for new events">
+        <span class="TitleValue">Change the default start/end time for new events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="518116-Make-links-to-an-event-go-straight-to-the-Event-Website-URL" class="article-link article-link-495" title="Make links to an event go straight to the Event Website URL">
+        <span class="TitleValue">Make links to an event go straight to the Event Website URL</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
+        <span class="TitleValue">Changing the browser title for calendar views</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
+        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=625&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

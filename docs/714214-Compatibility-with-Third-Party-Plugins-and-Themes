@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="714214-Compatibility-with-Third-Party-Plugins-and-Themes" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Compatibility with Third Party Plugins and Themes</title>        <meta name="keywords" content="Article,Beginner,Compatibility,event,tickets,plugins,work,event tickets,event tickets plus,products,event aggregator,support,themes,tickets plus,help desk,third-party,page builder plugins,page builder,builder plugins,third-party sites,compatible products,product pages,standards" />    <meta property="og:url" content="//support.theeventscalendar.com/714214-Compatibility-with-Third-Party-Plugins-and-Themes" />    <meta property="og:title" content="Compatibility with Third Party Plugins and Themes" />    <meta property="og:description" content="We often receive inquiries via our helpdesk regarding the compatibility of third-party sites, services, themes, and plugins with our products. While we aren&#039;t able to provide a comprehensive list of a" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Compatibility with Third Party Plugins and Themes</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Compatibility with Third Party Plugins and Themes">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/714214-Compatibility-with-Third-Party-Plugins-and-Themes"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="757786-General" class="breadcrumb-link">
+    			<span itemprop="name">General</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Compatibility with Third Party Plugins and Themes</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="714214-Compatibility-with-Third-Party-Plugins-and-Themes" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>We often receive inquiries via our helpdesk regarding the compatibility of third-party sites, services, themes, and plugins with our products. While we aren't able to provide a comprehensive list of <em>all</em> third-party offerings that work with our plugins, we've compiled here a list of helpful tips and key points to look for when seeking compatible products.</p>
+
+<h3 id="browsers">Browsers</h3>
+
+<p>We've provided a breakdown of which desktop browsers are fully supported by our plugins on <a href="418822-What-browsers-do-you-support">this Knowledgebase article</a>. Current mobile browsers for smartphones/tablets that support the listed web standards (HTML5, CSS3, and JavaScript) should also be compatible; if you aren't sure whether your preferred browser meets these criteria, we recommend referring to your browser's documentation or reaching out to the developer for more information.</p>
+
+<h3 id="themes">Themes</h3>
+
+<p>We've developed our plugins in accordance with the strictest WordPress.org standards to ensure that they look great and--more importantly--<em>work</em> great on the widest variety of WordPress-based sites. You'll enjoy the best experience and enjoy the benefits of guaranteed compatibility and full support&nbsp;when working with themes that are developed to the same standards. Developers that adhere to these standards will generally disclose this information prominently wherever their themes are distributed. <a href="https://arraythemes.com" rel="noopener" target="_blank">Array Themes</a> is one such example, though many others do exist!</p>
+
+<p>If you're not sure whether your theme meets WordPress coding standards, worry not--many other themes will still work beautifully with our plugins, and we do try to support as many different themes as possible. It's worth noting, however, that should you encounter any problems working with our plugins while an unsupported theme is active, you may be asked to perform <a href="303643-Testing-for-conflicts#look-for-solution">conflict testing</a> and temporarily switch to a default theme by our support team. If your third-party theme is established as the source of the conflict, you'll need to seek further assistance from your theme's developer.</p>
+
+<h4 id="page_builders">Frameworks/Page Builders</h4>
+
+<p>While frameworks and page builders are undoubtedly popular both as standalone plugins and bundled theme-based solutions, their usage can present real problems when paired with other WordPress plugins, including our own. Many page builder plugins are implemented using development practices that are unusual and do not conform to WordPress standards, which can manifest as serious issues when conflicting (standards-compliant) code is introduced through other plugins. <a href="https://pippinsplugins.com/" rel="noopener" target="_blank">Pippin's Plugins</a> has a great write-up that summarizes some of the inherent issues with page builder plugins and reviews a number of popular solutions to provide some solid, broadly-compatible recommendations. We highly recommend giving it a read and making your selection from one of the top picks suggested there! (If you don't have the time to complete a full reading, you can grab the author's recommendations from the bottom of the post.)</p>
+
+<ul>
+	<li><a href="https://pippinsplugins.com/wordpress-page-builder-plugins-critical-review/" rel="noopener" target="_blank"><strong>WordPress Page builder plugins: a critical review</strong></a></li>
+</ul>
+
+<h3 id="sites_services">Third-Party Sites/Services</h3>
+
+<p>At the moment, the only official third-party integrations that are provided by our plugins are as follows:</p>
+
+<ul>
+	<li><strong>Eventbrite</strong> (<a href="https://theeventscalendar.com/product/wordpress-eventbrite-tickets/">Eventbrite Tickets</a>)</li>
+	<li><strong>Facebook</strong> (<a href="https://theeventscalendar.com/product/event-aggregator/">Event Aggregator</a>)</li>
+	<li><strong>Google Calendar</strong> (<a href="https://theeventscalendar.com/product/event-aggregator/">Event Aggregator</a>)</li>
+	<li><strong>Meetup</strong> (<a href="https://theeventscalendar.com/product/event-aggregator/">Event Aggregator</a>)</li>
+</ul>
+
+<p>We don't offer supported integrations for any other third-party sites or services at this time, though other solutions for our products may exist. Please note, however, that we're unable to provide support for third-party add-ons to our products. Should any issues occur related to the use of these add-ons with our plugins, you'll need to connect with the add-on developer(s) directly.</p>
+
+<h3 id="woocommerce">WooCommerce Extensions</h3>
+
+<p><a href="https://theeventscalendar.com/product/wordpress-event-tickets-plus/">Event Tickets Plus</a> was developed from the ground up with tight&nbsp;<a href="https://woocommerce.com" rel="noopener" target="_blank">WooCommerce</a> integration in mind, so most extensions developed for WooCommerce should work just as well with Event Tickets Plus alongside. To ensure proper functionality with your tickets, however, you'll want to make sure that any extensions you select are fully compatible with <strong>virtual products</strong> and the "<strong>Simple</strong>" product type. If you aren't sure, check with the extension's developer before installing. It's also worth noting that <strong>extensions that operate on individual product pages will not work with Event Tickets Plus</strong>, as tickets are embedded directly into a given post, page, or event, and WooCommerce product pages are not accessed at any point during the purchasing flow.</p>
+
+<hr />
+<p>We hope that this list can serve as a helpful reference to you as you're seeking out compatible products to pair with our plugin offerings! If you should have any questions about a particular combination, we invite you to connect with us over at&nbsp;<a href="submit_ticket">our help desk</a>!</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 20, 2018, 12:12 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-20" itemprop="dateModified">Dec 20 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="647">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="588130-Pre-Sales-Questions" class="article-link article-link-865" title="Pre-Sales Questions">
+        <span class="TitleValue">Pre-Sales Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="345413-General-Sales--Account-Questions" class="article-link article-link-859" title="General Sales &amp; Account Questions">
+        <span class="TitleValue">General Sales &amp; Account Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="210263-Free-Support-Resources" class="article-link article-link-857" title="Free Support Resources">
+        <span class="TitleValue">Free Support Resources</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="315237-Creating-Site-Backups" class="article-link article-link-729" title="Creating Site Backups">
+        <span class="TitleValue">Creating Site Backups</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="178892-Change-the-wording-of-any-bit-of-text-or-string" class="article-link article-link-333" title="Change the wording of any bit of text or string">
+        <span class="TitleValue">Change the wording of any bit of text or string</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="article-link article-link-671" title="Best Practices for Implementing Custom Code Snippets">
+        <span class="TitleValue">Best Practices for Implementing Custom Code Snippets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="713863-PHP-Version-Requirement-Changes" class="article-link article-link-681" title="PHP Version Requirement Changes">
+        <span class="TitleValue">PHP Version Requirement Changes</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="093589-Custom-Development" class="article-link article-link-687" title="Custom Development">
+        <span class="TitleValue">Custom Development</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="192116-Support-Team-Webinars" class="article-link article-link-691" title="Support Team Webinars">
+        <span class="TitleValue">Support Team Webinars</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="481188-Bundle-Discounts" class="article-link article-link-693" title="Bundle Discounts">
+        <span class="TitleValue">Bundle Discounts</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 64 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=647&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="714214-Compatibility-with-Third-Party-Plugins-and-Themes#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>
