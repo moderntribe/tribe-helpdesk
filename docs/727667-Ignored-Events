@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="727667-Ignored-Events" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Ignored Events</title>        <meta name="keywords" content="Article,Beginner,Event Aggregator,Event Aggregator" />    <meta property="og:url" content="//support.theeventscalendar.com/727667-Ignored-Events" />    <meta property="og:title" content="Ignored Events" />    <meta property="og:description" content="What are Ignored Events?   With The Events Calendar 4.3 and beyond, imported events can be set to the status of Ignored. Marking an imported event as ignored is similar to moving a regular event to th" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Ignored Events</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Ignored Events">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/727667-Ignored-Events"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="000937-Event-Aggregator" class="breadcrumb-link">
+    			<span itemprop="name">Event Aggregator</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Ignored Events</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="727667-Ignored-Events" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><h3 id="overview">What are Ignored Events?</h3>
+
+<p>With The Events Calendar 4.3 and beyond, imported events can be set to the status of Ignored. Marking an imported event as ignored is similar to moving a regular event to the trash. The event record still exists, but the event will not be visible on your calendar.</p>
+
+<p>If an Ignored Event is imported a second time, the event may update (depending on your import update settings) but it will not be duplicated or visible on your calendar. You can safely perform bulk or automatic imports without worrying about duplicate or unwanted events.</p>
+
+<p>Ignored events have their own archive within the events admin just like Trash. You can find any ignored events listed here.</p>
+
+<p style="text-align: center;"><img alt="Ignored Events Archive" src="https://theeventscalendar.com/content/uploads/2016/09/KB-ignored-archive.png" /> Ignored Events Archive</p>
+
+<h3 id="ignore">How to ignore an event</h3>
+
+<p>You can ignore events in the admin events list by clicking the red Hide &amp; Ignore link under an individual event. You can remove multiple events at once by selecting them and using the Move to Trash option but Bulk Actions. Any selected imported events will be moved to Ignored, while conventional events move to the Trash archive.</p>
+
+<p style="text-align: center;"><img alt="Ignoring a single event from within the events admin" src="https://theeventscalendar.com/content/uploads/2016/09/KB-ignore-single-from-archive.png" /><br />
+&nbsp;Ignoring a single event from within the events admin</p>
+
+<p>When viewing an individual event, you can ignore an event by clicking the red Hide &amp; Ignore link under Publish Options.</p>
+
+<p style="text-align: center;"><img alt="Ignoring an event from within the event editor" src="https://theeventscalendar.com/content/uploads/2016/09/KB-ignore-single-edit.png" /><br />
+&nbsp;Ignoring an event from within the event editor</p>
+
+<p>Ignored events can be edited and updated like a standard event. However, they will continue to be hidden from your calendar unless you specifically restore them.</p>
+
+<h3 id="restore">How to restore an event</h3>
+
+<p>If you wish to restore an ignored event, you can do so from the individual event page or the Ignored archive.</p>
+
+<p>From the Ignored Archive, click the Restore link under an individual event to return that event to Published status and add it back to your calendar. Site visitors will now be able to view the event.</p>
+
+<p style="text-align: center;"><img alt="Restoring an Ignored Event" src="https://theeventscalendar.com/content/uploads/2016/09/KB-restore.png" /> Restoring an Ignored Event</p>
+
+<p>You can also select multiple events and use the Restore option under the Bulk Action drop-down.</p>
+
+<p>If you want to restore an event from the single event editor screen, simply click the blue&nbsp;<em>Publish&nbsp;</em>button.</p>
+
+<h3 id="delete">Permanently deleting ignored events</h3>
+
+<p>In some cases, you may want to permanently delete an ignored event. Keep in mind that if you delete the ignored event and then that same event gets re-imported (perhaps in a regularly scheduled import) then the event will come back into your site and show on your calendar. If you want to prevent duplication and keep that event off your calendar, the best thing to do is to leave it as ignored.</p>
+
+<p>That said,&nbsp;if you want to permanently delete an ignored event, you can.&nbsp;Hover over any event in the ignored events archive and you'll see a red&nbsp;<em>Delete Permanently&nbsp;</em>link.​</p>
+
+<p style="text-align: center;">​​​​​​<img alt="Permanently delete an ignored event" src="https://theeventscalendar.com/content/uploads/2016/09/KB-delete-ignored.png" /> Permanently delete an ignored event</p>
+
+<p>You'll also see a&nbsp;<em>Delete Permanently&nbsp;</em>link on individual ignored events.</p>
+
+<p>Once an event is permanently deleted, it is gone from your site and your database.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 28, 2018, 07:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="589">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="290016-Troubleshooting-Duplicate-Imports" class="article-link article-link-849" title="Troubleshooting Duplicate Imports">
+        <span class="TitleValue">Troubleshooting Duplicate Imports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="638957-Other-URL-Import-Errors-in-Event-Aggregator" class="article-link article-link-629" title="&quot;Other URL&quot; Import Errors in Event Aggregator">
+        <span class="TitleValue">&quot;Other URL&quot; Import Errors in Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="017798-Creating-a-hub-site-with-Event-Aggregator" class="article-link article-link-653" title="Creating a hub site with Event Aggregator">
+        <span class="TitleValue">Creating a hub site with Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="374127-Importing-holiday-or-other-special-calendars-with-Event-Aggregator" class="article-link article-link-639" title="Importing holiday or other special calendars with Event Aggregator">
+        <span class="TitleValue">Importing holiday or other special calendars with Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="430949-How-Do-Event-Aggregators-Import-Limits-Work" class="article-link article-link-617" title="How Do Event Aggregator&#039;s Import Limits Work?">
+        <span class="TitleValue">How Do Event Aggregator&#039;s Import Limits Work?</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="650197-Moving-to-Event-Aggregator" class="article-link article-link-613" title="Moving to Event Aggregator">
+        <span class="TitleValue">Moving to Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="710770-New-User-Primer-Event-Aggregator" class="article-link article-link-609" title="New User Primer: Event Aggregator">
+        <span class="TitleValue">New User Primer: Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="114474-Managing-Imported-Events" class="article-link article-link-607" title="Managing Imported Events">
+        <span class="TitleValue">Managing Imported Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="948574-Importing-Events-from-an-ICS-File-with-Event-Aggregator" class="article-link article-link-601" title="Importing Events from an ICS File with Event Aggregator">
+        <span class="TitleValue">Importing Events from an ICS File with Event Aggregator</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="916243-Managing-Your-Scheduled-Imports-in-Event-Aggregator" class="article-link article-link-595" title="Managing Your Scheduled Imports in Event Aggregator">
+        <span class="TitleValue">Managing Your Scheduled Imports in Event Aggregator</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="000937-Event-Aggregator" class="MoreLinkTitle">and 12 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=589&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="727667-Ignored-Events#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

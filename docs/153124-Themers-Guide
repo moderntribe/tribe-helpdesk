@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="153124-Themers-Guide" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Themer&#039;s Guide</title>    <meta name="description" content="Need help customizing how The Events Calendar or our other plugins work on your site? Start in our Themer&#039;s Guide. " />    <meta name="keywords" content="Events Calendar PRO,The Events Calendar,Article,Intermediate,Theming Overview,Templates,events,events calendar,single event,template,requests navigating and filtering results,title includes the nav template,ajax requests navigating and filtering,includes the single event template,includes the single event,return ajax requests navigating,parent folder located at /wp-content/plugins/,view template includes the tribe,event submission form to allow,template includes the tribe bar,nav template the events loop,parent folder located,title includes the nav,navigating and filtering results,requests navigating and filtering,includes the nav template" />    <meta property="og:url" content="//support.theeventscalendar.com/153124-Themers-Guide" />    <meta property="og:title" content="Themer&#039;s Guide" />    <meta property="og:description" content="Looking for a straightforward way to adjust the appearance of the calendar? Check out our theme customizer integration (https://support.theeventscalendar.com/451403-The-Events-Calendar-and-the-WordPre" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Themer&#039;s Guide</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Themer&#039;s Guide">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/153124-Themers-Guide"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="064341-Events-Calendar-PRO" class="breadcrumb-link">
+    			<span itemprop="name">Events Calendar PRO</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Themer&#039;s Guide</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="153124-Themers-Guide" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>Looking for a straightforward way to adjust the appearance of the calendar?</strong> Check out our <a href="451403-The-Events-Calendar-and-the-WordPress-Customizer" rel="noopener" target="_blank">theme customizer integration</a> — it provides a fast and easy way to change many aspects of your calendar's appearance. If you need to do something a little more complex, however, read on…</div>
+
+<p><em>¿Estás buscando la versión en español? <a href="928476-Guía-para-Personalizar-los-Plugins">Haz click aquí</a></em></p>
+
+<p>&nbsp;</p>
+
+<h3 dir="ltr" id="custom-files">Customizing Template Files</h3>
+
+<p dir="ltr">The Events Calendar comes with a number of template files that determine how the plugin looks and behaves; we call these <em>views</em>. In addition to creating a new Page Template, you can override these files with custom files that you place in your theme.</p>
+
+<p>It’s important that you <strong>don’t edit the view files directly in the plugin</strong>—you should <strong>copy them into your theme first, and edit them there</strong>. This will ensure that any modifications you do make will not be overwritten by updating the plugin. (We strongly recommend performing your template overrides within a <a href="https://developer.wordpress.org/themes/advanced-topics/child-themes/">child theme</a>—<a href="https://wordpress.org/plugins/child-theme-configurator/">this plugin</a> can be helpful to create one—to avoid your customizations being overwritten when updating the parent theme.) The Events Calendar will ensure that your modified files, in the correct folder, will override the plugin files.</p>
+
+<p dir="ltr">Here's how it's done:</p>
+
+<p dir="ltr"><strong>1. Make a copy of the templates you want to customize</strong></p>
+
+<p dir="ltr">The template view files are located inside the plugin folder's <kbd>/src/views/</kbd> directory. For example:</p>
+
+<ul>
+	<li>The Events Calendar template files:<br />
+	<kbd>/wp-content/plugins/the-events-calendar/src/views/</kbd></li>
+	<li>Events Calendar Pro template files:<br />
+	<kbd>/wp-content/plugins/events-calendar-pro/src/views/</kbd></li>
+	<li>Community Events add-on template files:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-community-events/src/views/</kbd></li>
+	<li>Community Tickets add-on template files:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-community-events-tickets/src/views/</kbd></li>
+	<li>Event Ticket add-on template files:<br />
+	<kbd>/wp-content/plugins/event-tickets/src/views/</kbd></li>
+	<li>Event Ticket Plus add-on template files:<br />
+	<kbd>/wp-content/plugins/event-tickets-plus/src/views/</kbd></li>
+	<li>Eventbrite Tickets add-on template files:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-eventbrite-tickets/src/views/</kbd></li>
+	<li>Filter Bar add-on template files:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-filterbar/src/views/</kbd></li>
+	<li>iCal Importer add-on template files:<br />
+	<kbd>/wp-content/plugins/the-events-calendar-importer-ical/src/views/</kbd></li>
+</ul>
+
+<p>You can also modify the selected Events Template’s markup. To do that, first find out what Events Template you are using by heading to Events → Settings → Display in your site's wp-admin, and looking for the Events Template option. If you have selected the Default Events Template, the plugin will use the <kbd>/wp-content/plugins/the-events-calendar/src/views/default-template.php</kbd> template file for the display. You can override and edit this by making a copy and placing in a <kbd>/tribe-events</kbd> folder in your theme.</p>
+
+<p>All of the other Events Template options will use one of your available theme page templates (<kbd>page.php</kbd>, <kbd>full-width.php</kbd>, etc.), which you can also edit.</p>
+
+<p>Based upon what Events Template you’ve chosen, you will need to use <a href="https://gist.github.com/jo-snips/2415009">these conditional wrappers</a> to help you conditionally display or not display certain markup on each corresponding events page.</p>
+
+<p dir="ltr" id="create-new-folder"><strong>2. Create a new folder in your theme</strong></p>
+
+<p dir="ltr">Start by opening your theme folder, located at <kbd>wp-content/themes/your-child-theme/</kbd>. You will need to create a new folder here, which will be the parent folder that contains all event template overrides.</p>
+
+<p dir="ltr"><strong><em>Classic Editor Templates</em></strong></p>
+
+<p dir="ltr">For events created with the Classic Editor, the folder you create will need to be titled "tribe-events". Your new file path will be:</p>
+
+<p dir="ltr" style="margin-left: 40px;"><kbd>wp-content/themes/your-child-theme/tribe-events/</kbd></p>
+
+<p dir="ltr">For specific premium add-ons, you will also need to create a new folder&nbsp;<strong>inside</strong> <kbd>/tribe-events</kbd> for specific premium add-ons</p>
+
+<ul>
+	<li>Community Events: <kbd style="line-height: 1.5;">/tribe-events/community/</kbd></li>
+	<li dir="ltr">Events Calendar Pro: <kbd style="line-height: 1.5;">/tribe-events/pro/</kbd></li>
+	<li dir="ltr">Event Tickets: <kbd style="line-height: 1.5;">/tribe-events/tickets/</kbd></li>
+	<li dir="ltr">Filter Bar: <kbd style="line-height: 1.5;">/tribe-events/filter-bar</kbd></li>
+</ul>
+
+<p><strong><em>Block Editor Templates</em></strong></p>
+
+<p>For events created with the Gutenberg Block Editor, the folder you create will need to be titled "tribe". <strong>Inside</strong> this folder, you will need to create another folder called either "events" or "tickets", depending on which type of template you are overriding. The file structure will look like this:</p>
+
+<p style="margin-left: 40px;"><kbd>wp-content/themes/your-child-theme/tribe/events/</kbd></p>
+
+<p style="margin-left: 40px;"><kbd>wp-content/themes/your-child/theme/tribe/tickets/</kbd></p>
+
+<p>If you are overriding both event and ticket templates, you will need to create both folders inside your new "tribe" folder.</p>
+
+<p><strong>3. Drop the copied template file you want to customize in its corresponding folder in your theme directory</strong></p>
+
+<p>For example, if you have made a copy of&nbsp;this file:</p>
+
+<ul>
+	<li><kbd>/wp-content/plugins/the-events-calendar/src/views/single-event.php</kbd></li>
+</ul>
+
+<p>...then you will drop that copied file directly into the <kbd>/tribe-events</kbd> folder you created in your theme in Step 2.</p>
+
+<p>Similarly, if you create a duplicate of Events Calendar PRO's Photo View Single Event template:</p>
+
+<ul>
+	<li><kbd>/wp-content/plugins/events-calendar-pro/src/views/pro/photo/single-event.php</kbd></li>
+</ul>
+
+<p>...then you would drop that copied file into the corresponding folder in your child theme:</p>
+
+<ul>
+	<li><kbd>/wp-content/themes/[your-child-theme]/tribe-events/pro/photo/</kbd></li>
+</ul>
+
+<p>Note that some of the templates are different for events/tickets created with blocks. For events, you will want to copy <kbd>single-event-blocks.php</kbd> instead of <kbd>single-event.php</kbd> (remember to use the "tribe/events" folder structure in your child theme instead of "tribe-events", as noted above). You'll find some additional events templates in <kbd>the-events-calendar/src/views/blocks/</kbd>.</p>
+
+<p>For tickets, all block-related templates will be found in <kbd>/event-tickets/src/views/blocks/</kbd>. For any templates copied from the "blocks" folders (<strong>for events and tickets</strong>), you'll need to create a "blocks" folder <strong>inside</strong> the "tribe/events" or "tribe/blocks"&nbsp;folders that you created in your child theme. For example, the <kbd>tickets.php</kbd> template copied from <kbd>event-tickets/src/views/blocks/</kbd> would be copied into <kbd>/your-child-theme/tribe/tickets/blocks/tickets.php</kbd>.</p>
+
+<p>Now that the templates are in your theme, you can modify the code to suit your needs and that will override the plugin's template files.</p>
+
+<p><a name="examples"></a></p>
+
+<h3 dir="ltr" id="examples">Example Customization</h3>
+
+<p dir="ltr">Let’s take a look at an example of a very simple template view customization. This should give you an idea of the workflow.</p>
+
+<p dir="ltr">By default, The Events Calendar displays just the venue name underneath each event date. Here’s what it looks like:</p>
+
+<p dir="ltr"><img alt="KB themers guide 1" src="https://theeventscalendar.com/content/uploads/2014/09/KB-themers-guide-1-300x50.png" /></p>
+
+<p dir="ltr">But what if you also want to show the event organizer? So, for example, you would instead have something that looks like <em>this</em>:</p>
+
+<p dir="ltr"><img alt="KB themers guide 2" src="https://theeventscalendar.com/content/uploads/2014/09/KB-themers-guide-2-665x148.png" /></p>
+
+<p dir="ltr">Here’s how that’s done:</p>
+
+<ul>
+	<li style="list-style-type: none;">
+	<ol>
+		<li dir="ltr">
+		<p dir="ltr">Copy <kbd>/wp-content/plugins/the-events-calendar/src/views/list/single-event.php</kbd> to <kbd>/your-child-theme/tribe-events/list/single-event.php</kbd> (replace <kbd>/your-child-theme</kbd> with the actual folder name of your theme, of course)</p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Edit <kbd>/your-child-theme/tribe-events/list/single-event.php</kbd> and add the following code underneath the venue details:</p>
+
+		<p><code>&lt;p&gt;Organized by: &lt;?php echo tribe_get_organizer(); ?&gt;&lt;/p&gt;</code></p>
+		</li>
+		<li dir="ltr">
+		<p dir="ltr">Save, and you’re done!</p>
+		</li>
+	</ol>
+	</li>
+</ul>
+
+<p dir="ltr"><strong>Every template view customization follows that basic pattern: copy the file you wish to edit to your theme folder, then customize the <em>copied</em> file.</strong> This protects your edits whenever you update The Events Calendar and its add-ons.</p>
+
+<hr />
+<p>⚠ <strong>Please Remember!</strong> If you change your WordPress theme, you’ll need to copy all of your customizations to the new theme’s folder. And if you auto-update your theme with the <kbd>/tribe-events</kbd> folder within it, you will likely lose that folder and all of its files since it is not a default folder of the theme. <strong>Be sure to back up all custom files frequently!</strong></p>
+
+<p dir="ltr">You’re now set up to start customizing The Events Calendar.</p>
+
+<p><a name="viewstemplates"></a></p>
+
+<h3 dir="ltr" id="views-templates">Views &amp; Templates</h3>
+
+<h4 dir="ltr" id="TEC">The Events Calendar</h4>
+
+<p>Parent folder located at:<br />
+<kbd>/wp-content/plugins/the-events-calendar/src/views/</kbd></p>
+
+<p><strong>Single Event View</strong></p>
+
+<ul>
+	<li><strong><kbd>single-event.php</kbd></strong> — Used to display individual events</li>
+	<li><strong><kbd>single-event-blocks.php</kbd></strong> — Used to display individual events created with blocks (note the <a href="153124-Themers-Guide#create-new-folder">different file structure</a> in your child theme)</li>
+	<li><strong><kbd>modules/address.php</kbd></strong> — Displays the event's venue address</li>
+	<li><strong><kbd>widgets/calendar-widget.php</kbd></strong></li>
+	<li><strong><kbd>modules/meta.php</kbd></strong> — Used within single-event.php to display meta information for an event</li>
+	<li><strong><kbd>modules/meta/details.php</kbd></strong> — Adds information such as the start and end time within the meta section</li>
+	<li><strong><kbd>modules/meta/map.php</kbd></strong> - Renders a map within the meta section</li>
+	<li><strong><kbd>modules/meta/organizer.php</kbd></strong> - Adds organizer information to the meta section</li>
+	<li><strong><kbd>modules/meta/venue.php</kbd></strong> - Adds venue information to the meta section</li>
+</ul>
+
+<p dir="ltr"><strong>Day View</strong></p>
+
+<ul>
+	<li><strong><kbd>day.php</kbd></strong> - Wrapper for the day view template, includes the tribe bar and then the day content template</li>
+	<li><strong><kbd>day/content.php</kbd></strong> - Main content template, contains the title, includes the nav template, the events loop, and the footer. This is the template that’s used to return ajax requests navigating and filtering results on list view</li>
+	<li><strong><kbd>day/nav.php</kbd></strong> - Contains the next and previous links</li>
+	<li><strong><kbd>day/loop.php</kbd></strong> - Contains the structure for the loop of events. Includes the single event template</li>
+	<li><strong><kbd>day/single-event.php</kbd></strong> - Template for a single event in day view</li>
+</ul>
+
+<p dir="ltr"><strong>List View</strong></p>
+
+<ul>
+	<li><strong><kbd>list.php</kbd></strong> - Wrapper for the list view template, includes the tribe bar and then the list content template</li>
+	<li><strong><kbd>list/content.php</kbd></strong> - Main content template for list view, contains the title, includes the nav template, the events loop, and the footer. This is the template that’s used to return ajax requests navigating and filtering results on list view</li>
+	<li><strong><kbd>list/nav.php</kbd></strong> - Contains the next and previous links</li>
+	<li><strong><kbd>list/loop.php</kbd></strong> - Contains the structure for the loop of events. Includes the single event template</li>
+	<li><strong><kbd>list/single-event.php</kbd></strong> - Template for a single event in list view</li>
+</ul>
+
+<p dir="ltr"><strong>Month View</strong></p>
+
+<ul>
+	<li><strong><kbd>month.php</kbd></strong> - Wrapper for the month view template, includes the tribe bar and then the month content template</li>
+	<li><strong><kbd>month/content.php</kbd></strong> - Main content template for month view, contains the title, includes the nav template, the grid loop, and the footer. This is the template that’s used to return ajax requests navigating and filtering results on month view</li>
+	<li><strong><kbd>month/mobile.php</kbd></strong> - The template used to display the Month View's mobile version</li>
+	<li><strong><kbd>month/nav.php</kbd></strong> - Contains the next and previous links</li>
+	<li><strong><kbd>month/loop-grid.php</kbd></strong> - Contains the loop structure that loops through all the days in the month, includes the single day template</li>
+	<li><strong><kbd>month/single-day.php</kbd></strong> - Contains the day number and a loop for the events in each day, includes the single event template</li>
+	<li><strong><kbd>month/single-event.php</kbd></strong> - Contains a single event in month view</li>
+	<li><strong><kbd>month/tooltip.php</kbd></strong> - Constructs the pop-over effect when hovering over a day in Month View. Note that this template uses Javascript templating and markup.</li>
+</ul>
+
+<p><strong>Modules</strong></p>
+
+<ul>
+	<li><strong><kbd>modules/bar.php</kbd></strong> - The main navigation for the calendar</li>
+	<li><strong><kbd>modules/map.php</kbd></strong> - Displays the embedded Google Map on a single event or Venue archive</li>
+</ul>
+
+<p><strong>Embedded Events</strong></p>
+
+<ul>
+	<li><strong><kbd>embed.php</kbd></strong> - Contains the post embed base template</li>
+	<li><strong><kbd>embed/content.php</kbd></strong> - The content template for the embed view</li>
+	<li><strong><kbd>embed/cost.php</kbd></strong> - The cost template for the embed view</li>
+	<li><strong><kbd>embed/footer.php</kbd></strong> - The footer template for the embed view</li>
+	<li><strong><kbd>embed/image.php</kbd></strong> - The featured image template for the embed view</li>
+	<li><strong><kbd>embed/meta.php</kbd></strong> - The template for displaying meta details in the embed view.</li>
+	<li><strong><kbd>embed/schedule.php</kbd></strong> - The schedule details template for the embed view</li>
+	<li><strong><kbd>embed/venue.php</kbd></strong> - The venue information for the embed view.</li>
+</ul>
+
+<p dir="ltr"><strong>Widgets</strong></p>
+
+<ul>
+	<li dir="ltr">
+	<p dir="ltr"><strong><kbd>widgets/list-widget.php</kbd></strong> - Template for the list widget included with the free Events plugin</p>
+	</li>
+</ul>
+
+<h4 dir="ltr" id="PRO">Events Calendar PRO</h4>
+
+<p>Parent folder located at:<br />
+<kbd>/wp-content/plugins/events-calendar-pro/src/views/</kbd></p>
+
+<p dir="ltr"><strong>Single Event View</strong></p>
+
+<ul>
+	<li><strong><kbd>modules/meta/additional-fields.php</kbd></strong> - adds additional fields to the single event meta section (see <em><a href="153124-Themers-Guide#modules-meta-tpl">modules/meta.php</a>,</em> above)</li>
+	<li><strong><kbd>related-events.php</kbd></strong> - Template for displaying related events in the single event view</li>
+</ul>
+
+<p dir="ltr"><strong>Map View</strong></p>
+
+<ul>
+	<li><strong><kbd>map.php</kbd></strong> - Contains the overall wrapper markup for map view, includes the template for the Google Map container</li>
+	<li><strong><kbd>map/gmap-container.php</kbd></strong> - Contains the empty HTML element that gets populated with the Google Map via javascript</li>
+	<li><strong><kbd>map/content.php</kbd></strong> - Main content template for map view, contains the title, includes the nav template, the events loop, and the footer. This is the template that’s used to return ajax requests navigating and filtering results on map view</li>
+	<li><strong><kbd>map/nav.php</kbd></strong> - Contains the next and previous links</li>
+	<li><strong><kbd>map/loop.php</kbd></strong> - Contains the structure for the loop of events. Includes the single event template</li>
+	<li><strong><kbd>map/single-event.php</kbd></strong> - Template for a single event in map view</li>
+</ul>
+
+<p dir="ltr"><strong>Photo View</strong></p>
+
+<ul>
+	<li><strong><kbd>photo.php</kbd></strong> - Wrapper for the photo view template, includes the tribe bar and then the photo content template</li>
+	<li><strong><kbd>photo/content.php</kbd></strong> - Main content template, contains the title, includes the nav template, the events loop, and the footer. This is the template that’s used to return ajax requests navigating and filtering results on photo view</li>
+	<li><strong><kbd>photo/nav.php</kbd></strong> - Contains the next and previous links</li>
+	<li><strong><kbd>photo/loop.php</kbd></strong> - Contains the structure for the loop of events. Includes the single event template</li>
+	<li><strong><kbd>photo/single-event.php</kbd></strong> - Template for a single event in photo view</li>
+</ul>
+
+<p dir="ltr"><strong>Week View</strong></p>
+
+<ul>
+	<li><strong><kbd>week.php</kbd></strong> - Wrapper for the week view template, includes the tribe bar and week content template</li>
+	<li><strong><kbd>week/content.php</kbd></strong> - Main content template, contains the title, includes the nav template, the events loop, and the footer. This is the template that’s used to return ajax requests navigating and filtering results on the week grid loop views</li>
+	<li><strong><kbd>week/loop-grid.php</kbd></strong> - Wrapper for the grid loop, contains the week grid day headers</li>
+	<li><strong><kbd>week/loop-grid-allday.php</kbd></strong> - Contains the column structure for the loop of all day events. Includes the single event all day template</li>
+	<li><strong><kbd>week/loop-grid-hourly.php</kbd></strong> - Contains the column structure for the loop of hourly events. Includes the single event hourly template</li>
+	<li><strong><kbd>week/nav.php</kbd></strong> - Contains the next and previous links for navigating between weeks</li>
+	<li><strong><kbd>week/tooltip.php</kbd></strong> - Template for the hover tooltip for expanded event information</li>
+</ul>
+
+<p><strong>Venues and Organizers</strong></p>
+
+<ul>
+	<li><strong><kbd>single-organizer.php</kbd></strong> - Used to list upcoming events related to an individual organizer. This utilizes the list templates for the display of any related upcoming events</li>
+	<li><strong><kbd>single-venue.php</kbd></strong> — Equivalent to the single-organizer.php template but targeting venues, again this utilizes list templates to display any related events</li>
+</ul>
+
+<p dir="ltr"><strong>Widgets</strong></p>
+
+<ul>
+	<li><strong><kbd>widgets/countdown-widget.php</kbd></strong> - Contains the countdown widget</li>
+	<li><strong><kbd>widgets/list-widget.php</kbd></strong> - Contains the list widget included with the premium Events PRO plugin: this overrides any existing template at <em>widgets/list-widget.php</em> (outside of the <em>pro</em> subdirectory). Note that the template will still be respected up until it is removed or a new one is created within the <em>pro</em> subdirectory</li>
+	<li><strong><kbd>widgets/mini-calendar-widget.php</kbd></strong> - Wrapper for the mini calendar widget. Includes the mini calendar grid template and the mini calendar list template</li>
+	<li><strong><kbd>widgets/mini-calendar/grid.php</kbd></strong> - Contains the grid (calendar month) portion of the mini calendar widget. Includes the single day template.</li>
+	<li><strong><kbd>widgets/mini-calendar/list.php</kbd></strong> - This file sets up the structure for the list loop</li>
+	<li><strong><kbd>widgets/mini-calendar/single-day.php</kbd></strong> - Contains a single day in the mini calendar widget. Includes the single event template</li>
+	<li><strong><kbd>widgets/this-week-widget.php</kbd></strong> - Contains the This Week widget</li>
+	<li><strong><kbd>widgets/venue-widget.php</kbd></strong> - Contains the venue widget</li>
+</ul>
+
+<h4 dir="ltr" id="tickets">Events Tickets</h4>
+
+<p>Parent folder located at: <em>/wp-content/plugins/<em>event-tickets</em>/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>shortcodes/my-attendance-list-logged-out.php</kbd></strong> - Renders the logged out message for the My Attendance list</li>
+	<li><strong><kbd>shortcodes/my-attendance-list.php</kbd></strong> - Renders the My Attendance list</li>
+	<li><strong><kbd>tickets/attendees-email.php</kbd></strong> - The template for the email with the attendee list when integrating with ecommerce plugins (like WooCommerce)</li>
+	<li><strong><kbd>tickets/email.php</kbd></strong> - Template for the email the customers get when they purchase tickets for an event. This email is the actual ticket people will use at the door of your event.</li>
+	<li><strong><kbd>tickets/orders.php</kbd></strong> - The template for displaying a customer's purchased orders</li>
+	<li><strong><kbd>tickets/orders-link.php</kbd></strong> - The link generated for a user to see all purchased orders</li>
+	<li><strong><kbd>tickets/orders-rsvp</kbd></strong> - This template renders the RSVP ticket form</li>
+	<li><strong><kbd>tickets/rsvp.php</kbd></strong> - The RSVP form for users on the front-end to RSVP for an event. It shows on the event single if an event has enabled RSVP options.</li>
+	<li><strong><kbd>/blocks/tickets.php</kbd></strong> - Used to display individual tickets created with blocks (note the <a href="153124-Themers-Guide#create-new-folder">different file structure</a> in your child theme)</li>
+</ul>
+
+<h4 dir="ltr" id="tickets-plus">Events Tickets Plus</h4>
+
+<p>Parent folder located at: <em>/wp-content/plugins/<em>event-tickets-plus</em>/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>attendees-list.php</kbd></strong> - The template for the public list of attendees. Note that there is no subdirectory needed for this template and it can go straight into the <em>tribe-events</em> folder when theming.</li>
+	<li><strong><kbd>login-to-purchase.php</kbd></strong> - Renders a link displayed to customers when they must first login before being able to purchase tickets</li>
+	<li><strong><kbd>meta.php</kbd></strong> - The template that displays custom fields that have been created for a ticket to fill in during registration. Note that there is no subdirectory needed for this template and it can go straight into the <em>tribe-events</em> folder when theming.</li>
+	<li><strong><kbd>meta/checkbox.php</kbd></strong> - The template used for displaying checkbox options for custom ticket fields that get imported by meta.php</li>
+	<li><strong><kbd>meta/number.php</kbd></strong> - The template used for displaying numeric custom ticket fields that get imported by meta.php</li>
+	<li><strong><kbd>meta/radio</kbd></strong> - The template used for displaying radio button options for custom ticket fields that get imported by meta.php</li>
+	<li><strong><kbd>meta/select</kbd></strong> - The template used for displaying selectable options for custom ticket fields that get imported by meta.php</li>
+	<li><strong><kbd>meta/text</kbd></strong> - The template used for displaying custom ticket text fields that get imported by meta.php</li>
+	<li><strong><kbd>tickets-plus/orders-edit-meta.php</kbd></strong>- Renders the meta fields for order editing</li>
+	<li><strong><kbd>tickets-plus/orders-tickets.php</kbd></strong> - The list of ticket orders</li>
+	<li><strong><kbd>eddtickets/tickets.php</kbd></strong> - Easy Digital Downloads table of tickets with the button to purchase in the front end. It shows in the event single, if the event has EDD tickets to sell</li>
+	<li><strong><kbd>wootickets/tickets.php</kbd></strong> - WooCommerce table of tickets with the button to purchase in the front end. It shows in the event single, if the event has WooCommerce tickets to sell</li>
+</ul>
+
+<h4 dir="ltr" id="community">Community Events</h4>
+
+<p>Parent folder located at: <em>/wp-content/plugins/<em>the-events-calendar-community-events</em>/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>community/blank-comments-template.php</kbd></strong> -</li>
+	<li><strong><kbd>community/default-placeholder.php</kbd></strong> -</li>
+	<li><strong><kbd>community/edit-event.php</kbd></strong> - The template for event submission for community events</li>
+	<li><strong><kbd>community/edit-organizer.php</kbd></strong> - The template for editing Organizers for community events</li>
+	<li><strong><kbd>community/edit-venue.php</kbd></strong> - The template for editing Venues for community events</li>
+	<li><strong><kbd>community/email-template.php</kbd></strong> — The template used for Community Email alerts</li>
+	<li><strong><kbd>community/event-list.php</kbd></strong> - The template to list logged in user’s events on the front end</li>
+	<li><strong><kbd>community/modules/captcha.php</kbd></strong> - Renders the captcha field in the submission form</li>
+	<li><strong><kbd>community/modules/cost.php</kbd></strong> - Renders the pricing fields in the submission form</li>
+	<li><strong><kbd>community/modules/custom.php</kbd></strong> - This is used to add a metabox to the event submission form to allow for custom field input for user submitted events</li>
+	<li><strong><kbd>community/modules/datepickers.php</kbd></strong> - This is used to add a metabox to the event submission form to allow for choosing the event time and day.</li>
+	<li><strong><kbd>community/modules/delete.php</kbd></strong> - This is used to delete a user submitted event</li>
+	<li><strong><kbd>community/modules/header-links.php</kbd></strong> - The links in the header of the edit form</li>
+	<li><strong><kbd>community/modules/image.php</kbd></strong> - Renders the image upload field in the submission form</li>
+	<li><strong><kbd>community/modules/organizer-fields.php</kbd></strong> - This is used to edit the details of individual organizers (phone, email, etc)</li>
+	<li><strong><kbd>community/modules/organizer-multiple.php</kbd></strong> - The template for constructing multiple organizers in a single event. To avoid code duplication this template lies on The Events Calendar located at <em>the-events-calendar/src/admin-views/linked-post-section.php</em>.</li>
+	<li><strong><kbd>community/modules/organizer.php</kbd></strong> - This is used to add a metabox to the event submission form to allow for choosing or creating an organizer for user submitted events</li>
+	<li><strong><kbd>community/modules/recurrence.php</kbd></strong> - This is used to add a metabox to the event submission form to allow for choosing or creating recurrences of user submitted events.</li>
+	<li><strong><kbd>community/modules/taxonomy.php</kbd></strong> - Renders the taxonomy field in the submission form</li>
+	<li><strong><kbd>community/modules/venue.php</kbd></strong> - This is used to add a metabox to the event submission form to allow for choosing or creating a venue for user submitted events. This is also used in the Venue edit view, so be careful to test changes in both places.</li>
+	<li><strong><kbd>community/modules/website.php</kbd></strong> - Renders the website fields in the submission form</li>
+</ul>
+
+<h4>Community Tickets</h4>
+
+<p>Parent folder located at: <em>/wp-content/plugins/<em>the-events-calendar-community-events-tickets</em>/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>community-tickets/modules/email-item-event-details.php</kbd></strong> - The link to the event from the order details page</li>
+	<li><strong><kbd>community-tickets/modules/orders-report-after-organizer.php</kbd></strong> - Renders the PayPal organizer and a link to the email on record in reports</li>
+	<li><strong><kbd>community-tickets/modules/payment-options.php</kbd></strong> - The template that displays the plugin's payment options</li>
+	<li><strong><kbd>community-tickets/modules/tickets.php</kbd></strong> - Renders the ticket settings in the submission form</li>
+</ul>
+
+<h4>Eventbrite Tickets</h4>
+
+<p>Parent folder located at: <em>/wp-content/plugins/<em>the-events-calendar-eventbrite-tickets/<em>src/</em>views/</em></em></p>
+
+<ul>
+	<li><strong><kbd>eventbrite/add-existing-event.php</kbd></strong> - Displays the existing Eventbrite event (admin fields)</li>
+	<li><strong><kbd>eventbrite/eb-admin-notices.php</kbd></strong> - Renders Eventbrite notices on the WordPress Post Edit screen</li>
+	<li><strong><kbd>eventbrite/eventbrite-events-table.php</kbd></strong> - Displays the existing Eventbrite event in the event meta box</li>
+	<li><strong><kbd>eventbrite/eventbrite-meta-box-extension.php</kbd></strong> - Displays the existing Eventbrite event meta box in the editor</li>
+	<li><strong><kbd>eventbrite/import-eventbrite-events.php</kbd></strong> - Import events from Eventbrite events in the admin form</li>
+	<li><strong><kbd>eventbrite/hooks/ticket-form.php</kbd></strong> - This file contains the hook logic required to create an effective address module view</li>
+	<li><strong><kbd>eventbrite/modules/ticket-form.php</kbd></strong> - This view contains the filters required to create an effective ticket form module view</li>
+</ul>
+
+<h4>Filter Bar</h4>
+
+<p>Parent folder located at: <em>/wp-content/plugins/the-events-calendar-filterbar/<em>src/</em>views/</em></p>
+
+<ul>
+	<li><strong><kbd>filter-bar/filter-view-horizontal.php</kbd></strong> - This contains the hooks to generate a filter sidebar in a horizontal layout</li>
+	<li><strong><kbd>filter-bar/filter-view-vertical.php</kbd></strong> - This contains the hooks to generate a filter sidebar in a vertical layout</li>
+</ul>
+
+<p><a name="customizingstyles"></a></p>
+
+<h3 dir="ltr" id="customizing-styles">Customizing Styles</h3>
+
+<p>There are two distinct ways to customize the look of your events pages:</p>
+
+<ul>
+	<li><strong>Adding custom styles alongside our default stylesheets </strong>- this method is best used when you have just a few changes you'd like to make to the events pages styles.</li>
+	<li><strong>Replacing the default stylesheets with your own </strong>- this method is best used when you'd like customize a majority of the events pages styles.</li>
+</ul>
+
+<h4 dir="ltr">Adding Custom Styles</h4>
+
+<p>The Events Calendar offers 3 default style options to choose from:</p>
+
+<ul>
+	<li><strong>Skeleton Styles </strong>- Includes only enough CSS to achieve complex layouts like calendar and week view</li>
+	<li><strong>Full Styles</strong> - More detailed layouts, relying heavily on your theme's typography and colors</li>
+	<li><strong>Tribe Events Styles</strong> - A fully design and styled theme for your events pages, from yours truly</li>
+</ul>
+
+<p>Similar to how template files are overwritten, you can place appropriate files in your theme inside a folder called <strong>tribe-events/ </strong>to load your own stylesheets. This allows you to load a stylesheet in your theme that only contains the custom styles you need without having to duplicate one of our own as a starting point, or using an @import rule. Keep in mind that when you put a custom stylesheet in the tribe-events folder, it will be loaded in addition to our stylesheets. This differs from placing custom templates in that folder, which replace our templates.</p>
+
+<p><strong>Loading Custom Styles for The Events Calendar</strong></p>
+
+<ul>
+	<li>To load custom styles for core views and elements, create a stylesheet called <strong>tribe-events.css</strong> in the <strong>tribe-events/</strong> directory of your theme.</li>
+</ul>
+
+<p><strong>Loading Custom Styles for Events Calendar PRO (premium)</strong></p>
+
+<ul>
+	<li>To load custom styles for Events Calendar PRO views and elements, create a stylesheet called <strong>tribe-events-pro.css</strong> in the <strong>tribe-events/pro/</strong> directory of your theme.</li>
+	<li>To load custom styles for the Events Calendar widget, create a stylesheet called <strong>widget-calendar</strong><strong>.css</strong> in the <strong>tribe-events/pro/</strong> directory of your theme.</li>
+</ul>
+
+<p><strong>Loading custom Styles for Community Events (premium)</strong></p>
+
+<ul>
+	<li>To load custom styles for Community Events views and elements, create a stylesheet called <strong>tribe-events-community.css</strong> in the <strong>tribe-events/community/</strong> directory of your theme.</li>
+</ul>
+
+<p><strong>For Example:</strong></p>
+
+<p>Let's say you'd like to add a small style tweak that changes the background color of the event meta box on an single event from gray to white. In <strong>tribe-events.css</strong> in the<strong> tribe-events/</strong> directory of your theme, you can simply add:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.single-tribe_events</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.tribe-events-event-meta</span> {
+<span class="hljs-attribute" style="font-weight: 700;">background</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">#fff</span>;
+}</pre>
+
+<h4 dir="ltr">Replacing Default Stylesheets</h4>
+
+<p>If you'd like to replace the default stylesheets offered by The Events Calendar, you can simply use WordPress' built-in functions for enqueuing and deregistering stylesheets: <a href="https://developer.wordpress.org/reference/functions/wp_enqueue_style/" target="_blank"><kbd>wp_enqueue_style()</kbd></a> and <a href="https://developer.wordpress.org/reference/functions/wp_deregister_style/" target="_blank"><kbd>wp_deregister_style()</kbd></a>, respectively.</p>
+
+<p>You'll want to use <kbd>wp_de<em>register</em>_style()</kbd> as opposed to <kbd>wp_de<em>queue</em>_style()</kbd> here, because The Events Calendar and its add-ons register stylesheets and scripts first before later enqueueing them. This comes with many benefits, but it means that <kbd>wp_dequeue_style()</kbd> will only work some of the time.</p>
+
+<p><strong>An example of this approach in action</strong> is as follows—put the following snippet in your theme's <kbd>functions.php</kbd> file to disable most of The Events Calendar's and Events Calendar PRO's main built-in styles:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+add_action( <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'wp_enqueue_scripts'</span>, <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'deregister_tribe_styles'</span> );
+
+function deregister_tribe_styles<span class="hljs-literal" style="color: rgb(120, 169, 96);">()</span> {
+	
+	wp_deregister_style( <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'tribe</span>-events-full-pro-calendar-style' );
+	wp_deregister_style( <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'tribe</span>-events-full-calendar-style' );
+
+	wp_deregister_style( <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'tribe</span>-events-pro-calendar-style' );
+	wp_deregister_style( <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'tribe</span>-events-calendar-style' );
+}
+</pre>
+
+<p>You can then use <a href="https://developer.wordpress.org/reference/functions/wp_enqueue_style/" target="_blank"><kbd>wp_enqueue_style()</kbd></a> in a separate function to load all of your own styles.</p>
+
+<p>⚠️ <strong>Note:</strong> The following filters for replacing stylesheet URLs have been <strong>deprecated</strong> as of version 4.4.33 of Events Calendar PRO and version 4.6.21 of The Events Calendar:</p>
+
+<ul>
+	<li><em>tribe_events_stylesheet_url</em></li>
+	<li><em>tribe_events_pro_stylesheet_url</em></li>
+	<li><em>tribe_events_pro_widget_calendar_stylesheet_url</em></li>
+</ul>
+
+<p><a name="responsivetemplates"></a></p>
+
+<h3 id="responsive">Responsive Templates</h3>
+
+<p>There are several key areas to be aware of regarding the responsiveness of the events templates, especially if you plan to customize how this component works.</p>
+
+<h4>Breakpoints</h4>
+
+<p>The default breakpoint at which the responsiveness kicks in for smaller devices is 768px. This breakpoint can be customized or completely killed by utilizing the following filters:</p>
+
+<ul>
+	<li><em>tribe_events_mobile_breakpoint</em> - Will allow you to edit the breakpoint</li>
+	<li><em>tribe_events_kill_responsive </em>- Will remove all responsiveness</li>
+</ul>
+
+<p>For example: Let’s say you want to customize the responsive breakpoint to be 600px. You can use the <em>tribe_events_mobile_breakpoint</em> filter like this:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">customize_tribe_events_breakpoint</span>() {
+<span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-type" style="color: rgb(136, 0, 0);">600</span>;
+}
+add_filter( <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'tribe_events_mobile_breakpoint</span>', <span class="hljs-symbol" style="color: rgb(188, 96, 96);">'customize_tribe_events_breakpoint</span>' );</pre>
+
+<p>Now let’s say you want to remove the responsiveness altogether. You can use the <em>tribe_events_kill_responsive</em> filter like this:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+add_filter( 'tribe_events_kill_responsive', '__return_true')<span class="hljs-comment" style="color: rgb(136, 136, 136);">;</span></pre>
+
+<p>Lastly, we have provided a couple of body classes for you to utilize as needed:</p>
+
+<ul>
+	<li><em>.tribe-is-responsive </em>- This is added if the breakpoint hasn’t been killed</li>
+	<li><em>.tribe-mobile</em> - This is added once you reach the responsive breakpoint breakpoint</li>
+</ul>
+
+<h4>CSS</h4>
+
+<p>Aside from the retina / hdpi media queries (used for icons only), the responsive CSS has been broken into it’s own stylesheets (*-mobile.css). You will find that each stylesheet option, except for skeleton, includes a mobile stylesheet for both Core and PRO plugins, which contains the CSS necessary to style the responsive templates.</p>
+
+<p>You can see the above section, <a href="153124-Themers-Guide#customizingstyles">Customizing Styles</a>, regarding how to work with the newly added responsive stylesheets as this information applies to these stylesheets as well.</p>
+
+<p>Lastly, an additional media query has been included at a max-width of 600px to deal specifically with some of the tickets add-ons and photo view in some of the responsive stylesheets.</p>
+
+<h4>JS</h4>
+
+<p>Javascript is used as a helper for some of the mobile functionality, and is heavily used for both month and week views. We have also taken an important and significant step in utilizing javascript templates to power the mobile areas for the month and week views as well as to power the overall plugin tooltips.</p>
+
+<p>If you have overridden:</p>
+
+<ul>
+	<li><em>views/month/content.php</em></li>
+	<li><em>views/pro/week/content.php</em></li>
+</ul>
+
+<p>You will need to update your templates with the latest template code from at least version 3.5 for Core and PRO plugins to make sure you have the various new includes necessary for this functionality.</p>
+
+<p>If you would like to better understand how the javascript templating works or need to customize these templates please refer to our guide on the Javascript Templating.</p>
+
+<p>Lastly, if you have overridden the markup of your tooltips, you’ll need to port these over to the JS template, which includes in-depth instructions.</p>
+
+<h4>Templates</h4>
+
+<p><em>(Applies to users upgrading to version 3.5 and above of the Core and PRO plugins)</em></p>
+
+<p>You’ll want to check over any modifications made, whether that is template or style overrides, or if you’ve also done your own mobile version. Be sure to test your modifications against all the new updates.</p>
+
+<p>You’ll definitely need to update your overridden templates, and potentially the default breakpoint and/or mobile CSS and/or overridden CSS to add the default responsive CSS, but as always you can turn to support if you have any other questions during this process.</p>
+
+<h4>Javascript Templating</h4>
+
+<p>As of version 3.5 we have begun using some very simple javascript templating to power both the mobile events templates and the tooltips for the month and week views. They are fairly straightforward to follow and understand, and we have also provided detailed inline documentation to help you if you need to customize either part.</p>
+
+<p>You will find these templates, along with their inline documentation and additional helpers, for the following:</p>
+
+<p><strong>Core Documentation:</strong> core/src/views/month/single-event.php<br />
+<strong>PRO Documentation:</strong> pro/src/views/week/single-event-allday.php</p>
+
+<p>Mobile Templates:</p>
+
+<ul>
+	<li><em>core/<em>src/</em>views/month/mobile.php</em></li>
+	<li><em>pro/<em>src/</em>views/week/mobile.php</em></li>
+</ul>
+
+<p>Tooltip Templates:</p>
+
+<ul>
+	<li><em>core/<em>src/</em>views/month/tooltip.php</em></li>
+	<li><em>pro/src/views/week/tooltip.php</em></li>
+</ul>
+
+<p>You can see the above section, <a href="153124-Themers-Guide#customizingstyles">Customizing Template Files</a>, regarding how to work with these newly added templates as this information applies to these templates files as well.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Mar 18, 2019, 03:13 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-18" itemprop="dateModified">Mar 18 (50 days ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="247">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="423317-Troubleshooting-Google-Maps" class="article-link article-link-685" title="Troubleshooting Google Maps">
+        <span class="TitleValue">Troubleshooting Google Maps</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="928476-Guía-para-Personalizar-los-Plugins" class="article-link article-link-667" title="Guía para Personalizar los Plugins">
+        <span class="TitleValue">Guía para Personalizar los Plugins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="569075-Events-Calendar-PRO-Location-Search" class="article-link article-link-657" title="Events Calendar PRO Location Search">
+        <span class="TitleValue">Events Calendar PRO Location Search</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="753406-Changing-the-file-name-for-your-ICS-event-exports" class="article-link article-link-641" title="Changing the file name for your ICS event exports">
+        <span class="TitleValue">Changing the file name for your ICS event exports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" class="article-link article-link-633" title="Important Settings for The Events Calendar / Events Calendar PRO">
+        <span class="TitleValue">Important Settings for The Events Calendar / Events Calendar PRO</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="328998-Featured-Events" class="article-link article-link-623" title="Featured Events">
+        <span class="TitleValue">Featured Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode" class="article-link article-link-619" title="Embedding Single Events with the [tribe_event_inline] Shortcode">
+        <span class="TitleValue">Embedding Single Events with the [tribe_event_inline] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="819925-WPML-Support" class="article-link article-link-599" title="WPML Support">
+        <span class="TitleValue">WPML Support</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" class="article-link article-link-587" title="Embedding Calendar Views with the [tribe_events] Shortcode">
+        <span class="TitleValue">Embedding Calendar Views with the [tribe_events] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="137718-Can-You-Have-Multiple-Calendars" class="article-link article-link-585" title="Can You Have Multiple Calendars?">
+        <span class="TitleValue">Can You Have Multiple Calendars?</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="064341-Events-Calendar-PRO" class="MoreLinkTitle">and 46 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=247&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="153124-Themers-Guide#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Embedding Calendar Views with the [tribe_events] Shortcode</title>    <meta name="description" content="Add full calendar views to posts, pages, and other locations within your website using a shortcode." />    <meta name="keywords" content="Events Calendar PRO,Article,Beginner,Using Product Features,Events Calendar PRO,Intermediate,Shortcodes,calendar,events calendar,events calendar pro,calendar pro,shortcode,calendar and events calendar pro,events calendar and events calendar,calendar and events calendar,events calendar and events,calendar views,allowed date formats yyyy-mm-dd,date formats yyyy-mm-dd or yyyy-mm,date formats yyyy-mm-dd,allowed date formats,attribute filters the shortcode view,formats yyyy-mm-dd or yyyy-mm,events calendar pro 4.3,embed full calendar views,attribute filters the shortcode,filters the shortcode view" />    <meta property="og:url" content="//support.theeventscalendar.com/074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" />    <meta property="og:title" content="Embedding Calendar Views with the [tribe_events] Shortcode" />    <meta property="og:description" content="Events Calendar PRO 4.3 introduced the ability to embed full calendar views in places other than the main calendar page. If you have a post or page on your site where shortcodes can be used, you can e" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Embedding Calendar Views with the [tribe_events] Shortcode</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Embedding Calendar Views with the [tribe_events] Shortcode">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="064341-Events-Calendar-PRO" class="breadcrumb-link">
+    			<span itemprop="name">Events Calendar PRO</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Embedding Calendar Views with the [tribe_events] Shortcode</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Events Calendar PRO&nbsp;<strong>4.3</strong> introduced the ability to embed full calendar views in places <em>other than</em> the main calendar page. If you have a post or page on your site where shortcodes can be used, you can embed full calendar views there!</p>
+
+<p>The shortcode that powers this functionality is <kbd>[tribe_events]</kbd>. In this article, we will cover the usage of this simple but powerful shortcode.</p>
+
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔 Note:</strong> The <kbd>[tribe_events]</kbd> shortcode is <em>only</em> available within Events Calendar PRO. Even for core plugin views that exist in The Events Calendar, you must have Events Calendar PRO activated on your site for the <kbd>[tribe_events]</kbd> shortcode to work.</div>
+
+<h3 id="default">The Default Shortcode</h3>
+
+<p>Once you are running The Events Calendar 4.3 and Events Calendar Pro 4.3, you can add the shortcode <kbd>[tribe_events]</kbd> to any post or page on your site.</p>
+
+<p>If you do not specify a view for this shortcode, then the calendar view that will display is the default calendar view from your wp-admin's Events → Settings → Display options panel. On this settings panel, there is an option called <em>Default view</em>. If this is set to <em>Month</em> for example, then any instance of the <kbd>[tribe_events]</kbd> shortcode that does not specify some other view will show the Month-view calendar. If the <em>Default view</em> option is set to <em>List</em>, then any basic <kbd>[tribe_events]</kbd> shortcode would generate an instance of the List View, and so on.</p>
+
+<h3 id="specifying-views">Specifying Calendar Views</h3>
+
+<p>You may want to embed different views in different locations, and indeed one of the most useful things about the shortcode in the first place is the ability to do this—your main <kbd>/events</kbd> page could be the Month View grid calendar, but then you can embed List Views and Day Views on other pages as needed.</p>
+
+<p>Specifying views is easy with the <kbd>[tribe_events]</kbd> shortcode—you simply use the <kbd>view</kbd> attribute.</p>
+
+<p>So if you wanted to embed a List View calendar, you would use the shortcode <kbd>[tribe_events view="list"]</kbd>. Here is a full breakdown of the views that come standard with The Events Calendar and Events Calendar Pro:</p>
+
+<ul>
+	<li>Month View → <kbd>[tribe_events view="month"]</kbd></li>
+	<li>List View → <kbd>[tribe_events view="list"]</kbd></li>
+	<li>Day View → <kbd>[tribe_events view="day"]</kbd></li>
+	<li>Photo View → <kbd>[tribe_events view="photo"]</kbd></li>
+	<li>Week View → <kbd>[tribe_events view="week"]</kbd></li>
+	<li>Map View → <kbd>[tribe_events view="map"]</kbd></li>
+</ul>
+
+<h3 id="common">Common Shortcode Attributes for All Views</h3>
+
+<p>Some attributes for the <kbd>[tribe_events]</kbd> shortcode can be used across all event views. These are called "common" attributes. Here's a look at each one:</p>
+
+<p><strong><kbd>category</kbd></strong></p>
+
+<ul>
+	<li>This attribute filters the shortcode view to only show events that are in the specified event category.</li>
+	<li>Only accepts a single category slug. You can find category slugs by heading to Events → Event Categories in your wp-admin, <a href="https://theeventscalendar.com/content/uploads/2016/09/Screen-Shot-2016-09-09-at-2.46.09-PM.png" rel="noopener" target="_blank">as shown in this screenshot</a>.</li>
+	<li>Example: <kbd>[tribe_events view="list" category="barbecue"]</kbd></li>
+</ul>
+
+<p><strong><kbd>featured</kbd></strong></p>
+
+<ul>
+	<li>This attribute filters the shortcode view to only show <a href="328998-Featured-Events" rel="noopener" target="_blank">Featured Events</a>.</li>
+	<li>Only accepts "true" or "false". Defaults to "false".</li>
+	<li>Example: <kbd>[tribe_events view="list" tribe-bar="false" featured="true"]</kbd></li>
+</ul>
+
+<p><strong><kbd>date</kbd></strong></p>
+
+<ul>
+	<li>By default, shortcode views render showing the "current" time—the current month in Month View, the current week in Week View, and so on.</li>
+	<li>This attribute makes the shortcode views load the specified date, so that can you show a specific month, week, or day.</li>
+	<li><em>Month View</em>
+	<ul>
+		<li>Allowed date formats: <kbd>yyyy-mm-dd</kbd> or <kbd>yyyy-mm</kbd></li>
+		<li>Month View will default to the given month if <kbd>yyyy-mm-dd</kbd> is used.</li>
+		<li>Example: <kbd>[tribe_events view="month" date="2016-08"]</kbd></li>
+	</ul>
+	</li>
+	<li><em>Day View</em>
+	<ul>
+		<li>Allowed date formats: <kbd>yyyy-mm-dd</kbd> only!</li>
+		<li>If the <kbd>yyyy-mm</kbd> format is used, then the first day of the month will be loaded.</li>
+		<li>Specific Date Example: <kbd>[tribe_events view="day" date="2016-08-21"]</kbd></li>
+		<li>Relative Date Example: <kbd>[tribe_events view="day" date="today"]</kbd>. "Now" and "Tomorrow" are also accepted values.</li>
+	</ul>
+	</li>
+	<li><em>Week View</em>
+	<ul>
+		<li>Allowed date formats: <kbd>yyyy-mm-dd</kbd> or <kbd>yyyy-mm</kbd></li>
+		<li>The week that contains the supplied date is what will be loaded.</li>
+		<li>If the <kbd>yyyy-mm</kbd> format is used, then the week that contains the first day of the month will be loaded.</li>
+		<li>Example: <kbd>[tribe_events view="week" date="2016-08-21"]</kbd></li>
+	</ul>
+	</li>
+	<li><em>List View, Photo View, and Map View</em>
+	<ul>
+		<li>Allowed date formats: <kbd>yyyy-mm-dd</kbd> or <kbd>yyyy-mm</kbd></li>
+		<li>If the <kbd>yyyy-mm</kbd> format is used, then the first day of the month will be loaded.</li>
+		<li>Example: <kbd>[tribe_events view="map" date="2016-08-21"]</kbd></li>
+	</ul>
+	</li>
+</ul>
+
+<p><strong><kbd>tribe-bar</kbd></strong></p>
+
+<ul>
+	<li>This attribute turns the "Tribe Bar" on or off for the generated view. The Tribe Bar contains the basic search functionality of The Events Calendar views, and the view switcher. <a href="https://theeventscalendar.com/content/uploads/2016/09/Screen-Shot-2016-09-14-at-10.34.04-PM.png" rel="noopener" target="_blank">Here's a screenshot for reference</a>.</li>
+	<li>Only accepts "true" or "false". Defaults to "true", which adds the Tribe Bar. "False" hides the bar.</li>
+	<li>Example: <kbd>[tribe_events view="list" tribe-bar="false"]</kbd></li>
+</ul>
+
+<h3 id="limitations">Limitations of the [tribe_events] Shortcode</h3>
+
+<p>There are three important&nbsp;limitations to keep in mind when using the <kbd>[tribe_events]</kbd> shortcode.</p>
+
+<p>First, <strong>there can only be one "main calendar view" per page!</strong> This means that <strong>you cannot use the <kbd>[tribe_events]</kbd> shortcode on the main events page</strong>, and <strong>you cannot have multiple <kbd>[tribe_events]</kbd> shortcodes on a single&nbsp;page.</strong></p>
+
+<p>Second,&nbsp;<strong>at this time Filter Bar does not work with the shortcode calendar.&nbsp;</strong>If you want to use Filter Bar, you need to do so with the standard generated /events page and not via the shortcode. We've looked into adding Filter Bar support for the shortcodes and it's a pretty complicated feature, but you can vote for us to prioritize it <a href="https://tribe.uservoice.com/forums/195723-feature-ideas/suggestions/17840326-make-filter-bar-compatible-with-shortcoded-calenda">here</a>.</p>
+
+<p>Lastly, make sure that if you use quotation marks in your shortcodes, they are only "straight quotes" and are not "curly quotes." If you're not sure what this means, then the simplest way to see the difference between the quotes is to look at a screenshot like this one:</p>
+
+<p><img alt="tribe_events_shortcode_error" src="https://theeventscalendar.com/content/uploads/2016/09/tribe_events_shortcode_error.png" /></p>
+
+<p>☝ In this screenshot, the top shortcode has a curly quote for its <kbd>view</kbd> attribute. This can cause numerous issues, so make sure that your shortcodes look like the bottom shortcode in the screenshot.</p>
+
+<hr />
+<p>If you'd like to learn more about the calendar views provided by The Events Calendar and Events Calendar Pro, check out our collection of knowledgebase articles that refer to multiple calendar views <a href="https://theeventscalendar.com/knowledgebase-category/customizing-views/" rel="noopener" target="_blank">here</a>.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Mar 25, 2019, 12:22 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-25" itemprop="dateModified">Mar 25 (43 days ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="587">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="423317-Troubleshooting-Google-Maps" class="article-link article-link-685" title="Troubleshooting Google Maps">
+        <span class="TitleValue">Troubleshooting Google Maps</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="928476-Guía-para-Personalizar-los-Plugins" class="article-link article-link-667" title="Guía para Personalizar los Plugins">
+        <span class="TitleValue">Guía para Personalizar los Plugins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="569075-Events-Calendar-PRO-Location-Search" class="article-link article-link-657" title="Events Calendar PRO Location Search">
+        <span class="TitleValue">Events Calendar PRO Location Search</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="753406-Changing-the-file-name-for-your-ICS-event-exports" class="article-link article-link-641" title="Changing the file name for your ICS event exports">
+        <span class="TitleValue">Changing the file name for your ICS event exports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" class="article-link article-link-633" title="Important Settings for The Events Calendar / Events Calendar PRO">
+        <span class="TitleValue">Important Settings for The Events Calendar / Events Calendar PRO</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="328998-Featured-Events" class="article-link article-link-623" title="Featured Events">
+        <span class="TitleValue">Featured Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode" class="article-link article-link-619" title="Embedding Single Events with the [tribe_event_inline] Shortcode">
+        <span class="TitleValue">Embedding Single Events with the [tribe_event_inline] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="819925-WPML-Support" class="article-link article-link-599" title="WPML Support">
+        <span class="TitleValue">WPML Support</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="137718-Can-You-Have-Multiple-Calendars" class="article-link article-link-585" title="Can You Have Multiple Calendars?">
+        <span class="TitleValue">Can You Have Multiple Calendars?</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="485931-Hide-recurring-event-instances-in-the-admin" class="article-link article-link-583" title="Hide recurring event instances in the admin">
+        <span class="TitleValue">Hide recurring event instances in the admin</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="064341-Events-Calendar-PRO" class="MoreLinkTitle">and 46 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=587&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="052762-Genesis-theme-framework-integration" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Genesis theme framework integration</title>        <meta name="keywords" content="Article,Advanced,Common Conflicts,CSS,Templates" />    <meta property="og:url" content="//support.theeventscalendar.com/052762-Genesis-theme-framework-integration" />    <meta property="og:title" content="Genesis theme framework integration" />    <meta property="og:description" content="The Events Calendar and Genesis Theme Framework (http://my.studiopress.com/themes/genesis/) by Studiopress can work very nicely together, but may require a little bit of customization. Depending on yo" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Genesis theme framework integration</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Genesis theme framework integration">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/052762-Genesis-theme-framework-integration"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="757786-General" class="breadcrumb-link">
+    			<span itemprop="name">General</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Genesis theme framework integration</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="052762-Genesis-theme-framework-integration" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>The Events Calendar and <a href="http://my.studiopress.com/themes/genesis/" target="_blank">Genesis Theme Framework</a> by Studiopress can work very nicely together, but may require a little bit of customization. Depending on your site settings, you may need to add some snippets to get your calendar displaying how you would like. <strong>Unless otherwise stated these snippets should be added to your child theme's functions.php or through a custom plugin. </strong></p>
+
+<h3 id="archives">Genesis content archive settings</h3>
+
+<p>In Genesis there is an archive setting which can cause the main event views to display only partial text and not the full view.</p>
+
+<p>If you have the Content Archives set to Display post excerpts as shown here:</p>
+
+<p style="text-align: center;"><img alt="Genesis Content Archive Settings" src="http://theeventscalendar.com/content/uploads/2015/07/tec-genesis-content-archive-setting-665x210.png" /></p>
+
+<p>Your main event views will end up looking like this:</p>
+
+<p style="text-align: center;"><img alt="Genesis Content Archive Result" src="http://theeventscalendar.com/content/uploads/2015/07/tec-genesis-content-archive-result-665x196.png" /></p>
+
+<p>To fix this, please add the following to your child theme's functions.php file. This snippet will force the main event views to display full content.</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">/**
+* The Events Calendar - Bypass Genesis genesis_do_post_content in Event Views
+ *
+ * This snippet overrides the Genesis Content Archive settings for Event Views
+ *
+ * Event Template set to: Admin &gt; Events &gt; Settings &gt; Display Tab &gt; Events template &gt; Default Page Template
+ * 
+ * The Events Calendar @4.0.4
+ * Genesis @2.2.6
+*/</span>
+add<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'get_header'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_genesis_bypass_genesis_do_post_content'</span> );
+<span class="hljs-keyword" style="font-weight: 700;">function</span> tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>genesis<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>bypass<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>genesis<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>do<span class="hljs-number" style="color: rgb(136, 0, 0);">_p</span>ost<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>content() {
+
+	<span class="hljs-keyword" style="font-weight: 700;">if</span> ( <span class="hljs-keyword" style="font-weight: 700;">class</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">exists</span>( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Main'</span> ) &amp;&amp; <span class="hljs-keyword" style="font-weight: 700;">class</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">exists</span>( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Pro__Main'</span> ) ) {
+		<span class="hljs-keyword" style="font-weight: 700;">if</span> ( tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_m</span>onth() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_u</span>pcoming() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_p</span>ast() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>day() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_m</span>ap() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_p</span>hoto() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>week() || ( tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>recurring<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>event() &amp;&amp; ! <span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>singular( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_events'</span> ) ) ) {
+			remove<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_entry_content'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_do_post_image'</span>, <span class="hljs-number" style="color: rgb(136, 0, 0);">8</span> );
+			remove<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_entry_content'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_do_post_content'</span> );
+			add<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_entry_content'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'the_content'</span>, <span class="hljs-number" style="color: rgb(136, 0, 0);">15</span> );
+		}
+	} elseif ( <span class="hljs-keyword" style="font-weight: 700;">class</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">exists</span>( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Main'</span> ) &amp;&amp; ! <span class="hljs-keyword" style="font-weight: 700;">class</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">exists</span>( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Pro__Main'</span> ) ) {
+		<span class="hljs-keyword" style="font-weight: 700;">if</span> ( tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_m</span>onth() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_u</span>pcoming() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_p</span>ast() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>day() ) {
+			remove<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_entry_content'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_do_post_image'</span>, <span class="hljs-number" style="color: rgb(136, 0, 0);">8</span> );
+			remove<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_entry_content'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_do_post_content'</span> );
+			add<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_entry_content'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'the_content'</span>, <span class="hljs-number" style="color: rgb(136, 0, 0);">15</span> );
+		}
+	}
+
+}
+</pre>
+
+<p>If you have Content Archives settings set to Display Post Content and the limit is zero ( 0 ) the events will display without issue. If you add any number to that field, it will prevent the main event views from showing, but if you add the above snippet it will bypass that setting for the event views as well.</p>
+
+<p style="text-align: center;"><img alt="Genesis Content Archive Full Content" src="http://theeventscalendar.com/content/uploads/2015/07/tec-genesis-content-archive-setting-full-content-665x291.png" /></p>
+
+<h3 id="layouts">Event layouts in Genesis</h3>
+
+<p>The main event views of Month, List, Photo, Map, etc. are archives in WordPress, meaning there is no way to directly change layouts from the Admin. While Genesis allows you to change the default layout different pages, the event templates will only use your default layout.</p>
+
+<p>Your default layout may work for the single event template, but not your main event views. The following layout snippet helps you target Events templates and display the layout you want on your site.</p>
+
+<p>For all the layout snippets, you can change full-width-content with any of these other options or a custom layout: full-width-content, content-sidebar, sidebar-content, content-sidebar-sidebar, sidebar-sidebar-content, sidebar-content-sidebar.</p>
+
+<p>The following snippets <strong>will only work</strong> if you event template setting is set to default page template.&nbsp; That setting is found here in your site admin:</p>
+
+<p><em>Events &gt; Settings &gt; Display Tab &gt; Events Template &gt; Default Page Template</em></p>
+
+<h5>Main Event Views</h5>
+
+<p>This first snippet will show the main event views at full width.</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">/*
+* Genesis Page Layout of The Event Calendar Main Events Templates (Month, List, Photo, Etc..)
+* The Events Calendar @3.10
+* Genesis @2.1.2
+* Options - full-width-content, content-sidebar, sidebar-content, content-sidebar-sidebar, sidebar-sidebar-content, sidebar-content-sidebar
+*/</span>
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">//Target all Event Views (Month, List, Map etc)</span>
+add<span class="hljs-number" style="color: rgb(136, 0, 0);">_f</span>ilter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_pre_get_option_site_layout'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_genesis_view_layouts'</span> );
+<span class="hljs-keyword" style="font-weight: 700;">function</span> tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>genesis<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>view<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>layouts() {
+
+    <span class="hljs-keyword" style="font-weight: 700;">if</span> ( <span class="hljs-keyword" style="font-weight: 700;">class</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">exists</span>( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Main'</span> ) &amp;&amp; <span class="hljs-keyword" style="font-weight: 700;">class</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">exists</span>( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Pro__Main'</span> ) ) {
+		<span class="hljs-keyword" style="font-weight: 700;">if</span>( tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_m</span>onth() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_u</span>pcoming() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_p</span>ast() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>day() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_m</span>ap() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_p</span>hoto() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>week() ) {
+			<span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-string" style="color: rgb(136, 0, 0);">'full-width-content'</span>;
+		}
+	} elseif ( <span class="hljs-keyword" style="font-weight: 700;">class</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">exists</span>( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Main'</span> ) &amp;&amp; !<span class="hljs-keyword" style="font-weight: 700;">class</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">exists</span>( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Pro__Main'</span> ) ) {
+		<span class="hljs-keyword" style="font-weight: 700;">if</span>( tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_m</span>onth() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_u</span>pcoming() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_p</span>ast() || tribe<span class="hljs-number" style="color: rgb(136, 0, 0);">_</span><span class="hljs-keyword" style="font-weight: 700;">is</span><span class="hljs-number" style="color: rgb(136, 0, 0);">_</span>day() ) {
+			<span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-string" style="color: rgb(136, 0, 0);">'full-width-content'</span>;
+		}
+	}
+}</pre>
+
+<h5>All event templates</h5>
+
+<p>This snippet will show all the event templates including the single templates at full width.</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">/*
+* Genesis Layout of The Event Calendar Views for all Templates
+* The Events Calendar @3.10
+* Genesis @2.1.2
+* Options - full-width-content, content-sidebar, sidebar-content, content-sidebar-sidebar, sidebar-sidebar-content, sidebar-content-sidebar
+*/</span>
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">//Target all Event Views (Month, List, Map etc), Single Events, Single Venues, and Single Organizers</span>
+add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_pre_get_option_site_layout'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_genesis_all_layouts'</span> );
+<span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">tribe_genesis_all_layouts</span><span class="hljs-params">()</span> </span>{
+
+	<span class="hljs-keyword" style="font-weight: 700;">if</span>( class_exists( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Main'</span> ) &amp;&amp; tribe_is_event_query() ) {
+
+		<span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-string" style="color: rgb(136, 0, 0);">'full-width-content'</span>;
+
+	}
+
+}</pre>
+
+<h5>Event single templates</h5>
+
+<p>This snippet will show the single event templates at full width.</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">/*
+* Genesis Layout of The Event Calendar Single Templates
+* Options - full-width-content, content-sidebar, sidebar-content, content-sidebar-sidebar, sidebar-sidebar-content, sidebar-content-sidebar
+*/</span>
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">//Target Single Events, Single Venues, and Single Organizers</span>
+add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_pre_get_option_site_layout'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_genesis_single_layouts'</span> );
+<span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">tribe_genesis_single_layouts</span><span class="hljs-params">()</span> </span>{
+
+	<span class="hljs-keyword" style="font-weight: 700;">if</span>( is_singular( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_events'</span> ) || is_singular( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_venue'</span> ) || is_singular( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_organizer'</span> ) ) {
+        <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-string" style="color: rgb(136, 0, 0);">'full-width-content'</span>;
+    }
+
+}</pre>
+
+<h5>Event single templates alternative snippet</h5>
+
+<p>This is an alternative snippet that will also show the single event template at full width, provided by Hans!</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">/*
+* Genesis Layout of The Event Calendar Single Template
+* Options - full-width-content, content-sidebar, sidebar-content, content-sidebar-sidebar, sidebar-sidebar-content, sidebar-content-sidebar
+* Credit: Hans!
+*/</span>
+add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_pre_get_option_site_layout'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_single_events_full_width_layout'</span> );
+<span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">tribe_single_events_full_width_layout</span><span class="hljs-params">( $opt )</span> </span>{
+	<span class="hljs-keyword" style="font-weight: 700;">if</span> ( class_exists( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Tribe__Events__Main'</span> ) &amp;&amp; tribe_is_event_query() &amp;&amp; is_single() ) {
+		<span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-string" style="color: rgb(136, 0, 0);">'full-width-content'</span>;
+	}
+}</pre>
+
+<h5>Community events templates</h5>
+
+<p>This last layout snippet will show the Community Event's templates at full width.</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">/*
+* Genesis Layout of The Event Calendar Single Templates
+* Options - full-width-content, content-sidebar, sidebar-content, content-sidebar-sidebar, sidebar-sidebar-content, sidebar-content-sidebar
+*/</span>
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">//Target Community Events Edit Form and My Event's List</span>
+add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_pre_get_option_site_layout'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_genesis_community_layouts'</span> );
+<span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">tribe_genesis_community_layouts</span><span class="hljs-params">()</span> </span>{
+
+	<span class="hljs-keyword" style="font-weight: 700;">if</span>( tribe_is_community_my_events_page() || tribe_is_community_edit_event_page() ) {
+        <span class="hljs-keyword" style="font-weight: 700;">return</span> <span class="hljs-string" style="color: rgb(136, 0, 0);">'full-width-content'</span>;
+    }
+
+}
+</pre>
+
+<p>All the layout snippets can be used in any combination to target specific event templates and get the layout you would like for each.</p>
+
+<h3 id="simpleshare">Genesis Simple Share</h3>
+
+<p>Genesis Simple Share does not show on single event templates due to no Genesis hooks being in the template, but adding the snippet below&nbsp;to your child theme's functions.php will make Simple Share show above the event content. You can also review this template:</p>
+
+<p><em>the-events-calendar\src\views\single-event.php</em></p>
+
+<p>for different hooks if you would like to place it somewhere else on the single event template.</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">/**
+ * The Events Calendar - Include Genesis Simple Sharing Above Single Events Content
+ *
+ */</span>
+add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_events_single_event_before_the_content'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_genesis_event_share'</span> );
+<span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">tribe_genesis_event_share</span><span class="hljs-params">( $post_info )</span> </span>{
+
+    <span class="hljs-keyword" style="font-weight: 700;">if</span> ( is_singular(<span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_events'</span>) &amp;&amp; function_exists( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_share_get_icon_output'</span> ) ) {
+		<span class="hljs-keyword" style="font-weight: 700;">global</span> $Genesis_Simple_Share;
+		$share =  genesis_share_get_icon_output( <span class="hljs-string" style="color: rgb(136, 0, 0);">'entry-meta'</span>, $Genesis_Simple_Share-&gt;icons );
+		$event_sharing = <span class="hljs-string" style="color: rgb(136, 0, 0);">'&lt;/pre&gt;
+&lt;div class="alignleft info-left"&gt;'</span> . $share . <span class="hljs-string" style="color: rgb(136, 0, 0);">'&lt;/div&gt;
+&lt;pre&gt;
+'</span>;
+		<span class="hljs-keyword" style="font-weight: 700;">echo</span> $event_sharing;
+	}
+}</pre>
+
+<p>&nbsp;</p>
+
+<h3 id="communitycss">Community Events form inputs</h3>
+
+<p>Genesis comes with CSS&nbsp;for form inputs that changes the layout of the Community Events fields so that each is full width in that section. This can look odd and be difficult to use, so you might want to change it so the inputs look more like this:</p>
+
+<p style="text-align: center;"><img alt="Community Events Date Fields in Genesis After Fix" src="http://theeventscalendar.com/content/uploads/2015/08/tec-communiyt-date-fields-genesis.png" /></p>
+
+<p>To do that, add the following CSS&nbsp;to your child theme's stylesheet or your preferred file for custom css:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#tribe-community-events</span> <span class="hljs-selector-tag" style="font-weight: 700;">input</span>, <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#tribe-community-events</span> <span class="hljs-selector-tag" style="font-weight: 700;">select</span>, <span class="hljs-selector-id" style="color: rgb(136, 0, 0);">#tribe-community-events</span> <span class="hljs-selector-tag" style="font-weight: 700;">textarea</span> {
+    <span class="hljs-attribute" style="font-weight: 700;">min-height</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">0</span>;
+    <span class="hljs-attribute" style="font-weight: 700;">padding</span>: <span class="hljs-number" style="color: rgb(136, 0, 0);">12px</span>;
+    <span class="hljs-attribute" style="font-weight: 700;">width</span>: auto;
+}</pre>
+
+<h3 id="featuredposts">Genesis Featured Posts Widget titles</h3>
+
+<p>You might&nbsp;notice the title of a Genesis Featured Post Widget not showing on event templates in the sidebar. If that is the case, add the following CSS&nbsp;to your child theme's stylesheet or your preferred file for custom css:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.single-tribe_venue</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.featured-content</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.type-post</span> <span class="hljs-selector-tag" style="font-weight: 700;">header</span><span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.entry-header</span>,
+<span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.single-tribe_organizer</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.featured-content</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.type-post</span> <span class="hljs-selector-tag" style="font-weight: 700;">header</span><span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.entry-header</span>,
+<span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.single-tribe_events</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.featured-content</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.type-post</span> <span class="hljs-selector-tag" style="font-weight: 700;">header</span><span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.entry-header</span>,
+<span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.events-archive</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.featured-content</span> <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.type-post</span> <span class="hljs-selector-tag" style="font-weight: 700;">header</span><span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.entry-header</span> {
+    <span class="hljs-attribute" style="font-weight: 700;">display</span>:block;
+}
+</pre>
+
+<h3 id="authorbox">Genesis Author Box</h3>
+
+<p>If you have the Author Box activated in the Genesis settings, it will show on all the single templates including the Events Calendars.</p>
+
+<p>To remove the Author Boxes from single event, single venue, and single organizer templates, add the following coding to your child theme's functions.php:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-comment" style="color: rgb(136, 136, 136);">/*
+* Genesis Remove Author Box from Single Templates for the The Events Calendar
+*
+*
+*/</span>
+add_action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'pre_get_posts'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_genesis_hide_author_single_events'</span> );
+<span class="hljs-function"><span class="hljs-keyword" style="font-weight: 700;">function</span> <span class="hljs-title" style="color: rgb(136, 0, 0); font-weight: 700;">tribe_genesis_hide_author_single_events</span><span class="hljs-params">( $query )</span> </span>{
+    <span class="hljs-keyword" style="font-weight: 700;">if</span>( is_singular( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_events'</span> ) || $query-&gt;query[<span class="hljs-string" style="color: rgb(136, 0, 0);">'post_type'</span>] == <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_venue'</span> || $query-&gt;query[<span class="hljs-string" style="color: rgb(136, 0, 0);">'post_type'</span>] == <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe_organizer'</span> ) {
+	remove_action( <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_after_entry'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'genesis_do_author_box_single'</span>, <span class="hljs-number" style="color: rgb(136, 0, 0);">8</span> );
+    }
+}
+</pre>
+
+<h3 id="filterbartoggle">Filter Bar mobile toggle</h3>
+
+<p>The Filter Bar does not stay open on mobile devices using Genesis due to the open process causing a script to think a resize has taken place, which then causes the Filter Bar to close.</p>
+
+<p>The following CSS&nbsp;will prevent this from happening. Add the CSS&nbsp;to your child theme's stylesheet or your preferred file for custom css:</p>
+
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
+<span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.tribe-filters-open</span>, <span class="hljs-selector-class" style="color: rgb(136, 0, 0);">.tribe-filters-open</span> <span class="hljs-selector-tag" style="font-weight: 700;">body</span> {
+<span class="hljs-attribute" style="font-weight: 700;">overflow</span>: visible<span class="hljs-meta" style="color: rgb(31, 113, 153);">!important</span>;
+}
+</pre>
+
+<p>We hope you found this tutorial helpful! Have questions or issues with Genesis compatibility? Hit us up <a href="https://support.theeventscalendar.com/support/forums/" target="_blank">at our help desk</a>&nbsp;and we’d be happy to help.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 20, 2018, 12:44 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-20" itemprop="dateModified">Dec 20 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="493">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="588130-Pre-Sales-Questions" class="article-link article-link-865" title="Pre-Sales Questions">
+        <span class="TitleValue">Pre-Sales Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="345413-General-Sales--Account-Questions" class="article-link article-link-859" title="General Sales &amp; Account Questions">
+        <span class="TitleValue">General Sales &amp; Account Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="210263-Free-Support-Resources" class="article-link article-link-857" title="Free Support Resources">
+        <span class="TitleValue">Free Support Resources</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="315237-Creating-Site-Backups" class="article-link article-link-729" title="Creating Site Backups">
+        <span class="TitleValue">Creating Site Backups</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="178892-Change-the-wording-of-any-bit-of-text-or-string" class="article-link article-link-333" title="Change the wording of any bit of text or string">
+        <span class="TitleValue">Change the wording of any bit of text or string</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="article-link article-link-671" title="Best Practices for Implementing Custom Code Snippets">
+        <span class="TitleValue">Best Practices for Implementing Custom Code Snippets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="713863-PHP-Version-Requirement-Changes" class="article-link article-link-681" title="PHP Version Requirement Changes">
+        <span class="TitleValue">PHP Version Requirement Changes</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="093589-Custom-Development" class="article-link article-link-687" title="Custom Development">
+        <span class="TitleValue">Custom Development</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="192116-Support-Team-Webinars" class="article-link article-link-691" title="Support Team Webinars">
+        <span class="TitleValue">Support Team Webinars</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="481188-Bundle-Discounts" class="article-link article-link-693" title="Bundle Discounts">
+        <span class="TitleValue">Bundle Discounts</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 64 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=493&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="052762-Genesis-theme-framework-integration#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

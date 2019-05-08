@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="668828-Using-QR-codes-with-Event-Tickets-Plus" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Using QR codes with Event Tickets Plus</title>        <meta name="keywords" content="Article,Beginner,improve text,out of date,Event Tickets Plus,Event Tickets Plus,tickets,event tickets,event tickets plus,tickets plus,qr codes,qr,qr code,app,qr code scanning application,code scanning application,qr code scanning,scanning application,qr codes at your events,code scanning,event tickets plus app,tickets plus app,tickets scanning app api key,scanning app api key,tickets scanning app api,plus app, uiwp, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/668828-Using-QR-codes-with-Event-Tickets-Plus" />    <meta property="og:title" content="Using QR codes with Event Tickets Plus" />    <meta property="og:description" content="One of the most useful added features of Event Tickets Plus (https://theeventscalendar.com/product/wordpress-event-tickets-plus/) is the ability to check in attendees to your events via QR code. These" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Using QR codes with Event Tickets Plus</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Using QR codes with Event Tickets Plus">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/668828-Using-QR-codes-with-Event-Tickets-Plus"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="374793-Event-Tickets-Plus" class="breadcrumb-link">
+    			<span itemprop="name">Event Tickets Plus</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Using QR codes with Event Tickets Plus</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="668828-Using-QR-codes-with-Event-Tickets-Plus" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>One of the most useful added features of <a href="https://theeventscalendar.com/product/wordpress-event-tickets-plus/">Event Tickets Plus</a> is the ability to check in attendees to your events via QR code. These scannable codes are&nbsp;generated automatically for all ticket purchases or reservations, and each code references a unique URL that can be used to quickly check in guests without needing to manually access your attendees list.</p>
+
+<h3 id="etp-app">Event Tickets Plus App</h3>
+
+<p>Our Event Tickets Plus App is the easiest and fastest way to check-in your attendees directly from your Android or iOS device without the need to log in to your site. Simply install and connect to your site using an&nbsp;API key and start scanning your tickets.</p>
+
+<p>Download the app from:</p>
+
+<ul>
+	<li><a href="https://play.google.com/store/apps/details?id=com.theeventscalendar.eventticketsplus" rel="noopener" target="_blank">Google Play Store</a>&nbsp;- for Android devices</li>
+	<li><a href="https://itunes.apple.com/us/app/event-tickets-plus/id1395674797?ls=1&amp;mt=8" rel="noopener" target="_blank">App Store</a>&nbsp;- for iOS devices</li>
+</ul>
+
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>Please note:</strong> You will need our&nbsp;<strong>Event Tickets</strong> and <strong>Event Tickets Plus </strong>plugins installed in <strong>versions 4.7.5</strong> and above in order for the Event Tickets Plus App to work with your site.</div>
+
+<p>&nbsp;</p>
+
+<h4>Setting up the App</h4>
+
+<p>Once the app is installed in your device, connect the app to your site using the&nbsp;<strong>Tickets scanning app API key</strong>:</p>
+
+<ol>
+	<li>Navigate to your site's <em>WP Admin &gt; Events &gt; Settings &gt; Tickets</em> tab and under the "QR Codes" section, generate a new&nbsp;<strong>Tickets scanning app API key</strong>&nbsp;and Save Changes.<br />
+	<img alt="" src="http://theeventscalendar.com/content/uploads/2018/07/Event-Tickets-Plus-QR-Codes-Settings.png" /></li>
+	<li>On your device, launch the <strong>Event Tickets Plus App</strong> and connect to your site using the API key generated.<br />
+	<img alt="" src="http://theeventscalendar.com/content/uploads/2018/07/Event-Tickets-Plus-App-API-Key-665x530.png" /></li>
+	<li>Once the key is in place, you'll be ready to check-in your attendees by scanning their ticket's QR codes!</li>
+</ol>
+
+<p><em>Please note you will need to have internet access in your device to check-in attendees. For best results, we recommend being connected to a wifi network.</em></p>
+
+<p>If you've never worked with QR codes before, you might have some questions about how to get started with using these for your events. We've created this guide to walk you through the basics, from understanding what QR codes are to selecting a scanning app to setting up permissions for staff to validate&nbsp;tickets at your events. Let's get started!</p>
+
+<h3 id="understanding_qr_codes">Understanding QR Codes</h3>
+
+<p>First things first, it might be helpful to understand what a QR code is before beginning to use them with your tickets. You can think of <a href="https://en.wikipedia.org/wiki/QR_code" target="_blank">QR codes</a>&nbsp;as being similar to UPC barcodes in functionality, though their&nbsp;usage is typically a bit more complex. While barcodes are used primarily to encode simple numerical values, QR codes can contain a variety of data types, including web URLs, contact cards, and&nbsp;even payment information for mobile transactions.</p>
+
+<p>Event Tickets Plus uses QR codes to embed unique check-in URLs for each ticket in your order database; when the QR code is scanned by a site administrator or another user with sufficient permissions, the URL is accessed, and the ticket is checked in automatically.</p>
+
+<p style="text-align: center;"><img alt="Example of a QR code" src="https://theeventscalendar.com/content/uploads/2017/06/tec_qr_code.png" /><br />
+&nbsp;Example of a QR code.</p>
+
+<p>To scan QR codes at your events, you'll need a mobile device with a camera (such as a smartphone or tablet) and a QR code scanning application. In addition to our Event Tickets Plus App, you can use a different QR code scanning app to scan your tickets. We'll look at other options in the next section of our guide.</p>
+
+<h3 id="finding_qr_app">Other QR Code App Options</h3>
+
+<p>Regardless of what type of device you own, finding a QR code app is typically fairly painless--simply launch the application store for your smartphone or tablet of choice, then enter "<strong>qr scanner</strong>" or a similar set of keywords into the search box. You should see a number of different options appear in the search results below.</p>
+
+<p style="text-align: center;"><img alt="Sampling of QR code scanning apps for Android" src="https://theeventscalendar.com/content/uploads/2017/06/qr_scanner_apps.png" /></p>
+
+<p>Almost any of the available apps for this purpose will work to scan QR codes, but there's another aspect to consider: the person or persons who are scanning QR codes at your events <strong>must be logged into your WordPress site with sufficient permissions to check in users.</strong> As such,&nbsp;you'll want to select an app that redirects to your device's built-in web browser when a web URL is scanned, and you'll also want to ensure that the device is logged in to a WordPress user account with appropriate permissions <em>before</em> attempting to scan tickets. We recommend testing any app that you're considering for ticket scanning before the date of your next event so that you can ensure it's working properly before it's time to check in your guests!</p>
+
+<p>For your convenience, here are a few applications that other users have recommended that we've personally tested and confirmed to be appropriate for QR code check-ins. As always, you'll want to ensure that your preferred device meets the listed OS and system requirements before attempting to use any applications that require a download.</p>
+
+<ul>
+	<li><a href="http://www.quickmark.com.tw/En/basic/index.asp" rel="noopener" target="_blank"><strong>QuickMark</strong></a> (iOS/Android/Windows/Google Chrome browser)</li>
+	<li><strong><a href="https://webqr.com" rel="noopener" target="_blank">Web QR</a></strong> (web-based)</li>
+</ul>
+
+<h3 id="create_qr_user">Creating a New User for Scanning QR Codes</h3>
+
+<p>Since full attendee information is made available to site administrators for editing, reviewing, and export purposes, the administrator role is typically also used for checking in users manually or via QR code. But what if you'd like to have another member of staff check in attendees without giving them full access to your WordPress site's backend? In that case, you can create a new user account with <strong>Contributor</strong> permissions, which will prevent edit access to&nbsp;your events, posts, or pages while still allowing attendees to be checked in. Here's how to set that up on your site.</p>
+
+<p>As always, you'll want to begin by logging into your WordPress dashboard using your administrator credentials. Once you've successfully logged in, highlight the <strong>Users</strong> menu item in the WordPress sidebar and click <strong>Add New</strong> to open the new user creation form.</p>
+
+<p style="text-align: center;"><img alt="Creating a new user for scanning QR codes with Event Tickets Plus" src="https://theeventscalendar.com/content/uploads/2017/06/new_qr_user.png" /></p>
+
+<p>Enter a username and email address for your new user (you can leave the remaining text fields blank). You'll also want to click the <strong>Show password</strong> button and note the password for the new account. Lastly, in the <strong>Role</strong> drop-down menu, select the <strong>Contributor</strong> role. Click <strong>Add New User</strong> once you're finished, and the new user will be added immediately to your site. If you selected the check box for <strong>Send User Notification</strong>, an email will be sent to the address you provided to confirm the creation of this new account.</p>
+
+<p style="text-align: center;"><img alt="Limited selection of sidebar items for the Contributor user role" src="https://theeventscalendar.com/content/uploads/2017/06/contributor_sidebar.png" /></p>
+
+<p>When your Contributor user account logs into the site, they'll see a limited selection of menu items available to them, and they won't be able to edit or delete any existing events in your database.</p>
+
+<h3 id="summing_up">Summing Up</h3>
+
+<p>With your QR code scanning application installed on your device of choice&nbsp;and your Administrator or Contributor account(s) set up and ready to go, all that's left is to begin the actual task of checking in attendees! Your process may look slightly different depending on your actual setup and the application you've selected for performing QR scans, but the basic steps should be mostly the same across all platforms and applications.</p>
+
+<ol>
+	<li>On the device that you'll be using to check in attendees, launch your default web browser (or QR code scanning application, if the application that you selected utilizes a built-in browser).</li>
+	<li>From the web browser you just launched, log in to your site's WordPress dashboard using an account with sufficient permissions. (If you don't wish to use your administrator account for this task, you can create a new account with limited permissions using <a href="668828-Using-QR-codes-with-Event-Tickets-Plus#create_qr_user">the steps outlined above</a>.)</li>
+	<li>Return to your QR code scanning application and ready your device's&nbsp;camera to begin scanning.</li>
+	<li>Ensure that the QR code that you wish to scan is clean, undamaged, and held at a sufficient distance for your device's camera to focus. Scan the code.</li>
+	<li>If the application prompts you to confirm before navigating to the encoded URL, confirm that you wish to load the&nbsp;page.</li>
+	<li>Your QR scanning application should redirect to the web browser to load the encoded URL. Once the URL has finished loading, you'll receive confirmation in the browser if your attendee was checked in successfully (or an error if the code is invalid or has already been scanned).</li>
+</ol>
+
+<hr />
+<p>We hope that this guide gives you all the information that you need to begin using QR codes with your event tickets and start reaping the benefits of faster check-ins! Don't hesitate to pay us a visit over at&nbsp;<a href="https://theeventscalendar.com/support-forums/">our help desk</a> if you should have any lingering questions--we're more than happy to assist!</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 28, 2018, 06:52 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="645">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="483229-REST-API-Check-in-for-Event-Tickets-Plus-App-" class="article-link article-link-835" title="REST API Check-in for Event Tickets Plus App ">
+        <span class="TitleValue">REST API Check-in for Event Tickets Plus App </span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="006234-Adding-the-Event-Date-to-WooCommerce-Order-Email" class="article-link article-link-557" title="Adding the Event Date to WooCommerce Order Email">
+        <span class="TitleValue">Adding the Event Date to WooCommerce Order Email</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="547893-Event-Tickets-Plus-ticket-stock-troubleshooting" class="article-link article-link-665" title="Event Tickets Plus: ticket stock troubleshooting">
+        <span class="TitleValue">Event Tickets Plus: ticket stock troubleshooting</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="912714-WooCommerce-Specific-Ticket-Settings" class="article-link article-link-627" title="WooCommerce-Specific Ticket Settings">
+        <span class="TitleValue">WooCommerce-Specific Ticket Settings</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="433935-Disable-the-Ticket-Email" class="article-link article-link-581" title="Disable the Ticket Email">
+        <span class="TitleValue">Disable the Ticket Email</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="999067-Display-a-List-of-Attendees-Events" class="article-link article-link-571" title="Display a List of Attendee&#039;s Events">
+        <span class="TitleValue">Display a List of Attendee&#039;s Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="314750-Collecting-Attendee-Information" class="article-link article-link-567" title="Collecting Attendee Information">
+        <span class="TitleValue">Collecting Attendee Information</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="458197-Moving-to-Event-Tickets-Plus" class="article-link article-link-551" title="Moving to Event Tickets Plus">
+        <span class="TitleValue">Moving to Event Tickets Plus</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="139603-Tips-for-configuring-your-ecommerce-plugin" class="article-link article-link-545" title="Tips for configuring your ecommerce plugin">
+        <span class="TitleValue">Tips for configuring your ecommerce plugin</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="442532-Event-Tickets-Plus-which-ecommerce-solution-is-right-for-you" class="article-link article-link-543" title="Event Tickets Plus: which ecommerce solution is right for you?">
+        <span class="TitleValue">Event Tickets Plus: which ecommerce solution is right for you?</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="374793-Event-Tickets-Plus" class="MoreLinkTitle">and 18 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=645&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="668828-Using-QR-codes-with-Event-Tickets-Plus#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

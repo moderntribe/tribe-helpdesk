@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="303643-Testing-for-conflicts" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Testing for conflicts</title>    <meta name="description" content="Do you have a theme or plugin conflict? This tutorial will help you determine if a conflict is happening, and find out if it is your theme, or which of your plugin(s) are causing it" />    <meta name="keywords" content="Article,Beginner,Errors &amp;amp; Troubleshooting,Support Resources,plugin,problem,events calendar,plugins,step,conflict,wp admin,plugins &amp;gt; installed plugins,recreate the problem,recreate the problem again,look for a solution,find the source,wp admin &amp;gt;,plugins &amp;gt; installed,appearance &amp;gt; themes,&amp;gt; installed plugins,source of a conflict,step 2,click activate,finding a solution" />    <meta property="og:url" content="//support.theeventscalendar.com/303643-Testing-for-conflicts" />    <meta property="og:title" content="Testing for conflicts" />    <meta property="og:description" content="We work hard to make our plugins broadly compatible. However, like all WordPress developers we cannot test with every plugin, theme, and server environment out there. Sometimes &#039;conflicts&#039; occur. This" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Testing for conflicts</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Testing for conflicts">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/303643-Testing-for-conflicts"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="757786-General" class="breadcrumb-link">
+    			<span itemprop="name">General</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Testing for conflicts</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="303643-Testing-for-conflicts" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>We work hard to make our plugins broadly compatible. However, like all WordPress developers we cannot test with every plugin, theme, and server environment out there. Sometimes "conflicts" occur. This happens when code from one plugin or theme conflicts with another plugin or theme.&nbsp;Most problems that arise with WordPress plugins (like The Events Calendar) are actually conflicts.</p>
+
+<p>This tutorial will help you to&nbsp;determine if a conflict is happening, and find out if it is your theme, or which of your plugin(s) are causing it. Carefully following these steps is often essential to&nbsp;finding a solution, because each&nbsp;step&nbsp;can help you quickly&nbsp;narrow down&nbsp;the possible causes of the&nbsp;problem.</p>
+
+<p>Here are the steps:</p>
+
+<ul>
+	<li><a href="303643-Testing-for-conflicts#test-for-conflict">Test if there is a conflict</a></li>
+	<li><a href="303643-Testing-for-conflicts#find-source-of-conflict">Find the source of a conflict</a></li>
+	<li><a href="303643-Testing-for-conflicts#look-for-solution">Look for&nbsp;a solution</a></li>
+</ul>
+
+<div style="border: 1px solid #999; background: #f1f1f1; padding: 1rem; margin-bottom: 1rem;">
+<p style="margin-bottom: 0.1rem;">The process we describe here can result in some amount of disruption to your site. To avoid this, we recommend you either make use of a <a href="https://theeventscalendar.com/knowledgebase/creating-using-wordpress-staging-site/" rel="noopener" target="_blank">staging site</a> and test things there or, if that is not possible, consider using a plugin like <a href="https://wordpress.org/plugins/plugin-detective/" target="_blank">Plugin Detective</a> and/or&nbsp;<a href="https://wordpress.org/plugins/health-check/" rel="noopener" target="_blank">Health Check</a>, each of which provide a&nbsp;<a href="https://make.wordpress.org/support/handbook/appendix/troubleshooting-using-the-health-check/#troubleshooting" rel="noopener" target="_blank">troubleshooting mode</a> that aims to ensure your site will continue to operate as normal for regular visitors.</p>
+
+<p>Please note, however, if you <strong>change any settings</strong> (e.g. default calendar view) while running a <em>Health Check</em> those will be <strong>reflected on your live site</strong> as well.</p>
+</div>
+
+<h2 id="test-for-conflict">Test if there is a conflict</h2>
+
+<p><strong>Step 1) Switch to the Twenty Sixteen&nbsp;theme. </strong>Go to your site's <a href="http://codex.wordpress.org/Administration_Screens" target="_blank">WP Admin area</a>. In the left-column menu, click <em>Appearance &gt; Themes</em>. You will see the themes available on your site. Move your cursor over the "Twenty Sixteen" theme, and click "Activate".</p>
+
+<p><strong>Step 2) Disable all plugins except Tribe Events plugins.</strong> In the left-column menu of WP Admin, click <em>Plugins &gt; Installed Plugins</em>. You will now see all the plugins you have installed. Click the checkbox next to every one except The Events Calendar, and any Events Calendar add-ons like Events Calendar PRO. From the Bulk Actions drop-down menu, select "Deactivate" and then click "Apply".</p>
+
+<p><strong>Step 3) Clear your browser cache and retest.</strong> Once you have followed the <a href="http://www.refreshyourcache.com/" target="_blank">steps for clearing your browser cache</a>, go into your site and try to recreate the problem you originally noticed. If it is now fixed, that means there was a conflict. The next step is to find the source of that conflict.</p>
+
+<h2 id="find-source-of-conflict">Find the source of a conflict</h2>
+
+<p>While these steps can be a bit tedious, they are usually necessary for finding the root cause of a conflict. Understanding the cause makes finding a solution possible.</p>
+
+<p><strong>Step 1) Switch back to your original theme, retest.</strong> In WP Admin go back to <em>Appearance &gt; Themes</em>. Find your original theme, and click Activate. Try to recreate the problem again. If you can recreate the problem again, you have a theme conflict. If not, continue to step 2.</p>
+
+<p><strong>Step 2) Re-enable your plugins one at a time, retest between each.</strong> Return to the <em>WP Admin &gt; Plugins &gt; Installed Plugins</em> page. Find one of the plugins that you have disabled and click "Activate". Now try to recreate the problem again. If everything works, try this step again but Activate a different plugin. If the problem has reappeared, you have a plugin conflict. Make a note of which plugin you activated that causes the problem to reappear.</p>
+
+<h2 id="look-for-solution">Look for a solution</h2>
+
+<p>Once you've identified what is causing the conflict, you can look for a solution. If you want help and have purchased premium support for your plugin, please post to&nbsp;<a href="submit_ticket">our help desk</a>. To help us assist you as quick as possible please include as much information as you can. For instance:</p>
+
+<ul>
+	<li><span style="line-height: 13px;">State&nbsp;</span>that you have found a conflict, and give the name of the conflicting plugin/theme along with its version number.</li>
+	<li>Describe in detail the problem that happens when you are running that plugin/theme with a given Tribe plugin.</li>
+	<li>If possible, privately post a copy of your System Information from the <em>WP Admin &gt; Events &gt; Help: System Information</em> box.</li>
+</ul>
+
+<p id="frequent-causes-of-conflicts">The following is a list of things that frequently cause conflicts. This is especially helpful for those who have not purchased a plugin which includes premium support, or who simply wish to research the problem on their own.</p>
+
+<ul>
+	<li><strong>Known issue:</strong>&nbsp;Some problems have been documented by others as well. To find out if others are experiencing the same issue, try using our search box or even Google. Sometimes others have already found a fix that you can use, or we have helped someone with the same problem at&nbsp;<a href="submit_ticket">our help desk</a>.</li>
+	<li><strong>Theme Override:</strong>&nbsp;Do you have any <a href="153124-Themers-Guide" target="_blank">theme overrides</a>? Try disabling them by renaming your [themename]/tribe-events/ folder to 'tribe-events-bak'.</li>
+	<li><strong>JavaScript Error:</strong>&nbsp;<a href="http://webmasters.stackexchange.com/questions/8525/how-to-open-the-javascript-console-in-different-browsers" target="_blank">Open up your browser's console</a> and see if there are any relevant errors. Identifying a specific error can help you research further.</li>
+	<li><strong>Out-of-date Plugins/Theme/WordPress:</strong>&nbsp;Are all of your plugins, your theme, and WordPress itself up-to-date? You especially want to run the latest version of Modern Tribe plugins, as we often release compatibility fixes. While new is not always better, the latest versions of everything usually result in the best compatibility.</li>
+</ul>
+
+<p>It is our sincere hope that this tutorial has helped you. Thank you for reading!</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 20, 2018, 01:13 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-20" itemprop="dateModified">Dec 20 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="263">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="588130-Pre-Sales-Questions" class="article-link article-link-865" title="Pre-Sales Questions">
+        <span class="TitleValue">Pre-Sales Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="345413-General-Sales--Account-Questions" class="article-link article-link-859" title="General Sales &amp; Account Questions">
+        <span class="TitleValue">General Sales &amp; Account Questions</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="210263-Free-Support-Resources" class="article-link article-link-857" title="Free Support Resources">
+        <span class="TitleValue">Free Support Resources</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="315237-Creating-Site-Backups" class="article-link article-link-729" title="Creating Site Backups">
+        <span class="TitleValue">Creating Site Backups</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="178892-Change-the-wording-of-any-bit-of-text-or-string" class="article-link article-link-333" title="Change the wording of any bit of text or string">
+        <span class="TitleValue">Change the wording of any bit of text or string</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="article-link article-link-671" title="Best Practices for Implementing Custom Code Snippets">
+        <span class="TitleValue">Best Practices for Implementing Custom Code Snippets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="713863-PHP-Version-Requirement-Changes" class="article-link article-link-681" title="PHP Version Requirement Changes">
+        <span class="TitleValue">PHP Version Requirement Changes</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="093589-Custom-Development" class="article-link article-link-687" title="Custom Development">
+        <span class="TitleValue">Custom Development</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="192116-Support-Team-Webinars" class="article-link article-link-691" title="Support Team Webinars">
+        <span class="TitleValue">Support Team Webinars</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="481188-Bundle-Discounts" class="article-link article-link-693" title="Bundle Discounts">
+        <span class="TitleValue">Bundle Discounts</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 64 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=263&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="303643-Testing-for-conflicts#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

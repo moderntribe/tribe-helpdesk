@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="305027-Event-Tags" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Event Tags</title>        <meta name="keywords" content="The Events Calendar,Article,Beginner,The Events Calendar,Taxonomies,events,events calendar,event,description field,tag,post types,custom post,custom post types,meta box,tags from your wordpress sidebar,&amp;gt; tags from your wordpress,publish meta box,tags from your wordpress,event tags,events by tag,publish meta,editing tags,&amp;gt; tags,wordpress sidebar,existing tags, uiback, uiwp" />    <meta property="og:url" content="//support.theeventscalendar.com/305027-Event-Tags" />    <meta property="og:title" content="Event Tags" />    <meta property="og:description" content="Beginning with version 3.0, The Events Calendar includes support for tagging events in addition to specifying categories (which are covered in this article (https://support.theeventscalendar.com/78714" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Event Tags</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Event Tags">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/305027-Event-Tags"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="534453-The-Events-Calendar" class="breadcrumb-link">
+    			<span itemprop="name">The Events Calendar</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Event Tags</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="305027-Event-Tags" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Beginning with version 3.0, The Events Calendar includes support for tagging events in addition to specifying categories (which are covered in <a href="787141-Event-Categories">this article</a>). If you've ever used tags for WordPress blog posts or other custom post types, then you're likely already familiar with how tags are meant to function for calendar events. If you haven't encountered tags before, you can think of them as being similar to categories: they're a way of assigning characteristics to your events to make them easier for your users to find. While categories are broader designations that are typically assigned one per event, tags are short but specific, and each event can be assigned as many tags as you'd like. It's a great way to use keywords or other important phrases to help your users locate events that are most relevant to their interests.</p>
+
+<h3 id="adding_tags">Adding Tags</h3>
+
+<p>When you're creating a new event or editing an existing one, you'll see the <strong>Tags</strong> meta box to the right of the event description field, directly below the <strong>Publish</strong> meta box:</p>
+
+<p style="text-align: center;"><img alt="Tags meta box when creating or editing an event" src="https://theeventscalendar.com/content/uploads/2014/09/tags_meta_box.png" /></p>
+
+<p>To add tags to an event, simply type your desired tags into the text field, separating individual tags with commas, then click the <strong>Add</strong> button to confirm your selections. You can also click <strong>Choose from the most used tags</strong> to display a list of the most commonly-used event tags, if you'd like to select from your pool of existing tags. If you make a mistake or wish to remove a tag after it's been added, you can click the X next to any tag to remove it from the listing. Don't forget to click the blue <strong>Publish</strong> or <strong>Update</strong> button in the <strong>Publish</strong> meta box to publish any changes you make to the event.</p>
+
+<h3 id="editing_tags">Editing Tags</h3>
+
+<p>You can access a complete listing of all of the tags that you've created for your events by navigating to <strong>Events</strong> &gt; <strong>Tags</strong> from your WordPress sidebar.</p>
+
+<p style="text-align: center;"><img alt="Partial view of event tags page" src="https://theeventscalendar.com/content/uploads/2014/09/tags_page-665x185.png" /></p>
+
+<p>From here, you can create new tags to be assigned to future events, if desired, or you can edit any existing tags from the listing provided. Editing or changing an existing tag will change that tag across all events that have that tag assigned. Note that an optional <strong>Description</strong> field is provided when adding new tags or editing tags in full <em>Edit</em> mode (as opposed to <em>Quick Edit</em>). This field is not used by The Events Calendar by default, so it's okay to leave it blank, or you can use it to store information about tags for your own reference.</p>
+
+<h3 id="viewing_events">Viewing Events by Tag</h3>
+
+<p>The Events Calendar makes it easy for you or your visitors to list all events, posts, and other custom post types associated with a specific tag. Since The Events Calendar supports the same tag designation that's used by other post types, such as blog entries, this can be a great way to group information related to specific events under a single tag and present it effectively to your users. Tag URLs are constructed as follows, where <strong>yoursiteurl.com</strong> is the home page for your WordPress site and <strong>your-tag-here</strong> is the desired tag:</p>
+
+<p style="text-align: center;"><strong>yoursiteurl.com/tag/your-tag-here</strong></p>
+
+<p>Knowing this format can be helpful if you'd like to link to one or more tag archives from elsewhere on your site. You can also access the listing for any tag by navigating to <strong>Event</strong> &gt; <strong>Tags</strong> from your WordPress sidebar, hovering over the tag in the tag listing,&nbsp;and clicking the <strong>View</strong> link. Site visitors can click on any tag in the <strong>Event Details</strong> pane when viewing a single event to display the listing for that tag.</p>
+
+<h3 id="filtering_events">Filtering Events by Tag</h3>
+
+<p>More advanced filtering of events can be achieved with the use of our <a href="https://theeventscalendar.com/product/wordpress-events-filterbar/">Filter Bar</a> plugin, which allows for filtering by multiple tags, categories, venues, price, and more! It's definitely worth a look if you're looking to get the most functionality out of your event tags.</p>
+
+<hr />
+<p>We hope that this brief article gives you an idea of what purpose tags serve and how they can be used to make your calendars and events more accessible to your users! As always, if you should have any questions, we'd be happy to assist over at&nbsp;<a href="submit_ticket">our help desk</a>--don't hesitate to stop on by!</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 28, 2018, 11:22 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="229">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
+        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
+        <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="629477-Using-the-Classic-Editor-with-WordPress-50" class="article-link article-link-735" title="Using the Classic Editor with WordPress 5.0">
+        <span class="TitleValue">Using the Classic Editor with WordPress 5.0</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="838016-An-Introduction-to-Event-Blocks" class="article-link article-link-733" title="An Introduction to Event Blocks">
+        <span class="TitleValue">An Introduction to Event Blocks</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="869262-Disable-the-events-menu-on-the-dashboard-for-non-admins" class="article-link article-link-283" title="Disable the events menu on the dashboard for non-admins">
+        <span class="TitleValue">Disable the events menu on the dashboard for non-admins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="421521-Add-start-time-to-event-title-in-Month-View" class="article-link article-link-317" title="Add start time to event title in Month View">
+        <span class="TitleValue">Add start time to event title in Month View</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="405065-Change-the-default-startend-time-for-new-events" class="article-link article-link-407" title="Change the default start/end time for new events">
+        <span class="TitleValue">Change the default start/end time for new events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="518116-Make-links-to-an-event-go-straight-to-the-Event-Website-URL" class="article-link article-link-495" title="Make links to an event go straight to the Event Website URL">
+        <span class="TitleValue">Make links to an event go straight to the Event Website URL</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
+        <span class="TitleValue">Changing the browser title for calendar views</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
+        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=229&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="305027-Event-Tags#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

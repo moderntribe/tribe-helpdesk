@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Recurring Events/Event Series in Events Calendar PRO</title>        <meta name="keywords" content="Events Calendar PRO,Article,Beginner,Events Calendar PRO,events,recurring events,date,events calendar pro,recurrence,series,event series,set of recurrence rules,recurrence rules,right side of the page,&amp;gt; settings in the general,daily weekly monthly or yearly,settings in the general tab,right of the desired row,time by clicking the trash,remove a set of recurrence,blue publish or update button,visible on the right side,icon to the right,event that recurs, uiback, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" />    <meta property="og:title" content="Recurring Events/Event Series in Events Calendar PRO" />    <meta property="og:description" content="While most calendar events are single one-day or multi-day events, there may be times when a series of events, known as recurring events, may be more appropriate. For example:     	- Events that repea" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Recurring Events/Event Series in Events Calendar PRO</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Recurring Events/Event Series in Events Calendar PRO">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="064341-Events-Calendar-PRO" class="breadcrumb-link">
+    			<span itemprop="name">Events Calendar PRO</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Recurring Events/Event Series in Events Calendar PRO</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>While most calendar events are single one-day or multi-day events, there may be times when a <em>series</em> of events, known as recurring events, may be more appropriate. For example:</p>
+
+<ul>
+	<li>Events that repeat on an interval, such as weekly cooking classes</li>
+	<li>Events of the same type that don't follow a regular pattern, such as test dates for a school calendar</li>
+</ul>
+
+<p>To accommodate for scenarios like this, <a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro/">Events Calendar PRO</a> provides powerful recurrence capabilities. This guide will show how to use this functionality in detail.</p>
+
+<p>If you're not familiar with how to create events, please review <a href="418870-Creating-an-event">our guide</a> before continuing.</p>
+
+<h3 id="getting-started">Getting Started with Recurring Events</h3>
+
+<p>Let's begin with the <strong>Time &amp; Date</strong> settings for your event. &nbsp;This applies whether you're converting an existing single event into an event series or creating a new event series from scratch.</p>
+
+<p>With recurring events, the first occurrence of your event series will reflect the options chosen for <strong>Start/End</strong> under this heading. That is the same as creating a single event. Be sure that you've specified the correct start date, end date, and start and end times for the first event in your series before proceeding.</p>
+
+<p>After making your selections for the first event in your series, you'll see an <strong>Event Series</strong> option. &nbsp;This option is located just below the <strong>Start/End</strong> options for your event.</p>
+
+<p><img alt="Time &amp; Date options with button for scheduling multiple recurring events" src="http://theeventscalendar.com/content/uploads/2014/12/event-series-section.png" /></p>
+
+<p>Click the <strong>Schedule multiple events</strong> button to display the first set of options for your event series. You'll see a row of buttons denoting the available recurrence types for your event series.</p>
+
+<p><img alt="Options for recurring event types in Events Calendar PRO" src="http://theeventscalendar.com/content/uploads/2014/12/event_series_recurrence_types.png" /></p>
+
+<p>For event series that conform to a regular pattern, select the option that applies to your event series (<strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong>, or <strong>Yearly</strong>). If your event occurs on specific dates without following an established pattern, select the <strong>Once</strong> option for your event. We'll go over the options for both <a href="http://www.hemingwayapp.com/#pattern">pattern-based</a> and <a href="http://www.hemingwayapp.com/#non-pattern">non-pattern-based</a> recurrences below.</p>
+
+<h3 id="pattern-series">Pattern-Based Event Series</h3>
+
+<p>Once you've picked the option that works best for your event, more fields will appear, as shown below:</p>
+
+<p><img alt="Options for &quot;daily&quot; event series type" src="http://theeventscalendar.com/content/uploads/2014/12/daily_event_series_options-665x253.png" /></p>
+
+<p>Let's use the <strong>Daily</strong> event recurrence options as an example. All pattern-based recurrence types will default to the most basic type of recurrence. In this case, that's an event that recurs daily, <em>at the same time</em> as the original event. You can tailor this pattern even further if needed. &nbsp;For example, you might wish to have:</p>
+
+<ul>
+	<li>An event that recurs every three days</li>
+	<li>A weekly event that recurs every week on Tuesdays and Thursdays</li>
+	<li>A monthly event that always falls on the first Friday of the month.</li>
+</ul>
+
+<p>Each of these patterns can be made with Events Calendar PRO's recurring events features.</p>
+
+<p>Setting the pattern to end <strong>on</strong> a given date lets you specify the last possible date an event from the sequence can take place on. Example:</p>
+
+<ul>
+	<li>You create an event starting Wednesday, October 4, 2017</li>
+	<li>It recurs every week ending <strong>on</strong> Wednesday, October 25, 2017</li>
+	<li>That final date is when the last event in the sequence will take place, not to be confused with the end date of the event itself</li>
+	<li>If you selected Tuesday, October 24, 2017, then the last instance of the event would take place on the preceding Wednesday (October 18) instead</li>
+</ul>
+
+<p>By contrast, if you set the pattern to end <strong>after</strong> a certain date, the next logical date will be used as the final date. To extend our previous example, that means setting the pattern to end <strong>after</strong> October 25 would mean the last date in the pattern would be October 25.</p>
+
+<p>In other words, the <strong>on</strong> and <strong>after</strong> options let you distinguish between inclusive and exclusive date ranges. Selecting the <strong>never </strong>option means that events will be created indefinitely as dictated by your <a href="https://theeventscalendar.com/knowledgebase/pro-recurring-events/#longterm">Recurrence Settings</a>.</p>
+
+<p><img alt="recurring event series ends" src="http://theeventscalendar.com/content/uploads/2018/04/event-series-ends.png" /></p>
+
+<p>⚠ It is possible to create a recurring event with no end date for the event to stop recurring. P<strong>lease note that doing so will set the event to recur indefinitely. This will create an indefinitely growing number of events posts in the calendar.</strong> Indefinitely growing events can have a negative effect on the calendar's performance. Your calendar may load or react slowly based on the number of events that are present in the calendar.</p>
+
+<p>If you're setting up a regular recurrence pattern, such as an event that occurs on a monthly pattern without exceptions, then you are all done! &nbsp;Scroll up until the <strong>Publish</strong> pane is visible on the right side of the page, then click the blue <strong>Publish</strong> or <strong>Update</strong> button to save your event.</p>
+
+<p>If you want a more complicated recurring event, read on! And remember, <strong>you can set as many recurrence rules as you need.</strong> Click the <strong>Add more events</strong> button once you're finished with a set of recurrence rules to expand the next set of options. You can remove a set of recurrence rules at any time by clicking the trash can icon to the right of the desired row.</p>
+
+<h4>Never-Ending &amp; Long-Term Recurrence Patterns</h4>
+
+<p>In certain cases, you may have an event that will repeat constantly with no known end date, and you may not wish to specify one. Or you may have an event that will repeat for a long time--perhaps even a few years. Both of these are fully supported by Events Calendar PRO, but it's important to understand how this works behind the scenes.</p>
+
+<p>Since every event has a corresponding entry in the database, a never-ending event could equate to an infinite number of database entries. This isn't feasible--the last thing we want is to blow up your database! Similarly, a long-term recurrence pattern with hundreds of instances could place a significant burden on your database, slowing your site and events down considerably.</p>
+
+<p>Rather than following this approach, we create events ahead of time as needed and clean up old events within a buffer period. By default, this period extends 2 years from today in both directions, meaning that:</p>
+
+<ul>
+	<li>Recurring events that are more than 2 years in the past will be automatically removed</li>
+	<li>Each day, any additional events that need to be created to ensure there are 2 years' worth of future events will be automatically generated</li>
+</ul>
+
+<p>When you create an event with a long-term or never-ending recurrence pattern, you'll see a notice that looks something like this:</p>
+
+<p><img alt="Notice that is displayed when creating a long-term or never-ending recurring event" src="https://theeventscalendar.com/content/uploads/2014/12/long_term_recurrence_notice.png" /></p>
+
+<p>That number shows you how many instances of your event have been created (as controlled by your buffer period). As time passes, old events will be deleted and new ones will be made as defined by your recurrence pattern.</p>
+
+<p>In certain cases, you may need to extend or shorten the buffer period for your long-term event series. You'll find these settings under <strong>Events</strong> &gt; <strong>Settings</strong> in the <strong>General</strong> tab (which is selected when you first navigate to your plugin settings).</p>
+
+<p><img alt="Settings for the automatic generation and cleanup of events" src="https://theeventscalendar.com/content/uploads/2014/10/recurring-events-perpetual-event-buffer-settings.png" /></p>
+
+<p><em>Please note that changing these settings will not change event instances that have already been created. Any changes made will affect new events or event instances created from that point forward.</em></p>
+
+<h3 id="non-pattern-series">Non-Pattern-Based Event Series</h3>
+
+<p>If your event series includes one or more event instances that do not occur as part of a greater pattern, you can add these events to your series by using the <strong>Once</strong> recurrence type. Clicking this button when adding a recurrence rule to your event series will display the following options.</p>
+
+<p><img alt="Options for &quot;once&quot; event recurrence type" src="https://theeventscalendar.com/content/uploads/2014/12/once_event_series_options-665x217.png" /></p>
+
+<p>Enter the date for your event into the <strong>On</strong> field by typing or by using the provided date picker. You can also specify whether this event will occur at the same or different time as the original event. Once you've finished providing the details for your first event recurrence, you may add other rules as needed. Just select the <strong>Add more events</strong> button. You can remove a set of recurrence rules at any time by clicking the trash can icon to the right of the desired row. After you've entered the recurrence rules for all of your event dates, you can save your changes by scrolling up until the <strong>Publish</strong> pane is visible on the right side of the page, then clicking the blue <strong>Publish</strong> or <strong>Update</strong> button.</p>
+
+<h3 id="exclusions">Exclusions</h3>
+
+<p>With Events Calendar PRO 3.12 and beyond, you can exclude specific dates or ranges within a recurring series. An <strong>Add Exclusion</strong> button will appear as soon as you add any other recurrence rules. Clicking this will display a row of buttons matching those that appear when adding a new recurrence rule. You can use the <strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong>, or <strong>Yearly</strong> exclusion options to exclude events in a pattern-based series. &nbsp;You can use the <strong>Once</strong> exclusion option to exclude a single event on a specific date.</p>
+
+<p><img alt="Options for specifying a daily exclusion pattern for an event series" src="https://theeventscalendar.com/content/uploads/2014/12/event_exclusion_options-665x199.png" /></p>
+
+<p>Add as many exclusions as you need to fine-tune your event series. You can delete exclusions by clicking the trash can icon to the right of any row.</p>
+
+<h3 id="display">Display Settings</h3>
+
+<p>Let's imagine that you have a class that takes place every weekday evening--indefinitely.</p>
+
+<p>If you have many such recurring events, you will quickly end up with a very busy calendar. This could be particularly confusing to users accessing your events in list-style views. For example, if you only want 20 events to show per page, you don't want each page to be many events which are identical except for the difference in the start date.</p>
+
+<p>To avoid this situation, you can hide recurring events from list-style views for all but the <em>first upcoming</em> event in each sequence. You'll find this setting under <strong>Events</strong> &gt; <strong>Settings</strong> in the <strong>General</strong> tab (which is selected when you first navigate to your plugin settings).</p>
+
+<p><img alt="Recurrence in list views can be controlled " src="https://theeventscalendar.com/content/uploads/2014/10/recurring-events-show-only-the-first.png" /></p>
+
+<h3 id="breaking">Breaking Events from Series</h3>
+
+<p>So far, we've covered how to create recurring event series on your site. What if you want to go the other way and break a single instance of an event <em>out</em> of the series? This is a handy feature when life introduces changes to event plans. For example, you want to push one instance of an event an hour back while leaving others in the series unaltered. Breaking events out from the series is the feature you're looking for.</p>
+
+<p>There are two methods for breaking events out of a series:</p>
+
+<ol>
+	<li>Breaking off <em>a single instance</em> of an event</li>
+	<li>Breaking off <em>a batch of events</em> from a given start date.</li>
+</ol>
+
+<p>Let's cover the single instance method first.</p>
+
+<h4>Breaking off a Single Event</h4>
+
+<p>When you are viewing an instance of an event on your site, if you have the <a href="https://codex.wordpress.org/Toolbar">Toolbar</a> enabled in your WordPress user settings, you should see an <strong>Edit Event</strong> link in the toolbar. Upon hovering over this link, a drop-down menu should appear with a few options. Select&nbsp;<strong>Break from Series</strong>.</p>
+
+<p><a href="https://theeventscalendar.com/content/uploads/2014/12/Screen-Shot-2016-04-29-at-10.39.27-PM.png" rel="attachment wp-att-1109045"><img alt="Screenshot showing the &quot;Break from Series&quot; link when viewing a single event" src="https://theeventscalendar.com/content/uploads/2014/12/Screen-Shot-2016-04-29-at-10.39.27-PM-665x388.png" /></a></p>
+
+<p>Click this link and allow the page to refresh. You should be brought to the edit screen for this event in your WordPress admin. The event will no longer be a part of the recurrence series.</p>
+
+<h4>Breaking off a Batch of Events</h4>
+
+<p>The above method covers breaking off one singular event from the larger series. This second method doesn't break off just one event.&nbsp; It splits the main recurring series in two, leaving two separate recurrence series.</p>
+
+<p>To do this, navigate to <strong>Events</strong> from your WordPress sidebar. In your listing of events, locate the event at which you want to split up the series. Hover over the title of this event and look for the <strong>Edit Upcoming</strong> link.</p>
+
+<p><a href="https://theeventscalendar.com/content/uploads/2014/12/Screen-Shot-2016-04-29-at-10.50.02-PM.png" rel="attachment wp-att-1109046"><img alt="Screenshot of the &quot;Edit Upcoming&quot; link" src="https://theeventscalendar.com/content/uploads/2014/12/Screen-Shot-2016-04-29-at-10.50.02-PM-665x189.png" /></a></p>
+
+<p>Click this link to confirm that you'd like to split your event series at this location. You'll see a pop-up dialog box confirming the change before it is processed.</p>
+
+<p><img alt="Dialog box that appears when splitting an event series in two" src="https://theeventscalendar.com/content/uploads/2014/12/split_event_series_warning.png" /></p>
+
+<p>Click <strong>OK</strong> to confirm, and your series will be split at this event.</p>
+
+<p>When might splitting your event series in this manner be useful? Let's say you have an event that runs for a whole year. It happens every Friday at 7pm. Then, about four months into the year, things change, and the event gets shifted back to 8pm every Friday. For example, if the change is going into effect on April 1st, you could go to the April 1st event and use the <strong>Edit Upcoming</strong> feature to make this event <em>and every event after it</em> start at 8pm instead of 7pm.</p>
+
+<hr />
+<h3 id="final">Final Thoughts</h3>
+
+<p>We have aimed to make Recurring Events as intuitive an experience as possible. We hope that this article will serve as a useful reference about the options available to you! If you should get stuck or need any further help, please don't hesitate to post to&nbsp;<a href="submit_ticket">our help desk</a> and let us know.</p>
+
+<p>Good luck!</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 26, 2018, 12:30 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="221">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="423317-Troubleshooting-Google-Maps" class="article-link article-link-685" title="Troubleshooting Google Maps">
+        <span class="TitleValue">Troubleshooting Google Maps</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="928476-Guía-para-Personalizar-los-Plugins" class="article-link article-link-667" title="Guía para Personalizar los Plugins">
+        <span class="TitleValue">Guía para Personalizar los Plugins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="569075-Events-Calendar-PRO-Location-Search" class="article-link article-link-657" title="Events Calendar PRO Location Search">
+        <span class="TitleValue">Events Calendar PRO Location Search</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="753406-Changing-the-file-name-for-your-ICS-event-exports" class="article-link article-link-641" title="Changing the file name for your ICS event exports">
+        <span class="TitleValue">Changing the file name for your ICS event exports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" class="article-link article-link-633" title="Important Settings for The Events Calendar / Events Calendar PRO">
+        <span class="TitleValue">Important Settings for The Events Calendar / Events Calendar PRO</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="328998-Featured-Events" class="article-link article-link-623" title="Featured Events">
+        <span class="TitleValue">Featured Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode" class="article-link article-link-619" title="Embedding Single Events with the [tribe_event_inline] Shortcode">
+        <span class="TitleValue">Embedding Single Events with the [tribe_event_inline] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="819925-WPML-Support" class="article-link article-link-599" title="WPML Support">
+        <span class="TitleValue">WPML Support</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" class="article-link article-link-587" title="Embedding Calendar Views with the [tribe_events] Shortcode">
+        <span class="TitleValue">Embedding Calendar Views with the [tribe_events] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="137718-Can-You-Have-Multiple-Calendars" class="article-link article-link-585" title="Can You Have Multiple Calendars?">
+        <span class="TitleValue">Can You Have Multiple Calendars?</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="064341-Events-Calendar-PRO" class="MoreLinkTitle">and 46 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=221&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="713309-Configuring-the-Event-List-Widget" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Configuring the Event List Widget</title>        <meta name="keywords" content="Events Calendar PRO,The Events Calendar,Article,Beginner,Settings,The Events Calendar,Events Calendar PRO,Dashboard,Widgets,Templates,events,events calendar,events calendar pro,widget,upcoming events,list widget,version of the events calendar,version of the events,event list,event list widget,drop the list-widget.php copied file,customize the event list widget,core version of the events,drop the list-widget.php copied,customize the event list,list-widget.php copied file,appearance &amp;gt; widgets,pro includes,box for this option, uiwp, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/713309-Configuring-the-Event-List-Widget" />    <meta property="og:title" content="Configuring the Event List Widget" />    <meta property="og:description" content="We&#039;re going to go over the Event List Widget in this tutorial, including how to configure it, things to expect from it, and perhaps some tips and tricks you can use at your next cocktail party. You&#039;ll" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Configuring the Event List Widget</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Configuring the Event List Widget">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/713309-Configuring-the-Event-List-Widget"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="064341-Events-Calendar-PRO" class="breadcrumb-link">
+    			<span itemprop="name">Events Calendar PRO</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Configuring the Event List Widget</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="713309-Configuring-the-Event-List-Widget" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>We're going to go over the Event List Widget in this tutorial, including how to configure it, things to expect from it, and perhaps some tips and tricks you can use at your next cocktail party. You'll be the star of the show, for sure.<!-- upcoming events widget --></p>
+
+<h3>Adding the Widget to a Sidebar</h3>
+
+<p>The first thing to note is about the Event List widget is where to find it. The widget&nbsp;comes packaged with the core version of <a href="https://theeventscalendar.com/product/wordpress-events-calendar/">The Events Calendar</a>. You'll find it Appearance &gt; Widgets from the WordPress dashboard.&nbsp;Drag that little guy into the sidebar area of your choice, and you're off to the races!</p>
+
+<p><img alt="Select the WordPress widget and drag it to the sidebar" src="http://theeventscalendar.com/content/uploads/2018/06/how_to_add_a_widget_in_wordpress.gif" /></p>
+
+<p>&nbsp;</p>
+
+<h3>Events Widget Settings</h3>
+
+<p>There are three settings that help customize the Event List widget experience. Let's take a look at them:</p>
+
+<ul>
+	<li><strong>Title:</strong> This is the heading that sits above the widget. By default, this is "Upcoming Events" but it can be changed to anything you'd like.</li>
+	<li><strong>Show:</strong> This is the maximum number of events you want to display at any given time. Five is the default, but this can be any number between one and ten.</li>
+	<li><strong>Show widget only if there are upcoming events:</strong>&nbsp;Check the box for this option and the widget will automatically hide itself if there are no events forthcoming. Otherwise, it will display a handy notice saying there are no upcoming events at this time.</li>
+	<li><strong>Limit to featured events only:</strong>&nbsp;Check the box for this option and the widget will display <a href="328998-Featured-Events">featured events</a>.</li>
+	<li><strong>Generate JSON-LD data:</strong> Enable this setting if you would like to enable <a href="https://developers.google.com/search/docs/data-types/events">structured data</a> in the widget. Structured data is what search engines use to recognize calendar content on and display events in the search results if the data is there and processed by the search engine.</li>
+</ul>
+
+<h3>Configuring the PRO Version</h3>
+
+<p>It's important to bear&nbsp;in mind that the Event List widget in <a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro/">The Events Calendar PRO</a> is the same widget that comes with the core version of The Events Calendar. If you have PRO, you'll see the same Event List widget under Appearance &gt; Widgets. This time, however, you'll see some visual differences and more available options that allow us to customize the widget further.</p>
+
+<p><img alt="Event List Widget in The Events Calendar vs Events Calendar Pro" src="http://theeventscalendar.com/content/uploads/2018/06/upcoming-events-tec-ecp.png" /></p>
+
+<p>Notice that there are quite a few&nbsp;differences between the Event List widget in core versus in PRO:</p>
+
+<ul>
+	<li>PRO includes&nbsp;a calendar icon with the date</li>
+	<li>PRO includes information about recurring events</li>
+	<li>PRO includes location information</li>
+</ul>
+
+<p>It should come as no surprise that these visual differences lead to more&nbsp;configurable options when setting up the widget. Add the widget to the sidebar the same way as described above, and now you'll see more options. In addition to the same three options in the core widget, PRO introduces these settings:</p>
+
+<p><img alt="kb-widgets-list-add-pro-2" src="https://theeventscalendar.com/content/uploads/2015/04/kb-widgets-list-add-pro-2.gif" /></p>
+
+<ul>
+	<li><strong>Display:</strong>&nbsp;This is a set of checkboxes that allow you to toggle the display of different bits of information, including:
+
+	<ul>
+		<li>Venue</li>
+		<li>Organizer</li>
+		<li>Street</li>
+		<li>City (Default)</li>
+		<li>State (US) or Province (Int) (Default)</li>
+		<li>Postal Code</li>
+		<li>Country (Default)</li>
+		<li>Phone</li>
+		<li>Price</li>
+	</ul>
+	</li>
+	<li><strong>Filter:</strong> This is an advanced setting that allows you to filter the events that display in the widget by a number of variables, including Categories and Tags. You can add multiple filters, and also multiples instances of the widget- so if you wanted you could have different widgets for different Event categories</li>
+</ul>
+
+<p>Phew, that's a lot of stuff! You really have a lot of options here to customize the widget's content without touching a line of code and that's awesome.</p>
+
+<h3>Theming the Widget</h3>
+
+<p>We actually have <a href="http://theeventscalendar.com/knowledgebase/add-event-content-to-an-event-widget">another tutorial</a> that provides a specific example of how to customize the Event List widget, as well as an entire <a href="https://theeventscalendar.com/knowledgebase/themers-guide/">Themer's Guide</a> on how template overrides work in The Events Calendar. Still, it's helpful to know what files to look for and what they do.</p>
+
+<p>The template for the core Event List widget can be found at: /plugins/the-events-calendar/src/views/widgets/list-widget.php. This single file contains all the content and functionality for the widget. To override it, make a copy of it, then:</p>
+
+<ul>
+	<li>Make a new folder in the theme directory called&nbsp;<em>tribe-events</em></li>
+	<li>Make a folder in that one called&nbsp;<em>widgets</em></li>
+	<li>Drop the&nbsp;<em>list-widget.php</em> copied file in that last folder</li>
+</ul>
+
+<p>Now that the template is in the theme, you can modify it to your liking. For example, you can customize&nbsp;the notice for when there are no upcoming events by changing this line:</p>
+
+<pre>
+&lt;?php printf( __( 'There are no upcoming %s at this time.', 'tribe-events-calendar' ), strtolower( $events_label_plural ) ); ?&gt;</pre>
+
+<p>...to something like:</p>
+
+<pre>
+&lt;p&gt; No events here. Holla! &lt;/p&gt;
+</pre>
+
+<p>The process for customizing the widget in Events Calendar PRO is very similar. The difference is how many files there are and where you find them. First off, you can find the primary template at: /plugins/events-calendar-pro/src/views/pro/widgets/list-widget.php.</p>
+
+<p>Open that up and you'll see that the template actually includes another template called&nbsp;<em>single-event.php</em> which can be found in the&nbsp;<em>modules</em>&nbsp;folder in the same directory as the template.</p>
+
+<p>Making modifications to the PRO version of the widget entails the same process, though you place the files in a different location. Make a copy of the file, then:</p>
+
+<ul>
+	<li>Make a new folder in the theme directory called&nbsp;<em>tribe-events</em></li>
+	<li>Make a folder in that one called&nbsp;<em>pro</em></li>
+	<li>Make a folder in that one called&nbsp;<em>widgets</em></li>
+	<li>Drop the&nbsp;<em>list-widget.php</em> copied file in that last folder</li>
+	<li>Example: <em>wp-content/themes/YOUR_THEME/tribe-events/pro/widgets/list-widget.php</em></li>
+</ul>
+
+<p>If you were modifying the&nbsp;<em>single-event.php</em> template, you would create one last folder after&nbsp;<em>widgets</em> called&nbsp;<em>modules</em> and then drop the file in there instead (example: <em>wp-content/themes/YOUR_THEME/tribe-events/pro/widgets/modules/single-event.php).</em></p>
+
+<h3>Wrapping Up</h3>
+
+<p>There we go! We covered a lot of ground in this tutorial. Hopefully, now you've got a better understanding of the Event List widget, how to configure it, how PRO extends it, and how to customize its templates. Still have some burning questions not covered here? Hit us up <a href="submit_ticket">at our help desk</a> and we'd be happy to help.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 26, 2018, 12:11 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="435">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="423317-Troubleshooting-Google-Maps" class="article-link article-link-685" title="Troubleshooting Google Maps">
+        <span class="TitleValue">Troubleshooting Google Maps</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="928476-Guía-para-Personalizar-los-Plugins" class="article-link article-link-667" title="Guía para Personalizar los Plugins">
+        <span class="TitleValue">Guía para Personalizar los Plugins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="569075-Events-Calendar-PRO-Location-Search" class="article-link article-link-657" title="Events Calendar PRO Location Search">
+        <span class="TitleValue">Events Calendar PRO Location Search</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="753406-Changing-the-file-name-for-your-ICS-event-exports" class="article-link article-link-641" title="Changing the file name for your ICS event exports">
+        <span class="TitleValue">Changing the file name for your ICS event exports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" class="article-link article-link-633" title="Important Settings for The Events Calendar / Events Calendar PRO">
+        <span class="TitleValue">Important Settings for The Events Calendar / Events Calendar PRO</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="328998-Featured-Events" class="article-link article-link-623" title="Featured Events">
+        <span class="TitleValue">Featured Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode" class="article-link article-link-619" title="Embedding Single Events with the [tribe_event_inline] Shortcode">
+        <span class="TitleValue">Embedding Single Events with the [tribe_event_inline] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="819925-WPML-Support" class="article-link article-link-599" title="WPML Support">
+        <span class="TitleValue">WPML Support</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" class="article-link article-link-587" title="Embedding Calendar Views with the [tribe_events] Shortcode">
+        <span class="TitleValue">Embedding Calendar Views with the [tribe_events] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="137718-Can-You-Have-Multiple-Calendars" class="article-link article-link-585" title="Can You Have Multiple Calendars?">
+        <span class="TitleValue">Can You Have Multiple Calendars?</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="064341-Events-Calendar-PRO" class="MoreLinkTitle">and 46 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=435&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="713309-Configuring-the-Event-List-Widget#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

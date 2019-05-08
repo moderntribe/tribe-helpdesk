@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <link href="themes/kb/montana/mytickets.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>My tickets</title>                <meta property="og:title" content="My tickets" />                        <script type="text/javascript">window["3427bac9b1b5c0e25c66fee3dba63df4"]="";window["48819c636427677e029103fc1c60658b"]="[[\"name\",\"value\"],[\"S\",\"fb3e449fca87ccfd83341192df796e79\"],[\"baseUrl\",\"\"]]";window["b08f4f6c1230b19edd5ad53defc5d230"]="[[\"templateName\",\"templateHtml\"],[\"window\",\"<!-- window -->\\n<div class=\\\"WindowHeaderLeft\\\"><div class=\\\"WindowHeaderRight\\\">\\n\\t<div id=\\\"WindowHeader\\\"><\\/div><\\/div><\\/div>\\n\\n<div id=\\\"WindowLeft\\\"><\\/div><div id=\\\"WindowBottomLeft\\\"><\\/div>\\n<div class=\\\"clear\\\"><\\/div>\\n\\n<div id=\\\"WindowResizerN\\\"><\\/div><div id=\\\"WindowResizerS\\\"><\\/div><div id=\\\"WindowResizerE\\\"><\\/div><div id=\\\"WindowResizerW\\\"><\\/div><div id=\\\"WindowResizerNE\\\"><\\/div><div id=\\\"WindowResizerNW\\\"><\\/div><div id=\\\"WindowResizerSE\\\"><\\/div><div id=\\\"WindowResizerSW\\\"><\\/div>\"]]";window["7482606a69a42e0f00b0f516fb29afd4"]="[[\"templateName\",\"templateHtml\"],[\"window_move_panel\",\"<!-- window_move_panel -->\\n<div class=\\\"WindowMoveFrameContent\\\"><\\/div>\"]]";window["5808f67e1106ee540fe6beac739c5c97"]="[[\"templateName\",\"templateHtml\"],[\"window_left\",\"<!-- window_left -->\\n<div class=\\\"WindowRight\\\">\\n\\t<div id=\\\"WindowIn\\\"><\\/div><\\/div>\"]]";window["b6e4861b1d84f157f96b1597f3818215"]="[[\"templateName\",\"templateHtml\"],[\"context_menu\",\"<!-- context_menu -->\\n<div id=\\\"MenuItems\\\"><\\/div>\"]]";window["04f572bb99435795c0082d524abe663c"]="[[\"templateName\",\"templateHtml\"],[\"window_header\",\"<!-- window_header -->\\n<div id=\\\"WindowHeaderIcon\\\"><\\/div><div id=\\\"WindowHeaderTitle\\\"><\\/div><div id=\\\"WindowHeaderDescription\\\"><\\/div><div class=\\\"WindowHeaderButtons\\\">\\n    <div id=\\\"WindowButtons\\\"><\\/div>        \\n    <div id=\\\"WindowRefreshButtons\\\"><\\/div> \\n    \\n    <div id=\\\"WindowLoading\\\"><\\/div>    <div class=\\\"clear\\\"><\\/div>\\n<\\/div>\"]]";window["a356adfce36aee65aa8f9c8bdc57d41d"]="[[\"templateName\",\"templateHtml\"],[\"window_header_refresh\",\"<!-- window_header_refresh -->\\n<div class=\\\"WindowHeaderRefreshMenu\\\">\\n    <div class=\\\"WindowHeaderRefreshMenuLeft\\\"><\\/div>\\n    <div class=\\\"WindowHeaderRefreshMenuContent\\\">\\n        <div id=\\\"WindowRefreshButtons\\\"><\\/div> \\n    <\\/div>  \\n    <div class=\\\"WindowHeaderRefreshMenuRight\\\"><\\/div>\\n<\\/div>\"]]";window["b637f1e9ee272356094a31f078d6e5bd"]="[[\"templateName\",\"templateHtml\"],[\"window_bottom_left\",\"<!-- window_bottom_left -->\\n<div class=\\\"WindowBottomRight\\\">\\n\\t<div class=\\\"WindowBottom\\\"><\\/div>\\n<\\/div>\"]]";window["02b4553649323dd7820c718c2121283e"]="[[\"templateName\",\"templateHtml\"],[\"window_empty_content\",\"<!-- window_empty_content -->\\n<div class=\\\"WindowLoadingBox\\\">\\n\\t<div class=\\\"LoadingInfo\\\">\\n\\t\\tLoading window content.<br\\/>\\n\\t\\tPlease wait...\\n\\t<\\/div>\\n<\\/div>\"]]";window["bf31ffd412e0a45de52ebb4f5c99e1b9"]="[[\"templateName\",\"templateHtml\"],[\"icon_button\",\"<!-- icon_button -->\"]]";window["a9c9702ea3739dd04dd60bcd75a9e10d"]="[[\"templateName\",\"templateHtml\"],[\"item\",\"<!-- item -->\\n<div id=\\\"Icon\\\"><\\/div><div id=\\\"Content\\\"><\\/div>\"]]";window["90bea624d8b35697319a340d8fe6368f"]="[[\"templateName\",\"templateHtml\"],[\"single_content_panel\",\"<!--    single_content_panel    -->\\n<div id=\\\"header\\\"><\\/div><div id=\\\"content\\\" class=\\\"SingleContentPanel\\\"><\\/div>\"]]";window["c6cf02391bac1d55074ae46496fe28c5"]="[[\"templateName\",\"templateHtml\"],[\"tooltip_popup\",\"<!-- tooltip_popup -->\\n<div class=\\\"TooltipPopupWrapper\\\"><div id=\\\"Content\\\"><\\/div><\\/div>\\n<div class=\\\"TooltipArrow\\\"><\\/div>\"]]";window["df362af6a8a90f3d8158112394f01bda"]="[[\"templateName\",\"templateHtml\"],[\"link_button\",\"<!-- link_button -->\\n<a class=\\\"ButtonSmall\\\"><div id=\\\"ButtonText\\\"><\\/div><\\/a>\"]]";window["7d499dca1b8a5ffd0723208104a71576"]="[[\"templateName\",\"templateHtml\"],[\"form_field\",\"<!-- form_field -->\\n<div class=\\\"FormFieldLabel FloatLeft\\\"><div id=\\\"Label\\\" class=\\\"Inliner\\\"><\\/div><\\/div>\\n<div class=\\\"FormFieldInputContainer FloatLeft\\\">\\n    <div class=\\\"FormFieldInput FloatLeft\\\"><div id=\\\"Input\\\"><\\/div><\\/div>\\n    <div class=\\\"FormFieldHelp FloatLeft\\\"><div id=\\\"HelpText\\\"><\\/div><\\/div>\\n    <div class=\\\"FormFieldError FloatLeft\\\"><div id=\\\"Error\\\"><\\/div><\\/div>\\n    <div class=\\\"FormFieldDescription\\\"><div id=\\\"Description\\\"><\\/div><div id=\\\"DescriptionUrl\\\"><\\/div><\\/div>\\n<\\/div>\\n<div class=\\\"clear\\\"><\\/div>\"]]";window["9e6a08a9db27c61d500570c6ed1ea3f1"]="[[\"templateName\",\"templateHtml\"],[\"grid_nodata\",\"<!-- grid_nodata -->\\n<div class=\\\"NoData\\\">\\n\\t<div class=\\\"NoDataContent\\\"><p class=\\\"NoDataMessage\\\">No data<\\/p><\\/div>\\n<\\/div>\"]]";</script>
+        <script type="text/javascript" src="js/com.qualityunit.liveagent.KbLogin.nocache.php%3Fv=5.12.6.7&amp;lang=en-US.1554891604"></script>
+        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-mytickets">	
+	
+            <iframe src="javascript:''" id="__gwt_historyFrame" style="width:0;height:0;border:0"></iframe>
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- my_tickets -->
+  
+	<!-- kb_login_in_header.stpl -->
+<div id='login_wrapper' class="jumbotron inner-jumbotron jumbotron-inner-fix" >
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" id='login_title'>My tickets</h1>
+        <p class="breadcrumbs hidden">
+        	<a href='index.html' class='breadcrumb-link'>Home</a> <span class="breadcrumb-divider">&gt;</span> <span id='login_actionTitle' class='kb-login-title'>My tickets</span>
+        </p>
+        <div class="col-md-10 col-sm-12 col-xs-12 col-md-offset-1 search-margin-top">
+					<div id='login_mainPanel' class='login-box'>
+					    <div id='login_loginPanel' class='login-box-standard'>
+							<!-- login_form.stpl -->
+<div class='row'>
+	<div id="login_usernamemain" class="g-FormField2 FormfieldAsNewFormField col-md-5 col-sm-12 FormFieldTypeT" style="">
+    <div id="login_usernamelabel" class="g-FormField2-Label g-FormField2-Label-mandatory" style="">
+        <label>Username (Email)</label>
+    </div>
+    <div class="g-FormField2-InputContainer">
+        <div id="login_usernameinputPanel" class="g-FormField2-InputPanel">
+            <div id="login_usernamecontainer" class="TextBoxContainer"><input id="login_usernameinput" aria-labelledby="login_usernamelabel" type="text" class="TextBox" name="username" value=""></div>
+        </div>
+        <div id="login_usernamedescription" class="gwt-Label g-FormField2-Description"
+            style="display: none;"></div>
+        <div id="login_usernameerrorMessage" class="gwt-Label g-FormField2-ErrorMessage"
+            style="display: none"></div>
+        <div id="login_usernameerrorIcon" class="gwt-Label g-FormField2-ErrorIcon"
+            style="display: none;"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+	<div id="login_passwordmain" class="g-FormField2 FormfieldAsNewFormField col-md-5 col-sm-12 FormFieldTypeP" style="">
+    <div id="login_passwordlabel" class="g-FormField2-Label g-FormField2-Label-mandatory" style="">
+        <label>Password</label>
+    </div>
+    <div class="g-FormField2-InputContainer">
+        <div id="login_passwordinputPanel" class="g-FormField2-InputPanel">
+            <div id="login_passwordcontainer" class="TextBoxContainer"><input id="login_passwordinput" aria-labelledby="login_passwordlabel" type="password" class="TextBox" name="password"></div>
+        </div>
+        <div id="login_passworddescription" class="gwt-Label g-FormField2-Description"
+            style="display: none;"></div>
+        <div id="login_passworderrorMessage" class="gwt-Label g-FormField2-ErrorMessage"
+            style="display: none"></div>
+        <div id="login_passworderrorIcon" class="gwt-Label g-FormField2-ErrorIcon"
+            style="display: none;"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+	<div id="twofactor_tokenmain" class="g-FormField2 FormfieldAsNewFormField col-md-5 col-sm-12 FormFieldTypeT" style="display: none;">
+    <div id="twofactor_tokenlabel" class="g-FormField2-Label g-FormField2-Label-mandatory" style="">
+        <label>Verification Code</label>
+    </div>
+    <div class="g-FormField2-InputContainer">
+        <div id="twofactor_tokeninputPanel" class="g-FormField2-InputPanel">
+            <div id="twofactor_tokencontainer" class="TextBoxContainer"><input id="twofactor_tokeninput" aria-labelledby="twofactor_tokenlabel" type="text" class="TextBox" name="twofactor_token" value=""></div>
+        </div>
+        <div id="twofactor_tokendescription" class="gwt-Label g-FormField2-Description"
+            style="display: none;"></div>
+        <div id="twofactor_tokenerrorMessage" class="gwt-Label g-FormField2-ErrorMessage"
+            style="display: none"></div>
+        <div id="twofactor_tokenerrorIcon" class="gwt-Label g-FormField2-ErrorIcon"
+            style="display: none;"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+	<div class='col-md-2 col-sm-12'>
+		<div id ="login_loginButtonmainButton" class="ImLeButton ImLeButtonMainOut ButtonUnwrapped btn btn-primary btn-login"  role="button"><div id="login_loginButtonmain" class="ImLeButtonMain ImLeButtonMainOut buttonBgColor buttonBorderColor login_loginButton"><div id="login_loginButtoninnerBox" class="ImLeButtonMainInnerBox buttonInnerBorderColor"><div id="login_loginButtoninner" class="ImLeButtonMainInner"><div id="login_loginButtonmainShadow" class="ImLeButtonMainShadow buttonBgShadowColor buttonBgGradColor"></div><div class="ImLeButtonMainContent"><span id="login_loginButtontextSpan" class="buttonText">Login</span><div id="login_loginButtoniconDiv" class="buttonIcon"></div></div></div></div></div></div>	</div>
+</div>
+<div>
+	<div class='NewFormField'>
+		<div id='login_messagePanel' role="alert"></div>
+	</div>
+	<div class='NewFormField'>
+		<div id ="login_forgotButtonmainButton" class="ImLeButton ImLeButtonMainOut ButtonUnwrapped ForgottenPassword ButtonLikeLink"  role="button"><div id="login_forgotButtonmain" class="ImLeButtonMain ImLeButtonMainOut buttonBgColor buttonBorderColor login_forgotButton"><div id="login_forgotButtoninnerBox" class="ImLeButtonMainInnerBox buttonInnerBorderColor"><div id="login_forgotButtoninner" class="ImLeButtonMainInner"><div id="login_forgotButtonmainShadow" class="ImLeButtonMainShadow buttonBgShadowColor buttonBgGradColor"></div><div class="ImLeButtonMainContent"><span id="login_forgotButtontextSpan" class="buttonText">Reset password</span><div id="login_forgotButtoniconDiv" class="buttonIcon"></div></div></div></div></div></div> or
+		<div id ="login_registerButtonmainButton" class="ImLeButton ImLeButtonMainOut ButtonUnwrapped RegisterButton ButtonLikeLink"  role="button"><div id="login_registerButtonmain" class="ImLeButtonMain ImLeButtonMainOut buttonBgColor buttonBorderColor login_registerButton"><div id="login_registerButtoninnerBox" class="ImLeButtonMainInnerBox buttonInnerBorderColor"><div id="login_registerButtoninner" class="ImLeButtonMainInner"><div id="login_registerButtonmainShadow" class="ImLeButtonMainShadow buttonBgShadowColor buttonBgGradColor"></div><div class="ImLeButtonMainContent"><span id="login_registerButtontextSpan" class="buttonText">Register</span><div id="login_registerButtoniconDiv" class="buttonIcon"></div></div></div></div></div></div>	</div>
+</div>					    </div>
+						<div id='login_extendedPanel' class='login-box-extend' style='display:none;'></div>
+						<div id='login_connectPanel' class='login-box-auth'></div>
+					</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="my_tickets#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>

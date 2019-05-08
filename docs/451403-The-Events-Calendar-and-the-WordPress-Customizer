@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="451403-The-Events-Calendar-and-the-WordPress-Customizer" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>The Events Calendar and the WordPress Customizer</title>        <meta name="keywords" content="Events Calendar PRO,The Events Calendar,Article,Beginner,Using Product Features,The Events Calendar,Events Calendar PRO,All Views,events,calendar,events calendar,view,events calendar pro,calendar pro,color,background color,wordpress customizer,option name notes,name notes,option name,option name notes calendar,integrate with the wordpress customizer,events calendar and its add-ons,name notes calendar,integrate with the wordpress,calendar and its add-ons,month/week view,customization options, uiwp" />    <meta property="og:url" content="//support.theeventscalendar.com/451403-The-Events-Calendar-and-the-WordPress-Customizer" />    <meta property="og:title" content="The Events Calendar and the WordPress Customizer" />    <meta property="og:description" content="The Events Calendar and its add-ons, like Events Calendar PRO, integrate with the WordPress Customizer (https://codex.wordpress.org/Appearance_Customize_Screen) to provide a number of options for quic" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">	
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">The Events Calendar and the WordPress Customizer</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="The Events Calendar and the WordPress Customizer">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/451403-The-Events-Calendar-and-the-WordPress-Customizer"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="064341-Events-Calendar-PRO" class="breadcrumb-link">
+    			<span itemprop="name">Events Calendar PRO</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">The Events Calendar and the WordPress Customizer</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="451403-The-Events-Calendar-and-the-WordPress-Customizer" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>The Events Calendar and its add-ons, like Events Calendar PRO, integrate with <a href="https://codex.wordpress.org/Appearance_Customize_Screen" rel="noopener" target="_blank">the WordPress Customizer</a> to provide a number of options for quick, easy customization. You can tweak the colors of a number of calendar elements, for example, and can even customize other elements like the "pins" of Google Maps used on event and venue views.</p>
+
+<p>This guide covers the ins and outs of how The Events Calendar and its add-ons integrate with the WordPress Customizer. If a question of yours remains unanswered even after reading through this guide, <a href="submit_ticket" rel="noopener" target="_blank">stop by our help desk</a> and let us know!</p>
+
+<hr />
+<h3 id="finding">Finding the WordPress Customizer</h3>
+
+<p>The Customizer is part of&nbsp;the <a href="https://codex.wordpress.org/Appearance_Customize_Screen">Appearance →&nbsp;Customize screen</a> in WordPress. The easiest way to access the Customizer, though, is to simply navigate to the event page that you wish to customize, and then click "Customize" in the <a href="https://codex.wordpress.org/Toolbar">admin Toolbar menu</a>.</p>
+
+<p>Some themes hide the admin Toolbar by default. If you can't locate the Toolbar or the "Customize" link within it, you may find it easiest to just head to your site's wp-admin and to the <strong>Appearance &gt; Customize</strong> screen.</p>
+
+<hr />
+<h3 id="using">Using the WordPress Customizer</h3>
+
+<p>Once you've got the Customizer open, you'll notice that its comprised of two panes: the customization options panel on the left, and the preview screen on the right.</p>
+
+<p>In that left-hand panel of customization options, there's a link that says "The Events Calendar". Click on this to begin customizing the calendar.</p>
+
+<p style="text-align: center;"><img alt="Customizer: The Events Calendar General Theme Settings" src="https://theeventscalendar.com/content/uploads/2015/12/Customizer-The-Events-Calendar-General-Theme-Settings-665x500.png" /><br />
+&nbsp;Example showing the two panes: Customizing options on the left, preview on the right[</p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p>You'll see a list of options in the left-hand panel of features&nbsp;you can customize. Many of these options are for customizing colors, so, for example, if you click an option and then modify a color, you'll see a corresponding preview&nbsp;in the right-hand&nbsp;pane of those changes.</p>
+
+<p>Once you've found the right color for one item, you can customize the colors of as many other items as you'd like without having to save your changes yet. Once you're all set with the customizations you want to make, click "Save &amp; Publish"—if you don't like your changes, though, simply click "Default" to remove them and exit the Customizer.</p>
+
+<p><!-- The Accent Color controls link colors of event titles and read more links. The Featured Highlight Color controls the background of featured events on your default Events page. It also determines the background color of Buy or RSVP Now buttons. --></p>
+
+<p style="text-align: center;"><a href="http://theeventscalendar.com/content/uploads/2015/11/demo.gif"><img alt="ECP Color Customizer Demo" src="http://theeventscalendar.com/content/uploads/2015/11/demo.gif" /></a></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<p>☝ This .gif demonstrates making numerous customizations in one go. Note how the user modifies some colors in the <em>Global Elements</em> section of The Events Calendar customization options, then modifies some other colors in the <em>Month/Week View</em> section.</p>
+
+<p>You can make as many customizations as you'd like before clicking that "Save &amp; Publish" button, and can repeat this process over and over until your calendar is looking just right.</p>
+
+<hr />
+<h3 id="available-options">All Available Options</h3>
+
+<h5 style="color: #4f4c54;">General Theme</h5>
+
+<table>
+	<thead style="color: #7d7d7d;">
+		<tr>
+			<th>Option Name</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Accent Color</td>
+			<td>Controls link colors of event titles and read more links</td>
+		</tr>
+		<tr>
+			<td>Featured Highlight Color</td>
+			<td>Controls the background of featured events on your default Events page. It also determines the background color of Buy or RSVP Now buttons.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h5 style="color: #4f4c54;">Global Elements</h5>
+
+<table>
+	<thead style="color: #7d7d7d;">
+		<tr>
+			<th>Option Name</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Link Color</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Filter Bar Color</td>
+			<td>Requires <a href="https://theeventscalendar.com/product/wordpress-events-filterbar/">Filter Bar</a></td>
+		</tr>
+		<tr>
+			<td>Button Color</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Map Pin</td>
+			<td>The Google Maps API will attempt to accommodate a wide range of image sizes for the map pin, but something in the range of 20–30px wide and 20–40px tall will likely work best, like <a href="https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png" rel="noopener" target="_blank">this example image</a> from Google.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h5 style="color: #4f4c54;">Month/Week View</h5>
+
+<p><strong>Note:</strong> If only The Events Calendar is activated, this section will be called "Month View". It only becomes "Month/Week View" if Events Calendar PRO is activated.</p>
+
+<table>
+	<thead style="color: #7d7d7d;">
+		<tr>
+			<th>Option Name</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Calendar Table Color</td>
+			<td>Applies to <strong>both</strong> the Month View <strong>and</strong> (if Events Calendar PRO is activated) the Week View.</td>
+		</tr>
+		<tr>
+			<td>Calendar Highlight Color</td>
+			<td>Applies to <strong>both</strong> the Month View <strong>and</strong> (if Events Calendar PRO is activated) the Week View.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h5 style="color: #4f4c54;">List-style Views</h5>
+
+<table>
+	<thead style="color: #7d7d7d;">
+		<tr>
+			<th>Option Name</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Price Background Color</td>
+			<td>Is used in all list-style views, including List View and Day View.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h5 style="color: #4f4c54;">Photo View <small>(PRO-Only)</small></h5>
+
+<table>
+	<thead style="color: #7d7d7d;">
+		<tr>
+			<th>Option Name</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Photo Background Color</td>
+			<td>Requires <a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro/" rel="noopener" target="_blank">Events Calendar PRO</a></td>
+		</tr>
+	</tbody>
+</table>
+
+<h5 style="color: #4f4c54;">Single Event</h5>
+
+<table>
+	<thead style="color: #7d7d7d;">
+		<tr>
+			<th>Option Name</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Post Title Color</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Details Background Color</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<h5 style="color: #4f4c54;">Widgets</h5>
+
+<table>
+	<thead style="color: #7d7d7d;">
+		<tr>
+			<th>Option Name</th>
+			<th>Notes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Calendar Header Color</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Calendar Date Bar Color</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Show Featured Event Images</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>We are continuing to add to this list. If you know of any color(s) that you would like to see modifiable from the Customize page, please let us know on&nbsp;our <a href="https://tribe.uservoice.com/forums/195723-feature-ideas">UserVoice feature-suggestion page</a>.</p>
+
+<h5>Additional Options</h5>
+
+<p>Bonus! Even more Customizer options are added when you install and activate our <a href="https://theeventscalendar.com/extensions/calendar-customizer/">Calendar Customizer extension</a>.</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Dec 26, 2018, 11:49 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="547">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="423317-Troubleshooting-Google-Maps" class="article-link article-link-685" title="Troubleshooting Google Maps">
+        <span class="TitleValue">Troubleshooting Google Maps</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="928476-Guía-para-Personalizar-los-Plugins" class="article-link article-link-667" title="Guía para Personalizar los Plugins">
+        <span class="TitleValue">Guía para Personalizar los Plugins</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="569075-Events-Calendar-PRO-Location-Search" class="article-link article-link-657" title="Events Calendar PRO Location Search">
+        <span class="TitleValue">Events Calendar PRO Location Search</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="753406-Changing-the-file-name-for-your-ICS-event-exports" class="article-link article-link-641" title="Changing the file name for your ICS event exports">
+        <span class="TitleValue">Changing the file name for your ICS event exports</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" class="article-link article-link-633" title="Important Settings for The Events Calendar / Events Calendar PRO">
+        <span class="TitleValue">Important Settings for The Events Calendar / Events Calendar PRO</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="328998-Featured-Events" class="article-link article-link-623" title="Featured Events">
+        <span class="TitleValue">Featured Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="701465-Embedding-Single-Events-with-the-tribe_event_inline-Shortcode" class="article-link article-link-619" title="Embedding Single Events with the [tribe_event_inline] Shortcode">
+        <span class="TitleValue">Embedding Single Events with the [tribe_event_inline] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="819925-WPML-Support" class="article-link article-link-599" title="WPML Support">
+        <span class="TitleValue">WPML Support</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" class="article-link article-link-587" title="Embedding Calendar Views with the [tribe_events] Shortcode">
+        <span class="TitleValue">Embedding Calendar Views with the [tribe_events] Shortcode</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="137718-Can-You-Have-Multiple-Calendars" class="article-link article-link-585" title="Can You Have Multiple Calendars?">
+        <span class="TitleValue">Can You Have Multiple Calendars?</span>
+      </a></li>
+    </ul>
+        <div class="panel-footer"><a href="064341-Events-Calendar-PRO" class="MoreLinkTitle">and 46 more ...</a></div>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=547&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="451403-The-Events-Calendar-and-the-WordPress-Customizer#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>
