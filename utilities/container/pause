@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# We need Docker!
+if [ -z $(which docker) ]; then
+	echo "Docker not detected. Please install Docker before running this command!"
+	exit -1
+fi
+
+# Check if our container is running
+IS_RUNNING=$( docker inspect -f '{{.State.Running}}' mt-purple__helpdesk-utilities )
+
+if [ "false" == $IS_RUNNING ]; then
+	echo "Container already stopped (or was not started)"
+	exit -1
+fi
+
+echo -ne "Stopping container "
+docker stop mt-purple__helpdesk-utilities > /dev/null
+echo "[DONE!]"

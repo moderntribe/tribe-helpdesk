@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Directories
+SCRIPT_DIR="$( cd "$(dirname "$0")" ; pwd -P )"
+
+# Start the container and run the rebuild-local-copy script from within it,
+# then tidy things up again
+bash $SCRIPT_DIR/container/start
+docker exec mt-purple__helpdesk-utilities bash /scripts/rebuild-local-copy
+bash $SCRIPT_DIR/container/pause

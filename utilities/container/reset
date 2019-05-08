@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# We need Docker!
+if [[ -z $(which docker) ]]; then
+	echo "Docker not detected. Please install Docker before running this command!"
+	exit -1
+fi
+
+echo "Starting..."
+
+# Stop and remove the container and its image (if those things don't 
+# actually exist these commands will be noisey but harmless)
+docker stop mt-purple__helpdesk-utilities 2> /dev/null
+docker rm mt-purle__helpdesk-utilities 2> /dev/null
+docker rmi mt-purple/helpdesk-utilities 2> /dev/null
+docker rmi mt-purple/helpdesk-utilities:latest 2> /dev/null
+
+echo "Complete!"
