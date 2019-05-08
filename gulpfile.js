@@ -12,7 +12,6 @@ const babel        = require( 'gulp-babel' );
 const eslint       = require( 'gulp-eslint' );
 const notify       = require( 'gulp-notify' );
 
-
 /**
  * Compile styles
  */
@@ -26,6 +25,7 @@ async function styles() {
 		.pipe( cleanCSS() )
 		.pipe( rename( 'style.min.css' ) )
 		.pipe( dest( 'dist' ) )
+		.pipe( dest( 'docs' ) )
 		.pipe( livereload() );
 }
 
@@ -64,10 +64,10 @@ async function scripts() {
 		.pipe( concat( 'frontend.js' ) )
 		.pipe( wrapper( jQueryWrapper ) )
 		.pipe( babel() )
-		.pipe( dest( 'dist' ) )
 		.pipe( uglify() )
 		.pipe( rename( 'frontend.min.js' ) )
 		.pipe( dest( 'dist' ) )
+		.pipe( dest( 'docs' ) )
 }
 
 async function lintJS() {
