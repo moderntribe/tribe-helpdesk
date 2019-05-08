@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+# Working directory
+cd /var/docs
+
+# Clear out old junk before rebuilding
+echo -ne "Clearing out old site files "
+rm -rf ./*
+echo "[DONE!]"
+
+# Build local replica
+#
+# - Randomized delay between loads of 0.075s to 0.225s is to prevent
+#   the LiveAgent server from being overwhelmed and also to stop them
+#   from blocking us
+# - Specifying no SSL certificate checks is not ideal, but is currently 
+#   necessary to successfully download the site
+echo "Downloading a copy of support.theeventscalendar.com. This may take a while!"
+wget \
+	--recursive \
+	--page-requisites \
+	--convert-links \
+	--wait=0.15 \
+	--random-wait \
+	--no-check-certificate \
+	--no-host-directories \
+	--domains support.theeventscalendar.com \
+	support.theeventscalendar.com
+
+# Copy distribution assets across
+cp -frv /var/dist/* /var/docs/
+
+# Process the downloaded files
+echo "Processing downloaded files"
+
+for DOWNLOADED_FILE in `find . -maxdepth 7 -type f`
+do
+	# Indicate progress
+	echo -ne "."
+
+	# Within each file there may be URLs such as "index.php?type=js..."
+	# or "asset.js?version=x.y.z" and, to ensure they load, we need to 
+	# URL-encode the "&" character
+	sed -i 's|.php?|.php%3F|g' $DOWNLOADED_FILE
+	sed -i 's|.js?|.js%3F|g' $DOWNLOADED_FILE
+	sed -i 's|.css?|.css%3F|g' $DOWNLOADED_FILE
+
+	# Replace calls to our custom CSS/JS
+	sed -i 's|https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css|style.min.css|g' $DOWNLOADED_FILE
+	sed -i 's|https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js|frontend.min.js|g' $DOWNLOADED_FILE
+done
+
+echo " [DONE!]"

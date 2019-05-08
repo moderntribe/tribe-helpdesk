@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+# We need Docker!
+if [ -z $(which docker) ]; then
+	echo "Docker not detected. Please install Docker before running this command!"
+	exit -1
+fi
+
+# Directories
+ORIGINAL_DIR=$(pwd)
+SCRIPT_DIR="$( cd "$(dirname "$0")" ; pwd -P )"
+PARENT_DIR="$(dirname $(dirname $SCRIPT_DIR))"
+DIST_DIR="$PARENT_DIR/dist"
+DOCS_DIR="$PARENT_DIR/docs"
+
+# Build our container image if needed
+if ! docker image inspect mt-purple/helpdesk-utilities > /dev/null ; then
+	echo -ne "Building container image "
+	cd $SCRIPT_DIR
+	docker build -t mt-purple/helpdesk-utilities . > /dev/null
+	echo "[DONE!]"
+fi
+
+# Create and run our container if not already running
+if ! docker container inspect mt-purple__helpdesk-utilities > /dev/null ; then
+	echo -ne "Creating and running container "
+	docker run -td --name mt-purple__helpdesk-utilities \
+		-v $DOCS_DIR:/var/docs \
+		-v $DIST_DIR:/var/dist \
+		-v $SCRIPT_DIR/commands:/scripts \
+		mt-purple/helpdesk-utilities > /dev/null
+	echo "[DONE!]"
+else
+	echo "Re-starting container"
+	docker start mt-purple__helpdesk-utilities > /dev/null
+fi
+
+# Cleanup
+cd $ORIGINAL_DIR
