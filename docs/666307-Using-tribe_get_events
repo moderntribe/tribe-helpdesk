@@ -262,7 +262,7 @@ $events = tribe_get_events( <span class="hljs-keyword" style="color: rgb(249, 38
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Apr 19, 2019, 01:39 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-19" itemprop="dateModified">Apr 19 (18 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-19" itemprop="dateModified">Apr 19 (20 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>

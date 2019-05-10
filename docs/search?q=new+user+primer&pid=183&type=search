@@ -139,19 +139,6 @@ zaius.event('pageview');
                                      ->                     Filter Bar
                           </div>
         </a>
-         <a href="136789-New-User-Primer-Community-Tickets" class="list-group-item item-A" title="New User Primer: Community Tickets">
-          <h3 class="list-group-item-heading">New User Primer: Community Tickets</h3>
-                              	<div class="article-preview">Excited to get started with Community Tickets? We’re here to help! The steps bel</div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Feb 07, 2019, 12:13 PM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Feb 07 (2 months ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     Community Tickets
-                          </div>
-        </a>
          <a href="710770-New-User-Primer-Event-Aggregator" class="list-group-item item-A" title="New User Primer: Event Aggregator">
           <h3 class="list-group-item-heading">New User Primer: Event Aggregator</h3>
                               	<div class="article-preview">The Events Calendar 4.3 and above comes with an importing tool called Event Aggr</div>
@@ -163,6 +150,19 @@ zaius.event('pageview');
                   </div>
                                                                         Home
                                      ->                     Event Aggregator
+                          </div>
+        </a>
+         <a href="136789-New-User-Primer-Community-Tickets" class="list-group-item item-A" title="New User Primer: Community Tickets">
+          <h3 class="list-group-item-heading">New User Primer: Community Tickets</h3>
+                              	<div class="article-preview">Excited to get started with Community Tickets? We’re here to help! The steps bel</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Feb 07, 2019, 12:13 PM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Feb 07 (3 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     Community Tickets
                           </div>
         </a>
          <a href="890921-New-User-Primer-Community-Events" class="list-group-item item-A" title="New User Primer: Community Events">
@@ -236,7 +236,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Mar 07, 2019, 01:59 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 07 (61 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 07 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -249,7 +249,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Apr 05, 2019, 10:40 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 05 (32 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 05 (35 days ago)</span>
                     </div>
                   </div>
                                                                         Home
