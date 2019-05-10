@@ -682,7 +682,7 @@ add_filter( 'tribe_events_kill_responsive', '__return_true')<span class="hljs-co
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Mar 18, 2019, 03:13 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-18" itemprop="dateModified">Mar 18 (50 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-18" itemprop="dateModified">Mar 18 (52 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>

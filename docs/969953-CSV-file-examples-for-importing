@@ -696,7 +696,7 @@ zaius.event('pageview');
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Mar 07, 2019, 02:32 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-07" itemprop="dateModified">Mar 07 (61 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-07" itemprop="dateModified">Mar 07 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>

@@ -227,7 +227,7 @@ Time: {start_date} @ {start_time} – {end_date} @ {end_time}
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Mar 25, 2019, 02:08 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-25" itemprop="dateModified">Mar 25 (43 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-25" itemprop="dateModified">Mar 25 (45 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>

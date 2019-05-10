@@ -152,19 +152,6 @@ zaius.event('pageview');
                                      ->                     The Events Calendar
                           </div>
         </a>
-         <a href="114474-Managing-Imported-Events" class="list-group-item item-A" title="Managing Imported Events">
-          <h3 class="list-group-item-heading">Managing Imported Events</h3>
-                              	<div class="article-preview">The purpose of this guide is to walk through the various ways in which events ca</div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 28, 2018, 07:31 AM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (4 months ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     Event Aggregator
-                          </div>
-        </a>
          <a href="017798-Creating-a-hub-site-with-Event-Aggregator" class="list-group-item item-A" title="Creating a hub site with Event Aggregator">
           <h3 class="list-group-item-heading">Creating a hub site with Event Aggregator</h3>
                               	<div class="article-preview">If you've used Event Aggregator to import events from third-party sources such a</div>
@@ -172,6 +159,19 @@ zaius.event('pageview');
                                   <div class="ArticleInfo" title="Jan 29, 2019, 10:18 AM">
                     <div class="ArticleUpdated">
                       <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jan 29 (3 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     Event Aggregator
+                          </div>
+        </a>
+         <a href="114474-Managing-Imported-Events" class="list-group-item item-A" title="Managing Imported Events">
+          <h3 class="list-group-item-heading">Managing Imported Events</h3>
+                              	<div class="article-preview">The purpose of this guide is to walk through the various ways in which events ca</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Dec 28, 2018, 07:31 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (4 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -238,7 +238,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Apr 16, 2019, 05:39 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 16 (21 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 16 (23 days ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -264,7 +264,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Mar 29, 2019, 10:18 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 29 (39 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 29 (42 days ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -318,7 +318,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Mar 07, 2019, 02:32 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 07 (61 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 07 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -357,7 +357,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Apr 03, 2019, 10:55 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 03 (34 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 03 (37 days ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -370,20 +370,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Mar 07, 2019, 01:59 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 07 (61 days ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     Eventbrite Tickets
-                          </div>
-        </a>
-         <a href="227949-Configuring-Eventbrite-Tickets" class="list-group-item item-A" title="Configuring Eventbrite Tickets">
-          <h3 class="list-group-item-heading">Configuring Eventbrite Tickets</h3>
-                              	<div class="article-preview">The Eventbrite Tickets plugin allows us to quickly create events on your WordPre</div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 28, 2018, 08:33 AM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 07 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -401,6 +388,19 @@ zaius.event('pageview');
                   </div>
                                                                         Home
                                      ->                     General
+                          </div>
+        </a>
+         <a href="227949-Configuring-Eventbrite-Tickets" class="list-group-item item-A" title="Configuring Eventbrite Tickets">
+          <h3 class="list-group-item-heading">Configuring Eventbrite Tickets</h3>
+                              	<div class="article-preview">The Eventbrite Tickets plugin allows us to quickly create events on your WordPre</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Dec 28, 2018, 08:33 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (4 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     Eventbrite Tickets
                           </div>
         </a>
          <a href="658414-Expired-licensessubscriptions" class="list-group-item item-A" title="Expired licenses/subscriptions">
