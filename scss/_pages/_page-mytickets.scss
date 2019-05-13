@@ -4,7 +4,8 @@
 // needing two partials since both use the same elements.
 
 .page-mytickets .jumbotron,
-.page-login .jumbotron {
+.page-login .jumbotron,
+.page-submit_ticket .jumbotron {
 	input {
 		border-radius: 4px !important;
 		text-indent: 0;
