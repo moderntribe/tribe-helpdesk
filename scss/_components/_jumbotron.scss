@@ -147,7 +147,8 @@
 }
 
 // Overrides default LA styles, but could be configured in Settings
-.jumbotron .btn-primary {
+// Be sure to only target the homepage!
+.page-home .jumbotron .btn-primary {
 	background-color: $white;
 	background-image: url("https://theeventscalendar.com/content/uploads/2019/04/icon-helpdesk-search.svg");
 	background-position: center;
