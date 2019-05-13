@@ -16,7 +16,8 @@ const notify       = require( 'gulp-notify' );
  * Compile styles
  */
 async function styles() {
-	return sass( 'scss/*' )
+	return src( './scss/*.scss')
+	 	.pipe( sass() )
 		.pipe( autoprefixer(
 			{
 				browsers: [ 'last 2 versions' ]
@@ -95,11 +96,11 @@ async function lintJS() {
 function autobuild() {
 	livereload.listen();
 
-	watch( 'scss/*', styles ).on( 'change', ( file ) => {
-		livereload.changed( file.path );
+	watch( './scss/**/*.scss', styles ).on( 'change', ( file ) => {
+		livereload.changed( file.path )
 	} );
 
-	watch( 'js/*.js', scripts ).on( 'change', ( file ) => {
+	watch( './js/**/*.js', scripts ).on( 'change', ( file ) => {
 		livereload.changed( file.path );
 	} );
 }
