@@ -27,7 +27,7 @@ async function styles() {
 		.pipe( rename( 'style.min.css' ) )
 		.pipe( dest( 'dist' ) )
 		.pipe( dest( 'docs' ) )
-		.pipe( livereload() )
+		.pipe( livereload() );
 }
 
 /**
