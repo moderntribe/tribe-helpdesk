@@ -45,7 +45,5 @@ If you do not have any success running the `view-static-site` command listed abo
 
 ### Deployment
 
-* `dist/style.min.css` should be added to _Customer Portal → Settings → Design → Custom CSS_
-* `dist/frontend.min.js` should be wrapped in `<script defer> </script>` tags and added to _Customer Portal → Settings → Tracking Codes → Before &lt;/BODY&gt;_
-* There is also a `dist/frontend/js` file (which is concatenated but not minified) that can be used to aid debugging when necessary
+* Once you have merged your pull request into `master`, run `bot update liveagent frontend` in Slack to deploy the changes. _Note: S3 caching may cause a slight delay in seeing the changes live._
 
