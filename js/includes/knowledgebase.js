@@ -15,7 +15,7 @@ $( '.category-list' ).find( '.alert.alert-empty' ).each( function() {
  * Had to target the search bar + article lists individually
  */
 // Panel needs bottom offset to work properly
-$('.article-page .col-md-3 .panel').affix({
+$( '.article-page .col-md-3 .panel' ).affix({
 	offset: {
 		top: function () {
 			var articleTop = $('.article-page').position().top;
@@ -24,7 +24,7 @@ $('.article-page .col-md-3 .panel').affix({
 		bottom: 100
 	}
 });
-$('.article-page .col-md-3 .margin-bottom').affix({
+$( '.article-page .col-md-3 .margin-bottom' ).affix({
 	offset: {
 		top: function () {
 			var navHeight = $('.navbar').outerHeight();
