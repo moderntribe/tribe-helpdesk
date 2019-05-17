@@ -22,7 +22,7 @@ var submitTicketSidebar = `
 		<h3>Psst... Want better support?</h3>
 		<p>Get the most out of your support request by adding more details to the ticket.</p>
 		<ul>
-			<li>Are all of your plugins updated to the <a href="https://tec.tribe/category/products/release-notes/" target="_blank" rel="noopener noreferrer" title="The Events Calendar Release Notes">Latest Version</a>?</li>
+			<li>Are all of your plugins updated to the <a href="https://theeventscalendar.com/category/products/release-notes/" target="_blank" rel="noopener noreferrer" title="The Events Calendar Release Notes">Latest Version</a>?</li>
 			<li>Copy and paste your <a href="https://support.theeventscalendar.com/244018-Sharing-Your-System-Information" target="_blank" rel="noopener noreferrer" title="Sharing your system information">System Information</a></li>
 			<li>Outline any steps to replicate the issue</li>
 			<li>Attach images that show the issue</li>
