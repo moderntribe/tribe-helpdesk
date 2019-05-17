@@ -1,0 +1,14 @@
+// SUBMIT TICKET
+// Styles for the Submit Ticket page both logged in & out
+
+.page-submit_ticket {
+	
+	// Logged in - Submit Ticket Form styles
+	.submit-ticket__form,
+	.submit-ticket__sidebar {
+
+		@media (min-width: 768px) {
+			margin-top: 2em;
+		}
+	}
+}

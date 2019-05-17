@@ -10,5 +10,6 @@ function addSupportSiteLink( link ) {
 // Update logo to link to TEC.com
 $( ".navbar-brand.KBLogo" ).attr({
 	target: '_blank',
-	href: 'https://theeventscalendar.com'
+	href: 'https://theeventscalendar.com',
+	rel: 'noopener noreferrer'
 });
