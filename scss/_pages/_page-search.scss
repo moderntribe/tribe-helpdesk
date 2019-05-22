@@ -7,6 +7,12 @@
 	}
 	
 	.alert {
-		display: none;
+		background: none;
+		border: none;
+		display: block !important;
+		color: $gray-70;
+		font-size: 20px;
+		line-height: 1.75;
+		margin-bottom: 0;
 	}
 }
