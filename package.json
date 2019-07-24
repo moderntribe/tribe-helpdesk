@@ -7,9 +7,7 @@
     "type": "git",
     "url": "https://github.com/mt-support/tribe-helpdesk"
   },
-  "dependencies": {
-    "tocbot": "^4.7.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
