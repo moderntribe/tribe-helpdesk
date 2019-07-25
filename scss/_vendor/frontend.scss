@@ -261,3 +261,38 @@ html, .footer-container {
     width: 12%;
   }
 }
+
+/*
+ * TocBot
+ */
+
+ .toc-list {
+	border-bottom: 2px solid;
+	list-style: none;
+	padding: 0 0 1em 0 !important;
+}
+
+.toc-list:before {
+	content: 'Jump to';
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.toc-link:before {
+	display: none;
+}
+
+.toc-link {
+	border-bottom: 0;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.toc-link.is-active-link {
+	font-weight: normal;
+}
+
+.toc-link:hover {
+	text-decoration: underline;
+}
