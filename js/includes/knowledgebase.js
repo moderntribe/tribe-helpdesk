@@ -34,7 +34,6 @@ $( '.article-page .col-md-3 .margin-bottom' ).affix({
 	}
 });
 
-
 /**
  * === Tocbot === 
  * This plugin auto-generates a Table of Contents (TOC) based on the
@@ -43,11 +42,12 @@ $( '.article-page .col-md-3 .margin-bottom' ).affix({
  * piece of an article when working with a user.
  * 
  */
-tocbot.init({
+
+tocbot.init( {
 	// Where to render the table of contents.
 	tocSelector: '.article-toc',
 	// Where to grab the headings to build the table of contents.
 	contentSelector: '.article-content',
 	// Which headings to grab inside of the contentSelector element.
-	headingSelector: 'h1, h2, h3','h4','h5','h6'
-});
+	headingSelector: 'h1, h2, h3, h4, h5, h6',
+} );
