@@ -9,7 +9,7 @@
     "url": "https://github.com/mt-support/tribe-helpdesk"
   },
   "scripts": {
-    "serve": "node ./utilities/serve.js"
+    "local-server": "node ./utilities/serve.js"
   },
   "dependencies": {
     "chalk": "^2.4.2",
