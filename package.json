@@ -1,13 +1,20 @@
 {
   "name": "tribe-helpdesk",
   "version": "0.1.0",
+  "license": "GPL-3.0",
   "description": "gulp",
   "homepage": "https://support.theeventscalendar.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/mt-support/tribe-helpdesk"
   },
-  "dependencies": {},
+  "scripts": {
+    "serve": "node ./utilities/serve.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
