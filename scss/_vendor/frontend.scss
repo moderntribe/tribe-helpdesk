@@ -263,24 +263,51 @@ html, .footer-container {
 }
 
 /*
- * TocBot
+ * Tocbot
  */
 
- .toc-list {
+.article-toc > .toc-list {
 	border-bottom: 2px solid;
-	list-style: none;
-	padding: 0 0 1em 0 !important;
+	list-style: none !important;
+	/* padding: 0 0 1em 0 !important; */
+	margin: 0 0 30px 0 !important;
+	padding: 0 0 30px 0 !important;
 }
 
-.toc-list:before {
+.article-toc > .toc-list:before {
 	content: 'Jump to';
 	display: block;
 	font-size: 24px;
 	font-weight: bold;
 }
 
-.toc-link:before {
-	display: none;
+.article-content {
+	/* Adjust position of anchor link */
+	h1, h2, h3, h4, h5, h6 {
+
+		&:before {
+			display: block;
+			content: " ";
+			height: 110px;
+			margin-top: -110px;
+			visibility: hidden;
+		}
+	}
+}
+
+/* Nested lists */
+.toc-list ol, 
+.toc-list ol ol {
+	margin-left: 1em;
+}
+
+.toc-list-item {
+	margin: 0;
+	padding: 0;
+}
+
+.toc-list-item:before {
+	display: none !important;
 }
 
 .toc-link {
