@@ -7,7 +7,7 @@ var jumbotronSearch = `
 		<ul>
 			<li><span>Popular:</span></li>
 			<li><a href="https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages">Shortcodes</a></li>
-			<li><a href="https://theeventscalendar.com/functions/">Documentation</a></li>
+			<li><a href="https://docs.theeventscalendar.com">Documentation</a></li>
 			<li><a href="https://theeventscalendar.com/customizations/">Customization</a></li>
 			<li><a href="https://theeventscalendar.com/subscription-information/">Orders</a></li>
 		</ul>
@@ -47,7 +47,7 @@ var componentFeaturedContent = `
 			</article>
 
 			<article class="featured-content__item">
-				<a href="https://theeventscalendar.com/functions/">
+				<a href="https://docs.theeventscalendar.com">
 					<div class="featured-content__icon">
 						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-code.svg" alt="" />
 					</div>
@@ -109,7 +109,7 @@ var componentPortals = `
 					<li><a href="https://theeventscalendar.com/customizations/">Customization</a></li>
 					<li><a href="https://support.theeventscalendar.com/969953-CSV-file-examples-for-importing">Importing Events</a></li>
 				</ul>
-				<a href="https://theeventscalendar.com/functions/" class="button button--primary">Visit Docs</a>
+				<a href="https://docs.theeventscalendar.com" class="button button--primary">Visit Docs</a>
 			</div>
 		</div>
 	</div>
