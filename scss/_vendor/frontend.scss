@@ -285,7 +285,6 @@ html, .footer-container {
 	h1, h2, h3, h4, h5, h6 {
 
 		&:before {
-			display: block;
 			content: " ";
 			height: 110px;
 			margin-top: -110px;
