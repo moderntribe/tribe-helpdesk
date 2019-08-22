@@ -28,13 +28,12 @@ Since LiveAgent is a third party platform, developing locally can be a challenge
 
 Helper commands (assumes you are in the root directory of this repo):
 
-* `bash utilities/view-static-site` will try to open the local site in your default browser
+* `npm run local-server` starts a local server which you can use to test out your changes locally
 * `bash utilities/rebuild-local-copy` will wipe the `docs/` folder and rebuild it using the lastest production sources
 * `bash utilities/fix-docs-dir-permissions` may be useful if your local Gulp has difficulties writing to the `docs/` folder
+* `bash utilities/view-static-site` will try to open the local site in your default browser however this is no longer recommended: use the local server instead
 
 To utilize these tools you will need Docker. Note too that each time you run `gulp build` the resulting artifacts—the compiled JS and CSS—will also be copied across to the `docs/` directory.
-
-If you do not have any success running the `view-static-site` command listed above, simply open docs/index.html in your browser by manually crafting a `file://` path.
 
 ### Workflow for changes
 
