@@ -1,3 +1,16 @@
 .page-home .article-list {
 	display: none;
 }
+
+/* Sets Category List to display flex */
+.page-home .category-list .row {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+/* Sets Category list blocks to 100% width under tablet breakpoint */
+@media screen and (max-width: 767px) {
+	.page-home .category-list .row > * {
+		width: 100%;
+	}
+}
