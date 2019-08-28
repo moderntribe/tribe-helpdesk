@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="813503-Creating-tickets-and-publishing-to-Eventbritecom" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="813503-Creating-tickets-and-publishing-to-Eventbritecom" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -121,7 +121,7 @@ zaius.event('pageview');
 
 <p>Ready to go? Open your Edit Event page and scroll down to the Eventbrite section:</p>
 
-<p><img alt="Creating tickets and publishing to Eventbrite.com - Register this event with Eventbrite.com" src="http://theeventscalendar.com/content/uploads/2014/11/kb-eventbrite-publishing-admin.png" /></p>
+<p><img alt="Creating tickets and publishing to Eventbrite.com - Register this event with Eventbrite.com" src="https://s3.theeventscalendar.com/uploads/2014/11/kb-eventbrite-publishing-admin.png" /></p>
 
 <p>The first step to publishing an event and connecting it to Eventbrite is to change the option "Register this event with eventbrite.com" to "Yes." This is where all the magic happens and all your event and ticket-creating powers are revealed. Associating the event with Eventbrite will open a set of options that allow you to publish the event to Eventbrite and create tickets for the event. Let's go over those options one-by-one.</p>
 
@@ -138,7 +138,7 @@ zaius.event('pageview');
 
 <p>After all the ticket details, there is one more option left. It's a biggie because it tells Eventbrite whether you want to publish the event as a Draft or a Live event on&nbsp;eventbrite.com.</p>
 
-<p><img alt="kb-eventbrite-publishing-status" src="https://theeventscalendar.com/content/uploads/2014/11/kb-eventbrite-publishing-status.png" /></p>
+<p><img alt="kb-eventbrite-publishing-status" src="https://s3.theeventscalendar.com/uploads/2014/11/kb-eventbrite-publishing-status.png" /></p>
 
 <p>Please note that the ticket form will not display on your WordPress event page until the status has been updated from Draft to Live because Eventbrite can only sell tickets for live events.&nbsp;You can always move the event from Draft to Live on your Eventbrite.com account, at which point the ticket will show on your WordPress event.</p>
 
@@ -151,7 +151,7 @@ zaius.event('pageview');
 
 <p>Additional tickets can be added after you have saved your Event post. We understand that can be a little confusing and we're looking into a smoother way to handle this that works with Eventbrite. For now, this is how it works:</p>
 
-<p><img alt="kb-eventbrite-publishing-moretickets" src="https://theeventscalendar.com/content/uploads/2014/11/kb-eventbrite-publishing-moretickets.png" /></p>
+<p><img alt="kb-eventbrite-publishing-moretickets" src="https://s3.theeventscalendar.com/uploads/2014/11/kb-eventbrite-publishing-moretickets.png" /></p>
 
 <p>Create additional tickets by clicking the "Create a new ticket" link in the Eventbrite section of the WordPress editing screen. This will take you to the event in Eventbrite (off your WordPress site), where you can add or edit tickets. Any changes you make in Eventbrite will automatically be imported to your site.</p>
 
@@ -164,7 +164,7 @@ zaius.event('pageview');
 
 <p>However, once you've published an event, you will see new options in the WordPress editing screen that help you manage the event on both your site and Eventbrite as well.</p>
 
-<p style="text-align: center;"><img alt="Leave this event Associated with eventbrite.com and display tickets on event page" src="http://theeventscalendar.com/content/uploads/2014/11/updated-eventbrite-settings-665x438.jpg" /></p>
+<p style="text-align: center;"><img alt="Leave this event Associated with eventbrite.com and display tickets on event page" src="https://s3.theeventscalendar.com/uploads/2014/11/updated-eventbrite-settings-665x438.jpg" /></p>
 
 <p>Let's go over these options:</p>
 
@@ -193,8 +193,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Feb 27, 2019, 04:49 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-02-27" itemprop="dateModified">Feb 27 (2 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:36 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -272,10 +272,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="813503-Creating-tickets-and-publishing-to-Eventbritecom#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

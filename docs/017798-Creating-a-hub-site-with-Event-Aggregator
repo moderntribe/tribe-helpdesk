@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="017798-Creating-a-hub-site-with-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="017798-Creating-a-hub-site-with-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -130,7 +130,7 @@ zaius.event('pageview');
 
 <p>Once your hub site is established with the necessary plugins, take a moment to review your settings to ensure that everything is set up properly for your calendar, events, and imports. You can find your plugin settings by navigating to <strong>Events</strong> &gt; <strong>Settings</strong> from your WordPress admin's sidebar. In particular, make sure to review the Imports tab, which contains all plugin settings related to Event Aggregator imports. You'll find the settings relevant to the <strong>Other URL</strong> import type near the bottom of this tab.</p>
 
-<p style="text-align: center;"><img alt="Other URL Import Settings from Event Aggregator" src="https://theeventscalendar.com/content/uploads/2017/08/other_url_import_settings-665x462.png" /></p>
+<p style="text-align: center;"><img alt="Other URL Import Settings from Event Aggregator" height="462" src="https://s3.theeventscalendar.com/uploads/2017/08/other_url_import_settings.png" width="665" /></p>
 
 <p>If you've reviewed your settings for other Event Aggregator import types at any point, you should find the first three settings in this section familiar. The Import Event Settings option is also fairly self-explanatory. However, the <strong>Import date range</strong> option is worth a second look.</p>
 
@@ -148,13 +148,13 @@ zaius.event('pageview');
 
 <p>Select the <strong>Other URL</strong> option for the <strong>Import Origin</strong> field, then select <strong>Scheduled Import</strong> when prompted to choose an <strong>Import Type</strong>. Selecting this option will display the complete selection of fields for scheduling a recurring import task.</p>
 
-<p style="text-align: center;"><img alt="Event Aggregator scheduled or one-time imports" src="https://theeventscalendar.com/content/uploads/2016/09/Scheduled-import-fields-665x491.png" /></p>
+<p style="text-align: center;"><img alt="Event Aggregator scheduled or one-time imports" height="491" src="https://s3.theeventscalendar.com/uploads/2016/09/Scheduled-import-fields.png" width="665" /></p>
 
 <p>As with any other scheduled import, you can select an interval for your scheduled imports, with options ranging from every 30 minutes to once per month. If you know how often your source sites tend to update with new events, adopting this interval for your imports may make the most sense; if you aren't sure, a few daily or weekly imports should ensure that your hub remains up to date without using up all of your allotted daily tasks. It's worth keeping your daily import limit in mind when making your selection here--you can read more about import limits for Event Aggregator <a href="430949-How-Do-Event-Aggregators-Import-Limits-Work">here</a>.</p>
 
 <p>After you've chosen the appropriate interval for your import task, enter the calendar URL for your first source site in the <strong>URL</strong> field. You can specify any additional refinements that you'd like in the remaining fields, but typically, these won't be used for hub sites. Click the <strong>Preview</strong> button once you're finished, and Event Aggregator will display a sampling of events to be imported based on your criteria.</p>
 
-<p style="text-align: center;"><img alt="Event Aggregator: Import Preview" src="https://theeventscalendar.com/content/uploads/2015/07/Screenshot_Save_Scheduled_Import-665x408.png" /></p>
+<p style="text-align: center;"><img alt="Event Aggregator: Import Preview" height="408" src="https://s3.theeventscalendar.com/uploads/2015/07/Screenshot_Save_Scheduled_Import.png" width="665" /></p>
 
 <p>Beneath your list of previewed events, you'll be presented with just two remaining options: <strong>Status</strong> and <strong>Category</strong>. By default, imported events are set to "Published" status and will display immediately on your calendar. If you'd prefer to have your imports set to "Draft" or another status to be reviewed before publishing, select the option that you'd prefer for the <strong>Status</strong> field.</p>
 
@@ -168,12 +168,7 @@ zaius.event('pageview');
 <p>We hope that this article gives you some ideas for how you can use Event Aggregator to easily establish hub calendars and provide a diverse selection of events for your users! Got a question that isn't answered here? Feel free to reach out to us over at&nbsp;<a href="submit_ticket">our help desk</a>!</p>
 </div>    			
 				<div class="Files">
-																		<div class="FilePreview">
-	<a class="File" href="scripts/file.php%3Fview=Y&amp;file=b9acf3d89aed521c0efddcb0b6a02e58" target="_blank">
-	 <span class="ImageFileName">event-aggregator_import-screen_import-origins.png</span>
-	</a>
-	<a class="FileImage" href="scripts/file.php%3Fview=Y&amp;file=b9acf3d89aed521c0efddcb0b6a02e58" target="_blank"><img class="ImageFilePreview" src="scripts/file.php%3Fview=Y&amp;file=b9acf3d89aed521c0efddcb0b6a02e58"></a>	
-</div>											    			
+					    			
     			</div>  
           <div class="ArticleInfo">          
           <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
@@ -181,8 +176,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 29, 2019, 10:18 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-29" itemprop="dateModified">Jan 29 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -276,10 +271,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="017798-Creating-a-hub-site-with-Event-Aggregator#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

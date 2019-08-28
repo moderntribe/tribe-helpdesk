@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="594322-Send-and-Schedule-Messages" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="594322-Send-and-Schedule-Messages" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Send and Schedule Messages</title>            <meta property="og:url" content="//support.theeventscalendar.com/594322-Send-and-Schedule-Messages" />    <meta property="og:title" content="Send and Schedule Messages" />    <meta property="og:description" content="Once you’ve created a message, previewed it and are ready to send it out to your attendee list, it’s time to schedule the message. There are two options for sending messages.    Send Immediately  " />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Send and Schedule Messages</title>            <meta property="og:url" content="//support.theeventscalendar.com/594322-Send-and-Schedule-Messages" />    <meta property="og:title" content="Send and Schedule Messages" />    <meta property="og:description" content="Once you’ve created a message, previewed it and are ready to send it out to your attendee list, it’s time to schedule your message. There are two options for sending messages.    Send Immediately " />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,33 +116,27 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Once you’ve created a message, previewed it and are ready to send it out to your attendee list, it’s time to schedule the message. There are two options for sending messages.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Once you’ve created a message, previewed it and are ready to send it out to your attendee list, it’s time to schedule your message. There are two options for sending messages.</p>
 
 <h2>Send Immediately</h2>
 
-<p>If you’re ready to send a message right away, then Promoter has an option to skip the scheduling and send immediately.</p>
+<p>If you’re ready to send a message right away, just click on the "Send Now" button.</p>
 
-<p><b id="docs-internal-guid-abd01f1a-7fff-19a3-aee7-3f7d7a860b72"><img height="213" src="https://lh4.googleusercontent.com/wPQFrbdfkOCqeFFt_L9UBf5toGLMVpYUyTYxKPaOGzqCPEzmpviJh91P12Y5WnlrC0RZLqvjHwXN0CMCHonfVPYWaYlwsE1JE101T6RQIpwnJq873xrJrkjXQqyqngNracgfkHM" width="624" /></b></p>
+<p><img height="auto" src="scripts/file.php%3Fview=Y&amp;file=v53l1r9q9xh8f73us9nn5ou0ojyra3xe" width="803" /></p>
 
-<p><br />
-Choosing this option will give you a chance to confirm that you are ready to send the message before it actually goes out. This helps prevent sending a message by accident.</p>
+<p>After clicking on "Send Now", you still need to confirm that you want to send the message before it actually goes out. This helps prevent sending a message by accident.</p>
 
-<p><b id="docs-internal-guid-ab35229d-7fff-56de-8f01-ecb6e8ef3a83"><img height="359" src="https://lh3.googleusercontent.com/MrurRuO83qGyhR6X41l85X1iMaa-S_w3F_46_QxBfMlTi4hyitwqQ8qYfZXffeHedwATaCGZ7W_YIbLBDLMXcONGEWYULRz6AoXkedl6GR_cooXQItkTamt5twM959rM-58ANd4" width="624" /></b></p>
+<p><b id="docs-internal-guid-ab35229d-7fff-56de-8f01-ecb6e8ef3a83"><img height="auto" src="https://lh3.googleusercontent.com/MrurRuO83qGyhR6X41l85X1iMaa-S_w3F_46_QxBfMlTi4hyitwqQ8qYfZXffeHedwATaCGZ7W_YIbLBDLMXcONGEWYULRz6AoXkedl6GR_cooXQItkTamt5twM959rM-58ANd4" width="624" /></b></p>
 
-<p>Select “Yes” in the “Send This Message” dropdown, click “Confirm” and the message will be sent.</p>
+<p>Select “Yes” from the “Send This Message” dropdown and click “Confirm” for the message to be sent.</p>
 
 <h2>Schedule to Send Later</h2>
 
-<p>Promoter allows messages to be scheduled to send at a specific date and time. Once the required message details have been completed in the message editor, set the date and time the message should be delivered.</p>
+<p>Promoter allows messages to be scheduled so that they are sent at a specific date and time. Once the required message details have been completed, set the date and time you wish the message to be delivered at and click on the "Schedule" button.</p>
 
-<p><b id="docs-internal-guid-fb68b680-7fff-acdd-31e8-510fdffc89df"><img height="213" src="https://lh5.googleusercontent.com/1CpAMjJDgACJHKffi7zVGOHQ7qNfjCAxpof5eivnR0CgKdh6axBOxVJU2zC8-iwJTHNDCekMW1I1nc-pKGYbeC1tI4xSHMFIW_7GU_Xt3v9Xl0uD6sgPUubg2QsN0O7E51jASFQ" width="624" /></b></p>
+<p><img height="auto" src="scripts/file.php%3Fview=Y&amp;file=r74madzw7smzpqe1kcxtk6sloknb14v8" width="803" /></p>
 
-<p>The options include a relative and an absolute date:</p>
-
-<ul>
-	<li><strong>Relative Date (default): </strong>A relative date is based on the date and time of the event. Choose the number of hours, days or weeks either before or after the event start date or end date and the message will send at the correct time based on those conditions.</li>
-	<li><strong>Absolute Date:</strong> An absolute date schedule the message at a specific date and time. Choose the date and time and the message will be scheduled to send at that time.</li>
-</ul>
+<p><strong>Pro tip:</strong> You can cancel a scheduled message at any time (before it is sent). You can read more about that in our <a href="239272-Cancel-a-Message" target="_blank">Cancel Message guide</a>.</p>
 </div>    			
 				<div class="Files">
 					    			
@@ -153,8 +147,8 @@ Choosing this option will give you a chance to confirm that you are ready to sen
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 25, 2019, 08:58 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-25" itemprop="dateModified">Jan 25 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 14, 2019, 09:29 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-14" itemprop="dateModified">Jul 14 (44 days ago)</time></span>
               </div>
                         <time datetime="2018-12-19" itemprop="datePublished"></time>
           </div>
@@ -235,10 +229,10 @@ Choosing this option will give you a chance to confirm that you are ready to sen
 		</footer>
 	<a href="594322-Send-and-Schedule-Messages#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

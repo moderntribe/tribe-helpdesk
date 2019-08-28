@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="305027-Event-Tags" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="305027-Event-Tags" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -114,7 +114,7 @@ zaius.event('pageview');
 
 <p>When you're creating a new event or editing an existing one, you'll see the <strong>Tags</strong> meta box to the right of the event description field, directly below the <strong>Publish</strong> meta box:</p>
 
-<p style="text-align: center;"><img alt="Tags meta box when creating or editing an event" src="https://theeventscalendar.com/content/uploads/2014/09/tags_meta_box.png" /></p>
+<p style="text-align: center;"><img alt="Tags meta box when creating or editing an event" src="https://s3.theeventscalendar.com/uploads/2014/09/tags_meta_box.png" /></p>
 
 <p>To add tags to an event, simply type your desired tags into the text field, separating individual tags with commas, then click the <strong>Add</strong> button to confirm your selections. You can also click <strong>Choose from the most used tags</strong> to display a list of the most commonly-used event tags, if you'd like to select from your pool of existing tags. If you make a mistake or wish to remove a tag after it's been added, you can click the X next to any tag to remove it from the listing. Don't forget to click the blue <strong>Publish</strong> or <strong>Update</strong> button in the <strong>Publish</strong> meta box to publish any changes you make to the event.</p>
 
@@ -122,7 +122,7 @@ zaius.event('pageview');
 
 <p>You can access a complete listing of all of the tags that you've created for your events by navigating to <strong>Events</strong> &gt; <strong>Tags</strong> from your WordPress sidebar.</p>
 
-<p style="text-align: center;"><img alt="Partial view of event tags page" src="https://theeventscalendar.com/content/uploads/2014/09/tags_page-665x185.png" /></p>
+<p style="text-align: center;"><img alt="Partial view of event tags page" src="https://s3.theeventscalendar.com/uploads/2014/09/tags_page-665x185.png" /></p>
 
 <p>From here, you can create new tags to be assigned to future events, if desired, or you can edit any existing tags from the listing provided. Editing or changing an existing tag will change that tag across all events that have that tag assigned. Note that an optional <strong>Description</strong> field is provided when adding new tags or editing tags in full <em>Edit</em> mode (as opposed to <em>Quick Edit</em>). This field is not used by The Events Calendar by default, so it's okay to leave it blank, or you can use it to store information about tags for your own reference.</p>
 
@@ -150,8 +150,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 11:22 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:35 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -176,8 +176,11 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
-        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+        <li class="list-group-item item-A"><a href="417063-Blocks-Colors-and-the-Default-Events-Template" class="article-link article-link-907" title="Blocks, Colors, and the Default Events Template">
+        <span class="TitleValue">Blocks, Colors, and the Default Events Template</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="807454-Change-the-Default-Event-Template-in-Block-Editor" class="article-link article-link-843" title="Change the Default Event Template in Block Editor">
+        <span class="TitleValue">Change the Default Event Template in Block Editor</span>
       </a></li>
         <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
         <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
@@ -203,11 +206,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
         <span class="TitleValue">Changing the browser title for calendar views</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
-        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 73 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -245,10 +245,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="305027-Event-Tags#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

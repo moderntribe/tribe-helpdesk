@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Recurring Events/Event Series in Events Calendar PRO</title>        <meta name="keywords" content="Events Calendar PRO,Article,Beginner,Events Calendar PRO,events,recurring events,date,events calendar pro,recurrence,series,event series,set of recurrence rules,recurrence rules,right side of the page,&amp;gt; settings in the general,daily weekly monthly or yearly,settings in the general tab,right of the desired row,time by clicking the trash,remove a set of recurrence,blue publish or update button,visible on the right side,icon to the right,event that recurs, uiback, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" />    <meta property="og:title" content="Recurring Events/Event Series in Events Calendar PRO" />    <meta property="og:description" content="While most calendar events are single one-day or multi-day events, there may be times when a series of events, known as recurring events, may be more appropriate. For example:     	- Events that repea" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Recurring Events/Event Series in Events Calendar PRO</title>        <meta name="keywords" content="Events Calendar PRO,Article,Beginner,Events Calendar PRO,events,recurring events,date,events calendar pro,recurrence,series,event series,set of recurrence rules,recurrence rules,right side of the page,&amp;gt; settings in the general,daily weekly monthly or yearly,settings in the general tab,right of the desired row,time by clicking the trash,remove a set of recurrence,blue publish or update button,visible on the right side,icon to the right,event that recurs, uiback, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO" />    <meta property="og:title" content="Recurring Events/Event Series in Events Calendar PRO" />    <meta property="og:description" content="While most calendar events are single one-day or multi-day events, there may be times when a series of events, known as recurring events, may be more appropriate. For example:     	- Events that repea" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=tbhzrxfhkwzht3m2pmgbw6yuvwvs9nnx" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -127,11 +127,19 @@ zaius.event('pageview');
 
 <p>After making your selections for the first event in your series, you'll see an <strong>Event Series</strong> option. &nbsp;This option is located just below the <strong>Start/End</strong> options for your event.</p>
 
-<p><img alt="Time &amp; Date options with button for scheduling multiple recurring events" src="http://theeventscalendar.com/content/uploads/2014/12/event-series-section.png" /></p>
+<p style="text-align: center;"><img alt="Time &amp; Date options with button for scheduling multiple recurring events" src="https://s3.theeventscalendar.com/uploads/2014/12/event-series-section.png" /></p>
+
+<p style="text-align: center;">Classic Editor Start/End Time &amp; Date</p>
 
 <p>Click the <strong>Schedule multiple events</strong> button to display the first set of options for your event series. You'll see a row of buttons denoting the available recurrence types for your event series.</p>
 
-<p><img alt="Options for recurring event types in Events Calendar PRO" src="http://theeventscalendar.com/content/uploads/2014/12/event_series_recurrence_types.png" /></p>
+<p style="text-align: center;"><img alt="Options for recurring event types in Events Calendar PRO" src="https://s3.theeventscalendar.com/uploads/2014/12/event_series_recurrence_types.png" /></p>
+
+<p>In Block editor, things will look just a little bit different. Select the&nbsp;<strong>Recurrence Rules</strong>&nbsp;dropdown modal.</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=tbhzrxfhkwzht3m2pmgbw6yuvwvs9nnx" /></p>
+
+<p style="text-align: center;">Block Editor&nbsp;Start/End Time &amp; Date</p>
 
 <p>For event series that conform to a regular pattern, select the option that applies to your event series (<strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong>, or <strong>Yearly</strong>). If your event occurs on specific dates without following an established pattern, select the <strong>Once</strong> option for your event. We'll go over the options for both <a href="http://www.hemingwayapp.com/#pattern">pattern-based</a> and <a href="http://www.hemingwayapp.com/#non-pattern">non-pattern-based</a> recurrences below.</p>
 
@@ -139,7 +147,13 @@ zaius.event('pageview');
 
 <p>Once you've picked the option that works best for your event, more fields will appear, as shown below:</p>
 
-<p><img alt="Options for &quot;daily&quot; event series type" src="http://theeventscalendar.com/content/uploads/2014/12/daily_event_series_options-665x253.png" /></p>
+<p style="text-align: center;"><img alt="Options for &quot;daily&quot; event series type" src="https://s3.theeventscalendar.com/uploads/2014/12/daily_event_series_options-665x253.png" /></p>
+
+<p style="text-align: center;">Event Series in Classic Editor</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=8maet3f4w890h4x0w93hmg0g3meuh05j" /></p>
+
+<p style="text-align: center;">Event Series in Block Editor</p>
 
 <p>Let's use the <strong>Daily</strong> event recurrence options as an example. All pattern-based recurrence types will default to the most basic type of recurrence. In this case, that's an event that recurs daily, <em>at the same time</em> as the original event. You can tailor this pattern even further if needed. &nbsp;For example, you might wish to have:</p>
 
@@ -164,9 +178,15 @@ zaius.event('pageview');
 
 <p>In other words, the <strong>on</strong> and <strong>after</strong> options let you distinguish between inclusive and exclusive date ranges. Selecting the <strong>never </strong>option means that events will be created indefinitely as dictated by your <a href="https://theeventscalendar.com/knowledgebase/pro-recurring-events/#longterm">Recurrence Settings</a>.</p>
 
-<p><img alt="recurring event series ends" src="http://theeventscalendar.com/content/uploads/2018/04/event-series-ends.png" /></p>
+<p style="text-align: center;"><img alt="recurring event series ends" src="https://s3.theeventscalendar.com/uploads/2018/04/event-series-ends.png" /></p>
 
-<p>⚠ It is possible to create a recurring event with no end date for the event to stop recurring. P<strong>lease note that doing so will set the event to recur indefinitely. This will create an indefinitely growing number of events posts in the calendar.</strong> Indefinitely growing events can have a negative effect on the calendar's performance. Your calendar may load or react slowly based on the number of events that are present in the calendar.</p>
+<p style="text-align: center;">Recurrence Series Ends in Classic Editor</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=qem22mdw9ivyu29gql2mv0mh4mra98fo" /></p>
+
+<p style="text-align: center;">Recurrence Series Ends in Classic Editor</p>
+
+<p>⚠ It is possible to create a recurring event with no end date for the event to stop recurring. <strong>Please note that doing so will set the event to recur indefinitely. This will create an indefinitely growing number of events posts in the calendar.</strong> Indefinitely growing events can have a negative effect on the calendar's performance. Your calendar may load or react slowly based on the number of events that are present in the calendar.</p>
 
 <p>If you're setting up a regular recurrence pattern, such as an event that occurs on a monthly pattern without exceptions, then you are all done! &nbsp;Scroll up until the <strong>Publish</strong> pane is visible on the right side of the page, then click the blue <strong>Publish</strong> or <strong>Update</strong> button to save your event.</p>
 
@@ -187,13 +207,13 @@ zaius.event('pageview');
 
 <p>When you create an event with a long-term or never-ending recurrence pattern, you'll see a notice that looks something like this:</p>
 
-<p><img alt="Notice that is displayed when creating a long-term or never-ending recurring event" src="https://theeventscalendar.com/content/uploads/2014/12/long_term_recurrence_notice.png" /></p>
+<p><img alt="Notice that is displayed when creating a long-term or never-ending recurring event" src="https://s3.theeventscalendar.com/uploads/2014/12/long_term_recurrence_notice.png" /></p>
 
 <p>That number shows you how many instances of your event have been created (as controlled by your buffer period). As time passes, old events will be deleted and new ones will be made as defined by your recurrence pattern.</p>
 
 <p>In certain cases, you may need to extend or shorten the buffer period for your long-term event series. You'll find these settings under <strong>Events</strong> &gt; <strong>Settings</strong> in the <strong>General</strong> tab (which is selected when you first navigate to your plugin settings).</p>
 
-<p><img alt="Settings for the automatic generation and cleanup of events" src="https://theeventscalendar.com/content/uploads/2014/10/recurring-events-perpetual-event-buffer-settings.png" /></p>
+<p style="text-align: center;"><img alt="Settings for the automatic generation and cleanup of events" src="https://s3.theeventscalendar.com/uploads/2014/10/recurring-events-perpetual-event-buffer-settings.png" /></p>
 
 <p><em>Please note that changing these settings will not change event instances that have already been created. Any changes made will affect new events or event instances created from that point forward.</em></p>
 
@@ -201,7 +221,13 @@ zaius.event('pageview');
 
 <p>If your event series includes one or more event instances that do not occur as part of a greater pattern, you can add these events to your series by using the <strong>Once</strong> recurrence type. Clicking this button when adding a recurrence rule to your event series will display the following options.</p>
 
-<p><img alt="Options for &quot;once&quot; event recurrence type" src="https://theeventscalendar.com/content/uploads/2014/12/once_event_series_options-665x217.png" /></p>
+<p style="text-align: center;"><img alt="Options for &quot;once&quot; event recurrence type" src="https://s3.theeventscalendar.com/uploads/2014/12/once_event_series_options-665x217.png" /></p>
+
+<p style="text-align: center;">Non-Pattern-Based Event Series in Classic Editor</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=4udtj1zuu4afqngr8wsh4d6rp506oicr" /></p>
+
+<p style="text-align: center;">Non-Pattern-Based Event Series in Block Editor</p>
 
 <p>Enter the date for your event into the <strong>On</strong> field by typing or by using the provided date picker. You can also specify whether this event will occur at the same or different time as the original event. Once you've finished providing the details for your first event recurrence, you may add other rules as needed. Just select the <strong>Add more events</strong> button. You can remove a set of recurrence rules at any time by clicking the trash can icon to the right of the desired row. After you've entered the recurrence rules for all of your event dates, you can save your changes by scrolling up until the <strong>Publish</strong> pane is visible on the right side of the page, then clicking the blue <strong>Publish</strong> or <strong>Update</strong> button.</p>
 
@@ -209,7 +235,13 @@ zaius.event('pageview');
 
 <p>With Events Calendar PRO 3.12 and beyond, you can exclude specific dates or ranges within a recurring series. An <strong>Add Exclusion</strong> button will appear as soon as you add any other recurrence rules. Clicking this will display a row of buttons matching those that appear when adding a new recurrence rule. You can use the <strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong>, or <strong>Yearly</strong> exclusion options to exclude events in a pattern-based series. &nbsp;You can use the <strong>Once</strong> exclusion option to exclude a single event on a specific date.</p>
 
-<p><img alt="Options for specifying a daily exclusion pattern for an event series" src="https://theeventscalendar.com/content/uploads/2014/12/event_exclusion_options-665x199.png" /></p>
+<p style="text-align: center;"><img alt="Options for specifying a daily exclusion pattern for an event series" src="https://s3.theeventscalendar.com/uploads/2014/12/event_exclusion_options-665x199.png" />row of buttons denoting the available&nbsp;</p>
+
+<p style="text-align: center;">Recurring Event Exclusions in Classic Editor</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=8cv5irmd234sf51qbe08f808try0k7l6" /></p>
+
+<p style="text-align: center;">Recurring Event Exclusions in Block Editor</p>
 
 <p>Add as many exclusions as you need to fine-tune your event series. You can delete exclusions by clicking the trash can icon to the right of any row.</p>
 
@@ -221,7 +253,7 @@ zaius.event('pageview');
 
 <p>To avoid this situation, you can hide recurring events from list-style views for all but the <em>first upcoming</em> event in each sequence. You'll find this setting under <strong>Events</strong> &gt; <strong>Settings</strong> in the <strong>General</strong> tab (which is selected when you first navigate to your plugin settings).</p>
 
-<p><img alt="Recurrence in list views can be controlled " src="https://theeventscalendar.com/content/uploads/2014/10/recurring-events-show-only-the-first.png" /></p>
+<p style="text-align: center;"><img alt="Recurrence in list views can be controlled " src="https://s3.theeventscalendar.com/uploads/2014/10/recurring-events-show-only-the-first.png" /></p>
 
 <h3 id="breaking">Breaking Events from Series</h3>
 
@@ -240,7 +272,7 @@ zaius.event('pageview');
 
 <p>When you are viewing an instance of an event on your site, if you have the <a href="https://codex.wordpress.org/Toolbar">Toolbar</a> enabled in your WordPress user settings, you should see an <strong>Edit Event</strong> link in the toolbar. Upon hovering over this link, a drop-down menu should appear with a few options. Select&nbsp;<strong>Break from Series</strong>.</p>
 
-<p><a href="https://theeventscalendar.com/content/uploads/2014/12/Screen-Shot-2016-04-29-at-10.39.27-PM.png" rel="attachment wp-att-1109045"><img alt="Screenshot showing the &quot;Break from Series&quot; link when viewing a single event" src="https://theeventscalendar.com/content/uploads/2014/12/Screen-Shot-2016-04-29-at-10.39.27-PM-665x388.png" /></a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2014/12/Screen-Shot-2016-04-29-at-10.39.27-PM.png" rel="attachment wp-att-1109045"><img alt="Screenshot showing the &quot;Break from Series&quot; link when viewing a single event" src="https://s3.theeventscalendar.com/uploads/2014/12/Screen-Shot-2016-04-29-at-10.39.27-PM-665x388.png" /></a></p>
 
 <p>Click this link and allow the page to refresh. You should be brought to the edit screen for this event in your WordPress admin. The event will no longer be a part of the recurrence series.</p>
 
@@ -250,11 +282,11 @@ zaius.event('pageview');
 
 <p>To do this, navigate to <strong>Events</strong> from your WordPress sidebar. In your listing of events, locate the event at which you want to split up the series. Hover over the title of this event and look for the <strong>Edit Upcoming</strong> link.</p>
 
-<p><a href="https://theeventscalendar.com/content/uploads/2014/12/Screen-Shot-2016-04-29-at-10.50.02-PM.png" rel="attachment wp-att-1109046"><img alt="Screenshot of the &quot;Edit Upcoming&quot; link" src="https://theeventscalendar.com/content/uploads/2014/12/Screen-Shot-2016-04-29-at-10.50.02-PM-665x189.png" /></a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2014/12/Screen-Shot-2016-04-29-at-10.50.02-PM.png" rel="attachment wp-att-1109046"><img alt="Screenshot of the &quot;Edit Upcoming&quot; link" src="https://s3.theeventscalendar.com/uploads/2014/12/Screen-Shot-2016-04-29-at-10.50.02-PM-665x189.png" /></a></p>
 
 <p>Click this link to confirm that you'd like to split your event series at this location. You'll see a pop-up dialog box confirming the change before it is processed.</p>
 
-<p><img alt="Dialog box that appears when splitting an event series in two" src="https://theeventscalendar.com/content/uploads/2014/12/split_event_series_warning.png" /></p>
+<p style="text-align: center;"><img alt="Dialog box that appears when splitting an event series in two" src="https://s3.theeventscalendar.com/uploads/2014/12/split_event_series_warning.png" /></p>
 
 <p>Click <strong>OK</strong> to confirm, and your series will be split at this event.</p>
 
@@ -276,8 +308,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 26, 2018, 12:30 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 02, 2019, 11:39 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-02" itemprop="dateModified">Jul 02 (56 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -371,10 +403,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="423317-Troubleshooting-Google-Maps" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="423317-Troubleshooting-Google-Maps" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Troubleshooting Google Maps</title>    <meta name="description" content="Is your website unable to load Google Maps or do you see events located ..." />    <meta name="keywords" content="Events Calendar PRO,Article,Events Calendar PRO,Intermediate,Common Conflicts,Single Event Pages,Errors &amp;amp; Troubleshooting,Common Conflicts,Map View,events,google,events calendar,events calendar pro,upcoming events,map,map view,google maps,maps,google maps api key,google maps api,maps api key,maps api,list of upcoming events,coast of africa,latitude and longitude,venue data,enable google maps,events located in the ocean,fixing venue data, uitribe, uiback" />    <meta property="og:url" content="//support.theeventscalendar.com/423317-Troubleshooting-Google-Maps" />    <meta property="og:title" content="Troubleshooting Google Maps" />    <meta property="og:description" content="Is your website unable to load Google Maps or do you see events located in the ocean off the coast of Africa? These are a few of the common Google Maps issues that we see. Here are our steps for troub" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Troubleshooting Google Maps</title>    <meta name="description" content="Is your website unable to load Google Maps or do you see events located ..." />    <meta name="keywords" content="Events Calendar PRO,Article,Events Calendar PRO,Intermediate,Common Conflicts,Single Event Pages,Errors &amp;amp; Troubleshooting,Common Conflicts,Map View,events,google,events calendar,events calendar pro,upcoming events,map,map view,google maps,maps,google maps api key,google maps api,maps api key,maps api,list of upcoming events,coast of africa,latitude and longitude,venue data,enable google maps,events located in the ocean,fixing venue data, uitribe, uiback, block editor, classic editor" />    <meta property="og:url" content="//support.theeventscalendar.com/423317-Troubleshooting-Google-Maps" />    <meta property="og:title" content="Troubleshooting Google Maps" />    <meta property="og:description" content="Is your website unable to load Google Maps or do you see events located in the ocean off the coast of Africa? These are a few of the common Google Maps issues that we see. Here are our steps for troub" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=fs90nc2wuo3cmlok1n37hokcrzaafzr6" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -112,13 +112,19 @@ zaius.event('pageview');
 
 <p>The issue may be that you haven’t hit the “Enable Google Maps” checkbox on the backend, under <strong>Events &gt; Settings</strong>.</p>
 
-<p style="text-align: center;"><img alt="Screentshot: Events &gt; Settings &gt; Map Settings &gt; Enable Google Maps" src="http://theeventscalendar.com/content/uploads/2018/06/mapsettings.png" /></p>
+<p style="text-align: center;"><img alt="Screentshot: Events &gt; Settings &gt; Map Settings &gt; Enable Google Maps" src="https://s3.theeventscalendar.com/uploads/2018/06/mapsettings.png" /></p>
 
 <p>Once enabled, you’ll have the option to embed Google maps in your frontend event listings.</p>
 
 <p>By default, The Events Calendar will try&nbsp;to add a map to single event views as well as an external link to Google Maps. It's possible to disable either or both these things using the settings provided in the events editor. Here's what those settings look like:</p>
 
-<p style="text-align: center;"><img alt="Google Maps location" src="http://theeventscalendar.com/content/uploads/2018/06/location.png" /></p>
+<p style="text-align: center;"><img alt="Google Maps location" src="https://s3.theeventscalendar.com/uploads/2018/06/location.png" /></p>
+
+<p style="text-align: center;">Google Maps settings in Classic Editor</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=fs90nc2wuo3cmlok1n37hokcrzaafzr6" /></p>
+
+<p style="text-align: center;">Google Maps settings in Block Editor</p>
 
 <h3 id="key">Add a Google Maps API Key</h3>
 
@@ -134,7 +140,7 @@ zaius.event('pageview');
 
 <p>This time, navigate to <strong>Events &gt; Venues</strong>. If you click Edit on one of the venues, there is an option to use latitude and longitude coordinates. Click on that option for each venue. Confirm the coordinates, save the venue, and then see if that makes a difference in the map's appearance.</p>
 
-<p style="text-align: center;"><img alt="Screenshot of Events editor, Venue information, Use latitude + longitude when showing Google Maps" src="http://theeventscalendar.com/content/uploads/2015/11/kb-troubleshotting-map-view-coordinates-665x449.jpg" title="Using latitude + longitude can resolve Google Maps conflicts" /></p>
+<p style="text-align: center;"><img alt="Screenshot of Events editor, Venue information, Use latitude + longitude when showing Google Maps" src="https://s3.theeventscalendar.com/uploads/2015/11/kb-troubleshotting-map-view-coordinates-665x449.jpg" title="Using latitude + longitude can resolve Google Maps conflicts" /></p>
 
 <p><a href="https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&amp;hl=en" rel="noopener">Entering the latitude and longitude</a> of the venue allows The Events Calendar to communicate specific coordinates to the Google Maps API when the API is unable to recognize an address on its own.</p>
 
@@ -155,7 +161,7 @@ This may cause unexpected errors.
 
 <h3 id="mapview">Map View</h3>
 
-<p style="text-align: center;"><img alt="The Events Calendar Pro Map View uses Google Maps to display upcoming events" src="http://theeventscalendar.com/content/uploads/2015/11/kb-troubleshotting-map-view-default.jpg" title="The Events Calendar Pro Map View uses Google Maps to display upcoming events" /></p>
+<p style="text-align: center;"><img alt="The Events Calendar Pro Map View uses Google Maps to display upcoming events" src="https://s3.theeventscalendar.com/uploads/2015/11/kb-troubleshotting-map-view-default.jpg" title="The Events Calendar Pro Map View uses Google Maps to display upcoming events" /></p>
 
 <p>Map View is one of the advanced views available with Events Calendar PRO. When enabled, a giant map displays above the main calendar and displays upcoming events that have venues assigned to them.</p>
 
@@ -196,8 +202,8 @@ This may cause unexpected errors.
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Apr 18, 2019, 02:17 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-18" itemprop="dateModified">Apr 18 (21 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 30, 2019, 12:36 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -291,10 +297,10 @@ This may cause unexpected errors.
 		</footer>
 	<a href="423317-Troubleshooting-Google-Maps#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

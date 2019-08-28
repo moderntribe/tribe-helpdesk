@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="136789-New-User-Primer-Community-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="136789-New-User-Primer-Community-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -118,11 +118,15 @@ zaius.event('pageview');
 
 <p>2. If you've just purchased Community Tickets, the license key will be automatically added for you. Just in case you don't have the license activated, see our guide on how to <a href="839749-Finding-and-Inputting-Your-License-Key">input your license key</a>.&nbsp;The plugin will work without the license key, but you’ll need it for automatic updates when a new version is released. Need updates on both your dev site and your live site?&nbsp;<a href="426506-Using-One-License-for-Live-and-Dev-Sites">We&nbsp;can&nbsp;do that</a>.</p>
 
-<p>3. <a href="https://support.theeventscalendar.com/253714-Configuring-Community-Tickets">Configure your settings</a>. The settings for Community Tickets are on the Community Settings tab.&nbsp;<strong>Make sure that you have checked the box Enable Community Tickets box&nbsp;to enable the plugin features on your site.</strong></p>
+<p>3. <a href="https://support.theeventscalendar.com/253714-Configuring-Community-Tickets">Configure your settings</a>. The settings for Community Tickets are on the Community Settings tab.&nbsp;<strong>Make sure that you have checked the box Enable Community Tickets box&nbsp;to enable the plugin features on your site.&nbsp;</strong></p>
 
-<p>4.&nbsp;Make sure that you have your <a href="786442-Setting-Overview-Community-Events">Community Events</a> and WooCommerce settings&nbsp;configured to meet your needs. <strong>If you'll be using split payments for dividing payments between event organizers and site administration</strong>, you'll also want to make sure that you've completed the setup process for PayPal and entered those settings into Community Tickets. We've got a full rundown of the setup and configuration process for PayPal split payments <a href="347614-Community-Tickets-Configuring-PayPal-Split-Payments">right over here</a>.</p>
+<p>4.&nbsp;Make sure that you have your <a href="786442-Setting-Overview-Community-Events">Community Events</a> and WooCommerce settings&nbsp;configured to meet your needs. <strong>If you'll be using split payments for dividing payments between event organizers and site administration</strong>, you'll also want to make sure that you've completed the setup process for PayPal and entered those settings into Community Tickets.&nbsp;</p>
 
-<p>5.&nbsp;Sit back and let your community organizers add their events and tickets! If you're collecting fees from&nbsp;ticket purchases, you can also <a href="152335-Community-Tickets-Tracking-sales--getting-paid">track sales and get paid</a>.</p>
+<p>&nbsp; 4a. Configure your <a href="117835-Community-Tickets-Site-Fees">Site Fees</a> settings.</p>
+
+<p>&nbsp; 4b. Configure your <a href="587135-Community-Tickets-Split-Payments">Split Payments</a> settings</p>
+
+<p>5.&nbsp;Sit back and let your community organizers add their events and tickets! If you're collecting fees from&nbsp;ticket purchases, you can also <a href="152335-Community-Tickets-Tracking-sales--getting-paid">track sales and get paid</a>. You can also use <a href="846635-Community-Events-Shortcodes">shortcodes</a> to allow your Community Ticket users also track sales and handle attendee registration.&nbsp;</p>
 
 <p>If you run into trouble or need help, you can head to our <a href="search?q=errors&amp;pid=405&amp;type=search">troubleshooting page</a> or post to our <a href="submit_ticket">help desk</a>. You can also explore our <a href="submit_ticket">help-desk</a>&nbsp;for tutorials, tips, walkthroughs, and more.</p>
 </div>    			
@@ -135,8 +139,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Feb 07, 2019, 12:13 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-02-07" itemprop="dateModified">Feb 07 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Aug 03, 2019, 02:03 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-03" itemprop="dateModified">Aug 03 (24 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -161,11 +165,17 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="117835-Community-Tickets-Ticket-Fees" class="article-link article-link-933" title="Community Tickets: Ticket Fees">
+        <span class="TitleValue">Community Tickets: Ticket Fees</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="587135-Community-Tickets-Split-Payments" class="article-link article-link-941" title="Community Tickets: Split Payments">
+        <span class="TitleValue">Community Tickets: Split Payments</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="349416-Configuring-Community-Tickets" class="article-link article-link-815" title="Configuring Community Tickets">
         <span class="TitleValue">Configuring Community Tickets</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="347614-Community-Tickets-Configuring-PayPal-Split-Payments" class="article-link article-link-559" title="Community Tickets: Configuring PayPal Split Payments">
-        <span class="TitleValue">Community Tickets: Configuring PayPal Split Payments</span>
+        <li class="list-group-item item-A"><a href="347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" class="article-link article-link-559" title="Community Tickets: Configuring PayPal Adaptive Payments (Legacy)">
+        <span class="TitleValue">Community Tickets: Configuring PayPal Adaptive Payments (Legacy)</span>
       </a></li>
     </ul>
   </div>
@@ -205,10 +215,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="136789-New-User-Primer-Community-Tickets#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

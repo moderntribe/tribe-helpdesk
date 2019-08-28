@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="314750-Collecting-Attendee-Information" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="314750-Collecting-Attendee-Information" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,7 +116,7 @@ zaius.event('pageview');
 
 <p>Whenever you make a ticket or RSVP, you can&nbsp;click&nbsp;the&nbsp;<em>Attendee Information&nbsp;</em>option. If you expand this module, the full attendee information options will appear.</p>
 
-<p style="text-align: center;"><img alt="attendee information" src="https://theeventscalendar.com/content/uploads/2016/03/attendee-information-665x450.png" /></p>
+<p style="text-align: center;"><img alt="attendee information" src="https://s3.theeventscalendar.com/uploads/2016/03/attendee-information-665x450.png" /></p>
 
 <p>This module allows you to define the fields you want your attendees to fill out when they RSVP or buy tickets. These groups&nbsp;of fields are called <em>fieldsets.&nbsp;</em>Click the + next to each field type to add it to your fieldset. You can add multiple fields of any type, define titles and options, and change the order of the things&nbsp;within the fieldset. Additionally, you can choose&nbsp;if fields are required or optional.</p>
 
@@ -126,11 +126,11 @@ zaius.event('pageview');
 
 <p>You can define different Attendee Information for different tickets, or choose to only collect information for some of your event's tickets. Go to Events and view your event in the list. Mouse over the name of the event and select "Attendees".</p>
 
-<p style="text-align: center;"><img alt="view attendees" src="https://theeventscalendar.com/content/uploads/2016/03/attendees-665x185.png" /></p>
+<p style="text-align: center;"><img alt="view attendees" src="https://s3.theeventscalendar.com/uploads/2016/03/attendees-665x185.png" /></p>
 
 <p>View Attendee Information by selecting "View Details".</p>
 
-<p style="text-align: center;"><img alt="attendee details" src="https://theeventscalendar.com/content/uploads/2016/03/attendee-details-665x165.png" /></p>
+<p style="text-align: center;"><img alt="attendee details" src="https://s3.theeventscalendar.com/uploads/2016/03/attendee-details-665x165.png" /></p>
 
 <p>Once you have your Attendee Information fields defined, click <em>Save this ticket</em>.&nbsp;The fields will then be saved, and your attendees will be asked to fill them out for each ticket they purchase.</p>
 
@@ -161,8 +161,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Apr 23, 2019, 12:00 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-23" itemprop="dateModified">Apr 23 (17 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -256,10 +256,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="314750-Collecting-Attendee-Information#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -118,7 +118,10 @@ zaius.event('pageview');
 	<li>If you've just purchased Event Tickets Plus, the license key will be automatically added for you. Just in case you don't have the license activated, see our guide on how to&nbsp;<a href="839749-Finding-and-Inputting-Your-License-Key">input your license key</a>. The plugin will work without the license key, but you’ll need it for automatic updates when a new version is released. Need updates on both your dev site and your live site? <a href="426506-Using-One-License-for-Live-and-Dev-Sites">We’ve got you covered</a>.</li>
 	<li>The next step is to <a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus">configure your settings</a>&nbsp;for Event Tickets. There aren't many, but they are important to configure before using any of the Tickets functionality.</li>
 	<li>If you are using Event Tickets Plus, you'll also need an e-commerce plugin installed,&nbsp;active, and <a href="139603-Tips-for-configuring-your-ecommerce-plugin">configured</a>. Tickets Plus currently supports WooCommerce and Easy Digital Downloads. Both&nbsp;e-commerce plugins will have its own settings which should be configured before you start accepting ticket sales. <a href="139603-Tips-for-configuring-your-ecommerce-plugin">Review our tips for configuring each plugin</a>.</li>
-	<li>If you're using Event Tickets, you can now <a href="510442-Event-Tickets-Using-RSVPs">add basic RSVP functionality</a> to your posts, pages, and events. With Event Tickets <strong>4.7</strong> and above you can turn on the Tribe Commerce functionality to sell tickets using a PayPal Business account. Event Tickets Plus users can take full control of the event ticketing process using your favorite e-commerce provider. Learn how to <a href="156866-Making-tickets">create tickets</a> and collect sales, as well as using RSVPs.</li>
+	<li>If you're using Event Tickets, you can now <a href="510442-Event-Tickets-Using-RSVPs">add basic RSVP functionality</a> to your posts, pages, and events. With Event Tickets <strong>4.7</strong> and above you can turn on the <a href="560364-Configuring-Tribe-Commerce-with-PayPal">Tribe Commerce</a> functionality to sell tickets using a PayPal Business account. Event Tickets Plus users can take full control of the event ticketing process using your favorite e-commerce provider. Learn how to <a href="156866-Making-tickets">create tickets</a> and collect sales, as well as using RSVPs.<br />
+	<br />
+	Due to PayPal's limits, tickets cannot have a price of&nbsp;<strong>0</strong>.&nbsp; Please use the RSVP functionality for free options.<br />
+	&nbsp;</li>
 	<li>If you have Event Tickets Plus, you have the options of requiring people who purchase tickets or RSVP to fill out an <a href="314750-Collecting-attendee-information">attendee information form</a>. You can configure these forms for each type of ticket when you create it.&nbsp;</li>
 	<li>Before the RSVPs and/or ticket sales start rolling in, you'll want to learn how to&nbsp;<a href="622969-Tickets-Managing-Your-Orders-and-Attendees">manage orders and attendees</a>.</li>
 </ol>
@@ -134,8 +137,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 27, 2018, 01:46 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-27" itemprop="dateModified">Dec 27 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 06, 2019, 03:19 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-06" itemprop="dateModified">Jun 06 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -160,6 +163,9 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="189617-How-Event-Tickets-Calculates-Availability" class="article-link article-link-879" title="How Event Tickets Calculates Availability">
+        <span class="TitleValue">How Event Tickets Calculates Availability</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="550976-Attendee-Registration-Page-Template" class="article-link article-link-805" title="Attendee Registration Page Template">
         <span class="TitleValue">Attendee Registration Page Template</span>
       </a></li>
@@ -187,11 +193,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="510442-Event-Tickets-Using-RSVPs" class="article-link article-link-549" title="Event Tickets: Using RSVPs">
         <span class="TitleValue">Event Tickets: Using RSVPs</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="article-link article-link-537" title="Settings overview: Event Tickets and Event Tickets Plus">
-        <span class="TitleValue">Settings overview: Event Tickets and Event Tickets Plus</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 12 more ...</a></div>
+        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 13 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -229,10 +232,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="781037-Featured-Images" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="781037-Featured-Images" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Featured Images</title>        <meta name="keywords" content="The Events Calendar,Article,The Events Calendar,Intermediate,3.8,CSS,Templates, uiback, uiwp" />    <meta property="og:url" content="//support.theeventscalendar.com/781037-Featured-Images" />    <meta property="og:title" content="Featured Images" />    <meta property="og:description" content="You might already be a lot more familiar with how the Featured Image works for The Events Calendar than you know. That&#039;s because it&#039;s built on top of the same Featured Image functionality that comes s" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Featured Images</title>        <meta name="keywords" content="The Events Calendar,Article,The Events Calendar,Intermediate,3.8,CSS,Templates, uiback, uiwp" />    <meta property="og:url" content="//support.theeventscalendar.com/781037-Featured-Images" />    <meta property="og:title" content="Featured Images" />    <meta property="og:description" content="You might already be a lot more familiar with how the Featured Image works for The Events Calendar than you know. That&#039;s because it&#039;s built on top of the same Featured Image functionality that comes s" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=6ldpf0um6dbi2r9nl3sxc7g3e5powivh" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -118,13 +118,13 @@ zaius.event('pageview');
 
 <p>From the single event editing screen (Events &gt; Add New), head down to the Featured Image box in the lower right corner of the screen. It can be easy to miss because of how small and buried it is, but this is what you're looking for:</p>
 
-<p style="text-align: center;"><img alt="kb-featuredimages-admin" src="https://theeventscalendar.com/content/uploads/2014/10/kb-featuredimages-admin.png" /></p>
+<p style="text-align: center;"><img alt="kb-featuredimages-admin" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-featuredimages-admin.png" /></p>
 
 <p>Go ahead and click the "Set featured image" link. It will open a dialogue box that allows you to either select and existing image from your Media Library or upload a new one. Select the image you would like to use as your featured image, click the "Set featured image" button in the dialogue box, then you will be taken back to the editing screen and see the featured image in the box.</p>
 
 <p>Need to remove the image and select a new one? Click the "Remove featured image" link beneath the image and repeat the steps above to select a new one.</p>
 
-<p style="text-align: center;"><img alt="kb-featuredimages-admin-2" src="https://theeventscalendar.com/content/uploads/2014/10/kb-featuredimages-admin-2.png" /></p>
+<p style="text-align: center;"><img alt="kb-featuredimages-admin-2" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-featuredimages-admin-2.png" /></p>
 
 <p>It's worth noting that a Featured Image is not required for publishing an event. It's an optional feature for dressing things up a little bit.</p>
 
@@ -133,6 +133,12 @@ zaius.event('pageview');
 <p>Featured images pop up in a few different places. The first place is the calendar views. In list-style views like List, Day, and Map (PRO only), the image will show next to the event. In Calendar View and PRO's Week View, the image will show in the mouseover tooltip for each event. If you really want to showcase your Featured Images, you'll want to use PRO's Photo View which shows the photos prominently in a tiled view.</p>
 
 <p>The other place you can expect to see a Featured Image is on a single event page. It will display at the top of the post, before the content.</p>
+
+<p>In the Block Editor, you can place a Featured Image block.&nbsp;</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=6ldpf0um6dbi2r9nl3sxc7g3e5powivh" /></p>
+
+<p style="text-align: center;">Inserting a Featured Image in Block Editor</p>
 
 <h3 id="css">Styling a Featured Image with CSS</h3>
 
@@ -186,8 +192,8 @@ display: none;<br />
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 11:16 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 28, 2019, 02:21 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-28" itemprop="dateModified">Jun 28 (60 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -212,8 +218,11 @@ display: none;<br />
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
-        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+        <li class="list-group-item item-A"><a href="417063-Blocks-Colors-and-the-Default-Events-Template" class="article-link article-link-907" title="Blocks, Colors, and the Default Events Template">
+        <span class="TitleValue">Blocks, Colors, and the Default Events Template</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="807454-Change-the-Default-Event-Template-in-Block-Editor" class="article-link article-link-843" title="Change the Default Event Template in Block Editor">
+        <span class="TitleValue">Change the Default Event Template in Block Editor</span>
       </a></li>
         <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
         <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
@@ -239,11 +248,8 @@ display: none;<br />
         <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
         <span class="TitleValue">Changing the browser title for calendar views</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
-        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 73 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -281,10 +287,10 @@ display: none;<br />
 		</footer>
 	<a href="781037-Featured-Images#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="458537-PRO-Additional-Fields" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="458537-PRO-Additional-Fields" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>PRO Additional Fields</title>        <meta name="keywords" content="Events Calendar PRO,Article,Beginner,Events Calendar PRO,events,event,information,section,field,text,filter,displaying,options,creating,checkbox,dropdown,additional fields,values,radio,creating additional fields,creating additional, uiback, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/458537-PRO-Additional-Fields" />    <meta property="og:title" content="PRO Additional Fields" />    <meta property="og:description" content="When creating your events, do you ever find yourself wishing there was a way to add additional information about your event? What about a checkbox to designate age restricted events? Or a drop-down of" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>PRO Additional Fields</title>        <meta name="keywords" content="Events Calendar PRO,Article,Beginner,Events Calendar PRO,events,event,information,section,field,text,filter,displaying,options,creating,checkbox,dropdown,additional fields,values,radio,creating additional fields,creating additional, uiback, uifront, classic editor, block editor" />    <meta property="og:url" content="//support.theeventscalendar.com/458537-PRO-Additional-Fields" />    <meta property="og:title" content="PRO Additional Fields" />    <meta property="og:description" content="When creating your events, do you ever find yourself wishing there was a way to add additional information about your event? What about a checkbox to designate age restricted events? Or a drop-down of" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=09b51h006egsn08nux1hwj3b3efbo5pu" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -127,17 +127,21 @@ zaius.event('pageview');
 
 <p>Also, when creating events, you'll notice that the <em>radio</em>, <em>checkbox</em>, and <em>dropdown</em>&nbsp;options provide an additional field for setting the "Options". This is where you can set the options for this field, one option per line.</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/08/PRO-Additional-Fields-Settings-1.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/08/PRO-Additional-Fields-Settings-1.png" /></p>
 
 <h3 id="display">Displaying Custom Fields</h3>
 
 <p>After&nbsp;your additional fields are created, they will be added to the edit screen for your events.</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/08/PRO-Additional-Fields-Event-Edit-Screen.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/08/PRO-Additional-Fields-Event-Edit-Screen.png" />Classic Editor Additional Fields</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=09b51h006egsn08nux1hwj3b3efbo5pu" /></p>
+
+<p style="text-align: center;">Block Editor Additional Fields</p>
 
 <p>The values selected for the event will then be displayed within a section entitled "Other" along with the details for the event venue and organizer.</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/08/PRO-Additional-Fields-Frontend.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/08/PRO-Additional-Fields-Frontend.png" /></p>
 
 <p>Additional fields can help you add all sorts of useful information right into your event pages.&nbsp;Have fun!</p>
 
@@ -153,8 +157,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 26, 2018, 12:25 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 30, 2019, 01:06 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -248,10 +252,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="458537-PRO-Additional-Fields#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="577289-Moving-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="577289-Moving-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Moving Tickets</title>        <meta name="keywords" content="Beginner,Event Tickets,add/improve screenshots,Event Tickets,Event Tickets Plus,Event Tickets Plus,Tutorial,ticket type,move,move ticket types dialogue box,move attendees dialogue box select,adjust the ticket stock manually,move ticket types dialogue,ticket types dialogue box,move attendees dialogue box,attendees dialogue box select,stock for the ticket type,move a ticket type,select the ticket type,receive an email notifying,adjust the ticket stock,manually adjust the stock,move the attendee,set a limit,adjust the stock,type on the same event,event or a different event, uiback, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/577289-Moving-Tickets" />    <meta property="og:title" content="Moving Tickets" />    <meta property="og:description" content="With Event Tickets and Event Tickets Plus, you have the ability to move tickets (RSVPs and e-commerce (https://support.theeventscalendar.com/442532-Event-Tickets-Plus-which-ecommerce-solution-is-right" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Moving Tickets</title>        <meta name="keywords" content="Beginner,Event Tickets,add/improve screenshots,Event Tickets,Event Tickets Plus,Event Tickets Plus,Tutorial,ticket type,move,move ticket types dialogue box,move attendees dialogue box select,adjust the ticket stock manually,move ticket types dialogue,ticket types dialogue box,move attendees dialogue box,attendees dialogue box select,stock for the ticket type,move a ticket type,select the ticket type,receive an email notifying,adjust the ticket stock,manually adjust the stock,move the attendee,set a limit,adjust the stock,type on the same event,event or a different event, uiback, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/577289-Moving-Tickets" />    <meta property="og:title" content="Moving Tickets" />    <meta property="og:description" content="With Event Tickets and Event Tickets Plus, you have the ability to move tickets (RSVPs and e-commerce (https://support.theeventscalendar.com/442532-Event-Tickets-Plus-which-ecommerce-solution-is-right" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=241fe267c45101076c6e8f57d84b36e4" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -110,24 +110,57 @@ zaius.event('pageview');
   	<div class="col-md-9">	
    			<div class="article-content ArticleContent" itemprop="articleBody"><p>With Event Tickets and Event Tickets Plus, you have the ability to move tickets (RSVPs and <a href="442532-Event-Tickets-Plus-which-ecommerce-solution-is-right-for-you">e-commerce</a> tickets) to other events and to move attendees to other tickets (in the same event or another event).</p>
 
-<h3>Moving Tickets/RSVPs to Another Event</h3>
+<h3 id="move-classic">Moving Tickets/RSVPs to Another Event in Classic Editor</h3>
 
-<p>To move a ticket type, go to the event, and select the pencil icon at right to edit the event.</p>
+<p>To move a ticket type with the Classic Editor, go to the event, and select the pencil icon at right to edit the event.</p>
 
-<p><img alt="edit tickets" src="https://theeventscalendar.com/content/uploads/2017/06/edit-tickets-665x226.png" /></p>
+<p style="text-align: center;"><img alt="edit tickets" src="https://s3.theeventscalendar.com/uploads/2017/06/edit-tickets-665x226.png" /></p>
+
+<p style="text-align: center;">Classic Editor - Move Ticket</p>
+
+<p style="text-align: center;">&nbsp;</p>
 
 <p>At the bottom of the ticket editor, select "Move Ticket"</p>
 
-<p><img alt="move tickets" src="https://theeventscalendar.com/content/uploads/2017/06/move-tickets-665x628.png" /></p>
+<p style="text-align: center;"><img alt="move tickets" src="https://s3.theeventscalendar.com/uploads/2017/06/move-tickets-665x628.png" /></p>
+
+<p style="text-align: center;">Classic Editor - Move Ticket</p>
+
+<p style="text-align: center;"><iframe width="800" height="450" src="https://www.youtube.com/embed/go3gRikxQY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+<p style="text-align: center;">&nbsp;</p>
+
+<h3 id="move-block">Moving Tickets/RSVPs to Another Event in Block Editor</h3>
+
+<p>To move a ticket type with the Block Editor, go to the ticket, and select <strong>Advanced Options&nbsp;</strong>then <strong>Move Ticket</strong>.</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=241fe267c45101076c6e8f57d84b36e4" /></p>
+
+<p style="text-align: center;"><iframe width="800" height="450" src="https://www.youtube.com/embed/z2nH1ChoIMI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+<h3 id="move-types">Move Ticket Types</h3>
 
 <p>A “Move Ticket Types” dialogue box will appear. Select the post that you would like to move the ticket to and click “Finish”. You can select to search only events or all post types that have tickets enabled (see Events &gt; Settings &gt; Tickets to adjust the available post types).</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Move-Tickets-to-Another-Event-2-e1496465181298.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Move-Tickets-to-Another-Event-2-e1496465181298.png" /></p>
 
-<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔&nbsp; Note:</strong> While possible, it is <strong>not recommended</strong> to move a ticket type to an event that already has a ticket type using a different ecommerce solution.<br />
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔&nbsp; Note:</strong> While possible, it is <strong>not recommended</strong> to move a ticket type to an event that already has a ticket type using a different e-commerce solution.<br />
 For example: <em>Moving a ticket that sells using Tribe Commerce to an event that already has a ticket that sells using WooCommerce is not recommended.</em></div>
 
 <p>&nbsp;</p>
+
+<h3 id="move-attendees">Moving Ticket Attendees to Another Ticket Type/Event</h3>
+
+<p>The following ticket transfers are possible:</p>
+
+<ul>
+	<li>Move RSVP attendee to another RSVP ticket type on the same event or a different event</li>
+	<li>Move paid attendees to another paid ticket type on the same event or a different event</li>
+</ul>
+
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔&nbsp; Note:</strong> RSVP attendees cannot be transferred to a paid ticket type and vice versa. If you try to move an attendee to an event that doesn’t have any (such as an RSVP attendee ticket to an event that only has paid tickets), you will get a message that no ticket types were found. This is also applicable for Tickets created using different e-commerce solutions like moving a Tribe Commerce Ticket attendee to a WooCommerce one.</div>
+
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Move-Attendees-1.png" /></p>
 
 <h3>Moving Ticket Attendees to Another Ticket Type/Event</h3>
 
@@ -140,63 +173,67 @@ For example: <em>Moving a ticket that sells using Tribe Commerce to an event tha
 
 <div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔&nbsp; Note:</strong> RSVP attendees cannot be transferred to a paid ticket type and vice versa. If you try to move an attendee to an event that doesn’t have any (such as an RSVP attendee ticket to an event that only has paid tickets), you will get a message that no ticket types were found. This is also applicable for Tickets created using different e-commerce solutions like moving a Tribe Commerce Ticket attendee to a WooCommerce one.</div>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Move-Attendees-1.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Move-Attendees-1.png" /></p>
 
-<h4>Moving Attendees</h4>
+<h3 id="move-attendees&gt;Moving Attendees&lt;/h3&gt;
 
-<p>From the Attendees screen, hover over the ticket you want to move and click “Move”.</p>
+&lt;p&gt;From the Attendees screen, hover over the ticket you want to move and click “Move”.&lt;/p&gt;
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Moving-Attendees-2.png" /></p>
+&lt;p&gt;&lt;img alt=">&nbsp;</h3>
+
+<p>&nbsp;</p>
 
 <p>A “Move Ticket Types” dialogue box will appear where you can choose to move the ticket to a different ticket type within the same event or to a different event entirely. Select your choice and click “Finish!”.</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Moving-Attendees-3.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Moving-Attendees-3.png" /></p>
 
-<h5>On the Same Event</h5>
+<h4 id="same">On the Same Event</h4>
 
 <p>From the “Move Attendees” dialogue box, select the ticket type you want to move the attendee to and click “Finish!”.</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Moving-Attendees-4.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Moving-Attendees-4.png" /></p>
 
 <p>The attendee will receive an email notifying them that they are now registered with the new ticket type.</p>
 
 <p>You will now need to adjust the ticket stock manually (if you set a limit on the tickets available).</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Moving-Attendees-5.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Moving-Attendees-5.png" /></p>
 
-<h5>On a Different Event</h5>
+<h4 id="different">On a Different Event</h4>
 
 <p>From the “Move Attendees” dialogue box, select the event you want to move the attendee to and click “Next”. Note that only events that already have tickets on them will appear as options.<br />
 Next, select the ticket type on the new event that you want to move the attendee to.</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Moving-Attendees-6.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Moving-Attendees-6.png" /></p>
 
 <p>The attendee will receive an email notifying them that they are now registered for the new event.<br />
 You will now need to adjust the ticket stock manually (if you set a limit on the tickets available).</p>
 
-<h5>Adjusting Ticket Stock</h5>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/nObN7aLblHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h4 id="ticket-stock">Adjusting Ticket Stock</h4>
 
 <p>Once an attendee has been moved to another ticket type, make sure you adjust the stock levels for both tickets (if you set a limit on available tickets). You will need to reduce the available stock for the ticket type you moved the attendee to, and increase the stock for the ticket type you moved the attendee from.</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Adjusting-Ticket-Stock.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Adjusting-Ticket-Stock.png" /></p>
 
-<h6>RSVP</h6>
+<h4 id="rsvp">RSVP</h4>
 
 <p>Under the Tickets section of the event, click “Edit” on the ticket you want to edit, and manually adjust the stock.</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Adjusting-Ticket-Stock-RSVP.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Adjusting-Ticket-Stock-RSVP.png" /></p>
 
-<h6>WooCommerce</h6>
+<h4 id="woo">WooCommerce</h4>
 
 <p>For paid tickets, hover over the ticket you want to edit, click “Edit in WooCommerce”, and under the Inventory tab, manually adjust the stock.</p>
 
-<h5>Additional Ticket Fields</h5>
+<h4 id="ticket-fields">Additional Ticket Fields</h4>
 
 <p>When moving an attendee with one ticket type to another ticket type, any additional information collected at the time of reservation via custom ticket fields will be transferred along with the attendee. This will remain a part of the transferred ticket under “Other attendee data”, but it will not affect the fields that you have set up on the new ticket type.</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Additional-Ticket-Fields-1.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Additional-Ticket-Fields-1.png" /></p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/06/Additional-Ticket-Fields-2.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/06/Additional-Ticket-Fields-2.png" /></p>
 
 <p>We hope you've found this helpful, but if you need further assistance please feel free to reach out to us at our&nbsp;<a href="index.html">help desk</a> - good luck!</p>
 </div>    			
@@ -209,8 +246,8 @@ You will now need to adjust the ticket stock manually (if you set a limit on the
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 27, 2018, 01:38 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-27" itemprop="dateModified">Dec 27 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -235,6 +272,9 @@ You will now need to adjust the ticket stock manually (if you set a limit on the
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="189617-How-Event-Tickets-Calculates-Availability" class="article-link article-link-879" title="How Event Tickets Calculates Availability">
+        <span class="TitleValue">How Event Tickets Calculates Availability</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="550976-Attendee-Registration-Page-Template" class="article-link article-link-805" title="Attendee Registration Page Template">
         <span class="TitleValue">Attendee Registration Page Template</span>
       </a></li>
@@ -262,11 +302,8 @@ You will now need to adjust the ticket stock manually (if you set a limit on the
         <li class="list-group-item item-A"><a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="article-link article-link-537" title="Settings overview: Event Tickets and Event Tickets Plus">
         <span class="TitleValue">Settings overview: Event Tickets and Event Tickets Plus</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" class="article-link article-link-535" title="New User Primer: Event Tickets &amp; Event Tickets Plus">
-        <span class="TitleValue">New User Primer: Event Tickets &amp; Event Tickets Plus</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 12 more ...</a></div>
+        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 13 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -304,10 +341,10 @@ You will now need to adjust the ticket stock manually (if you set a limit on the
 		</footer>
 	<a href="577289-Moving-Tickets#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

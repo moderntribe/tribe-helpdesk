@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="756147-How-Do-I-Delete-My-Account" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="756147-How-Do-I-Delete-My-Account" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -122,34 +122,34 @@ zaius.event('pageview');
 
 <h2>How to Reach Modern Tribe</h2>
 
-<p>Modern Tribe Inc. is an American company, formed in 2007. Our postal address is:</p>
+<p style="margin-bottom:1em">Modern Tribe Inc. is an American company, formed in 2007. Our postal address is:</p>
 
-<p><strong>Modern Tribe</strong><br />
+<p style="margin-bottom:1em"><strong>Modern Tribe</strong><br />
 80 S 8th St. Ste 990<br />
 #87810<br />
 Minneapolis, MN 55402-2150</p>
 
-<p>What Are the Contract Terms?</p>
+<p style="margin-bottom:1em">What Are the Contract Terms?</p>
 
 <p>When subscribed to our products or services, you are on a monthly or annual renewal <a href="https://theeventscalendar.com/terms/">Agreement</a> but can cancel at any time.</p>
 
 <h2>What Personal Data is Held by Modern Tribe?</h2>
 
-<p>We only retain records that are necessary to provide you with our products and services.</p>
+<p style="margin-bottom:1em">We only retain records that are necessary to provide you with our products and services.</p>
 
 <p>The account&nbsp;information we store for&nbsp;your account with <a href="https://theeventscalendar.com">theeventscalendar.com</a>&nbsp;includes:</p>
 
 <ul>
-	<li>Name</li>
-	<li>Email address,</li>
-	<li>Billing address</li>
-	<li>IP address for transactional purchases as well as marketing/re-marketing purposes,</li>
-	<li>Payment method information</li>
-	<li>Account username and an encrypted account password</li>
-	<li>License keys that are assigned to you</li>
-	<li>Support threads you've opened in our forums</li>
-	<li>Emails related to your purchases</li>
-	<li>Support emails you've initiated</li>
+	<li style="margin-bottom:1em">Name</li>
+	<li style="margin-bottom:1em">Email address,</li>
+	<li style="margin-bottom:1em">Billing address</li>
+	<li style="margin-bottom:1em">IP address for transactional purchases as well as marketing/re-marketing purposes,</li>
+	<li style="margin-bottom:1em">Payment method information</li>
+	<li style="margin-bottom:1em">Account username and an encrypted account password</li>
+	<li style="margin-bottom:1em">License keys that are assigned to you</li>
+	<li style="margin-bottom:1em">Support threads you've opened in our forums</li>
+	<li style="margin-bottom:1em">Emails related to your purchases</li>
+	<li style="margin-bottom:1em">Support emails you've initiated</li>
 	<li>Transactional records</li>
 </ul>
 
@@ -186,8 +186,8 @@ Minneapolis, MN 55402-2150</p>
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 25, 2019, 09:02 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-25" itemprop="dateModified">Jan 25 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 14, 2019, 10:25 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-14" itemprop="dateModified">Jul 14 (44 days ago)</time></span>
               </div>
                         <time datetime="2018-12-20" itemprop="datePublished"></time>
           </div>
@@ -268,10 +268,10 @@ Minneapolis, MN 55402-2150</p>
 		</footer>
 	<a href="756147-How-Do-I-Delete-My-Account#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="787141-Event-Categories" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="787141-Event-Categories" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -110,13 +110,13 @@ zaius.event('pageview');
   	<div class="col-md-9">	
    			<div class="article-content ArticleContent" itemprop="articleBody"><p>In the same way that&nbsp;traditional&nbsp;categories allow you to add organization to your blog posts, event categories allow you to add organization to your events. For example,&nbsp;with these categories, a music venue can add&nbsp;categories for the different genres of music that are played at the venue.</p>
 
-<p style="text-align: center;"><img alt="KB-Event-Categories" src="https://theeventscalendar.com/content/uploads/2014/10/KB-Event-Categories-300x269.png" /></p>
+<p style="text-align: center;"><img alt="KB-Event-Categories" src="https://s3.theeventscalendar.com/uploads/2014/10/KB-Event-Categories-300x269.png" /></p>
 
 <p style="text-align: center;">Event category used to organize genres of music</p>
 
 <p>Additionally, the event categories can be hierarchical. This means you can group different categories together within the event categories. To continue the music venue example above, what if the venue organizer was very particular about music genres? Just saying "Country" isn't going to cut it.&nbsp;&nbsp;Additional organization can be added by taking advantage of the "parent" category option to make the items hierarchical.</p>
 
-<p style="text-align: center;"><img alt="KB-Hierarchical-Categories" src="https://theeventscalendar.com/content/uploads/2014/10/KB-Hierarchical-Categories-191x300.png" /><br />
+<p style="text-align: center;"><img alt="KB-Hierarchical-Categories" src="https://s3.theeventscalendar.com/uploads/2014/10/KB-Hierarchical-Categories-191x300.png" /><br />
 Hierarchical Categories for Events</p>
 
 <h3 id="category-calendar">Displaying a Calendar of Events from a Single Category</h3>
@@ -129,13 +129,13 @@ Hierarchical Categories for Events</p>
 
 <p>Another great feature of using the Event Categories is the ability to quickly add these items to your website's navigation menu. This will allow you to link directly to specific event categories giving your visitors quick links to their desired content.</p>
 
-<p style="text-align: center;"><img alt="KB-build-event-category-menus" src="https://theeventscalendar.com/content/uploads/2014/11/KB-build-event-category-menus.png" /></p>
+<p style="text-align: center;"><img alt="KB-build-event-category-menus" src="https://s3.theeventscalendar.com/uploads/2014/11/KB-build-event-category-menus.png" /></p>
 
 <p>(Note that in order for the categories to be able to be added, you might first need to click Screen Options in the upper-right corner and make sure "Event Categories" is checked.)</p>
 
 <p>Once the categories are added to the menu, they will display on the front end of your site within your navigation menu in the same way as&nbsp;posts and pages.</p>
 
-<p style="text-align: center;"><img alt="KB-event-category-menu-display" src="https://theeventscalendar.com/content/uploads/2014/11/KB-event-category-menu-display.png" /></p>
+<p style="text-align: center;"><img alt="KB-event-category-menu-display" src="https://s3.theeventscalendar.com/uploads/2014/11/KB-event-category-menu-display.png" /></p>
 
 <h3>Filtering Categories</h3>
 
@@ -150,8 +150,8 @@ Hierarchical Categories for Events</p>
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Nov 09, 2018, 11:01 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-11-09" itemprop="dateModified">Nov 09 (5 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:35 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -176,8 +176,11 @@ Hierarchical Categories for Events</p>
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
-        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+        <li class="list-group-item item-A"><a href="417063-Blocks-Colors-and-the-Default-Events-Template" class="article-link article-link-907" title="Blocks, Colors, and the Default Events Template">
+        <span class="TitleValue">Blocks, Colors, and the Default Events Template</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="807454-Change-the-Default-Event-Template-in-Block-Editor" class="article-link article-link-843" title="Change the Default Event Template in Block Editor">
+        <span class="TitleValue">Change the Default Event Template in Block Editor</span>
       </a></li>
         <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
         <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
@@ -203,11 +206,8 @@ Hierarchical Categories for Events</p>
         <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
         <span class="TitleValue">Changing the browser title for calendar views</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
-        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 73 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -245,10 +245,10 @@ Hierarchical Categories for Events</p>
 		</footer>
 	<a href="787141-Event-Categories#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

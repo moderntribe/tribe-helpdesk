@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="210263-Free-Support-Resources" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="210263-Free-Support-Resources" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -180,7 +180,7 @@ zaius.event('pageview');
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Apr 05, 2019, 10:40 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-05" itemprop="dateModified">Apr 05 (35 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-05" itemprop="dateModified">Apr 05 (4 months ago)</time></span>
               </div>
                         <time datetime="2019-04-05" itemprop="datePublished"></time>
           </div>
@@ -205,6 +205,24 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="997896-How-to-Put-a-Subscription-on-Hold" class="article-link article-link-913" title="How to Put a Subscription on Hold">
+        <span class="TitleValue">How to Put a Subscription on Hold</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="163659-Shortcodes" class="article-link article-link-911" title="Shortcodes">
+        <span class="TitleValue">Shortcodes</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="922718-Solution-for-Error-Publishing-failed-on-PHP-56" class="article-link article-link-891" title="Solution for Error: Publishing failed on PHP 5.6">
+        <span class="TitleValue">Solution for Error: Publishing failed on PHP 5.6</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="200254-How-to-Test-Block-Editor-with-Events-Calendar" class="article-link article-link-873" title="How to Test Block Editor with Events Calendar">
+        <span class="TitleValue">How to Test Block Editor with Events Calendar</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="601613-Removing-Block-Editor-Detritus-From-Your-Posts-" class="article-link article-link-877" title="Removing Block Editor Detritus From Your Posts ">
+        <span class="TitleValue">Removing Block Editor Detritus From Your Posts </span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="874931-Deprecation-of-the-Block-Editor-Toggle" class="article-link article-link-881" title="Deprecation of the Block Editor Toggle">
+        <span class="TitleValue">Deprecation of the Block Editor Toggle</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="588130-Pre-Sales-Questions" class="article-link article-link-865" title="Pre-Sales Questions">
         <span class="TitleValue">Pre-Sales Questions</span>
       </a></li>
@@ -217,26 +235,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="178892-Change-the-wording-of-any-bit-of-text-or-string" class="article-link article-link-333" title="Change the wording of any bit of text or string">
         <span class="TitleValue">Change the wording of any bit of text or string</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="article-link article-link-671" title="Best Practices for Implementing Custom Code Snippets">
-        <span class="TitleValue">Best Practices for Implementing Custom Code Snippets</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="713863-PHP-Version-Requirement-Changes" class="article-link article-link-681" title="PHP Version Requirement Changes">
-        <span class="TitleValue">PHP Version Requirement Changes</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="093589-Custom-Development" class="article-link article-link-687" title="Custom Development">
-        <span class="TitleValue">Custom Development</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="192116-Support-Team-Webinars" class="article-link article-link-691" title="Support Team Webinars">
-        <span class="TitleValue">Support Team Webinars</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="481188-Bundle-Discounts" class="article-link article-link-693" title="Bundle Discounts">
-        <span class="TitleValue">Bundle Discounts</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="794151-GDPR-Update" class="article-link article-link-683" title="GDPR Update">
-        <span class="TitleValue">GDPR Update</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 64 more ...</a></div>
+        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 70 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -274,10 +274,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="210263-Free-Support-Resources#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

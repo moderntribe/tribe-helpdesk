@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="349416-Configuring-Community-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="349416-Configuring-Community-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -108,7 +108,9 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>The Community Tickets settings can be found&nbsp;under Events &gt; Settings. The settings for Community Events are at the top of the page, and Community Tickets settings are below that.&nbsp;We've got an overview of the Community Events settings in a separate article. Here we focus on the Community Tickets settings only.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>The Community Tickets settings can be found&nbsp;under <strong>Events &gt; Settings</strong>. The settings for Community Events are at the top of the page, and Community Tickets settings are below that.&nbsp;We've got an overview of the Community Events settings in a separate article. Here we focus on the Community Tickets settings only.</p>
+
+<center><p><iframe width="800" height="450" src="https://www.youtube.com/embed/lQLZeLC_EwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p></center>
 
 <p>The most important setting for Community Events is the Enable Community Tickets checkbox. <strong>You must check this box and save the settings page in order to enable the Community Tickets features</strong> and allow community organizers to add tickets to their events.</p>
 
@@ -122,7 +124,7 @@ zaius.event('pageview');
 
 <p><em>Default purchase limit:&nbsp;</em>Controls the maximum number of tickets per order.</p>
 
-<p><em>Per-ticket fee type:&nbsp;</em>Select if and how site admin&nbsp;will collect payments from ticket sales. The None option means that no&nbsp;extra fees are charged. Flat Fee is a dollar amount per event ticket in an order, while Percentage is a fraction of the ticket's total.</p>
+<p><em>Per-ticket fee type:&nbsp;</em>Select if and how site admin&nbsp;will collect payments from ticket sales. The None option means that no&nbsp;extra fees are charged. Flat Fee is a dollar amount per event ticket within an order, while Percentage is a fraction of the ticket's total.</p>
 
 <p><strong>The following options will appear if you have selected a Per-ticket fee type other than None:</strong></p>
 
@@ -132,9 +134,9 @@ zaius.event('pageview');
 
 <p><em>Fee option defaults:&nbsp;</em>Choose whether you want tickets fees (percentage and/or flat fees) to be included in the listed ticket price, or added on top of the price. For example, say you have an event with $10 tickets and are collecting a $1 flat fee. If you select <em>Include fees in ticket price</em>, ticket buyers will be charged $10 ($9 for the organizer and $1 for the site admin). If you choose the&nbsp;<em>Display fees in addition to subtotal on the Cart page,&nbsp;</em>the ticket buyer will be charged $11 ($10 for the organizer and $1 for the site admin). The extra fee will be <a href="https://cloudup.com/cxdmgmRJb8D">shown on the Cart page</a> before the buyer continues to Checkout.</p>
 
-<p><em>Enable split payments:&nbsp;</em>By default, all of the money earned by ticket sales is collected by the site admin as per the settings established in WooCommerce. It is then up to the admin to distribute profits to the Community organizers as appropriate. If you choose to enable split payments, any&nbsp;money is distributed immediately when a sale occurs. The site admin receives the appropriate fees (as defined in the fee settings) via PayPal, as defined on the Settings page (see below). The Community organizer receives the rest of the money through the PayPal address listed on the <a href="https://cloudup.com/cLLbENEo9Cv" target="_blank">user's Payment Options page</a>. Note that if you do enable split payments, the community organizers will be given the option to adjust the fee option defaults for their events from their Payment Options page.</p>
+<p><em>Enable split payments:&nbsp;</em>By default, all of the money earned by ticket sales is collected by the site admin as per the settings established in WooCommerce. It is then up to the admin to distribute profits to the Community organizers as appropriate. If you choose to enable split payments, any&nbsp;money is distributed immediately when a sale is complete. The site admin receives the appropriate fees (as defined in the fee settings) via PayPal, as defined on the Settings page (see below). The Community organizer receives the rest of the money through the PayPal address listed on the <a href="587135-Community-Tickets-Split-Payments#split" target="_blank">user's Payment Options page</a>. Note that if you do enable split payments, the community organizers will be given the option to adjust the fee option defaults for their events from their Payment Options page.</p>
 
-<p><strong>If you enable split payments</strong>, you must also set up a <a href="https://developer.paypal.com/" target="_blank">PayPal developer account</a> and App. You'll then need to fill out the <a href="https://cloudup.com/c0pMZQUQZmK" target="_blank">additional fields on the Settings page</a> (PayPal API username, password, client ID, etc.)</p>
+<p><strong>If you enable split payments</strong>, you must also set up a <a href="https://developer.paypal.com/" target="_blank">PayPal developer account</a> and App. You'll then need to fill out the <a href="587135-Community-Tickets-Split-Payments#payouts" target="_blank">additional fields on the Settings page</a> (PayPal API username, password, client ID, etc.)</p>
 
 <p><strong>Are split payments right for you?&nbsp;</strong>We can help you decide. Most importantly, though, you should be aware that this functionality is based on PayPal's Adaptive Payments API which was recently deprecated. We're investigating replacements, however, if you do not already and alive, approved Adaptive Payments account then you may no longer be able to acquire one.</p>
 
@@ -161,8 +163,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Feb 26, 2019, 10:29 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-02-26" itemprop="dateModified">Feb 26 (2 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Aug 22, 2019, 06:01 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-22" itemprop="dateModified">Aug 22 (5 days ago)</time></span>
               </div>
                         <time datetime="2019-02-21" itemprop="datePublished"></time>
           </div>
@@ -187,8 +189,14 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="347614-Community-Tickets-Configuring-PayPal-Split-Payments" class="article-link article-link-559" title="Community Tickets: Configuring PayPal Split Payments">
-        <span class="TitleValue">Community Tickets: Configuring PayPal Split Payments</span>
+        <li class="list-group-item item-A"><a href="117835-Community-Tickets-Ticket-Fees" class="article-link article-link-933" title="Community Tickets: Ticket Fees">
+        <span class="TitleValue">Community Tickets: Ticket Fees</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="587135-Community-Tickets-Split-Payments" class="article-link article-link-941" title="Community Tickets: Split Payments">
+        <span class="TitleValue">Community Tickets: Split Payments</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" class="article-link article-link-559" title="Community Tickets: Configuring PayPal Adaptive Payments (Legacy)">
+        <span class="TitleValue">Community Tickets: Configuring PayPal Adaptive Payments (Legacy)</span>
       </a></li>
         <li class="list-group-item item-A"><a href="136789-New-User-Primer-Community-Tickets" class="article-link article-link-523" title="New User Primer: Community Tickets">
         <span class="TitleValue">New User Primer: Community Tickets</span>
@@ -231,10 +239,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="349416-Configuring-Community-Tickets#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

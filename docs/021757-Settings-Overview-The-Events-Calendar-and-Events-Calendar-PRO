@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="021757-Settings-Overview-The-Events-Calendar-and-Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="021757-Settings-Overview-The-Events-Calendar-and-Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -117,7 +117,7 @@ zaius.event('pageview');
 <h3 id="general">General</h3>
 
 <ul>
-	<li><em>Show The Events Calendar link:</em> You will notice this in the large box at the top of this page. It adds a <a href="https://theeventscalendar.com/content/uploads/2015/02/Screen-Shot-2015-02-20-at-12.11.22-PM1.png">small link</a> to the bottom of your calendar pointing to The Events Calendar project.</li>
+	<li><em>Show The Events Calendar link:</em> You will notice this in the large box at the top of this page. It adds a <a href="https://s3.theeventscalendar.com/uploads/2015/02/Screen-Shot-2015-02-20-at-12.11.22-PM1.png">small link</a> to the bottom of your calendar pointing to The Events Calendar project.</li>
 	<li><em>Number of events to show per page:</em> Defines the number of events showing on each page. This applies to most list-style views: List, Photo, Map, Venue, and Organizer views.&nbsp;Other events are accessible from Previous/Next Events nav links. Note that this does&nbsp;<em>not&nbsp;</em>apply to Day View, which always shows all events on that day regardless.</li>
 	<li><em>Use Javascript to control page load:</em> Enables quicker AJAX update of calendar views.</li>
 	<li><em>Recurring event instances (PRO):</em> When checked only the next upcoming event in a recurring event sequence will show. This can be useful to unclutter your calendar. When unchecked, all instances will show.</li>
@@ -160,7 +160,7 @@ zaius.event('pageview');
 
 <p>Timezone Settings are new for release 3.12. If you've upgraded from an earlier version you'll want to click the Update Timezone Data button.</p>
 
-<p><img alt="Screenshot showing the timezone data update tool" src="http://theeventscalendar.com/content/uploads/2015/08/timezone-update-button.png" /></p>
+<p style="text-align: center;"><img alt="Screenshot showing the timezone data update tool" src="https://s3.theeventscalendar.com/uploads/2015/08/timezone-update-button.png" /></p>
 
 <p>You will then have access to two timezone options:</p>
 
@@ -251,8 +251,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Mar 27, 2019, 01:14 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-27" itemprop="dateModified">Mar 27 (44 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 30, 2019, 01:11 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -346,10 +346,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="021757-Settings-Overview-The-Events-Calendar-and-Events-Calendar-PRO#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

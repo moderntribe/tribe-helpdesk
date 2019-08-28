@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="374127-Importing-holiday-or-other-special-calendars-with-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="374127-Importing-holiday-or-other-special-calendars-with-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -121,29 +121,29 @@ zaius.event('pageview');
 	<li>Click <strong>Browse Interesting Calendars</strong>.</li>
 </ol>
 
-<p style="text-align: center;"><img alt="A list of &quot;interesting calendars&quot; as provided by Google Calendar" src="https://theeventscalendar.com/content/uploads/2017/06/interesting_calendars-665x171.png" /></p>
+<p style="text-align: center;"><img alt="A list of &quot;interesting calendars&quot; as provided by Google Calendar" src="https://s3.theeventscalendar.com/uploads/2017/06/interesting_calendars-665x171.png" /></p>
 
 <p>You'll see a list of public holiday, sports, and other calendars available to import into your own Google Calendar. It's not possible to grab the calendar URLs directly from this page, but by subscribing to any of these calendars within Google Calendar, you'll be able to retrieve the URL from your Google Calendar settings to enter into Event Aggregator.</p>
 
 <p>Let's go ahead and use the US public holidays calendar for our example here. Scroll down until you've located the calendar that you wish to import, then click the <strong>Subscribe</strong> link to&nbsp;the far right of&nbsp;the calendar's name.</p>
 
-<p style="text-align: center;"><img alt="How to subscribe to a calendar from Google's &quot;interesting calendars&quot; list" src="https://theeventscalendar.com/content/uploads/2017/06/interesting_calendars_subscribe-665x40.png" /></p>
+<p style="text-align: center;"><img alt="How to subscribe to a calendar from Google's &quot;interesting calendars&quot; list" src="https://s3.theeventscalendar.com/uploads/2017/06/interesting_calendars_subscribe-665x40.png" /></p>
 
 <p>The link's text will change to <strong>Unsubscribe</strong> once you've successfully subscribed to this calendar. Once that's done, you can direct your attention to the small list of options next to the calendar listing on the right. Click <strong>Manage calendars »</strong> to be taken to the Calendars tab of your Google Calendar settings.</p>
 
 <p>Below the <strong>Calendars</strong> tab that's currently selected, you'll see two content blocks here, one for <strong>My Calendars</strong>&nbsp;and one for <strong>Other Calendars</strong>. Any public calendars that you've subscribed to will be listed under the <strong>Other Calendars</strong> heading. Click the name of the public calendar to be brought to the settings page for that calendar.</p>
 
-<p><img alt="Link to edit settings for public calendars added to Google Calendar" src="https://theeventscalendar.com/content/uploads/2017/06/other_calendars_edit_calendar.png" /></p>
+<p><img alt="Link to edit settings for public calendars added to Google Calendar" src="https://s3.theeventscalendar.com/uploads/2017/06/other_calendars_edit_calendar.png" /></p>
 
 <p>You'll see a label for <strong>Calendar Address</strong> with one or more buttons displayed beside it for this calendar. These buttons contain links to different versions of this calendar that can be used for importing into third-party applications such as Event Aggregator.&nbsp;<strong>Only calendars with iCal/ICS feeds can be imported into Event Aggregator</strong>, as shown in this example:</p>
 
-<p style="text-align: center;"><img alt="Example of an iCal feed button for a Google Calendar" src="https://theeventscalendar.com/content/uploads/2017/06/other_calendars_ical_link-665x280.png" /></p>
+<p style="text-align: center;"><img alt="Example of an iCal feed button for a Google Calendar" src="https://s3.theeventscalendar.com/uploads/2017/06/other_calendars_ical_link-665x280.png" /></p>
 
 <p>Click on this button, and a small pop-up will appear with the URL for this calendar feed. Select the entire URL, copy it to your clipboard, and paste it somewhere safe for now--we'll need it in just a moment.</p>
 
 <p>Now that you've retrieved the iCal&nbsp;URL for your public calendar of choice, let's set up the scheduled import task with Event Aggregator to bring those events into <em>your</em> calendar. Log into your WordPress site admin and select <strong>Events</strong> &gt; <strong>Import</strong> from the sidebar menu. You'll be brought to the Events Import pane with the <strong>New Import</strong> tab already selected.</p>
 
-<p style="text-align: center;"><img alt="Settings for importing an ICS calendar URL from Google's list of &quot;interesting calendars&quot;" src="https://theeventscalendar.com/content/uploads/2017/06/import_settings_interesting_calendars.png" /></p>
+<p style="text-align: center;"><img alt="Settings for importing an ICS calendar URL from Google's list of &quot;interesting calendars&quot;" src="https://s3.theeventscalendar.com/uploads/2017/06/import_settings_interesting_calendars.png" /></p>
 
 <p>&nbsp;</p>
 
@@ -151,7 +151,7 @@ zaius.event('pageview');
 
 <p>Lastly, the <strong>URL</strong> field is where you'll paste the URL that we grabbed&nbsp;from our Google Calendar earlier. Unless you need to make any refinements at this point (such as specifying a date to only import events on or after that day), we're good to go! Click the <strong>Preview</strong> button, and after a few moments, you'll see a sampling of&nbsp;events from your calendar displayed below.</p>
 
-<p style="text-align: center;"><img alt="Preview of events to be imported from one of Google's &quot;interesting calendars&quot;" src="https://theeventscalendar.com/content/uploads/2017/06/interesting_calendars_events_preview-665x295.png" /></p>
+<p style="text-align: center;"><img alt="Preview of events to be imported from one of Google's &quot;interesting calendars&quot;" src="https://s3.theeventscalendar.com/uploads/2017/06/interesting_calendars_events_preview-665x295.png" /></p>
 
 <p>As the last step, you'll want to double-check the settings specified for <strong>Status</strong> and <strong>Category</strong> to ensure that these are assigned properly to your events as soon as they're imported. If all looks good here, click the <strong>Save Scheduled Import</strong> button. Your scheduled import task will be saved to the <strong>Scheduled Imports</strong> tab, and your first import will begin processing immediately.</p>
 
@@ -168,8 +168,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 07:21 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -263,10 +263,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="374127-Importing-holiday-or-other-special-calendars-with-Event-Aggregator#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

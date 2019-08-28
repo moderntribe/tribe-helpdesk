@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="773167-Creating-Custom-Filters-for-Filter-Bar" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="773167-Creating-Custom-Filters-for-Filter-Bar" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -112,7 +112,7 @@ zaius.event('pageview');
 
 <p>Suppose you have a calendar loaded with events that span all hours of the day. You can already filter by a pretty general time as seen in the screenshot below:</p>
 
-<p style="text-align: center;"><img alt="screenshot of the events calendar with the existing time of day filters expanded on the left" src="https://theeventscalendar.com/content/uploads/2017/05/Screen-Shot-2017-04-30-at-9.32.37-PM-665x280.png" /></p>
+<p style="text-align: center;"><img alt="screenshot of the events calendar with the existing time of day filters expanded on the left" src="https://s3.theeventscalendar.com/uploads/2017/05/Screen-Shot-2017-04-30-at-9.32.37-PM-665x280.png" /></p>
 
 <p>But what if you want to allow for more granular filtering, perhaps by a specific time? We’ll show you how in this tutorial.</p>
 
@@ -135,7 +135,7 @@ You can find the filters in your plugins directory at: <strong>/events-filterbar
 
 <p>So far my class looks like this:</p>
 
-<p style="text-align: center;"><img alt="screenshot of code editor view of custom class" src="https://theeventscalendar.com/content/uploads/2017/05/Screen-Shot-2017-05-01-at-9.37.27-AM-665x279.png" /></p>
+<p style="text-align: center;"><img alt="screenshot of code editor view of custom class" src="https://s3.theeventscalendar.com/uploads/2017/05/Screen-Shot-2017-05-01-at-9.37.27-AM-665x279.png" /></p>
 
 <h3>Customizing the code</h3>
 
@@ -147,7 +147,7 @@ You can find the filters in your plugins directory at: <strong>/events-filterbar
 
 <p>In the function <kbd>get_values()</kbd>, change the time of day array to look like this:</p>
 
-<p style="text-align: center;"><img alt="screenshot of time-of-day array code" src="https://theeventscalendar.com/content/uploads/2017/05/Screen-Shot-2017-05-01-at-9.43.00-AM.png" /></p>
+<p style="text-align: center;"><img alt="screenshot of time-of-day array code" src="https://s3.theeventscalendar.com/uploads/2017/05/Screen-Shot-2017-05-01-at-9.43.00-AM.png" /></p>
 
 <p>The rest of the <kbd>get_values()</kbd> function will stay the same.</p>
 
@@ -156,7 +156,7 @@ You can find the filters in your plugins directory at: <strong>/events-filterbar
 <p>The next function we need to look at is the <kbd>setup_where_clause()</kbd>. Note that we’re not changing the <kbd>setup_join_clause()</kbd> that precedes it.<br />
 Let’s change the variable names in the setup_join_clause() to more accurately describe the new values we want to filter on. Our function now looks like this:</p>
 
-<p style="text-align: center;"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/05/Screen-Shot-2017-05-01-at-9.54.27-AM-665x485.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/05/Screen-Shot-2017-05-01-at-9.54.27-AM-665x485.png" /></p>
 
 <h4>Instantiate the Class</h4>
 
@@ -176,11 +176,11 @@ Let’s change the variable names in the setup_join_clause() to more accurately 
 
 <p>Once you have your code in place, you’ll need to adjust your settings in <strong>Events</strong> &gt; <strong>Settings</strong> &gt; <strong>Filters</strong> so that your new filter will display on the front end.</p>
 
-<p style="text-align: center;"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/05/Screen-Shot-2017-04-30-at-11.27.43-PM-665x432.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/05/Screen-Shot-2017-04-30-at-11.27.43-PM-665x432.png" /></p>
 
 <p>Once you have that done, you should have the new filters in the Filter Bar, like so:</p>
 
-<p style="text-align: center;"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/05/Screen-Shot-2017-04-30-at-11.28.27-PM-665x284.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/05/Screen-Shot-2017-04-30-at-11.28.27-PM-665x284.png" /></p>
 
 <h5>Final Thoughts</h5>
 
@@ -197,8 +197,8 @@ Let’s change the variable names in the setup_join_clause() to more accurately 
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 27, 2018, 01:28 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-27" itemprop="dateModified">Dec 27 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -273,10 +273,10 @@ Let’s change the variable names in the setup_join_clause() to more accurately 
 		</footer>
 	<a href="773167-Creating-Custom-Filters-for-Filter-Bar#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

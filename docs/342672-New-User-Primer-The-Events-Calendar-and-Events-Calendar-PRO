@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -114,11 +114,11 @@ zaius.event('pageview');
 
 <p><a href="847919-Downloading-and-Installing-the-Plugin">Download and install the plugin</a>. You can download and use our core plugin, The Events Calendar, for free.</p>
 
-<p style="text-align: center;"><img alt="How to install The Events Calendar plugin: Go to Plugins &gt; Add New and browse for The Events Calendar or Upload Plugin to upload Events Calendar Pro" src="http://theeventscalendar.com/content/uploads/2018/05/tec-install.png" title="How to install The Events Calendar plugin: Go to Plugins &gt; Add New and browse for The Events Calendar or Upload Plugin to upload Events Calendar Pro" /> <span style="font-size:14px;"><strong>Plugins &gt; Add New</strong> and search for The Events Calendar to install</span></p>
+<p style="text-align: center;"><img alt="How to install The Events Calendar plugin: Go to Plugins &gt; Add New and browse for The Events Calendar or Upload Plugin to upload Events Calendar Pro" src="https://s3.theeventscalendar.com/uploads/2018/05/tec-install.png" title="How to install The Events Calendar plugin: Go to Plugins &gt; Add New and browse for The Events Calendar or Upload Plugin to upload Events Calendar Pro" /> <span style="font-size:14px;"><strong>Plugins &gt; Add New</strong> and search for The Events Calendar to install</span></p>
 
 <p>If you have purchased a license for Events Calendar PRO, you’ll need to install and activate <em><strong>both</strong></em> The Events Calendar and PRO plugins.</p>
 
-<p><img alt="Download Events Calendar Pro by going to My Account, Downloads and selecting Download" src="http://theeventscalendar.com/content/uploads/2018/05/download-events-calendar-pro.png" title="Download Events Calendar Pro by going to My Account, Downloads and selecting Download" /> Go to <strong>My Account &gt; Downloads</strong> to download Events Calendar Pro</p>
+<p style="text-align: center;"><img alt="Download Events Calendar Pro by going to My Account, Downloads and selecting Download" src="https://s3.theeventscalendar.com/uploads/2018/05/download-events-calendar-pro.png" title="Download Events Calendar Pro by going to My Account, Downloads and selecting Download" /> Go to <strong>My Account &gt; Downloads</strong> to download Events Calendar Pro</p>
 
 <p class="p1">🔔<strong>Note:&nbsp;</strong>Your downloaded plugin should be a .ZIP file.&nbsp; If your browser is set to automatically unzip the file into folders, please refer to your browser settings.</p>
 
@@ -126,7 +126,7 @@ zaius.event('pageview');
 
 <p>If you purchased Events Calendar PRO, the license key will be automatically entered for you.</p>
 
-<p><img alt="Events Calendar Pro License key will be automatically applied" src="http://theeventscalendar.com/content/uploads/2018/05/Events-Calendar-Pro-license.png" title="Events Calendar Pro License key will be automatically applied" /></p>
+<p style="text-align: center;"><img alt="Events Calendar Pro License key will be automatically applied" src="https://s3.theeventscalendar.com/uploads/2018/05/Events-Calendar-Pro-license.png" title="Events Calendar Pro License key will be automatically applied" /></p>
 
 <p style="text-align: center;"><strong>Events &gt; Settings &gt; Licenses</strong></p>
 
@@ -138,13 +138,13 @@ zaius.event('pageview');
 
 <p><a href="021757-Settings-Overview-The-Events-Calendar-and-Events-Calendar-PRO">Configure your settings</a>. Configure both your WordPress settings and Events Calendar settings so that your calendar works how you'd like it.</p>
 
-<p style="text-align: center;"><img alt="Customize your event settings to get the look you want by going to Events, Settings, General." src="http://theeventscalendar.com/content/uploads/2018/05/Events-Settings.png" title="Customize your event settings to get the look you want by going to Events, Settings, General." /> <strong>Events &gt; Settings</strong></p>
+<p style="text-align: center;"><img alt="Customize your event settings to get the look you want by going to Events, Settings, General." src="https://s3.theeventscalendar.com/uploads/2018/05/Events-Settings.png" title="Customize your event settings to get the look you want by going to Events, Settings, General." /> <strong>Events &gt; Settings</strong></p>
 
 <h3 id="Add to Menu">Add to Menu</h3>
 
 <p><a href="616696-Adding-a-calendar-link-to-your-site-menu">Add a link to your calendar</a> on your website so that visitors can find it.</p>
 
-<p style="text-align: center;"><img alt="How to add events page to menu: go to Appearance , Events, View all, and select the Events page to add to menu" src="http://theeventscalendar.com/content/uploads/2018/05/add-events-page-to-menu.png" title="How to add events page to menu: go to Appearance , Events, View all, and select the Events page to add to menu" /> Go to <strong>Appearance &gt; Menu</strong> to add your events page to the menu</p>
+<p style="text-align: center;"><img alt="How to add events page to menu: go to Appearance , Events, View all, and select the Events page to add to menu" src="https://s3.theeventscalendar.com/uploads/2018/05/add-events-page-to-menu.png" title="How to add events page to menu: go to Appearance , Events, View all, and select the Events page to add to menu" /> Go to <strong>Appearance &gt; Menu</strong> to add your events page to the menu</p>
 
 <h3 id="Create an Event">Create an Event</h3>
 
@@ -171,8 +171,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 26, 2018, 12:36 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 30, 2019, 01:12 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -266,10 +266,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

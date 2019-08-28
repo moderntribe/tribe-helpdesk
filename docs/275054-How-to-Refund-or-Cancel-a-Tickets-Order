@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="275054-How-to-Refund-or-Cancel-a-Tickets-Order" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="275054-How-to-Refund-or-Cancel-a-Tickets-Order" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>How to Refund or Cancel a Tickets Order</title>        <meta name="keywords" content="Article,Beginner,improve text,out of date,Event Tickets,Event Tickets Plus,Event Tickets Plus, uiback, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/275054-How-to-Refund-or-Cancel-a-Tickets-Order" />    <meta property="og:title" content="How to Refund or Cancel a Tickets Order" />    <meta property="og:description" content="This article covers refunding or canceling orders that contain tickets. It&#039;s important to process these changes carefully and know how your Event Tickets or Event Tickets Plus attendee lists and capac" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>How to Refund or Cancel a Tickets Order</title>        <meta name="keywords" content="Article,Beginner,improve text,out of date,Event Tickets,Event Tickets Plus,Event Tickets Plus, uiback, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/275054-How-to-Refund-or-Cancel-a-Tickets-Order" />    <meta property="og:title" content="How to Refund or Cancel a Tickets Order" />    <meta property="og:description" content="This article covers refunding or canceling orders that contain tickets. It&#039;s important to process these changes carefully and know how your Event Tickets or Event Tickets Plus attendee lists and capac" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=efb6567e0527637cde9c7dd2774ca152" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -137,13 +137,19 @@ zaius.event('pageview');
 
 <p>For example, if you refunded two tickets to the event "Jerry Seinfeld Live" and want to make sure that those two seats are made available for purchase again by someone else, head to the edit screen for the event named "Jerry Seinfeld Live." Once there, scroll down to the <strong>Tickets</strong> pane and click the name for the ticket type that you previously refunded. You'll see the previous number of available tickets in the <strong>Capacity</strong> field. Increase the capacity of the ticket by two and click the blue <strong>Save this ticket</strong> button to save your changes.</p>
 
-<p style="text-align: center;"><img alt="change WooCommerce ticket capacity" src="http://theeventscalendar.com/content/uploads/2016/09/change-capacity-1.gif" /></p>
+<p style="text-align: center;"><img alt="change WooCommerce ticket capacity" src="https://s3.theeventscalendar.com/uploads/2016/09/change-capacity-1.gif" /></p>
+
+<p style="text-align: center;">Classic Editor - Edit Capacity</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=efb6567e0527637cde9c7dd2774ca152" /></p>
+
+<p style="text-align: center;">Block&nbsp;Editor - Edit Capacity</p>
 
 <p><strong>If you do not want the refunded seats to become available to other potential buyers,</strong> then simply process the refund or cancellation of the order—no other steps are required.</p>
 
 <p><strong>Note:</strong> Since version <strong>4.6</strong> of <strong>Event Tickets</strong> and <strong>Event Tickets Plus</strong>, the ticket editor will warn you when the number of Complete ticket sales does not match the number of attendee records generated, by showing a red exclamation icon next to the number of available tickets. That means you should check the Attendees list and adjust ticket capacity in WooCommerce as needed.</p>
 
-<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2016/09/stock-count-warning.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2016/09/stock-count-warning.png" /></p>
 
 <h4 id="attendee">Attendee Considerations</h4>
 
@@ -151,7 +157,7 @@ zaius.event('pageview');
 
 <p>If you wish to remove a refunded or canceled ticket from your list of attendees and eliminate the possibility of the original buyer checking in with that ticket, navigate to the attendee list for the associated event. (You'll find instructions for how to do so <a href="622969-Tickets-Managing-Your-Orders-and-Attendees#attendee-list">here on our Knowledgebase</a>.) Click the checkbox next to the ticket or tickets that you wish to remove, select <strong>Delete</strong> from the <strong>Bulk Actions</strong> menu at the top (or bottom) of the list, and click <strong>Apply</strong>.</p>
 
-<p style="text-align: center;"><img alt="Deleting a ticket from an event's attendees list" src="https://theeventscalendar.com/content/uploads/2016/09/delete_ticket.gif" /></p>
+<p style="text-align: center;"><img alt="Deleting a ticket from an event's attendees list" src="https://s3.theeventscalendar.com/uploads/2016/09/delete_ticket.gif" /></p>
 
 <p><strong>Note:</strong>&nbsp;Since Event Tickets and Event Tickets Plus 4.6, deleting an attendee record automatically increases the ticket capacity. So you should take this into account when using WooCommerce, as it offers the option to restock the product when processing refunds.</p>
 
@@ -177,8 +183,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 27, 2018, 01:40 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-27" itemprop="dateModified">Dec 27 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -203,6 +209,9 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="189617-How-Event-Tickets-Calculates-Availability" class="article-link article-link-879" title="How Event Tickets Calculates Availability">
+        <span class="TitleValue">How Event Tickets Calculates Availability</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="550976-Attendee-Registration-Page-Template" class="article-link article-link-805" title="Attendee Registration Page Template">
         <span class="TitleValue">Attendee Registration Page Template</span>
       </a></li>
@@ -230,11 +239,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="article-link article-link-537" title="Settings overview: Event Tickets and Event Tickets Plus">
         <span class="TitleValue">Settings overview: Event Tickets and Event Tickets Plus</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" class="article-link article-link-535" title="New User Primer: Event Tickets &amp; Event Tickets Plus">
-        <span class="TitleValue">New User Primer: Event Tickets &amp; Event Tickets Plus</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 12 more ...</a></div>
+        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 13 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -272,10 +278,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="275054-How-to-Refund-or-Cancel-a-Tickets-Order#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

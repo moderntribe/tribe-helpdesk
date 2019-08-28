@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="303643-Testing-for-conflicts" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="303643-Testing-for-conflicts" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-search">	
+<body class="montana  page-search">
 	
              
 	    <!-- nav -->
@@ -132,33 +132,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Dec 20, 2018, 12:55 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     General
-                          </div>
-        </a>
-         <a href="909375-Common-error-messages" class="list-group-item item-A" title="Common error messages">
-          <h3 class="list-group-item-heading">Common error messages</h3>
-                              	<div class="article-preview">Are you getting crazy looking error message from The Events Calendar? Here are s</div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 20, 2018, 01:11 PM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     General
-                          </div>
-        </a>
-         <a href="719006-Fixing-HTTP-404-errors" class="list-group-item item-A" title="Fixing HTTP 404 errors">
-          <h3 class="list-group-item-heading">Fixing HTTP 404 errors</h3>
-                              	<div class="article-preview">On occasion some event pages might start display a 404 - Not found page instead </div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 20, 2018, 01:12 PM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (8 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -169,9 +143,35 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Using Google Chrome Developer Tools</h3>
                               	<div class="article-preview">When troubleshooting a problem on your site, it is essential that you have power</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 20, 2018, 01:09 PM">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:36 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     General
+                          </div>
+        </a>
+         <a href="719006-Fixing-HTTP-404-errors" class="list-group-item item-A" title="Fixing HTTP 404 errors">
+          <h3 class="list-group-item-heading">Fixing HTTP 404 errors</h3>
+                              	<div class="article-preview">On occasion some event pages might start display a 404 - Not found page instead </div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:35 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     General
+                          </div>
+        </a>
+         <a href="909375-Common-error-messages" class="list-group-item item-A" title="Common error messages">
+          <h3 class="list-group-item-heading">Common error messages</h3>
+                              	<div class="article-preview">Are you getting crazy looking error message from The Events Calendar? Here are s</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:36 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -186,7 +186,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Dec 16, 2018, 05:42 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 16 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 16 (8 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -197,9 +197,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Calendar displays in mobile view on desktop/tablet screen sizes</h3>
                               	<div class="article-preview">Under certain circumstances, when viewing your events pages in the default Month</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 20, 2018, 12:10 PM">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:37 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -210,9 +210,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Event Tickets Plus: ticket stock troubleshooting</h3>
                               	<div class="article-preview">The most used eCommerce platform for our Event Tickets Plus (http://m.tri.be/19i</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 28, 2018, 06:51 AM">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:37 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -225,7 +225,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Dec 20, 2018, 12:05 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (8 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -238,7 +238,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Dec 20, 2018, 01:13 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (8 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -249,9 +249,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Downgrading a plugin to a past version</h3>
                               	<div class="article-preview">Sometimes you need to downgrade a plugin to a previous version. Perhaps your the</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Nov 20, 2018, 04:12 PM">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:36 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Nov 20 (5 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -262,9 +262,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Troubleshooting Google Maps</h3>
                               	<div class="article-preview">Is your website unable to load Google Maps or do you see events located in the o</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Apr 18, 2019, 02:17 PM">
+                                  <div class="ArticleInfo" title="Jun 30, 2019, 12:36 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 18 (21 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 30 (58 days ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -275,13 +275,26 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Required Fields for Events Submission Form</h3>
                               	<div class="article-preview">⚠️ Please Note: This tutorial is only suggested as a starting place. You'll need</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jan 31, 2019, 11:15 AM">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:36 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jan 31 (3 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Community Events
+                          </div>
+        </a>
+         <a href="922718-Solution-for-Error-Publishing-failed-on-PHP-56" class="list-group-item item-A" title="Solution for Error: Publishing failed on PHP 5.6">
+          <h3 class="list-group-item-heading">Solution for Error: Publishing failed on PHP 5.6</h3>
+                              	<div class="article-preview">For sites running PHP 5.6, sometimes you can run into errors like "Publishing fa</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="May 23, 2019, 05:29 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">May 23 (3 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     General
                           </div>
         </a>
          <a href="616613-Problems-with-Minification" class="list-group-item item-A" title="Problems with Minification">
@@ -290,7 +303,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Nov 26, 2018, 12:28 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Nov 26 (5 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Nov 26 (9 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -301,9 +314,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Version compatibility</h3>
                               	<div class="article-preview">For proper plugin functionality, it's important to run compatible versions of Th</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 20, 2018, 12:56 PM">
+                                  <div class="ArticleInfo" title="Jun 21, 2019, 12:01 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 21 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -316,7 +329,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Dec 14, 2018, 12:42 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 14 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 14 (8 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -327,26 +340,13 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Setting up The Events Calendar with WPML</h3>
                               	<div class="article-preview">At the time of writing, the popular WPML plugin is compatible with the following</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 26, 2018, 11:53 AM">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:36 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 26 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Events Calendar PRO
-                          </div>
-        </a>
-         <a href="221823-New-User-Primer-Eventbrite-Tickets" class="list-group-item item-A" title="New User Primer: Eventbrite Tickets">
-          <h3 class="list-group-item-heading">New User Primer: Eventbrite Tickets</h3>
-                              	<div class="article-preview">Ready to get started with Eventbrite Tickets? We’ve got you covered! The steps b</div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 28, 2018, 08:47 AM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (4 months ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     Eventbrite Tickets
                           </div>
         </a>
          <a href="909185-New-User-Primer-Filter-Bar" class="list-group-item item-A" title="New User Primer: Filter Bar">
@@ -355,59 +355,72 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Dec 27, 2018, 01:36 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 27 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 27 (8 months ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Filter Bar
                           </div>
         </a>
+         <a href="221823-New-User-Primer-Eventbrite-Tickets" class="list-group-item item-A" title="New User Primer: Eventbrite Tickets">
+          <h3 class="list-group-item-heading">New User Primer: Eventbrite Tickets</h3>
+                              	<div class="article-preview">Ready to get started with Eventbrite Tickets? We’ve got you covered! The steps b</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Dec 28, 2018, 08:47 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (7 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     Eventbrite Tickets
+                          </div>
+        </a>
          <a href="890921-New-User-Primer-Community-Events" class="list-group-item item-A" title="New User Primer: Community Events">
           <h3 class="list-group-item-heading">New User Primer: Community Events</h3>
                               	<div class="article-preview">Ready to get started with Community Events? We’ve got you covered! The steps bel</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 28, 2018, 07:46 AM">
+                                  <div class="ArticleInfo" title="Jun 24, 2019, 12:58 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 24 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Community Events
                           </div>
         </a>
-         <a href="342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO" class="list-group-item item-A" title="New User Primer: The Events Calendar and Events Calendar PRO">
-          <h3 class="list-group-item-heading">New User Primer: The Events Calendar and Events Calendar PRO</h3>
-                              	<div class="article-preview">Just starting out with The Events Calendar and Events Calendar PRO? These steps </div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 26, 2018, 12:36 PM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 26 (4 months ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     Events Calendar PRO
-                          </div>
-        </a>
          <a href="230241-Troubleshooting-the-most-common-installation-issues" class="list-group-item item-A" title="Troubleshooting the most common installation issues">
           <h3 class="list-group-item-heading">Troubleshooting the most common installation issues</h3>
                               	<div class="article-preview">Are you having trouble installing one of our plugins? Don't worry, we can help! </div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 20, 2018, 01:34 PM">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 06:31 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 20 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     General
                           </div>
         </a>
+         <a href="342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO" class="list-group-item item-A" title="New User Primer: The Events Calendar and Events Calendar PRO">
+          <h3 class="list-group-item-heading">New User Primer: The Events Calendar and Events Calendar PRO</h3>
+                              	<div class="article-preview">Just starting out with The Events Calendar and Events Calendar PRO? These steps </div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Jun 30, 2019, 01:12 PM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 30 (58 days ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     Events Calendar PRO
+                          </div>
+        </a>
          <a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" class="list-group-item item-A" title="New User Primer: Event Tickets &amp; Event Tickets Plus">
           <h3 class="list-group-item-heading">New User Primer: Event Tickets &amp; Event Tickets Plus</h3>
                               	<div class="article-preview">Just starting out with Event Tickets or Event Tickets Plus? These steps will hel</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 27, 2018, 01:46 PM">
+                                  <div class="ArticleInfo" title="Jun 06, 2019, 03:19 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 27 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 06 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -418,13 +431,26 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">New User Primer: Community Tickets</h3>
                               	<div class="article-preview">Excited to get started with Community Tickets? We’re here to help! The steps bel</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Feb 07, 2019, 12:13 PM">
+                                  <div class="ArticleInfo" title="Aug 03, 2019, 02:03 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Feb 07 (3 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Aug 03 (24 days ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Community Tickets
+                          </div>
+        </a>
+         <a href="713863-PHP-Version-Requirement-Changes" class="list-group-item item-A" title="PHP Version Requirement Changes">
+          <h3 class="list-group-item-heading">PHP Version Requirement Changes</h3>
+                              	<div class="article-preview">We have decided to change our minimum required PHP version from 5.2 to 5.6. This</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:37 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     General
                           </div>
         </a>
          <a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="list-group-item item-A" title="Best Practices for Implementing Custom Code Snippets">
@@ -433,7 +459,7 @@ zaius.event('pageview');
                     <div class="article-bottom">
                                   <div class="ArticleInfo" title="Jan 06, 2019, 10:07 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jan 06 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jan 06 (7 months ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -444,35 +470,48 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Settings overview: Event Tickets and Event Tickets Plus</h3>
                               	<div class="article-preview">Before using Event Tickets, you'll want to make sure that you have the plugin se</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Apr 22, 2019, 12:32 PM">
+                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:36 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 22 (18 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Event Tickets
                           </div>
         </a>
-         <a href="347614-Community-Tickets-Configuring-PayPal-Split-Payments" class="list-group-item item-A" title="Community Tickets: Configuring PayPal Split Payments">
-          <h3 class="list-group-item-heading">Community Tickets: Configuring PayPal Split Payments</h3>
+         <a href="347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" class="list-group-item item-A" title="Community Tickets: Configuring PayPal Adaptive Payments (Legacy)">
+          <h3 class="list-group-item-heading">Community Tickets: Configuring PayPal Adaptive Payments (Legacy)</h3>
                               	<div class="article-preview">If you already have a live, approved PayPal Adaptive Payments account then you c</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Dec 28, 2018, 07:53 AM">
+                                  <div class="ArticleInfo" title="Aug 22, 2019, 06:04 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Dec 28 (4 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Aug 22 (5 days ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Community Tickets
                           </div>
         </a>
+         <a href="239548-Creating-and-using-a-WordPress-staging-site" class="list-group-item item-A" title="Creating and using a WordPress staging site">
+          <h3 class="list-group-item-heading">Creating and using a WordPress staging site</h3>
+                              	<div class="article-preview">Have you logged in to your site and been tempted to click on all the places wher</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Jun 25, 2019, 01:17 PM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 25 (2 months ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     General
+                          </div>
+        </a>
          <a href="021757-Settings-Overview-The-Events-Calendar-and-Events-Calendar-PRO" class="list-group-item item-A" title="Settings Overview: The Events Calendar and Events Calendar PRO">
           <h3 class="list-group-item-heading">Settings Overview: The Events Calendar and Events Calendar PRO</h3>
                               	<div class="article-preview">You can access the settings for The Events Calendar and Events Calendar PRO from</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Mar 27, 2019, 01:14 PM">
+                                  <div class="ArticleInfo" title="Jun 30, 2019, 01:11 PM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Mar 27 (44 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 30 (58 days ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -506,10 +545,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="search?q=errors&amp;pid=263&amp;type=search#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

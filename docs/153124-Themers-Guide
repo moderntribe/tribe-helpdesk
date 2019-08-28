@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="153124-Themers-Guide" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="153124-Themers-Guide" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -218,11 +218,11 @@ zaius.event('pageview');
 
 <p dir="ltr">By default, The Events Calendar displays just the venue name underneath each event date. Here’s what it looks like:</p>
 
-<p dir="ltr"><img alt="KB themers guide 1" src="https://theeventscalendar.com/content/uploads/2014/09/KB-themers-guide-1-300x50.png" /></p>
+<p dir="ltr"><img alt="KB themers guide 1" src="https://s3.theeventscalendar.com/uploads/2014/09/KB-themers-guide-1-300x50.png" /></p>
 
 <p dir="ltr">But what if you also want to show the event organizer? So, for example, you would instead have something that looks like <em>this</em>:</p>
 
-<p dir="ltr"><img alt="KB themers guide 2" src="https://theeventscalendar.com/content/uploads/2014/09/KB-themers-guide-2-665x148.png" /></p>
+<p dir="ltr"><img alt="KB themers guide 2" src="https://s3.theeventscalendar.com/uploads/2014/09/KB-themers-guide-2-665x148.png" /></p>
 
 <p dir="ltr">Here’s how that’s done:</p>
 
@@ -681,8 +681,8 @@ add_filter( 'tribe_events_kill_responsive', '__return_true')<span class="hljs-co
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Mar 18, 2019, 03:13 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-18" itemprop="dateModified">Mar 18 (52 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:35 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -776,10 +776,10 @@ add_filter( 'tribe_events_kill_responsive', '__return_true')<span class="hljs-co
 		</footer>
 	<a href="153124-Themers-Guide#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

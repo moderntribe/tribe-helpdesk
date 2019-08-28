@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="364083-Is-The-Events-Calendar-Required-to-Use-Promoter-and-Can-I-Use-it-With-Other-Calendar-Applications" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="364083-Is-The-Events-Calendar-Required-to-Use-Promoter-and-Can-I-Use-it-With-Other-Calendar-Applications" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -119,9 +119,9 @@ zaius.event('pageview');
    			<div class="article-content ArticleContent" itemprop="articleBody"><p>Promoter only supports The Events Calendar at this time.&nbsp;The Events Calendar is a free WordPress plugin for creating and managing calendar events.</p>
 
 <ul>
-	<li><a href="https://wordpress.org/plugins/the-events-calendar/">Download</a> and install it on your WordPress site.</li>
-	<li>Download and install <a href="https://wordpress.org/plugins/event-tickets/">Event Tickets</a>&nbsp;and <a href="https://theeventscalendar.com/product/wordpress-event-tickets-plus/">Event Tickets Plus</a> on your WordPress site. Like The Events Calendar, Event Tickets&nbsp;a free plugin, and it is required in order to run Event Tickets Plus, which is a premium paid extension for selling tickets on events and managing attendees.</li>
-	<li>Purchase a&nbsp;Promoter subscription to begin creating and sending messages to event attendees.</li>
+	<li><a href="https://wordpress.org/plugins/the-events-calendar/">Download</a> and install the Events Calendar on your WordPress site.</li>
+	<li>Download and install <a href="https://wordpress.org/plugins/event-tickets/">Event Tickets</a> (free) and <a href="https://theeventscalendar.com/product/wordpress-event-tickets-plus/">Event Tickets Plus</a> (optional - extends Event Tickets) on your WordPress site.</li>
+	<li>Purchase a&nbsp;<a href="https://theeventscalendar.com/product/promoter/" target="_blank">Promoter subscription</a> to begin creating and sending messages to event attendees.</li>
 </ul>
 
 <p>Would you like to use Promoter with another platform? We’re planning to expand Promoter to other places, but <a href="submit_ticket">we’d like to know</a> if you have a specific one in mind.</p>
@@ -135,8 +135,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 25, 2019, 09:03 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-25" itemprop="dateModified">Jan 25 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 14, 2019, 10:43 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-14" itemprop="dateModified">Jul 14 (44 days ago)</time></span>
               </div>
                         <time datetime="2018-12-21" itemprop="datePublished"></time>
           </div>
@@ -202,10 +202,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="364083-Is-The-Events-Calendar-Required-to-Use-Promoter-and-Can-I-Use-it-With-Other-Calendar-Applications#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

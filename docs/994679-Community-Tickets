@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="994679-Community-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="994679-Community-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-category">	
+<body class="montana  page-category">
 	
              
 	    <!-- nav -->
@@ -108,22 +108,62 @@ zaius.event('pageview');
 	<div class="list-group article-list" itemscope itemtype="https://schema.org/ItemList">
         
                         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a href="349416-Configuring-Community-Tickets" itemprop="item" class="list-group-item item-A" title="Configuring Community Tickets">                  
-                  <h3 class="list-group-item-heading" itemprop="name">Configuring Community Tickets</h3>
-                  <meta itemprop="url" content="//support.theeventscalendar.com/349416-Configuring-Community-Tickets" />
-                                    <div itemprop="description" class="article-preview">The Community Tickets settings can be found under Events &gt; Settings. The settings for Community Events are at the top of the page, and Community Tickets settings are below that. We've got an overview of the Community Events settings in a separate article. Here we focus on the Community Tickets settings only.
- The most important setting for Community Events is the Enable Community Tickets checkbox. You must check this box and save the settings page in order to enable the Community Tickets feat...</div>
+                <a href="117835-Community-Tickets-Ticket-Fees" itemprop="item" class="list-group-item item-A" title="Community Tickets: Ticket Fees">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Community Tickets: Ticket Fees</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/117835-Community-Tickets-Ticket-Fees" />
+                                    <div itemprop="description" class="article-preview">Ticket fees are ideal for adding handling fees and sorting out payments to share with event organizers. You can determine what your ticket fees are as well as if you want those fees to be displayed to ticket purchasers. 
+ To adjust your ticket fees, visit Events &gt; Settings &gt; Community &gt; Ticket Fees. 
+ 
+ 
+
+Ticket Fee Types:
+
+ 
+ 
+
+Flat Fee 
+
+ Define the flat fee collected by the site admin per event in an order (e.g. $2 per event in an order). 
+ When any option that includes a Flat Fee is...</div>
                   <meta itemprop="position" content="1" />
                 </a>
             </div>
                     
                         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a href="347614-Community-Tickets-Configuring-PayPal-Split-Payments" itemprop="item" class="list-group-item item-A" title="Community Tickets: Configuring PayPal Split Payments">                  
-                  <h3 class="list-group-item-heading" itemprop="name">Community Tickets: Configuring PayPal Split Payments</h3>
-                  <meta itemprop="url" content="//support.theeventscalendar.com/347614-Community-Tickets-Configuring-PayPal-Split-Payments" />
-                                    <div itemprop="description" class="article-preview">If you already have a live, approved PayPal Adaptive Payments account then you can continue to use this feature, however it is no longer possible for new Adaptive Payments accounts to be created. We're investigating replacements for this service.
- One of the most handy features of our Community Tickets plugin is its support for split payments, powered by PayPal's chained payments. This feature is briefly touched on in another of our Knowledgebase articles (https://support.theeventscalendar.com/2...</div>
+                <a href="587135-Community-Tickets-Split-Payments" itemprop="item" class="list-group-item item-A" title="Community Tickets: Split Payments">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Community Tickets: Split Payments</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/587135-Community-Tickets-Split-Payments" />
+                                    <div itemprop="description" class="article-preview">Collecting fees
+
+ There are three ways to collect fees from ticket sales. The default option is to have all ticket sales collected via your e-commerce engine (WooCommerce). You can then divide up the money as needed.
+ With this method, it is your responsibility as the site admin to pay event organizers - by whatever method you prefer. You can use the sales data for each event to track how much is owed to the organizer and how much you have earned in fees.
+ 
+
+Split Payments
+
+ The other two option...</div>
                   <meta itemprop="position" content="2" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="349416-Configuring-Community-Tickets" itemprop="item" class="list-group-item item-A" title="Configuring Community Tickets">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Configuring Community Tickets</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/349416-Configuring-Community-Tickets" />
+                                    <div itemprop="description" class="article-preview">The Community Tickets settings can be found under Events &gt; Settings. The settings for Community Events are at the top of the page, and Community Tickets settings are below that. We've got an overview of the Community Events settings in a separate article. Here we focus on the Community Tickets settings only.
+ 
+ The most important setting for Community Events is the Enable Community Tickets checkbox. You must check this box and save the settings page in order to enable the Community Tickets fe...</div>
+                  <meta itemprop="position" content="3" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" itemprop="item" class="list-group-item item-A" title="Community Tickets: Configuring PayPal Adaptive Payments (Legacy)">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Community Tickets: Configuring PayPal Adaptive Payments (Legacy)</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" />
+                                    <div itemprop="description" class="article-preview">If you already have a live, approved PayPal Adaptive Payments account then you can continue to use this feature. However, it is no longer possible for new Adaptive Payments accounts to be created. Please use PayPal Payouts API (https://support.theeventscalendar.com/587135-Community-Tickets-Split-Payments#payouts) instead.
+ One of the most handy features of our Community Tickets plugin is its support for split payments, powered by PayPal's chained payments. This feature is briefly touched on in a...</div>
+                  <meta itemprop="position" content="4" />
                 </a>
             </div>
                     
@@ -133,7 +173,7 @@ zaius.event('pageview');
                   <meta itemprop="url" content="//support.theeventscalendar.com/136789-New-User-Primer-Community-Tickets" />
                                     <div itemprop="description" class="article-preview">Excited to get started with Community Tickets? We’re here to help! The steps below will guide you through setting up and using your new features!
  Like all of our premium Events add-ons, Community Tickets requires The Events Calendar (https://theeventscalendar.com/product/wordpress-events-calendar/) to be installed on your site. Additionally, Community Tickets requires you to have Community Events (https://support.theeventscalendar.com/890921-New-User-Primer-Community-Events) with Event Tickets ...</div>
-                  <meta itemprop="position" content="3" />
+                  <meta itemprop="position" content="5" />
                 </a>
             </div>
                 	</div>
@@ -172,10 +212,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="994679-Community-Tickets#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

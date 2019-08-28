@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="329824-Promoter-Setup-Guide-" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="329824-Promoter-Setup-Guide-" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -26,7 +26,7 @@
 function(e){});
     </script>       
             <title>Promoter Setup Guide </title>        <meta name="keywords" content="promoter
-setup" />    <meta property="og:url" content="//support.theeventscalendar.com/329824-Promoter-Setup-Guide-" />    <meta property="og:title" content="Promoter Setup Guide " />    <meta property="og:description" content="Important Promoter Setup Guidelines      	- Promoter requires an environment that is on the web. As such, local installs are unlikely to allow you to use Promoter smoothly :-)   	- Certain domain and " />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=f3e5b2dd067abb2a9dc05940d4f00a2e" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+setup" />    <meta property="og:url" content="//support.theeventscalendar.com/329824-Promoter-Setup-Guide-" />    <meta property="og:title" content="Promoter Setup Guide " />    <meta property="og:description" content="Important Promoter Setup Guidelines      	- Promoter requires an environment that is on the web (local installs will not work)   	- Certain domain and subdomain names will not allow you to run Promote" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=f3e5b2dd067abb2a9dc05940d4f00a2e" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -35,7 +35,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -111,26 +111,27 @@ zaius.event('pageview');
   	<div class="col-md-9">	
    			<div class="article-content ArticleContent" itemprop="articleBody"><h2>Important Promoter Setup Guidelines</h2>
 
-<ul dir="ltr">
-	<li>Promoter&nbsp;requires an environment that is on the web. As such, local installs are unlikely to allow you to use Promoter smoothly :-)</li>
-	<li>Certain domain and subdomain names will not allow you to run Promoter (for technical reasons). Please make sure that your&nbsp;site is not using any of the following:
+<ul dir="ltr" style="padding-left: 0px;">
+	<li style="margin-bottom: 1em; font-size: 18px;">Promoter&nbsp;requires an environment that is on the web (local installs will not work)</li>
+	<li style="margin-bottom: 1em;font-size: 18px;">Certain domain and subdomain names will not allow you to run Promoter (for technical reasons). Please make sure that your&nbsp;site is not using any of the following:
 	<ul>
-		<li>The presence of "staging" in the domain or subdomain</li>
-		<li>The presence of "dev" in the domain or subdomain</li>
-		<li>myftpupload domains</li>
-		<li>mybluehost domains</li>
-		<li>dreamhosters domains</li>
-		<li>lightningbasehosted&nbsp;domains</li>
+		<li style="margin-bottom: 1em;font-size: 18px;">The presence of "staging" in the domain or subdomain</li>
+		<li style="margin-bottom: 1em;font-size: 18px;">The presence of "dev" in the domain or subdomain</li>
+		<li style="margin-bottom: 1em;font-size: 18px;">myftpupload domains</li>
+		<li style="margin-bottom: 1em;font-size: 18px;">mybluehost domains</li>
+		<li style="margin-bottom: 1em;font-size: 18px;">dreamhosters domains</li>
+		<li style="margin-bottom: 1em;font-size: 18px;">lightningbasehosted&nbsp;domains</li>
 	</ul>
 	</li>
-	<li>For the time being, once a Promoter license is tied to a website (even a test one), it cannot be transferred to another website. If you have used the license on a site and wish to transfer it to a different website, please contact our <a href="submit_ticket">helpdesk</a>.</li>
+	<li style="font-size: 18px;">Once a Promoter license is tied to a website (e.g.: a test one), it cannot be simply swapped to another website. If you have used the license on a site and wish to transfer it to a different website, please contact our <a href="submit_ticket">helpdesk</a>.</li>
+	<li style="font-size: 18px;">Promoter currently does not work on multi-site WordPress installations (but we are working on it)</li>
 </ul>
 
 <p dir="ltr">Follow <a href="https://theeventscalendar.com/blog/">the Events Calendar's&nbsp;blog</a>&nbsp;for new feature announcements and bug fixes.</p>
 
 <h2>Installation Instructions</h2>
 
-<p dir="ltr">Follow these steps to install the Promoter Beta connector</p>
+<p dir="ltr">Follow these steps to install Promoter</p>
 
 <ol dir="ltr">
 	<li>Purchase a Promoter License at&nbsp;<a href="https://theeventscalendar.com/product/promoter/" target="_blank">https://theeventscalendar.com/product/promoter/</a></li>
@@ -146,23 +147,29 @@ zaius.event('pageview');
 
 <ol dir="ltr">
 	<li>Go to:&nbsp;<a href="https://promoter.theeventscalendar.com/welcome" target="_blank">https://promoter.theeventscalendar.com/welcome</a></li>
-	<li>Enter your&nbsp;license and submit and click on&nbsp;<strong><em>Next: Your Profile</em></strong></li>
-	<li>Double-check your profile details and choose a password. Click on <strong><em>Next: Select website</em>&nbsp;</strong></li>
-	<li>Select the website you want to connect Promoter to and click on&nbsp;<em><strong>Next: Sync Events</strong></em>&nbsp;to load test events from your site</li>
-	<li>A pop-up will appear (you might need to allow pop-ups if your browser is blocking them), click on&nbsp;<em><strong>Authorize Promoter</strong></em></li>
-	<li>When prompted to, you can close the pop-up window</li>
-	<li>Click on <em><strong>Complete Sync</strong></em></li>
+	<li>Enter your&nbsp;license and submit and click on&nbsp;<strong><em>Next: Your Profile</em></strong><br />
+	<img height="auto" src="scripts/file.php%3Fview=Y&amp;file=eriul3s89dlqcku6visubaf3emggmnli" width="652" /></li>
+	<li>Double-check your profile details and choose a password. Click on <strong><em>Next: Select website</em>&nbsp;<br />
+	<img height="auto" src="scripts/file.php%3Fview=Y&amp;file=5ayf55f57pt7td4cx2j1fi5wcom6lq1n" width="421" /></strong></li>
+	<li>Select the website you want to connect Promoter (1) to and click on&nbsp;<em><strong>Next: Sync Events</strong></em> (2) to load events from your site<br />
+	<img height="auto" src="scripts/file.php%3Fview=Y&amp;file=3hc5kqxycqcwl4e4weaozakf3334w378" width="614" /></li>
+	<li>Click on&nbsp;<em><strong>Authorize Promoter<br />
+	<img height="auto" src="scripts/file.php%3Fview=Y&amp;file=4yvv0tuzuo1m05sa6833nikbcbbgizf3" width="412" /></strong></em></li>
+	<li>Click on <em><strong>Complete Sync<br />
+	<img height="auto" src="scripts/file.php%3Fview=Y&amp;file=hflsskr3o0vlha3gssr8quq515adblsi" width="431" /></strong></em></li>
 </ol>
+
+<p>The import of your events to Promoter should now be scheduled (it might take a few minutes to appear). Well played!</p>
 
 <h2>Providing Feedback</h2>
 
 <p dir="ltr">Head to our <strong><a href="submit_ticket" target="_blank">support page</a></strong> to learn more about Promoter, provide feedback, or contact us</p>
 
 <ul dir="ltr">
-	<li>Do you have an idea on how to improve a feature?</li>
-	<li>Is something not working the way it should?</li>
-	<li>Did you find a typo or other confusing language?</li>
-	<li>Are you unsure on how to activate features or configure plugin settings?</li>
+	<li style="margin-bottom: 1em;font-size: 18px;">Do you have an idea on how to improve a feature?</li>
+	<li style="margin-bottom: 1em;font-size: 18px;">Is something not working the way it should?</li>
+	<li style="margin-bottom: 1em;font-size: 18px;">Did you find a typo or other confusing language?</li>
+	<li style="margin-bottom: 1em;font-size: 18px;">Are you unsure on how to activate features or configure plugin settings?</li>
 </ul>
 
 <p>Happy promoting!</p>
@@ -176,8 +183,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Apr 02, 2019, 08:28 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-02" itemprop="dateModified">Apr 02 (37 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Aug 14, 2019, 03:38 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-14" itemprop="dateModified">Aug 14 (13 days ago)</time></span>
               </div>
                         <time datetime="2019-01-22" itemprop="datePublished"></time>
           </div>
@@ -235,10 +242,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="329824-Promoter-Setup-Guide-#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

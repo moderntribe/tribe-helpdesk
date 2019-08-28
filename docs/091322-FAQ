@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="091322-FAQ" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="091322-FAQ" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-category">	
+<body class="montana  page-category">
 	
              
 	    <!-- nav -->
@@ -131,8 +131,8 @@ zaius.event('pageview');
                                     <div itemprop="description" class="article-preview">Promoter only supports The Events Calendar at this time. The Events Calendar is a free WordPress plugin for creating and managing calendar events.
  
 
- 	- Download (https://wordpress.org/plugins/the-events-calendar/) and install it on your WordPress site.
- 	- Download and install Event Tickets (https://wordpress.org/plugins/event-tickets/) and Event Tickets Plus (https://theeventscalendar.com/product/wordpress-event-tickets-plus/) on your WordPress site. Like The Events Calendar, Event Tickets a ...</div>
+ 	- Download (https://wordpress.org/plugins/the-events-calendar/) and install the Events Calendar on your WordPress site.
+ 	- Download and install Event Tickets (https://wordpress.org/plugins/event-tickets/) (free) and Event Tickets Plus (https://theeventscalendar.com/product/wordpress-event-tickets-plus/) (optional - extends Event Tickets) on your...</div>
                   <meta itemprop="position" content="2" />
                 </a>
             </div>
@@ -172,10 +172,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="091322-FAQ#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

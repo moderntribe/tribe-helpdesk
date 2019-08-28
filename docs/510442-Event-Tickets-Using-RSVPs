@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="510442-Event-Tickets-Using-RSVPs" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="510442-Event-Tickets-Using-RSVPs" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -136,7 +136,7 @@ zaius.event('pageview');
 
 <p>If you don't have any ecommerce functionality enabled to sell tickets, you'll see a button that says <strong>+ New RSVP</strong>. If you also have enabled Tribe Commerce or Event Tickets Plus (alongside with an ecommerce plugin), you'll see the <strong>+ New Ticket</strong> button too.</p>
 
-<p style="text-align: center;"><img alt="RSVP option with Event Tickets Plus activated." src="https://theeventscalendar.com/content/uploads/2017/11/1_Tickets_Metabox_Buttons.png" /></p>
+<p style="text-align: center;"><img alt="RSVP option with Event Tickets Plus activated." src="https://s3.theeventscalendar.com/uploads/2017/11/1_Tickets_Metabox_Buttons.png" /></p>
 
 <p style="text-align: center;">The New ticket and New RSVP buttons when Event Tickets Plus is activated.</p>
 
@@ -150,7 +150,7 @@ zaius.event('pageview');
 
 <p>The following shows the fields for RSVPs.</p>
 
-<p style="text-align: center;"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/11/2_Tickets_Metabox_Add_New_RSVP.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/11/2_Tickets_Metabox_Add_New_RSVP.png" /></p>
 
 <p>If you have activated <a href="705692-An-Introduction-to-Tickets-Blocks">ticket blocks</a>, the interface for adding an RSVP will look just a little bit different. Click in the default Event RSVP block or add a new RSVP block.&nbsp;</p>
 
@@ -175,21 +175,23 @@ zaius.event('pageview');
 
 <h3 id="publish-accept">Publishing the Content and Accepting RSVPs</h3>
 
-<p>Once you've entered all your content and have created an RSVP ticket, you can now publish your content and let people RSVP for the event.</p>
+<p>Once you've entered all your content and have created RSVP tickets, you can now publish your content and let people RSVP for the event.</p>
 
 <p>Once RSVPs are allowed according to the "Start Sale Date" option for your RSVP tickets, users will see something like this at the bottom of your ticketed content:</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=ff6e045e2bebdfebc9c7df18912b1672" /></p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=cj4fi6e4j0889spcn0xg4afaqz8wi6xw" />Front End&nbsp;Classic Editor View of RSVP&nbsp;</p>
 
-<p>Users can RSVP with those fields and will receive a confirmation via email with their tickets. Here's a screenshot of the default ticket layout that event attendees will receive over email:</p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=w8dxhslv5y448ptrzks5qavbxbnyzt5y" />Front End&nbsp;Block Editor View of RSVP&nbsp;</p>
 
-<p style="text-align: center;"><img alt="kb-rsvpemail" src="http://theeventscalendar.com/content/uploads/2015/12/Screen-Shot-2015-12-02-at-11.22.19-AM-665x263.png" /></p>
+<p>Users can RSVP with those fields and will receive a confirmation over email with their tickets. Here's a screenshot of the default ticket layout that event attendees will receive over email:</p>
+
+<p style="text-align: center;"><img alt="kb-rsvpemail" src="https://s3.theeventscalendar.com/uploads/2015/12/Screen-Shot-2015-12-02-at-11.22.19-AM-665x263.png" /></p>
 
 <h3 id="edit-rsvp">Letting Attendees Edit RSVPs</h3>
 
 <p>Beginning with Event Tickets Plus version 4.2, you can allow users who have made RSVPs for your events to log in and edit their RSVP responses, attendee information, and more. <strong>Note that this functionality is available to Event Tickets Plus users only,</strong> and this feature requires attendees to create an account and log in before registering for your events.</p>
 
-<p style="text-align: center;"><img alt="&quot;View your RSVPs&quot;" src="https://theeventscalendar.com/content/uploads/2014/11/Screen-Shot-2016-06-03-at-12.53.46-PM-665x343.png" />&nbsp;</p>
+<p style="text-align: center;"><img alt="&quot;View your RSVPs&quot;" src="https://s3.theeventscalendar.com/uploads/2014/11/Screen-Shot-2016-06-03-at-12.53.46-PM-665x343.png" />&nbsp;</p>
 
 <p style="text-align: center;">An example of the "View your RSVPs" information box as of version 4.2 in Event Tickets Plus.</p>
 
@@ -207,8 +209,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Apr 29, 2019, 01:08 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-29" itemprop="dateModified">Apr 29 (11 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 02, 2019, 04:12 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-02" itemprop="dateModified">Jul 02 (56 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -233,6 +235,9 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="189617-How-Event-Tickets-Calculates-Availability" class="article-link article-link-879" title="How Event Tickets Calculates Availability">
+        <span class="TitleValue">How Event Tickets Calculates Availability</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="550976-Attendee-Registration-Page-Template" class="article-link article-link-805" title="Attendee Registration Page Template">
         <span class="TitleValue">Attendee Registration Page Template</span>
       </a></li>
@@ -260,11 +265,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="article-link article-link-537" title="Settings overview: Event Tickets and Event Tickets Plus">
         <span class="TitleValue">Settings overview: Event Tickets and Event Tickets Plus</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" class="article-link article-link-535" title="New User Primer: Event Tickets &amp; Event Tickets Plus">
-        <span class="TitleValue">New User Primer: Event Tickets &amp; Event Tickets Plus</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 12 more ...</a></div>
+        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 13 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -302,10 +304,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="510442-Event-Tickets-Using-RSVPs#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

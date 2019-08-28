@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="426506-Using-One-License-for-Live-and-Dev-Sites" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="426506-Using-One-License-for-Live-and-Dev-Sites" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Using One License for Live and Dev Sites</title>        <meta name="keywords" content="Article,Installation &amp;amp; License Keys,Beginner,improve text" />    <meta property="og:url" content="//support.theeventscalendar.com/426506-Using-One-License-for-Live-and-Dev-Sites" />    <meta property="og:title" content="Using One License for Live and Dev Sites" />    <meta property="og:description" content="Users often ask, &#039;If I have a staging/dev site and a live/production site, do I need two licenses?&#039;  Just the one license should keep you covered: Our licenses can be used on dev/staging sites without" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Using One License for Live and Dev Sites</title>        <meta name="keywords" content="Article,Installation &amp;amp; License Keys,Beginner,improve text,staging,staging site,dev, dev site" />    <meta property="og:url" content="//support.theeventscalendar.com/426506-Using-One-License-for-Live-and-Dev-Sites" />    <meta property="og:title" content="Using One License for Live and Dev Sites" />    <meta property="og:description" content="Users often ask, &#039;Do I need a second license if I want to test things out on a staging or development server?&#039;  In most simple cases a single license will suffice. In fact, if your domain name matches" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -108,46 +108,48 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Users often ask, "If I have a staging/dev site and a live/production site, do I need two licenses?"</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Users often ask, "Do I need a second license if I want to test things out on a staging or development server?"</p>
 
-<p>Just the one license <em>should</em> keep you covered: <strong>Our licenses can be used on dev/staging sites <em>without</em> it counting toward your license's maximum allowed sites if its domain name is clearly a dev or staging site.</strong></p>
-
-<p>What <em>is</em> a domain name that is "clearly a dev or staging site"? Well, at this time <strong>our license system will not count domains with the following <a href="https://en.wikipedia.org/wiki/Top-level_domain" rel="noopener" target="_blank">TLDs</a></strong> toward your license seats:</p>
+<p>In most simple cases a single license will suffice. In fact, if your domain name matches any of the following patterns our system will automatically assume that you are working on a staging site (and will not count it against the number of installations allowed by your license key):</p>
 
 <ul>
-	<li><kbd>.test</kbd></li>
-	<li><kbd>.local</kbd></li>
-	<li><kbd>.tribe</kbd></li>
-	<li><kbd>.staging</kbd></li>
+	<li><kbd>127.0.0.1</kbd></li>
+	<li><kbd>localhost</kbd></li>
+	<li><kbd>dev.*</kbd></li>
+	<li><kbd>staging.*</kbd></li>
+	<li><kbd>*.dev.cc</kbd></li>
+	<li><kbd>*.dev.*</kbd></li>
+	<li><kbd>*.dreamhosters.com</kbd></li>
+	<li><kbd>*.dream.press</kbd></li>
+	<li><kbd>*.local</kbd></li>
+	<li><kbd>*.localhost</kbd></li>
+	<li><kbd>*.mybluehost.com</kbd></li>
+	<li><kbd>*.myftpupload.com</kbd></li>
+	<li><kbd>*.staging</kbd></li>
+	<li><kbd>*.staging.wpengine.com</kbd></li>
+	<li><kbd>*.staging.*</kbd></li>
+	<li><kbd>*.test</kbd></li>
+	<li><kbd>*.tribe</kbd></li>
+	<li><kbd>*.lightningbasehosted.com</kbd></li>
 </ul>
 
-<p>Additionally:</p>
+<h3>Give me some examples!</h3>
 
-<ul>
-	<li>Any site that is a <kbd>localhost</kbd> site—i.e., one running locally on your computer and not one on the public internet—can also use a license without it counting toward your license limits.</li>
-</ul>
+<p>If you were to try and use the same personal license key on both <kbd title="Will be seen as a live/production site">example.com</kbd> and <kbd title="Will be seen as a testing/staging site">example.test</kbd>, this would work fine! Both sites would receive updates, and you would not get any "out of installs" notices.</p>
 
-<h3>Examples</h3>
+<p>However, if you tried to use the same personal License key on both <kbd title="Will be seen as a live/production site">example.com</kbd> and <kbd title="Will also be seen as a live/production site">devexample.com</kbd>, this would <strong>not</strong> work—only one site would be able to use the license key.</p>
 
-<p>For example, if you tried to use the same Personal License key on both <kbd>example.com</kbd> and <kbd>example.dev</kbd>, this would work fine! Both sites would receive updates, and you would not get any "out of installs" notices.</p>
-
-<p>However, if you tried to use the same Personal License key on both <kbd>example.com</kbd> and <kbd>devexample.com</kbd>, this would <strong>not</strong> work—only one site would be able to use the license key.</p>
-
-<p>If you tried to use the same Personal License key on <kbd>example.com</kbd>, <kbd>example.dev</kbd>, <kbd>example.staging</kbd>, <kbd>example.local</kbd>, and <kbd>localhost:8888/example</kbd>, this would work fine! All sites would get updates, and you would not get any "out of installs" notices.</p>
+<p>Last but not least, if you tried to use the same Personal License key on <kbd title="Will be seen as a live/production site">example.com</kbd>, <kbd title="Will be seen as a testing/staging site">example.test</kbd>, <kbd title="Will be seen as a testing/staging site">example.staging</kbd>, <kbd title="Will be seen as a testing/staging site">example.local</kbd>, and <kbd title="Will be seen as a testing/staging site">localhost:8888/example</kbd>, this would work fine! All sites would get updates, and you would not get any "out of installs" notices.</p>
 
 <h3>FAQs</h3>
 
-<p><strong style="font-size: 110%;">Q: My dev site doesn't use a <kbd>.local</kbd> or <kbd>.test</kbd> domain name—it's a subdomain like dev.example.com, or something else. Will this work?</strong></p>
+<p><strong style="font-size: 110%;">Q: My dev site's URL is testing.example.com, or something else that doesn't match any of the patterns listed above. Will this work?</strong></p>
 
-<p><strong>A:</strong> Unfortunately, no, at this time we only support the specific TLD configurations listed above, and <kbd>localhost</kbd> sites.</p>
-
-<p><strong style="font-size: 110%;">Q: My license is active on a bunch of local sites. Can I get support for all of them?</strong></p>
-
-<p><strong>A:</strong> No. If you have a Personal License, then you are only entitled to support for one licensed website as per our <a href="772674-What-support-is-provided-for-license-holders" rel="noopener" target="_blank">support policies</a> and <a href="http://theeventscalendar.com/terms" rel="noopener" target="_blank">terms</a>. If you try to get around this and get support for many different domain names, we will be able to spot this easily and will cancel your account. We do not tolerate abuse of our license keys.</p>
+<p><strong>A:</strong> Unfortunately, no, at this time we only support the specific patterns listed above. Everything else is assumed to be a "live" site and will count against your install limit.</p>
 
 <p><strong style="font-size: 110%;">Q: What can I do if I want to use a license on a dev site that doesn't fit the criteria listed above on this article?</strong></p>
 
-<p><strong>A:</strong> You can&nbsp;have your license on your dev site during development and then <a href="735655-Moving-Your-License-Keys">move it</a> when you are ready to go live. If you need updates on the dev site, you can always <a href="735655-Moving-Your-License-Keys">move the license again</a> or do a manual update with the latest version from <a href="https://theeventscalendar.com/my-account/downloads/">your account's downloads page</a>. If you need help, feel free to post to&nbsp;<a href="submit_ticket">our support help desk</a>.</p>
+<p><strong>A:</strong> Contact us! If your dev site's domain fits a pattern likely to be used by other customers, we'll certainly consider adding an exception. (Please note that this can take a couple weeks.) Beyond that, you can clear the license key (via the <b><a href="839749-Finding-and-Inputting-Your-License-Key">Events ‣ Settings ‣ License Keys</a></b> admin screen) and then disconnect the testing domain from via the <b><a href="https://theeventscalendar.com/license-keys/">My Account ‣ License Keys</a></b> page over on <a href="https://theeventscalendar.com">TheEventsCalendar.com</a>. You might also find our article on <a href="735655-Moving-Your-License-Keys">Moving Your License Keys</a> helpful.</p>
 </div>    			
 				<div class="Files">
 					    			
@@ -158,8 +160,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Apr 26, 2019, 07:02 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-26" itemprop="dateModified">Apr 26 (14 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Aug 01, 2019, 06:30 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-01" itemprop="dateModified">Aug 01 (26 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -184,6 +186,24 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="997896-How-to-Put-a-Subscription-on-Hold" class="article-link article-link-913" title="How to Put a Subscription on Hold">
+        <span class="TitleValue">How to Put a Subscription on Hold</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="163659-Shortcodes" class="article-link article-link-911" title="Shortcodes">
+        <span class="TitleValue">Shortcodes</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="922718-Solution-for-Error-Publishing-failed-on-PHP-56" class="article-link article-link-891" title="Solution for Error: Publishing failed on PHP 5.6">
+        <span class="TitleValue">Solution for Error: Publishing failed on PHP 5.6</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="200254-How-to-Test-Block-Editor-with-Events-Calendar" class="article-link article-link-873" title="How to Test Block Editor with Events Calendar">
+        <span class="TitleValue">How to Test Block Editor with Events Calendar</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="601613-Removing-Block-Editor-Detritus-From-Your-Posts-" class="article-link article-link-877" title="Removing Block Editor Detritus From Your Posts ">
+        <span class="TitleValue">Removing Block Editor Detritus From Your Posts </span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="874931-Deprecation-of-the-Block-Editor-Toggle" class="article-link article-link-881" title="Deprecation of the Block Editor Toggle">
+        <span class="TitleValue">Deprecation of the Block Editor Toggle</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="588130-Pre-Sales-Questions" class="article-link article-link-865" title="Pre-Sales Questions">
         <span class="TitleValue">Pre-Sales Questions</span>
       </a></li>
@@ -196,26 +216,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="315237-Creating-Site-Backups" class="article-link article-link-729" title="Creating Site Backups">
         <span class="TitleValue">Creating Site Backups</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="178892-Change-the-wording-of-any-bit-of-text-or-string" class="article-link article-link-333" title="Change the wording of any bit of text or string">
-        <span class="TitleValue">Change the wording of any bit of text or string</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="739977-Best-Practices-for-Implementing-Custom-Code-Snippets" class="article-link article-link-671" title="Best Practices for Implementing Custom Code Snippets">
-        <span class="TitleValue">Best Practices for Implementing Custom Code Snippets</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="713863-PHP-Version-Requirement-Changes" class="article-link article-link-681" title="PHP Version Requirement Changes">
-        <span class="TitleValue">PHP Version Requirement Changes</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="093589-Custom-Development" class="article-link article-link-687" title="Custom Development">
-        <span class="TitleValue">Custom Development</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="192116-Support-Team-Webinars" class="article-link article-link-691" title="Support Team Webinars">
-        <span class="TitleValue">Support Team Webinars</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="481188-Bundle-Discounts" class="article-link article-link-693" title="Bundle Discounts">
-        <span class="TitleValue">Bundle Discounts</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 64 more ...</a></div>
+        <div class="panel-footer"><a href="757786-General" class="MoreLinkTitle">and 70 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -253,10 +255,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="426506-Using-One-License-for-Live-and-Dev-Sites#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

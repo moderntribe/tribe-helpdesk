@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="114365-Messages" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="114365-Messages" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-category">	
+<body class="montana  page-category">
 	
              
 	    <!-- nav -->
@@ -124,8 +124,10 @@ zaius.event('pageview');
  Clicking the button will open the message editor.
  
 
- 	- Select recipients of this message - Choose the attendees who will receive the message. The options will provide the attendee lists for this and other events. All attendee lists contain people who have purchased a ticket for the event.
- 	- Who is sending this email? - Set the name and email address that appears in the To l...</div>
+ 
+	- Select recipients of this message - Choose the attendees who will receive the message. The options will provide the attendee lists for this and other events. All attendee lists contain people who have purchased a ticket for the event.
+  
+	- Who is sending this email? - Set the name and email address that appears in the T...</div>
                   <meta itemprop="position" content="1" />
                 </a>
             </div>
@@ -134,14 +136,16 @@ zaius.event('pageview');
                 <a href="143086-Merge-Tags" itemprop="item" class="list-group-item item-A" title="Merge Tags">                  
                   <h3 class="list-group-item-heading" itemprop="name">Merge Tags</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/143086-Merge-Tags" />
-                                    <div itemprop="description" class="article-preview">Merge tags are a feature that allow you to customize a message with details about the event or personalize the message to the person receiving it.
- For example, let’s say that you want to include the name of the attendee in the greeting of the message and the start date of the event in the body. Adding those merge tags to the content will be replaced with the actual information of those tags when the message is sent out.
+                                    <div itemprop="description" class="article-preview">Merge tags are dynamic fields that allow you to customize the content of a message.
+ For example, let’s say that you want to include the first name of the attendee, the title of the event and the number of days left until the the event begins in your message.
+ You can simply use the "Attendee First Name", "Event Title" and "Days Until Event" merge tags to do so.
+ As the message is sent out, each merge tag will be dynamically replaced with the desired information.
  
  
 
 Types of Merge Tags
 
- There are merge tags for several types of inform...</div>
+ Merge...</div>
                   <meta itemprop="position" content="2" />
                 </a>
             </div>
@@ -150,17 +154,16 @@ Types of Merge Tags
                 <a href="594322-Send-and-Schedule-Messages" itemprop="item" class="list-group-item item-A" title="Send and Schedule Messages">                  
                   <h3 class="list-group-item-heading" itemprop="name">Send and Schedule Messages</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/594322-Send-and-Schedule-Messages" />
-                                    <div itemprop="description" class="article-preview">Once you’ve created a message, previewed it and are ready to send it out to your attendee list, it’s time to schedule the message. There are two options for sending messages.
+                                    <div itemprop="description" class="article-preview">Once you’ve created a message, previewed it and are ready to send it out to your attendee list, it’s time to schedule your message. There are two options for sending messages.
  
 
 Send Immediately
 
- If you’re ready to send a message right away, then Promoter has an option to skip the scheduling and send immediately.
+ If you’re ready to send a message right away, just click on the "Send Now" button.
  
+ After clicking on "Send Now", you still need to confirm that you want to send the message before it actually goes out. This helps prevent sending a message by accident.
  
- Choosing this option will give you a chance to confirm that you are ready to send the message before it actually goes out. This helps prevent sending a message by accident.
- 
- Sel...</div>
+ Select “Yes” from the “Send This Message” dr...</div>
                   <meta itemprop="position" content="3" />
                 </a>
             </div>
@@ -169,8 +172,15 @@ Send Immediately
                 <a href="239272-Cancel-a-Message" itemprop="item" class="list-group-item item-A" title="Cancel a Message">                  
                   <h3 class="list-group-item-heading" itemprop="name">Cancel a Message</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/239272-Cancel-a-Message" />
-                                    <div itemprop="description" class="article-preview">Scheduled messages can be canceled any time before they send.
- From the dashboard, click on the event then on the message to get to the message editor. There is a “Cancel Scheduling” link in the scheduling options that will immediately remove scheduling from the message, return the message to a draft, and take you back to the list of messages for that event.</div>
+                                    <div itemprop="description" class="article-preview">Scheduled messages can be canceled any time before they are sent.
+ 
+
+ 
+	- From the Events dashboard, click on the event of your choice
+  
+	- From the single event dashboard, click on the Message title of the scheduled message you wish to cancel
+  
+	- Scroll all the way down to the bottom of the message detail. Click on the “Cancel Scheduling” link. This will immediately remove scheduling from the message and return it to draft status.</div>
                   <meta itemprop="position" content="4" />
                 </a>
             </div>
@@ -179,10 +189,15 @@ Send Immediately
                 <a href="900269-Deleting-Messages" itemprop="item" class="list-group-item item-A" title="Deleting Messages">                  
                   <h3 class="list-group-item-heading" itemprop="name">Deleting Messages</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/900269-Deleting-Messages" />
-                                    <div itemprop="description" class="article-preview">To delete a message that has been created for an event, click the “Delete” link at the top of the message editor:
+                                    <div itemprop="description" class="article-preview">To delete a message that has been created for an event:
  
- Promoter will confirm the delete before it actually happens:
+
  
+	- Click the “Delete” link at the top of the message editor:
+  
+	- You will be prompted to confirm intended deletion before the message is actually deleted
+  
+
  Please note: Confirming the deleted message will permanently remove it. Deleting a message cannot be undone.</div>
                   <meta itemprop="position" content="5" />
                 </a>
@@ -192,16 +207,19 @@ Send Immediately
                 <a href="424473-Message-Template-Settings" itemprop="item" class="list-group-item item-A" title="Message Template Settings">                  
                   <h3 class="list-group-item-heading" itemprop="name">Message Template Settings</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/424473-Message-Template-Settings" />
-                                    <div itemprop="description" class="article-preview">Customize the appearance and settings of the email that is sent to attendees on the Template screen.
- The settings are organized in three sections: header, content and footer.
+                                    <div itemprop="description" class="article-preview">You can customize the look and feel of the email that is sent to attendees on the Template screen.
+ 
  
 
 Header
 
- The header is the area above the content in the email.
- Use a text based logo. Enabling this will allow you to type into the email header instead of uploading an image. By default, this option is disabled which allows you to upload an image to the header. 
+ The header is the area located above the content in the email.
+ Using a text based logo
+ Enabling this will allow you to type into the email header instead of uploading an image. Choosing this option lets you select a font, font size and font color.
  
- We recommend using an image with a transparent backg...</div>
+ Using an image for your logo
+ 
+ We recommend using an image with a transparent background (e.g. PNG, GIF). This will ensure that the i...</div>
                   <meta itemprop="position" content="6" />
                 </a>
             </div>
@@ -210,9 +228,9 @@ Header
                 <a href="895992-Message-Reports" itemprop="item" class="list-group-item item-A" title="Message Reports">                  
                   <h3 class="list-group-item-heading" itemprop="name">Message Reports</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/895992-Message-Reports" />
-                                    <div itemprop="description" class="article-preview">Promoter provides the number of times all emails for an event have been opened and the number of times links those emails have been clicked. They are accessible on the dashboard when first logging in.
+                                    <div itemprop="description" class="article-preview">Promoter provides the number of times all emails for an event have been opened and the number of times links those emails have been clicked.
  
- Click into the event to get reports for each individual message that has been sent for that event.</div>
+ Click into the event title to get reports for each individual message that has been sent for that event.</div>
                   <meta itemprop="position" content="7" />
                 </a>
             </div>
@@ -252,10 +270,10 @@ Header
 		</footer>
 	<a href="114365-Messages#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

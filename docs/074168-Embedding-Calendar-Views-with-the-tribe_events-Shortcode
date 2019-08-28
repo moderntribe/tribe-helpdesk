@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -112,7 +112,7 @@ zaius.event('pageview');
 
 <p>The shortcode that powers this functionality is <kbd>[tribe_events]</kbd>. In this article, we will cover the usage of this simple but powerful shortcode.</p>
 
-<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔 Note:</strong> The <kbd>[tribe_events]</kbd> shortcode is <em>only</em> available within Events Calendar PRO. Even for core plugin views that exist in The Events Calendar, you must have Events Calendar PRO activated on your site for the <kbd>[tribe_events]</kbd> shortcode to work.</div>
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;"><strong>🔔 Note:</strong> The <kbd>[tribe_events]</kbd> shortcode is <em>only</em> available within Events Calendar PRO. Even for core plugin views that exist in The Events Calendar, you must have Events Calendar PRO activated on your site for the <kbd>[tribe_events]</kbd> shortcode to work. See all shortcode options from our family of plugins in our article: <a href="163659-Shortcodes">Shortcodes</a>.</div>
 
 <h3 id="default">The Default Shortcode</h3>
 
@@ -145,7 +145,7 @@ zaius.event('pageview');
 
 <ul>
 	<li>This attribute filters the shortcode view to only show events that are in the specified event category.</li>
-	<li>Only accepts a single category slug. You can find category slugs by heading to Events → Event Categories in your wp-admin, <a href="https://theeventscalendar.com/content/uploads/2016/09/Screen-Shot-2016-09-09-at-2.46.09-PM.png" rel="noopener" target="_blank">as shown in this screenshot</a>.</li>
+	<li>Only accepts a single category slug. You can find category slugs by heading to Events → Event Categories in your wp-admin, <a href="https://s3.theeventscalendar.com/uploads/2016/09/Screen-Shot-2016-09-09-at-2.46.09-PM.png" rel="noopener" target="_blank">as shown in this screenshot</a>.</li>
 	<li>Example: <kbd>[tribe_events view="list" category="barbecue"]</kbd></li>
 </ul>
 
@@ -197,7 +197,7 @@ zaius.event('pageview');
 <p><strong><kbd>tribe-bar</kbd></strong></p>
 
 <ul>
-	<li>This attribute turns the "Tribe Bar" on or off for the generated view. The Tribe Bar contains the basic search functionality of The Events Calendar views, and the view switcher. <a href="https://theeventscalendar.com/content/uploads/2016/09/Screen-Shot-2016-09-14-at-10.34.04-PM.png" rel="noopener" target="_blank">Here's a screenshot for reference</a>.</li>
+	<li>This attribute turns the "Tribe Bar" on or off for the generated view. The Tribe Bar contains the basic search functionality of The Events Calendar views, and the view switcher. <a href="https://s3.theeventscalendar.com/uploads/2016/09/Screen-Shot-2016-09-14-at-10.34.04-PM.png" rel="noopener" target="_blank">Here's a screenshot for reference</a>.</li>
 	<li>Only accepts "true" or "false". Defaults to "true", which adds the Tribe Bar. "False" hides the bar.</li>
 	<li>Example: <kbd>[tribe_events view="list" tribe-bar="false"]</kbd></li>
 </ul>
@@ -212,7 +212,7 @@ zaius.event('pageview');
 
 <p>Lastly, make sure that if you use quotation marks in your shortcodes, they are only "straight quotes" and are not "curly quotes." If you're not sure what this means, then the simplest way to see the difference between the quotes is to look at a screenshot like this one:</p>
 
-<p><img alt="tribe_events_shortcode_error" src="https://theeventscalendar.com/content/uploads/2016/09/tribe_events_shortcode_error.png" /></p>
+<p><img alt="tribe_events_shortcode_error" src="https://s3.theeventscalendar.com/uploads/2016/09/tribe_events_shortcode_error.png" /></p>
 
 <p>☝ In this screenshot, the top shortcode has a curly quote for its <kbd>view</kbd> attribute. This can cause numerous issues, so make sure that your shortcodes look like the bottom shortcode in the screenshot.</p>
 
@@ -228,8 +228,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Mar 25, 2019, 12:22 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-25" itemprop="dateModified">Mar 25 (46 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 30, 2019, 12:40 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -323,10 +323,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

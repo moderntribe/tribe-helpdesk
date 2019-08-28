@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="239272-Cancel-a-Message" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="239272-Cancel-a-Message" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Cancel a Message</title>            <meta property="og:url" content="//support.theeventscalendar.com/239272-Cancel-a-Message" />    <meta property="og:title" content="Cancel a Message" />    <meta property="og:description" content="Scheduled messages can be canceled any time before they send.  From the dashboard, click on the event then on the message to get to the message editor. There is a “Cancel Scheduling” link in the s" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Cancel a Message</title>            <meta property="og:url" content="//support.theeventscalendar.com/239272-Cancel-a-Message" />    <meta property="og:title" content="Cancel a Message" />    <meta property="og:description" content="Scheduled messages can be canceled any time before they are sent.      	- From the Events dashboard, click on the event of your choice    	- From the single event dashboard, click on the Message title" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,11 +116,16 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Scheduled messages can be canceled any time before they send.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Scheduled messages can be canceled any time before they are sent.</p>
 
-<p>From the dashboard, click on the event then on the message to get to the message editor. There is a “Cancel Scheduling” link in the scheduling options that will immediately remove scheduling from the message, return the message to a draft, and take you back to the list of messages for that event.</p>
-
-<p><b id="docs-internal-guid-aed5121a-7fff-12bc-f5ca-24e0b7a5d51b"><img height="116" src="https://lh5.googleusercontent.com/KozwraO-92E34jBZCzyAAUDXeeOiwo7cyBb0QOGGFD_Gv5QQTk0cxBCkYjb9MiyBHpQYaeAm6eQtezljhYbEyEAqXZwc9DAiVfMphRf0alBJbyaZEXaK2M35CdxsWFewKBHvEBI" width="624" /></b></p>
+<ol>
+	<li>From the Events dashboard, click on the event of your choice<br />
+	<img height="auto" src="scripts/file.php%3Fview=Y&amp;file=5ijeqr3a5qdqhjxh52rh3kjx0ji9tpy1" width="506" /></li>
+	<li>From the single event dashboard, click on the Message title of the scheduled message you wish to cancel<br />
+	<img height="auto" src="scripts/file.php%3Fview=Y&amp;file=zpt3v91877n4x12mgd1y8lc8vzq143op" width="618" /></li>
+	<li>Scroll all the way down to the bottom of the message detail. Click on the “Cancel Scheduling” link. This will immediately remove scheduling from the message and return it to draft status.<br />
+	<img height="auto" src="scripts/file.php%3Fview=Y&amp;file=9wrvdqz9yt91v9tk0ea3e8tbaa58q7oh" width="634" /></li>
+</ol>
 </div>    			
 				<div class="Files">
 					    			
@@ -131,8 +136,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 25, 2019, 08:58 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-25" itemprop="dateModified">Jan 25 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 14, 2019, 09:23 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-14" itemprop="dateModified">Jul 14 (44 days ago)</time></span>
               </div>
                         <time datetime="2018-12-19" itemprop="datePublished"></time>
           </div>
@@ -213,10 +218,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="239272-Cancel-a-Message#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

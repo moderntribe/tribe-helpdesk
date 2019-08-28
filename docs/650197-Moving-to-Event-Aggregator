@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="650197-Moving-to-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="650197-Moving-to-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -129,12 +129,12 @@ zaius.event('pageview');
 <p><strong>2.</strong> Go to <em>Events --&gt; Settings --&gt; License Keys</em>. Enter the Event&nbsp;Aggregator&nbsp;license key from <a href="https://theeventscalendar.com/license-keys/">your license keys page</a> in the new empty field. Click the button to save your changes.</p>
 
 <p><strong>3.</strong> Once you've entered your license key, you'll see a notification like this appear:<br />
-<img alt="kb-ea-deactivate" src="https://theeventscalendar.com/content/uploads/2016/10/KB-EA-deactivate.png" /><strong>4.</strong> Click the link to go to your Plugins page. From there, deactivate iCal Importer and/or Facebook Events.</p>
+<img alt="kb-ea-deactivate" src="https://s3.theeventscalendar.com/uploads/2016/10/KB-EA-deactivate.png" /><strong>4.</strong> Click the link to go to your Plugins page. From there, deactivate iCal Importer and/or Facebook Events.</p>
 
 <p><strong>5.&nbsp;</strong>Go to&nbsp;<em>Events &gt; Settings &gt; Imports&nbsp;</em>and <a href="348394-Event-Aggregator-Import-Settings">configure your Event Aggregator settings</a>. In particular, be sure to check your Event Update Authority setting. If you have made local changes to your existing imported events, you may want to switch from the default option.</p>
 
 <p><strong>6.</strong> Go to <em>Events &gt; Imports</em>. You'll see a notification like this at the top of your screen:<br />
-<img alt="kb-migration_note" src="https://theeventscalendar.com/content/uploads/2016/10/KB-migration_note.png" /></p>
+<img alt="kb-migration_note" src="https://s3.theeventscalendar.com/uploads/2016/10/KB-migration_note.png" /></p>
 
 <p><strong>7.</strong> Click the&nbsp;<em>Migrate&nbsp;</em>button(s) to move your settings from the legacy importer(s) to Event Aggregator.</p>
 
@@ -151,8 +151,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 07:24 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -246,10 +246,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="650197-Moving-to-Event-Aggregator#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

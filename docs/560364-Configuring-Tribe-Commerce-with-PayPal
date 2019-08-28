@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="560364-Configuring-Tribe-Commerce-with-PayPal" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="560364-Configuring-Tribe-Commerce-with-PayPal" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -110,49 +110,47 @@ zaius.event('pageview');
   	<div class="col-md-9">	
    			<div class="article-content ArticleContent" itemprop="articleBody"><p>To start receiving payments for your tickets using Tribe Commerce, you need to enable Instant Payment Notification (IPN) on your PayPal account and connect the account to your WordPress site.</p>
 
-<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;">Please note you will need a <a href="https://www.paypal.com/us/webapps/mpp/referral/paypal-business-account2" rel="noopener" target="_blank">PayPal Business account</a> to be able to configure <strong>Instant Payment Notification</strong></div>
-
-<p>&nbsp;</p>
+<div style="background: #f3f3f3; border: 1px solid #aaa; padding: 0.6rem 1rem;">Please note you will need a <a href="https://www.paypal.com/us/webapps/mpp/referral/paypal-business-account2" rel="noopener" target="_blank">PayPal Business account</a> to be able to configure <strong>Instant Payment Notification.&nbsp;</strong> You may also want a sandbox <a href="https://developer.paypal.com/developer/ipnSimulator/" target="_blank">IPN Simulator</a> to test your site settings and transactions.</div>
 
 <h3>Steps to configure PayPal IPN</h3>
 
 <p>1. Log in to your PayPal business account and navigate to <em>Profile &gt; Profile and settings</em>.</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/02/PayPal-IPN-Step-1-Dashboard-Profile-and-Settings.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/02/PayPal-IPN-Step-1-Dashboard-Profile-and-Settings.png" /></p>
 
 <p><strong>2. </strong>Once in your profile, go to <em>My selling tools</em><em>.</em> Under the heading&nbsp;<strong>Getting paid and managing my risk</strong>, look for <em>Instant payment notifications</em> and click <em>Update.</em></p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/02/PayPal-IPN-Step-2-Profile-and-Settings-IPN.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/02/PayPal-IPN-Step-2-Profile-and-Settings-IPN.png" /></p>
 
 <p>3. On the&nbsp;<strong>Instant Payment Notification (IPN) </strong>settings page, click <em>Choose IPN Settings.</em></p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/02/PayPal-IPN-Step-3-IPN-IPN-Settings.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/02/PayPal-IPN-Step-3-IPN-IPN-Settings.png" /></p>
 
 <p>4. Enter your site's address in the the&nbsp;<em>Notification URL </em>field and choose&nbsp;<strong>Receive IPN messages (Enabled)&nbsp;</strong>and&nbsp;save your settings.</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/02/PayPal-IPN-Step-4-IPN-Settings-Edit-IPN-Settings.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/02/PayPal-IPN-Step-4-IPN-Settings-Edit-IPN-Settings.png" /></p>
 
 <p>You current IPN settings should look like the following:</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/02/PayPal-IPN-Step-5-Current-IPN-Settings.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/02/PayPal-IPN-Step-5-Current-IPN-Settings.png" /></p>
 
 <h3>Setting up a Success Page</h3>
 
 <p>After a successful PayPal order, users will be redirected to the page you designate as the <strong>Success Page</strong> in your Tribe Commerce settings (<em>wp-admin --&gt; Events --&gt; Settings &gt; Tickets tab</em>). You can designate any page in your site by selecting one from the dropdown menu.</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/02/Tribe-Commerce-Settings-Success-Page.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/02/Tribe-Commerce-Settings-Success-Page.png" /></p>
 
 <h4>Auto Return and&nbsp;Payment Data Transfer</h4>
 
-<p>In order for your users to receive their order information on the success page, you will need to copy and paste the [tribe-tpp-success] shortcode into the content of your s<em>uccess page</em> and configure&nbsp;<strong>Auto Return </strong>and&nbsp;<strong>Payment Data Transfer&nbsp;</strong>on your PayPal account.</p>
+<p>In order for your users to receive their order information on the success page, you will need to copy and paste the <kbd>[tribe-tpp-success]</kbd> shortcode into the content of your s<em>uccess page</em> and configure&nbsp;<strong>Auto Return </strong>and&nbsp;<strong>Payment Data Transfer&nbsp;</strong>on your PayPal account.</p>
 
 <p>In your PayPal account profile, go to <em>My selling tools </em>and&nbsp;Under the <strong>Selling online </strong>section, look for <em>Website preferences</em>&nbsp;and click <em>Update.</em></p>
 
 <p>Turn ON <strong>Auto Return</strong> and enter your Success Page URL in the <em>Return URL</em> field. After that, turn ON <strong>Payment Data Transfer</strong><em>&nbsp;</em>and save the settings.</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2018/02/PayPal-Settings-Auto-Return-and-PDT.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/02/PayPal-Settings-Auto-Return-and-PDT.png" /></p>
 
-<p>Congratulations! You are now ready to receive payments for your tickets in your PayPal account and your clients will be automatically redirected to your Success Page after their payments.</p>
+<p>Congratulations! You are now ready to receive payments for your tickets in your PayPal account and your clients will be automatically redirected to your Success Page after their payments.&nbsp; Head to our&nbsp;<a data-ytta-id="-" href="submit_ticket" target="_blank">support page</a>&nbsp;if you still have a question and we'd be happy to help!</p>
 </div>    			
 				<div class="Files">
 					    			
@@ -163,8 +161,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Nov 15, 2018, 07:50 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-11-15" itemprop="dateModified">Nov 15 (5 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 12, 2019, 02:27 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-12" itemprop="dateModified">Jul 12 (46 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -189,6 +187,9 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="189617-How-Event-Tickets-Calculates-Availability" class="article-link article-link-879" title="How Event Tickets Calculates Availability">
+        <span class="TitleValue">How Event Tickets Calculates Availability</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="550976-Attendee-Registration-Page-Template" class="article-link article-link-805" title="Attendee Registration Page Template">
         <span class="TitleValue">Attendee Registration Page Template</span>
       </a></li>
@@ -216,11 +217,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="article-link article-link-537" title="Settings overview: Event Tickets and Event Tickets Plus">
         <span class="TitleValue">Settings overview: Event Tickets and Event Tickets Plus</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" class="article-link article-link-535" title="New User Primer: Event Tickets &amp; Event Tickets Plus">
-        <span class="TitleValue">New User Primer: Event Tickets &amp; Event Tickets Plus</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 12 more ...</a></div>
+        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 13 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -258,10 +256,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="560364-Configuring-Tribe-Commerce-with-PayPal#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

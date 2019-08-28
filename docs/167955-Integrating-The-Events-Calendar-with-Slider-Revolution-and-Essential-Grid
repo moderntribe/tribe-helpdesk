@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -123,7 +123,7 @@ zaius.event('pageview');
 
 <p>Whether you call it Slider Revolution, Revolution Slider, or RevSlider, it's all the same thing. Here's where we'll walk you through a simple example to display some events in a slider.</p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2017/03/The-Events-Calendar-and-Slider-Revolution.png"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/03/The-Events-Calendar-and-Slider-Revolution-665x468.png" /></a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2017/03/The-Events-Calendar-and-Slider-Revolution.png"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/03/The-Events-Calendar-and-Slider-Revolution-665x468.png" /></a></p>
 
 <p>You'll need Slider Revolution version 5.3.0 or later (released October 21, 2016) because that is the version that added Post ID <em><strong>{{id}}</strong></em> into the Meta List.</p>
 
@@ -158,7 +158,7 @@ zaius.event('pageview');
 
 <p>Essential Grid is a completely separate plugin from Slider Revolution so the steps to integrate the <strong>Formatted Event Date Shortcode</strong>, linked&nbsp;at the beginning of this article, are different.</p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2017/03/The-Events-Calendar-and-Essential-Grid.png"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/03/The-Events-Calendar-and-Essential-Grid-665x520.png" /></a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2017/03/The-Events-Calendar-and-Essential-Grid.png"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/03/The-Events-Calendar-and-Essential-Grid-665x520.png" /></a></p>
 
 <p>After having <a href="https://www.themepunch.com/essgrid-doc/welcome-essential-grid/" target="_blank">basic familiarity with Essential Grid</a>, follow these steps:</p>
 
@@ -226,8 +226,8 @@ Time: {start_date} @ {start_time} – {end_date} @ {end_time}
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Mar 25, 2019, 02:08 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-25" itemprop="dateModified">Mar 25 (45 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -252,8 +252,11 @@ Time: {start_date} @ {start_time} – {end_date} @ {end_time}
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
-        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+        <li class="list-group-item item-A"><a href="417063-Blocks-Colors-and-the-Default-Events-Template" class="article-link article-link-907" title="Blocks, Colors, and the Default Events Template">
+        <span class="TitleValue">Blocks, Colors, and the Default Events Template</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="807454-Change-the-Default-Event-Template-in-Block-Editor" class="article-link article-link-843" title="Change the Default Event Template in Block Editor">
+        <span class="TitleValue">Change the Default Event Template in Block Editor</span>
       </a></li>
         <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
         <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
@@ -279,11 +282,8 @@ Time: {start_date} @ {start_time} – {end_date} @ {end_time}
         <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
         <span class="TitleValue">Changing the browser title for calendar views</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
-        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 73 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -321,10 +321,10 @@ Time: {start_date} @ {start_time} – {end_date} @ {end_time}
 		</footer>
 	<a href="167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

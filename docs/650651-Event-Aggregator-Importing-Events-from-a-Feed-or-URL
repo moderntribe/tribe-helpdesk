@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -144,7 +144,7 @@ zaius.event('pageview');
 
 <h3 id="select-type">Select the import&nbsp;type</h3>
 
-<p style="text-align: center;"><img alt="kb-ea-import-step3" src="https://theeventscalendar.com/content/uploads/2016/09/kb-ea-import-step3.png" /></p>
+<p style="text-align: center;"><img alt="kb-ea-import-step3" src="https://s3.theeventscalendar.com/uploads/2016/09/kb-ea-import-step3.png" /></p>
 
 <p>Will this be a one-time, manual import of events or a repeating&nbsp;import that runs on a schedule? This step allows you to choose the type of import you need.</p>
 
@@ -152,21 +152,21 @@ zaius.event('pageview');
 
 <h3 id="provide-url">Provide the import URL</h3>
 
-<p style="text-align: center;"><img alt="KB- new import" src="https://theeventscalendar.com/content/uploads/2016/09/Screen-Shot-2016-09-19-at-3.21.03-PM.png" /></p>
+<p style="text-align: center;"><img alt="KB- new import" src="https://s3.theeventscalendar.com/uploads/2016/09/Screen-Shot-2016-09-19-at-3.21.03-PM.png" /></p>
 
-<p>Provide the URL of the source that your events are being imported from. For example, if you have selected Meetup as the import source, then you will provide the URL of the Meetup group where the events being imported are located&nbsp;<em>or&nbsp;</em>the url of a specific event. If you are not sure what url to use, click the&nbsp;<img alt="bumpdown icon" src="https://theeventscalendar.com/content/uploads/2016/09/bumpdown-icon.png" />&nbsp;icon to read&nbsp;detailed instructions for the source you're using.</p>
+<p>Provide the URL of the source that your events are being imported from. For example, if you have selected Meetup as the import source, then you will provide the URL of the Meetup group where the events being imported are located&nbsp;<em>or&nbsp;</em>the url of a specific event. If you are not sure what url to use, click the&nbsp;<img alt="bumpdown icon" src="https://s3.theeventscalendar.com/uploads/2016/09/bumpdown-icon.png" />&nbsp;icon to read&nbsp;detailed instructions for the source you're using.</p>
 
 <h4 id="filters">Filters</h4>
 
 <p>If you are importing from iCalendar or Google Calendar, you have the option of filtering the events feed. This is particularly useful for feeds with a very large number of events, especially if you are only interested in certain types of events.</p>
 
-<p style="text-align: center;"><img alt="filters" src="https://theeventscalendar.com/content/uploads/2016/09/filters.png" /></p>
+<p style="text-align: center;"><img alt="filters" src="https://s3.theeventscalendar.com/uploads/2016/09/filters.png" /></p>
 
 <h3 id="preview">Preview the import</h3>
 
 <p>Click the "Preview" button and Event Aggregator will produce a list of events that are available to import from the source your provided.</p>
 
-<p style="text-align: center;"><img alt="kb-ea-import-step5" src="https://theeventscalendar.com/content/uploads/2016/09/kb-ea-import-step5.png" /></p>
+<p style="text-align: center;"><img alt="kb-ea-import-step5" src="https://s3.theeventscalendar.com/uploads/2016/09/kb-ea-import-step5.png" /></p>
 
 <p>This preview shows you all the events available to you in the feed. It provides you with a chance to search for specific events, select only the events you want to import, or simply check the content before everything is imported.</p>
 
@@ -185,7 +185,7 @@ zaius.event('pageview');
 
 <h3 id="run-import">Run the import</h3>
 
-<p><img alt="kb-ea-import-step6" src="https://theeventscalendar.com/content/uploads/2016/09/kb-ea-import-step6.png" /></p>
+<p><img alt="kb-ea-import-step6" src="https://s3.theeventscalendar.com/uploads/2016/09/kb-ea-import-step6.png" /></p>
 
 <p>Once you've had a chance to preview your content and select what you would like to import, go ahead and click the Import All/Save Scheduled Import button below the preview panel (the text of the button is different for&nbsp;one-time imports and&nbsp;scheduled import). Click the button to start your import, and then sit back and watch Event Aggregator do the work!</p>
 
@@ -204,8 +204,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Apr 16, 2019, 05:39 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-16" itemprop="dateModified">Apr 16 (23 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -299,10 +299,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

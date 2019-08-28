@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Important Settings for The Events Calendar / Events Calendar PRO</title>        <meta name="keywords" content="Events Calendar PRO,The Events Calendar,Beginner,Using Product Features,The Events Calendar,Events Calendar PRO,New User Primers,Getting Started,Tutorial,events,events calendar,event,events calendar pro,events &amp;gt; settings &amp;gt;,&amp;gt; settings &amp;gt;,events &amp;gt; settings,events &amp;gt; settings &amp;gt; display,&amp;gt; settings &amp;gt; display,customized formats see the wordpress,calendar colors fonts and styles,modify the events calendar colors,formats see the wordpress guide,modify the events calendar,additional customized formats see,appearance &amp;gt; customize &amp;gt;,events calendar colors fonts,settings &amp;gt; display,template a layout set,colors fonts and styles, uiwp, uiback, uifront, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" />    <meta property="og:title" content="Important Settings for The Events Calendar / Events Calendar PRO" />    <meta property="og:description" content="You can access the settings for The Events Calendar and Events Calendar PRO from the WordPress Admin by following Events &gt; Settings from your WordPress admin bar or sidebar. The settings offer a lot o" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Important Settings for The Events Calendar / Events Calendar PRO</title>        <meta name="keywords" content="Events Calendar PRO,The Events Calendar,Beginner,Using Product Features,The Events Calendar,Events Calendar PRO,New User Primers,Getting Started,Tutorial,events,events calendar,event,events calendar pro,events &amp;gt; settings &amp;gt;,&amp;gt; settings &amp;gt;,events &amp;gt; settings,events &amp;gt; settings &amp;gt; display,&amp;gt; settings &amp;gt; display,customized formats see the wordpress,calendar colors fonts and styles,modify the events calendar colors,formats see the wordpress guide,modify the events calendar,additional customized formats see,appearance &amp;gt; customize &amp;gt;,events calendar colors fonts,settings &amp;gt; display,template a layout set,colors fonts and styles, uiwp, uiback, uifront, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO" />    <meta property="og:title" content="Important Settings for The Events Calendar / Events Calendar PRO" />    <meta property="og:description" content="You can access the settings for The Events Calendar and Events Calendar PRO from the WordPress Admin by following Events &gt; Settings from your WordPress admin bar or sidebar. The settings offer a lot o" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=u94q96h23cvkkq1dxkxfnjmwkvt9x9lc" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -127,15 +127,15 @@ zaius.event('pageview');
 
 <p>This is actually really easy. Let's start in the WordPress dashboard - you should be able to find a menu entry called <em>Events</em> and, if you click on it, you should see the <em>Add New</em> link.</p>
 
-<p style="text-align: center;"><img alt="Showing the Add New item within the Events menu" src="https://theeventscalendar.com/content/uploads/2014/12/add-event-665x574.png" /></p>
+<p style="text-align: center;"><img alt="Showing the Add New item within the Events menu" src="https://s3.theeventscalendar.com/uploads/2014/12/add-event-665x574.png" /></p>
 
 <p>Once you've found it, go ahead and click on it! This should bring you to the event editor.</p>
 
 <p>The event editor hopefully won't contain too many surprises: it is intentionally almost identical - at least on first glance - to the regular page and post editor used by WordPress itself.</p>
 
-<p>So, if you're familiar with WordPress, you should feel right at home.</p>
+<p>So, if you're familiar with WordPress, you should feel right at home. Here is how to create an event in Classic Mode:</p>
 
-<p style="text-align: center;"><img alt="how to create new events" src="https://theeventscalendar.com/content/uploads/2017/09/how-to-create-new-events-665x935.png" /></p>
+<p style="text-align: center;"><img alt="how to create new events" src="https://s3.theeventscalendar.com/uploads/2017/09/how-to-create-new-events-665x935.png" /></p>
 
 <ol>
 	<li>Add a title to your event</li>
@@ -148,6 +148,27 @@ zaius.event('pageview');
 	<li>Upload a featured image to display in event listings (optional)</li>
 </ol>
 
+<p>If you are using Block Editor, the default layout will look slightly different:</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=u94q96h23cvkkq1dxkxfnjmwkvt9x9lc" /></p>
+
+<ol>
+	<li>Add a title to your event</li>
+	<li>Select the date and time for your initial event (required), as well as any desired recurrences (optional)</li>
+	<li>Describe your event</li>
+	<li>Add a price for your event (optional)</li>
+	<li>Specify the event organizer (optional)</li>
+	<li>Select an existing venue or create your own (optional)</li>
+	<li>Link to an external website about the event (optional)</li>
+	<li>Provide&nbsp;visitors with a way to add this event to their own calendar software&nbsp;(optional)</li>
+	<li>Show related events&nbsp;(optional)</li>
+	<li>Display tickets/RSVPs if using <a href="https://theeventscalendar.com/product/wordpress-event-tickets/">Event Tickets</a> and <a href="https://theeventscalendar.com/product/wordpress-event-tickets-plus/">Event Tickets Plus</a> (optional)</li>
+	<li>Show who is attending the event if using <a href="https://theeventscalendar.com/product/wordpress-event-tickets-plus/">Event Tickets Plus</a> (optional)</li>
+	<li>Select an Event Category (optional)</li>
+	<li>Upload a featured image to display in event listings (optional)</li>
+	<li>Determine if the event should be <a href="https://theeventscalendar.com/knowledgebase/featured-events/">featured</a> (optional)</li>
+</ol>
+
 <p>For more help creating events, please see <a href="https://theeventscalendar.com/knowledgebase/creating-an-event/">Creating an Event</a>.</p>
 
 <h3 id="recurring">How to Create a Recurring Event</h3>
@@ -158,19 +179,25 @@ zaius.event('pageview');
 
 <p>In the <strong>Time &amp; Date</strong> settings of your event, you will find the Event Series settings, which are used to turn one event into a whole series of events.&nbsp; This is known as a <a href="443518-Recurring-EventsEvent-Series-in-Events-Calendar-PRO">recurring event.</a></p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro"><img alt="how to create a recurring event" src="https://theeventscalendar.com/content/uploads/2017/09/create-recurring-event-665x661.png" /></a></p>
+<p style="text-align: center;"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro"><img alt="how to create a recurring event" src="https://s3.theeventscalendar.com/uploads/2017/09/create-recurring-event-665x661.png" /></a></p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro">When you view your live event, you will notice that under the title and date, "<strong>Recurring Event</strong>" is displayed.&nbsp;&nbsp;<img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/recurring-event-front-end-665x470.png" /></a></p>
+<p style="text-align: center;">Create a recurring event in Classic Mode</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=vja6xbqa3ic7uskks3tqnbf036tdih6u" /></p>
+
+<p style="text-align: center;">Create a recurring event in Block Editor</p>
+
+<p style="text-align: center;"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro">When you view your live event, you will notice that under the title and date, "<strong>Recurring Event</strong>" is displayed.&nbsp;&nbsp;<img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/recurring-event-front-end-665x470.png" /></a></p>
 
 <p><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro">When you click on the "<strong>See All</strong>" recurring event link, you will see a list of all events within the series.</a></p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/recurring-event-see-all-665x590.png" /></a></p>
+<p style="text-align: center;"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/recurring-event-see-all-665x590.png" /></a></p>
 
 <h3 id="datetime"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro">How to Set Dates and Times in WordPress</a></h3>
 
 <p>The Events Calendar uses your WordPress settings to determine on what day the week begins along with other time-related settings. Go to <strong>Settings&nbsp;&gt; General</strong> to modify these settings.</p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/05/time-settings-665x500.png" /></a></p>
+<p style="text-align: center;"><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/05/time-settings-665x500.png" /></a></p>
 
 <ol>
 	<li><a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro" title="Events Calendar Pro">Select your timezone (See "</a><a href="https://theeventscalendar.com/knowledgebase/working-with-timezones/">Working with Timezones</a>" for more help on this)</li>
@@ -180,13 +207,13 @@ zaius.event('pageview');
 </ol>
 
 <p style="text-align: center;">You can also modify the wording and order that the day of the week, date, and year are displayed by modifying settings in <strong>Events &gt; Display</strong>.<br />
-<img alt="date format settings" src="http://theeventscalendar.com/content/uploads/2017/12/date-format-settings-665x538.png" /></p>
+<img alt="date format settings" src="https://s3.theeventscalendar.com/uploads/2017/12/date-format-settings-665x538.png" /></p>
 
 <h3 id="address">How to Change Your Calendar Address</h3>
 
 <p>By default, your calendar will be accessible at yoursite.com/events, where yoursite.com is the address for your site's home page. If you want your calendar to appear on a page titled something other than <strong>/EVENTS</strong>, you can easily modify the link. Go to <strong>Events&nbsp;&gt; Settings &gt; Display</strong>.</p>
 
-<p style="text-align: center;"><img alt="How to Change The Events Calendar Address" src="https://theeventscalendar.com/content/uploads/2017/05/slugs-665x203.png" /></p>
+<p style="text-align: center;"><img alt="How to Change The Events Calendar Address" src="https://s3.theeventscalendar.com/uploads/2017/05/slugs-665x203.png" /></p>
 
 <h3 id="permalink">How to Change Your Permalinks</h3>
 
@@ -194,7 +221,7 @@ zaius.event('pageview');
 
 <p>Go to <strong>Settings&nbsp;&gt; Permalinks.</strong> Then select the style of permalink that you want. We recommend <strong>Post Name</strong>.</p>
 
-<p style="text-align: center;"><img alt="permalinks post name" src="https://theeventscalendar.com/content/uploads/2017/09/permalinks-post-name-665x702.png" /></p>
+<p style="text-align: center;"><img alt="permalinks post name" src="https://s3.theeventscalendar.com/uploads/2017/09/permalinks-post-name-665x702.png" /></p>
 
 <p>Learn more at <a href="https://theeventscalendar.com/knowledgebase/permalinks-best-practices/">Permalinks Best Practices</a>.</p>
 
@@ -204,11 +231,11 @@ zaius.event('pageview');
 
 <p><em>Note: <a href="https://theeventscalendar.com/product/wordpress-events-calendar/" title="The Events Calendar">The Events Calendar</a> offers List, Month, and Day views. &nbsp;<a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro/" title="Events Calendar Pro">Events Calendar PRO</a> adds Week, Map, and Photo view options.</em></p>
 
-<p style="text-align: center;"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/05/views-665x367.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/05/views-665x367.png" /></p>
 
 <ol>
 	<li><strong>Enable event views</strong> allows&nbsp;you can select which view types users can see from the front of the site.<br />
-	<img alt="view calendar as" src="https://theeventscalendar.com/content/uploads/2017/05/view-as-665x77.png" /></li>
+	<img alt="view calendar as" src="https://s3.theeventscalendar.com/uploads/2017/05/view-as-665x77.png" /></li>
 	<li><strong>Default view</strong> will determine what users see initially upon visiting your events page.</li>
 	<li><strong>Default mobile view</strong> is available for Events Calendar Pro users and allows you to set a different default view for smaller screens.</li>
 </ol>
@@ -217,7 +244,7 @@ zaius.event('pageview');
 
 <p>Depending upon your theme, you may want to switch your stylesheets and templates to achieve the desired look for you website.&nbsp; Head to <strong>Events&nbsp;&gt; Settings&nbsp;&gt; Display</strong>. Then select the best combination for just the right look.</p>
 
-<p style="text-align: center;"><img alt="" src="https://theeventscalendar.com/content/uploads/2017/05/template-settings-665x312.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/05/template-settings-665x312.png" /></p>
 
 <ol>
 	<li>Default stylesheet used for events templates
@@ -242,9 +269,9 @@ zaius.event('pageview');
 
 <p>Do you want to modify The Events Calendar to better match your desired theme?&nbsp; Here are a few of our top tips to get just the right look:</p>
 
-<p style="text-align: center;"><img alt="customizer The Events Calendar" src="https://theeventscalendar.com/content/uploads/2017/08/customizer-The-Events-Calendar-665x376.png" /></p>
+<p style="text-align: center;"><img alt="customizer The Events Calendar" src="https://s3.theeventscalendar.com/uploads/2017/08/customizer-The-Events-Calendar-665x376.png" /></p>
 
-<p style="text-align: center;"><img alt="customizing The Events Calendar" src="https://theeventscalendar.com/content/uploads/2017/08/customizing-The-Events-Calendar-665x429.png" /></p>
+<p style="text-align: center;"><img alt="customizing The Events Calendar" src="https://s3.theeventscalendar.com/uploads/2017/08/customizing-The-Events-Calendar-665x429.png" /></p>
 
 <ol>
 	<li>Start by modifying what you can at <strong>Appearance &gt; Customize &gt; The Events Calendar.</strong></li>
@@ -256,7 +283,7 @@ zaius.event('pageview');
 
 <p>We generally don't recommend that you change the theme or plugin's CSS files directly, as they will be overwritten. To avoid this, follow the steps outlined in our <a href="https://theeventscalendar.com/knowledgebase/themers-guide/" title="Themer's Guide">Themer's Guide</a>.</p>
 
-<p style="text-align: center;"><img alt="additional css" src="https://theeventscalendar.com/content/uploads/2017/08/additional-css-665x515.png" /></p>
+<p style="text-align: center;"><img alt="additional css" src="https://s3.theeventscalendar.com/uploads/2017/08/additional-css-665x515.png" /></p>
 
 <ol>
 	<li>Use overriding CSS&nbsp;files, or&nbsp;add CSS&nbsp;to your site using <strong>Appearance &gt; Customize &gt; Additional CSS.</strong></li>
@@ -264,7 +291,9 @@ zaius.event('pageview');
 </ol>
 
 <p>Please check out the following YouTube video and our <a href="https://theeventscalendar.com/knowledgebase/using-google-chrome-developer-tools/" rel="nofollow">Using Chrome Developer Tools</a> tutorial for more information on making style changes using CSS.</p>
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/kp4rDDX_q5s" width="560"></iframe></div>    			
+
+<p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/kp4rDDX_q5s" width="560"></iframe></p>
+</div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -274,8 +303,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 26, 2018, 11:25 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 30, 2019, 12:10 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -369,10 +398,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="580246-Important-Settings-for-The-Events-Calendar--Events-Calendar-PRO#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

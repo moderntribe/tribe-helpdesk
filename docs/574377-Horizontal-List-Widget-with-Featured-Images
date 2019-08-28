@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="574377-Horizontal-List-Widget-with-Featured-Images" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="574377-Horizontal-List-Widget-with-Featured-Images" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -112,7 +112,7 @@ zaius.event('pageview');
 
 <p>In <a href="http://wpfangirl.com/2015/modifying-the-list-widget-in-events-calendar-pro-to-show-images/">this tutorial</a>, Sallie walks through how she made a cool horizontal list widget with featured images. She used one of our tutorials,&nbsp;<a href="https://theeventscalendar.com/knowledgebase/add-thumbnails-to-upcoming-events-list-widget/">Add Thumbnails to Upcoming Events List Widget</a>, as a starting point. With a bit of additional php in her template override and some CSS, Sallie made this lovely horizontal list widget which looks great on a homepage.</p>
 
-<p style="text-align: center;"><img alt="Custom horizontal list widget by Sallie Goetsch" src="http://theeventscalendar.com/content/uploads/2015/04/Kia-Miller-featured-events-widget-home-page.png" /></p>
+<p style="text-align: center;"><img alt="Custom horizontal list widget by Sallie Goetsch" src="https://s3.theeventscalendar.com/uploads/2015/04/Kia-Miller-featured-events-widget-home-page.png" /></p>
 
 <p style="text-align: center;">Custom horizontal list widget by Sallie Goetsch</p>
 
@@ -129,8 +129,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Nov 19, 2018, 12:22 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-11-19" itemprop="dateModified">Nov 19 (5 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:36 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -224,10 +224,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="574377-Horizontal-List-Widget-with-Featured-Images#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>
