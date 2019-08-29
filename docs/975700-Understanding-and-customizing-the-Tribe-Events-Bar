@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="975700-Understanding-and-customizing-the-Tribe-Events-Bar" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="975700-Understanding-and-customizing-the-Tribe-Events-Bar" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -217,7 +217,7 @@ add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe-even
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Mar 25, 2019, 11:09 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-25" itemprop="dateModified">Mar 25 (46 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-25" itemprop="dateModified">Mar 25 (5 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -242,8 +242,11 @@ add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe-even
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
-        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+        <li class="list-group-item item-A"><a href="417063-Blocks-Colors-and-the-Default-Events-Template" class="article-link article-link-907" title="Blocks, Colors, and the Default Events Template">
+        <span class="TitleValue">Blocks, Colors, and the Default Events Template</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="807454-Change-the-Default-Event-Template-in-Block-Editor" class="article-link article-link-843" title="Change the Default Event Template in Block Editor">
+        <span class="TitleValue">Change the Default Event Template in Block Editor</span>
       </a></li>
         <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
         <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
@@ -269,11 +272,8 @@ add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe-even
         <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
         <span class="TitleValue">Changing the browser title for calendar views</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
-        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 73 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -311,10 +311,10 @@ add_filter( <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe-even
 		</footer>
 	<a href="975700-Understanding-and-customizing-the-Tribe-Events-Bar#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="880095-Changing-meta-field-labels" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="880095-Changing-meta-field-labels" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -110,7 +110,7 @@ zaius.event('pageview');
   	<div class="col-md-9">	
    			<div class="article-content ArticleContent" itemprop="articleBody"><p>In this post we're going to look at modifying the names of various labels in the single event meta area. This is the section of the page that typically sits below the event description and lists things such as time, cost, any tags or categories and other information (such as details of the venue or organizer).</p>
 
-<p style="text-align: center;"><img alt="Screnshot showing the single event meta area" src="http://theeventscalendar.com/content/uploads/2015/03/single-event-meta-details-area.png" /></p>
+<p style="text-align: center;"><img alt="Screenshot showing the single event meta area" src="https://s3.theeventscalendar.com/uploads/2015/03/single-event-meta-details-area.png" /></p>
 
 <p>While the default labels work well in most cases, changing them can help you to craft a more intuitive experience for your visitors. In this post we'll pick on two different fields, each of which require a slightly different approach:</p>
 
@@ -123,15 +123,15 @@ zaius.event('pageview');
 
 <p>The website field is a great example as the same strategy can be used for many of our other fields, too.</p>
 
-<p>Our&nbsp;first task is to setup a template override for the <strong>the-events-calendar/</strong><strong>src/views/modules/meta/details.php</strong> template — details on this process are described in full within the <a href="153124-Themers-Guide" rel="noopener" target="_blank">Themer's Guide</a>—then, within your custom copy, locate the following line:</p>
+<p>Our first task is to setup a template override for the <strong>the-events-calendar/</strong><strong>src/views/modules/meta/details.php</strong> template — details on this process are described in full within the <a href="153124-Themers-Guide" rel="noopener" target="_blank">Themer's Guide</a>—then, within your custom copy, locate the following line:</p>
 
 <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
-&amp;<span class="hljs-keyword" style="font-weight: 700;">lt</span>;dt&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; &amp;<span class="hljs-keyword" style="font-weight: 700;">lt</span>;?php esc_html_e( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Website:'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe-events-calendar'</span> ) ?&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; &amp;<span class="hljs-keyword" style="font-weight: 700;">lt</span>;/dt&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>;</pre>
+&lt;dt&gt;&lt;?php esc_html_e( <span class="hljs-string" style="color: rgb(136, 0, 0);">'Website:'</span>, <span class="hljs-string" style="color: rgb(136, 0, 0);">'tribe-events-calendar'</span> ) ?&gt; &lt;/dt&gt;</pre>
 
-<p>This&nbsp;is the code that displays the "Website:" label. In most cases, we&nbsp;don't even need to keep those PHP tags—instead, we can change it as follows:</p>
+<p>This is the code that displays the "Website:" label. In most cases, we don't even need to keep those PHP tags—instead, we can change it as follows:</p>
 
 <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
-&amp;<span class="hljs-keyword" style="font-weight: 700;">lt</span>;dt&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; To learn more, visit: &amp;<span class="hljs-keyword" style="font-weight: 700;">lt</span>;/dt&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>;</pre>
+&lt;dt&gt;To learn more, visit: &lt;/dt&gt;</pre>
 
 <p>It's a clean, easy change that can also be applied to the labels for most of the other fields as well.</p>
 
@@ -140,36 +140,36 @@ zaius.event('pageview');
 <p>There are a few special cases where the above approach will not work, however, and one of these is the category field. Within the same template, look for the following chunk of code:</p>
 
 <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
-&amp;<span class="hljs-keyword" style="font-weight: 700;">lt</span>;?php
+&lt;?php
 echo tribe_get_event_categories(
 	get_the_id(), array(
-		<span class="hljs-string" style="color: rgb(136, 0, 0);">'before'</span>       =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; <span class="hljs-string" style="color: rgb(136, 0, 0);">''</span>,
-		<span class="hljs-string" style="color: rgb(136, 0, 0);">'sep'</span>          =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; <span class="hljs-string" style="color: rgb(136, 0, 0);">', '</span>,
-		<span class="hljs-string" style="color: rgb(136, 0, 0);">'after'</span>        =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; <span class="hljs-string" style="color: rgb(136, 0, 0);">''</span>,
-		<span class="hljs-string" style="color: rgb(136, 0, 0);">'label'</span>        =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; null, <span class="hljs-comment" style="color: rgb(136, 136, 136);">// An appropriate plural/singular label will be provided</span>
-		<span class="hljs-string" style="color: rgb(136, 0, 0);">'label_before'</span> =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; <span class="hljs-string" style="color: rgb(136, 0, 0);">'&amp;lt;dt&amp;gt;'</span>,
-		<span class="hljs-string" style="color: rgb(136, 0, 0);">'label_after'</span>  =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; <span class="hljs-string" style="color: rgb(136, 0, 0);">'&amp;lt;/dt&amp;gt;'</span>,
-		<span class="hljs-string" style="color: rgb(136, 0, 0);">'wrap_before'</span>  =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; <span class="hljs-string" style="color: rgb(136, 0, 0);">'&amp;lt;dd class="tribe-events-event-categories"&amp;gt;'</span>,
-		<span class="hljs-string" style="color: rgb(136, 0, 0);">'wrap_after'</span>   =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; <span class="hljs-string" style="color: rgb(136, 0, 0);">'&amp;lt;/dd&amp;gt;'</span>
+		<span class="hljs-string" style="color: rgb(136, 0, 0);">'before'</span>       =&gt; <span class="hljs-string" style="color: rgb(136, 0, 0);">''</span>,
+		<span class="hljs-string" style="color: rgb(136, 0, 0);">'sep'</span>          =&gt; <span class="hljs-string" style="color: rgb(136, 0, 0);">', '</span>,
+		<span class="hljs-string" style="color: rgb(136, 0, 0);">'after'</span>        =&gt; <span class="hljs-string" style="color: rgb(136, 0, 0);">''</span>,
+		<span class="hljs-string" style="color: rgb(136, 0, 0);">'label'</span>        =&gt; null, <span class="hljs-comment" style="color: rgb(136, 136, 136);">// An appropriate plural/singular label will be provided</span>
+		<span class="hljs-string" style="color: rgb(136, 0, 0);">'label_before'</span> =&gt; <span class="hljs-string" style="color: rgb(136, 0, 0);">'&lt;dt&gt;'</span>,
+		<span class="hljs-string" style="color: rgb(136, 0, 0);">'label_after'</span>  =&gt; <span class="hljs-string" style="color: rgb(136, 0, 0);">'&lt;/dt&gt;'</span>,
+		<span class="hljs-string" style="color: rgb(136, 0, 0);">'wrap_before'</span>  =&gt; <span class="hljs-string" style="color: rgb(136, 0, 0);">'&lt;dd class="tribe-events-event-categories"&gt;'</span>,
+		<span class="hljs-string" style="color: rgb(136, 0, 0);">'wrap_after'</span>   =&gt; <span class="hljs-string" style="color: rgb(136, 0, 0);">'&lt;/dd&gt;'</span>
 	)
 );
-?&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>;</pre>
+?&gt;</pre>
 
 <p>This displays the list of categories—but where is the label? It's actually this single line found within the above chunk of code</p>
 
 <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
-<span class="hljs-string" style="color: rgb(136, 0, 0);">'label'</span>        =&amp;gt; <span class="hljs-keyword" style="font-weight: 700;">null</span>, <span class="hljs-comment" style="color: rgb(136, 136, 136);">// An appropriate plural/singular label will be provided</span></pre>
+<span class="hljs-string" style="color: rgb(136, 0, 0);">'label'</span> =&gt; <span class="hljs-keyword" style="font-weight: 700;">null</span>, <span class="hljs-comment" style="color: rgb(136, 136, 136);">// An appropriate plural/singular label will be provided</span></pre>
 
 <p>This simply tells The Events Calendar to use a default label (which magically changes depending on where there is just one category or several categories). To specify our own label, though, all we need to do is change that line to:</p>
 
 <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(240, 240, 240); color: rgb(68, 68, 68);">
-<span class="hljs-string" style="color: rgb(136, 0, 0);">'label'</span> =&amp;<span class="hljs-keyword" style="font-weight: 700;">gt</span>; <span class="hljs-string" style="color: rgb(136, 0, 0);">'Find similar events'</span>,</pre>
+<span class="hljs-string" style="color: rgb(136, 0, 0);">'label'</span> =&gt; <span class="hljs-string" style="color: rgb(136, 0, 0);">'Find similar events'</span>,</pre>
 
 <p>Be sure to keep the final comma in place! With those changes in place, we should now see:</p>
 
-<p style="text-align: center;"><img alt="Screenshot showing customized meta labels" src="http://theeventscalendar.com/content/uploads/2015/03/modified-section-of-event-meta.png" /></p>
+<p style="text-align: center;"><img alt="Screenshot showing customized meta labels" src="https://s3.theeventscalendar.com/uploads/2015/03/modified-section-of-event-meta.png" /></p>
 
-<p>We hope that gives some insights into customizing the single event meta fields. As ever, do feel free to approach us at our&nbsp;<a href="submit_ticket">help desk</a> should anything be unclear :-)</p>
+<p>We hope that gives some insights into customizing the single event meta fields. As ever, do feel free to approach us at our <a href="submit_ticket">help desk</a> should anything be unclear :-)</p>
 </div>    			
 				<div class="Files">
 					    			
@@ -180,8 +180,8 @@ echo tribe_get_event_categories(
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 26, 2018, 12:15 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Aug 02, 2019, 10:18 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-02" itemprop="dateModified">Aug 02 (25 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -275,10 +275,10 @@ echo tribe_get_event_categories(
 		</footer>
 	<a href="880095-Changing-meta-field-labels#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

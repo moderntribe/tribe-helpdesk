@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="713309-Configuring-the-Event-List-Widget" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="713309-Configuring-the-Event-List-Widget" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -114,7 +114,7 @@ zaius.event('pageview');
 
 <p>The first thing to note is about the Event List widget is where to find it. The widget&nbsp;comes packaged with the core version of <a href="https://theeventscalendar.com/product/wordpress-events-calendar/">The Events Calendar</a>. You'll find it Appearance &gt; Widgets from the WordPress dashboard.&nbsp;Drag that little guy into the sidebar area of your choice, and you're off to the races!</p>
 
-<p><img alt="Select the WordPress widget and drag it to the sidebar" src="http://theeventscalendar.com/content/uploads/2018/06/how_to_add_a_widget_in_wordpress.gif" /></p>
+<p><img alt="Select the WordPress widget and drag it to the sidebar" src="https://s3.theeventscalendar.com/uploads/2018/06/how_to_add_a_widget_in_wordpress.gif" /></p>
 
 <p>&nbsp;</p>
 
@@ -134,7 +134,7 @@ zaius.event('pageview');
 
 <p>It's important to bear&nbsp;in mind that the Event List widget in <a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro/">The Events Calendar PRO</a> is the same widget that comes with the core version of The Events Calendar. If you have PRO, you'll see the same Event List widget under Appearance &gt; Widgets. This time, however, you'll see some visual differences and more available options that allow us to customize the widget further.</p>
 
-<p><img alt="Event List Widget in The Events Calendar vs Events Calendar Pro" src="http://theeventscalendar.com/content/uploads/2018/06/upcoming-events-tec-ecp.png" /></p>
+<p><img alt="Event List Widget in The Events Calendar vs Events Calendar Pro" src="https://s3.theeventscalendar.com/uploads/2018/06/upcoming-events-tec-ecp.png" /></p>
 
 <p>Notice that there are quite a few&nbsp;differences between the Event List widget in core versus in PRO:</p>
 
@@ -146,7 +146,7 @@ zaius.event('pageview');
 
 <p>It should come as no surprise that these visual differences lead to more&nbsp;configurable options when setting up the widget. Add the widget to the sidebar the same way as described above, and now you'll see more options. In addition to the same three options in the core widget, PRO introduces these settings:</p>
 
-<p><img alt="kb-widgets-list-add-pro-2" src="https://theeventscalendar.com/content/uploads/2015/04/kb-widgets-list-add-pro-2.gif" /></p>
+<p><img alt="kb-widgets-list-add-pro-2" src="https://s3.theeventscalendar.com/uploads/2015/04/kb-widgets-list-add-pro-2.gif" /></p>
 
 <ul>
 	<li><strong>Display:</strong>&nbsp;This is a set of checkboxes that allow you to toggle the display of different bits of information, including:
@@ -220,8 +220,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 26, 2018, 12:11 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:36 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -315,10 +315,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="713309-Configuring-the-Event-List-Widget#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

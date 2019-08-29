@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="473455-Working-with-Time-Zones" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="473455-Working-with-Time-Zones" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Working with Time Zones</title>        <meta name="keywords" content="The Events Calendar,Article,Beginner,Settings,The Events Calendar,Event Times,Localization,improve text,time zones,daylight saving time,local time zones,time zone data,event&#039;s time zone,time zone mode,site-wide time zone everywhere mode,accommodate daylight saving time,wordpress site time zone,daylight saving time affects,events calendar&#039;s time zone,time zone settings section,time zone settings,site-wide time zone,site time zone,wordpress general settings,utc offsets,time zone for an individual,zone for an individual event,set in your wordpress general,uitribe, manual time zone" />    <meta property="og:url" content="//support.theeventscalendar.com/473455-Working-with-Time-Zones" />    <meta property="og:title" content="Working with Time Zones" />    <meta property="og:description" content="The Events Calendar provides simple but robust time zone capabilities, allowing you to have events in many different time zones. Use this article to get familiar with all of the controls available to " />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Working with Time Zones</title>        <meta name="keywords" content="The Events Calendar,Article,Beginner,Settings,The Events Calendar,Event Times,Localization,improve text,time zones,daylight saving time,local time zones,time zone data,event&#039;s time zone,time zone mode,site-wide time zone everywhere mode,accommodate daylight saving time,wordpress site time zone,daylight saving time affects,events calendar&#039;s time zone,time zone settings section,time zone settings,site-wide time zone,site time zone,wordpress general settings,utc offsets,time zone for an individual,zone for an individual event,set in your wordpress general,uitribe, manual time zone, block editor" />    <meta property="og:url" content="//support.theeventscalendar.com/473455-Working-with-Time-Zones" />    <meta property="og:title" content="Working with Time Zones" />    <meta property="og:description" content="The Events Calendar provides simple but robust time zone capabilities, allowing you to have events in many different time zones. Use this article to get familiar with all of the controls available to " />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=vjm1ieh9p29bojhcaz77jou0j2ohnd2e" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -131,7 +131,7 @@ zaius.event('pageview');
 
 <p>The "time zone" mode tells The Events Calendar what time zone to display the event times in.</p>
 
-<p style="text-align: center;"><img alt="The Events Calendar's Time Zone Settings" src="http://theeventscalendar.com/content/uploads/2015/09/Screen-Shot-2018-10-22-at-11.28.06-AM.png" /> The Events Calendar's Time Zone Settings</p>
+<p style="text-align: center;"><img alt="The Events Calendar's Time Zone Settings" src="https://s3.theeventscalendar.com/uploads/2015/09/Screen-Shot-2018-10-22-at-11.28.06-AM.png" /> The Events Calendar's Time Zone Settings</p>
 
 <ul>
 	<li><strong>In the "Use manual time zones for each event" mode</strong>, event times will be displayed in whatever time zone is selected for the event. Every event can use a different time zone (see section "Setting the Time Zone for an Individual Event" below), and will have their time displayed in terms of that time zone.
@@ -149,13 +149,18 @@ zaius.event('pageview');
 
 <p>If you'd like to change an event's time zone, simply view the "edit" screen for the event in your wp-admin and locate the time and date fields—you should notice a link that labels the event's time zone, as shown in the following screenshot.</p>
 
-<p style="text-align: center;"><a href="http://theeventscalendar.com/content/uploads/2015/09/Screen-Shot-2018-03-10-at-8.00.55-PM.png"><img alt="An Event's Time Zone" src="http://theeventscalendar.com/content/uploads/2015/09/Screen-Shot-2018-03-10-at-8.00.55-PM-665x328.png" /></a><br />
-The input field for event's time zone.</p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2015/09/Screen-Shot-2018-03-10-at-8.00.55-PM.png"><img alt="An Event's Time Zone" src="https://s3.theeventscalendar.com/uploads/2015/09/Screen-Shot-2018-03-10-at-8.00.55-PM-665x328.png" /></a><br />
+Classic Editor: The input field for event's time zone.</p>
 
 <p>Click that link to reveal a drop-down menu of all of the available time zones; choose one for the event, then save the event for the new time zone to take effect.</p>
 
-<p style="text-align: center;"><a href="http://theeventscalendar.com/content/uploads/2015/09/Screen-Shot-2018-03-10-at-8.01.34-PM.png"><img alt="Expanded Event Time Zone Menu" src="http://theeventscalendar.com/content/uploads/2015/09/Screen-Shot-2018-03-10-at-8.01.34-PM-665x382.png" /></a><br />
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2015/09/Screen-Shot-2018-03-10-at-8.01.34-PM.png"><img alt="Expanded Event Time Zone Menu" src="https://s3.theeventscalendar.com/uploads/2015/09/Screen-Shot-2018-03-10-at-8.01.34-PM-665x382.png" /></a><br />
 The expanded drop-down menu of available time zones for an event.</p>
+
+<p>If you are using the Block Editor, the drop-down menu of time zones will appear at the right when editing the time zone.&nbsp;</p>
+
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=vjm1ieh9p29bojhcaz77jou0j2ohnd2e" /><br />
+Block Editor: The input field for the event's time with the time zone appearing at right.</p>
 
 <p><strong>Remember:</strong> If your site is in the “Use site-wide time zone everywhere” mode, changing an individual event's time zone will make no difference in how the time displays on the front-end; you'll have to <a href="473455-Working-with-Time-Zones#time-zone-mode">change the time zone mode</a> to "Use manual time zones for each event".</p>
 
@@ -172,11 +177,11 @@ The expanded drop-down menu of available time zones for an event.</p>
 	<li>If it <em>is visible</em>, you can click the button to perform the update</li>
 </ul>
 
-<p style="text-align: center;"><img alt="Screenshot showing the time zone data update tool" src="http://theeventscalendar.com/content/uploads/2015/08/timezone-update-button.png" /></p>
+<p style="text-align: center;"><img alt="Screenshot showing the time zone data update tool" src="https://s3.theeventscalendar.com/uploads/2015/08/timezone-update-button.png" /></p>
 
 <h3 id="what-configuration-is-right-for-me">What Time Zone Configuration is Right for Me?</h3>
 
-<p>The exact time zone you choose is, of course, dependent on your location (or the location of your events, etc.) but&nbsp;<strong>we highly recommend that you use a location based time zone. Event if you do need to use a UTC offset, please make sure that your WordPress site time zone and individual event time zones are in the same format.</strong></p>
+<p>The exact time zone you choose is, of course, dependent on your location (or the location of your events, etc.) but&nbsp;<strong>we highly recommend that you use a location based time zone. Even&nbsp;if you do need to use a UTC offset, please make sure that your WordPress site time zone and individual event time zones are in the same format.</strong></p>
 
 <p>So instead of having a WordPress site time zone of <samp>UTC-5</samp>, but then using <samp>America/New_York</samp> and <samp>Europe/Zurich</samp> on individual events, we'd recommend either using UTC offsets in both cases or "named" time zones in both cases.</p>
 
@@ -195,8 +200,8 @@ The expanded drop-down menu of available time zones for an event.</p>
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Mar 20, 2019, 01:31 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-20" itemprop="dateModified">Mar 20 (50 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 28, 2019, 12:10 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-28" itemprop="dateModified">Jun 28 (60 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -221,8 +226,11 @@ The expanded drop-down menu of available time zones for an event.</p>
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
-        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+        <li class="list-group-item item-A"><a href="417063-Blocks-Colors-and-the-Default-Events-Template" class="article-link article-link-907" title="Blocks, Colors, and the Default Events Template">
+        <span class="TitleValue">Blocks, Colors, and the Default Events Template</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="807454-Change-the-Default-Event-Template-in-Block-Editor" class="article-link article-link-843" title="Change the Default Event Template in Block Editor">
+        <span class="TitleValue">Change the Default Event Template in Block Editor</span>
       </a></li>
         <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
         <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
@@ -248,11 +256,8 @@ The expanded drop-down menu of available time zones for an event.</p>
         <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
         <span class="TitleValue">Changing the browser title for calendar views</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="332993-Introduction-to-The-Events-Calendar-REST-API" class="article-link article-link-659" title="Introduction to The Events Calendar REST API">
-        <span class="TitleValue">Introduction to The Events Calendar REST API</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 73 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -290,10 +295,10 @@ The expanded drop-down menu of available time zones for an event.</p>
 		</footer>
 	<a href="473455-Working-with-Time-Zones#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

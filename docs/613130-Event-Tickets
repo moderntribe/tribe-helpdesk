@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="613130-Event-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="613130-Event-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-category">	
+<body class="montana  page-category">
 	
              
 	    <!-- nav -->
@@ -108,6 +108,18 @@ zaius.event('pageview');
 	<div class="list-group article-list" itemscope itemtype="https://schema.org/ItemList">
         
                         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="189617-How-Event-Tickets-Calculates-Availability" itemprop="item" class="list-group-item item-A" title="How Event Tickets Calculates Availability">                  
+                  <h3 class="list-group-item-heading" itemprop="name">How Event Tickets Calculates Availability</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/189617-How-Event-Tickets-Calculates-Availability" />
+                                    <div itemprop="description" class="article-preview">Ticket availability shows how many “seats” are left for a ticket that's been created for an event. Event Tickets calculates availability from three different data points: inventory, stock, and/or capacity. These numbers are often the same but may different, so we determine availability based on the lowest of those numbers. That way, if the data points are not the same, there's way less chance of overselling your event.
+ Let's review what each of these terms refers to: 
+
+ 	- Capacity is set by th...</div>
+                  <meta itemprop="position" content="1" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="550976-Attendee-Registration-Page-Template" itemprop="item" class="list-group-item item-A" title="Attendee Registration Page Template">                  
                   <h3 class="list-group-item-heading" itemprop="name">Attendee Registration Page Template</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/550976-Attendee-Registration-Page-Template" />
@@ -121,7 +133,7 @@ Start with the Attendee Registration Template
  
 
  	-...</div>
-                  <meta itemprop="position" content="1" />
+                  <meta itemprop="position" content="2" />
                 </a>
             </div>
                     
@@ -132,7 +144,7 @@ Start with the Attendee Registration Template
                                     <div itemprop="description" class="article-preview">Look for the Tickets Blocks section in the block inserter tool
  The WordPress 5.0 release introduces a new block editor to the platform and brings with it a completely new content creation experience. Now, instead of all your content being input and managed from a single field, each element will now get its own block and can be moved, edited, and styled independently.
  We've built a full set of Tickets blocks so that you can start selling tickets and collecting RSVPs on events, posts, or pages u...</div>
-                  <meta itemprop="position" content="2" />
+                  <meta itemprop="position" content="3" />
                 </a>
             </div>
                     
@@ -143,7 +155,7 @@ Start with the Attendee Registration Template
                                     <div itemprop="description" class="article-preview">One of the most attractive features of the popular Basel Theme on Themeforest (https://themeforest.net/item/basel-responsive-ecommerce-theme/14906749) is its snazzy AJAX cart for WooCommerce.
  There is a bit of a conflict with how Event Tickets and the Basel Theme handle HTML markup for processing cart information though, so out of the box, the Basel Theme will often not allow you to add tickets from Event Tickets or Event Tickets Plus to your cart.
  But fixing this is relatively easy, and you c...</div>
-                  <meta itemprop="position" content="3" />
+                  <meta itemprop="position" content="4" />
                 </a>
             </div>
                     
@@ -152,14 +164,8 @@ Start with the Attendee Registration Template
                   <h3 class="list-group-item-heading" itemprop="name">Configuring Tribe Commerce with PayPal</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/560364-Configuring-Tribe-Commerce-with-PayPal" />
                                     <div itemprop="description" class="article-preview">To start receiving payments for your tickets using Tribe Commerce, you need to enable Instant Payment Notification (IPN) on your PayPal account and connect the account to your WordPress site.
- Please note you will need a PayPal Business account (https://www.paypal.com/us/webapps/mpp/referral/paypal-business-account2) to be able to configure Instant Payment Notification
-  
- 
-
-Steps to configure PayPal IPN
-
- 1. Log in to your PayPal business account and navigate to Profile &gt; Profile and setting...</div>
-                  <meta itemprop="position" content="4" />
+ Please note you will need a PayPal Business account (https://www.paypal.com/us/webapps/mpp/referral/paypal-business-account2) to be able to configure Instant Payment Notification.  You may also want a sandbox IPN Simulator (https://developer.paypal.com/developer/ipnSimulator/) to test your site settings an...</div>
+                  <meta itemprop="position" content="5" />
                 </a>
             </div>
                     
@@ -170,12 +176,12 @@ Steps to configure PayPal IPN
                                     <div itemprop="description" class="article-preview">With Event Tickets and Event Tickets Plus, you have the ability to move tickets (RSVPs and e-commerce (https://support.theeventscalendar.com/442532-Event-Tickets-Plus-which-ecommerce-solution-is-right-for-you) tickets) to other events and to move attendees to other tickets (in the same event or another event).
  
 
-Moving Tickets/RSVPs to Another Event
+Moving Tickets/RSVPs to Another Event in Classic Editor
 
- To move a ticket type, go to the event, and select the pencil icon at right to edit the event.
+ To move a ticket type with the Classic Editor, go to the event, and select the pencil icon at right to edit the event.
  
- At the bottom of the ticket editor, select "Mov...</div>
-                  <meta itemprop="position" content="5" />
+ Class...</div>
+                  <meta itemprop="position" content="6" />
                 </a>
             </div>
                     
@@ -185,7 +191,7 @@ Moving Tickets/RSVPs to Another Event
                   <meta itemprop="url" content="//support.theeventscalendar.com/780934-Ticketing-using-a-seating-chart" />
                                     <div itemprop="description" class="article-preview">Suppose that you're distributing tickets to an event with limited venue seating (such as a theater or seated banquet), and you'd like to offer your attendees the option to choose their own row or table in advance. You can easily accomplish this task using the stock options and multiple ticket types available with Event Tickets--here's how to set that up!
  We'll use a simple seating chart image to demonstrate how to set up your ticket groups. This graphic shows three rows (A, B, and C) with a tot...</div>
-                  <meta itemprop="position" content="6" />
+                  <meta itemprop="position" content="7" />
                 </a>
             </div>
                     
@@ -200,7 +206,7 @@ Performing the Refund or Cancellation
 
  There is no refund ability for RSVPs, since they are free. When it comes to paid tickets, these orders can be refunded, but only by the e-commerce platform itself.
  The first step here, then, is to refer to your e-commerce platf...</div>
-                  <meta itemprop="position" content="7" />
+                  <meta itemprop="position" content="8" />
                 </a>
             </div>
                     
@@ -211,7 +217,7 @@ Performing the Refund or Cancellation
                                     <div itemprop="description" class="article-preview">When folks RSVP to events on your site, they receive an email confirmation of their RSVP. This is not quite a "ticket" in the traditional sense, and so we are often asked if this confirmation email can be disabled.
  With a bit of custom code, you can prevent the sending of the RSVP confirmation emails by adding the following line of code to your theme's functions.php file:
  add_filter( 'tribe_rsvp_email_recipient', '__return_empty_array' );</div>
-                  <meta itemprop="position" content="8" />
+                  <meta itemprop="position" content="9" />
                 </a>
             </div>
                     
@@ -225,7 +231,7 @@ Performing the Refund or Cancellation
 
  	- Select a quantity for how many spots to RSVP.
  	- Enter their name and email address to confirm that they will...</div>
-                  <meta itemprop="position" content="9" />
+                  <meta itemprop="position" content="10" />
                 </a>
             </div>
                     
@@ -235,7 +241,7 @@ Performing the Refund or Cancellation
                   <meta itemprop="url" content="//support.theeventscalendar.com/002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" />
                                     <div itemprop="description" class="article-preview">Before using Event Tickets, you'll want to make sure that you have the plugin settings configured to meet your needs. You can find your tickets settings under Events &gt; Settings &gt; Tickets. 
  If you're using Event Tickets with The Events Calendar, you'll want to make sure to review our guide to The Events Calendar's settings (https://theeventscalendar.com/knowledgebase/wp-admin-settings-overview/). If you're not using TEC, be sure to read the section below on stand-alone Tickets settings (#s...</div>
-                  <meta itemprop="position" content="10" />
+                  <meta itemprop="position" content="11" />
                 </a>
             </div>
                     
@@ -250,7 +256,7 @@ Performing the Refund or Cancellation
 	- Download and install the plugin (https://support.theeventscalendar.com/847919-Downloading-and-Installing-the-Plugin). You can download and use the core tickets plugin, Event Tickets, for free. If you have purchased a license for Event Tickets Plus, you’ll need to install and activate both the core and Plus plugins.
  
  If you want to ...</div>
-                  <meta itemprop="position" content="11" />
+                  <meta itemprop="position" content="12" />
                 </a>
             </div>
                     
@@ -261,7 +267,7 @@ Performing the Refund or Cancellation
                                     <div itemprop="description" class="article-preview">Once you've created some tickets (https://support.theeventscalendar.com/156866-Making-tickets) and the sales have started to roll in, it's time to think about managing incoming orders and attendee lists.
  If you are selling tickets using the Tribe Commerce functionality in Event Tickets, order management must be done from your PayPal account. You will still be able to see all orders listed in the orders page.
  We recommend you spend some time familiarizing yourself with Tribe Commerce and/or you...</div>
-                  <meta itemprop="position" content="12" />
+                  <meta itemprop="position" content="13" />
                 </a>
             </div>
                     
@@ -271,7 +277,7 @@ Performing the Refund or Cancellation
                   <meta itemprop="url" content="//support.theeventscalendar.com/166718-Moving-RSVP-and-Ticket-Forms" />
                                     <div itemprop="description" class="article-preview">By default, RSVP and ticket forms on single events show up below the event details where information like start time, end time, venue, and organizer is displayed. However, you can also opt to move the RSVP or ticket form around to different locations on the single event page. You can find this option under Events &gt; Settings &gt; Tickets.
  You will see one option for the RSVP form location and one option for the Tickets form location:</div>
-                  <meta itemprop="position" content="13" />
+                  <meta itemprop="position" content="14" />
                 </a>
             </div>
                 	</div>
@@ -310,10 +316,10 @@ Performing the Refund or Cancellation
 		</footer>
 	<a href="613130-Event-Tickets#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

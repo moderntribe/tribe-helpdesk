@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="245838-Managing-Community-Events-submissions" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="245838-Managing-Community-Events-submissions" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -126,15 +126,15 @@ zaius.event('pageview');
 	<li><strong>Published - </strong>submissions in this status will be publicly accessible on your site as soon as the person submits the event.</li>
 </ul>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/10/kb-community-submission-settings.png"><img alt="Community Submission Settings" src="https://theeventscalendar.com/content/uploads/2014/10/kb-community-submission-settings-665x171.png" /> </a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-submission-settings.png"><img alt="Community Submission Settings" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-submission-settings-665x171.png" /> </a></p>
 
 <p>After reviewing your Event Submission settings, you'll want to scroll down the page a bit and review your Alert settings. This will allow you to determine who will receive email notifications when a new event is submitted. This can be important if you have chosen 'Draft' or 'Pending Review' for the default submission status since an Administrator will need to take action on every submission.</p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/10/kb-community-alert-settings.png"><img alt="Community Alert Settings" src="https://theeventscalendar.com/content/uploads/2014/10/kb-community-alert-settings-665x183.png" /> </a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-alert-settings.png"><img alt="Community Alert Settings" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-alert-settings-665x183.png" /> </a></p>
 
 <p>The email address(es) listed there will get an email whenever an event is submitted. Here's an example:</p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/10/kb-community-email.png"><img alt="Community Alert Email" src="https://theeventscalendar.com/content/uploads/2014/10/kb-community-email-665x218.png" /> </a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-email.png"><img alt="Community Alert Email" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-email-665x218.png" /> </a></p>
 
 <p>If you'd like to customize the information that displays in the Community alert email, you can override the 'email-template.php' file in the Community Events plugin directory. Take a look at our <a href="https://theeventscalendar.com/knowledgebase/themers-guide/">Themer's Guide</a> for more information on performing template overrides.</p>
 
@@ -144,25 +144,25 @@ zaius.event('pageview');
 
 <p>Once your reCAPTCHA settings are entered, it will only appear if you enabled <em>Anonymous Submissions</em> and the user is not logged in (i.e. not anonymous).</p>
 
-<p style="text-align: center;"><img alt="Community Events reCAPTCHA settings in APIs tab" src="https://theeventscalendar.com/content/uploads/2014/10/Community-Events-reCAPTCHA-in-APIs-tab.png" /></p>
+<p style="text-align: center;"><img alt="Community Events reCAPTCHA settings in APIs tab" src="https://s3.theeventscalendar.com/uploads/2014/10/Community-Events-reCAPTCHA-in-APIs-tab.png" /></p>
 
 <h3 id="review-events">Reviewing submitted events</h3>
 
 <p>After events are submitted, they appear in the event list just like any other event. As an administrator, you can review event submissions by going to your event list (by clicking on <em>Events</em> on the left-side of the WordPress Dashboard). If you have the 'Draft' status enabled, then you'll notice that submitted events display as drafts.</p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/10/kb-community-draft-event.png"><img alt="Draft Events" src="https://theeventscalendar.com/content/uploads/2014/10/kb-community-draft-event-665x180.png" /></a>&nbsp;</p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-draft-event.png"><img alt="Draft Events" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-draft-event-665x180.png" /></a>&nbsp;</p>
 
 <p style="text-align: center;">Draft Events</p>
 
 <p>If you have the 'Pending Review' status enabled, then you'll notice that submitted events displays as 'Pending.'</p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/10/kb-community-pending-event.png"><img alt="Events Pending Review" src="https://theeventscalendar.com/content/uploads/2014/10/kb-community-pending-event-665x179.png" /></a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-pending-event.png"><img alt="Events Pending Review" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-pending-event-665x179.png" /></a></p>
 
 <p style="text-align: center;">Events Pending Review</p>
 
 <p>Next, just click on the event that you'd like to review, make your necessary edits, and then click Publish.</p>
 
-<p style="text-align: center;"><a href="https://theeventscalendar.com/content/uploads/2014/10/kb-community-publish-event.png"><img alt="Review and publish the Event!" src="https://theeventscalendar.com/content/uploads/2014/10/kb-community-publish-event-665x222.png" /></a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-publish-event.png"><img alt="Review and publish the Event!" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-community-publish-event-665x222.png" /></a></p>
 
 <p style="text-align: center;">Review and publish the Event!</p>
 
@@ -177,8 +177,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 07:46 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:36 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -203,6 +203,9 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="846635-Community-Events-Shortcodes" class="article-link article-link-905" title="Community Events Shortcodes">
+        <span class="TitleValue">Community Events Shortcodes</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="238593-Accessing-and-Linking-to-Community-Events-Pages" class="article-link article-link-649" title="Accessing and Linking to Community Events Pages">
         <span class="TitleValue">Accessing and Linking to Community Events Pages</span>
       </a></li>
@@ -230,10 +233,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="599568-Modifying-the-Community-Events-page-titles" class="article-link article-link-335" title="Modifying the Community Events page titles">
         <span class="TitleValue">Modifying the Community Events page titles</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="786442-Setting-Overview-Community-Events" class="article-link article-link-217" title="Setting Overview: Community Events">
-        <span class="TitleValue">Setting Overview: Community Events</span>
-      </a></li>
     </ul>
+        <div class="panel-footer"><a href="983445-Community-Events" class="MoreLinkTitle">and 11 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -271,10 +272,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="245838-Managing-Community-Events-submissions#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

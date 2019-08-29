@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="451403-The-Events-Calendar-and-the-WordPress-Customizer" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="451403-The-Events-Calendar-and-the-WordPress-Customizer" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -126,7 +126,7 @@ zaius.event('pageview');
 
 <p>In that left-hand panel of customization options, there's a link that says "The Events Calendar". Click on this to begin customizing the calendar.</p>
 
-<p style="text-align: center;"><img alt="Customizer: The Events Calendar General Theme Settings" src="https://theeventscalendar.com/content/uploads/2015/12/Customizer-The-Events-Calendar-General-Theme-Settings-665x500.png" /><br />
+<p style="text-align: center;"><img alt="Customizer: The Events Calendar General Theme Settings" src="https://s3.theeventscalendar.com/uploads/2015/12/Customizer-The-Events-Calendar-General-Theme-Settings-665x500.png" /><br />
 &nbsp;Example showing the two panes: Customizing options on the left, preview on the right[</p>
 
 <p style="text-align: center;">&nbsp;</p>
@@ -137,7 +137,7 @@ zaius.event('pageview');
 
 <p><!-- The Accent Color controls link colors of event titles and read more links. The Featured Highlight Color controls the background of featured events on your default Events page. It also determines the background color of Buy or RSVP Now buttons. --></p>
 
-<p style="text-align: center;"><a href="http://theeventscalendar.com/content/uploads/2015/11/demo.gif"><img alt="ECP Color Customizer Demo" src="http://theeventscalendar.com/content/uploads/2015/11/demo.gif" /></a></p>
+<p style="text-align: center;"><a href="https://s3.theeventscalendar.com/uploads/2015/11/demo.gif"><img alt="ECP Color Customizer Demo" src="https://s3.theeventscalendar.com/uploads/2015/11/demo.gif" /></a></p>
 
 <p style="text-align: center;">&nbsp;</p>
 
@@ -316,8 +316,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 26, 2018, 11:49 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:36 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -411,10 +411,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="451403-The-Events-Calendar-and-the-WordPress-Customizer#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

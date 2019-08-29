@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="723277-Importing-events-from-Eventbritecom" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="723277-Importing-events-from-Eventbritecom" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -124,7 +124,7 @@ zaius.event('pageview');
 
 <p>The first step to using Eventbrite Tickets to import your events is to navigate to <strong>Events &gt; Imports</strong> from the main WordPress dashboard:</p>
 
-<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/05/Eventbrite-Imports-Screen.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/05/Eventbrite-Imports-Screen.png" /></p>
 
 <p>This will take you to the main import page where you'll have Eventbrite as one of the available import origins. If you are already a user of the Event Aggregator tool, this will look familiar. Else, you can learn more about it in the <a href="https://theeventscalendar.com/knowledgebase/new-user-primer-event-aggregator/">Event Aggregator user primer</a>.</p>
 
@@ -143,7 +143,7 @@ zaius.event('pageview');
 
 <p>Start by navigating to <strong>Events &gt; Imports</strong> from the main WordPress dashboard:</p>
 
-<p style="text-align: center;"><img alt="How to import Eventbrite events without tickets: Events &gt; Import &gt; Other URL &gt; Eventbrite" src="http://theeventscalendar.com/content/uploads/2018/06/events-import-otherurl-eb.png" /></p>
+<p style="text-align: center;"><img alt="How to import Eventbrite events without tickets: Events &gt; Import &gt; Other URL &gt; Eventbrite" src="https://s3.theeventscalendar.com/uploads/2018/06/events-import-otherurl-eb.png" /></p>
 
 <ul>
 	<li><strong>Select Other URL as Import Origin: </strong>If you have not established a connection with Evenbrite API, you'll be prompted to do so.</li>
@@ -179,8 +179,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Mar 07, 2019, 01:59 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-07" itemprop="dateModified">Mar 07 (2 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:36 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -258,10 +258,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="723277-Importing-events-from-Eventbritecom#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

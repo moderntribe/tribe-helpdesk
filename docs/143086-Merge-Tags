@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="143086-Merge-Tags" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="143086-Merge-Tags" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Merge Tags</title>            <meta property="og:url" content="//support.theeventscalendar.com/143086-Merge-Tags" />    <meta property="og:title" content="Merge Tags" />    <meta property="og:description" content="Merge tags are a feature that allow you to customize a message with details about the event or personalize the message to the person receiving it.  For example, let’s say that you want to include th" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Merge Tags</title>            <meta property="og:url" content="//support.theeventscalendar.com/143086-Merge-Tags" />    <meta property="og:title" content="Merge Tags" />    <meta property="og:description" content="Merge tags are dynamic fields that allow you to customize the content of a message.  For example, let’s say that you want to include the first name of the attendee, the title of the event and the nu" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,118 +116,123 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Merge tags are a feature that allow you to customize a message with details about the event or personalize the message to the person receiving it.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Merge tags are dynamic fields that allow you to customize the content of a message.</p>
 
-<p>For example, let’s say that you want to include the name of the attendee in the greeting of the message and the start date of the event in the body. Adding those merge tags to the content will be replaced with the actual information of those tags when the message is sent out.</p>
+<p>For example, let’s say that you want to include the first name of the attendee, the title of the event and the number of days left until the the event begins in your message.<br />
+You can simply use the "Attendee First Name", "Event Title" and "Days Until Event" merge tags to do so.</p>
 
-<p><b id="docs-internal-guid-27025606-7fff-9a06-d882-e0dec473b22f"><img height="180" src="https://lh6.googleusercontent.com/uM6yXDi2k9mw4U9cUEKdOFcOqivVp9bQBEyrMFdZb85qJoG5ECVkAg1qZiKc_uyGrUCZ3NH_MdMZ5nQstoKNF8JoykXW7qwjeA3oogvGlmWzSfMFLTsaljnAmBUpDb3kVpPsKV8" width="624" /></b></p>
+<p>As the message is sent out, each merge tag will be dynamically replaced with the desired information.</p>
+
+<p><b id="docs-internal-guid-27025606-7fff-9a06-d882-e0dec473b22f"><img height="auto" src="https://lh6.googleusercontent.com/uM6yXDi2k9mw4U9cUEKdOFcOqivVp9bQBEyrMFdZb85qJoG5ECVkAg1qZiKc_uyGrUCZ3NH_MdMZ5nQstoKNF8JoykXW7qwjeA3oogvGlmWzSfMFLTsaljnAmBUpDb3kVpPsKV8" width="624" /></b></p>
 
 <h2>Types of Merge Tags</h2>
 
-<p>There are merge tags for several types of information, including Event Details, Ticket Information, Venue Details, and Attendee Data. Merge tags will fall into those categories and are available in the Message Editor to the right of the right of the message subject line and message body.</p>
+<p>Merge tags are available for every aspect of an event: Event details, Venue Details, Tickets information, Attendee Data, etc.. Merge Tags are located to the right of the message subject line and message body.</p>
 
-<p><b id="docs-internal-guid-d2d321d7-7fff-0183-02f3-67ebbd345eb1"><img height="233" src="https://lh5.googleusercontent.com/mmjDAmpNduvfJezYLW_VmW1GpMR62b4sIWxU90xOY2F1E81om8kqYne8zYf1izqZl-lcNtMRUkjqGBEzXcMRYRuq32uHSjTR1PedqQaDC5I0gBXuoiVlMh_UDozorR4IrJObYZA" width="624" /></b></p>
+<p><b id="docs-internal-guid-d2d321d7-7fff-0183-02f3-67ebbd345eb1"><img height="auto" src="https://lh5.googleusercontent.com/mmjDAmpNduvfJezYLW_VmW1GpMR62b4sIWxU90xOY2F1E81om8kqYne8zYf1izqZl-lcNtMRUkjqGBEzXcMRYRuq32uHSjTR1PedqQaDC5I0gBXuoiVlMh_UDozorR4IrJObYZA" width="624" /></b></p>
 
 <h2>How to Use Merge Tags</h2>
 
-<p>To add a merge tag to a message, make sure your cursor is where you want the tag to appear in the message, then click on the tag in the toolbar that contains the merge tags. That’s it! The merge tag will display in the message editor and be replaced with real data when the message is sent.</p>
+<p>To add a merge tag to a message, place the cursor exactly where you want the tag to appear in the message and click on the desired tag. The merge tag will now display in the message editor.</p>
 
-<p><b id="docs-internal-guid-627898c3-7fff-2545-cb4a-7af53cd8ed11"><img height="293" src="https://lh6.googleusercontent.com/3sb76_FSwN0jA1E9Tb5RfAStsJ5_Siw60_C56l1tYciTpEg4bZU39stlojMJnPbFg96FkoNkFeXCANcnRCSFGYOf87yZIdKW4cn6eL-0famOQYsoGy7O_Y1q8IOrcdiVY4TlS5Y" width="624" /></b></p>
+<p><b id="docs-internal-guid-627898c3-7fff-2545-cb4a-7af53cd8ed11"><img height="auto" src="https://lh6.googleusercontent.com/3sb76_FSwN0jA1E9Tb5RfAStsJ5_Siw60_C56l1tYciTpEg4bZU39stlojMJnPbFg96FkoNkFeXCANcnRCSFGYOf87yZIdKW4cn6eL-0famOQYsoGy7O_Y1q8IOrcdiVY4TlS5Y" width="624" /></b></p>
 
 <h2>Preview Merge Tags</h2>
 
-<p>It’s always a good idea to preview a message to make sure everything looks good and you have a chance to edit it before it is sent to attendees.</p>
+<p>It’s always a good idea to preview a message to make sure everything looks good.</p>
 
-<p>Use the Preview link at the top of the Message Editor to see an example of the message with merge tags in brackets where the data will go.</p>
+<p>Use the Preview link at the top of the Message Editor to see what your message will look like. Merge tags will be replaced by brackets to give you a sense of where the data will go.</p>
 
-<p><b id="docs-internal-guid-9d497b4a-7fff-7eff-911a-855191779f4b"><img height="268" src="https://lh5.googleusercontent.com/8D708abfU1N41MtdZQg2y44GWg8y4C2D2kwSfjWhqyOKtf8hzPSOV8Fo9u2uk40tJYMbHVoPDor_ZOXjTMb_px5BvlfQ4fHPWZVkuc0Ciy8Tzrbff2VKwrMJIVfJP6ZcWcNYreM" width="624" /></b></p>
+<p><img height="auto" src="scripts/file.php%3Fview=Y&amp;file=a5a4ri1u3942zv1vnh6zw9u4ozok811c" width="484" /></p>
 
 <h2>Merge Tag Cheat Sheet</h2>
 
-<p>Promoter includes many merge tags to help you customize a message with dynamic content. Here’s a quick reference you can use to see them all in one place and what each one does.</p>
-
 <h3>Events</h3>
 
-<p>The merge tags in this section include details about the event related to the message.</p>
+<p>The merge tags in this section include details about the event you are sending a message for.</p>
 
 <table>
 	<thead>
 		<tr>
-			<th>Merge Tag</th>
-			<th>Description</th>
+			<th style="width:20%; font-weight:500;">Merge Tag</th>
+			<th style="font-weight:500;">Description</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
+		<tr style="line-height: 1.3em;font-size: 17px !important;">
 			<td>Event Title</td>
 			<td>Adds the title of the event to the message.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Event Excerpt</td>
-			<td>Use this tag to include the WordPress excerpt for the event. If no excerpt is specifically defined for the event, then this tag will use the excerpt that is automatically generated by WordPress.</td>
+			<td>Includes the WordPress excerpt for the event. If no excerpt is defined for the event, this tag will use the excerpt automatically generated by WordPress.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Event Start Date</td>
 			<td>Adds the date the event is scheduled to begin. E.g. July 15</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Event Start Time</td>
 			<td>Adds the time of day that the event is scheduled to begin. E.g. 10:00 a.m.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Event End Date</td>
 			<td>Adds the date the event is scheduled to end. E.g. July 16</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Event End Time</td>
 			<td>Adds the time of day that the event is scheduled to begin. E.g. 10:00 a.m.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Event URL</td>
-			<td>Adds the web address of the event to the message. E.g. your-website.com/link-to-event</td>
+			<td>Adds the web address (URL) of the event to the message. E.g. your-website.com/link-to-event</td>
 		</tr>
 	</tbody>
 </table>
 
-<h3>&nbsp;</h3>
-
+<p>&nbsp;</p>
 <h3>Tickets</h3>
 
-<p>The merge tags in this section contain information about tickets that have been created for the event using the Event Tickets / Event Tickets Plus &nbsp;plugin.</p>
+<p>The merge tags in this section contain information about the tickets created for the event using the Event Tickets and/or Event Tickets Plus plugin.</p>
+
+<p>If you have several tickets for an event, each ticket will get dedicated merge tags. For example, if you have one ticket called Early Bird and another ticket called General Admission, you will have the following options for the Ticket Name merge tag:</p>
+
+<ul>
+	<li style="margin-bottom: 1em !important;">Ticket Name (Early Bird)</li>
+	<li>Ticket Name (General Admission)</li>
+</ul>
 
 <table>
 	<thead>
 		<tr>
-			<th>Merge Tag</th>
-			<th>Description</th>
+			<th style="width:20%; font-weight:500;">Merge Tag</th>
+			<th style="font-weight:500;">Description</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Buy Now Link</td>
 			<td>Adds a direct link to the ticket form on the event page of your website.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Ticket Name</td>
-			<td>Adds the name of the ticket. There are options in the toolbar for each ticket name. For example, if you have one ticket called Early Bird and another ticket called General Admission, then the following options will be available in the toolbar and will output those names, respectively:
-			<ul>
-				<li>Ticket Name (Early Bird)</li>
-				<li>Ticket Name (General Admission)</li>
-			</ul>
+			<td>Adds the name of the ticket.</td>
+		</tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
+			<td>Ticket Price</td>
+			<td>
+			<p style="font-size: 17px !important;">Displays the price of a ticket for the event.</p>
+
+			<p style="font-size: 17px !important;">Important note: the currency is not included in the output. As such, you will want to make sure to include it before or after the merge tag, depending on the currency.</p>
 			</td>
 		</tr>
-		<tr>
-			<td>Ticket Price</td>
-			<td>Displays the price of a ticket for the event. There are options for each ticket type that has been created for the event. For example, if you have one ticket called Early Bird that is priced at $15 and another ticket called General Admission that is priced at $20, then the following options will be available in the toolbar: `
-			<ul>
-				<li>Ticket Price (Early Bird): Outputs “15”</li>
-				<li>Ticket Price (General Admission): Outputs “20”</li>
-			</ul>
-			Note that the currency is not included in the output, so be sure to include that either before or after the merge tag, depending on the currency.</td>
-		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Tickets Remaining</td>
-			<td>Displays the quantity of tickets that are left to purchase for the event for a particular ticket. For example, if you have a ticket called General Admission that has 100 tickets available and 90 tickets have been purchased, then the option “Tickets Remaining (General Admission)” option will be available in the toolbar and will display “10” in the message.</td>
+			<td>
+			<p style="font-size: 17px !important;">Displays the quantity of tickets that are left to purchase for the event for a particular ticket.</p>
+
+			<p style="font-size: 17px !important;">For example, if you have a ticket that has 100 tickets available and 90 tickets have been purchased, once the message is sent the merge tag will be dynamically replaced by “10” in the message.</p>
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -241,22 +246,22 @@ zaius.event('pageview');
 <table>
 	<thead>
 		<tr>
-			<th>Merge Tag</th>
-			<th>Description</th>
+			<th style="width:20%; font-weight:500;">Merge Tag</th>
+			<th style="font-weight:500;">Description</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Venue Name</td>
 			<td>Displays the name of the venue, if one is available.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Venue Address</td>
 			<td>Displays the physical address of the location, as provided by the site.</td>
 		</tr>
 	</tbody>
 </table>
-
+<p>&nbsp;</p>
 <h3>Attendees</h3>
 
 <p>The merge tags in this section provide details about the attendee receiving the sent message.</p>
@@ -264,24 +269,24 @@ zaius.event('pageview');
 <table>
 	<thead>
 		<tr>
-			<th>Merge Tag</th>
-			<th>Description</th>
+			<th style="width:20%; font-weight:500;">Merge Tag</th>
+			<th style="font-weight:500;">Description</th>
 		</tr>
 	</thead>
 	<tbody>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Attendee First Name</td>
 			<td>Adds the first name of the attendee receiving the message.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Attendee Last Name</td>
 			<td>Adds the last name of the attendee receiving the message.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Attendee Email</td>
 			<td>Adds the email address of the the attendee receiving the message.</td>
 		</tr>
-		<tr>
+		<tr style="line-height: 1.3em; padding:8px 4px;font-size: 17px !important;">
 			<td>Attendee Ticket Type</td>
 			<td>Adds the name of the ticket the attendee has purchased. For example, if the attendee purchased a ticket called “General Admission,” then that will be the name that is displayed in the message.</td>
 		</tr>
@@ -297,8 +302,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 25, 2019, 08:58 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-25" itemprop="dateModified">Jan 25 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 13, 2019, 11:38 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-13" itemprop="dateModified">Jul 13 (45 days ago)</time></span>
               </div>
                         <time datetime="2018-12-19" itemprop="datePublished"></time>
           </div>
@@ -379,10 +384,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="143086-Merge-Tags#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

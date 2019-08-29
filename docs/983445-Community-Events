@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="983445-Community-Events" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="983445-Community-Events" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-category">	
+<body class="montana  page-category">
 	
              
 	    <!-- nav -->
@@ -108,11 +108,20 @@ zaius.event('pageview');
 	<div class="list-group article-list" itemscope itemtype="https://schema.org/ItemList">
         
                         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="846635-Community-Events-Shortcodes" itemprop="item" class="list-group-item item-A" title="Community Events Shortcodes">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Community Events Shortcodes</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/846635-Community-Events-Shortcodes" />
+                                    <div itemprop="description" class="article-preview">Community Events (https://support.theeventscalendar.com/890921-New-User-Primer-Community-Events) adds pages to your site where people submitting events can access the form to submit (https://support.theeventscalendar.com/238593-Accessing-and-Linking-to-Community-Events-Pages) or edit (https://support.theeventscalendar.com/238593-Accessing-and-Linking-to-Community-Events-Pages), and manage attendees and orders (https://support.theeventscalendar.com/622969-Tickets-Managing-Your-Orders-and-Attendee...</div>
+                  <meta itemprop="position" content="1" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="238593-Accessing-and-Linking-to-Community-Events-Pages" itemprop="item" class="list-group-item item-A" title="Accessing and Linking to Community Events Pages">                  
                   <h3 class="list-group-item-heading" itemprop="name">Accessing and Linking to Community Events Pages</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/238593-Accessing-and-Linking-to-Community-Events-Pages" />
                                     <div itemprop="description" class="article-preview">Once you've installed and activated the Community Events plugin on your site, it's time to add some links to your event submission forms for your users. First, you'll need to locate the Community Events pages for your specific site configuration. How you access these pages will differ depending on whether or not you have permalinks enabled. While most users do enable a pretty permalink structure (https://support.theeventscalendar.com/680252-Permalinks-best-practices) on the site, it isn't for ev...</div>
-                  <meta itemprop="position" content="1" />
+                  <meta itemprop="position" content="2" />
                 </a>
             </div>
                     
@@ -121,7 +130,7 @@ zaius.event('pageview');
                   <h3 class="list-group-item-heading" itemprop="name">Setting up reCAPTCHA for Community Events</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/094053-Setting-up-reCAPTCHA-for-Community-Events" />
                                     <div itemprop="description" class="article-preview">Opening up your calendars to user event submissions with Community Events is a great way to engage your visitors and build diverse content that reflects the needs and interests of your user community. Our plugin's default settings (https://support.theeventscalendar.com/786442-Setting-Overview-Community-Events) allow submissions to be received from any and all sources, including anonymous visitors, so that you're able to curate content from the broadest possible selection of users. However, in th...</div>
-                  <meta itemprop="position" content="2" />
+                  <meta itemprop="position" content="3" />
                 </a>
             </div>
                     
@@ -129,13 +138,13 @@ zaius.event('pageview');
                 <a href="152335-Community-Tickets-Tracking-sales--getting-paid" itemprop="item" class="list-group-item item-A" title="Community Tickets: Tracking sales &amp; getting paid">                  
                   <h3 class="list-group-item-heading" itemprop="name">Community Tickets: Tracking sales &amp; getting paid</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/152335-Community-Tickets-Tracking-sales--getting-paid" />
-                                    <div itemprop="description" class="article-preview">Community Tickets allow site admins to collect fees for ticket sales made on their site.
- As the site admin, you can view ticket sales from your dashboard. You can access the sales report for an event two different ways. From your main Events listings, mouseover the event and then select Orders.
+                                    <div itemprop="description" class="article-preview">Community Tickets allows site admins to collect fees for ticket sales made on their site. You have control over your preferred payment gateway for ticket sales and use PayPal to pay organizers. Be sure to configure your Split Payments (https://support.theeventscalendar.com/587135-Community-Tickets-Split-Payments) and Site Fees (https://support.theeventscalendar.com/117835-Community-Tickets-Site-Fees) settings.
  
- Alternatively, you can click the Sales Report link in the ticket section of the Edit Event Screen.
- 
- Both of these links will take you to the event's order report. This page shows all the tickets tha...</div>
-                  <meta itemprop="position" content="3" />
+
+Orders
+
+ As the site admin, you can view ticket sales from your dashboard. You can ...</div>
+                  <meta itemprop="position" content="4" />
                 </a>
             </div>
                     
@@ -146,7 +155,7 @@ zaius.event('pageview');
                                     <div itemprop="description" class="article-preview">In the Community Events settings (https://support.theeventscalendar.com/786442-Setting-Overview-Community-Events), you can control the status of events that are submitted via the Add Event form. But perhaps you'd like a little more control over that.
  The snippet below will auto-publish any event submitted by a registered, logged in user. Any other submitted events (i.e., those submitted by anonymous users) will go to whatever your default status is set to (e.g. Draft or Pending Review).
  To add...</div>
-                  <meta itemprop="position" content="4" />
+                  <meta itemprop="position" content="5" />
                 </a>
             </div>
                     
@@ -157,7 +166,7 @@ zaius.event('pageview');
                                     <div itemprop="description" class="article-preview">Ready to get started with Community Events? We’ve got you covered! The steps below will help you get set up and ready to use your calendar’s new add-on features.
  If you are new to our core plugin, The Events Calendar, you’ll want to make sure to familiarize yourself with it (https://support.theeventscalendar.com/342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO) before continuing here.
  1. Download and install the plugin (https://support.theeventscalendar.com/847919-Downloading...</div>
-                  <meta itemprop="position" content="5" />
+                  <meta itemprop="position" content="6" />
                 </a>
             </div>
                     
@@ -172,7 +181,7 @@ Review your settings
 
  After installing the Community Events add-on, it's important to verify your Event Submission settings by going to Events --&gt; Settings --&gt; Community and reviewing the available options.
  First, you'll want to decide if your site will allow anonymous submissions or not. With this feature disabled, only ...</div>
-                  <meta itemprop="position" content="6" />
+                  <meta itemprop="position" content="7" />
                 </a>
             </div>
                     
@@ -194,7 +203,7 @@ Review your settings
 CSS Only: Body Classes
 
  Any correctly-made WordPress theme will make use of the WordPress Core function body_class() (https://develop...</div>
-                  <meta itemprop="position" content="7" />
+                  <meta itemprop="position" content="8" />
                 </a>
             </div>
                     
@@ -204,7 +213,7 @@ CSS Only: Body Classes
                   <meta itemprop="url" content="//support.theeventscalendar.com/112713-Adding-Content-Above-or-Below-Community-Events-Pages" />
                                     <div itemprop="description" class="article-preview">You may want to include some instructions for your users at the top of the Community Events submission form, or add some notes or sponsor information at the bottom of the "My Events" page. But the Community Events submission form and "My Events" pages are not actual WordPress pages, so to add content above or below these pages, you'll need to use on of the following three methods.
  The available methods are sorted in this guide in order of difficulty, with the easiest method first. The three met...</div>
-                  <meta itemprop="position" content="8" />
+                  <meta itemprop="position" content="9" />
                 </a>
             </div>
                     
@@ -217,7 +226,7 @@ CSS Only: Body Classes
  
 -------------------------
  By default, only the Event Title and Event Description are required on the Community Events submission form. But you can use plugin filters t...</div>
-                  <meta itemprop="position" content="9" />
+                  <meta itemprop="position" content="10" />
                 </a>
             </div>
                     
@@ -231,7 +240,7 @@ CSS Only: Body Classes
 Changing the 'Event Submission Form' Page Title
 
  You can easily change the page title on the submission form using the tribe_ce_submit...</div>
-                  <meta itemprop="position" content="10" />
+                  <meta itemprop="position" content="11" />
                 </a>
             </div>
                     
@@ -248,7 +257,7 @@ General
 
  	- Allow anonymous submissions: Allow anonymous (non-logged in) users to submit events on your site. With this feature disabled, only users with registered accounts may submit.
  	- Use visu...</div>
-                  <meta itemprop="position" content="11" />
+                  <meta itemprop="position" content="12" />
                 </a>
             </div>
                 	</div>
@@ -287,10 +296,10 @@ General
 		</footer>
 	<a href="983445-Community-Events#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

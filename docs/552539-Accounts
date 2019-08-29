@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="552539-Accounts" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="552539-Accounts" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-category">	
+<body class="montana  page-category">
 	
              
 	    <!-- nav -->
@@ -132,7 +132,8 @@ zaius.event('pageview');
                 <a href="718165-Can-I-Sync-My-Account-With-Another-Website" itemprop="item" class="list-group-item item-A" title="Can I Sync My Account With Another Website?">                  
                   <h3 class="list-group-item-heading" itemprop="name">Can I Sync My Account With Another Website?</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/718165-Can-I-Sync-My-Account-With-Another-Website" />
-                                    <div itemprop="description" class="article-preview">Each Promoter account can sync with one website. If you are looking to sync additional sites, then purchase an additional license per site, enter the license in the WordPress admin of each site, then link them up during the Promoter account setup.</div>
+                                    <div itemprop="description" class="article-preview">Each Promoter account can sync with one website.
+ If you are looking to sync additional sites, you will need to purchase an additional license for each site. Once that is done, go through our Promoter Setup guide (https://support.theeventscalendar.com/329824-Promoter-Setup-Guide-) for each of these licenses.</div>
                   <meta itemprop="position" content="2" />
                 </a>
             </div>
@@ -169,9 +170,10 @@ What is th...</div>
                 <a href="828372-Why-Am-I-Unable-to-Send-Messages" itemprop="item" class="list-group-item item-A" title="Why Am I Unable to Send Messages?">                  
                   <h3 class="list-group-item-heading" itemprop="name">Why Am I Unable to Send Messages?</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/828372-Why-Am-I-Unable-to-Send-Messages" />
-                                    <div itemprop="description" class="article-preview">If you are unable to send messages, then chances are that your account has been placed on hold. This only happens when you have exceeded the sending limits of our API or there was a failed transaction when trying to renew your subscription.
- You are still able to access your account when it is placed on hold and your data, including messages you have created, will remain in place.
- Please contact us (https://support.theeventscalendar.com/submit_ticket) if your account is on hold so we can help u...</div>
+                                    <div itemprop="description" class="article-preview">If you are unable to send messages, chances are that your account has been placed on hold.
+ This typically happens if you have exceeded the sending limits of our API or if there was a declined or failed transaction while trying to renew your subscription.
+ Thankfully, you are still able to access your account when it is placed on hold. Furthermore, your data, including messages you have created, will remain in place.
+ Please contact us (https://support.theeventscalendar.com/submit_ticket) if you...</div>
                   <meta itemprop="position" content="5" />
                 </a>
             </div>
@@ -180,8 +182,10 @@ What is th...</div>
                 <a href="736698-What-Happens-if-I-Cancel-My-Subscription" itemprop="item" class="list-group-item item-A" title="What Happens if I Cancel My Subscription?">                  
                   <h3 class="list-group-item-heading" itemprop="name">What Happens if I Cancel My Subscription?</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/736698-What-Happens-if-I-Cancel-My-Subscription" />
-                                    <div itemprop="description" class="article-preview">Promoter subscriptions are annual and can be canceled any time during the subscription. You will still be able to continue to use Promoter and access your account throughout the remainder of your annual subscription after canceling. You will not be charged at the next billing cycle.
- We will hang onto your account so you can continue to access it even after you cancel and your account is inactive. That way, you are able to log in and reference your archive of past messages and attendees. The onl...</div>
+                                    <div itemprop="description" class="article-preview">Promoter subscriptions are annual and can be canceled any time during the subscription.
+ If you cancel your subscription, you will still be able to use Promoter normally throughout the remainder of your annual subscription. You simply will not be charged at the next billing cycle.
+ Subscriptions that are not renewed will be considered inactive after the next billing cycle date.
+ When a subscription is inactive, events will no longer sync from your site and sending messages will be disabled. Any ...</div>
                   <meta itemprop="position" content="6" />
                 </a>
             </div>
@@ -190,7 +194,8 @@ What is th...</div>
                 <a href="224028-How-Do-I-Update-My-Payment-Information" itemprop="item" class="list-group-item item-A" title="How Do I Update My Payment Information?">                  
                   <h3 class="list-group-item-heading" itemprop="name">How Do I Update My Payment Information?</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/224028-How-Do-I-Update-My-Payment-Information" />
-                                    <div itemprop="description" class="article-preview">All payment information and billing records can be found in your TheEventsCalendar.com account (https://theeventscalendar.com/my-account/). Log in with the email address and password you created when purchasing your Promoter subscription and then navigate to the Payment Methods (https://theeventscalendar.com/my-account/payment-methods/) screen to add, edit and remove payment options.</div>
+                                    <div itemprop="description" class="article-preview">All payment information and billing records can be found in your TheEventsCalendar.com account (https://theeventscalendar.com/my-account/).
+ Log in with the email address and password you created when purchasing your Promoter subscription and then navigate to the Payment Methods (https://theeventscalendar.com/my-account/payment-methods/) screen to add, edit and remove payment options.</div>
                   <meta itemprop="position" content="7" />
                 </a>
             </div>
@@ -230,10 +235,10 @@ What is th...</div>
 		</footer>
 	<a href="552539-Accounts#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

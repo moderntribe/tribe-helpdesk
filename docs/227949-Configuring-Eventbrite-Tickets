@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="227949-Configuring-Eventbrite-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="227949-Configuring-Eventbrite-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -127,13 +127,13 @@ zaius.event('pageview');
 
 <p>To import events and display tickets on your site, select the Eventbrite Import Origin.</p>
 
-<p style="text-align: center;"><img alt="Eventbrite Import Origin" src="http://theeventscalendar.com/content/uploads/2018/06/eventbrite-import-origin.png" /></p>
+<p style="text-align: center;"><img alt="Eventbrite Import Origin" src="https://s3.theeventscalendar.com/uploads/2018/06/eventbrite-import-origin.png" /></p>
 
 <p><strong>Note</strong>: Events imported with Event Aggregator's "Other URL" will not display tickets.</p>
 
 <p>You can modify the default "Status", "Category" and "Show Google Map" options for your imports by navigating to&nbsp;<strong>WP Admin &gt; Events &gt; Settings &gt; Imports</strong> tab.</p>
 
-<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/05/Eventbrite-Import-Settings.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/05/Eventbrite-Import-Settings.png" /></p>
 
 <p>Do also note that your Eventbrite imports will obey the <a href="https://theeventscalendar.com/knowledgebase/event-aggregator-import-settings/#update-authority">Event Update Authority settings</a>.</p>
 
@@ -141,11 +141,11 @@ zaius.event('pageview');
 
 <p>If you need to remove authorization from Eventbrite.com, visit <strong>Events → Settings → APIs</strong> and select the "Remove Authorization" button. You should see a <strong>"Success! You have deauthorized your Eventbrite Application Key."</strong> message. The Eventbrite ticket section on your WordPress events will no longer display.</p>
 
-<p style="text-align: center;"><img alt="eventbrite-tickets-remove-authorization-success-message" src="https://theeventscalendar.com/content/uploads/2015/04/Eventbrite-Tickets-Remove-Authorization-Success-Message.png" /></p>
+<p style="text-align: center;"><img alt="eventbrite-tickets-remove-authorization-success-message" src="https://s3.theeventscalendar.com/uploads/2015/04/Eventbrite-Tickets-Remove-Authorization-Success-Message.png" /></p>
 
 <p>If you are using <strong>Eventbrite Tickets 4.5&nbsp;</strong>you will simply need to click <strong>Disconnect </strong>next to the <em>Refresh your connection to Eventbrite </em>button.</p>
 
-<p style="text-align: center;"><img alt="" src="http://theeventscalendar.com/content/uploads/2018/05/Disconnect-Eventbrite.png" /></p>
+<p style="text-align: center;"><img alt="" src="https://s3.theeventscalendar.com/uploads/2018/05/Disconnect-Eventbrite.png" /></p>
 </div>    			
 				<div class="Files">
 					    			
@@ -156,8 +156,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 08:33 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:36 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -235,10 +235,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="227949-Configuring-Eventbrite-Tickets#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

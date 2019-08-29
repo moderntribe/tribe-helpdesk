@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="736698-What-Happens-if-I-Cancel-My-Subscription" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="736698-What-Happens-if-I-Cancel-My-Subscription" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>What Happens if I Cancel My Subscription?</title>            <meta property="og:url" content="//support.theeventscalendar.com/736698-What-Happens-if-I-Cancel-My-Subscription" />    <meta property="og:title" content="What Happens if I Cancel My Subscription?" />    <meta property="og:description" content="Promoter subscriptions are annual and can be canceled any time during the subscription. You will still be able to continue to use Promoter and access your account throughout the remainder of your annu" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>What Happens if I Cancel My Subscription?</title>            <meta property="og:url" content="//support.theeventscalendar.com/736698-What-Happens-if-I-Cancel-My-Subscription" />    <meta property="og:title" content="What Happens if I Cancel My Subscription?" />    <meta property="og:description" content="Promoter subscriptions are annual and can be canceled any time during the subscription.  If you cancel your subscription, you will still be able to use Promoter normally throughout the remainder of yo" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,11 +116,17 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Promoter subscriptions are annual and can be canceled any time during the subscription. You will still be able to continue to use Promoter and access your account throughout the remainder of your annual subscription after canceling. You will not be charged at the next billing cycle.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Promoter subscriptions are annual and can be canceled any time during the subscription.</p>
 
-<p>We will hang onto your account so you can continue to access it even after you cancel and your account is inactive. That way, you are able to log in and reference your archive of past messages and attendees. The only difference with an inactive subscription is that events will no longer sync from your site and sending messages will be disabled. Any messages that were scheduled to send after the account becomes inactive will be placed on hold.</p>
+<p>If you cancel your subscription, you will still be able to use Promoter normally throughout the remainder of your annual subscription. You simply will not be charged at the next billing cycle.</p>
 
-<p>You can re-subscribe any time to reactive syncing and re-enable message sending.</p>
+<p>Subscriptions that are not renewed will be considered inactive after the next billing cycle date.</p>
+
+<p>When a subscription is inactive, events will no longer sync from your site and sending messages will be disabled. Any messages that were scheduled to send after the account becomes inactive will be placed on hold.</p>
+
+<p><strong>Important note:</strong> it is still possible to access accounts where the subscription is inactive, allowing you to consult your archive of past messages and attendees.</p>
+
+<p>You can re-subscribe any time to reactivate syncing and re-enable message sending.</p>
 </div>    			
 				<div class="Files">
 					    			
@@ -131,8 +137,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 25, 2019, 09:02 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-25" itemprop="dateModified">Jan 25 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 14, 2019, 10:37 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-14" itemprop="dateModified">Jul 14 (44 days ago)</time></span>
               </div>
                         <time datetime="2018-12-21" itemprop="datePublished"></time>
           </div>
@@ -213,10 +219,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="736698-What-Happens-if-I-Cancel-My-Subscription#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

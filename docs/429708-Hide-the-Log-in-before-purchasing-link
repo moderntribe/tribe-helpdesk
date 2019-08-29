@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="429708-Hide-the-Log-in-before-purchasing-link" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="429708-Hide-the-Log-in-before-purchasing-link" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -178,7 +178,7 @@ $can_login                    = <span class="hljs-keyword" style="color: rgb(203
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Nov 28, 2018, 02:27 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-11-28" itemprop="dateModified">Nov 28 (5 months ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-11-28" itemprop="dateModified">Nov 28 (8 months ago)</time></span>
               </div>
                         <time datetime="2018-11-28" itemprop="datePublished"></time>
           </div>
@@ -203,38 +203,38 @@ $can_login                    = <span class="hljs-keyword" style="color: rgb(203
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="284367-Allow-tickets-to-show-on-WooCommerce-shop-pages" class="article-link article-link-925" title="Allow tickets to show on WooCommerce shop pages">
+        <span class="TitleValue">Allow tickets to show on WooCommerce shop pages</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="593151-Using-Shortcodes-with-Beaver-Builder" class="article-link article-link-923" title="Using Shortcodes with Beaver Builder">
+        <span class="TitleValue">Using Shortcodes with Beaver Builder</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="016277-Filter-Bar-Modify-Quantity-of-Venues-Displayed" class="article-link article-link-921" title="Filter Bar: Modify Quantity of Venues Displayed">
+        <span class="TitleValue">Filter Bar: Modify Quantity of Venues Displayed</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="007473-Custom-Additional-Template-Locations" class="article-link article-link-915" title="Custom Additional Template Locations">
+        <span class="TitleValue">Custom Additional Template Locations</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="231681-Changing-the-Buy-Now-Button-Text" class="article-link article-link-909" title="Changing the &quot;Buy Now&quot; Button Text">
+        <span class="TitleValue">Changing the &quot;Buy Now&quot; Button Text</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="246030-Changing-the-Free-event-price-to-0-zero" class="article-link article-link-903" title="Changing the &#039;Free&#039; event price to &#039;0&#039; (zero)">
+        <span class="TitleValue">Changing the &#039;Free&#039; event price to &#039;0&#039; (zero)</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="333185-Using-Venues-for-Related-Events" class="article-link article-link-899" title="Using Venues for Related Events">
+        <span class="TitleValue">Using Venues for Related Events</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="173880-Sorting-Events-Alphabetically" class="article-link article-link-897" title="Sorting Events Alphabetically">
+        <span class="TitleValue">Sorting Events Alphabetically</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="903900-Removing-Free-from-Event-Cost-Range" class="article-link article-link-895" title="Removing &quot;Free&quot; from Event Cost Range">
+        <span class="TitleValue">Removing &quot;Free&quot; from Event Cost Range</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="847918-Hide-Ticket-Remaining-or-Available-Quantity-with-CSS" class="article-link article-link-869" title="Hide Ticket Remaining or Available Quantity with CSS">
         <span class="TitleValue">Hide Ticket Remaining or Available Quantity with CSS</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="726385-Show-Only-Todays-Events-on-the-Mini-Calendar-Widget-on-First-Load" class="article-link article-link-863" title="Show Only Today&#039;s Events on the Mini Calendar Widget on First Load">
-        <span class="TitleValue">Show Only Today&#039;s Events on the Mini Calendar Widget on First Load</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="463706-Hide-a-Day-in-Month-View" class="article-link article-link-861" title="Hide a Day in Month View">
-        <span class="TitleValue">Hide a Day in Month View</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="137279-Force-ZIP-Code-to-Stay-in-One-Line" class="article-link article-link-847" title="Force ZIP Code to Stay in One Line">
-        <span class="TitleValue">Force ZIP Code to Stay in One Line</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="131531-Formatting-Specific-Views-Only--Body-Classes-for-Views" class="article-link article-link-845" title="Formatting Specific Views Only / Body Classes for Views">
-        <span class="TitleValue">Formatting Specific Views Only / Body Classes for Views</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="943027-Hiding-the-Tooltip-Popup-on-Month-View" class="article-link article-link-799" title="Hiding the Tooltip Popup on Month View">
-        <span class="TitleValue">Hiding the Tooltip Popup on Month View</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="660301-Decreasing-the-waiting-time-between-an-order-placed-and-the-attendee-data-created" class="article-link article-link-793" title="Decreasing the waiting time between an order placed and the attendee data created.">
-        <span class="TitleValue">Decreasing the waiting time between an order placed and the attendee data created.</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="840231-Show-the-publicaton-date-as-the-pubDate-in-the-events-RSS-feed" class="article-link article-link-789" title="Show the publicaton date as the pubDate in the events RSS feed">
-        <span class="TitleValue">Show the publicaton date as the pubDate in the events RSS feed</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="755546-Changing-the-number-of-events-in-iCal-export" class="article-link article-link-783" title="Changing the number of events in iCal export">
-        <span class="TitleValue">Changing the number of events in iCal export</span>
-      </a></li>
-        <li class="list-group-item item-A"><a href="410568-What-Is-a-Recipe" class="article-link article-link-781" title="What Is a Recipe?">
-        <span class="TitleValue">What Is a Recipe?</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="588715-Recipes" class="MoreLinkTitle">and 16 more ...</a></div>
+        <div class="panel-footer"><a href="588715-Recipes" class="MoreLinkTitle">and 25 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -272,10 +272,10 @@ $can_login                    = <span class="hljs-keyword" style="color: rgb(203
 		</footer>
 	<a href="429708-Hide-the-Log-in-before-purchasing-link#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

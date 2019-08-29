@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="152335-Community-Tickets-Tracking-sales--getting-paid" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="152335-Community-Tickets-Tracking-sales--getting-paid" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Community Tickets: Tracking sales &amp; getting paid</title>        <meta name="keywords" content="Article,Beginner,Community Events,Community Tickets" />    <meta property="og:url" content="//support.theeventscalendar.com/152335-Community-Tickets-Tracking-sales--getting-paid" />    <meta property="og:title" content="Community Tickets: Tracking sales &amp; getting paid" />    <meta property="og:description" content="Community Tickets allow site admins to collect fees for ticket sales made on their site.  As the site admin, you can view ticket sales from your dashboard. You can access the sales report for an event" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Community Tickets: Tracking sales &amp; getting paid</title>        <meta name="keywords" content="Article,Beginner,Community Events,Community Tickets" />    <meta property="og:url" content="//support.theeventscalendar.com/152335-Community-Tickets-Tracking-sales--getting-paid" />    <meta property="og:title" content="Community Tickets: Tracking sales &amp; getting paid" />    <meta property="og:description" content="Community Tickets allows site admins to collect fees for ticket sales made on their site. You have control over your preferred payment gateway for ticket sales and use PayPal to pay organizers. Be sur" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=lfzskhan6fxdq7tlf6gxl42rbe7p8jmh" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -108,63 +108,55 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p class="p1">Community Tickets allow site admins to collect fees for ticket sales made on their site.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Community Tickets allows site admins to collect fees for ticket sales made on their site. You have control over your preferred payment gateway for ticket sales and use PayPal to pay organizers. Be sure to configure your <a href="587135-Community-Tickets-Split-Payments">Split Payments</a> and <a href="117835-Community-Tickets-Site-Fees">Site Fees</a> settings.</p>
 
-<p class="p1">As the site admin, you can view ticket sales&nbsp;from your dashboard. You can access the sales report for an event two different ways. From your main Events listings, mouseover the event and then select Orders.</p>
+<h2 id="orders">Orders</h2>
 
-<p class="p1" style="text-align: center;"><img alt="KB - admin orders" src="https://theeventscalendar.com/content/uploads/2015/10/KB-admin-orders-665x341.png" /></p>
+<p>As the site admin, you can view ticket sales from your dashboard. You can access the sales report for an event in two different ways. From your main Events listings, mouse over the event and then select Orders.</p>
 
-<p class="p1">Alternatively, you can click the Sales Report link in the ticket section of the Edit Event Screen.</p>
+<p>&nbsp;</p>
 
-<p class="p1" style="text-align: center;"><img alt="KB - admin orders 2" src="https://theeventscalendar.com/content/uploads/2015/10/KB-admin-orders-2-665x330.png" /></p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=lfzskhan6fxdq7tlf6gxl42rbe7p8jmh" /></p>
 
-<p class="p1">Both of these links will take you to the event's order report. This page shows all the tickets that have sold, and calculate the total revenue, ticket sales, and site fees.</p>
+<p style="text-align: center;">&nbsp;</p>
 
-<p class="p1" style="text-align: center;"><img alt="KB - admin order" src="https://theeventscalendar.com/content/uploads/2015/10/KB-admin-order-665x421.png" /></p>
+<p>Alternatively, you can click the Sales Report link in the ticket section of the Edit Event screen.</p>
 
-<p class="p1">The community organizer can also view their event's sales by clicking Reports: Sales under the event on their My Events page.</p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=h2y80y9g9qj3x8ducf87x50i0r8nunio" /></p>
 
-<p class="p1" style="text-align: center;"><img alt="KB - user sales" src="https://theeventscalendar.com/content/uploads/2015/10/KB-user-sales-665x232.png" /></p>
+<p>Both of these links will take you to the event's order report. This page shows all the tickets that have sold, and calculate the total revenue, ticket sales, and site fees.</p>
 
-<p class="p1">They'll then see their own version of the sales report:</p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=3n5v03r38454h8ufm4vcz7pnvgklgi8e" /></p>
 
-<p class="p1" style="text-align: center;"><img alt="KB user event orders" src="https://theeventscalendar.com/content/uploads/2015/10/KB-user-event-orders-665x486.png" /></p>
+<p>The community organizer can also view their event's sales by clicking Reports: Sales under the event on their My Events page.</p>
 
-<h3 class="p1" id="collecting">Collecting fees</h3>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=s2er0o7pmc5b7ukryy91tg2i1hzj3ff6" /></p>
 
-<p class="p1">There are two ways to collect fees from ticket sales.&nbsp;The default option is to have all ticket sales collected via your e-commerce engine (WooCommerce). You&nbsp;can then divide up the&nbsp;money as needed.</p>
+<p>They'll then see their own version of the sales report:</p>
 
-<p class="p1"><strong>With this method,</strong> <strong>it is your&nbsp;responsibility as the site admin to pay event organizers</strong>- by whatever method&nbsp;you prefer.&nbsp;You can use the sales data for each event to track how much is owed to the organizer and&nbsp;how much you have earned in fees.</p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=9pfgmt6hr71klwxh1gzm41buapjmdnie" /></p>
 
-<p class="p1">The second option is&nbsp;to&nbsp;enable split payments, which divide up each ticket sale according to your fee settings and immediately pays the site admin and the event organizer via PayPal. Read more about using split payments below.</p>
+<h2 id="Payouts">Payouts</h2>
 
-<h3 class="p1" id="splits">Using split payments</h3>
+<p>With Community Tickets, you have the ability to split payments from ticket sales with event organizers. See <a href="587135-Community-Tickets-Split-Payments">Split Payments</a> and <a href="117835-Community-Tickets-Site-Fees">Site Fees</a> to configure your settings.</p>
 
-<p>It's important to note that this functionality is currently based on PayPal’s Adaptive Payments API which was recently deprecated. We’re investigating replacements, however, it you do not already have&nbsp;a live, approved Adaptive Payments account then you may no longer be able to acquire one.</p>
+<p>To access your Payouts details, you can view your events in the admin dashboard, hover over the event, and select&nbsp;<strong>Payouts</strong>.&nbsp;</p>
 
-<p class="p1">If you already have a live, approved account however then you can enable split payments on the Community settings page.</p>
+<p><img src="scripts/file.php%3Fview=Y&amp;file=4az66c199dkmt191o5s4nw56xjl6o7mq" /></p>
 
-<p class="p1">When tickets are sold, you will automatically receive payments to the PayPal address defined in settings.&nbsp;The amount you receive depends on the fees you've defined in the main Community Tickets fee option settings.</p>
+<p>Here you will find a listing of all payouts from this event.</p>
 
-<p class="p1">The event organizer will also receive automatic payments for their part of the sales. With split payments enabled, the organizer will be required to fill in a PayPal address as part of the event creation. They will also be given the option to adjust the fee option defaults for their events from their&nbsp;<a href="https://cloudup.com/cLLbENEo9Cv" target="_blank">Payment Options page</a>.</p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=qc1sskd1fmhcnjeo5g2p9treybghkx6b" /></p>
 
-<h4 id="pros-cons"><strong>Are split payments right for you?&nbsp;</strong></h4>
+<h3 id="multiple">Multiple Tickets from different Events with the Same Organizer</h3>
 
-<p>We can help you decide.</p>
+<p>If a user has purchased a ticket from several events by the same community organizer, you will see all payouts for this event, as well as any other orders wiith this event and other events&nbsp;with the same organizer.</p>
 
-<p><strong>Pros:</strong></p>
+<p>In the example below, a user has purchased tickets to 3 different events hosted by the same organizer. Therefore, the&nbsp;<strong>Payouts</strong>&nbsp;tab shows all payouts related to this event, as well as the transactions where the user has purchased 2 other tickets from other events in the same order as this event, all from the same event organizer.</p>
 
-<ul>
-	<li>As a site admin, you have no responsibility to handle or distribute funds</li>
-	<li>Community organizers get paid immediately with no action from the admin</li>
-</ul>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=ww6i2ksr1ret4fbigpced9r2j0udgbz8" /></p>
 
-<p><strong>Cons:</strong></p>
-
-<ul>
-	<li>Split payments are more work to set up, and require a PayPal developer account</li>
-	<li>Refunds and canceled events are significantly more difficult to handle. Refunds are deducted from the site admin's total, with nothing taken from the community organizer's profits.e</li>
-</ul>
+<p>We hope this helps you sell tickets to your events and manage organizer earnings.&nbsp;But hey, we know it's a tricky thing to sort through, so&nbsp;head to our&nbsp;<a data-ytta-id="-" href="submit_ticket" target="_blank">support page</a>&nbsp;if you still have a question and we'd be happy to help!</p>
 </div>    			
 				<div class="Files">
 					    			
@@ -175,8 +167,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 07:41 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Aug 22, 2019, 05:55 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-22" itemprop="dateModified">Aug 22 (6 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -201,6 +193,9 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="846635-Community-Events-Shortcodes" class="article-link article-link-905" title="Community Events Shortcodes">
+        <span class="TitleValue">Community Events Shortcodes</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="238593-Accessing-and-Linking-to-Community-Events-Pages" class="article-link article-link-649" title="Accessing and Linking to Community Events Pages">
         <span class="TitleValue">Accessing and Linking to Community Events Pages</span>
       </a></li>
@@ -228,10 +223,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="599568-Modifying-the-Community-Events-page-titles" class="article-link article-link-335" title="Modifying the Community Events page titles">
         <span class="TitleValue">Modifying the Community Events page titles</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="786442-Setting-Overview-Community-Events" class="article-link article-link-217" title="Setting Overview: Community Events">
-        <span class="TitleValue">Setting Overview: Community Events</span>
-      </a></li>
     </ul>
+        <div class="panel-footer"><a href="983445-Community-Events" class="MoreLinkTitle">and 11 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -269,10 +262,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="152335-Community-Tickets-Tracking-sales--getting-paid#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

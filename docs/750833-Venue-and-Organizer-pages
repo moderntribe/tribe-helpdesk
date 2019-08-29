@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="750833-Venue-and-Organizer-pages" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="750833-Venue-and-Organizer-pages" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -164,7 +164,7 @@ Both Venues and Organizers are set up as custom taxonomies. If you're unfamiliar
 
 <p>You can also access these pages from the admin screen for each taxonomy. For example, go to Events &gt; Venues, then hover over one of the items and click the "View" link to see the page for that venue.</p>
 
-<p style="text-align: center;"><img alt="kb-venues_organizers-venues_admin" src="https://theeventscalendar.com/content/uploads/2014/10/kb-venues_organizers-venues_admin.png" /></p>
+<p style="text-align: center;"><img alt="kb-venues_organizers-venues_admin" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-venues_organizers-venues_admin.png" /></p>
 
 <h4>What can I expect to see on these pages?</h4>
 
@@ -180,7 +180,7 @@ Both Venues and Organizers are set up as custom taxonomies. If you're unfamiliar
 	<li>A list of upcoming events associated with the venu</li>
 </ul>
 
-<p>Check out a screenshot of <a href="http://theeventscalendar.com/content/uploads/2015/06/Upcoming-Events-Sushi-Ichiban-Example-Site.png">an example Venue page</a>. Please note that some themes can hide fields for these, in particular, the description. If you have entered a description and it is not showing on the front end, try switching your theme or doing some customizing to have it show.</p>
+<p>Check out a screenshot of <a href="https://s3.theeventscalendar.com/uploads/2015/06/Upcoming-Events-Sushi-Ichiban-Example-Site.png">an example Venue page</a>. Please note that some themes can hide fields for these, in particular, the description. If you have entered a description and it is not showing on the front end, try switching your theme or doing some customizing to have it show.</p>
 
 <p>You can expect a lot of great information on Organizer pages as well:</p>
 
@@ -193,13 +193,15 @@ Both Venues and Organizers are set up as custom taxonomies. If you're unfamiliar
 	<li>A list of upcoming events associated with the&nbsp;organizer</li>
 </ul>
 
-<p>Check out a screenshot of <a href="http://theeventscalendar.com/content/uploads/2015/06/Upcoming-Events-F.-Scott-Fitzgerald-.png">an example Organizer&nbsp;page</a>.</p>
+<p>Check out a screenshot of <a href="https://s3.theeventscalendar.com/uploads/2015/06/Upcoming-Events-F.-Scott-Fitzgerald-.png">an example Organizer&nbsp;page</a>.</p>
 
 <h4>How will my visitors find these pages?</h4>
 
 <p>All Venue and Organizer pages will be automatically linked to from any event they are associated with. For example, head over to any single event. You should see a box below the event content that contains additional details about the event. It will look something like this:</p>
 
-<p style="text-align: center;"><img alt="kb-venues_organizers-event_meta" src="https://theeventscalendar.com/content/uploads/2014/10/kb-venues_organizers-event_meta.png" /></p>
+<p style="text-align: center;"><img alt="kb-venues_organizers-event_meta" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-venues_organizers-event_meta.png" /></p>
+
+<p style="text-align: center;">Venue and Organizer in Classic Editor</p>
 
 <p>The links are highlighted in red. You don't have to do anything to make these links appear--the plugin does all the work by adding them there for you.</p>
 
@@ -209,7 +211,7 @@ Both Venues and Organizers are set up as custom taxonomies. If you're unfamiliar
 
 <p>We tried to make it very simple to add these to a menu and we did that by making them standard options in the Menu Settings screen (Appearance &gt; Menus). Head over there and you will see both Venues and Organizers are listed as options in the left menu. Select from&nbsp;any venue and organizer you have already created, add them to the menu and save your work. Presto! They are now in your main menu.</p>
 
-<p style="text-align: center;"><img alt="kb-venues_organizers-add_menu" src="https://theeventscalendar.com/content/uploads/2014/10/kb-venues_organizers-add_menu.gif" /></p>
+<p style="text-align: center;"><img alt="kb-venues_organizers-add_menu" src="https://s3.theeventscalendar.com/uploads/2014/10/kb-venues_organizers-add_menu.gif" /></p>
 
 <h3 id="what-else">What else can I do with Venues and Organizers?</h3>
 
@@ -224,8 +226,8 @@ Both Venues and Organizers are set up as custom taxonomies. If you're unfamiliar
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 26, 2018, 12:24 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-26" itemprop="dateModified">Dec 26 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 30, 2019, 12:51 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -319,10 +321,10 @@ Both Venues and Organizers are set up as custom taxonomies. If you're unfamiliar
 		</footer>
 	<a href="750833-Venue-and-Organizer-pages#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

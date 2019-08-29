@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="867204-Importing-Data-from-a-CSV-File" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="867204-Importing-Data-from-a-CSV-File" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -154,11 +154,11 @@ zaius.event('pageview');
 
 <p>The first field on the screen will ask you to identify the source of your new import. Select <strong>CSV File</strong> from the list of options.</p>
 
-<p style="text-align: center;"><img alt="Selecting &quot;CSV File&quot; as the import origin when importing from Event Aggregator" src="https://theeventscalendar.com/content/uploads/2016/10/csv_file_import_origin.png" /></p>
+<p style="text-align: center;"><img alt="Selecting &quot;CSV File&quot; as the import origin when importing from Event Aggregator" src="https://s3.theeventscalendar.com/uploads/2016/10/csv_file_import_origin.png" /></p>
 
 <h4>Step 3: Select the type of content to be imported</h4>
 
-<p style="text-align: center;"><img alt="kb-ea-csv-step3" src="https://theeventscalendar.com/content/uploads/2016/09/kb-ea-csv-step3.png" /></p>
+<p style="text-align: center;"><img alt="kb-ea-csv-step3" src="https://s3.theeventscalendar.com/uploads/2016/09/kb-ea-csv-step3.png" /></p>
 
 <p>By default, there are three options for data types that can be imported using Event Aggregator.</p>
 
@@ -184,7 +184,7 @@ zaius.event('pageview');
 
 <p>The column headings in your preview match the headings in the spreadsheet that became your CSV file. Each dropdown menu contains all the different content fields for an event (or venue, organizer, or ticket, depending on the content you're importing). <strong>For each column, use the dropdown to select the correct content field for the information in that column. </strong>Scroll to the right until you have mapped all of the fields that you wish to import.</p>
 
-<p><img alt="mapping-columns" src="https://theeventscalendar.com/content/uploads/2016/09/mapping-columns.gif" /></p>
+<p><img alt="mapping-columns" src="https://s3.theeventscalendar.com/uploads/2016/09/mapping-columns.gif" /></p>
 
 <p>🔔 <strong>Note:</strong> If you followed our <a href="969953-CSV-file-examples-for-importing">CSV file examples post</a>, your column names will probably match the options in the dropdown. However, the options may not match if you are using a CSV file that you exported from another source. When mapping, choose the option from the dropdown that best matches the information in the column, or you may leave the dropdown selection as <em>Do Not Import </em>to leave that column's data out. You can always edit the entry later.</p>
 
@@ -201,7 +201,7 @@ zaius.event('pageview');
 
 <p>You can also choose to add categories to the content from a list of existing event categories on your site. <strong>Keep in mind that this option only matters if you are currently importing events</strong>--it is irrelevant if you are importing organizers, venues, RSVPs, or tickets.</p>
 
-<p style="text-align: center;"><img alt="Screen Shot 2016-09-27 at 7.44.56 PM" src="https://theeventscalendar.com/content/uploads/2016/09/Screen-Shot-2016-09-27-at-7.44.56-PM.png" /></p>
+<p style="text-align: center;"><img alt="Screen Shot 2016-09-27 at 7.44.56 PM" src="https://s3.theeventscalendar.com/uploads/2016/09/Screen-Shot-2016-09-27-at-7.44.56-PM.png" /></p>
 
 <p>Once you've reviewed your settings, go ahead and press the <strong>Import All</strong> button!</p>
 
@@ -209,7 +209,7 @@ zaius.event('pageview');
 
 <p>That's the step-by-step process for importing events into The Events Calendar using Event Aggregator. We hope you found this helpful. Here is a final screencast of the process from start-to-finish:</p>
 
-<p style="text-align: center;"><img alt="kb-ea-csv-wrap" src="https://theeventscalendar.com/content/uploads/2016/09/kb-ea-csv-wrap.gif" /></p>
+<p style="text-align: center;"><img alt="kb-ea-csv-wrap" src="https://s3.theeventscalendar.com/uploads/2016/09/kb-ea-csv-wrap.gif" /></p>
 </div>    			
 				<div class="Files">
 					    			
@@ -220,8 +220,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Mar 29, 2019, 10:18 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-29" itemprop="dateModified">Mar 29 (42 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -315,10 +315,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="867204-Importing-Data-from-a-CSV-File#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

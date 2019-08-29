@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="332993-Introduction-to-The-Events-Calendar-REST-API" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="332993-Introduction-to-The-Events-Calendar-REST-API" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -127,9 +127,9 @@ zaius.event('pageview');
 
 <p>But <samp>GET</samp> is not the only existing HTTP method. When you submit a form, you are usually making a <samp>POST</samp> request to a URL. That request represents your intent to <strong>send</strong> data to the site instead of <strong>receiving</strong> data from it. When completing a login form, you press the submit button in the form, and the browser would make a request like this:</p>
 
-<pre>
-<code>POST http://how-not-to-get-scammed-by-raccoons.org/login.php
-    user=luca&amp;password=secret</code></pre>
+
+<p><code>POST http://how-not-to-get-scammed-by-raccoons.org/login.php
+    user=luca&amp;password=secret</code></p>
 
 <p>Since you are <strong>sending</strong> something, the <samp>user=luca&amp;password=secret</samp> string represents what you are sending to the server. The syntax above does not correspond to any particular API and is merely for the purposes of this article--do not use that in your code, or raccoons will invade your home!</p>
 
@@ -138,8 +138,8 @@ zaius.event('pageview');
 <p>When an API makes full and correct use of the methods above, it is then considered "RESTful". If I wanted to update my password on the site, I could use:</p>
 
 <pre>
-<code>PUT http://how-not-to-get-scammed-by-raccoons.org/api/users/luca
-    password=new-secret</code></pre>
+PUT http://how-not-to-get-scammed-by-raccoons.org/api/users/luca
+    password=new-secret</pre>
 
 <p>Notice I'm now using a different URL to perform the required operation, one that ends in <samp>/api/users/luca</samp>. This could be translated as "call the <samp>api</samp> on <samp>http://how-not-to-get-scammed-by-raccoons.org</samp>: we need to update the details for one of the <samp>users</samp>, <samp>luca</samp> is the name, and set the <samp>password</samp> to <samp>new-secret</samp>".</p>
 
@@ -148,7 +148,7 @@ zaius.event('pageview');
 <p>If we wanted to remove my user from the site, we would issue this request to the server:</p>
 
 <pre>
-<code>DELETE http://how-not-to-get-scammed-by-raccoons.org/api/users/luca</code></pre>
+DELETE http://how-not-to-get-scammed-by-raccoons.org/api/users/luca</pre>
 
 <p>Now you know why a typical WordPress "Trash" link, which employs URLs such as <samp>http://tribe.localhost/wp-admin/post.php%3Fpost=6&amp;action=trash&amp;_wpnonce=25a5cdc0ba</samp>, is not RESTful: you are deleting something using the HTTP <samp>GET</samp> method.</p>
 
@@ -181,11 +181,11 @@ zaius.event('pageview');
 
 <p>Once The Events Calendar is active, we'll create an event, set its details, publish it, and preview it in the browser:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/example-event-1-665x492.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/example-event-1-665x492.png" /></p>
 
 <p>This is the familiar look of an event in the context of the Twenty Seventeen theme. Let's now head, using a browser, to the address <samp>http://tribe.localhost/wp-json/tribe/events/v1/events</samp>:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/rest-example-events-665x280.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/rest-example-events-665x280.png" /></p>
 
 <p>Uhm… not that nice. But wait: that's <strong>the essence</strong> of what The Events Calendar REST API does: providing the raw data about the event without all the presentation stuff surrounding it.</p>
 
@@ -582,9 +582,9 @@ function raccoon_remove_json_ld_data( array $event_data ) {
 
 <p>That entry at the beginning of the response saying <samp>"swagger": "2.0"</samp> tells you that The Events Calendar REST API documentation comes in <a href="https://swagger.io/" target="_blank">Swagger.io</a> format. If you copy and paste the whole response into the <a href="https://editor.swagger.io/" target="_blank">Swagger.io API editor</a>, it will be converted into easily readable documentation:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-output-665x408.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/swagger-output-665x408.png" /></p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-output-2-665x408.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/swagger-output-2-665x408.png" /></p>
 
 <p>This has several advantages:</p>
 
@@ -613,7 +613,7 @@ function raccoon_document_suspect_level( array $documentation ) {
 
 <p>And here is the field in the Swagger.io output:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/racoon-documentation-665x408.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/racoon-documentation-665x408.png" /></p>
 
 <h3 id="a-javascript-example-authentication">A JavaScript example of authentication</h3>
 
@@ -725,11 +725,11 @@ function twentyseventeen_parent_theme_enqueue_styles() {
 
 <p>To test that the authentication works, we've created two public events that anyone can see and a private event that only users with the <samp>edit_posts</samp> capability will be able to see. Visiting the site as a logged-out user (like a site visitor), we see this:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/visitor-events-1.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/visitor-events-1.png" /></p>
 
 <p>While visiting the site as an administrator, a user that can edit posts by default, we see this:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/admin-events-665x408.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/admin-events-665x408.png" /></p>
 
 <p>This will be true for any type of authorization used to authenticate the users, not just for cookie-based authentication.</p>
 
@@ -804,9 +804,9 @@ function twentyseventeen_parent_theme_enqueue_styles() {
 
 <p>Doing the same as a user that can edit posts will, instead, delete the events:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/deleting-events-no.gif" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/deleting-events-no.gif" /></p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/deleting-event-ok.gif" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/deleting-event-ok.gif" /></p>
 
 <h3 id="one-click-client-generation">One-click client generation</h3>
 
@@ -814,19 +814,19 @@ function twentyseventeen_parent_theme_enqueue_styles() {
 
 <p>Let's see how we can do that. First of all, head to the site <samp>/wp-json/tribe/events/v1/doc</samp> path on your site, and as before, copy the whole JSON format output. Head over to <a href="https://swagger.io/swagger-editor/">the Swagger.io Editor page</a>:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-io-editor-landing-665x408.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/swagger-io-editor-landing-665x408.png" /></p>
 
 <p>Click the "Online Editor" button and paste the JSON output on the editor side (on the left):</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-io-editor-paste-665x409.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/swagger-io-editor-paste-665x409.png" /></p>
 
 <p>If you are prompted to convert the JSON input into YAML, click "OK", count to 10, and you should see the documentation for The Events Calendar REST API appear on the right side.</p>
 
 <p>Now click "Generate Client" on the upper menu, and wait while someone does the work for you:</p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-io-editor-generate-665x409.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/swagger-io-editor-generate-665x409.png" /></p>
 
-<p><img alt="" src="https://theeventscalendar.com/content/uploads/2017/09/swagger-io-editor-generation-gif.gif" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2017/09/swagger-io-editor-generation-gif.gif" /></p>
 
 <p>At the end, you will get an archive file containing The Events Calendar REST API client code in the selected language.</p>
 
@@ -841,8 +841,8 @@ function twentyseventeen_parent_theme_enqueue_styles() {
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 09:00 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 28, 2019, 06:26 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-28" itemprop="dateModified">Jun 28 (60 days ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -867,8 +867,11 @@ function twentyseventeen_parent_theme_enqueue_styles() {
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="807454-Change-the-default-Event-template-on-Blocks-Editor" class="article-link article-link-843" title="Change the default Event template on Blocks Editor">
-        <span class="TitleValue">Change the default Event template on Blocks Editor</span>
+        <li class="list-group-item item-A"><a href="417063-Blocks-Colors-and-the-Default-Events-Template" class="article-link article-link-907" title="Blocks, Colors, and the Default Events Template">
+        <span class="TitleValue">Blocks, Colors, and the Default Events Template</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="807454-Change-the-Default-Event-Template-in-Block-Editor" class="article-link article-link-843" title="Change the Default Event Template in Block Editor">
+        <span class="TitleValue">Change the Default Event Template in Block Editor</span>
       </a></li>
         <li class="list-group-item item-A"><a href="174918-Testing-the-WordPress-50-Block-Editor" class="article-link article-link-737" title="Testing the WordPress 5.0 Block Editor">
         <span class="TitleValue">Testing the WordPress 5.0 Block Editor</span>
@@ -894,11 +897,8 @@ function twentyseventeen_parent_theme_enqueue_styles() {
         <li class="list-group-item item-A"><a href="711392-Changing-the-browser-title-for-calendar-views" class="article-link article-link-509" title="Changing the browser title for calendar views">
         <span class="TitleValue">Changing the browser title for calendar views</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="013265-Subscribing-to-calendars-via-RSS" class="article-link article-link-655" title="Subscribing to calendars via RSS">
-        <span class="TitleValue">Subscribing to calendars via RSS</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 72 more ...</a></div>
+        <div class="panel-footer"><a href="534453-The-Events-Calendar" class="MoreLinkTitle">and 73 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -936,10 +936,10 @@ function twentyseventeen_parent_theme_enqueue_styles() {
 		</footer>
 	<a href="332993-Introduction-to-The-Events-Calendar-REST-API#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

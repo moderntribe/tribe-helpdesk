@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="290016-Troubleshooting-Duplicate-Imports" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="290016-Troubleshooting-Duplicate-Imports" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -125,7 +125,6 @@ zaius.event('pageview');
 <h3>Recurring events in a Google Calendar</h3>
 
 <p>While Google Calendars do not change the UID following changes to single events, recurring events are a different story. Say you create a recurring event in your Google Calendar that recurs daily, weekly, monthly, or yearly. In the iCalendar feed that Google creates for your calendar, this creates one event entry with a recurrence rule that looks something like this:</p>
-
 <kbd>RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20190704T035959Z;BYDAY=WE</kbd>
 
 <p>Event Aggregator will see this and create single events on your site using this information.&nbsp;However, if you modify one of the instances of that event, a new event entry with a separate UID will be generated in the iCalendar feed. Because the iCalendar feed doesn’t give us any information in the feed indicating that this new event is “linked” to the original one, Event Aggregator will see the two separate UIDs and create a new event for the modified instance.</p>
@@ -143,8 +142,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Apr 03, 2019, 10:55 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-03" itemprop="dateModified">Apr 03 (37 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 30, 2019, 01:13 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
               </div>
                         <time datetime="2019-04-03" itemprop="datePublished"></time>
           </div>
@@ -238,10 +237,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="290016-Troubleshooting-Duplicate-Imports#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

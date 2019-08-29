@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="727667-Ignored-Events" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="727667-Ignored-Events" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,18 +116,18 @@ zaius.event('pageview');
 
 <p>Ignored events have their own archive within the events admin just like Trash. You can find any ignored events listed here.</p>
 
-<p style="text-align: center;"><img alt="Ignored Events Archive" src="https://theeventscalendar.com/content/uploads/2016/09/KB-ignored-archive.png" /> Ignored Events Archive</p>
+<p style="text-align: center;"><img alt="Ignored Events Archive" src="https://s3.theeventscalendar.com/uploads/2016/09/KB-ignored-archive.png" /> Ignored Events Archive</p>
 
 <h3 id="ignore">How to ignore an event</h3>
 
 <p>You can ignore events in the admin events list by clicking the red Hide &amp; Ignore link under an individual event. You can remove multiple events at once by selecting them and using the Move to Trash option but Bulk Actions. Any selected imported events will be moved to Ignored, while conventional events move to the Trash archive.</p>
 
-<p style="text-align: center;"><img alt="Ignoring a single event from within the events admin" src="https://theeventscalendar.com/content/uploads/2016/09/KB-ignore-single-from-archive.png" /><br />
+<p style="text-align: center;"><img alt="Ignoring a single event from within the events admin" src="https://s3.theeventscalendar.com/uploads/2016/09/KB-ignore-single-from-archive.png" /><br />
 &nbsp;Ignoring a single event from within the events admin</p>
 
 <p>When viewing an individual event, you can ignore an event by clicking the red Hide &amp; Ignore link under Publish Options.</p>
 
-<p style="text-align: center;"><img alt="Ignoring an event from within the event editor" src="https://theeventscalendar.com/content/uploads/2016/09/KB-ignore-single-edit.png" /><br />
+<p style="text-align: center;"><img alt="Ignoring an event from within the event editor" src="https://s3.theeventscalendar.com/uploads/2016/09/KB-ignore-single-edit.png" /><br />
 &nbsp;Ignoring an event from within the event editor</p>
 
 <p>Ignored events can be edited and updated like a standard event. However, they will continue to be hidden from your calendar unless you specifically restore them.</p>
@@ -138,7 +138,7 @@ zaius.event('pageview');
 
 <p>From the Ignored Archive, click the Restore link under an individual event to return that event to Published status and add it back to your calendar. Site visitors will now be able to view the event.</p>
 
-<p style="text-align: center;"><img alt="Restoring an Ignored Event" src="https://theeventscalendar.com/content/uploads/2016/09/KB-restore.png" /> Restoring an Ignored Event</p>
+<p style="text-align: center;"><img alt="Restoring an Ignored Event" src="https://s3.theeventscalendar.com/uploads/2016/09/KB-restore.png" /> Restoring an Ignored Event</p>
 
 <p>You can also select multiple events and use the Restore option under the Bulk Action drop-down.</p>
 
@@ -150,7 +150,7 @@ zaius.event('pageview');
 
 <p>That said,&nbsp;if you want to permanently delete an ignored event, you can.&nbsp;Hover over any event in the ignored events archive and you'll see a red&nbsp;<em>Delete Permanently&nbsp;</em>link.​</p>
 
-<p style="text-align: center;">​​​​​​<img alt="Permanently delete an ignored event" src="https://theeventscalendar.com/content/uploads/2016/09/KB-delete-ignored.png" /> Permanently delete an ignored event</p>
+<p style="text-align: center;">​​​​​​<img alt="Permanently delete an ignored event" src="https://s3.theeventscalendar.com/uploads/2016/09/KB-delete-ignored.png" /> Permanently delete an ignored event</p>
 
 <p>You'll also see a&nbsp;<em>Delete Permanently&nbsp;</em>link on individual ignored events.</p>
 
@@ -165,8 +165,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 07:37 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -260,10 +260,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="727667-Ignored-Events#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="916243-Managing-Your-Scheduled-Imports-in-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="916243-Managing-Your-Scheduled-Imports-in-Event-Aggregator" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,13 +116,13 @@ zaius.event('pageview');
 
 <p>Each scheduled import is listed and shows the&nbsp;time of the most recent import instance as well as the number of events imported and updated in that instance. The&nbsp;<em>all time&nbsp;</em>number tells you the total number of events imported via that scheduled import since it was made. Scheduled imports are listed chronologically by the most recent import instance.</p>
 
-<p style="text-align: center;"><img alt="Events &gt; Imports &gt; Scheduled Imports" src="http://theeventscalendar.com/content/uploads/2016/10/scheduled-imports.png" /></p>
+<p style="text-align: center;"><img alt="Events &gt; Imports &gt; Scheduled Imports" src="https://s3.theeventscalendar.com/uploads/2016/10/scheduled-imports.png" /></p>
 
 <h3 id="editing">Editing a scheduled import</h3>
 
 <p>Let's say you have created a scheduled import, but would like to change some of the criteria you had previously selected for it. Hover over the import and it will reveal additional actions. Select the option to Edit.</p>
 
-<p style="text-align: center;"><img alt="Hover over a scheduled event to edit the import schedule" src="http://theeventscalendar.com/content/uploads/2016/10/edit-scheduled-import.png" /></p>
+<p style="text-align: center;"><img alt="Hover over a scheduled event to edit the import schedule" src="https://s3.theeventscalendar.com/uploads/2016/10/edit-scheduled-import.png" /></p>
 
 <p>Clicking that option will reveal all the available settings to edit including:</p>
 
@@ -139,7 +139,7 @@ zaius.event('pageview');
 
 <p>Scheduled imports run automatically behind the scenes, but you can also have a scheduled import run at any time you wish by clicking the Run Import link.</p>
 
-<p><img alt="" src="http://theeventscalendar.com/content/uploads/2016/10/run-import.png" /></p>
+<p><img alt="" src="https://s3.theeventscalendar.com/uploads/2016/10/run-import.png" /></p>
 
 <p>When you click&nbsp;<em>Run Import,&nbsp;</em>the import will automatically queue up to run as soon as possible.</p>
 
@@ -147,7 +147,7 @@ zaius.event('pageview');
 
 <p>Perhaps you've created a scheduled import and no longer want Event Aggregator to run that import. If you think you might like to use the import again in the future, you could Edit it and change the frequency to On Demand. This means that the import does not run automatically, but is still listed. Or you can delete the import altogether from the Events &gt; Import screen in the Schedule Imports tab by hovering over the import and selecting the "Delete" action.</p>
 
-<p style="text-align: center;"><img alt="to delete a scheduled event import, hover mouse over the schedule and select delete" src="http://theeventscalendar.com/content/uploads/2016/10/delete-scheduled-event.png" /></p>
+<p style="text-align: center;"><img alt="to delete a scheduled event import, hover mouse over the schedule and select delete" src="https://s3.theeventscalendar.com/uploads/2016/10/delete-scheduled-event.png" /></p>
 
 <p>Please note that a scheduled import cannot be recovered once it is deleted. Events Aggregator will prompt a pop-up message to confirm that you do want to delete the import before it actually happens.</p>
 
@@ -166,8 +166,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 28, 2018, 07:33 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-28" itemprop="dateModified">Dec 28 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -261,10 +261,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="916243-Managing-Your-Scheduled-Imports-in-Event-Aggregator#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

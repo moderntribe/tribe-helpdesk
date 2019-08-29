@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="424473-Message-Template-Settings" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="424473-Message-Template-Settings" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Message Template Settings</title>            <meta property="og:url" content="//support.theeventscalendar.com/424473-Message-Template-Settings" />    <meta property="og:title" content="Message Template Settings" />    <meta property="og:description" content="Customize the appearance and settings of the email that is sent to attendees on the Template screen.  The settings are organized in three sections: header, content and footer.    Header   The header i" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Message Template Settings</title>            <meta property="og:url" content="//support.theeventscalendar.com/424473-Message-Template-Settings" />    <meta property="og:title" content="Message Template Settings" />    <meta property="og:description" content="You can customize the look and feel of the email that is sent to attendees on the Template screen.      Header   The header is the area located above the content in the email.  Using a text based logo" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=m3sh6mgr4v5g59qjhtl2aobmxq5k60hj" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,50 +116,54 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Customize the appearance and settings of the email that is sent to attendees on the Template screen.</p>
-
-<p>The settings are organized in three sections: header, content and footer.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>You can customize the look and feel of the email that is sent to attendees on the Template screen.<br />
+<img src="scripts/file.php%3Fview=Y&amp;file=m3sh6mgr4v5g59qjhtl2aobmxq5k60hj" /></p>
 
 <h2>Header</h2>
 
-<p>The header is the area above the content in the email.</p>
+<p>The header is the area located above the content in the email.</p>
 
-<p>Use a text based logo. Enabling this will allow you to type into the email header instead of uploading an image. By default, this option is disabled which allows you to upload an image to the header.&nbsp;</p>
+<p style="margin-bottom: 0.5em;"><strong>Using a </strong><strong>text based</strong><strong> logo</strong></p>
 
-<p><b id="docs-internal-guid-f5322fdd-7fff-cbeb-72cf-3923cd656336"><img height="277" src="https://lh5.googleusercontent.com/95I5chdHJGPCurSbIUOJc40UVT94Z9NNfgV_HLUjT0sDYUYplGTRFJ1pqDCRiGXyNpkphcShFfovzJa9rQtEvvVZ8uaK4RRU1phZzawU5GF5lGziu2cvAI3UkS0lcYBAiTU9iY0" width="624" /></b></p>
+<p>Enabling this will allow you to type into the email header instead of uploading an image. Choosing this option lets you select a font, font size and font color.<br />
+<img src="scripts/file.php%3Fview=Y&amp;file=p3pwx80hqvi6ou1hvm3j92m2ennhxmzz" /><img height="auto" src="scripts/file.php%3Fview=Y&amp;file=2oowkz4z4skceq2eotyn6vdysb8e5os8" width="529" /></p>
 
-<p>We recommend using an image with a transparent background (e.g. PNG, GIF) if selecting the image option. This will ensure that the image blends in with the background color.</p>
+<p style="margin-bottom: 0.5em;"><b>Using an image for your logo</b></p>
 
-<p>If choosing the text setting, there will be additional options for selecting a font, font size and font color. Both the image and text logo settings provide an option to align the logo in the left, center or right of the header.</p>
+<p><img height="auto" src="scripts/file.php%3Fview=Y&amp;file=cshawxtwb4j9g5n1r88n41azr2t4svxl" width="235" /></p>
+
+<p>We recommend using an image with a transparent background (e.g. PNG, GIF). This will ensure that the image blends in with the background color.</p>
+
+<p style="margin-bottom: 0.5em;"><strong>Common settings</strong></p>
+
+<p>Both the image and text logo settings provide an option to align the logo in the left, center or right of the header.</p>
 
 <p><b id="docs-internal-guid-aa9e6553-7fff-083e-f673-2e8e8bda969a"><img height="276" src="https://lh6.googleusercontent.com/sW8msOiK57P95ijtx8ZD4SVaYYSzJmDp_UIfqmAvRw13AWKhCSarDn7rDwTqOGxy0plW4vnB27d02ISw2qMmZzUpxvKAn19yMTN_E8i1MNWhSW8-z4vRW-izqz3CWlVIU0KniR0" width="624" /></b></p>
 
-<h2>Content</h2>
+<h2 style="margin-top: 1.5em;">Content</h2>
 
 <p>The content settings customize the appearance of the message body text.</p>
 
-<p><b id="docs-internal-guid-e1fc7c83-7fff-46b1-456d-5f0f667bb1cb"><img height="364" src="https://lh5.googleusercontent.com/3QeP4C_Wc49p5F7cCd3HqiFH3lM1_VWAlqC2G4173XFQm04RRq1hLAVp1fOSN2sfyT0KMf-_3JKEzL4BEszv5bU1yEAEbB4KEyc_2x_Ty8cwpq5z8cjm3xlTkGeodA2Tmf1r9G0" width="624" /></b></p>
+<p><b id="docs-internal-guid-e1fc7c83-7fff-46b1-456d-5f0f667bb1cb"><img height="auto" src="https://lh5.googleusercontent.com/3QeP4C_Wc49p5F7cCd3HqiFH3lM1_VWAlqC2G4173XFQm04RRq1hLAVp1fOSN2sfyT0KMf-_3JKEzL4BEszv5bU1yEAEbB4KEyc_2x_Ty8cwpq5z8cjm3xlTkGeodA2Tmf1r9G0" width="624" /></b></p>
 
 <ul>
-	<li><strong>Body Font</strong> - Selects the font used for the message. There are a variety of both serif and sans serif fonts.</li>
-	<li><strong>Link Color</strong> - Defines the color of links in the message body text.</li>
-	<li><strong>Page BG Color</strong> - Sets the background color around the message body.</li>
+	<li style="margin-bottom: 0.5em;"><strong>Body Font</strong> - Selects the font used for the message. There are a variety of both serif and sans serif fonts.</li>
+	<li style="margin-bottom: 0.5em;"><strong>Link Color</strong> - Defines the color of links in the message body text.</li>
+	<li style="margin-bottom: 0.5em;"><strong>Page BG Color</strong> - Sets the background color around the message body.</li>
 </ul>
 
 <h2>Footer</h2>
 
 <p>The footer is the area below the message content.</p>
 
-<p><b id="docs-internal-guid-87318916-7fff-c62d-8160-6597595c0e23"><img height="261" src="https://lh5.googleusercontent.com/6cYoYMC-cXipezHclXf0XwRnRR9hMwlxGt6QGcplKBVMtIqL6rc-R_0G0uRdLKCy2IpZ9LUs8RsLulkf4W3oe5Mvrqm8v9iT7D_Y6e5makNu_VmDOQHCMqJIQCW0r_zi64_iWDE" width="624" /></b></p>
+<p><b id="docs-internal-guid-87318916-7fff-c62d-8160-6597595c0e23"><img height="auto" src="https://lh5.googleusercontent.com/6cYoYMC-cXipezHclXf0XwRnRR9hMwlxGt6QGcplKBVMtIqL6rc-R_0G0uRdLKCy2IpZ9LUs8RsLulkf4W3oe5Mvrqm8v9iT7D_Y6e5makNu_VmDOQHCMqJIQCW0r_zi64_iWDE" width="624" /></b></p>
 
 <ul>
-	<li><strong>Text </strong>- Enter text that appears at the bottom of all messages. Note that the unsubscribe text is un-editable and there to comply with email sending policies.</li>
-	<li><strong>&nbsp;Footer Font Color</strong> - Sets the color of the text in the footer.</li>
-	<li><strong>Footer Background Color </strong>- Sets the color of the background behind the footer text.<br />
+	<li style="margin-bottom: 0.5em;"><strong>Text </strong>- Enter text that will appear at the bottom of all messages. Note that the unsubscribe text is not editable to comply with email sending policies.</li>
+	<li style="margin-bottom: 0.5em;"><strong>Footer Font Color</strong> - Sets the color of the text in the footer.</li>
+	<li style="margin-bottom: 0.5em;"><strong>Footer Background Color </strong>- Sets the color of the background behind the footer text.<br />
 	&nbsp;</li>
 </ul>
-
-<p>&nbsp;</p>
 </div>    			
 				<div class="Files">
 					    			
@@ -170,8 +174,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 25, 2019, 08:59 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-25" itemprop="dateModified">Jan 25 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 14, 2019, 10:03 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-14" itemprop="dateModified">Jul 14 (44 days ago)</time></span>
               </div>
                         <time datetime="2018-12-19" itemprop="datePublished"></time>
           </div>
@@ -252,10 +256,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="424473-Message-Template-Settings#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

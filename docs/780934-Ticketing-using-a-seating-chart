@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="780934-Ticketing-using-a-seating-chart" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="780934-Ticketing-using-a-seating-chart" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -112,19 +112,19 @@ zaius.event('pageview');
 
 <p>We'll use a simple seating chart image to demonstrate&nbsp;how to set up your ticket groups. This graphic shows three rows (A, B, and C) with a total of nine seats per row.</p>
 
-<p style="text-align: center;"><img alt="Sample seating chart" src="https://theeventscalendar.com/content/uploads/2017/06/seating-rows-665x208.png" /></p>
+<p style="text-align: center;"><img alt="Sample seating chart" src="https://s3.theeventscalendar.com/uploads/2017/06/seating-rows-665x208.png" /></p>
 
 <p>Of course, you'll want to begin by creating a new event, post, or page for your tickets (or editing an existing event, post, or page). If you need help getting started with event creation using The Events Calendar, <a href="418870-Creating-an-event">our Knowledgebase article here</a> provides a full rundown of the process.</p>
 
 <p>If you have a seating chart image available for your venue, you can embed it into your event's description for easy reference (using the <strong>Add Media</strong> button above the main event description field) or provide a link to the uploaded image elsewhere on your site. Once you've successfully added your seating chart (or if you don't have an image available for your venue), let's scroll right down to the <strong>Tickets</strong>&nbsp;heading to begin setting up our tickets. Click <strong>Add New Ticket</strong> to open the ticket creation form for your first ticket.</p>
 
-<p style="text-align: center;"><img alt="Example of how to set up tickets when selling from a seating chart" src="http://theeventscalendar.com/content/uploads/2017/06/add-new-ticket-seating-chart.png" /></p>
+<p style="text-align: center;"><img alt="Example of how to set up tickets when selling from a seating chart" src="https://s3.theeventscalendar.com/uploads/2017/06/add-new-ticket-seating-chart.png" /></p>
 
 <p>This image shows some example fields for selling tickets using Event Tickets Plus and WooCommerce, but this process should be much the same for allocating free seats via RSVP. Here, I've named my ticket type by the associated row on our seating chart, and I've set the available stock to nine--the number of seats available in this row. This allows me to set different pricing tiers for different seating sections, if desired, and limits stock for each section so that tickets of a given type cannot be oversold.</p>
 
 <p>Once you've finished entering the details for your first ticket section, click <strong>Save this ticket</strong> to commit&nbsp;your changes. After repeating this process for all of your tickets, you can verify that everything looks correct, then scroll up and click the <strong>Publish</strong> button to save all of your tickets&nbsp;and publish them to your site.</p>
 
-<p style="text-align: center;"><img alt="Finished event showing how to distribute tickets using a seating chart" src="https://theeventscalendar.com/content/uploads/2017/06/seating_chart_event.png" /></p>
+<p style="text-align: center;"><img alt="Finished event showing how to distribute tickets using a seating chart" src="https://s3.theeventscalendar.com/uploads/2017/06/seating_chart_event.png" /></p>
 
 <p>You're all finished! The above image shows what our event looks like with our seating chart and ticket blocks configured properly. Now your visitors have the option to select their preferred section in advance, and you can easily keep track of where your attendees are located on the backend of your site.</p>
 
@@ -139,8 +139,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 27, 2018, 01:39 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-27" itemprop="dateModified">Dec 27 (4 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -165,6 +165,9 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="189617-How-Event-Tickets-Calculates-Availability" class="article-link article-link-879" title="How Event Tickets Calculates Availability">
+        <span class="TitleValue">How Event Tickets Calculates Availability</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="550976-Attendee-Registration-Page-Template" class="article-link article-link-805" title="Attendee Registration Page Template">
         <span class="TitleValue">Attendee Registration Page Template</span>
       </a></li>
@@ -192,11 +195,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="article-link article-link-537" title="Settings overview: Event Tickets and Event Tickets Plus">
         <span class="TitleValue">Settings overview: Event Tickets and Event Tickets Plus</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" class="article-link article-link-535" title="New User Primer: Event Tickets &amp; Event Tickets Plus">
-        <span class="TitleValue">New User Primer: Event Tickets &amp; Event Tickets Plus</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 12 more ...</a></div>
+        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 13 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -234,10 +234,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="780934-Ticketing-using-a-seating-chart#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

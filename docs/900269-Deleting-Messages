@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="900269-Deleting-Messages" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="900269-Deleting-Messages" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Deleting Messages</title>            <meta property="og:url" content="//support.theeventscalendar.com/900269-Deleting-Messages" />    <meta property="og:title" content="Deleting Messages" />    <meta property="og:description" content="To delete a message that has been created for an event, click the “Delete” link at the top of the message editor:    Promoter will confirm the delete before it actually happens:    Please note: Co" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Deleting Messages</title>            <meta property="og:url" content="//support.theeventscalendar.com/900269-Deleting-Messages" />    <meta property="og:title" content="Deleting Messages" />    <meta property="og:description" content="To delete a message that has been created for an event:      	- Click the “Delete” link at the top of the message editor:    	- You will be prompted to confirm intended deletion before the message" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -116,13 +116,14 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>To delete a message that has been created for an event, click the “Delete” link at the top of the message editor:</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><p>To delete a message that has been created for an event:</p>
 
-<p><b id="docs-internal-guid-bfefdef3-7fff-d3a3-69bc-0cf95513366e"><img height="265" src="https://lh4.googleusercontent.com/sqFMvUCzaVhN318ndJabaiJgSstl3agvYJcuT0s6RszeIdJD1pyBAx5wg9m9UVdVeFyQkfrGd9JnMAU5-jA70hXmPzTqvOdGWVjkvNXEZ3mylzajPopDOpV92GEZh9R-yhdH91Q" width="624" /></b></p>
-
-<p>Promoter will confirm the delete before it actually happens:</p>
-
-<p><b id="docs-internal-guid-3d87170a-7fff-221b-7255-ad5766941fbb"><img height="393" src="https://lh5.googleusercontent.com/l6Gosu6gccCr6UlVTgWIg9MUVVaWy4VgNcuAsW7kZG0KqSb96I7gAFNecJtzchi2Y8N61rKdXQG-5sVnudOggVZX0ZpArom5j5hgiIQPMWzs2obSWvzYQU9QtU3k5HxJeBEAnB4" width="624" /></b></p>
+<ol>
+	<li>Click the “Delete” link at the top of the message editor:<br />
+	<b id="docs-internal-guid-bfefdef3-7fff-d3a3-69bc-0cf95513366e"><img height="auto" src="https://lh4.googleusercontent.com/sqFMvUCzaVhN318ndJabaiJgSstl3agvYJcuT0s6RszeIdJD1pyBAx5wg9m9UVdVeFyQkfrGd9JnMAU5-jA70hXmPzTqvOdGWVjkvNXEZ3mylzajPopDOpV92GEZh9R-yhdH91Q" width="724" /></b></li>
+	<li>You will be prompted to confirm intended deletion before the message is actually deleted<br />
+	<b id="docs-internal-guid-3d87170a-7fff-221b-7255-ad5766941fbb"><img height="auto" src="https://lh5.googleusercontent.com/l6Gosu6gccCr6UlVTgWIg9MUVVaWy4VgNcuAsW7kZG0KqSb96I7gAFNecJtzchi2Y8N61rKdXQG-5sVnudOggVZX0ZpArom5j5hgiIQPMWzs2obSWvzYQU9QtU3k5HxJeBEAnB4" width="724" /></b></li>
+</ol>
 
 <p><strong>Please note:</strong> Confirming the deleted message will permanently remove it. Deleting a message cannot be undone.</p>
 </div>    			
@@ -135,8 +136,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jan 25, 2019, 08:59 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-01-25" itemprop="dateModified">Jan 25 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Jul 14, 2019, 09:35 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-14" itemprop="dateModified">Jul 14 (44 days ago)</time></span>
               </div>
                         <time datetime="2018-12-19" itemprop="datePublished"></time>
           </div>
@@ -217,10 +218,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="900269-Deleting-Messages#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="550976-Attendee-Registration-Page-Template" />            <link href="themes/kb/montana/kb.css%3Fv=5.12.6.7" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.12.6.7&amp;c=1557163586" type="text/css">
+        <link rel="canonical" href="550976-Attendee-Registration-Page-Template" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -34,7 +34,7 @@ var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","o
 zaius.event('pageview');
 </script>
 </head>
-<body class="montana  page-article">	
+<body class="montana  page-article">
 	
              
 	    <!-- nav -->
@@ -153,7 +153,7 @@ zaius.event('pageview');
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Apr 02, 2019, 12:26 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-02" itemprop="dateModified">Apr 02 (38 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-02" itemprop="dateModified">Apr 02 (4 months ago)</time></span>
               </div>
                         <time datetime="2019-02-20" itemprop="datePublished"></time>
           </div>
@@ -178,6 +178,9 @@ zaius.event('pageview');
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="189617-How-Event-Tickets-Calculates-Availability" class="article-link article-link-879" title="How Event Tickets Calculates Availability">
+        <span class="TitleValue">How Event Tickets Calculates Availability</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="705692-An-Introduction-to-Tickets-Blocks" class="article-link article-link-731" title="An Introduction to Tickets Blocks">
         <span class="TitleValue">An Introduction to Tickets Blocks</span>
       </a></li>
@@ -205,11 +208,8 @@ zaius.event('pageview');
         <li class="list-group-item item-A"><a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="article-link article-link-537" title="Settings overview: Event Tickets and Event Tickets Plus">
         <span class="TitleValue">Settings overview: Event Tickets and Event Tickets Plus</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus" class="article-link article-link-535" title="New User Primer: Event Tickets &amp; Event Tickets Plus">
-        <span class="TitleValue">New User Primer: Event Tickets &amp; Event Tickets Plus</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 12 more ...</a></div>
+        <div class="panel-footer"><a href="613130-Event-Tickets" class="MoreLinkTitle">and 13 more ...</a></div>
   </div>
 		</div>
 	</div>
@@ -247,10 +247,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="550976-Attendee-Registration-Page-Template#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.12.6.7"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.12.6.7"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
     <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>
