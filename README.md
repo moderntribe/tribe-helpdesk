@@ -29,7 +29,7 @@ Since LiveAgent is a third party platform, developing locally can be a challenge
 Helper commands (assumes you are in the root directory of this repo):
 
 * `npm run local-server` starts a local server which you can use to test out your changes locally
-* `bash utilities/rebuild-local-copy` will wipe the `docs/` folder and rebuild it using the lastest production sources
+* `bash utilities/rebuild-local-copy` will wipe the `docs/` folder and rebuild it using the latest production sources
 * `bash utilities/fix-docs-dir-permissions` may be useful if your local Gulp has difficulties writing to the `docs/` folder
 * `bash utilities/view-static-site` will try to open the local site in your default browser however this is no longer recommended: use the local server instead
 
