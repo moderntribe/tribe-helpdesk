@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="canonical" href="969953-CSV-file-examples-for-importing" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,6 +28,7 @@ function(e){});
             <title>CSV file examples for importing</title>        <meta name="keywords" content="The Events Calendar,Article,Beginner,The Events Calendar,update snippet,out of date,Event Aggregator,Event Aggregator,event,field name example data field,name example data field type,example data field type notes,field name example data,name example data field,example data field type,data field type notes,data field type notes event,field type notes event name,field name example,name example data,example data field,data field type,field type notes,field type notes event,type notes event name,type notes event name id,html ticket start sale date,end sale time 21:30:00 time" />    <meta property="og:url" content="//support.theeventscalendar.com/969953-CSV-file-examples-for-importing" />    <meta property="og:title" content="CSV file examples for importing" />    <meta property="og:description" content="The Events Calendar includes a feature that allows you to import events from other calendars, or to add a large number of events quickly from a CSV file.  We have step-by-step instructions (https://su" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" /> -->
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
@@ -818,6 +819,7 @@ zaius.event('pageview');
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
     <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <script id="tribe-js" defer src="frontend.min.js"></script>
+    <!-- <script id="tribe-js" defer src="frontend.min.js"></script> -->
+<script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

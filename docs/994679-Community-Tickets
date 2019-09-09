@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="canonical" href="994679-Community-Tickets" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,6 +28,7 @@ function(e){});
             <title>Community Tickets</title>            <meta property="og:url" content="//support.theeventscalendar.com/994679-Community-Tickets" />    <meta property="og:title" content="Community Tickets" />    <meta property="og:description" content="Community Tickets" />        <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" /> -->
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
@@ -108,6 +109,20 @@ zaius.event('pageview');
 	<div class="list-group article-list" itemscope itemtype="https://schema.org/ItemList">
         
                         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="152335-Community-Tickets-Tracking-sales--getting-paid" itemprop="item" class="list-group-item item-A" title="Community Tickets: Tracking sales &amp; getting paid">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Community Tickets: Tracking sales &amp; getting paid</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/152335-Community-Tickets-Tracking-sales--getting-paid" />
+                                    <div itemprop="description" class="article-preview">Community Tickets allows site admins to collect fees for ticket sales made on their site. You have control over your preferred payment gateway for ticket sales and use PayPal to pay organizers. Be sure to configure your Split Payments (https://support.theeventscalendar.com/587135-Community-Tickets-Split-Payments) and Site Fees (https://support.theeventscalendar.com/117835-Community-Tickets-Site-Fees) settings.
+ 
+
+Orders
+
+ As the site admin, you can view ticket sales from your dashboard. You can ...</div>
+                  <meta itemprop="position" content="1" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="117835-Community-Tickets-Ticket-Fees" itemprop="item" class="list-group-item item-A" title="Community Tickets: Ticket Fees">                  
                   <h3 class="list-group-item-heading" itemprop="name">Community Tickets: Ticket Fees</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/117835-Community-Tickets-Ticket-Fees" />
@@ -125,7 +140,7 @@ Flat Fee
 
  Define the flat fee collected by the site admin per event in an order (e.g. $2 per event in an order). 
  When any option that includes a Flat Fee is...</div>
-                  <meta itemprop="position" content="1" />
+                  <meta itemprop="position" content="2" />
                 </a>
             </div>
                     
@@ -142,7 +157,7 @@ Flat Fee
 Split Payments
 
  The other two option...</div>
-                  <meta itemprop="position" content="2" />
+                  <meta itemprop="position" content="3" />
                 </a>
             </div>
                     
@@ -153,7 +168,7 @@ Split Payments
                                     <div itemprop="description" class="article-preview">The Community Tickets settings can be found under Events &gt; Settings. The settings for Community Events are at the top of the page, and Community Tickets settings are below that. We've got an overview of the Community Events settings in a separate article. Here we focus on the Community Tickets settings only.
  
  The most important setting for Community Events is the Enable Community Tickets checkbox. You must check this box and save the settings page in order to enable the Community Tickets fe...</div>
-                  <meta itemprop="position" content="3" />
+                  <meta itemprop="position" content="4" />
                 </a>
             </div>
                     
@@ -163,7 +178,7 @@ Split Payments
                   <meta itemprop="url" content="//support.theeventscalendar.com/347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" />
                                     <div itemprop="description" class="article-preview">If you already have a live, approved PayPal Adaptive Payments account then you can continue to use this feature. However, it is no longer possible for new Adaptive Payments accounts to be created. Please use PayPal Payouts API (https://support.theeventscalendar.com/587135-Community-Tickets-Split-Payments#payouts) instead.
  One of the most handy features of our Community Tickets plugin is its support for split payments, powered by PayPal's chained payments. This feature is briefly touched on in a...</div>
-                  <meta itemprop="position" content="4" />
+                  <meta itemprop="position" content="5" />
                 </a>
             </div>
                     
@@ -173,7 +188,7 @@ Split Payments
                   <meta itemprop="url" content="//support.theeventscalendar.com/136789-New-User-Primer-Community-Tickets" />
                                     <div itemprop="description" class="article-preview">Excited to get started with Community Tickets? We’re here to help! The steps below will guide you through setting up and using your new features!
  Like all of our premium Events add-ons, Community Tickets requires The Events Calendar (https://theeventscalendar.com/product/wordpress-events-calendar/) to be installed on your site. Additionally, Community Tickets requires you to have Community Events (https://support.theeventscalendar.com/890921-New-User-Primer-Community-Events) with Event Tickets ...</div>
-                  <meta itemprop="position" content="5" />
+                  <meta itemprop="position" content="6" />
                 </a>
             </div>
                 	</div>
@@ -216,6 +231,7 @@ Split Payments
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
     <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <script id="tribe-js" defer src="frontend.min.js"></script>
+    <!-- <script id="tribe-js" defer src="frontend.min.js"></script> -->
+<script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

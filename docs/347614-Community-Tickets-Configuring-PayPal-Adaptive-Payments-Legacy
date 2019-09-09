@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="referrer" content="no-referrer">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag.js%3Fid=UA-25096731-18"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25096731-18');
+</script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
+    <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
+    <link rel="mask-icon" href="themes/kb/montana/img/kb-mask-icon.svg" color="#F6921E">
+        <script type="text/javascript">
+        (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.async=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
+'//support.theeventscalendar.com/scripts/track.js',
+function(e){});
+    </script>       
+            <title>Community Tickets: Configuring PayPal Adaptive Payments (Legacy)</title>        <meta name="keywords" content="Settings,Intermediate,Community Tickets" />    <meta property="og:url" content="//support.theeventscalendar.com/347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" />    <meta property="og:title" content="Community Tickets: Configuring PayPal Adaptive Payments (Legacy)" />    <meta property="og:description" content="If you already have a live, approved PayPal Adaptive Payments account then you can continue to use this feature. However, it is no longer possible for new Adaptive Payments accounts to be created. Ple" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" /> -->
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<script type='text/javascript'>
+var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
+zaius.event('pageview');
+</script>
+</head>
+<body class="montana  page-article">
+	
+             
+	    <!-- nav -->
+<nav class="navbar">
+		<div class="container">
+
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
+				</div>
+
+				<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-header-menu" class="nav navbar-nav">
+								<li id="menu-item-mytickets" class="menu-item"><a href="my_tickets#My-Tickets"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> My tickets</a></li>
+																		<li id="menu-item-submitticket" class="menu-item"><a href="submit_ticket"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Submit ticket</a></li>
+								 
+																		<li id="menu-item-login" class="menu-item"><a href="login"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Login</a></li>
+														</ul>
+				</div>
+		</div>
+</nav>	<!-- article -->
+<div itemscope itemtype="https://schema.org/Article">
+<div class="jumbotron inner-jumbotron jumbotron-inner-fix jumbotron-smaller">
+  <div class="container inner-margin-top">
+    <div class="row">
+      <div class="col-md-12 col-sm-12" style="text-align:center">
+        <h1 class="inner-header" itemprop="name">Community Tickets: Configuring PayPal Adaptive Payments (Legacy)</h1>
+        <meta itemprop="author" content="The Events Calendar">
+		<meta itemprop="headline" content="Community Tickets: Configuring PayPal Adaptive Payments (Legacy)">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy"/>                  
+         <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
+    		<meta itemprop="name" content="The Events Calendar">
+          <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>		
+  		 </span>
+        
+                <!-- breadcrumbs -->
+<p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+    			<span itemprop="name">Home</span>
+    		</a>    	
+    	    	   <meta itemprop="position" content="1" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		    		<a itemprop="item" href="994679-Community-Tickets" class="breadcrumb-link">
+    			<span itemprop="name">Community Tickets</span>
+    		</a>
+            	   <meta itemprop="position" content="2" />
+    	</span>
+    	    	    <span class="breadcrumb-divider">&gt;</span>
+    	 	 
+		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<span itemprop="item">
+			<span itemprop="name">Community Tickets: Configuring PayPal Adaptive Payments (Legacy)</span>
+			<meta itemprop="position" content="3" />
+							<link itemprop="url" href="347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy" />
+					</span>
+	</span>
+</p>      </div>
+    </div>
+  </div>
+</div>
+<div class="container article-page  margin-top margin-bottom">
+  <div class="row">
+  	<div class="col-md-9">	
+   			<div class="article-content ArticleContent" itemprop="articleBody"><div style="border: 1px solid #9e9e9e; background: #eaeaea; padding: 0.5rem 1rem; margin-bottom: 1rem;">If you already have a live, approved PayPal Adaptive Payments account then you can continue to use this feature.&nbsp;However, it is no longer possible for <em>new</em> Adaptive Payments accounts to be created. Please use <a href="587135-Community-Tickets-Split-Payments#payouts">PayPal Payouts API</a> instead.</div>
+
+<p>One of the most handy features of our <em>Community Tickets</em> plugin is its support for split payments, powered by PayPal's chained payments. This feature is briefly touched on in <a href="https://support.theeventscalendar.com/253714-Configuring-Community-Tickets" rel="noopener noreferrer" target="_blank">another of our Knowledgebase articles</a>, but <em>this</em> article is a more detailed walk-through of setting up the feature.</p>
+
+<p>A handy companion piece to this article is <a href="https://developer.paypal.com/webapps/developer/docs/classic/api/apiCredentials/" target="_blank">the PayPal Developer documentation for API credentials, here</a>.</p>
+
+<p><strong>Please note:</strong></p>
+
+<ul>
+	<li>Chained payments configurations require PayPal's approval in a live production application. Although you can obtain Sandbox credentials without manual approval, you will need to apply for Live credentials at <a href="https://www.paypal-apps.com/" target="_blank">www.paypal-apps.com</a>&nbsp;before being able to actually use Community Tickets' split payments functionality in production.&nbsp;(Make sure that you apply under the same email as your PayPal account. You also need to make sure that the "chained payments" option is selected.)</li>
+	<li>If you are using Sandbox credentials&nbsp;for testing purposes, please note that Sandbox&nbsp;accounts are strictly prohibited from&nbsp;sending or receiving funds from live accounts. You'll want to ensure that you've created&nbsp;Personal and Business Sandbox accounts to represent both buyer and merchant when testing transactions with this setup.</li>
+	<li>As having multiple active PayPal payment gateways can create issues with handling split payments, we recommend disabling all other PayPal gateways when using Community Tickets.</li>
+</ul>
+
+<p>Please allow up to 15 days for PayPal to complete the application process, though many times the process takes far less time. PayPal also has its own <a href="https://www.paypal.com/us/webapps/mpp/ua/xdeveloper-full" target="_blank">Terms and Conditions</a> for using its chained&nbsp;payments service that we encourage you to read as well.&nbsp;Once PayPal approves your application, you will receive an email from Paypal Developer containing your&nbsp;Live App ID (which starts with <em>APP-xxxxxx</em>).</p>
+
+<hr />
+<h3 id="credentials-for-testing">Obtaining Sandbox Credentials for Testing</h3>
+
+<ol>
+	<li>Login to <a href="https://developer.paypal.com/" target="_blank">https://developer.paypal.com/</a>.</li>
+	<li>Click <em>Dashboard</em>.</li>
+	<li>In the sidebar on the left side of the page, under the <em>Sandbox</em> heading, click&nbsp;<em>Accounts</em> to display the existing sandbox credentials&nbsp;for your developer account.</li>
+	<li>Click on your "<em>you</em>-facilitator@<em>email.com</em>" email address. Click the <em>Profile</em> link that appears under it to display the&nbsp;<em>Account Details</em> pop-up.</li>
+	<li>Click the <em>API Credentials</em> tab to display the API&nbsp;credentials for this account. You'll want to enter this information into the fields that appear when <em>Enable split payments</em> and <em>Use PayPal sandbox</em> are both checked in your Community settings (under <strong>Events</strong> &gt;<strong> Settings</strong> &gt;<strong> Community</strong> in your WordPress admin).
+	<ol>
+		<li><em>Username</em> &gt;<strong> PayPal API username</strong></li>
+		<li><em>Password</em> &gt;<strong> PayPal API password</strong></li>
+		<li><em>Signature</em> &gt;<strong> PayPal API signature</strong></li>
+	</ol>
+	</li>
+	<li>Click the <em>Profile</em> tab to display the basic profile information for this account. Under <em>Email ID</em>, select the email address that is displayed for the account and copy it into the&nbsp;<strong>Receiver email</strong> field in your Community settings.</li>
+	<li>Click the close button or click anywhere outside of the pop-up to dismiss it.</li>
+	<li>Returning to the sidebar on the left side of the page, click <em>My Apps &amp; Credentials</em>.</li>
+	<li>Scroll down until you see the heading&nbsp;<em>NVP/SOAP API apps</em> and click&nbsp;<em>Manage NVP/SOAP API apps</em>&nbsp;to open your NVP/SOAP applications listing. (You may be prompted to log in or confirm your credentials.)</li>
+	<li>Under the heading <em>FOR APP TESTING</em>, select the test app ID (which begins in "APP-") and copy it into the&nbsp;<strong>PayPal Application ID</strong> field in your Community settings.</li>
+</ol>
+
+<p>Now that your&nbsp;settings are configured properly, <strong>you should test that Community Tickets is working as desired, including how PayPal is handling the fake money.</strong></p>
+
+<p>Here's an example of how your PayPal Split Payments settings might look for <strong>Sandbox mode</strong>:</p>
+
+<p style="text-align: center;"><img alt="Example of PayPal Split Payments settings for Sandbox mode" src="https://s3.theeventscalendar.com/uploads/2016/02/community_tickets_sandbox_settings.png" /></p>
+
+<h3>Obtaining Credentials for Live Mode</h3>
+
+<p>Once you've tested in Sandbox mode and you're ready to start handling real money:</p>
+
+<ol>
+	<li><em>Uncheck</em> the <strong>Use PayPal sandbox</strong> checkbox, clear out all the Sandbox credentials, and save the fields as empty/blank. This helps make sure that you don't make errors mixing Sandbox credentials with Live credentials.</li>
+	<li>Login to <a href="https://developer.paypal.com/" target="_blank">https://developer.paypal.com/</a>.</li>
+	<li>Click <em>Dashboard</em>.</li>
+	<li>Scroll down until you see the heading&nbsp;<em>NVP/SOAP API apps</em> and click&nbsp;<em>Manage NVP/SOAP API apps</em>&nbsp;to open your NVP/SOAP applications listing. (You may be prompted to log in or confirm your credentials.)</li>
+	<li>Click <em>New Application</em> to open the NVP/SOAP app application form.</li>
+	<li>In the <em>Title</em> field, enter&nbsp;a&nbsp;descriptive name for your application (for example, “Example.com Community Tickets App”).</li>
+	<li>In the text area field below, provide a brief description outlining the functionality of your application.</li>
+	<li style="text-align: center;">In the text field below this, enter the URL for The Events Calendar website (http://theeventscalendar.com).<img alt="Example fields for the PayPal NVP/SOAP API application" src="https://s3.theeventscalendar.com/uploads/2016/02/nvp_app_information.png" /></li>
+	<li>Click the&nbsp;<em>Industry and Use Cases</em> heading to open the next pane of form fields. If any of the listed industries apply to your business, select that industry. Otherwise, you may leave&nbsp;<em>None of the Below</em> selected.</li>
+	<li>From the drop-down menu provided for <em>Use Case</em>, select <em>Event Registration</em>.</li>
+	<li>Under <em>Services used by this app</em>, click&nbsp;<em>Adaptive Payments</em>.</li>
+	<li>Select the check box for&nbsp;<em>Chained Payments</em> to display the form fields for this option.</li>
+	<li>Under <em>Who pays the fee?</em>, select <em>Secondary receiver</em>. Fill in the form fields for primary and secondary receiver below. Your primary receivers will be your event organizers; your secondary receiver will be the site administrator who receives a portion of ticket payments.</li>
+	<li>Enter your best estimates for your expected monthly payment volume and average transaction amount in the fields provided.</li>
+	<li>Under&nbsp;<em>Who is responsible for chargebacks or refunds?</em>, enter "Primary receiver".</li>
+	<li>Enter the URL for your site's terms of service in the field provided.</li>
+	<li>Scroll down until you see the heading&nbsp;<em>Testing Information</em>.</li>
+	<li>Under <em>Step-by-step Payment Flows Instructions</em>, provide instructions on how a user can select one or more tickets and complete a purchase&nbsp;on your site. If a login is required to complete a purchase on your site, enter test credentials into the <em>Supply Test Account Name and Password</em> field.</li>
+	<li>Under the heading <em>Business Information</em>, upload any text files, images, or PDF scans that may be helpful in demonstrating&nbsp;the legitimacy&nbsp;of your business. This may include business registration documents, proof of address, or other identifying paperwork.</li>
+	<li>If your site is already live and accessible to the public, enter its URL in&nbsp;the text field provided.</li>
+	<li>Click <em>Submit App</em> to submit your application for review.</li>
+</ol>
+
+<p>Once your application is submitted, PayPal will review the information you've provided and return with a decision once processing has completed. <strong>This review can take up to several weeks, and approval is not guaranteed.</strong> If your application is approved, you'll receive your API credentials that you can use for processing real payments on your site. You can access your approved applications at any time by returning to the NVP/SOAP API apps page from your developer dashboard and clicking <em>View/Manage My Apps</em> in the sidebar.</p>
+
+<p>Here's an example of how your PayPal Split Payments settings might look for <strong>Live&nbsp;mode</strong>:</p>
+
+<p style="text-align: center;"><img alt="Example of wp-admin PayPal Split Payments settings for Live mode" src="https://s3.theeventscalendar.com/uploads/2016/02/Example-wp-admin-PayPal-Split-Payments-settings-for-Live-mode-665x519.png" /></p>
+
+<p>We hope this walkthrough will help you to configure, test, and successfully deploy split payments with Community Events and PayPal! If you should have any questions that aren't answered here or if you should encounter any issues while setting things up, please don't hesitate to pay us a visit over at&nbsp;<a href="submit_ticket">our help desk</a>!</p>
+</div>    			
+				<div class="Files">
+					    			
+    			</div>  
+          <div class="ArticleInfo">          
+          <span itemscope itemprop="image" itemtype="https://schema.org/ImageObject">
+          	<meta itemprop="url" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b">
+          	<meta itemprop="width" content="300px">
+          	<meta itemprop="height" content="200px">
+          </span>
+                          <div class="ArticleUpdated" title="Aug 22, 2019, 06:04 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-22" itemprop="dateModified">Aug 22 (18 days ago)</time></span>
+              </div>
+                        <time datetime="2018-10-30" itemprop="datePublished"></time>
+          </div>
+		</div>			
+		<div class="col-md-3">
+				<!-- search_box -->
+<div class="margin-bottom" itemscope itemtype="https://schema.org/WebSite">
+	<meta itemprop="url" content="./" />
+    <form action="https://support.theeventscalendar.com/search" method="get" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
+    	<div class="input-group">
+    	<meta itemprop="target" content="search?q={q}"/>
+        <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
+        <input type="hidden" name="pid" value="559">
+        <input type="hidden" name="type" value="search">
+        <input type="hidden" name="upid" value="">
+      	<span class="input-group-btn">
+        	<input class="btn btn-default btn-searchbox" type="submit" value="Search">
+      	</span>
+	    </div>
+    </form>
+</div>				<!-- right_other_articles -->
+<div class="panel panel-default">
+	<div class="panel-heading"><h4>Other Articles</h4></div>
+  <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="152335-Community-Tickets-Tracking-sales--getting-paid" class="article-link article-link-527" title="Community Tickets: Tracking sales &amp; getting paid">
+        <span class="TitleValue">Community Tickets: Tracking sales &amp; getting paid</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="117835-Community-Tickets-Ticket-Fees" class="article-link article-link-933" title="Community Tickets: Ticket Fees">
+        <span class="TitleValue">Community Tickets: Ticket Fees</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="587135-Community-Tickets-Split-Payments" class="article-link article-link-941" title="Community Tickets: Split Payments">
+        <span class="TitleValue">Community Tickets: Split Payments</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="349416-Configuring-Community-Tickets" class="article-link article-link-815" title="Configuring Community Tickets">
+        <span class="TitleValue">Configuring Community Tickets</span>
+      </a></li>
+        <li class="list-group-item item-A"><a href="136789-New-User-Primer-Community-Tickets" class="article-link article-link-523" title="New User Primer: Community Tickets">
+        <span class="TitleValue">New User Primer: Community Tickets</span>
+      </a></li>
+    </ul>
+  </div>
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+
+    var searchId = document.location.hash.replace('#', '');
+    var headTag = document.getElementsByTagName("head").item(0);
+    var scriptTag = document.createElement("script");
+    scriptTag.setAttribute("type", "text/javascript");
+    scriptTag.setAttribute("src", "/track.php%3Fid=559&searchId="+searchId);
+    headTag.appendChild(scriptTag);
+
+</script>		<footer>
+					<div class="footer__wrapper">
+  <div class="footer__brand">
+    <div class="footer__logo">
+      <img src="https://theeventscalendar.com/content/uploads/2019/04/tec-full-logo-inverted.png" alt="The Events Calendar">
+    </div>
+  </div>
+
+  <div class="footer__nav">
+    &copy; A Modern Tribe Hootenanny <span>|</span> 
+    <a href="https://theeventscalendar.com/terms">Terms</a>
+    <span>|</span> 
+    <a href="https://theeventscalendar.com/privacy-policy/">Privacy
+  </div>
+</div>
+					<div class="footer-container">
+				<div class="container">
+					
+				</div>
+			</div>
+		</footer>
+	<a href="347614-Community-Tickets-Configuring-PayPal-Adaptive-Payments-Legacy#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <!-- <script id="tribe-js" defer src="frontend.min.js"></script> -->
+<script id="tribe-js" defer src="frontend.min.js"></script>
+</body>
+</html>
