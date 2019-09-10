@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="983445-Community-Events" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
+        <link rel="canonical" href="983445-Community-Events" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,7 +28,8 @@ function(e){});
             <title>Community Events</title>            <meta property="og:url" content="//support.theeventscalendar.com/983445-Community-Events" />    <meta property="og:title" content="Community Events" />    <meta property="og:description" content="Community Events" />        <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
+<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -45,7 +46,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="index.html"></a>
+						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -66,7 +67,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -135,27 +136,13 @@ zaius.event('pageview');
             </div>
                     
                         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <a href="152335-Community-Tickets-Tracking-sales--getting-paid" itemprop="item" class="list-group-item item-A" title="Community Tickets: Tracking sales &amp; getting paid">                  
-                  <h3 class="list-group-item-heading" itemprop="name">Community Tickets: Tracking sales &amp; getting paid</h3>
-                  <meta itemprop="url" content="//support.theeventscalendar.com/152335-Community-Tickets-Tracking-sales--getting-paid" />
-                                    <div itemprop="description" class="article-preview">Community Tickets allows site admins to collect fees for ticket sales made on their site. You have control over your preferred payment gateway for ticket sales and use PayPal to pay organizers. Be sure to configure your Split Payments (https://support.theeventscalendar.com/587135-Community-Tickets-Split-Payments) and Site Fees (https://support.theeventscalendar.com/117835-Community-Tickets-Site-Fees) settings.
- 
-
-Orders
-
- As the site admin, you can view ticket sales from your dashboard. You can ...</div>
-                  <meta itemprop="position" content="4" />
-                </a>
-            </div>
-                    
-                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="420384-Auto-publish-events-submitted-by-logged-in-users" itemprop="item" class="list-group-item item-A" title="Auto-publish events submitted by logged in users">                  
                   <h3 class="list-group-item-heading" itemprop="name">Auto-publish events submitted by logged in users</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/420384-Auto-publish-events-submitted-by-logged-in-users" />
                                     <div itemprop="description" class="article-preview">In the Community Events settings (https://support.theeventscalendar.com/786442-Setting-Overview-Community-Events), you can control the status of events that are submitted via the Add Event form. But perhaps you'd like a little more control over that.
  The snippet below will auto-publish any event submitted by a registered, logged in user. Any other submitted events (i.e., those submitted by anonymous users) will go to whatever your default status is set to (e.g. Draft or Pending Review).
  To add...</div>
-                  <meta itemprop="position" content="5" />
+                  <meta itemprop="position" content="4" />
                 </a>
             </div>
                     
@@ -166,7 +153,7 @@ Orders
                                     <div itemprop="description" class="article-preview">Ready to get started with Community Events? We’ve got you covered! The steps below will help you get set up and ready to use your calendar’s new add-on features.
  If you are new to our core plugin, The Events Calendar, you’ll want to make sure to familiarize yourself with it (https://support.theeventscalendar.com/342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO) before continuing here.
  1. Download and install the plugin (https://support.theeventscalendar.com/847919-Downloading...</div>
-                  <meta itemprop="position" content="6" />
+                  <meta itemprop="position" content="5" />
                 </a>
             </div>
                     
@@ -181,7 +168,7 @@ Review your settings
 
  After installing the Community Events add-on, it's important to verify your Event Submission settings by going to Events --&gt; Settings --&gt; Community and reviewing the available options.
  First, you'll want to decide if your site will allow anonymous submissions or not. With this feature disabled, only ...</div>
-                  <meta itemprop="position" content="7" />
+                  <meta itemprop="position" content="6" />
                 </a>
             </div>
                     
@@ -203,7 +190,7 @@ Review your settings
 CSS Only: Body Classes
 
  Any correctly-made WordPress theme will make use of the WordPress Core function body_class() (https://develop...</div>
-                  <meta itemprop="position" content="8" />
+                  <meta itemprop="position" content="7" />
                 </a>
             </div>
                     
@@ -213,7 +200,7 @@ CSS Only: Body Classes
                   <meta itemprop="url" content="//support.theeventscalendar.com/112713-Adding-Content-Above-or-Below-Community-Events-Pages" />
                                     <div itemprop="description" class="article-preview">You may want to include some instructions for your users at the top of the Community Events submission form, or add some notes or sponsor information at the bottom of the "My Events" page. But the Community Events submission form and "My Events" pages are not actual WordPress pages, so to add content above or below these pages, you'll need to use on of the following three methods.
  The available methods are sorted in this guide in order of difficulty, with the easiest method first. The three met...</div>
-                  <meta itemprop="position" content="9" />
+                  <meta itemprop="position" content="8" />
                 </a>
             </div>
                     
@@ -226,7 +213,7 @@ CSS Only: Body Classes
  
 -------------------------
  By default, only the Event Title and Event Description are required on the Community Events submission form. But you can use plugin filters t...</div>
-                  <meta itemprop="position" content="10" />
+                  <meta itemprop="position" content="9" />
                 </a>
             </div>
                     
@@ -240,7 +227,7 @@ CSS Only: Body Classes
 Changing the 'Event Submission Form' Page Title
 
  You can easily change the page title on the submission form using the tribe_ce_submit...</div>
-                  <meta itemprop="position" content="11" />
+                  <meta itemprop="position" content="10" />
                 </a>
             </div>
                     
@@ -257,7 +244,7 @@ General
 
  	- Allow anonymous submissions: Allow anonymous (non-logged in) users to submit events on your site. With this feature disabled, only users with registered accounts may submit.
  	- Use visu...</div>
-                  <meta itemprop="position" content="12" />
+                  <meta itemprop="position" content="11" />
                 </a>
             </div>
                 	</div>
@@ -296,10 +283,11 @@ General
 		</footer>
 	<a href="983445-Community-Events#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <script id="tribe-js" defer src="frontend.min.js"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
+<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
 </body>
 </html>
