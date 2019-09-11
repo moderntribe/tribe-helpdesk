@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="423317-Troubleshooting-Google-Maps" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
+        <link rel="canonical" href="423317-Troubleshooting-Google-Maps" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,7 +28,8 @@ function(e){});
             <title>Troubleshooting Google Maps</title>    <meta name="description" content="Is your website unable to load Google Maps or do you see events located ..." />    <meta name="keywords" content="Events Calendar PRO,Article,Events Calendar PRO,Intermediate,Common Conflicts,Single Event Pages,Errors &amp;amp; Troubleshooting,Common Conflicts,Map View,events,google,events calendar,events calendar pro,upcoming events,map,map view,google maps,maps,google maps api key,google maps api,maps api key,maps api,list of upcoming events,coast of africa,latitude and longitude,venue data,enable google maps,events located in the ocean,fixing venue data, uitribe, uiback, block editor, classic editor" />    <meta property="og:url" content="//support.theeventscalendar.com/423317-Troubleshooting-Google-Maps" />    <meta property="og:title" content="Troubleshooting Google Maps" />    <meta property="og:description" content="Is your website unable to load Google Maps or do you see events located in the ocean off the coast of Africa? These are a few of the common Google Maps issues that we see. Here are our steps for troub" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=fs90nc2wuo3cmlok1n37hokcrzaafzr6" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
+<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -45,7 +46,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="index.html"></a>
+						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -79,7 +80,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -122,7 +123,7 @@ zaius.event('pageview');
 
 <p style="text-align: center;">Google Maps settings in Classic Editor</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=fs90nc2wuo3cmlok1n37hokcrzaafzr6" /></p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=fs90nc2wuo3cmlok1n37hokcrzaafzr6" /></p>
 
 <p style="text-align: center;">Google Maps settings in Block Editor</p>
 
@@ -203,7 +204,7 @@ This may cause unexpected errors.
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Jun 30, 2019, 12:36 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (58 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-30" itemprop="dateModified">Jun 30 (2 months ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -297,10 +298,11 @@ This may cause unexpected errors.
 		</footer>
 	<a href="423317-Troubleshooting-Google-Maps#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <script id="tribe-js" defer src="frontend.min.js"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
+<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
 </body>
 </html>

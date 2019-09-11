@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="588715-Recipes" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1566819084" type="text/css">
+        <link rel="canonical" href="588715-Recipes" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,7 +28,8 @@ function(e){});
             <title>Recipes</title>            <meta property="og:url" content="//support.theeventscalendar.com/588715-Recipes" />    <meta property="og:title" content="Recipes" />    <meta property="og:description" content="Recipes" />        <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
+<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -45,7 +46,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="index.html"></a>
+						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -66,7 +67,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -108,13 +109,50 @@ zaius.event('pageview');
 	<div class="list-group article-list" itemscope itemtype="https://schema.org/ItemList">
         
                         <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="059476-Remove-Links-from-Events" itemprop="item" class="list-group-item item-A" title="Remove Links from Events">                  
+                  <h3 class="list-group-item-heading" itemprop="name">Remove Links from Events</h3>
+                  <meta itemprop="url" content="//support.theeventscalendar.com/059476-Remove-Links-from-Events" />
+                                    <div itemprop="description" class="article-preview">Description
+
+ This snippet will allow users to remove the links from their events so that users cannot click on them. This way, users cannot visit single events pages.
+ 
+
+Usage
+
+ For CSS: Copy the below code into your (child) theme's style.css file, or add it to Appearance &gt; Customize &gt; Additional CSS box (or wherever you usually put custom styling).
+ 
+
+Plugins
+
+ 
+
+ 	- The Events Calendar
+ 
+
+ 
+
+Snippet
+
+  h2.tribe-events-title { pointer-events: none !important; }
+ 
+
+Notes
+
+ 
+
+ 	- Originall...</div>
+                  <meta itemprop="position" content="1" />
+                </a>
+            </div>
+                    
+                        <div itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 <a href="284367-Allow-tickets-to-show-on-WooCommerce-shop-pages" itemprop="item" class="list-group-item item-A" title="Allow tickets to show on WooCommerce shop pages">                  
                   <h3 class="list-group-item-heading" itemprop="name">Allow tickets to show on WooCommerce shop pages</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/284367-Allow-tickets-to-show-on-WooCommerce-shop-pages" />
                                     <div itemprop="description" class="article-preview">Description
 
  By default, the WooCommerce products that correspond to tickets created with Event Tickets Plus are hidden from displaying in the shop pages. WooCommerce products can be configured to show in the shop pages by editing the product in WooCommerce &gt; Products and changing the "catalog visibility" settings in the product's "publish" panel. This snippet will change the default visibility of ticket products to be "visible" instead of "hidden" when creating or saving a ticket within an ...</div>
-                  <meta itemprop="position" content="1" />
+                  <meta itemprop="position" content="2" />
                 </a>
             </div>
                     
@@ -124,7 +162,7 @@ zaius.event('pageview');
                   <meta itemprop="url" content="//support.theeventscalendar.com/593151-Using-Shortcodes-with-Beaver-Builder" />
                                     <div itemprop="description" class="article-preview">If you using Beaver Builder with Events Calendar Pro and want to integrate shortcodes (https://support.theeventscalendar.com/163659-Shortcodes), you may need a snippet to render the page as expected. Page builders often optimize the loading experience by prerendering code, and then render it again to display the code. However, [tribe_events] (https://support.theeventscalendar.com/074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode) can only load once per page.
  A way to work around t...</div>
-                  <meta itemprop="position" content="2" />
+                  <meta itemprop="position" content="3" />
                 </a>
             </div>
                     
@@ -138,7 +176,7 @@ zaius.event('pageview');
 
  	- Best Practices for Implementing Custom Code Snippets (https://support.theeventscalendar.com/739977-Best-Practices-for-Implementing-Custom-Code-Snippets)
  	- ...</div>
-                  <meta itemprop="position" content="3" />
+                  <meta itemprop="position" content="4" />
                 </a>
             </div>
                     
@@ -149,7 +187,7 @@ zaius.event('pageview');
                                     <div itemprop="description" class="article-preview">Our Themer's Guide (https://support.theeventscalendar.com/153124-Themers-Guide) details how you can override one or more of the many template files that make up our various views. But you aren't limited to just those views. After you've created your own template file, place it within a custom plugin folder or your top-level theme directory (to apply even if you switch themes).
  With the snippet below, you can point the file loader to look in additional locations:
   &lt;?php /** * The Events Cale...</div>
-                  <meta itemprop="position" content="4" />
+                  <meta itemprop="position" content="5" />
                 </a>
             </div>
                     
@@ -161,7 +199,7 @@ zaius.event('pageview');
  
  Many users would like to change that button text to something else, like "Register Now". So, we crafted a snippet that you can use to change the button text to whatever works best for your site:
   &lt;?php /** * Change "Buy Now!" button text */ function tribe_buy_now_button_text( $html ) { $html = str_replace( 'Buy Now!' , 'Regis...</div>
-                  <meta itemprop="position" content="5" />
+                  <meta itemprop="position" content="6" />
                 </a>
             </div>
                     
@@ -180,7 +218,7 @@ Option 1 - with a snippet
 
  Copy the below code into your (child) theme's functions.php file (or wherever you usually put custom code).
   function tribe_tec_change_free_to_zero ( $translation, $text, $domain ) { $custom_text = array( 'Free' ...</div>
-                  <meta itemprop="position" content="6" />
+                  <meta itemprop="position" content="7" />
                 </a>
             </div>
                     
@@ -189,7 +227,7 @@ Option 1 - with a snippet
                   <h3 class="list-group-item-heading" itemprop="name">Using Venues for Related Events</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/333185-Using-Venues-for-Related-Events" />
                                     <div itemprop="description" class="article-preview">The Related Events feature of Events Calendar Pro (https://theeventscalendar.com/product/wordpress-events-calendar-pro/) allows you to display additional upcoming events on your single events pages, based on the event category (https://support.theeventscalendar.com/787141-Event-Categories). If you're not using event categories or simply find it more useful to show your users other events happening at the same venue, this snippet is here to help!  function tribe_modify_related_posts_args ( $args ...</div>
-                  <meta itemprop="position" content="7" />
+                  <meta itemprop="position" content="8" />
                 </a>
             </div>
                     
@@ -198,7 +236,7 @@ Option 1 - with a snippet
                   <h3 class="list-group-item-heading" itemprop="name">Sorting Events Alphabetically</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/173880-Sorting-Events-Alphabetically" />
                                     <div itemprop="description" class="article-preview">By default, events will be sorted by their start date. We have occasionally been asked about changing the sort order to be alphabetical by the event title. Good news! This is possible with the following snippet, which you can add to the functions.php file of your child theme:  function tribe_change_event_order( $query ) { if ( tribe_is_month() ) { $query-&gt;set( 'orderby', 'title' ); $query-&gt;set( 'order', 'ASC' ); } return $query; } add_filter( 'pre_get_posts', 'tribe_change_event_order', 99...</div>
-                  <meta itemprop="position" content="8" />
+                  <meta itemprop="position" content="9" />
                 </a>
             </div>
                     
@@ -207,7 +245,7 @@ Option 1 - with a snippet
                   <h3 class="list-group-item-heading" itemprop="name">Removing &quot;Free&quot; from Event Cost Range</h3>
                   <meta itemprop="url" content="//support.theeventscalendar.com/903900-Removing-Free-from-Event-Cost-Range" />
                                     <div itemprop="description" class="article-preview">If your event has RSVPs or free tickets in addition to paid tickets (say the most expensive ticket is $10), then the cost range for that event will show as "Free - $10" by default. In some cases, showing the event as potentially being free might not be ideal. You can remove "Free" from the cost by adding the following snippet to the functions.php file of your child theme:  function tribe_not_show_free ( $cost, $post_id, $with_currency_symbol ) { if ( $cost == 0 || $cost == 'Free' ) { $cost = str...</div>
-                  <meta itemprop="position" content="9" />
+                  <meta itemprop="position" content="10" />
                 </a>
             </div>
                     
@@ -233,7 +271,7 @@ Plugins
 Snippet
 
   /*list view*/ span.tribe-tickets-left{ display: none !important; } /*single view*/ span.tribe-tickets-remaining{ display:none !important; } di...</div>
-                  <meta itemprop="position" content="10" />
+                  <meta itemprop="position" content="11" />
                 </a>
             </div>
                     
@@ -247,7 +285,7 @@ Snippet
  
  If you click on a specific date in the calendar, then you will only see the events for that day.
  If you would like to show only today's events on the first page load as well, then the below snipp...</div>
-                  <meta itemprop="position" content="11" />
+                  <meta itemprop="position" content="12" />
                 </a>
             </div>
                     
@@ -265,7 +303,7 @@ Snippet
 Usage
 
  Copy the below code into your (child) theme's style.css file, or add it to Appearance &gt; Customize &gt; Additional CSS box (or wherever you usu...</div>
-                  <meta itemprop="position" content="12" />
+                  <meta itemprop="position" content="13" />
                 </a>
             </div>
                     
@@ -282,7 +320,7 @@ Usage
 Usage
 
  Copy the below code into your (child) theme's style.css file, or add it to Appearance &gt; Customize &gt; Additional CSS box (or wherever you usually put custom styling)...</div>
-                  <meta itemprop="position" content="13" />
+                  <meta itemprop="position" content="14" />
                 </a>
             </div>
                     
@@ -324,7 +362,7 @@ Notes
  
 
 Di...</div>
-                  <meta itemprop="position" content="14" />
+                  <meta itemprop="position" content="15" />
                 </a>
             </div>
                     
@@ -361,7 +399,7 @@ Snippet
 Notes
 
  ...</div>
-                  <meta itemprop="position" content="15" />
+                  <meta itemprop="position" content="16" />
                 </a>
             </div>
                     
@@ -381,7 +419,7 @@ Notes
  
 
  This is a safeguarding measure we put in place because we have rece...</div>
-                  <meta itemprop="position" content="16" />
+                  <meta itemprop="position" content="17" />
                 </a>
             </div>
                     
@@ -401,7 +439,7 @@ Usage
  
 
 Plugins...</div>
-                  <meta itemprop="position" content="17" />
+                  <meta itemprop="position" content="18" />
                 </a>
             </div>
                     
@@ -419,7 +457,7 @@ Plugins...</div>
 Usage
 
  Copy the below code into your (child) ...</div>
-                  <meta itemprop="position" content="18" />
+                  <meta itemprop="position" content="19" />
                 </a>
             </div>
                     
@@ -430,7 +468,7 @@ Usage
                                     <div itemprop="description" class="article-preview">Welcome to our book of recipes! (https://support.theeventscalendar.com/588715-Recipes)
  Recipes are a type of article within our knowledgebase that we hope you will find useful but which (unlike our other articles) should not be regarded as formal documentation.
  They typically contain examples of customizations, solutions to unusual or niche problems and other things that fall outside of the normal scope of support. Recipes will not always be a perfect match for your needs, but our hope is they...</div>
-                  <meta itemprop="position" content="19" />
+                  <meta itemprop="position" content="20" />
                 </a>
             </div>
                     
@@ -444,7 +482,7 @@ Usage
  When using a theme based on the Genesis Framework and having a specific setting, the Attendee Registration page will not show up properly. It will show a kind of an excerpt of that page.
  The setting in question can be found under Genesis &gt; Theme Settings &gt; Content Archive.
  ...</div>
-                  <meta itemprop="position" content="20" />
+                  <meta itemprop="position" content="21" />
                 </a>
             </div>
                     
@@ -458,7 +496,7 @@ Usage
  
  The link is not affected by the setting under Events &gt; Settings &gt; Tickets tab &gt; Login requirements section &gt; Require users to log in before they purchase tickets.
  The below method will allow you to hide or remove this link when it is not needed, but...</div>
-                  <meta itemprop="position" content="21" />
+                  <meta itemprop="position" content="22" />
                 </a>
             </div>
                     
@@ -468,7 +506,7 @@ Usage
                   <meta itemprop="url" content="//support.theeventscalendar.com/749502-Add-a-list-of-category-links-below-the-search-bar" />
                                     <div itemprop="description" class="article-preview">By default, event views do not include a clickable list of categories.
  It's possible to add this sort of functionality by installing Filter Bar (https://theeventscalendar.com/product/wordpress-events-filterbar/) or, depending on your needs, the third party plugin The Events Calendar Category Colors (https://wordpress.org/plugins/the-events-calendar-category-colors/). Both are great but, sometimes, they may offer more than you need or you may prefer to start with a simpler custom solution that y...</div>
-                  <meta itemprop="position" content="22" />
+                  <meta itemprop="position" content="23" />
                 </a>
             </div>
                     
@@ -499,7 +537,7 @@ Plugins
 Snippet
 
   add_action( 'tribe_events_inside_cost', 'soldout_in_past' ); function soldout_in_past() { if ( tribe_is_past_event() && tribe_events_has_soldout() ) { echo '&lt;span class="tribe-out-of-stock"&gt;Sold out&lt;/sp...</div>
-                  <meta itemprop="position" content="23" />
+                  <meta itemprop="position" content="24" />
                 </a>
             </div>
                     
@@ -522,7 +560,7 @@ Usage
 Plugins
 
  Event Tic...</div>
-                  <meta itemprop="position" content="24" />
+                  <meta itemprop="position" content="25" />
                 </a>
             </div>
                     
@@ -548,7 +586,7 @@ Plugins
 Snippet
 
   add_action( 'event_tickets_attendees_table_ticket_column', 'add_registration_time_to_attendee_details' ); function add_registration_time_to_attendee_details( $item ) { if ( ! isset( $ite...</div>
-                  <meta itemprop="position" content="25" />
+                  <meta itemprop="position" content="26" />
                 </a>
             </div>
                     
@@ -558,7 +596,7 @@ Snippet
                   <meta itemprop="url" content="//support.theeventscalendar.com/147801-Select-different-templates-for-different-event-categories" />
                                     <div itemprop="description" class="article-preview">By default, all event views are rendered using the same template (defined in the Events ‣ Settings ‣ Display screen). With some creativity, though, it's possible to tell WordPress to use a completely different template.
  In this recipe we are going to pick a different template based on the requested event category. For example, if we have a category called WP Meetups (the slug for which is 'wp-meetups') and someone visits example.com/events/category/wp-meetups (http://example.com/events/category...</div>
-                  <meta itemprop="position" content="26" />
+                  <meta itemprop="position" content="27" />
                 </a>
             </div>
                 	</div>
@@ -597,10 +635,11 @@ Snippet
 		</footer>
 	<a href="588715-Recipes#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <script id="tribe-js" defer src="frontend.min.js"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
+<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
 </body>
 </html>
