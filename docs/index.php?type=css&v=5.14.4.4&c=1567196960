@@ -1,0 +1,218 @@
+.Loading-image {
+  background:#fff url('themes/kb/montana/img/loading.gif') no-repeat center center;
+}
+.ImageUploadButtons {
+  background:url('https://support.theeventscalendar.com/themes/kb/montana/img/box_divider.png') repeat-x left top;
+}
+.UploadContainer {
+  background:url('https://support.theeventscalendar.com/themes/kb/montana/img/box_divider.png') repeat-x left bottom;
+}
+
+.EditProfileButtons {
+  background:url('https://support.theeventscalendar.com/themes/kb/montana/img/box_divider.png') repeat-x left top;
+}
+.SendFile .Icon {
+  background:url('https://support.theeventscalendar.com/themes/kb/montana/img/icon.attachment.png') no-repeat 0px 1px;
+}
+.SendFile.Uploading .Icon {
+  background:url('themes/kb/montana/img/loading-small.gif') no-repeat;
+}
+.FileIcon {
+  background:url("themes/kb/montana/img/file.png");
+}
+.InputFileView .DiscardButton {
+  background:url("https://support.theeventscalendar.com/themes/kb/montana/img/file_discard.png") no-repeat center center;
+}
+.ErrorMessage .MessageWindowButtonClose {
+  background:url('themes/kb/montana/img/popup_close.png') no-repeat 0 0px;
+}
+.ErrorMessage .MessageWindowButtonClose-over {
+  background:url('themes/kb/montana/img/popup_close.png') no-repeat 0px -17px;
+}
+.CloseLabel {
+  background:url('themes/kb/montana/img/popup_close.png') no-repeat 0 0px;
+}
+.CloseLabel:hover {
+  background:url('themes/kb/montana/img/popup_close.png') no-repeat 0px -17px;
+}
+.AppBrandProductLink,
+.AppBrandProductLabel {
+  color:#000 !important;
+  opacity: 0.5;
+}
+.AppBrandProductLink:hover {
+  opacity: 0.8;
+}body {font-family:Arial,Verdana;}
+.KbLoginBox {font-family:"Lucida grande","Lucida Sans Unicode",Arial,Verdana,Helvetica,Geneva,sans-serif;}
+.g-FormField2-ErrorPopup {font-family:"Lucida grande","Lucida Sans Unicode",Arial,Verdana,Helvetica,Geneva,sans-serif;}
+.MessageFormFiles {font-family:Arial;}
+.PreviewBox {font-family:Arial;}
+.FileNameBox {font-family:Arial;}
+.SingleContentPanel {font-family:"Lucida grande","Lucida sans unicode", Arial, Verdana, Helvetica, Geneva, sans-serif;}
+.Time {font-family:Arial;}
+.MessageGroupHeader {font-family:Arial;}
+.MessageHeader .messageBody {font-family:Arial,"Lucida Sans Unicode",Verdana;}
+.inputViewContainer .MessageFormFiles {font-family:Arial;}@font-face {
+	font-family: 'Glyphicons Halflings';
+	src: url('themes/kb/montana/fonts/glyphicons-halflings-regular.eot');
+	src: url('themes/kb/montana/fonts/glyphicons-halflings-regular.eot?') format('embedded-opentype'), url('themes/kb/montana/fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('themes/kb/montana/fonts/glyphicons-halflings-regular.woff') format('woff'), url('themes/kb/montana/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('themes/kb/montana/fonts/glyphicons-halflings-regular.svg') format('svg');
+}
+
+.CategoryTitleBox .CategoryLink {color:transparent;}
+.CategoryTitleBox .CategoryLink:hover {color:transparent;}
+.SearchResult .ArticleLink, .ArticleBox .ArticleLink, .SuggestionBox .ArticleLink {color:transparent;}
+.SearchResult .ArticleLink:hover, .ArticleBox .ArticleLink:hover, .SuggestionBox .ArticleLink:hover {color:transparent;}
+
+#Header {background:transparent;}
+.KBLogo {background-image:url('https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&file=38c5578de917714b298133b20a4379b3');}
+.RightBox {border-color:transparent;}
+.KbLinkButton {color:#FFFFFF; background-color: #0A8CC9; border-color:#0A8CC9;}
+.KbLinkButton:hover {color:#FFFFFF; background-color: #44A0CC; border-color:#44A0CC;}
+.ImLeButton .buttonBorderColor, .UploadImageButton {border-color:#CCCCCC;}
+.ImLeButton .buttonBgColor, .UploadImageButton {background-color:#FFFFFF;}
+.ImLeButton .buttonOverBorderColor, .UploadImageButton:hover {border-color:#ADADAD;}
+.ImLeButton .buttonOverBgColor, .UploadImageButton:hover {background-color:#E6E6E6;}
+.ImLeButton .buttonText, .UploadImageButton .Text {color:#333333;}
+.ImLeButton-over .buttonText, .UploadImageButton:hover .Text {color:#333333;}
+
+.MainButton .buttonBorderColor, .GreenButton .buttonBorderColor, .Send .buttonBorderColor, .ReplyButton .buttonBorderColor {border-color:#0A8CC9;}
+.MainButton .buttonBgColor, .GreenButton .buttonBgColor, .Send .buttonBgColor, .ReplyButton .buttonBgColor {background-color:#0A8CC9;}
+.MainButton .buttonOverBorderColor, .GreenButton .buttonOverBorderColor, .Send .buttonOverBorderColor, .ReplyButton .buttonOverBorderColor {border-color:#44A0CC;}
+.MainButton .buttonOverBgColor, .GreenButton .buttonOverBgColor, .Send .buttonOverBgColor, .ReplyButton .buttonOverBgColor {background-color:#44A0CC;}
+.MainButton .buttonText, .GreenButton .buttonText, .Send .buttonText, .ReplyButton .buttonText {color:#FFFFFF;}
+.MainButton .buttonOverBgColor .buttonText, .GreenButton .buttonOverBgColor .buttonText, .Send .buttonOverBgColor .buttonText, .ReplyButton .buttonOverBgColor .buttonText {color:#FFFFFF;}
+
+.VoteMainButton .buttonBorderColor, .StartChatButton .buttonBorderColor, .RewardButton .buttonBorderColor, .PunishButton .buttonBorderColor {border-color:#CCCCCC;}
+.VoteMainButton .buttonBgColor, .StartChatButton .buttonBgColor, .RewardButton .buttonBgColor, .PunishButton .buttonBgColor {background-color:#FFFFFF;}
+.VoteMainButton .buttonOverBorderColor, .StartChatButton .buttonOverBorderColor, .RewardButton .buttonOverBorderColor, .PunishButton .buttonOverBorderColor {border-color:#ADADAD;}
+.VoteMainButton .buttonOverBgColor, .StartChatButton .buttonOverBgColor, .RewardButton .buttonOverBgColor, .PunishButton .buttonOverBgColor {background-color:#E6E6E6;}
+.VoteMainButton .buttonText, .StartChatButton .buttonText, .RewardButton .buttonText, .PunishButton .buttonText {color:#333333;}
+.VoteMainButton .buttonOverBgColor .buttonText, .StartChatButton .buttonOverBgColor .buttonText, .RewardButton .buttonOverBgColor .buttonText, .PunishButton .buttonOverBgColor .buttonText {color:#333333;}
+.RewardButton.ImLeButton-over, .PunishButton.ImLeButton-over {background-color:#E6E6E6; border-color:#ADADAD; color:#333333;}
+
+
+.item-with-status:before {background:url("themes/kb/montana/img/status-o.svg") no-repeat center center;}
+.item-status-A:before {background:url("themes/kb/montana/img/status-a.svg") no-repeat center center;}
+.item-status-R:before {background:url("themes/kb/montana/img/status-r.svg") no-repeat center center;}
+.item-status-N:before {background:url("themes/kb/montana/img/status-n.svg") no-repeat center center;}
+.item-status-X:before {background:url("themes/kb/montana/img/status-x.svg") no-repeat center center;}
+
+
+.btn-primary,
+.GreenButton,
+.ImLeButton.Send,
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav-pills > li.active > a ,
+.nav-pills > li.active > a:hover ,
+.nav-pills > li.active > a:focus {background-color:#0A8CC9; border-color:#0A8CC9; color:#FFFFFF;}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.GreenButton:hover,
+.GreenButton.ImLeButton-over,
+.ImLeButton.Send:hover,
+.ImLeButton-over.Send,
+.MainButton.ImLeButton-over,
+.GreenButton.ImLeButton-over,
+.Send.ImLeButton-over,
+.ReplyButton.ImLeButton-over,
+.MainButton.ImLeButton:hover,
+.GreenButton.ImLeButton:hover,
+.Send.ImLeButton:hover,
+.ReplyButton.ImLeButton:hover,
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+	color:#FFFFFF;
+	background-color:#44A0CC;
+	border-color:#44A0CC;
+	-webkit-box-shadow: 0 0 8px rgba(68,160,204,0.6);
+	box-shadow: 0 0 8px rgba(68,160,204,0.6);
+}
+input:focus {border-color: #0A8CC9;}
+.jumbotron input:focus {border-color: #0A8CC9;}
+.more-link {color:#0A8CC9 !important;}
+.more-link:hover {color:#44A0CC !important;}
+.jumbotron h1 {color:#000000;}
+.jumbotron,
+.jumbotron p,
+.jumbotron .breadcrumbs a,
+.jumbotron .g-FormField2-Description,
+.jumbotron .FormfieldAsNewFormField .g-FormField2-Label,
+.jumbotron .g-FormField2-Label,
+.jumbotron .g-FormField2-Label.gwt-Label-mandatory {color:#000000;}
+.TextBoxContainer-focus .TextBox,
+.TextBox:focus,
+textarea:focus,
+.SwitchableEditor .gwt-TextArea:focus {
+	border-color:#0A8CC9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(10,140,201,0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(10,140,201,0.6);
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(10,140,201,0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(10,140,201,0.6);
+}
+
+.jumbotron input[type=text]:focus,
+.jumbotron input[type=password]:focus {
+	    outline: 0;
+	    -webkit-box-shadow: 0 0 8px rgba(10,140,201,0.6);
+	    box-shadow: 0 0 8px rgba(10,140,201,0.6);
+}
+.footer-links {
+	background:#F1F1F1 url("themes/kb/montana/img/footer-noise.png") repeat center center;
+	color:#777777;
+}
+	html,
+	.footer-container {background:#F1F1F1 url("themes/kb/montana/img/body-bg-light.png") repeat center center; color:#777777;}
+	.footer-container .AppBrandProductLabel,
+	.footer-container .AppBrandProductName {color:#000 !important;}
+	.footer-container .AppBrandProductWidget svg {fill:#000;}
+	.footer-links {
+  	border-top:1px solid rgba(0,0,0,0.04);
+	}
+.footer-links h5 {color:#666666;}
+.footer-links ul {border-top:1px solid rgba(119,119,119,0.15);}
+.footer-links li {border-bottom:1px solid rgba(119,119,119,0.15);}
+.footer-links li a {color:#777777;}
+.footer-links li a:hover {color:#222222;}
+
+  .page-image-divider {background-image: url("themes/kb/montana/img/bootstrap-bg-05.jpg");}
+  .jumbotron {background-image: url("themes/kb/montana/img/bootstrap-bg-05.jpg");}
+  .page-image-divider {background-image: url("https://theeventscalendar.com/content/uploads/2018/10/banner-darkened.jpg");}
+  .jumbotron {background-image: url("https://theeventscalendar.com/content/uploads/2018/10/banner-darkened.jpg");}
+
+.g-FormField2-Error .TextBoxContainer-focus .TextBox,
+.g-FormField2-Error .TextBox:focus,
+.g-FormField2-Error textarea:focus,
+.g-FormField2-Error .SwitchableEditor .gwt-TextArea:focus {
+	border-color:#cc0000;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(204,0,0,0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(204,0,0,0.6);
+}
+
+.g-FormField2-Error input[type=text]:focus,
+.g-FormField2-Error input[type=password]:focus {
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(204,0,0,0.6);
+	  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(204,0,0,0.6);
+}
+
+.jumbotron .g-FormField2-Error input[type=text]:focus,
+.jumbotron .g-FormField2-Error input[type=password]:focus {
+	  outline: 0;
+	  -webkit-box-shadow:0 0 8px rgba(204,0,0,0.6);
+	  box-shadow:0 0 8px rgba(204,0,0,0.6);
+}/* this file is meant to hold custom css rules */ 
