@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="189617-How-Event-Tickets-Calculates-Availability" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="189617-How-Event-Tickets-Calculates-Availability" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,8 @@ function(e){});
             <title>How Event Tickets Calculates Availability</title>    <meta name="description" content="Ticket availability is based on the lowest number of inventory, stock, and capacity." />    <meta name="keywords" content="event tickets, event tickets plus, inventory, stock, capacity, tickets, ordering tickets, tsm, ter, availability" />    <meta property="og:url" content="//support.theeventscalendar.com/189617-How-Event-Tickets-Calculates-Availability" />    <meta property="og:title" content="How Event Tickets Calculates Availability" />    <meta property="og:description" content="Ticket availability shows how many “seats” are left for a ticket that&#039;s been created for an event. Event Tickets calculates availability from three different data points: inventory, stock, and/or " />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=438186cb54df44e5836da82edd6cb9b0" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
+<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +46,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="index.html"></a>
+						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +80,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -122,27 +122,27 @@ Let's review what each of these terms refers to:
 
 <p>Your visitors will see availability in the ticket display:</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=438186cb54df44e5836da82edd6cb9b0" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=438186cb54df44e5836da82edd6cb9b0" /></p>
 
 <p style="text-align: center;">Front end block editor view of Ticket availability</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=1fca92fe959f0f7a15942460ea43f012" /></p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=1fca92fe959f0f7a15942460ea43f012" /></p>
 
 <p style="text-align: center;">Front end classic editor view of Ticket availability</p>
 
 <p>As an admin, you will see the availability in a few places within your site.The first is&nbsp;while you are editing an event in the ticket editor.</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=6733a7da9640558389fd9318b3c50e04" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=6733a7da9640558389fd9318b3c50e04" /></p>
 
 <p style="text-align: center;">Block Editor view of ticket availability</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=eb037ed103f44f353a5ffc6bb349ee94" /></p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=eb037ed103f44f353a5ffc6bb349ee94" /></p>
 
 <p style="text-align: center;">Classic Editor view of ticket availability</p>
 
 <p>The&nbsp;<a href="622969-Tickets-Managing-Your-Orders-and-Attendees">Ticket Orders</a>&nbsp;screen also shows the current ticket availability:&nbsp;</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=84c7aeabd5f30b78d929b2e7ce9e3b69" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=84c7aeabd5f30b78d929b2e7ce9e3b69" /></p>
 
 <h3 id="difference">The difference between Stock and Availability</h3>
 
@@ -156,28 +156,28 @@ Let's review what each of these terms refers to:
 
 <p>If you're using our built-in Tribe Commerce to take payments for tickets, you can choose when ticket stock is decreased at <kbd>Events</kbd> → <kbd>Settings</kbd> → <kbd>Tickets</kbd> → <kbd>Tribe Commerce</kbd>. From here, you can set a decrease in stock based upon whether the order is&nbsp;pending or completed.</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=b4d3b006c50534756cbe95a7f51e0d6b" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=b4d3b006c50534756cbe95a7f51e0d6b" /></p>
 
 <p>In WooCommerce and Easy Digital Downloads, stock changes occur when an attendee submits the payment or finalizes the checkout process. WooCommerce users have extra settings under <kbd>Events</kbd> → <kbd>Settings</kbd> → <kbd>Tickets</kbd> that could impact inventory and stock. Select your preferred options for when attendee records should be generated and when tickets are sent to customers.</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=d55d1d03fb71d2451770b7c082546521" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=d55d1d03fb71d2451770b7c082546521" /></p>
 
 <p>For best results with Event Tickets Plus, be sure to enable WooCommerce Stock Management by going to <kbd>WooCommerce</kbd> → <kbd>Settings</kbd> → <kbd>Products</kbd>→ <kbd>Inventory</kbd> → <kbd>Enable stock management</kbd>.</p>
-<img src="scripts/file.php%3Fview=Y&amp;file=a5f60d93c1f671d5928e0e504326d27b" />
+<img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=a5f60d93c1f671d5928e0e504326d27b" />
 <h3 id="manual-edit">Manually changing stock</h3>
 You can manually edit ticket stock&nbsp;directly in WooCommerce. Manually adjusting stock is not something we recommend doing often, especially if the ticket type uses shared capacity. Doing so open up the possibility of the overall ticket availability mismatching the individual availability of each ticket type. But there are times it makes sense to check the product Stock or manually adjust it. From your ticket editor, select the&nbsp;<strong>Edit Ticket in WooCommerce</strong>&nbsp;option.
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=71cf8250491e2018b26311c0d6f3bf2d" /></p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=71cf8250491e2018b26311c0d6f3bf2d" /></p>
 
 <p style="text-align: center;">Block Editor - Edit Ticket in WooCommerce</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=18574ab44e71a12daa7e0cddeca38acc" /></p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=18574ab44e71a12daa7e0cddeca38acc" /></p>
 
 <p style="text-align: center;">Classic Editor - Edit Ticket in WooCommerce</p>
 
 <p>Scroll down to <kbd>Product Data</kbd> → <kbd>Inventory</kbd>. The Stock quantity field is the product Stock.</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=4469da1dc2b003dc439b87107bc7f91d" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=4469da1dc2b003dc439b87107bc7f91d" /></p>
 
 <p>We hope this takes away any mystery in how&nbsp;ticket availability is calculated in Event Tickets and Event Tickets Plus. But hey, we know it's a weird thing to wrap your head around, so&nbsp;head to our&nbsp;<a data-ytta-id="-" href="submit_ticket" target="_blank">support page</a>&nbsp;if you still have a question and we'd be happy to help!</p>
 </div>    			
@@ -191,7 +191,7 @@ You can manually edit ticket stock&nbsp;directly in WooCommerce. Manually adjust
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Aug 02, 2019, 04:47 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-02" itemprop="dateModified">Aug 02 (41 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-02" itemprop="dateModified">Aug 02 (39 days ago)</time></span>
               </div>
                         <time datetime="2019-04-25" itemprop="datePublished"></time>
           </div>
@@ -285,11 +285,11 @@ You can manually edit ticket stock&nbsp;directly in WooCommerce. Manually adjust
 		</footer>
 	<a href="189617-How-Event-Tickets-Calculates-Availability#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="frontend.min.js"></script> -->
-<script id="tribe-js" defer src="frontend.min.js"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
+<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
 </body>
 </html>

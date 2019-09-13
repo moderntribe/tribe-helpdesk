@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="587135-Community-Tickets-Split-Payments" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="587135-Community-Tickets-Split-Payments" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,8 @@ function(e){});
             <title>Community Tickets: Split Payments</title>        <meta name="keywords" content="split payments, event organizer payout, collecting fees, payment options, " />    <meta property="og:url" content="//support.theeventscalendar.com/587135-Community-Tickets-Split-Payments" />    <meta property="og:title" content="Community Tickets: Split Payments" />    <meta property="og:description" content="Collecting fees   There are three ways to collect fees from ticket sales. The default option is to have all ticket sales collected via your e-commerce engine (WooCommerce). You can then divide up the " />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=8a7lrymha5bajrnow7a80x794nvt0po3" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
+<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +46,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="index.html"></a>
+						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +80,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -123,11 +123,11 @@ zaius.event('pageview');
 
 <p>The event organizer will also receive automatic payments for their part of the sales. With split payments enabled, the organizer will be required to fill in a PayPal address as part of submitting an event. Selecting Payment Options here will take you to a link similar to&nbsp;<samp>http://yoursite.com/events/community/payment-options.</samp></p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=8a7lrymha5bajrnow7a80x794nvt0po3" />&nbsp;</p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=8a7lrymha5bajrnow7a80x794nvt0po3" />&nbsp;</p>
 
 <p>The organizer will then fill in their email address tied to their PayPal account and view the <a href="117835-Community-Tickets-Site-Fees">site fees</a> as set by the administrator.&nbsp;</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=m3ycw06886kbhmzb2fbdrd4o2kgrwgh4" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=m3ycw06886kbhmzb2fbdrd4o2kgrwgh4" /></p>
 
 <p>&nbsp;</p>
 
@@ -141,11 +141,11 @@ zaius.event('pageview');
 
 <p>To learn more on configuring your Payouts API, please see <a href="https://www.paypal.com/us/smarthelp/article/what-is-the-payouts-api-and-how-do-i-enable-it-on-my-account-ts2075">PayPal's support</a>.&nbsp; It is worth noting, PayPal doesn't implement <a href="https://developer.paypal.com/docs/rate-limiting/">rate limits</a> unless they suspect abusive traffic.&nbsp;</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=n2e93spf2sr4ut4040kxj8se9eq97d3j" /></p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=n2e93spf2sr4ut4040kxj8se9eq97d3j" /></p>
 
 <h5 id="flow">Payouts API Order Flow</h5>
 
-<h5 style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=sdsykuuc0goek6kv9qac9mz3tth7wfkp" /></h5>
+<h5 style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=sdsykuuc0goek6kv9qac9mz3tth7wfkp" /></h5>
 
 <h5 id="trigger">Triggering the Payouts API</h5>
 
@@ -162,7 +162,7 @@ zaius.event('pageview');
 
 <p>If you already have a live, approved account however then you can enable split payments on the Community settings page. You will need to use a WooCommerce payment gateway that the customer would use to make their purchases. For more help, please refer to our overview on <a href="347614-Community-Tickets-Configuring-PayPal-Split-Payments">Adaptive Payments</a> and also&nbsp;&nbsp;<a href="https://developer.paypal.com/docs/classic/adaptive-payments/integration-guide/APIntro/">PayPal's support</a>.</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=y4n4u14e00b3j6q0udey5iixlh66n24p" /></p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=y4n4u14e00b3j6q0udey5iixlh66n24p" /></p>
 
 <h3 id="choice">Are Split Payments Right For You</h3>
 
@@ -198,7 +198,7 @@ zaius.event('pageview');
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Sep 04, 2019, 02:00 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-04" itemprop="dateModified">Sep 04 (8 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-04" itemprop="dateModified">Sep 04 (5 days ago)</time></span>
               </div>
                         <time datetime="2019-07-30" itemprop="datePublished"></time>
           </div>
@@ -276,11 +276,11 @@ zaius.event('pageview');
 		</footer>
 	<a href="587135-Community-Tickets-Split-Payments#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="frontend.min.js"></script> -->
-<script id="tribe-js" defer src="frontend.min.js"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
+<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
 </body>
 </html>

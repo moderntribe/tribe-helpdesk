@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="510442-Event-Tickets-Using-RSVPs" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="510442-Event-Tickets-Using-RSVPs" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,8 @@ function(e){});
             <title>Event Tickets: Using RSVPs</title>        <meta name="keywords" content="Article,Beginner,Event Tickets,add/improve screenshots,Event Tickets,Event Tickets Plus,Event Tickets Plus, uiback, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/510442-Event-Tickets-Using-RSVPs" />    <meta property="og:title" content="Event Tickets: Using RSVPs" />    <meta property="og:description" content="Sometimes you may not want to sell tickets and charge a price for an event but would still like to have a list of people who will be attending. The RSVP ticket type in Event Tickets provides this func" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=123301cc31105818d449beb267572782" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
+<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +46,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="index.html"></a>
+						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +80,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -147,7 +147,7 @@ zaius.event('pageview');
 
 <p>Clicking the <strong>+ New RSVP</strong> button will open the Add New RSVP fields. You can then fill out the fields and click <em>"Save RSVP"</em>.&nbsp;&nbsp;</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=123301cc31105818d449beb267572782" /></p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=123301cc31105818d449beb267572782" /></p>
 
 <p>The following shows the fields for RSVPs.</p>
 
@@ -155,7 +155,7 @@ zaius.event('pageview');
 
 <p>If you have activated <a href="705692-An-Introduction-to-Tickets-Blocks">ticket blocks</a>, the interface for adding an RSVP will look just a little bit different. Click in the default Event RSVP block or add a new RSVP block.&nbsp;</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=2086e9c03fd8d7771b3aa008a70e7abf" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=2086e9c03fd8d7771b3aa008a70e7abf" /></p>
 
 <p>Many of the fields in the tickets meta box are self-explanatory, but let's run through each just to be sure.</p>
 
@@ -180,9 +180,9 @@ zaius.event('pageview');
 
 <p>Once RSVPs are allowed according to the "Start Sale Date" option for your RSVP tickets, users will see something like this at the bottom of your ticketed content:</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=cj4fi6e4j0889spcn0xg4afaqz8wi6xw" />Front End&nbsp;Classic Editor View of RSVP&nbsp;</p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=cj4fi6e4j0889spcn0xg4afaqz8wi6xw" />Front End&nbsp;Classic Editor View of RSVP&nbsp;</p>
 
-<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=w8dxhslv5y448ptrzks5qavbxbnyzt5y" />Front End&nbsp;Block Editor View of RSVP&nbsp;</p>
+<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=w8dxhslv5y448ptrzks5qavbxbnyzt5y" />Front End&nbsp;Block Editor View of RSVP&nbsp;</p>
 
 <p>Users can RSVP with those fields and will receive a confirmation over email with their tickets. Here's a screenshot of the default ticket layout that event attendees will receive over email:</p>
 
@@ -305,11 +305,11 @@ zaius.event('pageview');
 		</footer>
 	<a href="510442-Event-Tickets-Using-RSVPs#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="frontend.min.js"></script> -->
-<script id="tribe-js" defer src="frontend.min.js"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
+<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
 </body>
 </html>

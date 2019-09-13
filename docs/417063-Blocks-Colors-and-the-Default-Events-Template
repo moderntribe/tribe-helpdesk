@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="417063-Blocks-Colors-and-the-Default-Events-Template" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="417063-Blocks-Colors-and-the-Default-Events-Template" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,8 @@ function(e){});
             <title>Blocks, Colors, and the Default Events Template</title>        <meta name="keywords" content="blocks, colors" />    <meta property="og:url" content="//support.theeventscalendar.com/417063-Blocks-Colors-and-the-Default-Events-Template" />    <meta property="og:title" content="Blocks, Colors, and the Default Events Template" />    <meta property="og:description" content="The Events Calendar provides options on which template you would like to use for your events pages under Events &gt; Settings &gt; Display &gt; Events template. This allows you to better integrate the plugin w" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=db61450463dfea913648622b5d537324" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
+<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
+<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +46,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="index.html"></a>
+						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +80,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -111,14 +111,14 @@ zaius.event('pageview');
   	<div class="col-md-9">	
    			<div class="article-content ArticleContent" itemprop="articleBody"><p>The Events Calendar provides&nbsp;options on which template you would like to use for your events pages under <kbd>Events</kbd> &gt; <kbd>Settings</kbd> &gt; <kbd>Display</kbd> &gt; <kbd>Events template</kbd>. This allows you to&nbsp;better integrate the plugin with your theme and site styling.</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=db61450463dfea913648622b5d537324" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=db61450463dfea913648622b5d537324" /></p>
 
 <p>What displays around the calendar depends on whether the Default Page Template (left) or Default Events Template (right) is selected in the plugin settings. The blue regions represent areas that are part of the theme.</p>
 
 <hr />
 <p>If you’re using the block editor for events (which you can activate under <kbd>Events</kbd> &gt; <kbd>Settings</kbd> &gt; <kbd>General</kbd> &gt; <kbd>Activate the block editor for events</kbd>), then you will also see&nbsp;color options on certain blocks, like the event description.</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=415279ccc80a754c64a8285f212ae4fc" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=415279ccc80a754c64a8285f212ae4fc" /></p>
 
 <p>If you selected&nbsp;"Default Page Template" in the event settings, then the colors you set for blocks will work as expected. However, the colors you select in the blocks may not be applied on the front-end with some themes. The <a href="https://wordpress.org/themes/twentyseventeen/">Twenty Seventeen</a> theme, for instance, will display the colors just fine, but <a href="https://wordpress.org/themes/twentynineteen/">Twenty Nineteen</a> will not.</p>
 
@@ -126,7 +126,7 @@ zaius.event('pageview');
 
 <p>It’s a bit complex. With the <strong>Default Page Template</strong>,&nbsp;events pages are made up of a header, footer, and content area that are controlled by the theme. The Events Calendar simply inserts your events data into that template. On the other hand, using the <strong>Default Events Template</strong>, the header and footer of the theme are applied to events pages, but the content area is coming from templates within the plugin, not the theme. Since, for some themes, the colors assigned in blocks are output on the front end by CSS classes that the theme adds to the content area, the colors are not displayed when the events pages are not using the theme’s template for the main content.</p>
 
-<p><img src="scripts/file.php%3Fview=Y&amp;file=986ae2530ae3df80fa512554379973ce" /></p>
+<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=986ae2530ae3df80fa512554379973ce" /></p>
 
 <p>The illustration above shows how the same calendar can appear differently depending on whether it the Default Page Template (left) or the Default Events Template (right) is selected in the plugin settings. The blue represents regions that are controlled by the theme.</p>
 
@@ -142,7 +142,7 @@ zaius.event('pageview');
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Jun 13, 2019, 07:55 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-13" itemprop="dateModified">Jun 13 (3 months ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-13" itemprop="dateModified">Jun 13 (2 months ago)</time></span>
               </div>
                         <time datetime="2019-06-12" itemprop="datePublished"></time>
           </div>
@@ -236,11 +236,11 @@ zaius.event('pageview');
 		</footer>
 	<a href="417063-Blocks-Colors-and-the-Default-Events-Template#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="frontend.min.js"></script> -->
-<script id="tribe-js" defer src="frontend.min.js"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
+<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
 </body>
 </html>

@@ -46,10 +46,8 @@ do
 	sed -i 's|.css?|.css%3F|g' $DOWNLOADED_FILE
 
 	# Replace calls to our custom CSS/JS
-    sed -i 's|https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css|style.min.css|g' $DOWNLOADED_FILE
-    sed -i 's|https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js|frontend.min.js|g' $DOWNLOADED_FILE
-    sed -i 's|https://gitcdn.link/repo/moderntribe/liveagent-customizations/master/dist/style.min.css|style.min.css|g' $DOWNLOADED_FILE
-    sed -i 's|https://gitcdn.link/repo/moderntribe/liveagent-customizations/master/dist/frontend.min.js|frontend.min.js|g' $DOWNLOADED_FILE
+	sed -i 's|https://s3-staging.theeventscalendar.com/moderntribe-liveagent-customizations.css|style.min.css|g' $DOWNLOADED_FILE
+	sed -i 's|https://s3-staging.theeventscalendar.com/moderntribe-liveagent-customizations.js|frontend.min.js|g' $DOWNLOADED_FILE
 done
 
 echo " [DONE!]"

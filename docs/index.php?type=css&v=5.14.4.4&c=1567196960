@@ -64,7 +64,7 @@
 .SearchResult .ArticleLink:hover, .ArticleBox .ArticleLink:hover, .SuggestionBox .ArticleLink:hover {color:transparent;}
 
 #Header {background:transparent;}
-.KBLogo {background-image:url('scripts/file.php%3Fview=Y&file=38c5578de917714b298133b20a4379b3');}
+.KBLogo {background-image:url('https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&file=38c5578de917714b298133b20a4379b3');}
 .RightBox {border-color:transparent;}
 .KbLinkButton {color:#FFFFFF; background-color: #0A8CC9; border-color:#0A8CC9;}
 .KbLinkButton:hover {color:#FFFFFF; background-color: #44A0CC; border-color:#44A0CC;}
