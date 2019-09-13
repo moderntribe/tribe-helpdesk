@@ -281,14 +281,23 @@ html, .footer-container {
 }
 
 .article-content {
-	/* Adjust position of anchor link */
+	/* Raise z-index of paragraph elements so they aren't blocked by heading anchors */
+	p {
+		z-index: 3;
+	}
+	/* Adjust position of heading anchors */
 	h1, h2, h3, h4, h5, h6 {
+		z-index: 2;
 
 		&:before {
-			content: " ";
+			content: '';
+			display: block;
+			position: relative;
+			width: 0;
 			height: 110px;
 			margin-top: -110px;
 			visibility: hidden;
+			z-index: 1;
 		}
 	}
 }

@@ -67,7 +67,7 @@ zaius.event('pageview');
         <h1 class="inner-header" itemprop="name">Collecting Attendee Information</h1>
         <meta itemprop="author" content="The Events Calendar">
 		<meta itemprop="headline" content="Collecting Attendee Information">   
-		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/314750-Collecting-Attendee-Information?r=1"/>                  
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/314750-Collecting-Attendee-Information"/>                  
          <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
     		<meta itemprop="name" content="The Events Calendar">
           <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
@@ -255,7 +255,7 @@ zaius.event('pageview');
 				</div>
 			</div>
 		</footer>
-	<a href="314750-Collecting-attendee-information#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+	<a href="314750-Collecting-Attendee-Information#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
