@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="903900-Removing-Free-from-Event-Cost-Range" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="canonical" href="059476-Remove-Links-from-Events" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
@@ -25,7 +25,7 @@
 '//support.theeventscalendar.com/scripts/track.js',
 function(e){});
     </script>       
-            <title>Removing &quot;Free&quot; from Event Cost Range</title>            <meta property="og:url" content="//support.theeventscalendar.com/903900-Removing-Free-from-Event-Cost-Range" />    <meta property="og:title" content="Removing &quot;Free&quot; from Event Cost Range" />    <meta property="og:description" content="If your event has RSVPs or free tickets in addition to paid tickets (say the most expensive ticket is $10), then the cost range for that event will show as &#039;Free - $10&#039; by default. In some cases, show" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
+            <title>Remove Links from Events</title>        <meta name="keywords" content="Events Calendar" />    <meta property="og:url" content="//support.theeventscalendar.com/059476-Remove-Links-from-Events" />    <meta property="og:title" content="Remove Links from Events" />    <meta property="og:description" content="Description   This snippet will allow users to remove the links from their events so that users cannot click on them. This way, users cannot visit single events pages.    Usage   For CSS: Copy the bel" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
 <!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" /> -->
@@ -64,10 +64,10 @@ zaius.event('pageview');
   <div class="container inner-margin-top">
     <div class="row">
       <div class="col-md-12 col-sm-12" style="text-align:center">
-        <h1 class="inner-header" itemprop="name">Removing &quot;Free&quot; from Event Cost Range</h1>
+        <h1 class="inner-header" itemprop="name">Remove Links from Events</h1>
         <meta itemprop="author" content="The Events Calendar">
-		<meta itemprop="headline" content="Removing &quot;Free&quot; from Event Cost Range">   
-		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/903900-Removing-Free-from-Event-Cost-Range"/>                  
+		<meta itemprop="headline" content="Remove Links from Events">   
+		<meta itemscope itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="//support.theeventscalendar.com/059476-Remove-Links-from-Events"/>                  
          <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">    	
     		<meta itemprop="name" content="The Events Calendar">
           <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
@@ -97,9 +97,9 @@ zaius.event('pageview');
     	 	 
 		<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 		<span itemprop="item">
-			<span itemprop="name">Removing &quot;Free&quot; from Event Cost Range</span>
+			<span itemprop="name">Remove Links from Events</span>
 			<meta itemprop="position" content="3" />
-							<link itemprop="url" href="903900-Removing-Free-from-Event-Cost-Range" />
+							<link itemprop="url" href="059476-Remove-Links-from-Events" />
 					</span>
 	</span>
 </p>      </div>
@@ -109,34 +109,38 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody">If your event has RSVPs or free tickets in addition to paid tickets (say the most expensive ticket is $10), then the cost range for that event will show as "Free - $10" by default. In some cases, showing the event as potentially being free might not be ideal. You can remove "Free" from the cost by adding the following snippet to the functions.php file of your child theme:
-<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(35, 36, 31) none repeat scroll 0% 0%; color: rgb(248, 248, 242);">
-function tribe_not_show_free ( $cost, $post_id, $with_currency_symbol ) {
-	
-	if ( $cost == 0 || $cost == 'Free' ) {
-		$cost = str_replace('Free', '', $cost);
-		$cost = str_replace(' - ', '', $cost);
-	}
-	return $cost;
-}
-add_filter ( 'tribe_get_cost', 'tribe_not_show_free', 10, 3 );
-</pre>
+   			<div class="article-content ArticleContent" itemprop="articleBody"><h2>Description</h2>
+
+<p>This snippet will allow users to remove the links from their events so that users cannot click on them. &nbsp;This way, users cannot visit single events pages.</p>
+
+<h2>Usage</h2>
+
+<p>For CSS: Copy the below code into your (child) theme's <em>style.css</em> file, or add it to <em>Appearance &gt; Customize &gt; Additional CSS</em> box (or wherever you usually put custom styling).</p>
 
 <h2>Plugins</h2>
 
-<p>Event Tickets, Event Tickets Plus</p>
+<ul>
+	<li>The Events Calendar</li>
+</ul>
+
+<h2>Snippet</h2>
+
+<pre>
+h2.tribe-events-title {
+	pointer-events: none !important;
+}</pre>
 
 <h2>Notes</h2>
 
 <ul>
-	<li>Originally written in May 2019</li>
-	<li>Tested with Event Tickets 4.10.5 and Event&nbsp;Tickets Plus 4.10.4</li>
-	<li>Author: Jennifer</li>
+	<li>Originally written in September&nbsp;2019</li>
+	<li>Tested with The Events Calendar 4.9.8</li>
+	<li>Author: Jaime Marchwinski</li>
 </ul>
 
 <h2>Disclaimer</h2>
 
-<p>As with all of our recipes, please note that we share this in the hope it will be useful <strong>but without any guarantees or commitments</strong>. If you wish to use it, it is your responsibility to test it and adapt it to your needs (or find someone who can do so on your behalf). We are unable to provide further support in relation to this recipe.</p>
+<p>As with all of our recipes, please note that we share this in the hope it will be useful <strong>but without any guarantees or commitments</strong>. If you wish to use it, it is <em>your</em> responsibility to test it first of all and adapt it to your needs (or find someone who can do so on your behalf). We are unable to provide further support in relation to this recipe.</p>
 </div>    			
 				<div class="Files">
 					    			
@@ -147,10 +151,10 @@ add_filter ( 'tribe_get_cost', 'tribe_not_show_free', 10, 3 );
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="May 22, 2019, 02:58 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-05-22" itemprop="dateModified">May 22 (3 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 09, 2019, 04:45 PM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-09" itemprop="dateModified">Sep 09 (3 days ago)</time></span>
               </div>
-                        <time datetime="2019-05-22" itemprop="datePublished"></time>
+                        <time datetime="2019-09-09" itemprop="datePublished"></time>
           </div>
 		</div>			
 		<div class="col-md-3">
@@ -161,7 +165,7 @@ add_filter ( 'tribe_get_cost', 'tribe_not_show_free', 10, 3 );
     	<div class="input-group">
     	<meta itemprop="target" content="search?q={q}"/>
         <input itemprop="query-input" type="text" name="q" value="" class="form-control SearchText" required>
-        <input type="hidden" name="pid" value="895">
+        <input type="hidden" name="pid" value="949">
         <input type="hidden" name="type" value="search">
         <input type="hidden" name="upid" value="">
       	<span class="input-group-btn">
@@ -173,9 +177,6 @@ add_filter ( 'tribe_get_cost', 'tribe_not_show_free', 10, 3 );
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
-        <li class="list-group-item item-A"><a href="059476-Remove-Links-from-Events" class="article-link article-link-949" title="Remove Links from Events">
-        <span class="TitleValue">Remove Links from Events</span>
-      </a></li>
         <li class="list-group-item item-A"><a href="284367-Allow-tickets-to-show-on-WooCommerce-shop-pages" class="article-link article-link-925" title="Allow tickets to show on WooCommerce shop pages">
         <span class="TitleValue">Allow tickets to show on WooCommerce shop pages</span>
       </a></li>
@@ -200,6 +201,9 @@ add_filter ( 'tribe_get_cost', 'tribe_not_show_free', 10, 3 );
         <li class="list-group-item item-A"><a href="173880-Sorting-Events-Alphabetically" class="article-link article-link-897" title="Sorting Events Alphabetically">
         <span class="TitleValue">Sorting Events Alphabetically</span>
       </a></li>
+        <li class="list-group-item item-A"><a href="903900-Removing-Free-from-Event-Cost-Range" class="article-link article-link-895" title="Removing &quot;Free&quot; from Event Cost Range">
+        <span class="TitleValue">Removing &quot;Free&quot; from Event Cost Range</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="847918-Hide-Ticket-Remaining-or-Available-Quantity-with-CSS" class="article-link article-link-869" title="Hide Ticket Remaining or Available Quantity with CSS">
         <span class="TitleValue">Hide Ticket Remaining or Available Quantity with CSS</span>
       </a></li>
@@ -216,7 +220,7 @@ add_filter ( 'tribe_get_cost', 'tribe_not_show_free', 10, 3 );
     var headTag = document.getElementsByTagName("head").item(0);
     var scriptTag = document.createElement("script");
     scriptTag.setAttribute("type", "text/javascript");
-    scriptTag.setAttribute("src", "/track.php%3Fid=895&searchId="+searchId);
+    scriptTag.setAttribute("src", "/track.php%3Fid=949&searchId="+searchId);
     headTag.appendChild(scriptTag);
 
 </script>		<footer>
@@ -240,7 +244,7 @@ add_filter ( 'tribe_get_cost', 'tribe_not_show_free', 10, 3 );
 				</div>
 			</div>
 		</footer>
-	<a href="903900-Removing-Free-from-Event-Cost-Range#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+	<a href="059476-Remove-Links-from-Events#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

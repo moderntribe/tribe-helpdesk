@@ -156,7 +156,7 @@ add_action( <span class="hljs-string" style="color: rgb(224, 196, 108);">'event_
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Jul 23, 2019, 09:10 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-23" itemprop="dateModified">Jul 23 (47 days ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-23" itemprop="dateModified">Jul 23 (51 days ago)</time></span>
               </div>
                         <time datetime="2019-07-22" itemprop="datePublished"></time>
           </div>
@@ -181,6 +181,9 @@ add_action( <span class="hljs-string" style="color: rgb(224, 196, 108);">'event_
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="059476-Remove-Links-from-Events" class="article-link article-link-949" title="Remove Links from Events">
+        <span class="TitleValue">Remove Links from Events</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="593151-Using-Shortcodes-with-Beaver-Builder" class="article-link article-link-923" title="Using Shortcodes with Beaver Builder">
         <span class="TitleValue">Using Shortcodes with Beaver Builder</span>
       </a></li>
@@ -208,11 +211,8 @@ add_action( <span class="hljs-string" style="color: rgb(224, 196, 108);">'event_
         <li class="list-group-item item-A"><a href="847918-Hide-Ticket-Remaining-or-Available-Quantity-with-CSS" class="article-link article-link-869" title="Hide Ticket Remaining or Available Quantity with CSS">
         <span class="TitleValue">Hide Ticket Remaining or Available Quantity with CSS</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="726385-Show-Only-Todays-Events-on-the-Mini-Calendar-Widget-on-First-Load" class="article-link article-link-863" title="Show Only Today&#039;s Events on the Mini Calendar Widget on First Load">
-        <span class="TitleValue">Show Only Today&#039;s Events on the Mini Calendar Widget on First Load</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="588715-Recipes" class="MoreLinkTitle">and 25 more ...</a></div>
+        <div class="panel-footer"><a href="588715-Recipes" class="MoreLinkTitle">and 26 more ...</a></div>
   </div>
 		</div>
 	</div>

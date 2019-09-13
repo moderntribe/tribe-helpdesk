@@ -167,7 +167,7 @@ add_action( <span class="hljs-string" style="color: rgb(224, 196, 108);">'pre_ge
           	<meta itemprop="height" content="200px">
           </span>
                           <div class="ArticleUpdated" title="Apr 10, 2019, 01:48 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-10" itemprop="dateModified">Apr 10 (4 months ago)</time></span>
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-04-10" itemprop="dateModified">Apr 10 (5 months ago)</time></span>
               </div>
                         <time datetime="2019-04-10" itemprop="datePublished"></time>
           </div>
@@ -192,6 +192,9 @@ add_action( <span class="hljs-string" style="color: rgb(224, 196, 108);">'pre_ge
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="059476-Remove-Links-from-Events" class="article-link article-link-949" title="Remove Links from Events">
+        <span class="TitleValue">Remove Links from Events</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="284367-Allow-tickets-to-show-on-WooCommerce-shop-pages" class="article-link article-link-925" title="Allow tickets to show on WooCommerce shop pages">
         <span class="TitleValue">Allow tickets to show on WooCommerce shop pages</span>
       </a></li>
@@ -219,11 +222,8 @@ add_action( <span class="hljs-string" style="color: rgb(224, 196, 108);">'pre_ge
         <li class="list-group-item item-A"><a href="903900-Removing-Free-from-Event-Cost-Range" class="article-link article-link-895" title="Removing &quot;Free&quot; from Event Cost Range">
         <span class="TitleValue">Removing &quot;Free&quot; from Event Cost Range</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="847918-Hide-Ticket-Remaining-or-Available-Quantity-with-CSS" class="article-link article-link-869" title="Hide Ticket Remaining or Available Quantity with CSS">
-        <span class="TitleValue">Hide Ticket Remaining or Available Quantity with CSS</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="588715-Recipes" class="MoreLinkTitle">and 25 more ...</a></div>
+        <div class="panel-footer"><a href="588715-Recipes" class="MoreLinkTitle">and 26 more ...</a></div>
   </div>
 		</div>
 	</div>

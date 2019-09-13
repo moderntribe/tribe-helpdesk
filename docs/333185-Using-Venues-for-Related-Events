@@ -184,6 +184,9 @@ Add this to the functions.php file of your child theme, and voila! Your Related 
 <div class="panel panel-default">
 	<div class="panel-heading"><h4>Other Articles</h4></div>
   <ul class="panel-body list-group">
+        <li class="list-group-item item-A"><a href="059476-Remove-Links-from-Events" class="article-link article-link-949" title="Remove Links from Events">
+        <span class="TitleValue">Remove Links from Events</span>
+      </a></li>
         <li class="list-group-item item-A"><a href="284367-Allow-tickets-to-show-on-WooCommerce-shop-pages" class="article-link article-link-925" title="Allow tickets to show on WooCommerce shop pages">
         <span class="TitleValue">Allow tickets to show on WooCommerce shop pages</span>
       </a></li>
@@ -211,11 +214,8 @@ Add this to the functions.php file of your child theme, and voila! Your Related 
         <li class="list-group-item item-A"><a href="847918-Hide-Ticket-Remaining-or-Available-Quantity-with-CSS" class="article-link article-link-869" title="Hide Ticket Remaining or Available Quantity with CSS">
         <span class="TitleValue">Hide Ticket Remaining or Available Quantity with CSS</span>
       </a></li>
-        <li class="list-group-item item-A"><a href="726385-Show-Only-Todays-Events-on-the-Mini-Calendar-Widget-on-First-Load" class="article-link article-link-863" title="Show Only Today&#039;s Events on the Mini Calendar Widget on First Load">
-        <span class="TitleValue">Show Only Today&#039;s Events on the Mini Calendar Widget on First Load</span>
-      </a></li>
     </ul>
-        <div class="panel-footer"><a href="588715-Recipes" class="MoreLinkTitle">and 25 more ...</a></div>
+        <div class="panel-footer"><a href="588715-Recipes" class="MoreLinkTitle">and 26 more ...</a></div>
   </div>
 		</div>
 	</div>
