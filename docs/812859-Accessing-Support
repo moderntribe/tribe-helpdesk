@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="812859-Accessing-Support" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="812859-Accessing-Support" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Accessing Support</title>    <meta name="description" content="How to login, register and seek help from our Support Team." />    <meta name="keywords" content="access, logins, registration" />    <meta property="og:url" content="//support.theeventscalendar.com/812859-Accessing-Support" />    <meta property="og:title" content="Accessing Support" />    <meta property="og:description" content="Whether you are already a registered customer or are considering purchasing one of our plugins, we are here and available to assist with any questions.  We recommend you login before seeking help. For" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,16 +108,17 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Whether you are already a registered customer or are considering purchasing one of our plugins, we are here and available to assist with any questions.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>Whether you are already a registered customer or are considering purchasing one of our plugins, we are here and available to assist with any questions.</p>
 
 <p><strong>We recommend you login before seeking help. </strong>For most customers, if you have successfully logged in to our <a href="https://theeventscalendar.com/my-account">parent site (theeventscalendar.com)</a> then you should find you are automatically logged in here, too. If you find this doesn't work or if it's the first time you have used this support portal:</p>
 
 <ul>
 	<li>Try logging out of <a href="https://theeventscalendar.com/my-account">theeventscalendar.com</a> then logging back in</li>
-	<li>If that doesn't work you may need to register on <a href="https://support.theeventscalendar.com/index.html">support.theeventscalendar.com</a> first of all — to do this, follow the <em>Register</em> link found on the <a href="login">login page</a> and be sure to use the same email address you used to purchase your license key</li>
+	<li>If that doesn't work you may need to register on <a href="index.html">support.theeventscalendar.com</a> first of all — to do this, follow the <em>Register</em> link found on the <a href="login">login page</a> and be sure to use the same email address you used to purchase your license key</li>
 </ul>
 
-<p><strong>Not a customer yet? </strong>If you are curious about how our products work you can send us a pre-sales question without having to create an account.<strong> </strong>Simply visit our <a href="https://support.theeventscalendar.com/index.html">Help Desk homepage</a> and use the <em>Ask a Question</em> button (not that this will not be visible for logged in users - if you are logged in you can simply send us a ticket via the <a href="submit_ticket">Submit Ticket</a> page instead).</p>
+<p><strong>Not a customer yet? </strong>If you are curious about how our products work you can send us a pre-sales question without having to create an account.<strong> </strong>Simply visit our <a href="index.html">Help Desk homepage</a> and use the <em>Ask a Question</em> button (not that this will not be visible for logged in users - if you are logged in you can simply send us a ticket via the <a href="submit_ticket">Submit Ticket</a> page instead).</p>
 
 <p>Please also note that technical support is reserved for active license key holders only: if you are a free user and need technical support, we recommend you visit the appropriate <a href="689636-Community-Forums">community forum</a> instead.</p>
 
@@ -127,8 +127,7 @@ zaius.event('pageview');
 <p>We look forward to helping you :-)</p>
 
 <ul>
-</ul>
-</div>    			
+</ul></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -138,8 +137,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Dec 20, 2018, 01:44 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2018-12-20" itemprop="dateModified">Dec 20 (8 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:05 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-10-12" itemprop="datePublished"></time>
           </div>
@@ -233,11 +232,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="812859-Accessing-Support#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

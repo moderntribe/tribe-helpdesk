@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="canonical" href="559097-Add-subscribers" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,7 +28,6 @@ function(e){});
             <title>Add subscribers</title>            <meta property="og:url" content="//support.theeventscalendar.com/559097-Add-subscribers" />    <meta property="og:title" content="Add subscribers" />    <meta property="og:description" content="Adding Subscribers   Click on the Lists Menu     	- Import .CSV    All you need is a CSV file containing 3 columns: first name | last name | email  Only, the email column is mandatory. The first name " />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=vmdlrgeia3081x2ptbphrcc3ntbh3ec5" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
@@ -117,7 +116,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><h2>Adding Subscribers</h2>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<h2>Adding Subscribers</h2>
 Click on the <strong>Lists</strong> Menu
 
 <ol>
@@ -138,8 +138,7 @@ Click on the <strong>Lists</strong> Menu
 	The perfect way to enter subscribers one at a time.<br />
 	<br />
 	<img src="scripts/file.php%3Fview=Y&amp;file=aagh12exfteedy5erkvxf3wlkc0mzls5" /></li>
-</ol>
-</div>    			
+</ol></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -149,8 +148,8 @@ Click on the <strong>Lists</strong> Menu
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Sep 03, 2019, 11:03 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-03" itemprop="dateModified">Sep 03 (6 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:07 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2019-07-25" itemprop="datePublished"></time>
           </div>
@@ -223,7 +222,6 @@ Click on the <strong>Lists</strong> Menu
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
     <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="frontend.min.js"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

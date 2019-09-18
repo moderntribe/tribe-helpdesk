@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="622969-Tickets-Managing-Your-Orders-and-Attendees" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="622969-Tickets-Managing-Your-Orders-and-Attendees" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Tickets: Managing Your Orders and Attendees</title>        <meta name="keywords" content="Article,Beginner,Event Tickets,Event Tickets,Event Tickets Plus,Event Tickets Plus,ticket,event,tickets,information,event tickets,event tickets plus,attendee list,attendee,tickets plus,qr code,attendee information,event tickets plus installed,tickets and tribe commerce functionality,event tickets and tribe commerce,rsvp ticket type,tribe commerce functionality,tickets plus with an e-commerce,plus with an e-commerce plugin,using event tickets and tribe,using event tickets, uiback, uifront, uitribe" />    <meta property="og:url" content="//support.theeventscalendar.com/622969-Tickets-Managing-Your-Orders-and-Attendees" />    <meta property="og:title" content="Tickets: Managing Your Orders and Attendees" />    <meta property="og:description" content="Once you&#039;ve created some tickets (https://support.theeventscalendar.com/156866-Making-tickets) and the sales have started to roll in, it&#039;s time to think about managing incoming orders and attendee lis" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=6befcbba25768db36d6f5ddc472a19e7" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,7 +108,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Once you've <a href="156866-Making-tickets" rel="noopener" target="_blank" title="Making a ticket with The Events Calendar and a ticketing framework plugin">created some tickets</a> and the sales have started to roll in, it's time to think about managing incoming orders and attendee lists.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>Once you've <a href="156866-Making-tickets" rel="noopener" target="_blank" title="Making a ticket with The Events Calendar and a ticketing framework plugin">created some tickets</a> and the sales have started to roll in, it's time to think about managing incoming orders and attendee lists.</p>
 
 <p>If you are selling tickets using the Tribe Commerce functionality in Event Tickets, order management must be done from your PayPal account. You will still be able to see all orders listed in the orders page.</p>
 
@@ -174,13 +174,13 @@ zaius.event('pageview');
 
 <p style="text-align: center;">Classic Editor - View Attendees</p>
 
-<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=6befcbba25768db36d6f5ddc472a19e7" /></p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=6befcbba25768db36d6f5ddc472a19e7" /></p>
 
 <p style="text-align: center;">Block Editor - View Attendees</p>
 
 <p>Either link will take you to a new screen where you can see a list of attendees/issued tickets, including the purchaser name, email, ticket ID and a unique ticket security code:</p>
 
-<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=7f47918381eb7d121816d6965b560a57" /></p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=7f47918381eb7d121816d6965b560a57" /></p>
 
 <p>There are lots of interesting facets to this screen, but first, it's worth stopping for a moment to consider the order flow.</p>
 
@@ -232,7 +232,7 @@ Attendee check-in error: previously checked in</p>
 
 <p>If you have lots of attendees, you'll also love the filtering options that are available for attendees lists:</p>
 
-<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=8yfldzwhbetfvmyf6t3k3do9jvly83lc" /></p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=8yfldzwhbetfvmyf6t3k3do9jvly83lc" /></p>
 
 <p>Simply type in a ticket number (or just the start of one), and the list will be filtered to display only matching results. You can also filter your lists by order number, security code, order status, purchaser name, purchaser email or product ID.&nbsp;&nbsp;Order Status search is rather specific. For now, you have to enter the exact status name.</p>
 
@@ -341,8 +341,7 @@ An example of the front-end attendee information edit screen.</p>
 <hr />
 <p>Hopefully, this article has given you a solid overview of managing orders and attendees via our ticketing framework! If you should have any further questions, please don't hesitate to reach out to the team via <a href="submit_ticket">our help desk</a>.</p>
 
-<p>Good luck!</p>
-</div>    			
+<p>Good luck!</p></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -352,8 +351,8 @@ An example of the front-end attendee information edit screen.</p>
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Sep 05, 2019, 01:26 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-05" itemprop="dateModified">Sep 05 (4 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:06 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -447,11 +446,10 @@ An example of the front-end attendee information edit screen.</p>
 		</footer>
 	<a href="622969-Tickets-Managing-Your-Orders-and-Attendees#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

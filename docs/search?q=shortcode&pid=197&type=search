@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="029562-Upgrading-a-subscription" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="029562-Upgrading-a-subscription" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Search results</title>        <meta name="keywords" content="Article,Beginner,Renewing &amp;amp; Upgrading" />    <meta property="og:url" content="//support.theeventscalendar.com/029562-Upgrading-a-subscription" />    <meta property="og:title" content="Search results" />    <meta property="og:description" content="Our Personal subscriptions are great when you are using a plugin on one site. But what if you want to use one of our paid plugins on multiple sites? We&#039;ve got you covered! You can upgrade your subscri" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -67,7 +66,7 @@ zaius.event('pageview');
         <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -131,9 +130,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Embedding Calendar Views with the [tribe_events] Shortcode</h3>
                               	<div class="article-preview">Events Calendar PRO 4.3 introduced the ability to embed full calendar views in p</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 30, 2019, 12:40 PM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 30 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -144,9 +143,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Embedding Single Events with the [tribe_event_inline] Shortcode</h3>
                               	<div class="article-preview">WordPress' built-in oEmbed features (https://codex.wordpress.org/Embeds) allow y</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:37 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -157,9 +156,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Shortcodes</h3>
                               	<div class="article-preview">Shortcodes are a convenient way to embed content, code, and other assets without</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jul 17, 2019, 04:39 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:07 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jul 17 (55 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -170,9 +169,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Events Calendar PRO Widget Shortcodes Overview</h3>
                               	<div class="article-preview">In WordPress, widgets can typically be placed in a sidebar or footer. Events Cal</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 30, 2019, 12:45 PM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 30 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -183,35 +182,22 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Community Events Shortcodes</h3>
                               	<div class="article-preview">Community Events (https://support.theeventscalendar.com/890921-New-User-Primer-C</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jul 15, 2019, 06:53 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:07 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jul 15 (57 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Community Events
                           </div>
         </a>
-         <a href="952485-How-to-Make-Your-Calendar-Your-Sites-Home-Page" class="list-group-item item-A" title="How to Make Your Calendar Your Site&#039;s Home Page">
-          <h3 class="list-group-item-heading">How to Make Your Calendar Your Site&#039;s Home Page</h3>
-                              	<div class="article-preview">By default, The Events Calendar places its calendar at a specified URL on your s</div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:37 AM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     The Events Calendar
-                          </div>
-        </a>
          <a href="934573-Inserting-Calendar-Content-into-Posts-or-Pages" class="list-group-item item-A" title="Inserting Calendar Content into Posts or Pages">
           <h3 class="list-group-item-heading">Inserting Calendar Content into Posts or Pages</h3>
                               	<div class="article-preview">While Events Calendar Pro provides some calendar widgets that you can add to you</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jul 04, 2019, 10:25 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jul 04 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -222,9 +208,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Display a List of Attendee&#039;s Events</h3>
                               	<div class="article-preview">As of Event Tickets Plus 4.2, you can require people to log in before being able</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:37 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -235,9 +221,35 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Can You Have Multiple Calendars?</h3>
                               	<div class="article-preview">We're often asked if you can have multiple event calendars on your site. As of v</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 30, 2019, 12:41 PM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 30 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     Events Calendar PRO
+                          </div>
+        </a>
+         <a href="952485-How-to-Make-Your-Calendar-Your-Sites-Home-Page" class="list-group-item item-A" title="How to Make Your Calendar Your Site&#039;s Home Page">
+          <h3 class="list-group-item-heading">How to Make Your Calendar Your Site&#039;s Home Page</h3>
+                              	<div class="article-preview">By default, The Events Calendar places its calendar at a specified URL on your s</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
+                    </div>
+                  </div>
+                                                                        Home
+                                     ->                     The Events Calendar
+                          </div>
+        </a>
+         <a href="678536-Configuring-the-This-Week-Widget" class="list-group-item item-A" title="Configuring the This Week Widget">
+          <h3 class="list-group-item-heading">Configuring the This Week Widget</h3>
+                              	<div class="article-preview">The This Week widget is a feature that comes bundled with The Events Calendar PR</div>
+                    <div class="article-bottom">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
+                    <div class="ArticleUpdated">
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -248,61 +260,48 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Using Shortcodes with Beaver Builder</h3>
                               	<div class="article-preview">If you using Beaver Builder with Events Calendar Pro and want to integrate short</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jul 19, 2019, 03:48 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:07 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jul 19 (53 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Recipes
                           </div>
         </a>
-         <a href="678536-Configuring-the-This-Week-Widget" class="list-group-item item-A" title="Configuring the This Week Widget">
-          <h3 class="list-group-item-heading">Configuring the This Week Widget</h3>
-                              	<div class="article-preview">The This Week widget is a feature that comes bundled with The Events Calendar PR</div>
-                    <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 30, 2019, 12:43 PM">
-                    <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 30 (2 months ago)</span>
-                    </div>
-                  </div>
-                                                                        Home
-                                     ->                     Events Calendar PRO
-                          </div>
-        </a>
          <a href="167955-Integrating-The-Events-Calendar-with-Slider-Revolution-and-Essential-Grid" class="list-group-item item-A" title="Integrating The Events Calendar with Slider Revolution and Essential Grid">
           <h3 class="list-group-item-heading">Integrating The Events Calendar with Slider Revolution and Essential Grid</h3>
                               	<div class="article-preview">Many users have asked us how to display The Events Calendar's events in a slider</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:37 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     The Events Calendar
                           </div>
         </a>
-         <a href="550976-Attendee-Registration-Page-Template" class="list-group-item item-A" title="Attendee Registration Page Template">
-          <h3 class="list-group-item-heading">Attendee Registration Page Template</h3>
-                              	<div class="article-preview">Our Attendee Registration page is designed to blend nicely with as many themes a</div>
+         <a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="list-group-item item-A" title="Settings overview: Event Tickets and Event Tickets Plus">
+          <h3 class="list-group-item-heading">Settings overview: Event Tickets and Event Tickets Plus</h3>
+                              	<div class="article-preview">Before using Event Tickets, you'll want to make sure that you have the plugin se</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Apr 02, 2019, 12:26 PM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Apr 02 (5 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
                                      ->                     Event Tickets
                           </div>
         </a>
-         <a href="002538-Settings-overview-Event-Tickets-and-Event-Tickets-Plus" class="list-group-item item-A" title="Settings overview: Event Tickets and Event Tickets Plus">
-          <h3 class="list-group-item-heading">Settings overview: Event Tickets and Event Tickets Plus</h3>
-                              	<div class="article-preview">Before using Event Tickets, you'll want to make sure that you have the plugin se</div>
+         <a href="550976-Attendee-Registration-Page-Template" class="list-group-item item-A" title="Attendee Registration Page Template">
+          <h3 class="list-group-item-heading">Attendee Registration Page Template</h3>
+                              	<div class="article-preview">Our Attendee Registration page is designed to blend nicely with as many themes a</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:36 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:07 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -313,9 +312,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Configuring the Calendar Widget</h3>
                               	<div class="article-preview">We're going to take a look at the Events Calendar widget, also known as the Mini</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jun 14, 2019, 08:36 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jun 14 (2 months ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -326,9 +325,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Configuring Tribe Commerce with PayPal</h3>
                               	<div class="article-preview">To start receiving payments for your tickets using Tribe Commerce, you need to e</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jul 12, 2019, 02:27 PM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jul 12 (59 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -339,9 +338,9 @@ zaius.event('pageview');
           <h3 class="list-group-item-heading">Accessing and Linking to Community Events Pages</h3>
                               	<div class="article-preview">Once you've installed and activated the Community Events plugin on your site, it</div>
                     <div class="article-bottom">
-                                  <div class="ArticleInfo" title="Jul 12, 2019, 11:04 AM">
+                                  <div class="ArticleInfo" title="Sep 16, 2019, 10:06 AM">
                     <div class="ArticleUpdated">
-                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Jul 12 (59 days ago)</span>
+                      <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue">Sep 16 (46 hours ago)</span>
                     </div>
                   </div>
                                                                         Home
@@ -375,11 +374,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="search?q=shortcode&amp;pid=197&amp;type=search#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

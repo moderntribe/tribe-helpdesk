@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="719006-Fixing-HTTP-404-errors" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="719006-Fixing-HTTP-404-errors" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Fixing HTTP 404 errors</title>        <meta name="keywords" content="Article,Beginner,Errors &amp;amp; Troubleshooting,3.6,3.7,3.8,Optimization,update snippet,out of date" />    <meta property="og:url" content="//support.theeventscalendar.com/719006-Fixing-HTTP-404-errors" />    <meta property="og:title" content="Fixing HTTP 404 errors" />    <meta property="og:description" content="On occasion some event pages might start display a 404 - Not found page instead of the events. If this is happening to you please follow these steps to troubleshoot. Most folks can stop after step 1 b" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,7 +108,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>On occasion some event pages might start display a&nbsp;404 - Not found page instead of&nbsp;the events. If this is happening to you please follow these steps to troubleshoot. Most folks can stop after step 1 because it will be fixed!</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>On occasion some event pages might start display a&nbsp;404 - Not found page instead of&nbsp;the events. If this is happening to you please follow these steps to troubleshoot. Most folks can stop after step 1 because it will be fixed!</p>
 
 <ol>
 	<li><a href="719006-Fixing-HTTP-404-errors#flush-permalinks">Flush permalinks</a></li>
@@ -150,8 +150,7 @@ zaius.event('pageview');
 	<li>Can you post a copy of your System Information from the WP Admin &gt; Events &gt; Settings &gt; Help: System Information box? If you have input a license key for one our plugins in the Licenses page, make sure to remove or redact it from the system information text before sharing&nbsp;via our public help desk.</li>
 	<li>Try pasting <a href="https://gist.github.com/elimn/d3483854e8e9399e449e" target="_blank">this snippet</a> into your theme's functions.php file. This will output some diagnostic information about the event pages WP Queries. On the pages that returns a 404 append&nbsp;"?tribe_query_debug=true" to the end of the events&nbsp;URL in your browser address bar. Please note, some 404 pages actually redirect you to a different URL, so when you click on a link like "example.com/event/event-name/2012-12-21/" you&nbsp;are taken to a URL such as "example.com/event/all". After adding this snippet to your theme, can you share a link to the event page that returns a 404 via our help desk? This extra diagnostic info is a huge help. Once your problem has been fixed you should remove this snippet from your functions.php file.</li>
 	<li>Try switching your permalink settings to default. Does that fix it? If so, mention this if you open a topic.</li>
-</ul>
-</div>    			
+</ul></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -161,8 +160,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:35 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:05 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -256,11 +255,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="719006-Fixing-HTTP-404-errors#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

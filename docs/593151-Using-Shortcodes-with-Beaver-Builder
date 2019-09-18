@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="593151-Using-Shortcodes-with-Beaver-Builder" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="593151-Using-Shortcodes-with-Beaver-Builder" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Using Shortcodes with Beaver Builder</title>        <meta name="keywords" content="shortcodes, Beaver Builder, Page Builder, Themer, Beaver Themer, snippet" />    <meta property="og:url" content="//support.theeventscalendar.com/593151-Using-Shortcodes-with-Beaver-Builder" />    <meta property="og:title" content="Using Shortcodes with Beaver Builder" />    <meta property="og:description" content="If you using Beaver Builder with Events Calendar Pro and want to integrate shortcodes (https://support.theeventscalendar.com/163659-Shortcodes), you may need a snippet to render the page as expected. " />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,7 +108,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>If you using Beaver Builder with Events Calendar Pro and want to integrate <a href="163659-Shortcodes">shortcodes</a>, you may need a snippet to render the page as expected. Page builders often optimize the loading experience by prerendering code, and then render it again to display the code.&nbsp; However,&nbsp;<a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode">[tribe_events]</a> can only load once per page.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>If you using Beaver Builder with Events Calendar Pro and want to integrate <a href="163659-Shortcodes">shortcodes</a>, you may need a snippet to render the page as expected. Page builders often optimize the loading experience by prerendering code, and then render it again to display the code.&nbsp; However,&nbsp;<a href="074168-Embedding-Calendar-Views-with-the-tribe_events-Shortcode">[tribe_events]</a> can only load once per page.</p>
 
 <p>A way to work around this is to use the snippet below.&nbsp;Add this snippet to either your child theme’s functions.php file or use the&nbsp;<a href="https://wordpress.org/plugins/my-custom-functions/" title="My Custom Functions">My Custom Functions</a>&nbsp;plugin.</p>
 
@@ -138,8 +138,7 @@ add_action( <span class="hljs-string" style="color: rgb(166, 226, 46);">'init'</
 	<li>Author: Barry Hughes</li>
 </ul>
 
-<p>As with all of our recipes, please note that we share this in the hope it will be useful <strong>but without any guarantees or commitments</strong>. If you wish to use it, it is <em>your</em> responsibility to test it first of all and adapt it to your needs (or find someone who can do so on your behalf). We are unable to provide further support in relation to this recipe.</p>
-</div>    			
+<p>As with all of our recipes, please note that we share this in the hope it will be useful <strong>but without any guarantees or commitments</strong>. If you wish to use it, it is <em>your</em> responsibility to test it first of all and adapt it to your needs (or find someone who can do so on your behalf). We are unable to provide further support in relation to this recipe.</p></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -149,8 +148,8 @@ add_action( <span class="hljs-string" style="color: rgb(166, 226, 46);">'init'</
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jul 19, 2019, 03:48 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-19" itemprop="dateModified">Jul 19 (53 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:07 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2019-07-19" itemprop="datePublished"></time>
           </div>
@@ -244,11 +243,10 @@ add_action( <span class="hljs-string" style="color: rgb(166, 226, 46);">'init'</
 		</footer>
 	<a href="593151-Using-Shortcodes-with-Beaver-Builder#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="569075-Events-Calendar-PRO-Location-Search" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="569075-Events-Calendar-PRO-Location-Search" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Events Calendar PRO Location Search</title>    <meta name="description" content="Describes setting up and configuring Google Maps API keys for use by The Events Calendar and Events Calendar PRO." />    <meta name="keywords" content="Article,Beginner,Using Product Features,Events Calendar PRO,events,calendar,events calendar,search,events calendar pro,calendar pro,location,location search,google maps api key,api key,google maps api,maps api key,calendar events,calendar views,main calendar page,location search field,location-based searches,search field,setting up your google maps,setting up your google, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/569075-Events-Calendar-PRO-Location-Search" />    <meta property="og:title" content="Events Calendar PRO Location Search" />    <meta property="og:description" content="Before you begin, please review this article (https://support.theeventscalendar.com/362858-Setting-Up-Your-Google-Maps-API-Key) about setting up your Google Maps API Key. If you do not run through tho" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,7 +108,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Before you begin, <a href="362858-Setting-Up-Your-Google-Maps-API-Key" rel="noopener" target="_blank">please review this article</a> about setting up your Google Maps API Key. If you do not run through those steps, you may not be able to take advantage of the functionality described here.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>Before you begin, <a href="362858-Setting-Up-Your-Google-Maps-API-Key" rel="noopener" target="_blank">please review this article</a> about setting up your Google Maps API Key. If you do not run through those steps, you may not be able to take advantage of the functionality described here.</p>
 
 <p>One of the many great features exclusive to&nbsp;<a href="https://theeventscalendar.com/product/wordpress-events-calendar-pro/">Events Calendar PRO</a> is the ability to perform smart location-based searches when filtering calendar events. When viewing the main calendar page of a site that's running Events Calendar PRO, you'll see an additional option located next to the fields for month- and keyword-based searches.</p>
 
@@ -152,8 +152,7 @@ zaius.event('pageview');
 <p>If you've ever used <a href="017563-Crafting-custom-event-queries">WP_Query</a> or our own <a href="666307-Using-tribe_get_events">tribe_get_events()</a> function to create a customized display of event data, you'll be pleased to know that we've recently added support for location-based filters in these queries! Beginning with Events Calendar PRO version 4.4.16, the arguments&nbsp;<strong>tribe_geoloc</strong>, <strong>tribe_geoloc_lat</strong>, and <strong>tribe_geoloc_lng</strong> are available for writing into your custom queries. For more information on location-specific and other changes added in this release, check out our complete release notes <a href="https://theeventscalendar.com/maintenance-release-week-21-august-2017/">here</a>.</p>
 
 <hr />
-<p>We hope that this post helps to give you a solid understanding of how our location searches work and how your users can leverage this feature to make better use of your calendars! As always, if you should have any questions, we're just a click away over at&nbsp;<a href="submit_ticket">our help desk</a>--please don't hesitate to pay us a visit!</p>
-</div>    			
+<p>We hope that this post helps to give you a solid understanding of how our location searches work and how your users can leverage this feature to make better use of your calendars! As always, if you should have any questions, we're just a click away over at&nbsp;<a href="submit_ticket">our help desk</a>--please don't hesitate to pay us a visit!</p></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -163,8 +162,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Aug 27, 2019, 04:11 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-08-27" itemprop="dateModified">Aug 27 (13 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:06 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -258,11 +257,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="569075-Events-Calendar-PRO-Location-Search#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

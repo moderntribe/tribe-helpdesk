@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="780934-Ticketing-using-a-seating-chart" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="780934-Ticketing-using-a-seating-chart" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Ticketing using a seating chart</title>        <meta name="keywords" content="Beginner,Using Product Features,Event Tickets,Event Tickets Plus,Tutorial, uiback, uifront" />    <meta property="og:url" content="//support.theeventscalendar.com/780934-Ticketing-using-a-seating-chart" />    <meta property="og:title" content="Ticketing using a seating chart" />    <meta property="og:description" content="Suppose that you&#039;re distributing tickets to an event with limited venue seating (such as a theater or seated banquet), and you&#039;d like to offer your attendees the option to choose their own row or tabl" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,7 +108,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Suppose that you're distributing tickets to an event with limited venue seating (such as a theater or seated banquet), and you'd like to offer your attendees the option to choose their own row&nbsp;or table in advance. You can easily accomplish this task using the stock options and multiple ticket types available with Event Tickets--here's how to set that up!</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>Suppose that you're distributing tickets to an event with limited venue seating (such as a theater or seated banquet), and you'd like to offer your attendees the option to choose their own row&nbsp;or table in advance. You can easily accomplish this task using the stock options and multiple ticket types available with Event Tickets--here's how to set that up!</p>
 
 <p>We'll use a simple seating chart image to demonstrate&nbsp;how to set up your ticket groups. This graphic shows three rows (A, B, and C) with a total of nine seats per row.</p>
 
@@ -129,8 +129,7 @@ zaius.event('pageview');
 
 <p>You're all finished! The above image shows what our event looks like with our seating chart and ticket blocks configured properly. Now your visitors have the option to select their preferred section in advance, and you can easily keep track of where your attendees are located on the backend of your site.</p>
 
-<p>We hope that this tutorial has shown&nbsp;you how simple it is to adapt Event Tickets and Event Tickets Plus to meet specific ticketing needs such as these. Feel free to use this guide as a reference for developing your own ticketing solutions! Thanks for reading, and as always, please don't hesitate to pay us a visit at&nbsp;<a href="submit_ticket">our help desk</a> if you should have any questions!</p>
-</div>    			
+<p>We hope that this tutorial has shown&nbsp;you how simple it is to adapt Event Tickets and Event Tickets Plus to meet specific ticketing needs such as these. Feel free to use this guide as a reference for developing your own ticketing solutions! Thanks for reading, and as always, please don't hesitate to pay us a visit at&nbsp;<a href="submit_ticket">our help desk</a> if you should have any questions!</p></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -140,8 +139,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:06 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -235,11 +234,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="780934-Ticketing-using-a-seating-chart#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

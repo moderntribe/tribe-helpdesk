@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="canonical" href="091339-Create-a-Message" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,7 +28,6 @@ function(e){});
             <title>Create a Message</title>            <meta property="og:url" content="//support.theeventscalendar.com/091339-Create-a-Message" />    <meta property="og:title" content="Create a Message" />    <meta property="og:description" content="Create a message by clicking into the event for that message, then click on the Create Message button on the screen.    Clicking the button will open the message editor.      	- Select recipients of t" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
@@ -117,7 +116,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Create a message by clicking into the event for that message, then click on the Create Message button on the screen.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>Create a message by clicking into the event for that message, then click on the Create Message button on the screen.</p>
 
 <p><b id="docs-internal-guid-79bcde23-7fff-9d80-566a-1f44469d31c6"><img style="display:block;clear:both;margin-top: 4px;" height="auto" src="https://lh5.googleusercontent.com/ysryotOFxdLRI4eDCEadXcLrUr2TJYs1ePcSZVm4kJatMW1sre4lWZ5S4xVSnhQRca93xhLShAOF8ID7BWGw4P1C8rWiJ60b_uULt2dAKMGa_tlB_RJjC9X0TpuU2lWYlwIeR5M" width="624" /></b></p>
 
@@ -135,8 +135,7 @@ zaius.event('pageview');
 	<li><strong>Schedule when the message goes out</strong> - Sets the date and time that the email will be sent. See the <a href="594322-Send-and-Schedule-Messages" target="_blank">Send and Scheduling guide</a> to learn about the various options available.<br />
 	<img style="display:block;clear:both;margin-top: 4px;" height="auto" src="scripts/file.php%3Fview=Y&amp;file=m6toh11n8qr46cyo590xfidkfwf9mcvj" width="842" /><br />
 	&nbsp;</li>
-</ul>
-</div>    			
+</ul></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -146,8 +145,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jul 14, 2019, 08:31 PM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-07-14" itemprop="dateModified">Jul 14 (57 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:07 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-12-19" itemprop="datePublished"></time>
           </div>
@@ -232,7 +231,6 @@ zaius.event('pageview');
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
     <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="frontend.min.js"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Event Aggregator: Importing Events from a Feed or URL</title>        <meta name="keywords" content="Article,Beginner,Importing,Event Aggregator,Event Aggregator,events,event,scheduled import,google calendar,event aggregator,csv file,published to your site right,importing from a csv file,covered in this tutorial,importing from a csv,published to your site,ics file,process for importing,click the import,select the source,provide the url,event aggregator to talk,talk to that source,allow event aggregator,aggregator to talk" />    <meta property="og:url" content="//support.theeventscalendar.com/650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL" />    <meta property="og:title" content="Event Aggregator: Importing Events from a Feed or URL" />    <meta property="og:description" content="Event Aggregator allows you to import events from other sources, including Google Calendar, iCalendar, Meetup and Eventbrite, as well as from ICS and CSV files. This article covers the step by step pr" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=d5e50edd8629e9e2cdd35d2e5c328fd9" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,7 +108,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Event Aggregator allows you to import events from other sources, including Google Calendar, iCalendar, Meetup and Eventbrite, as well as from ICS&nbsp;and&nbsp;CSV files. <strong>This article covers the step by step process for importing from another site using a feed or URL.</strong> Separate tutorials explain the process for importing from a <a href="867204-Importing-Data-from-a-CSV-File">CSV file</a> or <a href="948574-Importing-Events-from-an-ICS-File-with-Event-Aggregator">ICS file</a>.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>Event Aggregator allows you to import events from other sources, including Google Calendar, iCalendar, Meetup and Eventbrite, as well as from ICS&nbsp;and&nbsp;CSV files. <strong>This article covers the step by step process for importing from another site using a feed or URL.</strong> Separate tutorials explain the process for importing from a <a href="867204-Importing-Data-from-a-CSV-File">CSV file</a> or <a href="948574-Importing-Events-from-an-ICS-File-with-Event-Aggregator">ICS file</a>.</p>
 
 <p>Before you can import from one of these sources, you'll first need to have a valid license for Event Aggregator entered under Events &gt; Settings &gt; Licenses. You'll then see the import options available under <strong>Events &gt; Import</strong>.</p>
 
@@ -117,7 +117,7 @@ zaius.event('pageview');
 
 <p>Click the&nbsp;<em>Import Origin&nbsp;</em>dropdown and select the source you are importing from.</p>
 
-<p><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=d5e50edd8629e9e2cdd35d2e5c328fd9" />Event Aggregator currently has the following import options:</p>
+<p><img src="scripts/file.php%3Fview=Y&amp;file=d5e50edd8629e9e2cdd35d2e5c328fd9" />Event Aggregator currently has the following import options:</p>
 
 <ul>
 	<li><strong>CSV File: </strong>A filed type created from a spreadsheet. Importing from a CSV file is covered in <a href="867204-Importing-Data-from-a-CSV-File">this tutorial</a></li>
@@ -194,8 +194,7 @@ zaius.event('pageview');
 
 <p>Please note that Event Aggregator does not detect when an event that was imported in a previous import has been deleted at the origin, event if you re-import from that origin again. So even if you imported an event from an iCalendar feed and it was later and removed from that feed, a second import of that feed will not delete the event from your WordPress site.</p>
 
-<p>If you need to track cancelled or deleted events and you control the origin/source calendar, the best strategy is to mark a cancelled event as cancelled or deleted in the event title instead of actually trashing the event. That way, when you re-import the source feed, the event can be updated in your WP calendar with the cancellation note. You could then choose to delete the event on both calendars, or simply leave it with the cancelled notice.</p>
-</div>    			
+<p>If you need to track cancelled or deleted events and you control the origin/source calendar, the best strategy is to mark a cancelled event as cancelled or deleted in the event title instead of actually trashing the event. That way, when you re-import the source feed, the event can be updated in your WP calendar with the cancellation note. You could then choose to delete the event on both calendars, or simply leave it with the cancelled notice.</p></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -205,8 +204,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Jun 14, 2019, 08:37 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-06-14" itemprop="dateModified">Jun 14 (2 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:06 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -300,11 +299,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="650651-Event-Aggregator-Importing-Events-from-a-Feed-or-URL#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

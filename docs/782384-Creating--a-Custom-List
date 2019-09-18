@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="canonical" href="782384-Creating--a-Custom-List" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,7 +28,6 @@ function(e){});
             <title>Creating  a Custom List</title>            <meta property="og:url" content="//support.theeventscalendar.com/782384-Creating--a-Custom-List" />    <meta property="og:title" content="Creating  a Custom List" />    <meta property="og:description" content="But what if I want to promote my events to prospects that have not attended previous events, RSVPed or bought tickets? Good news! You can create custom lists to do just that.  Pro tip: custom lists ar" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=53n2zh48yj3ogsiesjd6ceeq2lw47isr" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
 <link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
@@ -117,7 +116,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>But what if I want to promote my events to prospects that have not attended previous events, RSVPed or bought tickets? Good news! You can create custom lists to do just that.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>But what if I want to promote my events to prospects that have not attended previous events, RSVPed or bought tickets? Good news! You can create custom lists to do just that.</p>
 
 <p><strong>Pro tip:</strong> custom lists are limited to a total of 2,500 email addresses between all lists. Please contact our <a href="index.html">Helpdesk </a>should you require more.</p>
 
@@ -144,8 +144,7 @@ zaius.event('pageview');
 	a) Click on the checkbox to confirm that you indeed have consent to send email messages to the subscribers you added to your list<br />
 	b) Click on the <strong>Create &amp; View List</strong> button<br />
 	<img src="scripts/file.php%3Fview=Y&amp;file=vdqf3elygr0mq8684lqlpahwh74dotmx" /></li>
-</ol>
-</div>    			
+</ol></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -155,8 +154,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Sep 03, 2019, 10:52 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-03" itemprop="dateModified">Sep 03 (6 days ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:07 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2019-09-02" itemprop="datePublished"></time>
           </div>
@@ -229,7 +228,6 @@ zaius.event('pageview');
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
     <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="frontend.min.js"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="912714-WooCommerce-Specific-Ticket-Settings" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="912714-WooCommerce-Specific-Ticket-Settings" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>WooCommerce-Specific Ticket Settings</title>        <meta name="keywords" content="Article,Using Product Features,Intermediate,Event Tickets Plus,Event Tickets Plus,event,tickets,set,order,completed,event tickets,event tickets plus,attendee,payment,settings,status,tickets plus,hold,pending,pending payment,attendee records,order statuses,attendee record,hold completed,statuses,  uiwp" />    <meta property="og:url" content="//support.theeventscalendar.com/912714-WooCommerce-Specific-Ticket-Settings" />    <meta property="og:title" content="WooCommerce-Specific Ticket Settings" />    <meta property="og:description" content="As with any type of product, when tickets are purchased the resulting order moves through a number of different stages, each marked by a different status. The WooCommerce Codex (https://docs.woocommer" />    <meta property="og:type" content="article" />    <meta property="og:image" content="//support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=95357884ea150d9032ca3d51ee197ea7" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,7 +108,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>As with any type of product, when tickets are purchased the resulting order moves through a number of different stages, each marked by a different status. The <a href="https://docs.woocommerce.com/document/managing-orders/" target="_blank">WooCommerce Codex</a> provides a complete list of those statuses, but here are some key ones:</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>As with any type of product, when tickets are purchased the resulting order moves through a number of different stages, each marked by a different status. The <a href="https://docs.woocommerce.com/document/managing-orders/" target="_blank">WooCommerce Codex</a> provides a complete list of those statuses, but here are some key ones:</p>
 
 <ul>
 	<li><strong>Payment Pending:</strong> The order is placed, but the funds have not yet been received</li>
@@ -125,7 +125,7 @@ zaius.event('pageview');
 
 <p>To configure the order statuses on which these actions are performed, first head to the <strong>Events &gt; Settings &gt; Tickets</strong> screen in your wp-admin:</p>
 
-<p style="text-align: center;"><img src="https://support.theeventscalendar.com/scripts/file.php%3Fview=Y&amp;file=95357884ea150d9032ca3d51ee197ea7" /></p>
+<p style="text-align: center;"><img src="scripts/file.php%3Fview=Y&amp;file=95357884ea150d9032ca3d51ee197ea7" /></p>
 
 <p style="text-align: center;">☝️ The first set of checkboxes dictates when an attendee record (the entry you see in the attendee screen) is created.<br />
 The second determines when the user should be emailed their tickets.</p>
@@ -156,8 +156,7 @@ The second determines when the user should be emailed their tickets.</p>
 <ul>
 	<li>These settings are only available to users of Event Tickets Plus who also have WooCommerce activated</li>
 	<li>At this time, <strong>at least one option <em>must</em> be selected for <em>both</em> settings</strong>; it is not possible to uncheck everything. This restriction may be lifted in future releases of Event Tickets Plus.</li>
-</ul>
-</div>    			
+</ul></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -167,8 +166,8 @@ The second determines when the user should be emailed their tickets.</p>
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Feb 26, 2019, 10:25 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-02-26" itemprop="dateModified">Feb 26 (6 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:06 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -262,11 +261,10 @@ The second determines when the user should be emailed their tickets.</p>
 		</footer>
 	<a href="912714-WooCommerce-Specific-Ticket-Settings#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>

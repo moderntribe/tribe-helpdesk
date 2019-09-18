@@ -14,8 +14,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="139603-Tips-for-configuring-your-ecommerce-plugin" />            <link href="https://support.theeventscalendar.com/themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://support.theeventscalendar.com/index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1567196960" type="text/css">
+        <link rel="canonical" href="139603-Tips-for-configuring-your-ecommerce-plugin" />            <link href="themes/kb/montana/kb.css%3Fv=5.14.4.4" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="index.php%3Ftype=css&amp;v=5.14.4.4&amp;c=1568650097" type="text/css">
         <link rel="apple-touch-icon" href="themes/kb/montana/img/apple-touch-icon.png" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="shortcut icon" />
     <link type="image/x-icon" href="themes/kb/classic/img/favicon.ico" rel="icon" />    
@@ -28,8 +28,7 @@ function(e){});
             <title>Tips for configuring your ecommerce plugin</title>        <meta name="keywords" content="Article,Beginner,Settings,Integrations,Event Tickets Plus" />    <meta property="og:url" content="//support.theeventscalendar.com/139603-Tips-for-configuring-your-ecommerce-plugin" />    <meta property="og:title" content="Tips for configuring your ecommerce plugin" />    <meta property="og:description" content="Our premium ticketing plugin, Event Tickets Plus, can be used with a third-party ecommerce plugin to sell tickets. Event Tickets Plus currently supports WooCommerce  (http://www.woothemes.com/woocomme" />    <meta property="og:type" content="article" />    <meta property="og:image" content="/scripts/file.php%3Fview=Y&file=7ac92ed24735aaa35e80b7775041b38b" />        <link rel="icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="shortcut icon" type="image/x-icon" href="https://theeventscalendar.com/content/uploads/2015/04/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://theeventscalendar.com/content/themes/tribe-ecp/fonts/256398/64880275E7FF236DE.css" />
-<!-- <link id="tribe-css" rel="stylesheet" type="text/css" href="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.css" /> -->
-<link id="tribe-css" rel="stylesheet" type="text/css" href="https://support.theeventscalendar.com/style.min.css" />
+<link id="tribe-css" rel="stylesheet" type="text/css" href="style.min.css" />
 <script type='text/javascript'>
 var zaius = window['zaius']||(window['zaius']=[]);zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};(function(){for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/cbYwQ5GKNtrS7WooZBsQEQ/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})(); 
 zaius.event('pageview');
@@ -46,7 +45,7 @@ zaius.event('pageview');
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand KBLogo" href="https://support.theeventscalendar.com/index.html"></a>
+						<a class="navbar-brand KBLogo" href="index.html"></a>
 				</div>
 
 				<div id="navbar" class="navbar-collapse collapse">
@@ -80,7 +79,7 @@ zaius.event('pageview');
                 <!-- breadcrumbs -->
 <p class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 			<span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		    		<a itemprop="item" href="https://support.theeventscalendar.com/index.html" class="breadcrumb-link">
+		    		<a itemprop="item" href="index.html" class="breadcrumb-link">
     			<span itemprop="name">Home</span>
     		</a>    	
     	    	   <meta itemprop="position" content="1" />
@@ -109,7 +108,8 @@ zaius.event('pageview');
 <div class="container article-page  margin-top margin-bottom">
   <div class="row">
   	<div class="col-md-9">	
-   			<div class="article-content ArticleContent" itemprop="articleBody"><p>Our premium ticketing plugin, Event Tickets Plus, can be used with a third-party ecommerce plugin to sell tickets. Event Tickets Plus currently supports <a href="http://www.woothemes.com/woocommerce/" rel="noopener noreferrer" target="_blank">WooCommerce </a>&nbsp;and <a href="https://easydigitaldownloads.com/" rel="noopener noreferrer" target="_blank">Easy Digital Downloads</a>. If you don't want to use a third party service, you can still sell tickets with our built in <a href="560364-Configuring-Tribe-Commerce-with-PayPal">Tribe Commerce</a> feature.</p>
+   			<div class="article-content ArticleContent" itemprop="articleBody">
+<p>Our premium ticketing plugin, Event Tickets Plus, can be used with a third-party ecommerce plugin to sell tickets. Event Tickets Plus currently supports <a href="http://www.woothemes.com/woocommerce/" rel="noopener noreferrer" target="_blank">WooCommerce </a>&nbsp;and <a href="https://easydigitaldownloads.com/" rel="noopener noreferrer" target="_blank">Easy Digital Downloads</a>. If you don't want to use a third party service, you can still sell tickets with our built in <a href="560364-Configuring-Tribe-Commerce-with-PayPal">Tribe Commerce</a> feature.</p>
 
 <p>When you're setting up Event Tickets Plus, you'll also want to make sure that your ecommerce plugin is configured to suit your needs. Below we have some tips to help you configure your plugin of choice to best suit ticket sales.</p>
 
@@ -122,8 +122,7 @@ zaius.event('pageview');
 <p>Configure your Easy Digital Downloads&nbsp;settings under Downloads --&gt; Settings. If you need help using EDD, head over to <a href="https://easydigitaldownloads.com/support/" target="_blank">their support site</a>.&nbsp;Don’t forget to use EDD’s shortcodes to set up your checkout pages.</p>
 
 <hr />
-<p>Since <strong>Event Tickets 4.7</strong> you can now sell tickets using Tribe Commerce and receive payments to your PayPal account. Learn how to <a href="560364-Configuring-Tribe-Commerce-with-PayPal">configure Tribe Commerce with PayPal</a></p>
-</div>    			
+<p>Since <strong>Event Tickets 4.7</strong> you can now sell tickets using Tribe Commerce and receive payments to your PayPal account. Learn how to <a href="560364-Configuring-Tribe-Commerce-with-PayPal">configure Tribe Commerce with PayPal</a></p></div>    			
 				<div class="Files">
 					    			
     			</div>  
@@ -133,8 +132,8 @@ zaius.event('pageview');
           	<meta itemprop="width" content="300px">
           	<meta itemprop="height" content="200px">
           </span>
-                          <div class="ArticleUpdated" title="Mar 29, 2019, 11:26 AM">
-                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-03-29" itemprop="dateModified">Mar 29 (5 months ago)</time></span>
+                          <div class="ArticleUpdated" title="Sep 16, 2019, 10:06 AM">
+                <span class="ArticleInfoLabel">Updated:</span> <span class="ArticleInfoValue"><time datetime="2019-09-16" itemprop="dateModified">Sep 16 (46 hours ago)</time></span>
               </div>
                         <time datetime="2018-10-30" itemprop="datePublished"></time>
           </div>
@@ -228,11 +227,10 @@ zaius.event('pageview');
 		</footer>
 	<a href="139603-Tips-for-configuring-your-ecommerce-plugin#top" id="scroll-top"><span class="glyphicon glyphicon-chevron-up"></span></a>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/jquery.min.js%3Fv=5.14.4.4"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
-    <script src="https://support.theeventscalendar.com/themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
-    <!-- <script id="tribe-js" defer src="https://s3-staging.theeventscalendar.com/mt-support-tribe-helpdesk.js"></script> -->
-<script id="tribe-js" defer src="https://support.theeventscalendar.com/frontend.min.js"></script>
+    <script src="themes/kb/montana/js/bootstrap.min.js%3Fv=5.14.4.4"></script>
+    <script src="themes/kb/montana/js/fixedmenu.js%3Fv=5.14.4.4"></script>
+    <script id="tribe-js" defer src="frontend.min.js"></script>
 </body>
 </html>
