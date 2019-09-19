@@ -54,3 +54,56 @@
 		width: 100%;
 	}
 }
+
+/* UPDATE THE "TICKET STATUS" FILTERS IN THE SIDEBAR */
+.page-mytickets,
+.page-my_ticket {
+
+	/* SHIFT SIDEBAR COLUMN DOWN */
+	.col-md-3 {
+		padding-top: 2em; 
+	}
+
+	/* MAKE THE "MY TICKETS" HEADING MORE HEADING-LIKE */
+	.col-md-3 .panel-heading {
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+
+	/* UPDATE THE STYLES ON THE SIDEBAR LINKS "OPEN/CLOSED" */
+	.nav-pills > li {
+		margin: 2em 0;
+
+		a {
+			border-radius: 0;
+
+			&.active {
+				border-radius: 4px;
+			}
+
+			&:hover,
+			&:focus {
+				background-color: #0A8CC9;
+			}
+		}
+	}
+}
+
+.page-mytickets {
+	/* UPDATE SPACING ON MAIN CONTENT AREA */
+	#MyTicketsContentPanel {
+		margin-top: 2em;
+	}
+
+	/* ADD BOTTOM BORDER BETWEEN TICKET ITEMS */
+	.list-group-item {
+		bottom-border: 1px solid #0A8CC9;
+	}
+}
+
+.page-my_ticket {
+	/* UPDATE SPACING ON MAIN CONTENT AREA */
+	.ticket-section {
+		margin-top: 2em;
+	}
+}
