@@ -24,9 +24,7 @@ function adjustVerticalOffset() {
 		window.scroll(
 			document.documentElement.scrollLeft,
 			topOfTarget - navbarHeight - 10
-		); 
-
-		console.log( topOfTarget, navbarHeight )
+		);
 	}, 440 );
 }
 
