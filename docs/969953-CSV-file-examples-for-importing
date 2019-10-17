@@ -109,6 +109,8 @@ zaius.event('pageview');
   <div class="row">
   	<div class="col-md-9">	
    			<div class="article-content ArticleContent" itemprop="articleBody">
+<div class="article-toc"></div>
+
 <p>The Events Calendar includes a&nbsp;feature that allows you to import events from other calendars, or to add a large number of events quickly from a&nbsp;CSV file.</p>
 
 <p>We have <a href="867204-Importing-Data-from-a-CSV-File">step-by-step instructions</a> for importing data from a CSV file in another post. The purpose of this post will be to provide files you can use to create your own imports. The Events Calendar is capable of importing a bunch of data for events, organizers, venues, tickets and RSVPs alike and the examples in this post will provide you with a starting point as well as a reference for the files you plan to import.</p>
