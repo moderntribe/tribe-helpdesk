@@ -20,7 +20,7 @@ function adjustVerticalOffset() {
 	setTimeout( function() {
 		let navbarHeight = $navbar.height();
 		let topOfTarget  = $( currentID ).offset().top;
-		
+
 		window.scroll(
 			document.documentElement.scrollLeft,
 			topOfTarget - navbarHeight - 10
