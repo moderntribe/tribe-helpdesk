@@ -1,0 +1,81 @@
+.RankingBox {
+	.RatingTitle {
+		display: block;
+		float: none;
+		padding-top: 0;
+	}
+
+	.ImLeButton  {
+		float: none !important;
+	}
+
+	.CommentPanel .TextMain {
+		font-size: 150%;
+		margin-bottom: 16px;
+	}
+
+	.SendCommentButton {
+		background: #0A8CC9 !important;
+		color: #ffffff !important;
+		font-weight: bold;  
+	}
+
+	.LeaveButton {
+		text-decoration: underline;
+		text-transform: capitalize;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.RateLink {
+		background-color: #000000 !important;
+		border-color: #000000 !important;
+		color: #ffffff!important;
+		margin-left: 1rem;
+	}
+}
+
+.RatingPanel > div:nth-child(2) {
+	display: flex !important;
+	flex-direction: row !important;
+}
+
+.RewardButton {
+	background: #ecfcee !important;
+	border: 1px solid #3eb94b !important;
+	order: 1;
+
+	&:hover {
+		background: #3eb94b !important;
+		border-color: #3eb94b !important;
+		color: #ffffff !important;
+	}
+}
+
+.PunishButton {
+	background: #feefef !important;
+	border: 1px solid #ff4d49 !important;
+	order: 3;
+
+	&:hover {
+		background: #ff4d49 !important;
+		border-color: #ff4d49 !important;
+		color: white !important;
+	}
+}
+
+.OkButton {
+	background-color: #eeeeee !important;
+	border: 1px solid #777877 !important;
+	order: 2;
+
+	&:hover {
+		background-color: #777877 !important;
+		border-color: #777877 !important;
+		color: #ffffff !important;
+	}
+}
+
+.ButtonLikeLink .buttonText {
+	text-decoration: none !important;
+}
