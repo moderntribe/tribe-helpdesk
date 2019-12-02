@@ -18,13 +18,3 @@ function addAlert( message ) {
 	// Add the actual message
 	$navbar.after( message )
 }
-
-addAlert( `
-	<div id="tribe-marketing-alert">
-		<div class="tribe-marketing-alert__content">
-			<p>
-				Please note that due to Thanksgiving Holidays in the US our response time might be a bit longer than usual.
-			</p>
-		</div>
-	</div>
-` );
