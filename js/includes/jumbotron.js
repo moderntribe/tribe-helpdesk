@@ -15,4 +15,10 @@ function addJumbotronMessage( message ) {
 	$jumbotronHeading.after( message )
 }
 
-addJumbotronSearch( jumbotronSearch )
+function redirectJumbotronSearch() {
+	$( '#jumbotronsearch' ).attr( 'action', 'https://theeventscalendar.com/' );
+	$( '#jumbotronsearch input[name=q]' ).attr( 'name','s' );
+}
+
+addJumbotronSearch( jumbotronSearch );
+redirectJumbotronSearch();
