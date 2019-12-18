@@ -18,3 +18,14 @@ function addAlert( message ) {
 	// Add the actual message
 	$navbar.after( message )
 }
+
+addAlert(`
+	<div id="tribe-marketing-alert">
+		<div class="tribe-marketing-alert__content">
+			<p>
+				<span class="emoji">🎄 Heads up!</span>
+				Our team is enjoying some end of year time off, so response times may be slower than usual.
+			</p>
+		</div>
+	</div>
+`);
