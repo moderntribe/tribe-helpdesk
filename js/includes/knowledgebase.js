@@ -1,7 +1,9 @@
 /**
  * Redirect all the knowledgebase content over to WordPress
  */
-window.location = 'https://theeventscalendar.com/knowledgebase/redirect/' + document.location.href.replace( document.location.protocol + '//' + document.location.hostname + '/', '' );
+if ( $( 'body' ).hasClass( 'page-article' ) ) {
+	window.location = 'https://theeventscalendar.com/knowledgebase/redirect/' + document.pathname;
+}
 
 
 /**
