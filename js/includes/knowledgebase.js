@@ -2,7 +2,7 @@
  * Redirect all the knowledgebase content over to WordPress
  */
 if ( $( 'body' ).hasClass( 'page-article' ) ) {
-	window.location = 'https://theeventscalendar.com/knowledgebase/redirect/' + document.pathname;
+	window.location = 'https://theeventscalendar.com/knowledgebase/redirect/' + window.location.pathname;
 }
 
 
