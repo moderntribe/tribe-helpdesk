@@ -25,7 +25,7 @@ addAlert( `
 		<div class="tribe-alert__content">
 			<p>
 				<span class="emoji">⚠️ </span>
-				We are working on a hotfix to remedy the issues with some events not displaying correctly with the new news. Expected release: January 31st, 2020. Workaround and more details can be found <a href="https://theeventscalendar.com/known-issues">here</a>. Thanks for your patience!
+				We are working on a hotfix to remedy the issues with some events not displaying correctly with the new news. Expected release: January 31st, 2020. Workaround and more details can be found <a href="https://theeventscalendar.com/known-issues/">here</a>. Thanks for your patience!
 			</p>
 		</div>
 	</div>
