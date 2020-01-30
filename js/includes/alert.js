@@ -22,7 +22,7 @@ function addAlert( message ) {
 /* Remove this when the time comes */
 addAlert( `
 	<div id="tribe-alert">
-		<div class="tribe-alert__content">
+		<div class="tribe-marketing-alert__content">
 			<p>
 				<span class="emoji">⚠️ </span>
 				We are working on a hotfix to remedy the issues with some events not displaying correctly with the upgraded views. Expected release: January 31st, 2020. Workaround and more details can be found <a href="https://theeventscalendar.com/known-issues/">here</a>. Thanks for your patience!
