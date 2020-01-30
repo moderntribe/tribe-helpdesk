@@ -21,7 +21,7 @@ function addAlert( message ) {
 
 /* Remove this when the time comes */
 addAlert( `
-	<div id="tribe-alert">
+	<div id="tribe-marketing-alert">
 		<div class="tribe-marketing-alert__content">
 			<p>
 				<span class="emoji">⚠️ </span>
