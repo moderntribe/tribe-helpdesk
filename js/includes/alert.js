@@ -14,7 +14,7 @@
  */
 function addAlert( message ) {
 	// Add the tribe-marketing-alert class to the body tag so we can style appropriately
-	document.body.setAttribute( 'class', document.body.getAttribute( 'class' ) + ' tribe-alert' )
+	document.body.setAttribute( 'class', document.body.getAttribute( 'class' ) + ' tribe-marketing-alert' )
 	// Add the actual message
 	$navbar.after( message )
 }
