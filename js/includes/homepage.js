@@ -47,13 +47,13 @@ var componentFeaturedContent = `
 			</article>
 
 			<article class="featured-content__item">
-				<a href="https://docs.theeventscalendar.com">
+				<a href="https://theeventscalendar.com/known-issues/">
 					<div class="featured-content__icon">
 						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-code.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
-						<h2>Plugin Functions</h2>
-						<p>Every available function in our products to use as filters for custom functionality.</p>
+						<h2>Known Issues</h2>
+						<p>Spot an issue? Check this list to see if it's something we're already working on.</p>
 					</div>
 				</a>
 			</article>
