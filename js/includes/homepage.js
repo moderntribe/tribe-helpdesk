@@ -41,7 +41,7 @@ var componentFeaturedContent = `
 					</div>
 					<div class="featured-content__body">
 						<h2>Extension Library</h2>
-						<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>
+						<p>Free mini-plugins that add features and settings to our plugins.</p>
 					</div>
 				</a>
 			</article>
@@ -65,7 +65,8 @@ var componentFeaturedContent = `
 					</div>
 					<div class="featured-content__body">
 						<h2>Orders & Refunds</h2>
-						<p>Is the plugin not right for your project? Here's info on orders and refund requests.</p>
+						<p>
+						Check orders, update your subscription status and get info on refunds.</p>
 					</div>
 				</a>
 			</article>
