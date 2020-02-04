@@ -65,8 +65,7 @@ var componentFeaturedContent = `
 					</div>
 					<div class="featured-content__body">
 						<h2>Orders & Refunds</h2>
-						<p>
-						Check orders, update your subscription status and get info on refunds.</p>
+						<p>Check orders, update your subscription status and get info on refunds.</p>
 					</div>
 				</a>
 			</article>
