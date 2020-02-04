@@ -41,19 +41,19 @@ var componentFeaturedContent = `
 					</div>
 					<div class="featured-content__body">
 						<h2>Extension Library</h2>
-						<p>Check out free mini-plugins to add additional features and settings to our plugins.</p>
+						<p>Free mini-plugins that add features and settings to our plugins.</p>
 					</div>
 				</a>
 			</article>
 
 			<article class="featured-content__item">
-				<a href="https://docs.theeventscalendar.com">
+				<a href="https://theeventscalendar.com/known-issues/">
 					<div class="featured-content__icon">
 						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-code.svg" alt="" />
 					</div>
 					<div class="featured-content__body">
-						<h2>Plugin Functions</h2>
-						<p>Every available function in our products to use as filters for custom functionality.</p>
+						<h2>Known Issues</h2>
+						<p>Spot an issue? Check this list to see if it's something we're already working on.</p>
 					</div>
 				</a>
 			</article>
@@ -65,7 +65,7 @@ var componentFeaturedContent = `
 					</div>
 					<div class="featured-content__body">
 						<h2>Orders & Refunds</h2>
-						<p>Is the plugin not right for your project? Here's info on orders and refund requests.</p>
+						<p>Check orders, update your subscription status and get info on refunds.</p>
 					</div>
 				</a>
 			</article>
