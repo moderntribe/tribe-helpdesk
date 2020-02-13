@@ -6,7 +6,7 @@ var jumbotronSearch = `
 	<div class="jumbotron__search">
 		<ul>
 			<li><span>Popular:</span></li>
-			<li><a href="https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages">Shortcodes</a></li>
+			<li><a href="https://theeventscalendar.com/knowledgebase/k/embedding-calendar-views-with-the-tribe_events-shortcode/">Shortcodes</a></li>
 			<li><a href="https://docs.theeventscalendar.com">Documentation</a></li>
 			<li><a href="https://theeventscalendar.com/customizations/">Customization</a></li>
 			<li><a href="https://theeventscalendar.com/subscription-information/">Orders</a></li>
@@ -23,7 +23,7 @@ var componentFeaturedContent = `
 		<div class="featured-content__wrapper">
 			
 			<article class="featured-content__item">
-				<a href="https://support.theeventscalendar.com/153124-Themers-Guide">
+				<a href="https://theeventscalendar.com/knowledgebase/knowledgebase-category/customizing/">
 					<div class="featured-content__icon">
 						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-themer.svg" alt="" />
 					</div>
@@ -59,7 +59,7 @@ var componentFeaturedContent = `
 			</article>
 		
 			<article class="featured-content__item">
-				<a href="https://support.theeventscalendar.com/527363-Refund-policy">
+				<a href="https://theeventscalendar.com/knowledgebase/k/refund-policy/">
 					<div class="featured-content__icon">
 						<img src="https://theeventscalendar.com/content/uploads/2019/03/icon-cart.svg" alt="" />
 					</div>
@@ -88,10 +88,10 @@ var componentPortals = `
 				<h2>Getting Started</h2>
 				<p>Articles and tutorials on everything from getting started to customizing the plugins, troubleshooting, integrations and more!</p>
 				<ul>
-					<li><a href="https://support.theeventscalendar.com/342672-New-User-Primer-The-Events-Calendar-and-Events-Calendar-PRO">The Events Calendar</a></li>
-					<li><a href="https://support.theeventscalendar.com/259544-New-User-Primer-Event-Tickets--Event-Tickets-Plus">Event Tickets</a></li>
-					<li><a href="https://support.theeventscalendar.com/710770-New-User-Primer-Event-Aggregator">Event Aggregator</a></li>
-					<li><a href="https://support.theeventscalendar.com/890921-New-User-Primer-Community-Events">Community Events</a></li>
+					<li><a href="https://theeventscalendar.com/knowledgebase/k/new-user-primer-the-events-calendar-and-events-calendar-pro/">The Events Calendar</a></li>
+					<li><a href="https://theeventscalendar.com/knowledgebase/k/new-user-primer-event-tickets-event-tickets-plus/">Event Tickets</a></li>
+					<li><a href="https://theeventscalendar.com/knowledgebase/k/new-user-primer-event-aggregator/">Event Aggregator</a></li>
+					<li><a href="https://theeventscalendar.com/knowledgebase/k/new-user-primer-community-events/">Community Events</a></li>
 				</ul>
 				<a href="https://theeventscalendar.com/knowledgebase-category/primers/" class="button button--primary">All Guides</a>
 			</div>
@@ -104,10 +104,10 @@ var componentPortals = `
 				<h2>Trending Topics</h2>
 				<p>A few of the most popular guides folks are reading that you may also find helpful for getting the most from the plugins.</p>
 				<ul>
-					<li><a href="https://support.theeventscalendar.com/934573-Inserting-Calendar-Content-into-Posts-or-Pages">Shortcodes</a></li>
-					<li><a href="https://support.theeventscalendar.com/303643-Testing-for-conflicts">Testing for Conflicts</a></li>
+					<li><a href="https://theeventscalendar.com/knowledgebase/k/embedding-calendar-views-with-the-tribe_events-shortcode/">Shortcodes</a></li>
+					<li><a href="https://theeventscalendar.com/knowledgebase/k/testing-for-conflicts/">Testing for Conflicts</a></li>
 					<li><a href="https://theeventscalendar.com/customizations/">Customization</a></li>
-					<li><a href="https://support.theeventscalendar.com/969953-CSV-file-examples-for-importing">Importing Events</a></li>
+					<li><a href="https://theeventscalendar.com/knowledgebase/k/csv-file-examples-for-importing/">Importing Events</a></li>
 				</ul>
 				<a href="https://docs.theeventscalendar.com" class="button button--primary">Visit Docs</a>
 			</div>
