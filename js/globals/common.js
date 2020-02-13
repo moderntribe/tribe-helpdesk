@@ -29,6 +29,31 @@ function getCurrentUrl( includeQuery = false ) {
 	return url;
 }
 
+
+/**
+ * Escapes a piece of text for inclusion in HTML.
+ * 
+ * Borrowed from mustache.js.
+ * 
+ * @param {*} string 
+ */
+function escapeText( string ) {
+	let entityMap = {
+		'&': '&amp;',
+		'<': '&lt;',
+		'>': '&gt;',
+		'"': '&quot;',
+		"'": '&#39;',
+		'/': '&#x2F;',
+		'`': '&#x60;',
+		'=': '&#x3D;'
+	};
+
+	return String( string ).replace( /[&<>"'`=\/]/g, function (s) {
+		return entityMap[ s ];
+	} );
+}
+
 // Common selectors used in multiple include files
 var $categoryList = $( '.category-list' )
 var $featuredContent = $( '.featured-content' )
