@@ -18,15 +18,3 @@ function addAlert( message ) {
 	// Add the actual message
 	$navbar.after( message )
 }
-
-/* Remove this when the time comes */
-addAlert( `
-	<div id="tribe-marketing-alert">
-		<div class="tribe-marketing-alert__content">
-			<p>
-				<span class="emoji">⚠️ </span>
-				A hotfix to remedy the issues with some events not displaying correctly with the upgraded views has been released. More details can be found <a href="https://theeventscalendar.com/category/products/release-notes/">here</a>.
-			</p>
-		</div>
-	</div>
-` );
