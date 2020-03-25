@@ -1,0 +1,15 @@
+label[for="login_usernameinput"] {
+	// Inject some replacement text and format to look like the
+	// origin label.
+	&::before {
+		color: white;
+		content: 'Your email address';
+		font-weight: bold;
+		opacity: 1;
+	}
+
+	// Hide the existing text by using a completely transparent
+	// color (setting opacity by itself will not work well in this
+	// case).
+	color: rgba(0, 0, 0, 0);
+}
