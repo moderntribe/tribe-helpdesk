@@ -93,7 +93,7 @@ var componentPortals = `
 					<li><a href="https://support.theeventscalendar.com/710770-New-User-Primer-Event-Aggregator">Event Aggregator</a></li>
 					<li><a href="https://support.theeventscalendar.com/890921-New-User-Primer-Community-Events">Community Events</a></li>
 				</ul>
-				<a href="https://theeventscalendar.com/knowledgebase-category/primers/" class="button button--primary">All Guides</a>
+				<a href="https://theeventscalendar.com/knowledgebase/knowledgebase-type/guide/" class="button button--primary">All Guides</a>
 			</div>
 			</div>
 		<div class="portals__portal">
