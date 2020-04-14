@@ -1,0 +1,106 @@
+/* -----------------------------------------------------------------------------
+ *
+ *  Umbrella Navigation - BASE STYLES
+ *  Appears above site navigation. Provides quick links to other TEC.com support sites.
+ *  @since TBD
+ *
+ * ----------------------------------------------------------------------------- */
+
+.umbrella-nav {
+	background: $white;
+	border-bottom: 1px solid rgba(185, 194, 195, 0.69);
+	overflow-x: scroll;
+	text-align: right;
+}
+
+.umbrella-nav__list {
+	display: flex;
+	list-style: none;
+	margin-bottom: 0;
+	padding: 0;
+
+	@media (min-width: 570px) { 
+		justify-content: flex-end;
+	}
+
+	@media (min-width: 768px) { 
+		display: block;
+	}
+}
+
+.umbrella-nav__item {
+	display: inline-block;
+	margin: 0;
+}
+
+.umbrella-nav__link {
+	border-bottom: 0;
+	color: #0F1031;
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.2;
+	padding: 24px 8px 17px 8px;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: #334AFF;
+	}
+
+	@media (min-width: 768px) {
+		padding: 24px 14px 17px 14px;
+
+		.umbrella-nav__item:last-child & {
+			padding-right: 0;
+		}
+	}
+
+	/* CASE: Current Page/Site */
+	&.is-current-page {
+		font-weight: bold;
+		position: relative;
+
+		&:after {
+			background: #334AFF;
+			border-radius: 1.5px;
+			content: '';
+			display: block;
+			height: 3px;
+			position: absolute;
+			bottom: -1px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: calc(100% - 28px);
+		}
+	}
+}
+
+/* -----------------------------------------------------------------------------
+ *
+ *  Umbrella Navigation - SITE SPECIFIC
+ *  These styles only apply to http://support.theeventscalendar.com
+ *  @since TBD
+ *
+ * ----------------------------------------------------------------------------- */
+
+.umbrella-nav {
+
+	@media (min-width: 1200px) {
+		margin: 0 auto;
+		max-width: 1298px; /* body width */
+		overflow-x: auto;
+	}
+}
+/* CASE: navbar gets "fixed" when page is scrolled, so let's reposition everything */
+.scrolled .navbar {
+	top: 58px;
+}
+
+/* CASE: let's make sure our new umbrella nav sits on top of everything */
+.scrolled .umbrella-nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
