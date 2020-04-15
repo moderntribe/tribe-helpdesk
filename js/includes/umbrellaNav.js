@@ -13,7 +13,7 @@ var umbrellaNav = `
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://theeventscalendar.com/knowledgebase/">Knowledgebase</a></li>
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://docs.theeventscalendar.com/">DevDocs</a></li>
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://translations.theeventscalendar.com/projects/">Translations</a></li>
-				<li class="umbrella-nav__item"><a class="umbrella-nav__link is-current-page" href="http://support.theeventscalendar.com/">Support</a></li>
+				<li class="umbrella-nav__item"><a class="umbrella-nav__link is-current-page" href="https://support.theeventscalendar.com/">Support</a></li>
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://demo.theeventscalendar.com/">Demo</a></li>
 			</ul>
 		</div>
