@@ -11,7 +11,6 @@ var umbrellaNav = `
 			>
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://theeventscalendar.com">Home</a></li>
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://theeventscalendar.com/knowledgebase/">Knowledgebase</a></li>
-				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://theeventscalendar.com/support/forums/">Forums</a></li>
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://docs.theeventscalendar.com/">DevDocs</a></li>
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link" href="https://translations.theeventscalendar.com/projects/">Translations</a></li>
 				<li class="umbrella-nav__item"><a class="umbrella-nav__link is-current-page" href="https://support.theeventscalendar.com/">Support</a></li>
