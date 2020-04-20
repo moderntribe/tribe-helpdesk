@@ -19,11 +19,11 @@
 	margin-bottom: 0;
 	padding: 0;
 
-	@media (min-width: 570px) { 
+	@media screen and (min-width: 570px) { 
 		justify-content: flex-end;
 	}
 
-	@media (min-width: 768px) { 
+	@media screen and (min-width: 768px) { 
 		display: block;
 	}
 }
@@ -48,7 +48,7 @@
 		color: #334AFF;
 	}
 
-	@media (min-width: 768px) {
+	@media screen and (min-width: 768px) {
 		padding: 24px 14px 17px 14px;
 
 		.umbrella-nav__item:last-child & {
@@ -68,10 +68,14 @@
 			display: block;
 			height: 3px;
 			position: absolute;
-			bottom: -1px;
+			bottom: 0;
 			left: 50%;
 			transform: translateX(-50%);
-			width: calc(100% - 28px);
+			width: calc(100% - 16px);
+
+			@media screen and (min-width: 768px) {
+				width: calc(100% - 26px);
+			}
 		}
 	}
 }
