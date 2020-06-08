@@ -18,3 +18,15 @@ function addAlert( message ) {
 	// Add the actual message
 	$navbar.after( message )
 }
+
+/* Remove this when the time comes */
+addAlert( `
+	<div id="tribe-marketing-alert">
+		<div class="tribe-marketing-alert__content">
+			<p>
+				<span class="emoji">👋 </span>
+				Support response will be delayed while we are closed for a <a href="https://tri.be/day-of-action/">Day of Action</a> against racial injustice on Monday, June 8. Regular response times will resume on Tuesday.
+			</p>
+		</div>
+	</div>
+` );
