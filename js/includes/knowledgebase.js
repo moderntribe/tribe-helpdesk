@@ -5,6 +5,12 @@ if ( $( 'body' ).hasClass( 'page-article' ) ) {
 	window.location = 'https://theeventscalendar.com/knowledgebase/redirect/' + window.location.pathname;
 }
 
+/**
+ * Redirect the homepage over to WordPress
+ */
+if ( $( 'body' ).hasClass( 'page-home' ) ) {
+	window.location = 'https://theeventscalendar.com/support/';
+}
 
 /**
  * Finds and removes any category boxes that are devoid of articles.
