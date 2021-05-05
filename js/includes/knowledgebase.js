@@ -12,6 +12,10 @@ if ( $( 'body' ).hasClass( 'page-home' ) ) {
 	window.location = 'https://theeventscalendar.com/support/';
 }
 
+if ( $( 'body' ).hasClass( 'page-submit_ticket' ) ) {
+	window.location = 'https://theeventscalendar.com/support/';
+}
+
 /**
  * Finds and removes any category boxes that are devoid of articles.
  *
